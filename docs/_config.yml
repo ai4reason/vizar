@@ -29,6 +29,10 @@ header: Department of Artificial Inteligence
 subheader: >- # this means to ignore newlines until "baseurl:"
   at <b>Czech Institute of Informatics, Robotics and Cybernetics</b>
 
+header_pages:
+  - proofs/index.md
+  - instructions.md
+  - index.md
 
 # Build settings
 markdown: kramdown
