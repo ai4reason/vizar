@@ -15,24 +15,18 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="136,-105 136,-137 194,-137 194,-105 136,-105"/>
+<polygon fill="none" stroke="black" stroke-width="2" points="78,-105 78,-137 136,-137 136,-105 78,-105"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="110,-8 110,-85 220,-85 220,-8 110,-8"/>
+<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="52,-8 52,-85 162,-85 162,-8 52,-8"/>
 </g>
-<!-- c_0_118 -->
+<!-- spc0_numerals -->
 <g id="node1" class="node">
-<title>c_0_118</title>
-<g id="a_node1"><a xlink:href="c_0_118.html" xlink:title="{X₁ ⊆ ℝ|X₂ ∈ X₁|⇊|X₂ ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="206,-165.5 206,-225.5 256,-225.5 256,-165.5 206,-165.5"/>
-<text text-anchor="middle" x="231" y="-214.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="206,-210.5 256,-210.5 "/>
-<text text-anchor="middle" x="231" y="-199.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="206,-195.5 256,-195.5 "/>
-<text text-anchor="middle" x="231" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="206,-180.5 256,-180.5 "/>
-<text text-anchor="middle" x="231" y="-169.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℝ</text>
+<title>spc0_numerals</title>
+<g id="a_node1"><a xlink:href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC0" xlink:title="spc0_numerals" target="_blank">
+<polygon fill="#69d2e7" stroke="#7f7542" points="148.5,-188 148.5,-203 255.5,-203 255.5,-188 148.5,-188"/>
+<text text-anchor="middle" x="202" y="-191.8" font-family="Times,serif" font-size="14.00">spc0_numerals</text>
 </a>
 </g>
 </g>
@@ -40,67 +34,73 @@
 <g id="node4" class="node">
 <title>c_0_119</title>
 <g id="a_node4"><a xlink:href="c_0_119.html" xlink:title="{0 ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="144.5,-113.5 144.5,-128.5 185.5,-128.5 185.5,-113.5 144.5,-113.5"/>
-<text text-anchor="middle" x="165" y="-117.3" font-family="Times,serif" font-size="14.00">0 ∈ ℝ</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="86.5,-113.5 86.5,-128.5 127.5,-128.5 127.5,-113.5 86.5,-113.5"/>
+<text text-anchor="middle" x="107" y="-117.3" font-family="Times,serif" font-size="14.00">0 ∈ ℝ</text>
 </a>
 </g>
 </g>
-<!-- c_0_118&#45;&gt;c_0_119 -->
+<!-- spc0_numerals&#45;&gt;c_0_119 -->
 <g id="edge1" class="edge">
-<title>c_0_118&#45;&gt;c_0_119</title>
-<path fill="none" stroke="black" d="M205.91,-176C189.78,-176 171.83,-176 171.83,-176 171.83,-176 171.83,-138.65 171.83,-138.65"/>
-<polygon fill="black" stroke="black" points="175.33,-138.65 171.83,-128.65 168.33,-138.65 175.33,-138.65"/>
+<title>spc0_numerals&#45;&gt;c_0_119</title>
+<path fill="none" stroke="black" d="M204.75,-187.81C204.75,-168.77 204.75,-121 204.75,-121 204.75,-121 137.73,-121 137.73,-121"/>
+<polygon fill="black" stroke="black" points="137.73,-117.5 127.73,-121 137.73,-124.5 137.73,-117.5"/>
 </g>
 <!-- c_0_120 -->
 <g id="node2" class="node">
 <title>c_0_120</title>
 <g id="a_node2"><a xlink:href="c_0_120.html" xlink:title="{ℝ ⊆ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="142,-188 142,-203 188,-203 188,-188 142,-188"/>
-<text text-anchor="middle" x="165" y="-191.8" font-family="Times,serif" font-size="14.00">ℝ ⊆ ℝ</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="84,-188 84,-203 130,-203 130,-188 84,-188"/>
+<text text-anchor="middle" x="107" y="-191.8" font-family="Times,serif" font-size="14.00">ℝ ⊆ ℝ</text>
 </a>
 </g>
 </g>
 <!-- c_0_120&#45;&gt;c_0_119 -->
 <g id="edge2" class="edge">
 <title>c_0_120&#45;&gt;c_0_119</title>
-<path fill="none" stroke="black" d="M158.17,-187.81C158.17,-187.81 158.17,-138.76 158.17,-138.76"/>
-<polygon fill="black" stroke="black" points="161.67,-138.76 158.17,-128.76 154.67,-138.76 161.67,-138.76"/>
+<path fill="none" stroke="black" d="M113.83,-187.81C113.83,-187.81 113.83,-138.76 113.83,-138.76"/>
+<polygon fill="black" stroke="black" points="117.33,-138.76 113.83,-128.76 110.33,-138.76 117.33,-138.76"/>
 </g>
-<!-- spc0_numerals -->
+<!-- c_0_118 -->
 <g id="node3" class="node">
-<title>spc0_numerals</title>
-<g id="a_node3"><a xlink:href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC0" xlink:title="spc0_numerals" target="_blank">
-<polygon fill="#69d2e7" stroke="#7f7542" points="16.5,-188 16.5,-203 123.5,-203 123.5,-188 16.5,-188"/>
-<text text-anchor="middle" x="70" y="-191.8" font-family="Times,serif" font-size="14.00">spc0_numerals</text>
+<title>c_0_118</title>
+<g id="a_node3"><a xlink:href="c_0_118.html" xlink:title="{X₁ ⊆ ℝ|X₂ ∈ X₁|⇊|X₂ ∈ ℝ}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-165.5 16,-225.5 66,-225.5 66,-165.5 16,-165.5"/>
+<text text-anchor="middle" x="41" y="-214.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="16,-210.5 66,-210.5 "/>
+<text text-anchor="middle" x="41" y="-199.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="16,-195.5 66,-195.5 "/>
+<text text-anchor="middle" x="41" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-180.5 66,-180.5 "/>
+<text text-anchor="middle" x="41" y="-169.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℝ</text>
 </a>
 </g>
 </g>
-<!-- spc0_numerals&#45;&gt;c_0_119 -->
+<!-- c_0_118&#45;&gt;c_0_119 -->
 <g id="edge3" class="edge">
-<title>spc0_numerals&#45;&gt;c_0_119</title>
-<path fill="none" stroke="black" d="M67.25,-187.81C67.25,-168.77 67.25,-121 67.25,-121 67.25,-121 134.27,-121 134.27,-121"/>
-<polygon fill="black" stroke="black" points="134.27,-124.5 144.27,-121 134.27,-117.5 134.27,-124.5"/>
+<title>c_0_118&#45;&gt;c_0_119</title>
+<path fill="none" stroke="black" d="M66.09,-176C82.22,-176 100.17,-176 100.17,-176 100.17,-176 100.17,-138.65 100.17,-138.65"/>
+<polygon fill="black" stroke="black" points="103.67,-138.65 100.17,-128.65 96.67,-138.65 103.67,-138.65"/>
 </g>
 <!-- c_0_137 -->
 <g id="node5" class="node">
 <title>c_0_137</title>
 <g id="a_node5"><a xlink:href="c_0_137.html" xlink:title="{0 ≤ R₂|2 ≤ R₁|⇊|2 ≤ (R₁ + R₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="118,-16.5 118,-76.5 212,-76.5 212,-16.5 118,-16.5"/>
-<text text-anchor="middle" x="165" y="-65.3" font-family="Times,serif" font-size="14.00">0 ≤ R₂</text>
-<polyline fill="none" stroke="#7f7542" points="118,-61.5 212,-61.5 "/>
-<text text-anchor="middle" x="165" y="-50.3" font-family="Times,serif" font-size="14.00">2 ≤ R₁</text>
-<polyline fill="none" stroke="#7f7542" points="118,-46.5 212,-46.5 "/>
-<text text-anchor="middle" x="165" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="118,-31.5 212,-31.5 "/>
-<text text-anchor="middle" x="165" y="-20.3" font-family="Times,serif" font-size="14.00">2 ≤ (R₁ + R₂)</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="60,-16.5 60,-76.5 154,-76.5 154,-16.5 60,-16.5"/>
+<text text-anchor="middle" x="107" y="-65.3" font-family="Times,serif" font-size="14.00">0 ≤ R₂</text>
+<polyline fill="none" stroke="#7f7542" points="60,-61.5 154,-61.5 "/>
+<text text-anchor="middle" x="107" y="-50.3" font-family="Times,serif" font-size="14.00">2 ≤ R₁</text>
+<polyline fill="none" stroke="#7f7542" points="60,-46.5 154,-46.5 "/>
+<text text-anchor="middle" x="107" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="60,-31.5 154,-31.5 "/>
+<text text-anchor="middle" x="107" y="-20.3" font-family="Times,serif" font-size="14.00">2 ≤ (R₁ + R₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_119&#45;&gt;c_0_137 -->
 <g id="edge4" class="edge">
 <title>c_0_119&#45;&gt;c_0_137</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M165,-113.31C165,-113.31 165,-86.51 165,-86.51"/>
-<polygon fill="black" stroke="black" points="168.5,-86.51 165,-76.51 161.5,-86.51 168.5,-86.51"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M107,-113.31C107,-113.31 107,-86.51 107,-86.51"/>
+<polygon fill="black" stroke="black" points="110.5,-86.51 107,-76.51 103.5,-86.51 110.5,-86.51"/>
 </g>
 </g>
 </svg>

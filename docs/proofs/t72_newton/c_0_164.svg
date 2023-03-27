@@ -15,18 +15,18 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="73,-90 73,-122 153,-122 153,-90 73,-90"/>
+<polygon fill="none" stroke="black" stroke-width="2" points="105,-90 105,-122 185,-122 185,-90 105,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="69,-8 69,-70 157,-70 157,-8 69,-8"/>
+<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="101,-8 101,-70 189,-70 189,-8 101,-8"/>
 </g>
-<!-- c_0_79 -->
+<!-- c_0_144 -->
 <g id="node1" class="node">
-<title>c_0_79</title>
-<g id="a_node1"><a xlink:href="c_0_79.html" xlink:title="{(N₁!) = (N₁!)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="164.5,-150.5 164.5,-165.5 253.5,-165.5 253.5,-150.5 164.5,-150.5"/>
-<text text-anchor="middle" x="209" y="-154.3" font-family="Times,serif" font-size="14.00">(N₁!) = (N₁!)</text>
+<title>c_0_144</title>
+<g id="a_node1"><a xlink:href="c_0_144.html" xlink:title="{R₁ ∈ 𝔼}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="208,-150.5 208,-165.5 254,-165.5 254,-150.5 208,-150.5"/>
+<text text-anchor="middle" x="231" y="-154.3" font-family="Times,serif" font-size="14.00">R₁ ∈ 𝔼</text>
 </a>
 </g>
 </g>
@@ -34,65 +34,65 @@
 <g id="node4" class="node">
 <title>c_0_164</title>
 <g id="a_node4"><a xlink:href="c_0_164.html" xlink:title="{(N₁!) ∈ 𝔼}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="81,-98.5 81,-113.5 145,-113.5 145,-98.5 81,-98.5"/>
-<text text-anchor="middle" x="113" y="-102.3" font-family="Times,serif" font-size="14.00">(N₁!) ∈ 𝔼</text>
-</a>
-</g>
-</g>
-<!-- c_0_79&#45;&gt;c_0_164 -->
-<g id="edge1" class="edge">
-<title>c_0_79&#45;&gt;c_0_164</title>
-<path fill="none" stroke="black" d="M209,-150.33C209,-135.86 209,-106 209,-106 209,-106 155.23,-106 155.23,-106"/>
-<polygon fill="black" stroke="black" points="155.23,-102.5 145.23,-106 155.23,-109.5 155.23,-102.5"/>
-</g>
-<!-- c_0_145 -->
-<g id="node2" class="node">
-<title>c_0_145</title>
-<g id="a_node2"><a xlink:href="c_0_145.html" xlink:title="{(N₁!) ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="80,-150.5 80,-165.5 146,-165.5 146,-150.5 80,-150.5"/>
-<text text-anchor="middle" x="113" y="-154.3" font-family="Times,serif" font-size="14.00">(N₁!) ∈ ℝ</text>
-</a>
-</g>
-</g>
-<!-- c_0_145&#45;&gt;c_0_164 -->
-<g id="edge2" class="edge">
-<title>c_0_145&#45;&gt;c_0_164</title>
-<path fill="none" stroke="black" d="M113,-150.33C113,-150.33 113,-123.7 113,-123.7"/>
-<polygon fill="black" stroke="black" points="116.5,-123.7 113,-113.7 109.5,-123.7 116.5,-123.7"/>
-</g>
-<!-- c_0_144 -->
-<g id="node3" class="node">
-<title>c_0_144</title>
-<g id="a_node3"><a xlink:href="c_0_144.html" xlink:title="{R₁ ∈ 𝔼}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-150.5 16,-165.5 62,-165.5 62,-150.5 16,-150.5"/>
-<text text-anchor="middle" x="39" y="-154.3" font-family="Times,serif" font-size="14.00">R₁ ∈ 𝔼</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="113,-98.5 113,-113.5 177,-113.5 177,-98.5 113,-98.5"/>
+<text text-anchor="middle" x="145" y="-102.3" font-family="Times,serif" font-size="14.00">(N₁!) ∈ 𝔼</text>
 </a>
 </g>
 </g>
 <!-- c_0_144&#45;&gt;c_0_164 -->
-<g id="edge3" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_144&#45;&gt;c_0_164</title>
-<path fill="none" stroke="black" d="M39,-150.33C39,-135.86 39,-106 39,-106 39,-106 70.76,-106 70.76,-106"/>
-<polygon fill="black" stroke="black" points="70.76,-109.5 80.76,-106 70.76,-102.5 70.76,-109.5"/>
+<path fill="none" stroke="black" d="M231,-150.33C231,-135.86 231,-106 231,-106 231,-106 187.02,-106 187.02,-106"/>
+<polygon fill="black" stroke="black" points="187.02,-102.5 177.02,-106 187.02,-109.5 187.02,-102.5"/>
+</g>
+<!-- c_0_79 -->
+<g id="node2" class="node">
+<title>c_0_79</title>
+<g id="a_node2"><a xlink:href="c_0_79.html" xlink:title="{(N₁!) = (N₁!)}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="100.5,-150.5 100.5,-165.5 189.5,-165.5 189.5,-150.5 100.5,-150.5"/>
+<text text-anchor="middle" x="145" y="-154.3" font-family="Times,serif" font-size="14.00">(N₁!) = (N₁!)</text>
+</a>
+</g>
+</g>
+<!-- c_0_79&#45;&gt;c_0_164 -->
+<g id="edge2" class="edge">
+<title>c_0_79&#45;&gt;c_0_164</title>
+<path fill="none" stroke="black" d="M145,-150.33C145,-150.33 145,-123.7 145,-123.7"/>
+<polygon fill="black" stroke="black" points="148.5,-123.7 145,-113.7 141.5,-123.7 148.5,-123.7"/>
+</g>
+<!-- c_0_145 -->
+<g id="node3" class="node">
+<title>c_0_145</title>
+<g id="a_node3"><a xlink:href="c_0_145.html" xlink:title="{(N₁!) ∈ ℝ}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-150.5 16,-165.5 82,-165.5 82,-150.5 16,-150.5"/>
+<text text-anchor="middle" x="49" y="-154.3" font-family="Times,serif" font-size="14.00">(N₁!) ∈ ℝ</text>
+</a>
+</g>
+</g>
+<!-- c_0_145&#45;&gt;c_0_164 -->
+<g id="edge3" class="edge">
+<title>c_0_145&#45;&gt;c_0_164</title>
+<path fill="none" stroke="black" d="M49,-150.33C49,-135.86 49,-106 49,-106 49,-106 102.77,-106 102.77,-106"/>
+<polygon fill="black" stroke="black" points="102.77,-109.5 112.77,-106 102.77,-102.5 102.77,-109.5"/>
 </g>
 <!-- c_0_169 -->
 <g id="node5" class="node">
 <title>c_0_169</title>
 <g id="a_node5"><a xlink:href="c_0_169.html" xlink:title="{E₁ ≤ N₂|⇊|E₁ ≤ (N₂!)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="77.5,-16.5 77.5,-61.5 148.5,-61.5 148.5,-16.5 77.5,-16.5"/>
-<text text-anchor="middle" x="113" y="-50.3" font-family="Times,serif" font-size="14.00">E₁ ≤ N₂</text>
-<polyline fill="none" stroke="#7f7542" points="77.5,-46.5 148.5,-46.5 "/>
-<text text-anchor="middle" x="113" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="77.5,-31.5 148.5,-31.5 "/>
-<text text-anchor="middle" x="113" y="-20.3" font-family="Times,serif" font-size="14.00">E₁ ≤ (N₂!)</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="109.5,-16.5 109.5,-61.5 180.5,-61.5 180.5,-16.5 109.5,-16.5"/>
+<text text-anchor="middle" x="145" y="-50.3" font-family="Times,serif" font-size="14.00">E₁ ≤ N₂</text>
+<polyline fill="none" stroke="#7f7542" points="109.5,-46.5 180.5,-46.5 "/>
+<text text-anchor="middle" x="145" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="109.5,-31.5 180.5,-31.5 "/>
+<text text-anchor="middle" x="145" y="-20.3" font-family="Times,serif" font-size="14.00">E₁ ≤ (N₂!)</text>
 </a>
 </g>
 </g>
 <!-- c_0_164&#45;&gt;c_0_169 -->
 <g id="edge4" class="edge">
 <title>c_0_164&#45;&gt;c_0_169</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M113,-98.31C113,-98.31 113,-71.76 113,-71.76"/>
-<polygon fill="black" stroke="black" points="116.5,-71.76 113,-61.76 109.5,-71.76 116.5,-71.76"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M145,-98.31C145,-98.31 145,-71.76 145,-71.76"/>
+<polygon fill="black" stroke="black" points="148.5,-71.76 145,-61.76 141.5,-71.76 148.5,-71.76"/>
 </g>
 </g>
 </svg>
