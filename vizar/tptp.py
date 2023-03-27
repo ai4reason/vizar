@@ -1,4 +1,4 @@
-import re
+import re, subprocess
 
 SRC_FILE = ", file("
 SRC_INFER = ", inference("
@@ -49,6 +49,8 @@ def read(s):
    names = set()
    order = []
    info = {}
+   conj = "error"
+   final = "error"
    for line in s.strip().split("\n"):
       parsed = formula_parse(line)
       if not parsed:
@@ -58,7 +60,11 @@ def read(s):
       order.append(name)
       parents = formula_parents(src, names)
       info[name] = dict(lang=lang, role=role, fml=fml, parents=parents, name=name)
-   return dict(fmls=info, order=order)
+      if role == "conjecture":
+         conj = name
+      if fml == "$false":
+         final = name
+   return dict(fmls=info, order=order, conj=conj, final=final)
 
 def parse(f):
    return read(open(f).read())
@@ -106,4 +112,36 @@ def clause_parse(clause):
    lits = clause.split("|")
    lits = map(literal_parse, lits)
    return list(lits)
+
+def term_symbols(term, stats, sign):
+   ret = {}
+   if type(term) is str:
+      if term[0].islower():
+         if term not in stats: 
+            stats[term] = dict(arity=0, count=0, pos=0, neg=0)
+         stats[term]["count"] += 1
+         stats[term][sign] += 1
+   else:
+      head = term[0]
+      if head not in stats:
+         stats[head] = dict(arity=len(term)-1, count=0, pos=0, neg=0)
+      stats[head]["count"] += 1
+      stats[head][sign] += 1
+      for subterm in term[1:]:
+         term_symbols(subterm, stats, sign)
+
+def literal_symbols(lits):
+   stats = {}
+   for lit in lits:
+      term = lit[1:]
+      sign = "pos" if lit[0] else "neg"
+      term_symbols(term, stats, sign)
+   return stats
+
+def pretty(fml):
+   fof = "fof(a,conjecture,%s)." % fml
+   out = subprocess.check_output(f"echo '{fof}' | tptp4X --", shell=True)
+   out = out.decode().strip().split("\n")
+   out = "\n".join(out[1:])
+   return out[:-2]
 

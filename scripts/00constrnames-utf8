@@ -8,8 +8,8 @@ r1_tarski c=
 k3_tarski union
 k4_tarski [..]
 r2_tarski are_equipotent
-v1_xboole_0 empty
-k1_xboole_0 \{\}
+v1_xboole_0 ### = Ø
+k1_xboole_0 Ø
 k2_xboole_0 \/
 k3_xboole_0 /\
 k4_xboole_0 \
@@ -141,7 +141,7 @@ v6_ordinal1 c=-linear
 k2_ordinal1 On
 k3_ordinal1 Lim
 k4_ordinal1 ω
-v7_ordinal1 natural
+v7_ordinal1 ### ∈ ℕ 
 k1_wellord1 -Seg
 v1_wellord1 well_founded
 r1_wellord1 is_well_founded_in
@@ -542,11 +542,11 @@ k7_arytm_2 +
 k8_arytm_2 *'
 k1_arytm_1 -'
 k2_arytm_1 -
-k1_numbers REAL
+k1_numbers ℝ
 k2_numbers COMPLEX
 k3_numbers RAT
 k4_numbers INT
-k5_numbers NAT
+k5_numbers ℕ
 k6_numbers 0
 k7_numbers ExtREAL
 k1_arytm_0 +
@@ -562,7 +562,7 @@ k4_xcmplx_0 -
 k5_xcmplx_0 "
 k6_xcmplx_0 -
 k7_xcmplx_0 /
-v1_xxreal_0 ext-real
+v1_xxreal_0 ### ∈ 𝔼
 k1_xxreal_0 +infty
 k2_xxreal_0 -infty
 r1_xxreal_0 ≤
@@ -572,7 +572,7 @@ v3_xxreal_0 negative
 k3_xxreal_0 min
 k4_xxreal_0 max
 k5_xxreal_0 IFGT
-v1_xreal_0 real
+v1_xreal_0 ### ∈ ℝ
 k1_xreal_0 -'
 k1_real_1 -
 k2_real_1 "

@@ -156,3 +156,27 @@ def dot_conj(info):
    ret.append(DOT_FOOTER)
    return "".join(ret)
 
+def dot_neg_conj(info):
+
+   def make_node(fml):
+      return dot_formula(**dict(fml, parents=set()))
+      #color = label.color(conj["role"])
+      #args = dict(fillcolor=color, label=fml["text"])
+      #return dot_node(fml["name"], args)
+
+   def follow(child):
+      if child["lang"] == "cnf":
+         return [child]
+      return sum((follow(info["fmls"][c]) for c in child["children"]), [])
+
+   ret = [DOT_HEADER]
+   conj = info["fmls"][info["conj"]]
+   ret.append(make_node(conj))
+   cnfs = follow(conj)
+   ret.extend(make_node(c) for c in cnfs)
+   ret.extend(dot_edge(conj["name"], c["name"]) for c in cnfs)
+   ret.append(DOT_FOOTER)
+   return "".join(ret)
+
+
+

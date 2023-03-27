@@ -25,7 +25,7 @@ def trans(f_trans="00constrnames-utf8"):
    for line in lines:
       (x,y) = (line[0], " ".join(line[1:]))
       if x not in trans:
-         trans[x] = y
+         trans[x.strip()] = y.strip()
    return trans
 
 def symbol(name, table=trans()):
@@ -49,9 +49,9 @@ def translate(lits):
    return ret
 
 VARSORTS = {
-   "natural": "N",  # "v7_ordinal1": "N",  # "natural"
-   "real": "R",     # "v1_xreal_0":  "R",  # "real"
-   "ext-real": "E", # "v1_xxreal_0": "ER", # "ext-real"
+   "v7_ordinal1": "N",  # "natural"
+   "v1_xreal_0":  "R",  # "real"
+   "v1_xxreal_0": "E", # "ext-real"
 }
 
 #HIDDEN = set(["natural"])
@@ -111,19 +111,55 @@ def set_ancestors(info, name=None):
       ret.update(fmls[parent]["ancestors"])
    fmls[name]["ancestors"] = ret
 
+VARS = ["x","y","z","u","v","w"]
+
+def vizar_def(sym, arity):
+   viz = symbol(sym)
+   if "###" in viz:
+      viz = viz.replace("###", "x")
+   if not label.WORD.match(viz):
+      if arity == 2:
+         viz = "x %s y" % viz
+   elif arity > 0:
+      viz = "%s(%s)" % (viz, ",".join(VARS[:arity]))
+   return viz
+
+def update_stats(syms, stats, miztrans=None):
+   def update_key(sym, key):
+      stats[sym][key] += syms[sym][key]
+   if not syms: return
+   for x in syms:
+      syms[x]["vizar"] = vizar_def(x, syms[x]["arity"])
+      if miztrans:
+         syms[x]["mizar"] = symbol(x, miztrans)
+      syms[x]["url"] = link(x)
+      if x not in stats:
+         stats[x] = syms[x]
+      else:
+         update_key(x, "count")
+         update_key(x, "pos")
+         update_key(x, "neg")
+
 def set_labels(info):
+   stats = {}
+   miztrans = trans("00constrnames")
    for (name, fml) in info["fmls"].items():
       if fml["lang"] == "cnf":
          lits = tptp.clause_parse(fml["fml"])
-         lits = translate(lits)
          lits = varsorts(lits)
          lits = neghide(lits)
+         syms = tptp.literal_symbols(lits)
+         lits = translate(lits)
          text = label.clause(lits) 
       else:
          text = name
+         syms = None
       if fml["fml"] == "$false":
          text = "⊥"
       fml["text"] = text
+      fml["syms"] = syms
+      update_stats(syms, stats, miztrans)
+   info["symbols"] = stats
 
 def remove_dups(info):
    fmls = info["fmls"]
@@ -181,11 +217,21 @@ def unify_nodes(info, live, dead):
    fmls[live]["children"].discard(live)
    info["order"].remove(dead)
 
+def remove_fofs(info):
+   fmls = info["fmls"]
+   fofs = [x for x in fmls if fmls[x]["lang"] == "fof" and fmls[x]["parents"]]
+   for x in fofs:
+      if x not in info["order"]:
+         continue
+      parent = list(fmls[x]["parents"])[0]
+      unify_nodes(info, parent, x)
+
 def load(f_tptp):
    info = tptp.parse(f_tptp)
    set_children(info)
    set_ancestors(info)
    set_labels(info)
+   remove_fofs(info)
    #remove_dups(info)
    unify_same(info)
    return info

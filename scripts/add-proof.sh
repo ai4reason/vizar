@@ -4,11 +4,14 @@ PROOF=$1
 
 DOTS=dots/${PROOF}
 PROOFS=../docs/proofs/${PROOF}
+YAML=../docs/_data/proofs/${PROOF}.yml
 mkdir -p ${DOTS} ${PROOFS}
 
 ./dot-proof-steps.py $PROOF $DOTS $PROOFS
-./dot-proof-conjecture.py $PROOF > $DOTS/conj.dot
-./dot-proof.py $PROOF > $DOTS/full.dot
+./dot-proof-conjecture.py $PROOF $DOTS/conj.dot
+./dot-proof-negconj.py $PROOF $DOTS/negconj.dot
+./dot-proof.py $PROOF $DOTS/full.dot
+./data-proof.py $PROOF > $YAML
 
 for d in $DOTS/*.dot; do
    s="${PROOFS}/`basename $d .dot`.svg"

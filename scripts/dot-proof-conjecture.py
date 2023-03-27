@@ -4,7 +4,9 @@
 import sys
 from vizar import dot, mizar
 
-f_tptp=sys.argv[1]
+f_tptp = sys.argv[1]
+f_dot = sys.argv[2]
+
 info = mizar.load(f_tptp)
-print(dot.dot_conj(info))
+open(f_dot, "w").write(dot.dot_conj(info))
 

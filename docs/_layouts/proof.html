@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+{% assign proof = site.data.proofs[page.proof] %}
+
+<h1>Proof of <b>{{page.proof}}</b></h1>
+
+<h2>Mizar statement</h2>
+<p>
+TODO
+</p>
+
+<h2>ATP conjecture</h2>
+<pre>
+  {{proof.conjecture}}
+</pre>
+
+<h2>Clausified negated conjecture</h2>
+
+<object type="image/svg+xml" data="/vizar/proofs/{{page.proof}}/negconj.svg">
+   <img src="/vizar/proofs/{{page.proof}}/negconj.svg" />
+</object>
+
+<h2>Proof views</h2>
+
+<ul>
+   <li>VizAR proof navigator: 
+      <a href="{{proof.final}}.html">Last inference step</a></li>
+  <li><a href="conj.svg" target="_svg">Conjecture-centered view</a></li>
+  <li><a href="full.svg" target="_svg">Full proof view</a> 
+      (alternative <a href="full-neato.svg" target="_svg">neato layout</a>)</li>
+</ul>
+
+<h2>Proof Mizar symbols</h2>
+
+<table>
+   <tr>
+      <th>ATP symbol</th>
+      <th>Mizar symbol</th>
+      <th>VizAR syntax</th>
+      <th>arity</th>
+      <th>count</th>
+   </tr>
+
+{% assign symbols = site.data.proofs[page.proof].symbols | sort %}
+{% for sym in symbols %}
+   {% if sym[0] != sym[1].mizar %}
+   <tr>
+      {% if sym[1].url %}
+        <td><a href="{{sym[1].url}}" target="_mizar">{{sym[0]}}</a></td>
+      {% else %}
+        <td>{{sym[0]}}</td>
+      {% endif %}
+      <td>{{sym[1].mizar}}</td>
+      <td>{{sym[1].vizar}}</td>
+      <td>{{sym[1].arity}}</td>
+      <td>{{sym[1].count}}</td>
+   </tr>
+   {% endif %}
+{% endfor %}
+</table>
+
+{{ content }}
+

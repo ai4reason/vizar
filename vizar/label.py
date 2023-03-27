@@ -1,10 +1,19 @@
 import re
 from . import mizar
 
-WORD = re.compile("[-a-zA-Z0-9_]+")
+WORD = re.compile("^[-a-zA-Z0-9_]+$")
+
+SUBS = "₀₁₂₃₄₅₆₇₈₉"
+
+def subscripts(s):
+   def subdigit(c):
+      return SUBS[int(c)] if c.isnumeric() else c
+   return "".join(map(subdigit, s))
 
 def term(t, pars=False):
    if type(t) is str:
+      if t[0].isupper():
+         return subscripts(t)
       return mizar.symbol(t)
       #return t
    else:
