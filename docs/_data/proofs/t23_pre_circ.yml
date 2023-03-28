@@ -1,0 +1,269 @@
+conjecture: "    ! [X1] :\n      ( v7_ordinal1(X1)\n     => ~ v1_finset_1(a_1_1_pre_circ(X1))\
+  \ ) )"
+final: c_0_283
+symbols:
+  $false:
+    arity: 0
+    count: 1
+    mizar: $false
+    neg: 0
+    pos: 1
+    url: null
+    vizar: $false
+  '=':
+    arity: 2
+    count: 33
+    mizar: '='
+    neg: 9
+    pos: 24
+    url: null
+    vizar: x = y
+  a_1_1_pre_circ:
+    arity: 1
+    count: 103
+    mizar: a_1_1_pre_circ
+    neg: 68
+    pos: 35
+    url: null
+    vizar: a_1_1_pre_circ(x)
+  esk12_0:
+    arity: 0
+    count: 6
+    mizar: "skolem\u2081\u2082"
+    neg: 0
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK12
+    vizar: "skolem\u2081\u2082"
+  esk15_2:
+    arity: 2
+    count: 9
+    mizar: "skolem\u2081\u2085"
+    neg: 2
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/2.html#ESK15
+    vizar: "skolem\u2081\u2085(x,y)"
+  esk1_0:
+    arity: 0
+    count: 69
+    mizar: "skolem\u2081"
+    neg: 49
+    pos: 20
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK1
+    vizar: "skolem\u2081"
+  esk22_0:
+    arity: 0
+    count: 2
+    mizar: "skolem\u2082\u2082"
+    neg: 0
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK22
+    vizar: "skolem\u2082\u2082"
+  esk2_2:
+    arity: 2
+    count: 9
+    mizar: "skolem\u2082"
+    neg: 3
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/2.html#ESK2
+    vizar: "skolem\u2082(x,y)"
+  k1_nat_1:
+    arity: 2
+    count: 11
+    mizar: +
+    neg: 0
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#K1
+    vizar: x + y
+  k1_numbers:
+    arity: 0
+    count: 20
+    mizar: REAL
+    neg: 5
+    pos: 15
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K1
+    vizar: "\u211D"
+  k1_xboole_0:
+    arity: 0
+    count: 3
+    mizar: \{\}
+    neg: 0
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K1
+    vizar: "\xD8"
+  k1_xxreal_2:
+    arity: 1
+    count: 30
+    mizar: sup
+    neg: 14
+    pos: 16
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_2.html#K1
+    vizar: sup(x)
+  k1_zfmisc_1:
+    arity: 1
+    count: 17
+    mizar: bool
+    neg: 12
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
+    vizar: bool(x)
+  k2_xcmplx_0:
+    arity: 2
+    count: 72
+    mizar: +
+    neg: 39
+    pos: 33
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K2
+    vizar: x + y
+  k4_ordinal1:
+    arity: 0
+    count: 8
+    mizar: omega
+    neg: 4
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#K4
+    vizar: "\u03C9"
+  k5_numbers:
+    arity: 0
+    count: 61
+    mizar: NAT
+    neg: 40
+    pos: 21
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+    vizar: "\u2115"
+  m1_subset_1:
+    arity: 2
+    count: 99
+    mizar: Element
+    neg: 69
+    pos: 30
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  m2_subset_1:
+    arity: 3
+    count: 10
+    mizar: Element
+    neg: 6
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M2
+    vizar: "\u2208"
+  np__0:
+    arity: 0
+    count: 12
+    mizar: '0'
+    neg: 2
+    pos: 10
+    url: null
+    vizar: '0'
+  np__1:
+    arity: 0
+    count: 22
+    mizar: '1'
+    neg: 12
+    pos: 10
+    url: null
+    vizar: '1'
+  r1_tarski:
+    arity: 2
+    count: 11
+    mizar: c=
+    neg: 2
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1
+    vizar: x c= y
+  r1_xxreal_0:
+    arity: 2
+    count: 91
+    mizar: '&lt;='
+    neg: 35
+    pos: 56
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#R1
+    vizar: "x \u2264 y"
+  r2_hidden:
+    arity: 2
+    count: 26
+    mizar: in
+    neg: 15
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2
+    vizar: in(x,y)
+  v1_finset_1:
+    arity: 1
+    count: 4
+    mizar: finite
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finset_1.html#V1
+    vizar: finite(x)
+  v1_xboole_0:
+    arity: 1
+    count: 43
+    mizar: empty
+    neg: 12
+    pos: 31
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1
+    vizar: "x = \xD8"
+  v1_xcmplx_0:
+    arity: 1
+    count: 22
+    mizar: complex
+    neg: 20
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#V1
+    vizar: complex(x)
+  v1_xreal_0:
+    arity: 1
+    count: 10
+    mizar: real
+    neg: 0
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#V1
+    vizar: "x \u2208 \u211D"
+  v1_xxreal_0:
+    arity: 1
+    count: 10
+    mizar: ext-real
+    neg: 0
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#V1
+    vizar: "x \u2208 \U0001D53C"
+  v2_membered:
+    arity: 1
+    count: 45
+    mizar: ext-real-membered
+    neg: 38
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V2
+    vizar: ext-real-membered(x)
+  v2_xxreal_2:
+    arity: 1
+    count: 32
+    mizar: right_end
+    neg: 30
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_2.html#V2
+    vizar: right_end(x)
+  v3_membered:
+    arity: 1
+    count: 6
+    mizar: real-membered
+    neg: 4
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V3
+    vizar: "x \u2286 \u211D"
+  v6_membered:
+    arity: 1
+    count: 24
+    mizar: natural-membered
+    neg: 18
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V6
+    vizar: "x \u2286 \u2115"
+  v7_ordinal1:
+    arity: 1
+    count: 9
+    mizar: natural
+    neg: 0
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V7
+    vizar: "x \u2208 \u2115"
+

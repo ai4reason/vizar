@@ -52,6 +52,8 @@ def read(s):
    conj = "error"
    final = "error"
    for line in s.strip().split("\n"):
+      if "SZS output end CNFRefutation" in line:
+         break
       parsed = formula_parse(line)
       if not parsed:
          continue

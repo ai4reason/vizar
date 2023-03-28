@@ -12,6 +12,7 @@ mkdir -p ${DOTS} ${PROOFS}
 ./dot-proof-negconj.py $PROOF $DOTS/negconj.dot
 ./dot-proof.py $PROOF $DOTS/full.dot
 ./data-proof.py $PROOF > $YAML
+./proof-index.py $PROOF > $PROOFS/index.md
 
 for d in $DOTS/*.dot; do
    s="${PROOFS}/`basename $d .dot`.svg"
