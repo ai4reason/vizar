@@ -15,11 +15,11 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="72,-90 72,-152 288,-152 288,-90 72,-90"/>
+<polygon fill="none" stroke="black" stroke-width="2" points="40,-90 40,-152 256,-152 256,-90 40,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="100,-8 100,-70 260,-70 260,-8 100,-8"/>
+<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="68,-8 68,-70 228,-70 228,-8 68,-8"/>
 </g>
 <!-- c_0_102 -->
 <g id="node1" class="node">
@@ -40,56 +40,56 @@
 <g id="node5" class="node">
 <title>c_0_122</title>
 <g id="a_node5"><a xlink:href="c_0_122.html" xlink:title="{2 ≤ ((skolem₁!) + 1)|⇊|skolem₄((skolem₁!) + 1) = 1}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="80.5,-98.5 80.5,-143.5 279.5,-143.5 279.5,-98.5 80.5,-98.5"/>
-<text text-anchor="middle" x="180" y="-132.3" font-family="Times,serif" font-size="14.00">2 ≤ ((skolem₁!) + 1)</text>
-<polyline fill="none" stroke="#7f7542" points="80.5,-128.5 279.5,-128.5 "/>
-<text text-anchor="middle" x="180" y="-117.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="80.5,-113.5 279.5,-113.5 "/>
-<text text-anchor="middle" x="180" y="-102.3" font-family="Times,serif" font-size="14.00">skolem₄((skolem₁!) + 1) = 1</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="48.5,-98.5 48.5,-143.5 247.5,-143.5 247.5,-98.5 48.5,-98.5"/>
+<text text-anchor="middle" x="148" y="-132.3" font-family="Times,serif" font-size="14.00">2 ≤ ((skolem₁!) + 1)</text>
+<polyline fill="none" stroke="#7f7542" points="48.5,-128.5 247.5,-128.5 "/>
+<text text-anchor="middle" x="148" y="-117.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="48.5,-113.5 247.5,-113.5 "/>
+<text text-anchor="middle" x="148" y="-102.3" font-family="Times,serif" font-size="14.00">skolem₄((skolem₁!) + 1) = 1</text>
 </a>
 </g>
 </g>
 <!-- c_0_102&#45;&gt;c_0_122 -->
 <g id="edge1" class="edge">
 <title>c_0_102&#45;&gt;c_0_122</title>
-<path fill="none" stroke="black" d="M273,-180.2C273,-180.2 273,-153.63 273,-153.63"/>
-<polygon fill="black" stroke="black" points="276.5,-153.63 273,-143.63 269.5,-153.63 276.5,-153.63"/>
-</g>
-<!-- c_0_103 -->
-<g id="node2" class="node">
-<title>c_0_103</title>
-<g id="a_node2"><a xlink:href="c_0_103.html" xlink:title="{0 ≤ 1}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="208,-203 208,-218 248,-218 248,-203 208,-203"/>
-<text text-anchor="middle" x="228" y="-206.8" font-family="Times,serif" font-size="14.00">0 ≤ 1</text>
-</a>
-</g>
-</g>
-<!-- c_0_103&#45;&gt;c_0_122 -->
-<g id="edge2" class="edge">
-<title>c_0_103&#45;&gt;c_0_122</title>
-<path fill="none" stroke="black" d="M228,-202.87C228,-202.87 228,-153.81 228,-153.81"/>
-<polygon fill="black" stroke="black" points="231.5,-153.81 228,-143.81 224.5,-153.81 231.5,-153.81"/>
+<path fill="none" stroke="black" d="M366,-180.2C366,-154.23 366,-121 366,-121 366,-121 257.75,-121 257.75,-121"/>
+<polygon fill="black" stroke="black" points="257.75,-117.5 247.75,-121 257.75,-124.5 257.75,-117.5"/>
 </g>
 <!-- c_0_109 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_109</title>
-<g id="a_node3"><a xlink:href="c_0_109.html" xlink:title="{2 ≤ N₁|skolem₄(N₁) ≤ 1|⇊|⊥}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="76,-180.5 76,-240.5 190,-240.5 190,-180.5 76,-180.5"/>
-<text text-anchor="middle" x="133" y="-229.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
-<polyline fill="none" stroke="#7f7542" points="76,-225.5 190,-225.5 "/>
-<text text-anchor="middle" x="133" y="-214.3" font-family="Times,serif" font-size="14.00">skolem₄(N₁) ≤ 1</text>
-<polyline fill="none" stroke="#7f7542" points="76,-210.5 190,-210.5 "/>
-<text text-anchor="middle" x="133" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="76,-195.5 190,-195.5 "/>
-<text text-anchor="middle" x="133" y="-184.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node2"><a xlink:href="c_0_109.html" xlink:title="{2 ≤ N₁|skolem₄(N₁) ≤ 1|⇊|⊥}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="134,-180.5 134,-240.5 248,-240.5 248,-180.5 134,-180.5"/>
+<text text-anchor="middle" x="191" y="-229.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
+<polyline fill="none" stroke="#7f7542" points="134,-225.5 248,-225.5 "/>
+<text text-anchor="middle" x="191" y="-214.3" font-family="Times,serif" font-size="14.00">skolem₄(N₁) ≤ 1</text>
+<polyline fill="none" stroke="#7f7542" points="134,-210.5 248,-210.5 "/>
+<text text-anchor="middle" x="191" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="134,-195.5 248,-195.5 "/>
+<text text-anchor="middle" x="191" y="-184.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_109&#45;&gt;c_0_122 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_109&#45;&gt;c_0_122</title>
-<path fill="none" stroke="black" d="M135.25,-180.2C135.25,-180.2 135.25,-153.63 135.25,-153.63"/>
-<polygon fill="black" stroke="black" points="138.75,-153.63 135.25,-143.63 131.75,-153.63 138.75,-153.63"/>
+<path fill="none" stroke="black" d="M190.75,-180.2C190.75,-180.2 190.75,-153.63 190.75,-153.63"/>
+<polygon fill="black" stroke="black" points="194.25,-153.63 190.75,-143.63 187.25,-153.63 194.25,-153.63"/>
+</g>
+<!-- c_0_103 -->
+<g id="node3" class="node">
+<title>c_0_103</title>
+<g id="a_node3"><a xlink:href="c_0_103.html" xlink:title="{0 ≤ 1}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="76,-203 76,-218 116,-218 116,-203 76,-203"/>
+<text text-anchor="middle" x="96" y="-206.8" font-family="Times,serif" font-size="14.00">0 ≤ 1</text>
+</a>
+</g>
+</g>
+<!-- c_0_103&#45;&gt;c_0_122 -->
+<g id="edge3" class="edge">
+<title>c_0_103&#45;&gt;c_0_122</title>
+<path fill="none" stroke="black" d="M96,-202.87C96,-202.87 96,-153.81 96,-153.81"/>
+<polygon fill="black" stroke="black" points="99.5,-153.81 96,-143.81 92.5,-153.81 99.5,-153.81"/>
 </g>
 <!-- c_0_100 -->
 <g id="node4" class="node">
@@ -103,27 +103,27 @@
 <!-- c_0_100&#45;&gt;c_0_122 -->
 <g id="edge4" class="edge">
 <title>c_0_100&#45;&gt;c_0_122</title>
-<path fill="none" stroke="black" d="M37,-202.87C37,-181.23 37,-121 37,-121 37,-121 70.29,-121 70.29,-121"/>
-<polygon fill="black" stroke="black" points="70.29,-124.5 80.29,-121 70.29,-117.5 70.29,-124.5"/>
+<path fill="none" stroke="black" d="M53.25,-202.87C53.25,-202.87 53.25,-153.81 53.25,-153.81"/>
+<polygon fill="black" stroke="black" points="56.75,-153.81 53.25,-143.81 49.75,-153.81 56.75,-153.81"/>
 </g>
 <!-- c_0_135 -->
 <g id="node6" class="node">
 <title>c_0_135</title>
 <g id="a_node6"><a xlink:href="c_0_135.html" xlink:title="{2 ≤ ((skolem₁!) + 1)|⇊|⊥}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="108.5,-16.5 108.5,-61.5 251.5,-61.5 251.5,-16.5 108.5,-16.5"/>
-<text text-anchor="middle" x="180" y="-50.3" font-family="Times,serif" font-size="14.00">2 ≤ ((skolem₁!) + 1)</text>
-<polyline fill="none" stroke="#7f7542" points="108.5,-46.5 251.5,-46.5 "/>
-<text text-anchor="middle" x="180" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="108.5,-31.5 251.5,-31.5 "/>
-<text text-anchor="middle" x="180" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="76.5,-16.5 76.5,-61.5 219.5,-61.5 219.5,-16.5 76.5,-16.5"/>
+<text text-anchor="middle" x="148" y="-50.3" font-family="Times,serif" font-size="14.00">2 ≤ ((skolem₁!) + 1)</text>
+<polyline fill="none" stroke="#7f7542" points="76.5,-46.5 219.5,-46.5 "/>
+<text text-anchor="middle" x="148" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="76.5,-31.5 219.5,-31.5 "/>
+<text text-anchor="middle" x="148" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_122&#45;&gt;c_0_135 -->
 <g id="edge5" class="edge">
 <title>c_0_122&#45;&gt;c_0_135</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M180,-98.16C180,-98.16 180,-71.72 180,-71.72"/>
-<polygon fill="black" stroke="black" points="183.5,-71.72 180,-61.72 176.5,-71.72 183.5,-71.72"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M148,-98.16C148,-98.16 148,-71.72 148,-71.72"/>
+<polygon fill="black" stroke="black" points="151.5,-71.72 148,-61.72 144.5,-71.72 151.5,-71.72"/>
 </g>
 </g>
 </svg>

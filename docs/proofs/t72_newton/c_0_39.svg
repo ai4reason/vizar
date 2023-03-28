@@ -11,11 +11,11 @@
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-216 234,-216 234,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="75,-172 75,-204 153,-204 153,-172 75,-172"/>
+<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="77,-172 77,-204 155,-204 155,-172 77,-172"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="82,-90 82,-152 146,-152 146,-90 82,-90"/>
+<polygon fill="none" stroke="black" stroke-width="2" points="84,-90 84,-152 148,-152 148,-90 84,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -25,8 +25,8 @@
 <g id="node1" class="node">
 <title>t6_boole</title>
 <g id="a_node1"><a xlink:href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#T6" xlink:title="t6_boole" target="_blank">
-<polygon fill="#69d2e7" stroke="#7f7542" points="83.5,-180.5 83.5,-195.5 144.5,-195.5 144.5,-180.5 83.5,-180.5"/>
-<text text-anchor="middle" x="114" y="-184.3" font-family="Times,serif" font-size="14.00">t6_boole</text>
+<polygon fill="#69d2e7" stroke="#7f7542" points="85.5,-180.5 85.5,-195.5 146.5,-195.5 146.5,-180.5 85.5,-180.5"/>
+<text text-anchor="middle" x="116" y="-184.3" font-family="Times,serif" font-size="14.00">t6_boole</text>
 </a>
 </g>
 </g>
@@ -34,54 +34,54 @@
 <g id="node2" class="node">
 <title>c_0_39</title>
 <g id="a_node2"><a xlink:href="c_0_39.html" xlink:title="{X₁ = Ø|⇊|X₁ = Ø}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="90,-98.5 90,-143.5 138,-143.5 138,-98.5 90,-98.5"/>
-<text text-anchor="middle" x="114" y="-132.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="90,-128.5 138,-128.5 "/>
-<text text-anchor="middle" x="114" y="-117.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="90,-113.5 138,-113.5 "/>
-<text text-anchor="middle" x="114" y="-102.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="92,-98.5 92,-143.5 140,-143.5 140,-98.5 92,-98.5"/>
+<text text-anchor="middle" x="116" y="-132.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="92,-128.5 140,-128.5 "/>
+<text text-anchor="middle" x="116" y="-117.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="92,-113.5 140,-113.5 "/>
+<text text-anchor="middle" x="116" y="-102.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
 </a>
 </g>
 </g>
 <!-- t6_boole&#45;&gt;c_0_39 -->
 <g id="edge1" class="edge">
 <title>t6_boole&#45;&gt;c_0_39</title>
-<path fill="none" stroke="black" d="M114,-180.31C114,-180.31 114,-153.76 114,-153.76"/>
-<polygon fill="black" stroke="black" points="117.5,-153.76 114,-143.76 110.5,-153.76 117.5,-153.76"/>
-</g>
-<!-- c_0_69 -->
-<g id="node3" class="node">
-<title>c_0_69</title>
-<g id="a_node3"><a xlink:href="c_0_69.html" xlink:title="{X₁ = Ø|⇊|X₁ = skolem₃}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="122,-16.5 122,-61.5 214,-61.5 214,-16.5 122,-16.5"/>
-<text text-anchor="middle" x="168" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="122,-46.5 214,-46.5 "/>
-<text text-anchor="middle" x="168" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="122,-31.5 214,-31.5 "/>
-<text text-anchor="middle" x="168" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ = skolem₃</text>
-</a>
-</g>
-</g>
-<!-- c_0_39&#45;&gt;c_0_69 -->
-<g id="edge2" class="edge">
-<title>c_0_39&#45;&gt;c_0_69</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M130,-98.16C130,-98.16 130,-71.72 130,-71.72"/>
-<polygon fill="black" stroke="black" points="133.5,-71.72 130,-61.72 126.5,-71.72 133.5,-71.72"/>
+<path fill="none" stroke="black" d="M116,-180.31C116,-180.31 116,-153.76 116,-153.76"/>
+<polygon fill="black" stroke="black" points="119.5,-153.76 116,-143.76 112.5,-153.76 119.5,-153.76"/>
 </g>
 <!-- c_0_60 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_60</title>
-<g id="a_node4"><a xlink:href="c_0_60.html" xlink:title="{Ø = skolem₃}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-31.5 16,-46.5 104,-46.5 104,-31.5 16,-31.5"/>
-<text text-anchor="middle" x="60" y="-35.3" font-family="Times,serif" font-size="14.00">Ø = skolem₃</text>
+<g id="a_node3"><a xlink:href="c_0_60.html" xlink:title="{Ø = skolem₃}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="126,-31.5 126,-46.5 214,-46.5 214,-31.5 126,-31.5"/>
+<text text-anchor="middle" x="170" y="-35.3" font-family="Times,serif" font-size="14.00">Ø = skolem₃</text>
 </a>
 </g>
 </g>
 <!-- c_0_39&#45;&gt;c_0_60 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_39&#45;&gt;c_0_60</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M97,-98.16C97,-98.16 97,-56.65 97,-56.65"/>
-<polygon fill="black" stroke="black" points="100.5,-56.65 97,-46.65 93.5,-56.65 100.5,-56.65"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M133,-98.16C133,-98.16 133,-56.65 133,-56.65"/>
+<polygon fill="black" stroke="black" points="136.5,-56.65 133,-46.65 129.5,-56.65 136.5,-56.65"/>
+</g>
+<!-- c_0_69 -->
+<g id="node4" class="node">
+<title>c_0_69</title>
+<g id="a_node4"><a xlink:href="c_0_69.html" xlink:title="{X₁ = Ø|⇊|X₁ = skolem₃}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-61.5 108,-61.5 108,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="62" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="16,-46.5 108,-46.5 "/>
+<text text-anchor="middle" x="62" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-31.5 108,-31.5 "/>
+<text text-anchor="middle" x="62" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ = skolem₃</text>
+</a>
+</g>
+</g>
+<!-- c_0_39&#45;&gt;c_0_69 -->
+<g id="edge3" class="edge">
+<title>c_0_39&#45;&gt;c_0_69</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M100,-98.16C100,-98.16 100,-71.72 100,-71.72"/>
+<polygon fill="black" stroke="black" points="103.5,-71.72 100,-61.72 96.5,-71.72 103.5,-71.72"/>
 </g>
 </g>
 </svg>

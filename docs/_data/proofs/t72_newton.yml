@@ -1,7 +1,7 @@
 conjecture: "    ! [X1] :\n      ( v7_ordinal1(X1)\n     => ? [X2] :\n          (\
   \ v7_ordinal1(X2)\n          & v1_int_2(X2)\n          & v1_int_2(X2)\n        \
   \  & ~ r1_xxreal_0(X2,X1) ) ) )"
-final: c_0_179
+final: c_0_178
 symbols:
   $false:
     arity: 0

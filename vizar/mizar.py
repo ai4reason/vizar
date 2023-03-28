@@ -222,6 +222,8 @@ def unify_nodes(info, live, dead):
    fmls[live]["parents"].discard(live)
    fmls[live]["children"].discard(live)
    info["order"].remove(dead)
+   if info["final"] == dead:
+      info["final"] = live
 
 def remove_fofs(info):
    fmls = info["fmls"]
