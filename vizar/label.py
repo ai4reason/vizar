@@ -1,7 +1,7 @@
 import re
 from . import mizar
 
-WORD = re.compile("^[-a-zA-Z0-9_]+$")
+WORD = re.compile("^[-a-zA-Z0-9₀-₉_]+$")
 
 SUBS = "₀₁₂₃₄₅₆₇₈₉"
 

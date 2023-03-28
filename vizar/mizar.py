@@ -1,6 +1,8 @@
+import re
 from . import tptp, label
 
-HREF="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/%s.html#%s"
+HREF = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/%s.html#%s"
+SKOLEM = re.compile(r"esk(\d+)_\d+")
 
 def link(tok):
    tok = tok.lstrip("~")
@@ -28,11 +30,15 @@ def trans(f_trans="00constrnames-utf8"):
          trans[x.strip()] = y.strip()
    return trans
 
+
 def symbol(name, table=trans()):
    if name.startswith("np__"):
       return name[4:]
    if name in table:
       return table[name] 
+   mo = SKOLEM.match(name)
+   if mo:
+      return "skolem%s" % label.subscripts(mo.group(1))
    return name
 
 def symbol_apply(func, term):

@@ -45,7 +45,9 @@ layout: default
 
 {% assign symbols = site.data.proofs[page.proof].symbols | sort %}
 {% for sym in symbols %}
-   {% if sym[0] != sym[1].mizar %}
+
+   {% assign prefix = sym[1].mizar | slice: 0, 6 %}
+   {% if sym[0] != sym[1].mizar and prefix != "skolem" %}
    <tr>
       {% if sym[1].url %}
         <td><a href="{{sym[1].url}}" target="_mizar">{{sym[0]}}</a></td>
