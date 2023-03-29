@@ -2,6 +2,273 @@ conjecture: "    ! [X1] :\n      ( v7_ordinal1(X1)\n     => ? [X2] :\n          
   \ v7_ordinal1(X2)\n          & v1_int_2(X2)\n          & v1_int_2(X2)\n        \
   \  & ~ r1_xxreal_0(X2,X1) ) ) )"
 final: c_0_178
+steps:
+  c_0_100:
+    k5_numbers: 1
+    m1_subset_1: 1
+    np__0: 1
+  c_0_102:
+    '=': 2
+    esk1_0: 3
+    esk4_1: 2
+    k1_nat_1: 3
+    k9_newton: 3
+    np__0: 1
+    np__1: 4
+    np__2: 1
+    r1_xxreal_0: 1
+  c_0_103:
+    np__0: 1
+    np__1: 1
+    r1_xxreal_0: 1
+  c_0_104:
+    k5_numbers: 1
+    m1_subset_1: 1
+    v7_ordinal1: 1
+  c_0_106:
+    k5_numbers: 1
+    m1_subset_1: 1
+    np__1: 1
+  c_0_109:
+    esk4_1: 1
+    np__1: 1
+    np__2: 1
+    r1_xxreal_0: 2
+  c_0_113:
+    np__1: 2
+    r1_xxreal_0: 1
+  c_0_116:
+    k2_xcmplx_0: 2
+    r1_xxreal_0: 3
+  c_0_117:
+    '=': 1
+    k2_xcmplx_0: 1
+    np__0: 1
+    np__2: 2
+  c_0_118:
+    m1_subset_1: 1
+    v1_xreal_0: 1
+    v3_membered: 1
+  c_0_119:
+    k1_numbers: 1
+    m1_subset_1: 1
+    np__0: 1
+  c_0_120:
+    k1_numbers: 1
+    v3_membered: 1
+  c_0_121:
+    k1_numbers: 1
+    m1_subset_1: 1
+    np__2: 1
+  c_0_122:
+    '=': 1
+    esk1_0: 2
+    esk4_1: 1
+    k1_nat_1: 2
+    k9_newton: 2
+    np__1: 3
+    np__2: 1
+    r1_xxreal_0: 1
+  c_0_125:
+    '=': 1
+    k1_nat_1: 1
+    k2_xcmplx_0: 1
+    k5_numbers: 1
+    m1_subset_1: 1
+  c_0_132:
+    k1_numbers: 1
+    m1_subset_1: 1
+    np__1: 1
+  c_0_135:
+    esk1_0: 1
+    k1_nat_1: 1
+    k9_newton: 1
+    np__1: 1
+    np__2: 1
+    r1_xxreal_0: 1
+  c_0_137:
+    k2_xcmplx_0: 1
+    np__0: 1
+    np__2: 2
+    r1_xxreal_0: 3
+  c_0_144:
+    v1_xxreal_0: 1
+  c_0_145:
+    k3_newton: 1
+    v1_xreal_0: 1
+  c_0_149:
+    v1_xreal_0: 1
+  c_0_151:
+    r1_xxreal_0: 3
+  c_0_152:
+    k9_newton: 1
+    r1_xxreal_0: 1
+  c_0_156:
+    np__2: 1
+    v1_int_2: 1
+  c_0_157:
+    k5_numbers: 1
+    m1_subset_1: 1
+    np__2: 1
+  c_0_158:
+    esk1_0: 1
+    k9_newton: 1
+    np__2: 1
+    r1_xxreal_0: 1
+  c_0_160:
+    k2_xcmplx_0: 1
+    v7_ordinal1: 1
+  c_0_163:
+    v1_xxreal_0: 1
+  c_0_164:
+    k3_newton: 1
+    v1_xxreal_0: 1
+  c_0_169:
+    k9_newton: 1
+    r1_xxreal_0: 2
+  c_0_172:
+    esk1_0: 1
+    np__2: 1
+    r1_xxreal_0: 1
+  c_0_176:
+    np__2: 1
+    v1_xxreal_0: 1
+  c_0_39:
+    '=': 1
+    k1_xboole_0: 1
+    v1_xboole_0: 1
+  c_0_40:
+    esk3_0: 1
+    v1_xboole_0: 1
+  c_0_41:
+    '=': 1
+    k1_nat_1: 1
+    np__1: 2
+    r1_nat_d: 2
+  c_0_42:
+    r1_int_1: 1
+    r1_nat_d: 1
+  c_0_45:
+    k4_ordinal1: 1
+    v6_membered: 1
+  c_0_46:
+    '=': 1
+    k4_ordinal1: 1
+    k5_numbers: 1
+  c_0_47:
+    '=': 1
+    k6_numbers: 1
+    k9_newton: 1
+    r1_nat_d: 1
+    r1_xxreal_0: 1
+  c_0_48:
+    '=': 1
+    k1_xboole_0: 1
+    k6_numbers: 1
+  c_0_53:
+    esk4_1: 1
+    np__2: 1
+    r1_int_1: 1
+    r1_xxreal_0: 1
+  c_0_54:
+    m1_subset_1: 1
+    v6_membered: 1
+    v7_ordinal1: 1
+  c_0_55:
+    esk4_1: 1
+    k5_numbers: 1
+    m1_subset_1: 1
+    np__2: 1
+    r1_xxreal_0: 1
+  c_0_57:
+    '=': 1
+    k4_ordinal1: 1
+    k5_numbers: 1
+  c_0_60:
+    '=': 1
+    esk3_0: 1
+    k1_xboole_0: 1
+  c_0_61:
+    np__0: 1
+    v1_xboole_0: 1
+  c_0_67:
+    k5_numbers: 1
+    v6_membered: 1
+  c_0_68:
+    '=': 1
+    k1_xboole_0: 1
+    k9_newton: 1
+    r1_nat_d: 1
+    r1_xxreal_0: 1
+  c_0_69:
+    '=': 1
+    esk3_0: 1
+    v1_xboole_0: 1
+  c_0_74:
+    '=': 1
+    esk4_1: 2
+    k1_nat_1: 3
+    np__1: 4
+    np__2: 1
+    r1_nat_d: 1
+    r1_xxreal_0: 1
+  c_0_76:
+    '=': 1
+    esk3_0: 1
+    k9_newton: 1
+    r1_nat_d: 1
+    r1_xxreal_0: 1
+  c_0_77:
+    '=': 1
+    esk3_0: 1
+    np__0: 1
+  c_0_78:
+    k3_newton: 1
+    v7_ordinal1: 1
+  c_0_79:
+    '=': 1
+    k3_newton: 1
+    k9_newton: 1
+  c_0_80:
+    esk1_0: 1
+    r1_xxreal_0: 1
+    v1_int_2: 2
+  c_0_82:
+    '=': 1
+    k9_newton: 1
+    np__0: 1
+    r1_nat_d: 1
+    r1_xxreal_0: 1
+  c_0_86:
+    esk4_1: 1
+    np__2: 1
+    r1_xxreal_0: 1
+    v1_int_2: 1
+  c_0_89:
+    '=': 2
+    esk4_1: 3
+    k1_nat_1: 4
+    k9_newton: 4
+    np__0: 1
+    np__1: 5
+    np__2: 1
+    r1_xxreal_0: 2
+  c_0_93:
+    esk1_0: 1
+    v7_ordinal1: 1
+  c_0_94:
+    k4_ordinal1: 1
+    m1_subset_1: 1
+    v7_ordinal1: 1
+  c_0_95:
+    np__1: 1
+    r1_xxreal_0: 1
+    v1_int_2: 1
+  c_0_97:
+    esk1_0: 1
+    esk4_1: 1
+    np__2: 1
+    r1_xxreal_0: 2
 symbols:
   $false:
     arity: 0

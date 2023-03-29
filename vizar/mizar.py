@@ -135,16 +135,16 @@ def update_stats(syms, stats, miztrans=None):
       stats[sym][key] += syms[sym][key]
    if not syms: return
    for x in syms:
-      syms[x]["vizar"] = vizar_def(x, syms[x]["arity"])
-      if miztrans:
-         syms[x]["mizar"] = symbol(x, miztrans)
-      syms[x]["url"] = link(x)
       if x not in stats:
-         stats[x] = syms[x]
+         stats[x] = dict(syms[x])
       else:
          update_key(x, "count")
          update_key(x, "pos")
          update_key(x, "neg")
+      stats[x]["vizar"] = vizar_def(x, stats[x]["arity"])
+      if miztrans:
+         stats[x]["mizar"] = symbol(x, miztrans)
+      stats[x]["url"] = link(x)
 
 def set_labels(info):
    stats = {}

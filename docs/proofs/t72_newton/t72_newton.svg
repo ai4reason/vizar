@@ -11,7 +11,7 @@
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-134 236,-134 236,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="64,-90 64,-122 164,-122 164,-90 64,-90"/>
+<polygon fill="none" stroke="black" stroke-width="2" points="67,-90 67,-122 167,-122 167,-90 67,-90"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -21,44 +21,44 @@
 <g id="node1" class="node">
 <title>t72_newton</title>
 <g id="a_node1"><a xlink:href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#T72" xlink:title="t72_newton" target="_blank">
-<polygon fill="#fa6900" stroke="#7f7542" points="72,-98.5 72,-113.5 156,-113.5 156,-98.5 72,-98.5"/>
-<text text-anchor="middle" x="114" y="-102.3" font-family="Times,serif" font-size="14.00">t72_newton</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="75,-98.5 75,-113.5 159,-113.5 159,-98.5 75,-98.5"/>
+<text text-anchor="middle" x="117" y="-102.3" font-family="Times,serif" font-size="14.00">t72_newton</text>
 </a>
 </g>
-</g>
-<!-- c_0_80 -->
-<g id="node2" class="node">
-<title>c_0_80</title>
-<g id="a_node2"><a xlink:href="c_0_80.html" xlink:title="{prime(N₁)|⇊|N₁ ≤ skolem₁}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="122,-16.5 122,-61.5 216,-61.5 216,-16.5 122,-16.5"/>
-<text text-anchor="middle" x="169" y="-50.3" font-family="Times,serif" font-size="14.00">prime(N₁)</text>
-<polyline fill="none" stroke="#7f7542" points="122,-46.5 216,-46.5 "/>
-<text text-anchor="middle" x="169" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="122,-31.5 216,-31.5 "/>
-<text text-anchor="middle" x="169" y="-20.3" font-family="Times,serif" font-size="14.00">N₁ ≤ skolem₁</text>
-</a>
-</g>
-</g>
-<!-- t72_newton&#45;&gt;c_0_80 -->
-<g id="edge1" class="edge">
-<title>t72_newton&#45;&gt;c_0_80</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M139,-98.31C139,-98.31 139,-71.76 139,-71.76"/>
-<polygon fill="black" stroke="black" points="142.5,-71.76 139,-61.76 135.5,-71.76 142.5,-71.76"/>
 </g>
 <!-- c_0_93 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_93</title>
-<g id="a_node3"><a xlink:href="c_0_93.html" xlink:title="{skolem₁ ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-31.5 16,-46.5 104,-46.5 104,-31.5 16,-31.5"/>
-<text text-anchor="middle" x="60" y="-35.3" font-family="Times,serif" font-size="14.00">skolem₁ ∈ ℕ</text>
+<g id="a_node2"><a xlink:href="c_0_93.html" xlink:title="{skolem₁ ∈ ℕ}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="128,-31.5 128,-46.5 216,-46.5 216,-31.5 128,-31.5"/>
+<text text-anchor="middle" x="172" y="-35.3" font-family="Times,serif" font-size="14.00">skolem₁ ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- t72_newton&#45;&gt;c_0_93 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t72_newton&#45;&gt;c_0_93</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M88,-98.31C88,-98.31 88,-56.6 88,-56.6"/>
-<polygon fill="black" stroke="black" points="91.5,-56.6 88,-46.6 84.5,-56.6 91.5,-56.6"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M143.5,-98.31C143.5,-98.31 143.5,-56.6 143.5,-56.6"/>
+<polygon fill="black" stroke="black" points="147,-56.6 143.5,-46.6 140,-56.6 147,-56.6"/>
+</g>
+<!-- c_0_80 -->
+<g id="node3" class="node">
+<title>c_0_80</title>
+<g id="a_node3"><a xlink:href="c_0_80.html" xlink:title="{prime(N₁)|⇊|N₁ ≤ skolem₁}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-61.5 110,-61.5 110,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="63" y="-50.3" font-family="Times,serif" font-size="14.00">prime(N₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-46.5 110,-46.5 "/>
+<text text-anchor="middle" x="63" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-31.5 110,-31.5 "/>
+<text text-anchor="middle" x="63" y="-20.3" font-family="Times,serif" font-size="14.00">N₁ ≤ skolem₁</text>
+</a>
+</g>
+</g>
+<!-- t72_newton&#45;&gt;c_0_80 -->
+<g id="edge2" class="edge">
+<title>t72_newton&#45;&gt;c_0_80</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M92.5,-98.31C92.5,-98.31 92.5,-71.76 92.5,-71.76"/>
+<polygon fill="black" stroke="black" points="96,-71.76 92.5,-61.76 89,-71.76 96,-71.76"/>
 </g>
 </g>
 </svg>

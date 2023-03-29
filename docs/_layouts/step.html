@@ -8,5 +8,42 @@ layout: default
    <img src="/vizar/proofs/{{page.proof}}/{{page.step}}.svg" />
 </object>
 
+
+{% assign proof = site.data.proofs[page.proof] %}
+{% assign symbols = proof.steps[page.step] %}
+{% if symbols %}
+
+<h2>Step Mizar symbols</h2>
+<table>
+   <tr>
+      <th>ATP symbol</th>
+      <th>Mizar symbol</th>
+      <th>VizAR syntax</th>
+      <th>arity</th>
+      <th>count</th>
+   </tr>
+
+{% assign symbols = symbols | sort %}
+{% for sym in symbols %}
+   {% assign name = sym[0] %}
+   {% assign symbol = proof.symbols[name] %}
+   {% assign prefix = symbol.mizar | slice: 0, 6 %}
+   {% if sym[0] != symbol.mizar and prefix != "skolem" %}
+   <tr>
+      {% if symbol.url %}
+        <td><a href="{{symbol.url}}" target="_mizar">{{sym[0]}}</a></td>
+      {% else %}
+        <td>{{sym[0]}}</td>
+      {% endif %}
+      <td>{{symbol.mizar}}</td>
+      <td>{{symbol.vizar}}</td>
+      <td>{{symbol.arity}}</td>
+      <td>{{sym[1]}}</td>
+   </tr>
+   {% endif %}
+{% endfor %}
+</table>
+{% endif %}
+
 {{ content }}
 

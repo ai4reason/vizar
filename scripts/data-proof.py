@@ -11,7 +11,13 @@ info = mizar.load(f_tptp)
 conj = info["fmls"][info["conj"]]["fml"]
 conj = tptp.pretty(conj)
 
-data = dict(symbols=info["symbols"], conjecture=conj, final=info["final"])
+steps = {}
+for name in info["order"]:
+   syms = info["fmls"][name]["syms"]
+   if syms:
+      steps[name] = {sym:syms[sym]["count"] for sym in syms}
+
+data = dict(symbols=info["symbols"], conjecture=conj, final=info["final"], steps=steps)
 print(yaml.dump(data))
 
 
