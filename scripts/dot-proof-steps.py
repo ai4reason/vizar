@@ -4,8 +4,15 @@
 import sys, os
 from vizar import dot, tptp, mizar
 
-MARKDOWN = """---
+STEP = """---
 layout: step
+proof: %s
+step: %s
+---
+"""
+
+AXIOM = """---
+layout: axiom
 proof: %s
 step: %s
 ---
@@ -20,8 +27,12 @@ info = mizar.load(f_tptp)
 os.system(f"mkdir -p {d_out}")
 os.system(f"mkdir -p {d_proofs}")
 
+fmls = info["fmls"]
 for name in info["order"]:
    txt = dot.dot_step(info, name)
    open(os.path.join(d_out, name+".dot"),"w").write(txt)
-   open(os.path.join(d_proofs, name+".md"),"w").write(MARKDOWN % (f_tptp, name))
+   if fmls[name]["role"] == "axiom":
+      open(os.path.join(d_proofs, name+".md"),"w").write(AXIOM % (f_tptp, name))
+   else:
+      open(os.path.join(d_proofs, name+".md"),"w").write(STEP % (f_tptp, name))
 

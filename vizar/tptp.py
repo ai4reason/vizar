@@ -140,10 +140,15 @@ def literal_symbols(lits):
       term_symbols(term, stats, sign)
    return stats
 
-def pretty(fml):
-   fof = "fof(a,conjecture,%s)." % fml
+def pretty(fml, role="conjecture", lang="fof", name="x", strip=False):
+   fof = "%s(%s, %s, %s)." % (lang, name, role, fml)
    out = subprocess.check_output(f"echo '{fof}' | tptp4X --", shell=True)
-   out = out.decode().strip().split("\n")
+   out = out.decode().strip()
+   return out
+
+def pretty_strip(tptpfml):
+   out = tptpfml.split("\n")
    out = "\n".join(out[1:])
-   return out[:-2]
+   out = out.rstrip(").")
+   return out
 

@@ -1,8 +1,14 @@
 import re
+from urllib.request import urlopen
+from urllib.error import URLError
 from . import tptp, label
 
 HREF = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/%s.html#%s"
 SKOLEM = re.compile(r"esk(\d+)_\d+")
+
+MPTP = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/"
+MPTP_PROOF =  MPTP + "%s.html"
+ANCHOR = '<div about="#%s" typeof="oo:Theorem">'
 
 def link(tok):
    tok = tok.lstrip("~")
@@ -204,6 +210,8 @@ def unify_same(info):
       pair = first()
 
 def unify_nodes(info, live, dead):
+   if info["final"] == dead:
+      (live, dead) = (dead, live)
    def merge(aset):
       nonlocal fmls
       fmls[live][aset].update(fmls[dead][aset])
@@ -222,8 +230,6 @@ def unify_nodes(info, live, dead):
    fmls[live]["parents"].discard(live)
    fmls[live]["children"].discard(live)
    info["order"].remove(dead)
-   if info["final"] == dead:
-      info["final"] = live
 
 def remove_fofs(info):
    fmls = info["fmls"]
@@ -233,6 +239,24 @@ def remove_fofs(info):
          continue
       parent = list(fmls[x]["parents"])[0]
       unify_nodes(info, parent, x)
+
+def statement(f_tptp):
+  name = f_tptp.split("_")
+  anchor = ANCHOR % name[0].upper()
+  name = "_".join(name[1:])
+  try:
+    f = urlopen(MPTP_PROOF % name)
+  except URLError:
+     return "not found"
+  lines = f.read().decode().split("\n")
+  for (n,line) in enumerate(lines):
+     if anchor in line:
+        index = n
+        break
+  #index = lines.index(anchor)
+  mzr = lines[index+1]
+  mzr = mzr.replace('href="', 'href="'+MPTP)
+  return mzr
 
 def load(f_tptp):
    info = tptp.parse(f_tptp)

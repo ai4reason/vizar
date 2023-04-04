@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% assign proof = site.data.proofs[page.proof] %}
+
+<h1>Axiom <b>{{page.step}}</b> of <a href="index.html">{{page.proof}}</a></h1>
+
+<p>
+See the <a href="{{proof.axioms[page.step].url}}" target="_mizar">Mizar definition</a>
+</p>
+
+<h2>Clausified form</h2>
+
+<object type="image/svg+xml" data="/vizar/proofs/{{page.proof}}/{{page.step}}.svg">
+   <img src="/vizar/proofs/{{page.proof}}/{{page.step}}.svg" />
+</object>
+
+<p>(only the clauses actually used in the proof are displayed)</p>
+
+<h2>First-order translation</h2>
+
+<pre>
+{{ proof.axioms[page.step].fof }}
+</pre>
+
+<h2>Raw TPTP formula</h2>
+
+<pre>
+{{ proof.tptp[page.step] }}
+</pre>
+
+{{ content }}
+

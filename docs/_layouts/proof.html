@@ -11,9 +11,13 @@ layout: default
 {{ content }}
 </p>
 
-<h2>ATP conjecture</h2>
+<p>
+See also the <a href="{{proof.axioms[proof.conjecture].url}}" target="_mizar">Mizar proof.</a>
+</p>
+
+<h2>First-order translation</h2>
 <pre>
-  {{proof.conjecture}}
+  {{proof.axioms[proof.conjecture].fof}}
 </pre>
 
 <h2>Clausified negated conjecture</h2>
@@ -63,4 +67,9 @@ layout: default
 {% endfor %}
 </table>
 
+<h2>Raw TPTP formula</h2>
+
+<pre>
+{{ proof.tptp[proof.conjecture] }}
+</pre>
 

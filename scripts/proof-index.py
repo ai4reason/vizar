@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import sys, yaml
-from urllib.request import urlopen
 from vizar import dot, mizar, tptp
 
 INDEX = """---
@@ -17,24 +16,9 @@ proof: %s
 """
 
 
-MPTP = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/"
-MPTP_PROOF =  MPTP + "%s.html"
-ANCHOR = '<div about="#%s" typeof="oo:Theorem">'
 
 f_tptp = sys.argv[1]
-
-name = f_tptp.split("_")
-anchor = ANCHOR % name[0].upper()
-name = "_".join(name[1:])
-f = urlopen(MPTP_PROOF % name)
-lines = f.read().decode().split("\n")
-for (n,line) in enumerate(lines):
-   if anchor in line:
-      index = n
-      break
-#index = lines.index(anchor)
-mzr = lines[index+1]
-mzr = mzr.replace('href="', 'href="'+MPTP)
+mzr = mizar.statement(f_tptp)
 
 print(INDEX % (f_tptp, mzr))
 

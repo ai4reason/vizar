@@ -42,9 +42,9 @@ def dot_formula(lang, name, role, fml, parents, text, **others):
    color = label.color(role)
    url = f"{name}.html"
    target = "_parent"
-   if role in ["axiom", "conjecture"]:
-      url = mizar.link(name)
-      target = "_blank"
+   #if role in ["axiom", "conjecture"]:
+   #   url = mizar.link(name)
+   #   target = "_blank"
    args = dict(fillcolor=color, label=text, URL=url, target=target)
    ret = [ dot_node(name, args) ]
    for ans in parents:
@@ -122,7 +122,8 @@ def dot_step(info, name):
    body = []
    for child in fml["children"]:
       body.append(dot_formula(**dict(fmls[child], parents=set())))
-      body.append(dot_edge(name, child, dict(style="dashed")))
+      edgestyle = "dashed" if (fml["role"] != "axiom") else "solid"
+      body.append(dot_edge(name, child, dict(style=edgestyle)))
    if body:
       ret.append(dot_cluster("".join(body), dict(style="dotted"), 2))
    ret.append(DOT_FOOTER)

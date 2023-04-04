@@ -15,22 +15,18 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="190,-90 190,-167 406,-167 406,-90 190,-90"/>
+<polygon fill="none" stroke="black" stroke-width="2" points="213,-90 213,-167 429,-167 429,-90 213,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="190,-8 190,-70 406,-70 406,-8 190,-8"/>
+<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="213,-8 213,-70 429,-70 429,-8 213,-8"/>
 </g>
-<!-- c_0_55 -->
+<!-- c_0_93 -->
 <g id="node1" class="node">
-<title>c_0_55</title>
-<g id="a_node1"><a xlink:href="c_0_55.html" xlink:title="{2 ≤ N₁|⇊|skolem₄(N₁) ∈ ℕ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="488,-210.5 488,-255.5 604,-255.5 604,-210.5 488,-210.5"/>
-<text text-anchor="middle" x="546" y="-244.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
-<polyline fill="none" stroke="#7f7542" points="488,-240.5 604,-240.5 "/>
-<text text-anchor="middle" x="546" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="488,-225.5 604,-225.5 "/>
-<text text-anchor="middle" x="546" y="-214.3" font-family="Times,serif" font-size="14.00">skolem₄(N₁) ∈ ℕ</text>
+<title>c_0_93</title>
+<g id="a_node1"><a xlink:href="c_0_93.html" xlink:title="{skolem₁ ∈ ℕ}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="516,-225.5 516,-240.5 604,-240.5 604,-225.5 516,-225.5"/>
+<text text-anchor="middle" x="560" y="-229.3" font-family="Times,serif" font-size="14.00">skolem₁ ∈ ℕ</text>
 </a>
 </g>
 </g>
@@ -38,98 +34,102 @@
 <g id="node5" class="node">
 <title>c_0_102</title>
 <g id="a_node5"><a xlink:href="c_0_102.html" xlink:title="{2 ≤ ((skolem₁!) + 1)|⇊|skolem₄((skolem₁!) + 1) = 0|skolem₄((skolem₁!) + 1) = 1}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="198.5,-98.5 198.5,-158.5 397.5,-158.5 397.5,-98.5 198.5,-98.5"/>
-<text text-anchor="middle" x="298" y="-147.3" font-family="Times,serif" font-size="14.00">2 ≤ ((skolem₁!) + 1)</text>
-<polyline fill="none" stroke="#7f7542" points="198.5,-143.5 397.5,-143.5 "/>
-<text text-anchor="middle" x="298" y="-132.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="198.5,-128.5 397.5,-128.5 "/>
-<text text-anchor="middle" x="298" y="-117.3" font-family="Times,serif" font-size="14.00">skolem₄((skolem₁!) + 1) = 0</text>
-<polyline fill="none" stroke="#7f7542" points="198.5,-113.5 397.5,-113.5 "/>
-<text text-anchor="middle" x="298" y="-102.3" font-family="Times,serif" font-size="14.00">skolem₄((skolem₁!) + 1) = 1</text>
-</a>
-</g>
-</g>
-<!-- c_0_55&#45;&gt;c_0_102 -->
-<g id="edge1" class="edge">
-<title>c_0_55&#45;&gt;c_0_102</title>
-<path fill="none" stroke="black" d="M546,-210.47C546,-179.62 546,-128 546,-128 546,-128 407.8,-128 407.8,-128"/>
-<polygon fill="black" stroke="black" points="407.8,-124.5 397.8,-128 407.8,-131.5 407.8,-124.5"/>
-</g>
-<!-- c_0_97 -->
-<g id="node2" class="node">
-<title>c_0_97</title>
-<g id="a_node2"><a xlink:href="c_0_97.html" xlink:title="{2 ≤ N₁|⇊|skolem₄(N₁) ≤ skolem₁}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="310,-210.5 310,-255.5 470,-255.5 470,-210.5 310,-210.5"/>
-<text text-anchor="middle" x="390" y="-244.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
-<polyline fill="none" stroke="#7f7542" points="310,-240.5 470,-240.5 "/>
-<text text-anchor="middle" x="390" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="310,-225.5 470,-225.5 "/>
-<text text-anchor="middle" x="390" y="-214.3" font-family="Times,serif" font-size="14.00">skolem₄(N₁) ≤ skolem₁</text>
-</a>
-</g>
-</g>
-<!-- c_0_97&#45;&gt;c_0_102 -->
-<g id="edge2" class="edge">
-<title>c_0_97&#45;&gt;c_0_102</title>
-<path fill="none" stroke="black" d="M353.75,-210.33C353.75,-210.33 353.75,-168.67 353.75,-168.67"/>
-<polygon fill="black" stroke="black" points="357.25,-168.67 353.75,-158.67 350.25,-168.67 357.25,-168.67"/>
-</g>
-<!-- c_0_89 -->
-<g id="node3" class="node">
-<title>c_0_89</title>
-<g id="a_node3"><a xlink:href="c_0_89.html" xlink:title="{2 ≤ ((N₁!) + 1)|skolem₄((N₁!) + 1) ≤ N₁|⇊|skolem₄((N₁!) + 1) = 0|skolem₄((N₁!) + 1) = 1}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="122.5,-195.5 122.5,-270.5 291.5,-270.5 291.5,-195.5 122.5,-195.5"/>
-<text text-anchor="middle" x="207" y="-259.3" font-family="Times,serif" font-size="14.00">2 ≤ ((N₁!) + 1)</text>
-<polyline fill="none" stroke="#7f7542" points="122.5,-255.5 291.5,-255.5 "/>
-<text text-anchor="middle" x="207" y="-244.3" font-family="Times,serif" font-size="14.00">skolem₄((N₁!) + 1) ≤ N₁</text>
-<polyline fill="none" stroke="#7f7542" points="122.5,-240.5 291.5,-240.5 "/>
-<text text-anchor="middle" x="207" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="122.5,-225.5 291.5,-225.5 "/>
-<text text-anchor="middle" x="207" y="-214.3" font-family="Times,serif" font-size="14.00">skolem₄((N₁!) + 1) = 0</text>
-<polyline fill="none" stroke="#7f7542" points="122.5,-210.5 291.5,-210.5 "/>
-<text text-anchor="middle" x="207" y="-199.3" font-family="Times,serif" font-size="14.00">skolem₄((N₁!) + 1) = 1</text>
-</a>
-</g>
-</g>
-<!-- c_0_89&#45;&gt;c_0_102 -->
-<g id="edge3" class="edge">
-<title>c_0_89&#45;&gt;c_0_102</title>
-<path fill="none" stroke="black" d="M245,-195.27C245,-195.27 245,-168.64 245,-168.64"/>
-<polygon fill="black" stroke="black" points="248.5,-168.64 245,-158.64 241.5,-168.64 248.5,-168.64"/>
-</g>
-<!-- c_0_93 -->
-<g id="node4" class="node">
-<title>c_0_93</title>
-<g id="a_node4"><a xlink:href="c_0_93.html" xlink:title="{skolem₁ ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-225.5 16,-240.5 104,-240.5 104,-225.5 16,-225.5"/>
-<text text-anchor="middle" x="60" y="-229.3" font-family="Times,serif" font-size="14.00">skolem₁ ∈ ℕ</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="221.5,-98.5 221.5,-158.5 420.5,-158.5 420.5,-98.5 221.5,-98.5"/>
+<text text-anchor="middle" x="321" y="-147.3" font-family="Times,serif" font-size="14.00">2 ≤ ((skolem₁!) + 1)</text>
+<polyline fill="none" stroke="#7f7542" points="221.5,-143.5 420.5,-143.5 "/>
+<text text-anchor="middle" x="321" y="-132.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="221.5,-128.5 420.5,-128.5 "/>
+<text text-anchor="middle" x="321" y="-117.3" font-family="Times,serif" font-size="14.00">skolem₄((skolem₁!) + 1) = 0</text>
+<polyline fill="none" stroke="#7f7542" points="221.5,-113.5 420.5,-113.5 "/>
+<text text-anchor="middle" x="321" y="-102.3" font-family="Times,serif" font-size="14.00">skolem₄((skolem₁!) + 1) = 1</text>
 </a>
 </g>
 </g>
 <!-- c_0_93&#45;&gt;c_0_102 -->
-<g id="edge4" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_93&#45;&gt;c_0_102</title>
-<path fill="none" stroke="black" d="M60,-225.45C60,-201.37 60,-128 60,-128 60,-128 188.45,-128 188.45,-128"/>
-<polygon fill="black" stroke="black" points="188.45,-131.5 198.45,-128 188.45,-124.5 188.45,-131.5"/>
+<path fill="none" stroke="black" d="M560,-225.45C560,-201.37 560,-128 560,-128 560,-128 430.63,-128 430.63,-128"/>
+<polygon fill="black" stroke="black" points="430.63,-124.5 420.63,-128 430.63,-131.5 430.63,-124.5"/>
+</g>
+<!-- c_0_89 -->
+<g id="node2" class="node">
+<title>c_0_89</title>
+<g id="a_node2"><a xlink:href="c_0_89.html" xlink:title="{2 ≤ ((N₁!) + 1)|skolem₄((N₁!) + 1) ≤ N₁|⇊|skolem₄((N₁!) + 1) = 0|skolem₄((N₁!) + 1) = 1}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="328.5,-195.5 328.5,-270.5 497.5,-270.5 497.5,-195.5 328.5,-195.5"/>
+<text text-anchor="middle" x="413" y="-259.3" font-family="Times,serif" font-size="14.00">2 ≤ ((N₁!) + 1)</text>
+<polyline fill="none" stroke="#7f7542" points="328.5,-255.5 497.5,-255.5 "/>
+<text text-anchor="middle" x="413" y="-244.3" font-family="Times,serif" font-size="14.00">skolem₄((N₁!) + 1) ≤ N₁</text>
+<polyline fill="none" stroke="#7f7542" points="328.5,-240.5 497.5,-240.5 "/>
+<text text-anchor="middle" x="413" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="328.5,-225.5 497.5,-225.5 "/>
+<text text-anchor="middle" x="413" y="-214.3" font-family="Times,serif" font-size="14.00">skolem₄((N₁!) + 1) = 0</text>
+<polyline fill="none" stroke="#7f7542" points="328.5,-210.5 497.5,-210.5 "/>
+<text text-anchor="middle" x="413" y="-199.3" font-family="Times,serif" font-size="14.00">skolem₄((N₁!) + 1) = 1</text>
+</a>
+</g>
+</g>
+<!-- c_0_89&#45;&gt;c_0_102 -->
+<g id="edge2" class="edge">
+<title>c_0_89&#45;&gt;c_0_102</title>
+<path fill="none" stroke="black" d="M374.5,-195.27C374.5,-195.27 374.5,-168.64 374.5,-168.64"/>
+<polygon fill="black" stroke="black" points="378,-168.64 374.5,-158.64 371,-168.64 378,-168.64"/>
+</g>
+<!-- c_0_97 -->
+<g id="node3" class="node">
+<title>c_0_97</title>
+<g id="a_node3"><a xlink:href="c_0_97.html" xlink:title="{2 ≤ N₁|⇊|skolem₄(N₁) ≤ skolem₁}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="150,-210.5 150,-255.5 310,-255.5 310,-210.5 150,-210.5"/>
+<text text-anchor="middle" x="230" y="-244.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
+<polyline fill="none" stroke="#7f7542" points="150,-240.5 310,-240.5 "/>
+<text text-anchor="middle" x="230" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="150,-225.5 310,-225.5 "/>
+<text text-anchor="middle" x="230" y="-214.3" font-family="Times,serif" font-size="14.00">skolem₄(N₁) ≤ skolem₁</text>
+</a>
+</g>
+</g>
+<!-- c_0_97&#45;&gt;c_0_102 -->
+<g id="edge3" class="edge">
+<title>c_0_97&#45;&gt;c_0_102</title>
+<path fill="none" stroke="black" d="M265.75,-210.33C265.75,-210.33 265.75,-168.67 265.75,-168.67"/>
+<polygon fill="black" stroke="black" points="269.25,-168.67 265.75,-158.67 262.25,-168.67 269.25,-168.67"/>
+</g>
+<!-- c_0_55 -->
+<g id="node4" class="node">
+<title>c_0_55</title>
+<g id="a_node4"><a xlink:href="c_0_55.html" xlink:title="{2 ≤ N₁|⇊|skolem₄(N₁) ∈ ℕ}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-210.5 16,-255.5 132,-255.5 132,-210.5 16,-210.5"/>
+<text text-anchor="middle" x="74" y="-244.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
+<polyline fill="none" stroke="#7f7542" points="16,-240.5 132,-240.5 "/>
+<text text-anchor="middle" x="74" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-225.5 132,-225.5 "/>
+<text text-anchor="middle" x="74" y="-214.3" font-family="Times,serif" font-size="14.00">skolem₄(N₁) ∈ ℕ</text>
+</a>
+</g>
+</g>
+<!-- c_0_55&#45;&gt;c_0_102 -->
+<g id="edge4" class="edge">
+<title>c_0_55&#45;&gt;c_0_102</title>
+<path fill="none" stroke="black" d="M74,-210.47C74,-179.62 74,-128 74,-128 74,-128 211.25,-128 211.25,-128"/>
+<polygon fill="black" stroke="black" points="211.25,-131.5 221.25,-128 211.25,-124.5 211.25,-131.5"/>
 </g>
 <!-- c_0_122 -->
 <g id="node6" class="node">
 <title>c_0_122</title>
 <g id="a_node6"><a xlink:href="c_0_122.html" xlink:title="{2 ≤ ((skolem₁!) + 1)|⇊|skolem₄((skolem₁!) + 1) = 1}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="198.5,-16.5 198.5,-61.5 397.5,-61.5 397.5,-16.5 198.5,-16.5"/>
-<text text-anchor="middle" x="298" y="-50.3" font-family="Times,serif" font-size="14.00">2 ≤ ((skolem₁!) + 1)</text>
-<polyline fill="none" stroke="#7f7542" points="198.5,-46.5 397.5,-46.5 "/>
-<text text-anchor="middle" x="298" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="198.5,-31.5 397.5,-31.5 "/>
-<text text-anchor="middle" x="298" y="-20.3" font-family="Times,serif" font-size="14.00">skolem₄((skolem₁!) + 1) = 1</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="221.5,-16.5 221.5,-61.5 420.5,-61.5 420.5,-16.5 221.5,-16.5"/>
+<text text-anchor="middle" x="321" y="-50.3" font-family="Times,serif" font-size="14.00">2 ≤ ((skolem₁!) + 1)</text>
+<polyline fill="none" stroke="#7f7542" points="221.5,-46.5 420.5,-46.5 "/>
+<text text-anchor="middle" x="321" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="221.5,-31.5 420.5,-31.5 "/>
+<text text-anchor="middle" x="321" y="-20.3" font-family="Times,serif" font-size="14.00">skolem₄((skolem₁!) + 1) = 1</text>
 </a>
 </g>
 </g>
 <!-- c_0_102&#45;&gt;c_0_122 -->
 <g id="edge5" class="edge">
 <title>c_0_102&#45;&gt;c_0_122</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M298,-98.2C298,-98.2 298,-71.63 298,-71.63"/>
-<polygon fill="black" stroke="black" points="301.5,-71.63 298,-61.63 294.5,-71.63 301.5,-71.63"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M321,-98.2C321,-98.2 321,-71.63 321,-71.63"/>
+<polygon fill="black" stroke="black" points="324.5,-71.63 321,-61.63 317.5,-71.63 324.5,-71.63"/>
 </g>
 </g>
 </svg>
