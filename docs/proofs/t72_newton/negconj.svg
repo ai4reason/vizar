@@ -8,49 +8,48 @@
  viewBox="0.00 0.00 208.00 106.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 102)">
 <title>proof</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-102 204,-102 204,4 -4,4"/>
 <!-- t72_newton -->
 <g id="node1" class="node">
 <title>t72_newton</title>
 <g id="a_node1"><a xlink:href="t72_newton.html" xlink:title="t72_newton" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="56,-82.5 56,-97.5 140,-97.5 140,-82.5 56,-82.5"/>
-<text text-anchor="middle" x="98" y="-86.3" font-family="Times,serif" font-size="14.00">t72_newton</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="59,-82.5 59,-97.5 143,-97.5 143,-82.5 59,-82.5"/>
+<text text-anchor="middle" x="101" y="-86.3" font-family="Times,serif" font-size="14.00">t72_newton</text>
 </a>
 </g>
-</g>
-<!-- c_0_93 -->
-<g id="node2" class="node">
-<title>c_0_93</title>
-<g id="a_node2"><a xlink:href="c_0_93.html" xlink:title="{skolem₁ ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="0,-15.5 0,-30.5 88,-30.5 88,-15.5 0,-15.5"/>
-<text text-anchor="middle" x="44" y="-19.3" font-family="Times,serif" font-size="14.00">skolem₁ ∈ ℕ</text>
-</a>
-</g>
-</g>
-<!-- t72_newton&#45;&gt;c_0_93 -->
-<g id="edge1" class="edge">
-<title>t72_newton&#45;&gt;c_0_93</title>
-<path fill="none" stroke="black" d="M72,-82.31C72,-82.31 72,-40.6 72,-40.6"/>
-<polygon fill="black" stroke="black" points="75.5,-40.6 72,-30.6 68.5,-40.6 75.5,-40.6"/>
 </g>
 <!-- c_0_80 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_80</title>
-<g id="a_node3"><a xlink:href="c_0_80.html" xlink:title="{prime(N₁)|⇊|N₁ ≤ skolem₁}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="106,-0.5 106,-45.5 200,-45.5 200,-0.5 106,-0.5"/>
-<text text-anchor="middle" x="153" y="-34.3" font-family="Times,serif" font-size="14.00">prime(N₁)</text>
-<polyline fill="none" stroke="#7f7542" points="106,-30.5 200,-30.5 "/>
-<text text-anchor="middle" x="153" y="-19.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="106,-15.5 200,-15.5 "/>
-<text text-anchor="middle" x="153" y="-4.3" font-family="Times,serif" font-size="14.00">N₁ ≤ skolem₁</text>
+<g id="a_node2"><a xlink:href="c_0_80.html" xlink:title="{prime(N₁)|⇊|N₁ ≤ skolem₁}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="0,-0.5 0,-45.5 94,-45.5 94,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="47" y="-34.3" font-family="Times,serif" font-size="14.00">prime(N₁)</text>
+<polyline fill="none" stroke="#7f7542" points="0,-30.5 94,-30.5 "/>
+<text text-anchor="middle" x="47" y="-19.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="0,-15.5 94,-15.5 "/>
+<text text-anchor="middle" x="47" y="-4.3" font-family="Times,serif" font-size="14.00">N₁ ≤ skolem₁</text>
 </a>
 </g>
 </g>
 <!-- t72_newton&#45;&gt;c_0_80 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t72_newton&#45;&gt;c_0_80</title>
-<path fill="none" stroke="black" d="M123,-82.31C123,-82.31 123,-55.76 123,-55.76"/>
-<polygon fill="black" stroke="black" points="126.5,-55.76 123,-45.76 119.5,-55.76 126.5,-55.76"/>
+<path fill="none" stroke="black" d="M76.5,-82.31C76.5,-82.31 76.5,-55.76 76.5,-55.76"/>
+<polygon fill="black" stroke="black" points="80,-55.76 76.5,-45.76 73,-55.76 80,-55.76"/>
+</g>
+<!-- c_0_93 -->
+<g id="node3" class="node">
+<title>c_0_93</title>
+<g id="a_node3"><a xlink:href="c_0_93.html" xlink:title="{skolem₁ ∈ ℕ}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="112,-15.5 112,-30.5 200,-30.5 200,-15.5 112,-15.5"/>
+<text text-anchor="middle" x="156" y="-19.3" font-family="Times,serif" font-size="14.00">skolem₁ ∈ ℕ</text>
+</a>
+</g>
+</g>
+<!-- t72_newton&#45;&gt;c_0_93 -->
+<g id="edge2" class="edge">
+<title>t72_newton&#45;&gt;c_0_93</title>
+<path fill="none" stroke="black" d="M127.5,-82.31C127.5,-82.31 127.5,-40.6 127.5,-40.6"/>
+<polygon fill="black" stroke="black" points="131,-40.6 127.5,-30.6 124,-40.6 131,-40.6"/>
 </g>
 </g>
 </svg>

@@ -4,7 +4,7 @@ layout: default
 
 {% assign proof = site.data.proofs[page.proof] %}
 
-<h1>Proof of <b>{{page.proof}}</b></h1>
+<h1>ATP proof of <b>{{page.proof}}</b></h1>
 
 <h2>Mizar statement</h2>
 <p>
@@ -15,7 +15,17 @@ layout: default
 See also the <a href="{{proof.axioms[proof.conjecture].url}}" target="_mizar">Mizar proof.</a>
 </p>
 
-<h2>First-order translation</h2>
+<h2>Proof views</h2>
+
+<ul>
+   <li>VizAR proof navigator: 
+      <a href="{{proof.final}}.html">Last inference step</a></li>
+  <li><a href="conj.svg" target="_svg">Conjecture-centered view</a></li>
+  <li><a href="full.svg" target="_svg">Full proof view</a> 
+      (alternative <a href="full-neato.svg" target="_svg">neato layout</a>)</li>
+</ul>
+
+<h2>First-order conjecture</h2>
 <pre>
   {{proof.axioms[proof.conjecture].fof}}
 </pre>
@@ -26,15 +36,29 @@ See also the <a href="{{proof.axioms[proof.conjecture].url}}" target="_mizar">Mi
    <img src="/vizar/proofs/{{page.proof}}/negconj.svg" />
 </object>
 
-<h2>Proof views</h2>
+{% assign skolems = proof.skolems %}
+{% if skolems %}
+{% assign skolems = skolems | sort %}
+<h2>Proof Skolem symbols</h2>
 
-<ul>
-   <li>VizAR proof navigator: 
-      <a href="{{proof.final}}.html">Last inference step</a></li>
-  <li><a href="conj.svg" target="_svg">Conjecture-centered view</a></li>
-  <li><a href="full.svg" target="_svg">Full proof view</a> 
-      (alternative <a href="full-neato.svg" target="_svg">neato layout</a>)</li>
-</ul>
+<table>
+   <tr>
+      <th>symbol</th>
+      <th>origin</th>
+   </tr>
+
+{% for skolem in skolems %}
+   <tr>
+      <td>{{skolem[1].symbol}}</td>
+      <td>
+         <object type="image/svg+xml" data="/vizar/proofs/{{page.proof}}/{{skolem[1].axiom}}.svg">
+            <img src="/vizar/proofs/{{page.proof}}/{{skolem[1].axiom}}.svg" />
+</object>
+      </td>
+   </tr>
+{% endfor %}
+</table>
+{% endif %}
 
 <h2>Proof Mizar symbols</h2>
 
@@ -66,6 +90,7 @@ See also the <a href="{{proof.axioms[proof.conjecture].url}}" target="_mizar">Mi
    {% endif %}
 {% endfor %}
 </table>
+
 
 <h2>Raw TPTP formula</h2>
 

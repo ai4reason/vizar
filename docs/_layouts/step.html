@@ -10,7 +10,7 @@ layout: default
 
 
 {% assign proof = site.data.proofs[page.proof] %}
-{% assign symbols = proof.steps[page.step] %}
+{% assign symbols = proof.steps[page.step].counts %}
 {% if symbols %}
 
 <h2>Step Mizar symbols</h2>

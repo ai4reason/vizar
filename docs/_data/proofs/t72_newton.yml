@@ -12,15 +12,15 @@ axioms:
   cc2_xreal_0:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (X\u2081\
       \ \u2208 \u211D) ) "
-    url: null
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#CC2
   cc2_xxreal_0:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (X\u2081\
       \ \u2208 \U0001D53C) ) "
-    url: null
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#CC2
   cc4_xreal_0:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (X\u2081\
       \ \u2208 \U0001D53C) ) "
-    url: null
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#CC4
   cc8_ordinal1:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u03C9)\n     \u21D2 (X\u2081\
       \ \u2208 \u2115) ) "
@@ -36,7 +36,7 @@ axioms:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2115)\n       \
       \ \u2227 (X\u2082 \u2208 \u2115) )\n     \u21D2 ((X\u2081 + X\u2082) \u2208\
       \ \u2115) ) "
-    url: null
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#FC1
   fc3_membered:
     fof: "    (\u211D \u2286 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#FC3
@@ -55,7 +55,7 @@ axioms:
     fof: "    (\u2203X\u2081)\n      ( (X\u2081 = \xD8)\n      \u2227 complex(X\u2081\
       )\n      \u2227 (X\u2081 \u2208 \U0001D53C)\n      \u2227 (X\u2081 \u2208 \u211D\
       ) ) "
-    url: null
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#RC4
   redefinition_k1_nat_1:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2115)\n       \
       \ \u2227 (X\u2082 \u2208 \u2115) )\n     \u21D2 (X\u2081 + X\u2082) = (X\u2081\
@@ -153,275 +153,433 @@ axioms:
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_1.html#T7
 conjecture: t72_newton
 final: c_0_179
+skolems:
+  esk1_0:
+    axiom: t72_newton
+    symbol: "skolem\u2081"
+  esk3_0:
+    axiom: rc4_xreal_0
+    symbol: "skolem\u2083"
+  esk4_1:
+    axiom: t31_int_2
+    symbol: "skolem\u2084"
 steps:
   c_0_100:
-    k5_numbers: 1
-    m1_subset_1: 1
-    np__0: 1
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__0: 1
+    skolems: []
   c_0_102:
-    '=': 2
-    esk1_0: 3
-    esk4_1: 2
-    k1_nat_1: 3
-    k9_newton: 3
-    np__0: 1
-    np__1: 4
-    np__2: 1
-    r1_xxreal_0: 1
+    counts:
+      '=': 2
+      esk1_0: 3
+      esk4_1: 2
+      k1_nat_1: 3
+      k9_newton: 3
+      np__0: 1
+      np__1: 4
+      np__2: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk4_1
+    - esk1_0
   c_0_103:
-    np__0: 1
-    np__1: 1
-    r1_xxreal_0: 1
+    counts:
+      np__0: 1
+      np__1: 1
+      r1_xxreal_0: 1
+    skolems: []
   c_0_104:
-    k5_numbers: 1
-    m1_subset_1: 1
-    v7_ordinal1: 1
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      v7_ordinal1: 1
+    skolems: []
   c_0_106:
-    k5_numbers: 1
-    m1_subset_1: 1
-    np__1: 1
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__1: 1
+    skolems: []
   c_0_109:
-    esk4_1: 1
-    np__1: 1
-    np__2: 1
-    r1_xxreal_0: 2
+    counts:
+      esk4_1: 1
+      np__1: 1
+      np__2: 1
+      r1_xxreal_0: 2
+    skolems:
+    - esk4_1
   c_0_113:
-    np__1: 2
-    r1_xxreal_0: 1
+    counts:
+      np__1: 2
+      r1_xxreal_0: 1
+    skolems: []
   c_0_116:
-    k2_xcmplx_0: 2
-    r1_xxreal_0: 3
+    counts:
+      k2_xcmplx_0: 2
+      r1_xxreal_0: 3
+    skolems: []
   c_0_117:
-    '=': 1
-    k2_xcmplx_0: 1
-    np__0: 1
-    np__2: 2
+    counts:
+      '=': 1
+      k2_xcmplx_0: 1
+      np__0: 1
+      np__2: 2
+    skolems: []
   c_0_118:
-    m1_subset_1: 1
-    v1_xreal_0: 1
-    v3_membered: 1
+    counts:
+      m1_subset_1: 1
+      v1_xreal_0: 1
+      v3_membered: 1
+    skolems: []
   c_0_119:
-    k1_numbers: 1
-    m1_subset_1: 1
-    np__0: 1
+    counts:
+      k1_numbers: 1
+      m1_subset_1: 1
+      np__0: 1
+    skolems: []
   c_0_120:
-    k1_numbers: 1
-    v3_membered: 1
+    counts:
+      k1_numbers: 1
+      v3_membered: 1
+    skolems: []
   c_0_121:
-    k1_numbers: 1
-    m1_subset_1: 1
-    np__2: 1
+    counts:
+      k1_numbers: 1
+      m1_subset_1: 1
+      np__2: 1
+    skolems: []
   c_0_122:
-    '=': 1
-    esk1_0: 2
-    esk4_1: 1
-    k1_nat_1: 2
-    k9_newton: 2
-    np__1: 3
-    np__2: 1
-    r1_xxreal_0: 1
+    counts:
+      '=': 1
+      esk1_0: 2
+      esk4_1: 1
+      k1_nat_1: 2
+      k9_newton: 2
+      np__1: 3
+      np__2: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk4_1
+    - esk1_0
   c_0_125:
-    '=': 1
-    k1_nat_1: 1
-    k2_xcmplx_0: 1
-    k5_numbers: 1
-    m1_subset_1: 1
+    counts:
+      '=': 1
+      k1_nat_1: 1
+      k2_xcmplx_0: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems: []
   c_0_132:
-    k1_numbers: 1
-    m1_subset_1: 1
-    np__1: 1
+    counts:
+      k1_numbers: 1
+      m1_subset_1: 1
+      np__1: 1
+    skolems: []
   c_0_135:
-    esk1_0: 1
-    k1_nat_1: 1
-    k9_newton: 1
-    np__1: 1
-    np__2: 1
-    r1_xxreal_0: 1
+    counts:
+      esk1_0: 1
+      k1_nat_1: 1
+      k9_newton: 1
+      np__1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
   c_0_137:
-    k2_xcmplx_0: 1
-    np__0: 1
-    np__2: 2
-    r1_xxreal_0: 3
+    counts:
+      k2_xcmplx_0: 1
+      np__0: 1
+      np__2: 2
+      r1_xxreal_0: 3
+    skolems: []
   c_0_144:
-    v1_xxreal_0: 1
+    counts:
+      v1_xxreal_0: 1
+    skolems: []
   c_0_145:
-    k3_newton: 1
-    v1_xreal_0: 1
+    counts:
+      k3_newton: 1
+      v1_xreal_0: 1
+    skolems: []
   c_0_149:
-    v1_xreal_0: 1
+    counts:
+      v1_xreal_0: 1
+    skolems: []
   c_0_151:
-    r1_xxreal_0: 3
+    counts:
+      r1_xxreal_0: 3
+    skolems: []
   c_0_152:
-    k9_newton: 1
-    r1_xxreal_0: 1
+    counts:
+      k9_newton: 1
+      r1_xxreal_0: 1
+    skolems: []
   c_0_156:
-    np__2: 1
-    v1_int_2: 1
+    counts:
+      np__2: 1
+      v1_int_2: 1
+    skolems: []
   c_0_157:
-    k5_numbers: 1
-    m1_subset_1: 1
-    np__2: 1
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__2: 1
+    skolems: []
   c_0_158:
-    esk1_0: 1
-    k9_newton: 1
-    np__2: 1
-    r1_xxreal_0: 1
+    counts:
+      esk1_0: 1
+      k9_newton: 1
+      np__2: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
   c_0_160:
-    k2_xcmplx_0: 1
-    v7_ordinal1: 1
+    counts:
+      k2_xcmplx_0: 1
+      v7_ordinal1: 1
+    skolems: []
   c_0_163:
-    v1_xxreal_0: 1
+    counts:
+      v1_xxreal_0: 1
+    skolems: []
   c_0_164:
-    k3_newton: 1
-    v1_xxreal_0: 1
+    counts:
+      k3_newton: 1
+      v1_xxreal_0: 1
+    skolems: []
   c_0_169:
-    k9_newton: 1
-    r1_xxreal_0: 2
+    counts:
+      k9_newton: 1
+      r1_xxreal_0: 2
+    skolems: []
   c_0_172:
-    esk1_0: 1
-    np__2: 1
-    r1_xxreal_0: 1
+    counts:
+      esk1_0: 1
+      np__2: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
   c_0_176:
-    np__2: 1
-    v1_xxreal_0: 1
+    counts:
+      np__2: 1
+      v1_xxreal_0: 1
+    skolems: []
   c_0_179:
-    $false: 1
+    counts:
+      $false: 1
+    skolems: []
   c_0_39:
-    '=': 1
-    k1_xboole_0: 1
-    v1_xboole_0: 1
+    counts:
+      '=': 1
+      k1_xboole_0: 1
+      v1_xboole_0: 1
+    skolems: []
   c_0_40:
-    esk3_0: 1
-    v1_xboole_0: 1
+    counts:
+      esk3_0: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk3_0
   c_0_41:
-    '=': 1
-    k1_nat_1: 1
-    np__1: 2
-    r1_nat_d: 2
+    counts:
+      '=': 1
+      k1_nat_1: 1
+      np__1: 2
+      r1_nat_d: 2
+    skolems: []
   c_0_42:
-    r1_int_1: 1
-    r1_nat_d: 1
+    counts:
+      r1_int_1: 1
+      r1_nat_d: 1
+    skolems: []
   c_0_45:
-    k4_ordinal1: 1
-    v6_membered: 1
+    counts:
+      k4_ordinal1: 1
+      v6_membered: 1
+    skolems: []
   c_0_46:
-    '=': 1
-    k4_ordinal1: 1
-    k5_numbers: 1
+    counts:
+      '=': 1
+      k4_ordinal1: 1
+      k5_numbers: 1
+    skolems: []
   c_0_47:
-    '=': 1
-    k6_numbers: 1
-    k9_newton: 1
-    r1_nat_d: 1
-    r1_xxreal_0: 1
+    counts:
+      '=': 1
+      k6_numbers: 1
+      k9_newton: 1
+      r1_nat_d: 1
+      r1_xxreal_0: 1
+    skolems: []
   c_0_48:
-    '=': 1
-    k1_xboole_0: 1
-    k6_numbers: 1
+    counts:
+      '=': 1
+      k1_xboole_0: 1
+      k6_numbers: 1
+    skolems: []
   c_0_53:
-    esk4_1: 1
-    np__2: 1
-    r1_int_1: 1
-    r1_xxreal_0: 1
+    counts:
+      esk4_1: 1
+      np__2: 1
+      r1_int_1: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk4_1
   c_0_54:
-    m1_subset_1: 1
-    v6_membered: 1
-    v7_ordinal1: 1
+    counts:
+      m1_subset_1: 1
+      v6_membered: 1
+      v7_ordinal1: 1
+    skolems: []
   c_0_55:
-    esk4_1: 1
-    k5_numbers: 1
-    m1_subset_1: 1
-    np__2: 1
-    r1_xxreal_0: 1
+    counts:
+      esk4_1: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk4_1
   c_0_57:
-    '=': 1
-    k4_ordinal1: 1
-    k5_numbers: 1
+    counts:
+      '=': 1
+      k4_ordinal1: 1
+      k5_numbers: 1
+    skolems: []
   c_0_60:
-    '=': 1
-    esk3_0: 1
-    k1_xboole_0: 1
+    counts:
+      '=': 1
+      esk3_0: 1
+      k1_xboole_0: 1
+    skolems:
+    - esk3_0
   c_0_61:
-    np__0: 1
-    v1_xboole_0: 1
+    counts:
+      np__0: 1
+      v1_xboole_0: 1
+    skolems: []
   c_0_67:
-    k5_numbers: 1
-    v6_membered: 1
+    counts:
+      k5_numbers: 1
+      v6_membered: 1
+    skolems: []
   c_0_68:
-    '=': 1
-    k1_xboole_0: 1
-    k9_newton: 1
-    r1_nat_d: 1
-    r1_xxreal_0: 1
+    counts:
+      '=': 1
+      k1_xboole_0: 1
+      k9_newton: 1
+      r1_nat_d: 1
+      r1_xxreal_0: 1
+    skolems: []
   c_0_69:
-    '=': 1
-    esk3_0: 1
-    v1_xboole_0: 1
+    counts:
+      '=': 1
+      esk3_0: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk3_0
   c_0_74:
-    '=': 1
-    esk4_1: 2
-    k1_nat_1: 3
-    np__1: 4
-    np__2: 1
-    r1_nat_d: 1
-    r1_xxreal_0: 1
+    counts:
+      '=': 1
+      esk4_1: 2
+      k1_nat_1: 3
+      np__1: 4
+      np__2: 1
+      r1_nat_d: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk4_1
   c_0_76:
-    '=': 1
-    esk3_0: 1
-    k9_newton: 1
-    r1_nat_d: 1
-    r1_xxreal_0: 1
+    counts:
+      '=': 1
+      esk3_0: 1
+      k9_newton: 1
+      r1_nat_d: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk3_0
   c_0_77:
-    '=': 1
-    esk3_0: 1
-    np__0: 1
+    counts:
+      '=': 1
+      esk3_0: 1
+      np__0: 1
+    skolems:
+    - esk3_0
   c_0_78:
-    k3_newton: 1
-    v7_ordinal1: 1
+    counts:
+      k3_newton: 1
+      v7_ordinal1: 1
+    skolems: []
   c_0_79:
-    '=': 1
-    k3_newton: 1
-    k9_newton: 1
+    counts:
+      '=': 1
+      k3_newton: 1
+      k9_newton: 1
+    skolems: []
   c_0_80:
-    esk1_0: 1
-    r1_xxreal_0: 1
-    v1_int_2: 2
+    counts:
+      esk1_0: 1
+      r1_xxreal_0: 1
+      v1_int_2: 2
+    skolems:
+    - esk1_0
   c_0_82:
-    '=': 1
-    k9_newton: 1
-    np__0: 1
-    r1_nat_d: 1
-    r1_xxreal_0: 1
+    counts:
+      '=': 1
+      k9_newton: 1
+      np__0: 1
+      r1_nat_d: 1
+      r1_xxreal_0: 1
+    skolems: []
   c_0_86:
-    esk4_1: 1
-    np__2: 1
-    r1_xxreal_0: 1
-    v1_int_2: 1
+    counts:
+      esk4_1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+      v1_int_2: 1
+    skolems:
+    - esk4_1
   c_0_89:
-    '=': 2
-    esk4_1: 3
-    k1_nat_1: 4
-    k9_newton: 4
-    np__0: 1
-    np__1: 5
-    np__2: 1
-    r1_xxreal_0: 2
+    counts:
+      '=': 2
+      esk4_1: 3
+      k1_nat_1: 4
+      k9_newton: 4
+      np__0: 1
+      np__1: 5
+      np__2: 1
+      r1_xxreal_0: 2
+    skolems:
+    - esk4_1
   c_0_93:
-    esk1_0: 1
-    v7_ordinal1: 1
+    counts:
+      esk1_0: 1
+      v7_ordinal1: 1
+    skolems:
+    - esk1_0
   c_0_94:
-    k4_ordinal1: 1
-    m1_subset_1: 1
-    v7_ordinal1: 1
+    counts:
+      k4_ordinal1: 1
+      m1_subset_1: 1
+      v7_ordinal1: 1
+    skolems: []
   c_0_95:
-    np__1: 1
-    r1_xxreal_0: 1
-    v1_int_2: 1
+    counts:
+      np__1: 1
+      r1_xxreal_0: 1
+      v1_int_2: 1
+    skolems: []
   c_0_97:
-    esk1_0: 1
-    esk4_1: 1
-    np__2: 1
-    r1_xxreal_0: 2
+    counts:
+      esk1_0: 1
+      esk4_1: 1
+      np__2: 1
+      r1_xxreal_0: 2
+    skolems:
+    - esk4_1
+    - esk1_0
 symbols:
   $false:
     arity: 0

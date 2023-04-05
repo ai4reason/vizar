@@ -4,6 +4,7 @@ SRC_FILE = ", file("
 SRC_INFER = ", inference("
 
 WORD = re.compile(r"\w+")
+SKOLEM = re.compile(r"esk(\d+)_\d+")
 
 def formula_lang(line):
    if len(line) < 4 or line[3] != "(":
@@ -151,4 +152,16 @@ def pretty_strip(tptpfml):
    out = "\n".join(out[1:])
    out = out.rstrip(").")
    return out
+
+def follow(info, child):
+   fmls = info["fmls"]
+   if fmls[child]["lang"] == "cnf":
+      return [child]
+   return sum((follow(info, c) for c in fmls[child]["children"]), [])
+
+def skolems(fml):
+   ret = set()
+   for mo in SKOLEM.finditer(fml):
+      ret.add(mo.group(0))
+   return list(ret)
 

@@ -16,7 +16,11 @@ layout: axiom
 proof: %s
 step: %s
 ---
+
+%s
 """
+
+# <span class="kw">end;</span>
 
 f_tptp = sys.argv[1]
 d_out = sys.argv[2]
@@ -31,8 +35,10 @@ fmls = info["fmls"]
 for name in info["order"]:
    txt = dot.dot_step(info, name)
    open(os.path.join(d_out, name+".dot"),"w").write(txt)
-   if fmls[name]["role"] == "axiom":
-      open(os.path.join(d_proofs, name+".md"),"w").write(AXIOM % (f_tptp, name))
+   if not fmls[name]["parents"]:
+      print("Fetching %s" % name)
+      mzr = mizar.statement(name)
+      open(os.path.join(d_proofs, name+".md"),"w").write(AXIOM % (f_tptp, name, mzr))
    else:
       open(os.path.join(d_proofs, name+".md"),"w").write(STEP % (f_tptp, name))
 

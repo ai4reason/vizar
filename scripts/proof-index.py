@@ -9,10 +9,7 @@ layout: proof
 proof: %s
 ---
 
-<div class="mizar">
 %s
-<span class="kw">end;</span>
-</div>
 """
 
 

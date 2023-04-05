@@ -4,7 +4,6 @@ from urllib.error import URLError
 from . import tptp, label
 
 HREF = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/%s.html#%s"
-SKOLEM = re.compile(r"esk(\d+)_\d+")
 
 MPTP = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/"
 MPTP_PROOF =  MPTP + "%s.html"
@@ -16,6 +15,8 @@ def link(tok):
       parts = tok.split("_")
       (ref, name) = (parts[0].upper(), "_".join(parts[1:]))
       if ref[0].isalpha() and ref[1:].isdigit():
+         return HREF % (name, ref)
+      elif ref[0:2].isalpha() and ref[2:].isdigit():
          return HREF % (name, ref)
       elif len(parts) > 2:
          (ref, name) = (parts[1].upper(), "_".join(parts[2:]))
@@ -42,7 +43,7 @@ def symbol(name, table=trans()):
       return name[4:]
    if name in table:
       return table[name] 
-   mo = SKOLEM.match(name)
+   mo = tptp.SKOLEM.match(name)
    if mo:
       return "skolem%s" % label.subscripts(mo.group(1))
    return name
@@ -170,6 +171,7 @@ def set_labels(info):
          text = "⊥"
       fml["text"] = text
       fml["syms"] = syms
+      fml["skolems"] = tptp.skolems(fml["fml"])
       update_stats(syms, stats, miztrans)
    info["symbols"] = stats
 
@@ -241,22 +243,29 @@ def remove_fofs(info):
       unify_nodes(info, parent, x)
 
 def statement(f_tptp):
-  name = f_tptp.split("_")
-  anchor = ANCHOR % name[0].upper()
-  name = "_".join(name[1:])
-  try:
-    f = urlopen(MPTP_PROOF % name)
-  except URLError:
-     return "not found"
-  lines = f.read().decode().split("\n")
-  for (n,line) in enumerate(lines):
-     if anchor in line:
-        index = n
-        break
-  #index = lines.index(anchor)
-  mzr = lines[index+1]
-  mzr = mzr.replace('href="', 'href="'+MPTP)
-  return mzr
+   name = f_tptp.split("_")
+   anchor = ANCHOR % name[0].upper()
+   name = "_".join(name[1:])
+   try:
+     f = urlopen(MPTP_PROOF % name)
+   except URLError:
+      return ""
+   lines = f.read().decode().split("\n")
+   index = None
+   for (n,line) in enumerate(lines):
+      if anchor in line:
+         index = n
+         break
+   #index = lines.index(anchor)
+   if not index:
+      return ""
+ 
+   mzr = lines[index+1]
+   mzr = mzr.replace('href="', 'href="'+MPTP)
+   if "theorem" in mzr:
+      mzr += '<span class="kw">end;</span>'
+   mzr = '<div class="mizar">\n%s\n</div>' % mzr
+   return mzr
 
 def load(f_tptp):
    info = tptp.parse(f_tptp)
