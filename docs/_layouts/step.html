@@ -10,9 +10,34 @@ layout: default
 
 
 {% assign proof = site.data.proofs[page.proof] %}
-{% assign symbols = proof.steps[page.step].counts %}
-{% if symbols %}
+{% assign step = proof.steps[page.step] %}
+{% assign symbols = step.counts %}
+{% assign skolems = step.skolems %}
 
+{% if skolems and skolems != empty %}
+<h2>Step Skolem symbols</h2>
+{% assign skolems = skolems | sort %}
+<table>
+   <tr>
+      <th>symbol</th>
+      <th>origin</th>
+   </tr>
+
+{% for skolem in skolems %}
+   {% assign sk = proof.skolems[skolem] %}
+   <tr>
+      <td>{{sk.symbol}}</td>
+      <td>
+         <object type="image/svg+xml" data="/vizar/proofs/{{page.proof}}/{{sk.axiom}}.svg">
+            <img src="/vizar/proofs/{{page.proof}}/{{sk.axiom}}.svg" />
+         </object>
+      </td>
+   </tr>
+{% endfor %}
+</table>
+{% endif %}
+
+{% if symbols and symbols != empty %}
 <h2>Step Mizar symbols</h2>
 <table>
    <tr>

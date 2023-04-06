@@ -3,25 +3,13 @@ layout: default
 ---
 
 {% assign proof = site.data.proofs[page.proof] %}
+{% if page.step == proof.conjecture %}
+   {% assign name = "Conjecture" %}
+{% else %}
+   {% assign name = "Axiom" %}
+{% endif %}
 
-<h1>Axiom <b>{{page.step}}</b> of <a href="index.html">{{page.proof}}</a></h1>
-
-<h2>Mizar statement</h2>
-
-<p>
-{{ content }}
-</p>
-
-<p>
-See the <a href="{{proof.axioms[page.step].url}}" target="_mizar">Mizar definition</a>.
-</p>
-
-<h2>First-order translation</h2>
-
-<pre>
-{{ proof.axioms[page.step].fof }}
-</pre>
-
+<h1>{{name}} <b>{{page.step}}</b> of <a href="index.html">{{page.proof}}</a></h1>
 
 <h2>Clausified form</h2>
 
@@ -30,6 +18,28 @@ See the <a href="{{proof.axioms[page.step].url}}" target="_mizar">Mizar definiti
 </object>
 
 <p>(only the clauses actually used in the proof are displayed)</p>
+
+
+{% assign url = proof.axioms[page.step].url %}
+{% if url %}
+
+<h2>Mizar statement</h2>
+
+<p>
+{{ content }}
+</p>
+
+<p>
+See the <a href="{{url}}" target="_mizar">Mizar definition</a>.
+</p>
+{% endif %}
+
+<h2>First-order translation</h2>
+
+<pre>
+{{ proof.axioms[page.step].fof }}
+</pre>
+
 
 <h2>Raw TPTP formula</h2>
 
