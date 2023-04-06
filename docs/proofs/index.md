@@ -8,8 +8,10 @@ layout: page
 # Proofs
 
 <ul>
-{%- for proof in site.data.proofs -%}
- <li> <a href="{{proof[0]}}">{{ proof[0] }}</a> </li>
-{%- endfor -%}
+{% for proof in site.data.proofs %}
+  {% assign name = proof[0] %}
+  <li> <a href="{{name}}">{{name}}</a>: {{site.data.names[name]}}</li>
+{% endfor %}
 </ul>
+
 

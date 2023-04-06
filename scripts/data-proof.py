@@ -4,6 +4,11 @@
 import sys, yaml
 from vizar import dot, mizar, tptp, fof
 
+def asciify(s):
+   s = s.replace(r"\{", "{").replace(r"\}", "}")
+   s = s.replace(r"\|", "|")
+   return s
+
 f_tptp = sys.argv[1]
 
 info = mizar.load(f_tptp)
@@ -40,6 +45,11 @@ data = dict(symbols=info["symbols"],
             tptp=tptps, 
             axioms=axioms,
             skolems=skolems)
+
+for s in data["symbols"].values():
+   s["mizar"] = asciify(s["mizar"])
+   s["vizar"] = asciify(s["vizar"])
+
 print(yaml.dump(data))
 
 

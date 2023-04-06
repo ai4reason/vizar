@@ -2,19 +2,19 @@ m1_hidden set
 r1_hidden =
 r1_hidden &lt;&gt;
 r2_hidden in
-k1_tarski \{..\}
+k1_tarski \{###1\}
 k2_tarski \{..\}
 r1_tarski c=
 k3_tarski union
 k4_tarski [..]
 r2_tarski are_equipotent
-v1_xboole_0 ### = Ø
+v1_xboole_0 ###1 = Ø
 k1_xboole_0 Ø
-k2_xboole_0 \/
-k3_xboole_0 /\
+k2_xboole_0 ∪
+k3_xboole_0 ∩
 k4_xboole_0 \
 k5_xboole_0 \+\
-r1_xboole_0 misses
+r1_xboole_0 ###1 ∩ ###2 = Ø
 r2_xboole_0 c&lt;
 r3_xboole_0 are_c=-comparable
 r1_xboole_0 meets
@@ -50,7 +50,7 @@ k14_xtuple_0 proj2_4
 k12_xtuple_0 proj3_4
 k10_xtuple_0 proj4_4
 k1_zfmisc_1 bool
-k2_zfmisc_1 [:..:]
+k2_zfmisc_1 ###1 × ###2
 k3_zfmisc_1 [:..:]
 k4_zfmisc_1 [:..:]
 r1_zfmisc_1 are_mutually_different
@@ -60,7 +60,7 @@ r4_zfmisc_1 are_mutually_different
 r5_zfmisc_1 are_mutually_different
 v1_zfmisc_1 trivial
 m1_subset_1 ∈
-m2_subset_1 Element
+m2_subset_1 ###1 ∈ ###3 ⊆ ###2
 k1_subset_1 \{\}
 k2_subset_1 [#]
 k3_subset_1 `
@@ -141,7 +141,7 @@ v6_ordinal1 c=-linear
 k2_ordinal1 On
 k3_ordinal1 Lim
 k4_ordinal1 ω
-v7_ordinal1 ### ∈ ℕ 
+v7_ordinal1 ###1 ∈ ℕ 
 k1_wellord1 -Seg
 v1_wellord1 well_founded
 r1_wellord1 is_well_founded_in
@@ -189,9 +189,9 @@ k16_mcart_1 `22
 k1_wellord2 RelIncl
 k2_wellord2 order_type_of
 r1_wellord2 is_order_type_of
-r2_wellord2 are_equipotent
+r2_wellord2 \|###1\| = \|###2\|
 v1_funct_2 quasi_total
-k1_funct_2 Funcs
+k1_funct_2 \{f:###1 → ###2\}
 v2_funct_2 onto
 v3_funct_2 bijective
 k2_funct_2 "
@@ -424,8 +424,8 @@ k8_setwiseo .:
 k9_setwiseo FinUnion
 k10_setwiseo FinUnion
 k11_setwiseo singleton
-v1_card_1 cardinal
-k1_card_1 card
+v1_card_1 ###1 ∈ Card
+k1_card_1 \|###1\|
 k2_card_1 nextcard
 v2_card_1 limit_cardinal
 k3_card_1 alef
@@ -562,7 +562,7 @@ k4_xcmplx_0 -
 k5_xcmplx_0 "
 k6_xcmplx_0 -
 k7_xcmplx_0 /
-v1_xxreal_0 ### ∈ 𝔼
+v1_xxreal_0 ###1 ∈ 𝔼
 k1_xxreal_0 +infty
 k2_xxreal_0 -infty
 r1_xxreal_0 ≤
@@ -572,7 +572,7 @@ v3_xxreal_0 negative
 k3_xxreal_0 min
 k4_xxreal_0 max
 k5_xxreal_0 IFGT
-v1_xreal_0 ### ∈ ℝ
+v1_xreal_0 ###1 ∈ ℝ
 k1_xreal_0 -'
 k1_real_1 -
 k2_real_1 "
@@ -616,10 +616,10 @@ k1_rat_1 denominator
 k2_rat_1 numerator
 v1_membered complex-membered
 v2_membered ext-real-membered
-v3_membered ### ⊆ ℝ
+v3_membered ###1 ⊆ ℝ
 v4_membered rational-membered
 v5_membered integer-membered
-v6_membered ### ⊆ ℕ
+v6_membered ###1 ⊆ ℕ
 v7_membered add-closed
 v1_valued_0 complex-valued
 v2_valued_0 ext-real-valued
@@ -725,9 +725,9 @@ k1_xxreal_1 [....]
 k2_xxreal_1 [....[
 k3_xxreal_1 ]....]
 k4_xxreal_1 ]....[
-k1_card_2 +`
-k2_card_2 *`
-k3_card_2 exp
+k1_card_2 +
+k2_card_2 *
+k3_card_2 ^
 m1_xxreal_2 UpperBound
 m2_xxreal_2 LowerBound
 k1_xxreal_2 sup
@@ -1073,13 +1073,13 @@ k23_rvsum_1 \|(..)\|
 r1_rvsum_1 are_orthogonal
 k1_newton \|^
 k2_newton \|^
-k3_newton ###!
+k3_newton ###1!
 k4_newton choose
 k5_newton choose
 k6_newton choose
 k7_newton In_Power
 k8_newton Newton_Coeff
-k9_newton ###!
+k9_newton ###1!
 k10_newton SetPrimes
 k11_newton SetPrimenumber
 k12_newton primenumber

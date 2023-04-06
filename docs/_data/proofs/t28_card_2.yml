@@ -1,0 +1,818 @@
+axioms:
+  commutativity_k1_card_2:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 Card)\n        \u2227\
+      \ (X\u2082 \u2208 Card) )\n     \u21D2 (X\u2081 + X\u2082) = (X\u2082 + X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#K1
+  commutativity_k2_card_2:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 Card)\n        \u2227\
+      \ (X\u2082 \u2208 Card) )\n     \u21D2 (X\u2081 * X\u2082) = (X\u2082 * X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#K2
+  d2_card_2:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 Card)\n         \u21D2 (X\u2081 * X\u2082\
+      ) = (\\\u2228(X\u2081 \xD7 X\u2082)\\\u2228) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#D2
+  d3_card_2:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 Card)\n         \u21D2 (X\u2081 ^ X\u2082\
+      ) = (\\\u2228(\\{f:X\u2082 \u2192 X\u2081\\})\\\u2228) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#D3
+  dt_k1_card_1:
+    fof: "    (\u2200X\u2081) ((\\\u2228X\u2081\\\u2228) \u2208 Card) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+  projectivity_k1_card_1:
+    fof: "    (\u2200X\u2081) (\\\u2228(\\\u2228X\u2081\\\u2228)\\\u2228) = (\\\u2228\
+      X\u2081\\\u2228) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+  reflexivity_r2_wellord2:
+    fof: "    (\u2200X\u2081,X\u2082) (\\\u2228X\u2081\\\u2228 = \\\u2228X\u2081\\\
+      \u2228) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/wellord2.html#R2
+  t108_zfmisc_1:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083,X\u2084)\n      ( X\u2081 != X\u2082\n\
+      \     \u21D2 ( (((\\{X\u2081\\}) \xD7 X\u2083) \u2229 ((\\{X\u2082\\}) \xD7\
+      \ X\u2084) = \xD8)\n        \u2227 ((X\u2083 \xD7 (\\{X\u2081\\})) \u2229 (X\u2084\
+      \ \xD7 (\\{X\u2082\\})) = \xD8) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#T108
+  t10_card_2:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 Card)\n         \u21D2 (\u2200X\u2083\
+      ,X\u2084)\n              ( X\u2083 != X\u2084\n             \u21D2 ( (\\\u2228\
+      (X\u2081 + X\u2082)\\\u2228 = \\\u2228((X\u2081 \xD7 (\\{X\u2083\\})) \u222A\
+      \ (X\u2082 \xD7 (\\{X\u2084\\})))\\\u2228)\n                \u2227 (X\u2081\
+      \ + X\u2082) = (\\\u2228((X\u2081 \xD7 (\\{X\u2083\\})) \u222A (X\u2082 \xD7\
+      \ (\\{X\u2084\\})))\\\u2228) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#T10
+  t28_card_2:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 Card)\n         \u21D2 (\u2200X\u2083\
+      )\n              ( (X\u2083 \u2208 Card)\n             \u21D2 (X\u2081 ^ (X\u2082\
+      \ + X\u2083)) = ((X\u2081 ^ X\u2082) * (X\u2081 ^ X\u2083)) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#T28
+  t60_funct_5:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083,X\u2084)\n      ( ( (\\\u2228X\u2081\\\
+      \u2228 = \\\u2228X\u2082\\\u2228)\n        \u2227 (\\\u2228X\u2083\\\u2228 =\
+      \ \\\u2228X\u2084\\\u2228) )\n     \u21D2 ( (\\\u2228(\\{f:X\u2081 \u2192 X\u2083\
+      \\})\\\u2228 = \\\u2228(\\{f:X\u2082 \u2192 X\u2084\\})\\\u2228)\n        \u2227\
+      \ (\\\u2228(\\{f:X\u2081 \u2192 X\u2083\\})\\\u2228) = (\\\u2228(\\{f:X\u2082\
+      \ \u2192 X\u2084\\})\\\u2228) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_5.html#T60
+  t62_funct_5:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( (X\u2081 \u2229 X\u2082 = \xD8\
+      )\n     \u21D2 ( (\\\u2228(\\{f:(X\u2081 \u222A X\u2082) \u2192 X\u2083\\})\\\
+      \u2228 = \\\u2228((\\{f:X\u2081 \u2192 X\u2083\\}) \xD7 (\\{f:X\u2082 \u2192\
+      \ X\u2083\\}))\\\u2228)\n        \u2227 (\\\u2228(\\{f:(X\u2081 \u222A X\u2082\
+      ) \u2192 X\u2083\\})\\\u2228) = (\\\u2228((\\{f:X\u2081 \u2192 X\u2083\\}) \xD7\
+      \ (\\{f:X\u2082 \u2192 X\u2083\\}))\\\u2228) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_5.html#T62
+  t6_card_2:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (\\\u2228X\u2081\\\u2228 = \\\u2228\
+      (X\u2081 \xD7 (\\{X\u2082\\}))\\\u2228)\n      \u2227 (\\\u2228X\u2081\\\u2228\
+      ) = (\\\u2228(X\u2081 \xD7 (\\{X\u2082\\}))\\\u2228) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#T6
+  t7_card_2:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (\\\u2228(X\u2081 \xD7 X\u2082)\\\u2228\
+      \ = \\\u2228((\\\u2228X\u2081\\\u2228) \xD7 X\u2082)\\\u2228)\n      \u2227\
+      \ (\\\u2228(X\u2081 \xD7 X\u2082)\\\u2228 = \\\u2228(X\u2081 \xD7 (\\\u2228\
+      X\u2082\\\u2228))\\\u2228)\n      \u2227 (\\\u2228(X\u2081 \xD7 X\u2082)\\\u2228\
+      \ = \\\u2228((\\\u2228X\u2081\\\u2228) \xD7 (\\\u2228X\u2082\\\u2228))\\\u2228\
+      )\n      \u2227 (\\\u2228(X\u2081 \xD7 X\u2082)\\\u2228) = (\\\u2228((\\\u2228\
+      X\u2081\\\u2228) \xD7 X\u2082)\\\u2228)\n      \u2227 (\\\u2228(X\u2081 \xD7\
+      \ X\u2082)\\\u2228) = (\\\u2228(X\u2081 \xD7 (\\\u2228X\u2082\\\u2228))\\\u2228\
+      )\n      \u2227 (\\\u2228(X\u2081 \xD7 X\u2082)\\\u2228) = (\\\u2228((\\\u2228\
+      X\u2081\\\u2228) \xD7 (\\\u2228X\u2082\\\u2228))\\\u2228) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#T7
+conjecture: t28_card_2
+final: c_0_75
+skolems:
+  esk1_0:
+    axiom: t28_card_2
+    symbol: "skolem\u2081"
+  esk2_0:
+    axiom: t28_card_2
+    symbol: "skolem\u2082"
+  esk3_0:
+    axiom: t28_card_2
+    symbol: "skolem\u2083"
+steps:
+  c_0_16:
+    counts:
+      '=': 1
+      k2_card_2: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
+    skolems: []
+  c_0_17:
+    counts:
+      '=': 1
+      k1_card_1: 1
+      k2_card_2: 1
+      k2_zfmisc_1: 1
+      "\u03BA1": 2
+      "\u03BA2": 2
+    skolems: []
+  c_0_24:
+    counts:
+      '=': 1
+      k1_card_1: 1
+      k2_card_2: 1
+      k2_zfmisc_1: 1
+      "\u03BA1": 2
+      "\u03BA2": 2
+    skolems: []
+  c_0_26:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k1_funct_2: 2
+      r2_wellord2: 2
+    skolems: []
+  c_0_27:
+    counts:
+      r2_wellord2: 1
+    skolems: []
+  c_0_29:
+    counts:
+      '=': 1
+      k1_card_1: 3
+    skolems: []
+  c_0_30:
+    counts:
+      '=': 2
+      k1_card_1: 1
+      k1_card_2: 1
+      k1_tarski: 2
+      k2_xboole_0: 1
+      k2_zfmisc_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
+    skolems: []
+  c_0_32:
+    counts:
+      '=': 1
+      k1_card_1: 3
+      k2_zfmisc_1: 2
+    skolems: []
+  c_0_33:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k2_zfmisc_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
+    skolems: []
+  c_0_34:
+    counts:
+      '=': 1
+      k1_card_1: 3
+      k2_zfmisc_1: 2
+    skolems: []
+  c_0_35:
+    counts:
+      k1_card_1: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_36:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k1_funct_2: 2
+      r2_wellord2: 1
+    skolems: []
+  c_0_37:
+    counts:
+      k1_tarski: 1
+      k2_zfmisc_1: 1
+      r2_wellord2: 1
+    skolems: []
+  c_0_39:
+    counts:
+      '=': 2
+      k1_card_1: 1
+      k1_card_2: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
+    skolems: []
+  c_0_40:
+    counts:
+      esk3_0: 1
+      v1_card_1: 1
+    skolems:
+    - esk3_0
+  c_0_43:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k2_zfmisc_1: 2
+      "\u03BA1": 2
+    skolems: []
+  c_0_44:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k1_funct_2: 2
+      k1_tarski: 1
+      k2_zfmisc_1: 1
+    skolems: []
+  c_0_45:
+    counts:
+      '=': 1
+      esk1_0: 3
+      esk2_0: 2
+      esk3_0: 2
+      k1_card_2: 1
+      k2_card_2: 1
+      k3_card_2: 3
+    skolems:
+    - esk3_0
+    - esk1_0
+    - esk2_0
+  c_0_46:
+    counts:
+      '=': 1
+      k1_card_1: 1
+      k1_funct_2: 1
+      k3_card_2: 1
+      "\u03BA1": 2
+      "\u03BA2": 2
+    skolems: []
+  c_0_47:
+    counts:
+      esk2_0: 1
+      v1_card_1: 1
+    skolems:
+    - esk2_0
+  c_0_48:
+    counts:
+      esk1_0: 1
+      v1_card_1: 1
+    skolems:
+    - esk1_0
+  c_0_49:
+    counts:
+      '=': 2
+      esk3_0: 2
+      k1_card_1: 1
+      k1_card_2: 2
+      "\u03BA1": 2
+    skolems:
+    - esk3_0
+  c_0_50:
+    counts:
+      '=': 1
+      k1_card_2: 1
+      k1_tarski: 2
+      k2_xboole_0: 1
+      k2_zfmisc_1: 2
+      r2_wellord2: 1
+      "\u03BA1": 2
+      "\u03BA2": 2
+    skolems: []
+  c_0_51:
+    counts:
+      '=': 1
+      k1_card_2: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
+    skolems: []
+  c_0_52:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k1_funct_2: 3
+      k2_xboole_0: 1
+      k2_zfmisc_1: 1
+      r1_xboole_0: 1
+    skolems: []
+  c_0_53:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k2_zfmisc_1: 2
+    skolems: []
+  c_0_54:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k1_funct_2: 2
+      k1_tarski: 1
+      k2_zfmisc_1: 3
+    skolems: []
+  c_0_55:
+    counts:
+      '=': 1
+      esk1_0: 3
+      esk2_0: 2
+      esk3_0: 2
+      k1_card_1: 1
+      k1_card_2: 1
+      k1_funct_2: 1
+      k2_card_2: 1
+      k3_card_2: 2
+    skolems:
+    - esk3_0
+    - esk1_0
+    - esk2_0
+  c_0_56:
+    counts:
+      '=': 2
+      esk2_0: 2
+      esk3_0: 2
+      k1_card_1: 1
+      k1_card_2: 2
+    skolems:
+    - esk3_0
+    - esk2_0
+  c_0_57:
+    counts:
+      '=': 1
+      k1_card_2: 1
+      k1_tarski: 2
+      k2_xboole_0: 1
+      k2_zfmisc_1: 2
+      r2_wellord2: 1
+      "\u03BA3": 2
+      "\u03BA4": 2
+    skolems: []
+  c_0_58:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k1_funct_2: 3
+      k2_xboole_0: 1
+      k2_zfmisc_1: 1
+      r1_xboole_0: 1
+    skolems: []
+  c_0_59:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k1_funct_2: 2
+      k1_tarski: 1
+      k2_zfmisc_1: 3
+    skolems: []
+  c_0_61:
+    counts:
+      '=': 1
+      esk1_0: 4
+      esk2_0: 2
+      esk3_0: 3
+      k1_card_1: 1
+      k1_card_2: 1
+      k1_funct_2: 1
+      k2_zfmisc_1: 1
+      k3_card_2: 3
+      v1_card_1: 1
+    skolems:
+    - esk3_0
+    - esk1_0
+    - esk2_0
+  c_0_62:
+    counts:
+      '=': 2
+      esk2_0: 2
+      esk3_0: 2
+      k1_card_1: 1
+      k1_card_2: 2
+    skolems:
+    - esk3_0
+    - esk2_0
+  c_0_63:
+    counts:
+      '=': 2
+      k1_card_1: 2
+      k1_card_2: 1
+      k1_funct_2: 2
+      k1_tarski: 2
+      k2_xboole_0: 1
+      k2_zfmisc_1: 2
+      "\u03BA1": 2
+      "\u03BA3": 2
+    skolems: []
+  c_0_64:
+    counts:
+      '=': 1
+      k1_card_1: 2
+      k1_funct_2: 3
+      k1_tarski: 2
+      k2_xboole_0: 1
+      k2_zfmisc_1: 3
+      r1_xboole_0: 1
+    skolems: []
+  c_0_65:
+    counts:
+      '=': 1
+      k1_tarski: 2
+      k2_zfmisc_1: 2
+      r1_xboole_0: 1
+    skolems: []
+  c_0_66:
+    counts:
+      '=': 1
+      esk1_0: 3
+      esk2_0: 2
+      esk3_0: 2
+      k1_card_1: 1
+      k1_card_2: 1
+      k1_funct_2: 2
+      k2_zfmisc_1: 1
+      k3_card_2: 1
+    skolems:
+    - esk3_0
+    - esk1_0
+    - esk2_0
+  c_0_67:
+    counts:
+      '=': 1
+      esk2_0: 2
+      esk3_0: 2
+      k1_card_1: 1
+      k1_card_2: 2
+    skolems:
+    - esk3_0
+    - esk2_0
+  c_0_68:
+    counts:
+      '=': 2
+      k1_card_1: 2
+      k1_card_2: 1
+      k1_funct_2: 3
+      k2_zfmisc_1: 1
+      "\u03BA1": 2
+      "\u03BA3": 2
+    skolems: []
+  c_0_69:
+    counts:
+      '=': 1
+      esk1_0: 3
+      esk2_0: 3
+      esk3_0: 3
+      k1_card_1: 2
+      k1_card_2: 2
+      k1_funct_2: 3
+      k2_zfmisc_1: 1
+      v1_card_1: 1
+    skolems:
+    - esk3_0
+    - esk1_0
+    - esk2_0
+  c_0_70:
+    counts:
+      esk2_0: 1
+      esk3_0: 1
+      k1_card_2: 1
+      v1_card_1: 1
+    skolems:
+    - esk3_0
+    - esk2_0
+  c_0_71:
+    counts:
+      '=': 2
+      esk2_0: 2
+      k1_card_1: 2
+      k1_card_2: 1
+      k1_funct_2: 3
+      k2_zfmisc_1: 1
+      "\u03BA2": 2
+    skolems:
+    - esk2_0
+  c_0_72:
+    counts:
+      '=': 1
+      esk1_0: 3
+      esk2_0: 2
+      esk3_0: 2
+      k1_card_1: 2
+      k1_card_2: 1
+      k1_funct_2: 3
+      k2_zfmisc_1: 1
+    skolems:
+    - esk3_0
+    - esk1_0
+    - esk2_0
+  c_0_73:
+    counts:
+      '=': 2
+      esk2_0: 2
+      esk3_0: 2
+      k1_card_1: 2
+      k1_card_2: 1
+      k1_funct_2: 3
+      k2_zfmisc_1: 1
+    skolems:
+    - esk3_0
+    - esk2_0
+  c_0_74:
+    counts:
+      '=': 1
+    skolems: []
+  c_0_75:
+    counts:
+      $false: 1
+    skolems: []
+symbols:
+  $false:
+    arity: 0
+    count: 1
+    mizar: $false
+    neg: 0
+    pos: 1
+    url: null
+    vizar: $false
+  '=':
+    arity: 2
+    count: 48
+    mizar: '='
+    neg: 7
+    pos: 41
+    url: null
+    vizar: x = y
+  esk1_0:
+    arity: 0
+    count: 20
+    mizar: "skolem\u2081"
+    neg: 19
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK1
+    vizar: "skolem\u2081"
+  esk2_0:
+    arity: 0
+    count: 25
+    mizar: "skolem\u2082"
+    neg: 14
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK2
+    vizar: "skolem\u2082"
+  esk3_0:
+    arity: 0
+    count: 26
+    mizar: "skolem\u2083"
+    neg: 15
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK3
+    vizar: "skolem\u2083"
+  k1_card_1:
+    arity: 1
+    count: 56
+    mizar: card
+    neg: 7
+    pos: 49
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+    vizar: '|x|'
+  k1_card_2:
+    arity: 2
+    count: 27
+    mizar: +`
+    neg: 8
+    pos: 19
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#K1
+    vizar: x + y
+  k1_funct_2:
+    arity: 2
+    count: 41
+    mizar: Funcs
+    neg: 10
+    pos: 31
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_2.html#K1
+    vizar: "{f:x \u2192 y}"
+  k1_tarski:
+    arity: 1
+    count: 16
+    mizar: '{..}'
+    neg: 1
+    pos: 15
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K1
+    vizar: '{x}'
+  k2_card_2:
+    arity: 2
+    count: 6
+    mizar: '*`'
+    neg: 2
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#K2
+    vizar: x * y
+  k2_xboole_0:
+    arity: 2
+    count: 7
+    mizar: \/
+    neg: 0
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K2
+    vizar: "x \u222A y"
+  k2_zfmisc_1:
+    arity: 2
+    count: 42
+    mizar: '[:..:]'
+    neg: 5
+    pos: 37
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K2
+    vizar: "x \xD7 y"
+  k3_card_2:
+    arity: 2
+    count: 10
+    mizar: exp
+    neg: 9
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#K3
+    vizar: x ^ y
+  r1_xboole_0:
+    arity: 2
+    count: 4
+    mizar: misses
+    neg: 3
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#R1
+    vizar: "x \u2229 y = \xD8"
+  r2_wellord2:
+    arity: 2
+    count: 7
+    mizar: are_equipotent
+    neg: 3
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/wellord2.html#R2
+    vizar: '|x| = |y|'
+  v1_card_1:
+    arity: 1
+    count: 7
+    mizar: cardinal
+    neg: 2
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#V1
+    vizar: "x \u2208 Card"
+  "\u03BA1":
+    arity: 0
+    count: 26
+    mizar: "\u03BA1"
+    neg: 0
+    pos: 26
+    url: null
+    vizar: "\u03BA1"
+  "\u03BA2":
+    arity: 0
+    count: 20
+    mizar: "\u03BA2"
+    neg: 0
+    pos: 20
+    url: null
+    vizar: "\u03BA2"
+  "\u03BA3":
+    arity: 0
+    count: 6
+    mizar: "\u03BA3"
+    neg: 0
+    pos: 6
+    url: null
+    vizar: "\u03BA3"
+  "\u03BA4":
+    arity: 0
+    count: 2
+    mizar: "\u03BA4"
+    neg: 0
+    pos: 2
+    url: null
+    vizar: "\u03BA4"
+tptp:
+  c_0_16: "cnf(c_0_16,plain,\n    ( k2_card_2(X1,X2) = k2_card_2(X2,X1)\n    | ~ v1_card_1(X1)\n\
+    \    | ~ v1_card_1(X2) ))."
+  c_0_17: "cnf(c_0_17,plain,\n    ( k2_card_2(X1,X2) = k1_card_1(k2_zfmisc_1(X1,X2))\n\
+    \    | ~ v1_card_1(X1)\n    | ~ v1_card_1(X2) ))."
+  c_0_24: "cnf(c_0_24,plain,\n    ( k2_card_2(X1,X2) = k1_card_1(k2_zfmisc_1(X2,X1))\n\
+    \    | ~ v1_card_1(X2)\n    | ~ v1_card_1(X1) ))."
+  c_0_26: "cnf(c_0_26,plain,\n    ( k1_card_1(k1_funct_2(X1,X2)) = k1_card_1(k1_funct_2(X3,X4))\n\
+    \    | ~ r2_wellord2(X1,X3)\n    | ~ r2_wellord2(X2,X4) ))."
+  c_0_27: "cnf(c_0_27,plain,\n    ( r2_wellord2(X1,X1) ))."
+  c_0_29: "cnf(c_0_29,plain,\n    ( k1_card_1(k1_card_1(X1)) = k1_card_1(X1) ))."
+  c_0_30: "cnf(c_0_30,plain,\n    ( k1_card_2(X1,X2) = k1_card_1(k2_xboole_0(k2_zfmisc_1(X1,k1_tarski(X3)),k2_zfmisc_1(X2,k1_tarski(X4))))\n\
+    \    | X3 = X4\n    | ~ v1_card_1(X2)\n    | ~ v1_card_1(X1) ))."
+  c_0_32: "cnf(c_0_32,plain,\n    ( k1_card_1(k2_zfmisc_1(X1,X2)) = k1_card_1(k2_zfmisc_1(k1_card_1(X1),X2))\
+    \ ))."
+  c_0_33: "cnf(c_0_33,plain,\n    ( k1_card_1(k2_zfmisc_1(X1,X2)) = k1_card_1(k2_zfmisc_1(X2,X1))\n\
+    \    | ~ v1_card_1(X1)\n    | ~ v1_card_1(X2) ))."
+  c_0_34: "cnf(c_0_34,plain,\n    ( k1_card_1(k2_zfmisc_1(X1,X2)) = k1_card_1(k2_zfmisc_1(X1,k1_card_1(X2)))\
+    \ ))."
+  c_0_35: "cnf(c_0_35,plain,\n    ( v1_card_1(k1_card_1(X1)) ))."
+  c_0_36: "cnf(c_0_36,plain,\n    ( k1_card_1(k1_funct_2(X1,X2)) = k1_card_1(k1_funct_2(X3,X2))\n\
+    \    | ~ r2_wellord2(X1,X3) ))."
+  c_0_37: "cnf(c_0_37,plain,\n    ( r2_wellord2(X1,k2_zfmisc_1(X1,k1_tarski(X2)))\
+    \ ))."
+  c_0_39: "cnf(c_0_39,plain,\n    ( k1_card_1(k1_card_2(X1,X2)) = k1_card_2(X1,X2)\n\
+    \    | X3 = X4\n    | ~ v1_card_1(X2)\n    | ~ v1_card_1(X1) ))."
+  c_0_40: "cnf(c_0_40,negated_conjecture,\n    ( v1_card_1(esk3_0) ))."
+  c_0_43: "cnf(c_0_43,plain,\n    ( k1_card_1(k2_zfmisc_1(X1,X2)) = k1_card_1(k2_zfmisc_1(X2,X1))\n\
+    \    | ~ v1_card_1(X1) ))."
+  c_0_44: "cnf(c_0_44,plain,\n    ( k1_card_1(k1_funct_2(k2_zfmisc_1(X1,k1_tarski(X2)),X3))\
+    \ = k1_card_1(k1_funct_2(X1,X3)) ))."
+  c_0_45: "cnf(c_0_45,negated_conjecture,\n    ( k3_card_2(esk1_0,k1_card_2(esk2_0,esk3_0))\
+    \ != k2_card_2(k3_card_2(esk1_0,esk2_0),k3_card_2(esk1_0,esk3_0)) ))."
+  c_0_46: "cnf(c_0_46,plain,\n    ( k3_card_2(X1,X2) = k1_card_1(k1_funct_2(X2,X1))\n\
+    \    | ~ v1_card_1(X1)\n    | ~ v1_card_1(X2) ))."
+  c_0_47: "cnf(c_0_47,negated_conjecture,\n    ( v1_card_1(esk2_0) ))."
+  c_0_48: "cnf(c_0_48,negated_conjecture,\n    ( v1_card_1(esk1_0) ))."
+  c_0_49: "cnf(c_0_49,negated_conjecture,\n    ( k1_card_1(k1_card_2(X1,esk3_0)) =\
+    \ k1_card_2(X1,esk3_0)\n    | X2 = X3\n    | ~ v1_card_1(X1) ))."
+  c_0_50: "cnf(c_0_50,plain,\n    ( r2_wellord2(k1_card_2(X1,X2),k2_xboole_0(k2_zfmisc_1(X1,k1_tarski(X3)),k2_zfmisc_1(X2,k1_tarski(X4))))\n\
+    \    | X3 = X4\n    | ~ v1_card_1(X2)\n    | ~ v1_card_1(X1) ))."
+  c_0_51: "cnf(c_0_51,plain,\n    ( k1_card_2(X1,X2) = k1_card_2(X2,X1)\n    | ~ v1_card_1(X1)\n\
+    \    | ~ v1_card_1(X2) ))."
+  c_0_52: "cnf(c_0_52,plain,\n    ( k1_card_1(k1_funct_2(k2_xboole_0(X1,X2),X3)) =\
+    \ k1_card_1(k2_zfmisc_1(k1_funct_2(X1,X3),k1_funct_2(X2,X3)))\n    | ~ r1_xboole_0(X1,X2)\
+    \ ))."
+  c_0_53: "cnf(c_0_53,plain,\n    ( k1_card_1(k2_zfmisc_1(X1,X2)) = k1_card_1(k2_zfmisc_1(X2,X1))\
+    \ ))."
+  c_0_54: "cnf(c_0_54,plain,\n    ( k1_card_1(k2_zfmisc_1(X1,k1_funct_2(k2_zfmisc_1(X2,k1_tarski(X3)),X4)))\
+    \ = k1_card_1(k2_zfmisc_1(X1,k1_funct_2(X2,X4))) ))."
+  c_0_55: "cnf(c_0_55,negated_conjecture,\n    ( k2_card_2(k1_card_1(k1_funct_2(esk2_0,esk1_0)),k3_card_2(esk1_0,esk3_0))\
+    \ != k3_card_2(esk1_0,k1_card_2(esk2_0,esk3_0)) ))."
+  c_0_56: "cnf(c_0_56,negated_conjecture,\n    ( k1_card_1(k1_card_2(esk2_0,esk3_0))\
+    \ = k1_card_2(esk2_0,esk3_0)\n    | X1 = X2 ))."
+  c_0_57: "cnf(c_0_57,plain,\n    ( X1 = X2\n    | r2_wellord2(k1_card_2(X3,X4),k2_xboole_0(k2_zfmisc_1(X4,k1_tarski(X1)),k2_zfmisc_1(X3,k1_tarski(X2))))\n\
+    \    | ~ v1_card_1(X3)\n    | ~ v1_card_1(X4) ))."
+  c_0_58: "cnf(c_0_58,plain,\n    ( k1_card_1(k2_zfmisc_1(k1_funct_2(X1,X2),k1_funct_2(X3,X2)))\
+    \ = k1_card_1(k1_funct_2(k2_xboole_0(X3,X1),X2))\n    | ~ r1_xboole_0(X3,X1) ))."
+  c_0_59: "cnf(c_0_59,plain,\n    ( k1_card_1(k2_zfmisc_1(k1_funct_2(k2_zfmisc_1(X1,k1_tarski(X2)),X3),X4))\
+    \ = k1_card_1(k2_zfmisc_1(X4,k1_funct_2(X1,X3))) ))."
+  c_0_61: "cnf(c_0_61,negated_conjecture,\n    ( k1_card_1(k2_zfmisc_1(k1_funct_2(esk2_0,esk1_0),k3_card_2(esk1_0,esk3_0)))\
+    \ != k3_card_2(esk1_0,k1_card_2(esk2_0,esk3_0))\n    | ~ v1_card_1(k3_card_2(esk1_0,esk3_0))\
+    \ ))."
+  c_0_62: "cnf(c_0_62,negated_conjecture,\n    ( X1 = k1_card_1(k1_card_2(esk2_0,esk3_0))\n\
+    \    | k1_card_2(esk2_0,esk3_0) != X1 ))."
+  c_0_63: "cnf(c_0_63,plain,\n    ( k1_card_1(k1_funct_2(k2_xboole_0(k2_zfmisc_1(X1,k1_tarski(X2)),k2_zfmisc_1(X3,k1_tarski(X4))),X5))\
+    \ = k1_card_1(k1_funct_2(k1_card_2(X3,X1),X5))\n    | X2 = X4\n    | ~ v1_card_1(X3)\n\
+    \    | ~ v1_card_1(X1) ))."
+  c_0_64: "cnf(c_0_64,plain,\n    ( k1_card_1(k2_zfmisc_1(k1_funct_2(X1,X2),k1_funct_2(X3,X2)))\
+    \ = k1_card_1(k1_funct_2(k2_xboole_0(X1,k2_zfmisc_1(X3,k1_tarski(X4))),X2))\n\
+    \    | ~ r1_xboole_0(X1,k2_zfmisc_1(X3,k1_tarski(X4))) ))."
+  c_0_65: "cnf(c_0_65,plain,\n    ( r1_xboole_0(k2_zfmisc_1(X1,k1_tarski(X2)),k2_zfmisc_1(X3,k1_tarski(X4)))\n\
+    \    | X2 = X4 ))."
+  c_0_66: "cnf(c_0_66,negated_conjecture,\n    ( k3_card_2(esk1_0,k1_card_2(esk2_0,esk3_0))\
+    \ != k1_card_1(k2_zfmisc_1(k1_funct_2(esk2_0,esk1_0),k1_funct_2(esk3_0,esk1_0)))\
+    \ ))."
+  c_0_67: "cnf(c_0_67,negated_conjecture,\n    ( k1_card_1(k1_card_2(esk2_0,esk3_0))\
+    \ = k1_card_2(esk2_0,esk3_0) ))."
+  c_0_68: "cnf(c_0_68,plain,\n    ( k1_card_1(k2_zfmisc_1(k1_funct_2(X1,X2),k1_funct_2(X3,X2)))\
+    \ = k1_card_1(k1_funct_2(k1_card_2(X1,X3),X2))\n    | X4 = X5\n    | ~ v1_card_1(X1)\n\
+    \    | ~ v1_card_1(X3) ))."
+  c_0_69: "cnf(c_0_69,negated_conjecture,\n    ( k1_card_1(k1_funct_2(k1_card_2(esk2_0,esk3_0),esk1_0))\
+    \ != k1_card_1(k2_zfmisc_1(k1_funct_2(esk2_0,esk1_0),k1_funct_2(esk3_0,esk1_0)))\n\
+    \    | ~ v1_card_1(k1_card_2(esk2_0,esk3_0)) ))."
+  c_0_70: "cnf(c_0_70,negated_conjecture,\n    ( v1_card_1(k1_card_2(esk2_0,esk3_0))\
+    \ ))."
+  c_0_71: "cnf(c_0_71,negated_conjecture,\n    ( k1_card_1(k2_zfmisc_1(k1_funct_2(esk2_0,X1),k1_funct_2(X2,X1)))\
+    \ = k1_card_1(k1_funct_2(k1_card_2(esk2_0,X2),X1))\n    | X3 = X4\n    | ~ v1_card_1(X2)\
+    \ ))."
+  c_0_72: "cnf(c_0_72,negated_conjecture,\n    ( k1_card_1(k1_funct_2(k1_card_2(esk2_0,esk3_0),esk1_0))\
+    \ != k1_card_1(k2_zfmisc_1(k1_funct_2(esk2_0,esk1_0),k1_funct_2(esk3_0,esk1_0)))\
+    \ ))."
+  c_0_73: "cnf(c_0_73,negated_conjecture,\n    ( k1_card_1(k2_zfmisc_1(k1_funct_2(esk2_0,X1),k1_funct_2(esk3_0,X1)))\
+    \ = k1_card_1(k1_funct_2(k1_card_2(esk2_0,esk3_0),X1))\n    | X2 = X3 ))."
+  c_0_74: "cnf(c_0_74,negated_conjecture,\n    ( X1 = X2 ))."
+  c_0_75: "cnf(c_0_75,negated_conjecture,\n    ( $false ))."
+  commutativity_k1_card_2: "fof(commutativity_k1_card_2,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( v1_card_1(X1)\n        & v1_card_1(X2) )\n     => k1_card_2(X1,X2)\
+    \ = k1_card_2(X2,X1) ) ))."
+  commutativity_k2_card_2: "fof(commutativity_k2_card_2,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( v1_card_1(X1)\n        & v1_card_1(X2) )\n     => k2_card_2(X1,X2)\
+    \ = k2_card_2(X2,X1) ) ))."
+  d2_card_2: "fof(d2_card_2,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ ! [X2] :\n          ( v1_card_1(X2)\n         => k2_card_2(X1,X2) = k1_card_1(k2_zfmisc_1(X1,X2))\
+    \ ) ) ))."
+  d3_card_2: "fof(d3_card_2,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ ! [X2] :\n          ( v1_card_1(X2)\n         => k3_card_2(X1,X2) = k1_card_1(k1_funct_2(X2,X1))\
+    \ ) ) ))."
+  dt_k1_card_1: "fof(dt_k1_card_1,axiom,(\n    ! [X1] : v1_card_1(k1_card_1(X1)) ))."
+  projectivity_k1_card_1: "fof(projectivity_k1_card_1,axiom,(\n    ! [X1] : k1_card_1(k1_card_1(X1))\
+    \ = k1_card_1(X1) ))."
+  reflexivity_r2_wellord2: "fof(reflexivity_r2_wellord2,axiom,(\n    ! [X1,X2] : r2_wellord2(X1,X1)\
+    \ ))."
+  t108_zfmisc_1: "fof(t108_zfmisc_1,axiom,(\n    ! [X1,X2,X3,X4] :\n      ( X1 !=\
+    \ X2\n     => ( r1_xboole_0(k2_zfmisc_1(k1_tarski(X1),X3),k2_zfmisc_1(k1_tarski(X2),X4))\n\
+    \        & r1_xboole_0(k2_zfmisc_1(X3,k1_tarski(X1)),k2_zfmisc_1(X4,k1_tarski(X2)))\
+    \ ) ) ))."
+  t10_card_2: "fof(t10_card_2,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ ! [X2] :\n          ( v1_card_1(X2)\n         => ! [X3,X4] :\n             \
+    \ ( X3 != X4\n             => ( r2_wellord2(k1_card_2(X1,X2),k2_xboole_0(k2_zfmisc_1(X1,k1_tarski(X3)),k2_zfmisc_1(X2,k1_tarski(X4))))\n\
+    \                & k1_card_2(X1,X2) = k1_card_1(k2_xboole_0(k2_zfmisc_1(X1,k1_tarski(X3)),k2_zfmisc_1(X2,k1_tarski(X4))))\
+    \ ) ) ) ) ))."
+  t28_card_2: "fof(t28_card_2,conjecture,(\n    ! [X1] :\n      ( v1_card_1(X1)\n\
+    \     => ! [X2] :\n          ( v1_card_1(X2)\n         => ! [X3] :\n         \
+    \     ( v1_card_1(X3)\n             => k3_card_2(X1,k1_card_2(X2,X3)) = k2_card_2(k3_card_2(X1,X2),k3_card_2(X1,X3))\
+    \ ) ) ) ))."
+  t60_funct_5: "fof(t60_funct_5,axiom,(\n    ! [X1,X2,X3,X4] :\n      ( ( r2_wellord2(X1,X2)\n\
+    \        & r2_wellord2(X3,X4) )\n     => ( r2_wellord2(k1_funct_2(X1,X3),k1_funct_2(X2,X4))\n\
+    \        & k1_card_1(k1_funct_2(X1,X3)) = k1_card_1(k1_funct_2(X2,X4)) ) ) ))."
+  t62_funct_5: "fof(t62_funct_5,axiom,(\n    ! [X1,X2,X3] :\n      ( r1_xboole_0(X1,X2)\n\
+    \     => ( r2_wellord2(k1_funct_2(k2_xboole_0(X1,X2),X3),k2_zfmisc_1(k1_funct_2(X1,X3),k1_funct_2(X2,X3)))\n\
+    \        & k1_card_1(k1_funct_2(k2_xboole_0(X1,X2),X3)) = k1_card_1(k2_zfmisc_1(k1_funct_2(X1,X3),k1_funct_2(X2,X3)))\
+    \ ) ) ))."
+  t6_card_2: "fof(t6_card_2,axiom,(\n    ! [X1,X2] :\n      ( r2_wellord2(X1,k2_zfmisc_1(X1,k1_tarski(X2)))\n\
+    \      & k1_card_1(X1) = k1_card_1(k2_zfmisc_1(X1,k1_tarski(X2))) ) ))."
+  t7_card_2: "fof(t7_card_2,axiom,(\n    ! [X1,X2] :\n      ( r2_wellord2(k2_zfmisc_1(X1,X2),k2_zfmisc_1(k1_card_1(X1),X2))\n\
+    \      & r2_wellord2(k2_zfmisc_1(X1,X2),k2_zfmisc_1(X1,k1_card_1(X2)))\n     \
+    \ & r2_wellord2(k2_zfmisc_1(X1,X2),k2_zfmisc_1(k1_card_1(X1),k1_card_1(X2)))\n\
+    \      & k1_card_1(k2_zfmisc_1(X1,X2)) = k1_card_1(k2_zfmisc_1(k1_card_1(X1),X2))\n\
+    \      & k1_card_1(k2_zfmisc_1(X1,X2)) = k1_card_1(k2_zfmisc_1(X1,k1_card_1(X2)))\n\
+    \      & k1_card_1(k2_zfmisc_1(X1,X2)) = k1_card_1(k2_zfmisc_1(k1_card_1(X1),k1_card_1(X2)))\
+    \ ) ))."
+

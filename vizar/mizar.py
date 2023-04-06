@@ -3,11 +3,29 @@ from urllib.request import urlopen
 from urllib.error import URLError
 from . import tptp, label
 
+VARSORTS = {
+   "v7_ordinal1": "N",  # "natural"
+   "v1_xreal_0":  "R",  # "real"
+   "v1_xxreal_0": "E",  # "ext-real"
+   "v1_card_1": "κ",    # cardinal
+}
+
+HIDDEN = [
+   "v7_ordinal1",
+   "v1_xreal_0",
+   "v1_xxreal_0",
+]
+
 HREF = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/%s.html#%s"
 
 MPTP = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/"
-MPTP_PROOF =  MPTP + "%s.html"
-ANCHOR = '<div about="#%s" typeof="oo:Theorem">'
+
+#MPTP_PROOF =  MPTP + "%s.html"
+#ANCHOR = '<div about="#%s" typeof="oo:Theorem">'
+
+VARS = ["x","y","z","u","v","w"]
+
+TPL = re.compile(r"###(\d*)")
 
 def link(tok):
    tok = tok.lstrip("~")
@@ -60,15 +78,6 @@ def translate(lits):
       term = lit[1:]
       ret.append([sgn] + symbol_apply(symbol, term))
    return ret
-
-VARSORTS = {
-   "v7_ordinal1": "N",  # "natural"
-   "v1_xreal_0":  "R",  # "real"
-   "v1_xxreal_0": "E", # "ext-real"
-}
-
-#HIDDEN = set(["natural"])
-HIDDEN = VARSORTS.keys()
 
 def rename_term(t, subst, table):
    if type(t) is str:
@@ -124,13 +133,17 @@ def set_ancestors(info, name=None):
       ret.update(fmls[parent]["ancestors"])
    fmls[name]["ancestors"] = ret
 
-VARS = ["x","y","z","u","v","w"]
+def instatiate(tpl, args):
+   def replace(mo):
+      return args[int(mo.group(1))-1]
+   return TPL.sub(replace, tpl)
 
 def vizar_def(sym, arity):
    viz = symbol(sym)
    if "###" in viz:
-      viz = viz.replace("###", "x")
-   if not label.WORD.match(viz):
+      #viz = viz.replace("###", "x")
+      viz = instatiate(viz, VARS)
+   elif not label.WORD.match(viz):
       if arity == 2:
          viz = "x %s y" % viz
    elif arity > 0:
@@ -242,30 +255,51 @@ def remove_fofs(info):
       parent = list(fmls[x]["parents"])[0]
       unify_nodes(info, parent, x)
 
+#def statement(f_tptp, offline=True):
+#   name = f_tptp.split("_")
+#   anchor = ANCHOR % name[0].upper()
+#   name = "_".join(name[1:])
+#   if offline:
+#      try:
+#         lines = open(f"MPTP/{name}.html").read().split("\n")
+#      except FileNotFoundError:
+#         return ""
+#   else:
+#      try:
+#        f = urlopen(MPTP_PROOF % name)
+#      except URLError:
+#         return ""
+#      lines = f.read().decode().split("\n")
+#   index = None
+#   for (n,line) in enumerate(lines):
+#      if anchor in line:
+#         index = n
+#         break
+#   #index = lines.index(anchor)
+#   if not index:
+#      return ""
+# 
+#   mzr = lines[index+1]
+#   mzr = mzr.replace('href="', 'href="'+MPTP)
+#   if "theorem" in mzr:
+#      mzr += '<span class="kw">end;</span>'
+#   mzr = '<div class="mizar">\n%s\n</div>' % mzr
+#   return mzr
+
 def statement(f_tptp):
    name = f_tptp.split("_")
-   anchor = ANCHOR % name[0].upper()
+   ref = name[0].upper()
    name = "_".join(name[1:])
    try:
-     f = urlopen(MPTP_PROOF % name)
-   except URLError:
+      mzr = open(f"MPTP/refs/{name}/{ref}").read().strip().split("\n")
+   except FileNotFoundError:
       return ""
-   lines = f.read().decode().split("\n")
-   index = None
-   for (n,line) in enumerate(lines):
-      if anchor in line:
-         index = n
-         break
-   #index = lines.index(anchor)
-   if not index:
-      return ""
- 
-   mzr = lines[index+1]
+   mzr = "\n".join(mzr[1:])
+   mzr = mzr
    mzr = mzr.replace('href="', 'href="'+MPTP)
-   if "theorem" in mzr:
-      mzr += '<span class="kw">end;</span>'
    mzr = '<div class="mizar">\n%s\n</div>' % mzr
    return mzr
+
 
 def load(f_tptp):
    info = tptp.parse(f_tptp)

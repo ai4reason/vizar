@@ -10,49 +10,55 @@ def subscripts(s):
       return SUBS[int(c)] if c.isnumeric() else c
    return "".join(map(subdigit, s))
 
-def term(t, pars=False):
+def isvar(t):
+   return (t[0].isupper or t[0] in mizar.VARSORTS.values()) and t[1:].isdigit()
+
+def term(t, pars=False, predicate=False):
    if type(t) is str:
-      if t[0].isupper():
+      if isvar(t):
          return subscripts(t)
       return mizar.symbol(t)
-      #return t
    else:
       head = term(t[0])
       args = t[1:]
       if WORD.match(head):
          return "%s(%s)" % (head, ",".join(term(t) for t in args))
       else:
-         if len(args) >= 2:
+         args = [term(s,pars=not predicate) for s in t[1:]]
+         if "###" in head:
+            ret = mizar.instatiate(head, args)
+         elif len(args) >= 2:
             sep = " "+head+" "
-            ret = sep.join(term(t,True) for t in args)
-            ret = "(%s)" % ret if pars else ret
-            return ret
+            ret = sep.join(args)
          elif len(args) == 1:
-            if "###" in head:
-               ret = head.replace("###", term(args[0],True))
-            else:
-              ret = " %s %s" % (head, term(args[0],True))
-            ret = "(%s)" % ret if pars else ret
-            return ret
+            ret = " %s %s" % (head, args[0])
          else:
             return head
+         ret = "(%s)" % ret if pars else ret
+         return ret
 
 def clause(lits):
    pos = []
    neg = []
    for lit in lits:
       if lit[0]: 
-         pos.append(term(lit[1:]))
+         pos.append(term(lit[1:], predicate=True))
       else:
-         neg.append(term(lit[1:]))
+         neg.append(term(lit[1:], predicate=True))
    pos = sorted(set(pos))
    neg = sorted(set(neg))
    if pos and neg:
-     return "{%s|⇊|%s}" % ("|".join(neg), "|".join(pos))
+      return "{%s|⇊|%s}" % ("|".join(neg), "|".join(pos))
    elif pos:
-     return "{%s}" % "|".join(pos)
+      return "{%s}" % "|".join(pos)
    elif neg:
-     return "{%s|⇊|⊥}" % "|".join(neg)
+      if len(neg) == 1:
+         if " = " in neg[0]:
+            return "{%s}" % neg[0].replace(" = ", " ≠ ")
+         else:
+            return "{¬ (%s)}" % neg[0]
+      else:
+         return "{%s|⇊|⊥}" % "|".join(neg)
    else:
      return "⊥"
       

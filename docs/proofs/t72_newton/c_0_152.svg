@@ -14,11 +14,11 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="13,-90 13,-122 103,-122 103,-90 13,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="19,-90 19,-122 97,-122 97,-90 19,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="14,-8 14,-70 102,-70 102,-8 14,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="19,-8 19,-70 97,-70 97,-8 19,-8"/>
 </g>
 <!-- t38_newton -->
 <g id="node1" class="node">
@@ -32,9 +32,9 @@
 <!-- c_0_152 -->
 <g id="node2" class="node">
 <title>c_0_152</title>
-<g id="a_node2"><a xlink:href="c_0_152.html" xlink:title="{N₁ ≤ (N₁!)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="21.5,-98.5 21.5,-113.5 94.5,-113.5 94.5,-98.5 21.5,-98.5"/>
-<text text-anchor="middle" x="58" y="-102.3" font-family="Times,serif" font-size="14.00">N₁ ≤ (N₁!)</text>
+<g id="a_node2"><a xlink:href="c_0_152.html" xlink:title="{N₁ ≤ N₁!}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="27,-98.5 27,-113.5 89,-113.5 89,-98.5 27,-98.5"/>
+<text text-anchor="middle" x="58" y="-102.3" font-family="Times,serif" font-size="14.00">N₁ ≤ N₁!</text>
 </a>
 </g>
 </g>
@@ -47,13 +47,13 @@
 <!-- c_0_169 -->
 <g id="node3" class="node">
 <title>c_0_169</title>
-<g id="a_node3"><a xlink:href="c_0_169.html" xlink:title="{E₁ ≤ N₂|⇊|E₁ ≤ (N₂!)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="22.5,-16.5 22.5,-61.5 93.5,-61.5 93.5,-16.5 22.5,-16.5"/>
+<g id="a_node3"><a xlink:href="c_0_169.html" xlink:title="{E₁ ≤ N₂|⇊|E₁ ≤ N₂!}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="27.5,-16.5 27.5,-61.5 88.5,-61.5 88.5,-16.5 27.5,-16.5"/>
 <text text-anchor="middle" x="58" y="-50.3" font-family="Times,serif" font-size="14.00">E₁ ≤ N₂</text>
-<polyline fill="none" stroke="#7f7542" points="22.5,-46.5 93.5,-46.5 "/>
+<polyline fill="none" stroke="#7f7542" points="27.5,-46.5 88.5,-46.5 "/>
 <text text-anchor="middle" x="58" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="22.5,-31.5 93.5,-31.5 "/>
-<text text-anchor="middle" x="58" y="-20.3" font-family="Times,serif" font-size="14.00">E₁ ≤ (N₂!)</text>
+<polyline fill="none" stroke="#7f7542" points="27.5,-31.5 88.5,-31.5 "/>
+<text text-anchor="middle" x="58" y="-20.3" font-family="Times,serif" font-size="14.00">E₁ ≤ N₂!</text>
 </a>
 </g>
 </g>
