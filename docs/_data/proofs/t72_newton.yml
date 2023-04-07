@@ -156,13 +156,19 @@ final: c_0_179
 skolems:
   esk1_0:
     axiom: t72_newton
-    symbol: "skolem\u2081"
+    related:
+    - esk1_0
+    symbol: "sk\u2081"
   esk3_0:
     axiom: rc4_xreal_0
-    symbol: "skolem\u2083"
+    related:
+    - esk3_0
+    symbol: "sk\u2083"
   esk4_1:
     axiom: t31_int_2
-    symbol: "skolem\u2084"
+    related:
+    - esk4_1
+    symbol: "sk\u2084"
 steps:
   c_0_100:
     counts:
@@ -600,27 +606,27 @@ symbols:
   esk1_0:
     arity: 0
     count: 21
-    mizar: "skolem\u2081"
+    mizar: "sk\u2081"
     neg: 8
     pos: 13
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK1
-    vizar: "skolem\u2081"
+    vizar: "sk\u2081"
   esk3_0:
     arity: 0
     count: 6
-    mizar: "skolem\u2083"
+    mizar: "sk\u2083"
     neg: 0
     pos: 6
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK3
-    vizar: "skolem\u2083"
+    vizar: "sk\u2083"
   esk4_1:
     arity: 1
     count: 24
-    mizar: "skolem\u2084"
+    mizar: "sk\u2084"
     neg: 5
     pos: 19
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/1.html#ESK4
-    vizar: "skolem\u2084(x)"
+    vizar: "sk\u2084(x)"
   k1_nat_1:
     arity: 2
     count: 28

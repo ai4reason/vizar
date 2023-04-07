@@ -36,7 +36,10 @@ for name in info["order"]:
       for cnf in cnfs:
          for sk in info["fmls"][cnf]["skolems"]:
             skolems[sk] = dict(axiom=name, symbol=mizar.symbol(sk))
-
+            
+for sk in skolems:
+   axiom = skolems[sk]["axiom"]
+   skolems[sk]["related"] = [s for s in skolems if skolems[s]["axiom"] == axiom]
 
 data = dict(symbols=info["symbols"], 
             conjecture=conj, 

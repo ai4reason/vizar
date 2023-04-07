@@ -23,16 +23,25 @@ layout: default
       <th>origin</th>
    </tr>
 
+{% assign done = "" | split: "" %}
 {% for skolem in skolems %}
    {% assign sk = proof.skolems[skolem] %}
+   {% unless done contains skolem %}
    <tr>
-      <td>{{sk.symbol}}</td>
+      <td>
+         {% assign rels = sk.related | sort %}
+         {% for related in rels %}
+            {{proof.skolems[related].symbol}}<br/>
+            {% assign done = done | push: related %}
+         {% endfor %}
+      </td>
       <td>
          <object type="image/svg+xml" data="/vizar/proofs/{{page.proof}}/{{sk.axiom}}.svg">
             <img src="/vizar/proofs/{{page.proof}}/{{sk.axiom}}.svg" />
          </object>
       </td>
    </tr>
+   {% endunless %}
 {% endfor %}
 </table>
 {% endif %}
@@ -52,8 +61,8 @@ layout: default
 {% for sym in symbols %}
    {% assign name = sym[0] %}
    {% assign symbol = proof.symbols[name] %}
-   {% assign prefix = symbol.mizar | slice: 0, 6 %}
-   {% if sym[0] != symbol.mizar and prefix != "skolem" %}
+   {% assign prefix = symbol.mizar | slice: 0, 2 %}
+   {% if sym[0] != symbol.mizar and prefix != "sk" %}
    <tr>
       <td>{{sym[0]}}</td>
       {% if symbol.url %}

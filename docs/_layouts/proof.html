@@ -47,16 +47,26 @@ See also the <a href="{{proof.axioms[proof.conjecture].url}}" target="_mizar">Mi
       <th>origin</th>
    </tr>
 
+{% assign done = "" | split: "" %}
 {% for skolem in skolems %}
+   {% unless done contains skolem[0] %}
    <tr>
-      <td>{{skolem[1].symbol}}</td>
+      <td>
+         {% assign rels = skolem[1].related | sort %}
+         {% for related in rels %}
+            {{proof.skolems[related].symbol}}<br/>
+            {% assign done = done | push: related %}
+         {% endfor %}
+      </td>
       <td>
          <object type="image/svg+xml" data="/vizar/proofs/{{page.proof}}/{{skolem[1].axiom}}.svg">
             <img src="/vizar/proofs/{{page.proof}}/{{skolem[1].axiom}}.svg" />
-</object>
+         </object>
       </td>
    </tr>
+   {% endunless %}
 {% endfor %}
+
 </table>
 {% endif %}
 
@@ -74,8 +84,8 @@ See also the <a href="{{proof.axioms[proof.conjecture].url}}" target="_mizar">Mi
 {% assign symbols = site.data.proofs[page.proof].symbols | sort %}
 {% for sym in symbols %}
 
-   {% assign prefix = sym[1].mizar | slice: 0, 6 %}
-   {% if sym[0] != sym[1].mizar and prefix != "skolem" %}
+   {% assign prefix = sym[1].mizar | slice: 0, 2 %}
+   {% if sym[0] != sym[1].mizar and prefix != "sk" %}
    <tr>
       <td>{{sym[0]}}</td>
       {% if sym[1].url %}

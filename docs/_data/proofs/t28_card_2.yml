@@ -89,12 +89,24 @@ final: c_0_75
 skolems:
   esk1_0:
     axiom: t28_card_2
+    related:
+    - esk2_0
+    - esk1_0
+    - esk3_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t28_card_2
+    related:
+    - esk2_0
+    - esk1_0
+    - esk3_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t28_card_2
+    related:
+    - esk2_0
+    - esk1_0
+    - esk3_0
     symbol: "sk\u2083"
 steps:
   c_0_16:
@@ -226,9 +238,9 @@ steps:
       k2_card_2: 1
       k3_card_2: 3
     skolems:
+    - esk2_0
     - esk3_0
     - esk1_0
-    - esk2_0
   c_0_46:
     counts:
       '=': 1
@@ -312,9 +324,9 @@ steps:
       k2_card_2: 1
       k3_card_2: 2
     skolems:
+    - esk2_0
     - esk3_0
     - esk1_0
-    - esk2_0
   c_0_56:
     counts:
       '=': 2
@@ -323,8 +335,8 @@ steps:
       k1_card_1: 1
       k1_card_2: 2
     skolems:
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_57:
     counts:
       '=': 1
@@ -366,9 +378,9 @@ steps:
       k3_card_2: 3
       v1_card_1: 1
     skolems:
+    - esk2_0
     - esk3_0
     - esk1_0
-    - esk2_0
   c_0_62:
     counts:
       '=': 2
@@ -377,8 +389,8 @@ steps:
       k1_card_1: 1
       k1_card_2: 2
     skolems:
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_63:
     counts:
       '=': 2
@@ -420,9 +432,9 @@ steps:
       k2_zfmisc_1: 1
       k3_card_2: 1
     skolems:
+    - esk2_0
     - esk3_0
     - esk1_0
-    - esk2_0
   c_0_67:
     counts:
       '=': 1
@@ -431,8 +443,8 @@ steps:
       k1_card_1: 1
       k1_card_2: 2
     skolems:
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_68:
     counts:
       '=': 2
@@ -455,9 +467,9 @@ steps:
       k2_zfmisc_1: 1
       v1_card_1: 1
     skolems:
+    - esk2_0
     - esk3_0
     - esk1_0
-    - esk2_0
   c_0_70:
     counts:
       esk2_0: 1
@@ -465,8 +477,8 @@ steps:
       k1_card_2: 1
       v1_card_1: 1
     skolems:
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_71:
     counts:
       '=': 2
@@ -489,9 +501,9 @@ steps:
       k1_funct_2: 3
       k2_zfmisc_1: 1
     skolems:
+    - esk2_0
     - esk3_0
     - esk1_0
-    - esk2_0
   c_0_73:
     counts:
       '=': 2
@@ -502,8 +514,8 @@ steps:
       k1_funct_2: 3
       k2_zfmisc_1: 1
     skolems:
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_74:
     counts:
       '=': 1

@@ -6,5 +6,5 @@ layout: page
 title: Home
 ---
 
-# VizAR
+# VizAR: The Proof Navigator
 
