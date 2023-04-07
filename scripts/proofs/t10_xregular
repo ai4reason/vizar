@@ -1,0 +1,448 @@
+2020-06-10 03:17:14.512103: I tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_69
+2020-06-10 03:17:14.621487: I tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2020-06-10 03:17:14.794810: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2020-06-10 03:17:15.418570: I tensorflow/cc/saved_model/loader.cc:202] Restoring SavedModel bundle.
+2020-06-10 03:17:17.467971: I tensorflow/cc/saved_model/loader.cc:311] SavedModel load for tags { serve }; Status: success. Took 2955884 microseconds.
+# ENIGMA: TensorFlow C library version 1.15.0
+# ENIGMA: TensorFlow: model 'models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_69' loaded (query=128; context=256; weigths=real; len_mult=0.000000).
+# Preprocessing time       : 4.152 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(d1_tarski, axiom, ![X1, X2]:(X2=k1_tarski(X1)<=>![X3]:(r2_hidden(X3,X2)<=>X3=X1)), file('/local1/mptp/loop2/hardpred_knn256_miz1/preds__0.5/t10_xregular', d1_tarski)).
+fof(t6_xregular, axiom, ![X1]:(~(v1_xboole_0(X1))=>?[X2]:(r2_hidden(X2,X1)&![X3, X4, X5, X6, X7]:((r2_hidden(X3,X4)&(r2_hidden(X4,X5)&(r2_hidden(X5,X6)&(r2_hidden(X6,X7)&r2_hidden(X7,X2)))))=>r1_xboole_0(X3,X1)))), file('/local1/mptp/loop2/hardpred_knn256_miz1/preds__0.5/t10_xregular', t6_xregular)).
+fof(t10_xregular, conjecture, ![X1, X2, X3, X4, X5, X6]:~((r2_hidden(X1,X2)&(r2_hidden(X2,X3)&(r2_hidden(X3,X4)&(r2_hidden(X4,X5)&(r2_hidden(X5,X6)&r2_hidden(X6,X1))))))), file('/local1/mptp/loop2/hardpred_knn256_miz1/preds__0.5/t10_xregular', t10_xregular)).
+fof(t7_boole, axiom, ![X1, X2]:~((r2_hidden(X1,X2)&v1_xboole_0(X2))), file('/local1/mptp/loop2/hardpred_knn256_miz1/preds__0.5/t10_xregular', t7_boole)).
+fof(t3_xboole_0, axiom, ![X1, X2]:(~((~(r1_xboole_0(X1,X2))&![X3]:~((r2_hidden(X3,X1)&r2_hidden(X3,X2)))))&~((?[X3]:(r2_hidden(X3,X1)&r2_hidden(X3,X2))&r1_xboole_0(X1,X2)))), file('/local1/mptp/loop2/hardpred_knn256_miz1/preds__0.5/t10_xregular', t3_xboole_0)).
+fof(c_0_5, plain, ![X92, X93, X94, X95, X96, X97]:(((~r2_hidden(X94,X93)|X94=X92|X93!=k1_tarski(X92))&(X95!=X92|r2_hidden(X95,X93)|X93!=k1_tarski(X92)))&((~r2_hidden(esk14_2(X96,X97),X97)|esk14_2(X96,X97)!=X96|X97=k1_tarski(X96))&(r2_hidden(esk14_2(X96,X97),X97)|esk14_2(X96,X97)=X96|X97=k1_tarski(X96)))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(fof_nnf,[status(thm)],[d1_tarski])])])])])])).
+fof(c_0_6, plain, ![X105, X107, X108, X109, X110, X111]:((r2_hidden(esk16_1(X105),X105)|v1_xboole_0(X105))&(~r2_hidden(X107,X108)|(~r2_hidden(X108,X109)|(~r2_hidden(X109,X110)|(~r2_hidden(X110,X111)|~r2_hidden(X111,esk16_1(X105)))))|r1_xboole_0(X107,X105)|v1_xboole_0(X105))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t6_xregular])])])])])])])).
+cnf(c_0_7, plain, (X1=X3|~r2_hidden(X1,X2)|X2!=k1_tarski(X3)), inference(split_conjunct,[status(thm)],[c_0_5])).
+cnf(c_0_8, plain, (r2_hidden(esk16_1(X1),X1)|v1_xboole_0(X1)), inference(split_conjunct,[status(thm)],[c_0_6])).
+cnf(c_0_9, plain, (X1=X3|X2!=k1_tarski(X3)|~r2_hidden(X1,X2)), inference(evalgc,[status(thm)],[c_0_7])).
+cnf(c_0_10, plain, (v1_xboole_0(X1)|r2_hidden(esk16_1(X1),X1)), inference(evalgc,[status(thm)],[c_0_8])).
+fof(c_0_11, negated_conjecture, ~(![X1, X2, X3, X4, X5, X6]:~((r2_hidden(X1,X2)&(r2_hidden(X2,X3)&(r2_hidden(X3,X4)&(r2_hidden(X4,X5)&(r2_hidden(X5,X6)&r2_hidden(X6,X1)))))))), inference(assume_negation,[status(cth)],[t10_xregular])).
+cnf(c_0_12, plain, (r1_xboole_0(X1,X6)|v1_xboole_0(X6)|~r2_hidden(X1,X2)|~r2_hidden(X2,X3)|~r2_hidden(X3,X4)|~r2_hidden(X4,X5)|~r2_hidden(X5,esk16_1(X6))), inference(split_conjunct,[status(thm)],[c_0_6])).
+cnf(c_0_13, plain, (esk16_1(X1)=X2|v1_xboole_0(X1)|X1!=k1_tarski(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_9, c_0_10])])).
+fof(c_0_14, negated_conjecture, (r2_hidden(esk1_0,esk2_0)&(r2_hidden(esk2_0,esk3_0)&(r2_hidden(esk3_0,esk4_0)&(r2_hidden(esk4_0,esk5_0)&(r2_hidden(esk5_0,esk6_0)&r2_hidden(esk6_0,esk1_0)))))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[c_0_11])])])).
+cnf(c_0_15, plain, (v1_xboole_0(X6)|r1_xboole_0(X1,X6)|~r2_hidden(X4,X5)|~r2_hidden(X3,X4)|~r2_hidden(X2,X3)|~r2_hidden(X1,X2)|~r2_hidden(X5,esk16_1(X6))), inference(evalgc,[status(thm)],[c_0_12])).
+cnf(c_0_16, plain, (esk16_1(k1_tarski(X1))=X1|v1_xboole_0(k1_tarski(X1))), inference(evalgc,[status(thm)],[inference(er,[status(thm)],[c_0_13])])).
+cnf(c_0_17, negated_conjecture, (r2_hidden(esk5_0,esk6_0)), inference(split_conjunct,[status(thm)],[c_0_14])).
+cnf(c_0_18, plain, (v1_xboole_0(k1_tarski(X1))|r1_xboole_0(X2,k1_tarski(X1))|~r2_hidden(X3,X1)|~r2_hidden(X4,X3)|~r2_hidden(X5,X4)|~r2_hidden(X6,X5)|~r2_hidden(X2,X6)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_15, c_0_16])])).
+cnf(c_0_19, negated_conjecture, (r2_hidden(esk5_0,esk6_0)), inference(evalgc,[status(thm)],[c_0_17])).
+cnf(c_0_20, negated_conjecture, (r2_hidden(esk4_0,esk5_0)), inference(split_conjunct,[status(thm)],[c_0_14])).
+cnf(c_0_21, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k1_tarski(X2)), inference(split_conjunct,[status(thm)],[c_0_5])).
+cnf(c_0_22, negated_conjecture, (v1_xboole_0(k1_tarski(esk6_0))|r1_xboole_0(X1,k1_tarski(esk6_0))|~r2_hidden(X2,esk5_0)|~r2_hidden(X3,X2)|~r2_hidden(X4,X3)|~r2_hidden(X1,X4)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_18, c_0_19])])).
+cnf(c_0_23, negated_conjecture, (r2_hidden(esk4_0,esk5_0)), inference(evalgc,[status(thm)],[c_0_20])).
+cnf(c_0_24, negated_conjecture, (r2_hidden(esk3_0,esk4_0)), inference(split_conjunct,[status(thm)],[c_0_14])).
+fof(c_0_25, plain, ![X70, X71]:(~r2_hidden(X70,X71)|~v1_xboole_0(X71)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t7_boole])])).
+cnf(c_0_26, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k1_tarski(X2)), inference(evalgc,[status(thm)],[c_0_21])).
+cnf(c_0_27, negated_conjecture, (v1_xboole_0(k1_tarski(esk6_0))|r1_xboole_0(X1,k1_tarski(esk6_0))|~r2_hidden(X2,esk4_0)|~r2_hidden(X3,X2)|~r2_hidden(X1,X3)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_22, c_0_23])])).
+cnf(c_0_28, negated_conjecture, (r2_hidden(esk3_0,esk4_0)), inference(evalgc,[status(thm)],[c_0_24])).
+cnf(c_0_29, negated_conjecture, (r2_hidden(esk2_0,esk3_0)), inference(split_conjunct,[status(thm)],[c_0_14])).
+cnf(c_0_30, plain, (~r2_hidden(X1,X2)|~v1_xboole_0(X2)), inference(split_conjunct,[status(thm)],[c_0_25])).
+cnf(c_0_31, plain, (r2_hidden(X1,X2)|X2!=k1_tarski(X1)), inference(evalgc,[status(thm)],[inference(er,[status(thm)],[c_0_26])])).
+fof(c_0_32, plain, ![X62, X63, X65, X66, X67]:(((r2_hidden(esk10_2(X62,X63),X62)|r1_xboole_0(X62,X63))&(r2_hidden(esk10_2(X62,X63),X63)|r1_xboole_0(X62,X63)))&(~r2_hidden(X67,X65)|~r2_hidden(X67,X66)|~r1_xboole_0(X65,X66))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t3_xboole_0])])])])])])])).
+cnf(c_0_33, negated_conjecture, (v1_xboole_0(k1_tarski(esk6_0))|r1_xboole_0(X1,k1_tarski(esk6_0))|~r2_hidden(X2,esk3_0)|~r2_hidden(X1,X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_27, c_0_28])])).
+cnf(c_0_34, negated_conjecture, (r2_hidden(esk2_0,esk3_0)), inference(evalgc,[status(thm)],[c_0_29])).
+cnf(c_0_35, plain, (~v1_xboole_0(X2)|~r2_hidden(X1,X2)), inference(evalgc,[status(thm)],[c_0_30])).
+cnf(c_0_36, plain, (r2_hidden(X1,k1_tarski(X1))), inference(evalgc,[status(thm)],[inference(er,[status(thm)],[c_0_31])])).
+cnf(c_0_37, plain, (~r2_hidden(X1,X2)|~r2_hidden(X1,X3)|~r1_xboole_0(X2,X3)), inference(split_conjunct,[status(thm)],[c_0_32])).
+cnf(c_0_38, negated_conjecture, (v1_xboole_0(k1_tarski(esk6_0))|r1_xboole_0(X1,k1_tarski(esk6_0))|~r2_hidden(X1,esk2_0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_33, c_0_34])])).
+cnf(c_0_39, plain, (~v1_xboole_0(k1_tarski(X1))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_35, c_0_36])])).
+cnf(c_0_40, plain, (~r2_hidden(X1,X3)|~r2_hidden(X1,X2)|~r1_xboole_0(X2,X3)), inference(evalgc,[status(thm)],[c_0_37])).
+cnf(c_0_41, negated_conjecture, (r1_xboole_0(X1,k1_tarski(esk6_0))|~r2_hidden(X1,esk2_0)), inference(sr,[status(thm)],[c_0_38, c_0_39])).
+cnf(c_0_42, negated_conjecture, (~r2_hidden(X2,k1_tarski(esk6_0))|~r2_hidden(X2,X1)|~r2_hidden(X1,esk2_0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_40, c_0_41])])).
+cnf(c_0_43, plain, (esk16_1(k1_tarski(X1))=X1), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[c_0_16, c_0_39])])).
+cnf(c_0_44, negated_conjecture, (r2_hidden(esk1_0,esk2_0)), inference(split_conjunct,[status(thm)],[c_0_14])).
+cnf(c_0_45, negated_conjecture, (r2_hidden(esk6_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_14])).
+cnf(c_0_46, negated_conjecture, (~r2_hidden(X1,esk2_0)|~r2_hidden(esk6_0,X1)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_42, c_0_10]), c_0_43]), c_0_39])])).
+cnf(c_0_47, negated_conjecture, (r2_hidden(esk1_0,esk2_0)), inference(evalgc,[status(thm)],[c_0_44])).
+cnf(c_0_48, negated_conjecture, (r2_hidden(esk6_0,esk1_0)), inference(evalgc,[status(thm)],[c_0_45])).
+cnf(c_0_49, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_46, c_0_47]), c_0_48])]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 50
+# Proof object clause steps            : 39
+# Proof object formula steps           : 11
+# Proof object conjectures             : 23
+# Proof object clause conjectures      : 20
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 12
+# Proof object initial formulas used   : 5
+# Proof object generating inferences   : 12
+# Proof object simplifying inferences  : 7
+# Training examples: 25 positive, 285 negative
+# Training: Positive examples begin
+cnf(c_0_47, negated_conjecture, (r2_hidden(esk1_0,esk2_0))).# trainpos
+cnf(c_0_34, negated_conjecture, (r2_hidden(esk2_0,esk3_0))).# trainpos
+cnf(c_0_28, negated_conjecture, (r2_hidden(esk3_0,esk4_0))).# trainpos
+cnf(c_0_23, negated_conjecture, (r2_hidden(esk4_0,esk5_0))).# trainpos
+cnf(c_0_19, negated_conjecture, (r2_hidden(esk5_0,esk6_0))).# trainpos
+cnf(c_0_48, negated_conjecture, (r2_hidden(esk6_0,esk1_0))).# trainpos
+cnf(c_0_35, plain, (~v1_xboole_0(X2)|~r2_hidden(X1,X2))).# trainpos
+cnf(c_0_10, plain, (v1_xboole_0(X1)|r2_hidden(esk16_1(X1),X1))).# trainpos
+cnf(c_0_26, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k1_tarski(X2))).# trainpos
+cnf(c_0_40, plain, (~r2_hidden(X1,X3)|~r2_hidden(X1,X2)|~r1_xboole_0(X2,X3))).# trainpos
+cnf(c_0_9, plain, (X1=X3|X2!=k1_tarski(X3)|~r2_hidden(X1,X2))).# trainpos
+cnf(c_0_15, plain, (v1_xboole_0(X6)|r1_xboole_0(X1,X6)|~r2_hidden(X4,X5)|~r2_hidden(X3,X4)|~r2_hidden(X2,X3)|~r2_hidden(X1,X2)|~r2_hidden(X5,esk16_1(X6)))).# trainpos
+cnf(c_0_31, plain, (r2_hidden(X1,X2)|X2!=k1_tarski(X1))).# trainpos
+cnf(c_0_13, plain, (esk16_1(X1)=X2|v1_xboole_0(X1)|X1!=k1_tarski(X2))).# trainpos
+cnf(c_0_36, plain, (r2_hidden(X1,k1_tarski(X1)))).# trainpos
+cnf(c_0_16, plain, (esk16_1(k1_tarski(X1))=X1|v1_xboole_0(k1_tarski(X1)))).# trainpos
+cnf(c_0_18, plain, (v1_xboole_0(k1_tarski(X1))|r1_xboole_0(X2,k1_tarski(X1))|~r2_hidden(X3,X1)|~r2_hidden(X4,X3)|~r2_hidden(X5,X4)|~r2_hidden(X6,X5)|~r2_hidden(X2,X6))).# trainpos
+cnf(c_0_22, negated_conjecture, (v1_xboole_0(k1_tarski(esk6_0))|r1_xboole_0(X1,k1_tarski(esk6_0))|~r2_hidden(X2,esk5_0)|~r2_hidden(X3,X2)|~r2_hidden(X4,X3)|~r2_hidden(X1,X4))).# trainpos
+cnf(c_0_27, negated_conjecture, (v1_xboole_0(k1_tarski(esk6_0))|r1_xboole_0(X1,k1_tarski(esk6_0))|~r2_hidden(X2,esk4_0)|~r2_hidden(X3,X2)|~r2_hidden(X1,X3))).# trainpos
+cnf(c_0_33, negated_conjecture, (v1_xboole_0(k1_tarski(esk6_0))|r1_xboole_0(X1,k1_tarski(esk6_0))|~r2_hidden(X2,esk3_0)|~r2_hidden(X1,X2))).# trainpos
+cnf(c_0_39, plain, (~v1_xboole_0(k1_tarski(X1)))).# trainpos
+cnf(c_0_38, negated_conjecture, (v1_xboole_0(k1_tarski(esk6_0))|r1_xboole_0(X1,k1_tarski(esk6_0))|~r2_hidden(X1,esk2_0))).# trainpos
+cnf(c_0_43, plain, (esk16_1(k1_tarski(X1))=X1)).# trainpos
+cnf(c_0_42, negated_conjecture, (~r2_hidden(X2,k1_tarski(esk6_0))|~r2_hidden(X2,X1)|~r2_hidden(X1,esk2_0))).# trainpos
+cnf(c_0_46, negated_conjecture, (~r2_hidden(X1,esk2_0)|~r2_hidden(esk6_0,X1))).# trainpos
+# Training: Positive examples end
+# Training: Negative examples begin
+cnf(i_0_47, plain, (v1_xboole_0(X1)|r2_hidden(esk11_1(X1),X1))).#trainneg
+cnf(i_0_51, plain, (v1_xboole_0(X1)|r2_hidden(esk12_1(X1),X1))).#trainneg
+cnf(i_0_46, plain, (v1_xboole_0(X1)|r1_xboole_0(esk11_1(X1),X1))).#trainneg
+cnf(i_0_49, plain, (~r2_hidden(X2,X1)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_50, plain, (~r2_hidden(X3,X1)|~r2_hidden(X2,X3)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_44, plain, (r1_xboole_0(X1,X2)|r2_hidden(esk10_2(X1,X2),X2))).#trainneg
+cnf(i_0_105, plain, (~r1_xboole_0(X2,X3)|~r2_hidden(X1,k3_xboole_0(X2,X3)))).#trainneg
+cnf(i_0_107, plain, (r1_xboole_0(X2,X1)|~r1_xboole_0(X1,X2))).#trainneg
+cnf(i_0_104, plain, (~r2_hidden(X4,X1)|~r2_hidden(X3,X4)|~r2_hidden(X2,X3)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_67, plain, (r2_hidden(X3,X2)|~r2_hidden(X3,X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_45, plain, (r1_xboole_0(X1,X2)|r2_hidden(esk10_2(X1,X2),X1))).#trainneg
+cnf(i_0_66, plain, (r1_tarski(X1,X2)|r2_hidden(esk15_2(X1,X2),X1))).#trainneg
+cnf(i_0_65, plain, (r1_tarski(X1,X2)|~r2_hidden(esk15_2(X1,X2),X2))).#trainneg
+cnf(i_0_57, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k1_enumset1(X4,X5,X2))).#trainneg
+cnf(i_0_58, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k1_enumset1(X4,X2,X5))).#trainneg
+cnf(i_0_59, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k1_enumset1(X2,X4,X5))).#trainneg
+cnf(i_0_106, plain, (r1_xboole_0(X1,X2)|r2_hidden(esk19_2(X1,X2),k3_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_38, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k2_enumset1(X4,X5,X6,X2))).#trainneg
+cnf(i_0_39, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k2_enumset1(X4,X5,X2,X6))).#trainneg
+cnf(i_0_40, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k2_enumset1(X4,X2,X5,X6))).#trainneg
+cnf(i_0_41, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k2_enumset1(X2,X4,X5,X6))).#trainneg
+cnf(i_0_61, plain, (X2=k1_tarski(X1)|esk14_2(X1,X2)=X1|r2_hidden(esk14_2(X1,X2),X2))).#trainneg
+cnf(i_0_62, plain, (X2=k1_tarski(X1)|esk14_2(X1,X2)!=X1|~r2_hidden(esk14_2(X1,X2),X2))).#trainneg
+cnf(i_0_13, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k3_enumset1(X4,X5,X6,X7,X2))).#trainneg
+cnf(i_0_14, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k3_enumset1(X4,X5,X6,X2,X7))).#trainneg
+cnf(i_0_15, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k3_enumset1(X4,X5,X2,X6,X7))).#trainneg
+cnf(i_0_53, plain, (X4=k1_enumset1(X1,X2,X3)|esk13_4(X1,X2,X3,X4)=X3|esk13_4(X1,X2,X3,X4)=X2|esk13_4(X1,X2,X3,X4)=X1|r2_hidden(esk13_4(X1,X2,X3,X4),X4))).#trainneg
+cnf(i_0_54, plain, (X4=k1_enumset1(X1,X2,X3)|esk13_4(X1,X2,X3,X4)!=X3|~r2_hidden(esk13_4(X1,X2,X3,X4),X4))).#trainneg
+cnf(i_0_60, plain, (X1=X5|X1=X4|X1=X3|X2!=k1_enumset1(X3,X4,X5)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_16, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k3_enumset1(X4,X2,X5,X6,X7))).#trainneg
+cnf(i_0_17, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k3_enumset1(X2,X4,X5,X6,X7))).#trainneg
+cnf(i_0_26, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k4_enumset1(X4,X5,X6,X7,X8,X2))).#trainneg
+cnf(i_0_27, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k4_enumset1(X4,X5,X6,X7,X2,X8))).#trainneg
+cnf(i_0_28, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k4_enumset1(X4,X5,X6,X2,X7,X8))).#trainneg
+cnf(i_0_42, plain, (X1=X6|X1=X5|X1=X4|X1=X3|X2!=k2_enumset1(X3,X4,X5,X6)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_29, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k4_enumset1(X4,X5,X2,X6,X7,X8))).#trainneg
+cnf(i_0_30, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k4_enumset1(X4,X2,X5,X6,X7,X8))).#trainneg
+cnf(i_0_31, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k4_enumset1(X2,X4,X5,X6,X7,X8))).#trainneg
+cnf(i_0_96, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k5_enumset1(X4,X5,X6,X7,X8,X9,X2))).#trainneg
+cnf(i_0_97, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k5_enumset1(X4,X5,X6,X7,X8,X2,X9))).#trainneg
+cnf(i_0_98, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k5_enumset1(X4,X5,X6,X7,X2,X8,X9))).#trainneg
+cnf(i_0_99, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k5_enumset1(X4,X5,X6,X2,X7,X8,X9))).#trainneg
+cnf(i_0_100, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k5_enumset1(X4,X5,X2,X6,X7,X8,X9))).#trainneg
+cnf(i_0_101, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k5_enumset1(X4,X2,X5,X6,X7,X8,X9))).#trainneg
+cnf(i_0_102, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k5_enumset1(X2,X4,X5,X6,X7,X8,X9))).#trainneg
+cnf(i_0_79, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X4,X5,X6,X7,X8,X9,X10,X2))).#trainneg
+cnf(i_0_80, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X4,X5,X6,X7,X8,X9,X2,X10))).#trainneg
+cnf(i_0_81, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X4,X5,X6,X7,X8,X2,X9,X10))).#trainneg
+cnf(i_0_82, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X4,X5,X6,X7,X2,X8,X9,X10))).#trainneg
+cnf(i_0_55, plain, (X4=k1_enumset1(X1,X2,X3)|esk13_4(X1,X2,X3,X4)!=X2|~r2_hidden(esk13_4(X1,X2,X3,X4),X4))).#trainneg
+cnf(i_0_56, plain, (X4=k1_enumset1(X1,X2,X3)|esk13_4(X1,X2,X3,X4)!=X1|~r2_hidden(esk13_4(X1,X2,X3,X4),X4))).#trainneg
+cnf(i_0_18, plain, (X1=X7|X1=X6|X1=X5|X1=X4|X1=X3|X2!=k3_enumset1(X3,X4,X5,X6,X7)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_83, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X4,X5,X6,X2,X7,X8,X9,X10))).#trainneg
+cnf(i_0_84, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X4,X5,X2,X6,X7,X8,X9,X10))).#trainneg
+cnf(i_0_85, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X4,X2,X5,X6,X7,X8,X9,X10))).#trainneg
+cnf(i_0_86, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X2,X4,X5,X6,X7,X8,X9,X10))).#trainneg
+cnf(i_0_32, plain, (X1=X8|X1=X7|X1=X6|X1=X5|X1=X4|X1=X3|X2!=k4_enumset1(X3,X4,X5,X6,X7,X8)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_34, plain, (X5=k2_enumset1(X1,X2,X3,X4)|esk9_5(X1,X2,X3,X4,X5)!=X4|~r2_hidden(esk9_5(X1,X2,X3,X4,X5),X5))).#trainneg
+cnf(i_0_35, plain, (X5=k2_enumset1(X1,X2,X3,X4)|esk9_5(X1,X2,X3,X4,X5)!=X3|~r2_hidden(esk9_5(X1,X2,X3,X4,X5),X5))).#trainneg
+cnf(i_0_36, plain, (X5=k2_enumset1(X1,X2,X3,X4)|esk9_5(X1,X2,X3,X4,X5)!=X2|~r2_hidden(esk9_5(X1,X2,X3,X4,X5),X5))).#trainneg
+cnf(i_0_37, plain, (X5=k2_enumset1(X1,X2,X3,X4)|esk9_5(X1,X2,X3,X4,X5)!=X1|~r2_hidden(esk9_5(X1,X2,X3,X4,X5),X5))).#trainneg
+cnf(i_0_8, plain, (X6=k3_enumset1(X1,X2,X3,X4,X5)|esk7_6(X1,X2,X3,X4,X5,X6)!=X5|~r2_hidden(esk7_6(X1,X2,X3,X4,X5,X6),X6))).#trainneg
+cnf(i_0_9, plain, (X6=k3_enumset1(X1,X2,X3,X4,X5)|esk7_6(X1,X2,X3,X4,X5,X6)!=X4|~r2_hidden(esk7_6(X1,X2,X3,X4,X5,X6),X6))).#trainneg
+cnf(i_0_10, plain, (X6=k3_enumset1(X1,X2,X3,X4,X5)|esk7_6(X1,X2,X3,X4,X5,X6)!=X3|~r2_hidden(esk7_6(X1,X2,X3,X4,X5,X6),X6))).#trainneg
+cnf(i_0_11, plain, (X6=k3_enumset1(X1,X2,X3,X4,X5)|esk7_6(X1,X2,X3,X4,X5,X6)!=X2|~r2_hidden(esk7_6(X1,X2,X3,X4,X5,X6),X6))).#trainneg
+cnf(i_0_12, plain, (X6=k3_enumset1(X1,X2,X3,X4,X5)|esk7_6(X1,X2,X3,X4,X5,X6)!=X1|~r2_hidden(esk7_6(X1,X2,X3,X4,X5,X6),X6))).#trainneg
+cnf(i_0_103, plain, (X1=X9|X1=X8|X1=X7|X1=X6|X1=X5|X1=X4|X1=X3|X2!=k5_enumset1(X3,X4,X5,X6,X7,X8,X9)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_20, plain, (X7=k4_enumset1(X1,X2,X3,X4,X5,X6)|esk8_7(X1,X2,X3,X4,X5,X6,X7)!=X6|~r2_hidden(esk8_7(X1,X2,X3,X4,X5,X6,X7),X7))).#trainneg
+cnf(i_0_21, plain, (X7=k4_enumset1(X1,X2,X3,X4,X5,X6)|esk8_7(X1,X2,X3,X4,X5,X6,X7)!=X5|~r2_hidden(esk8_7(X1,X2,X3,X4,X5,X6,X7),X7))).#trainneg
+cnf(i_0_22, plain, (X7=k4_enumset1(X1,X2,X3,X4,X5,X6)|esk8_7(X1,X2,X3,X4,X5,X6,X7)!=X4|~r2_hidden(esk8_7(X1,X2,X3,X4,X5,X6,X7),X7))).#trainneg
+cnf(i_0_23, plain, (X7=k4_enumset1(X1,X2,X3,X4,X5,X6)|esk8_7(X1,X2,X3,X4,X5,X6,X7)!=X3|~r2_hidden(esk8_7(X1,X2,X3,X4,X5,X6,X7),X7))).#trainneg
+cnf(i_0_24, plain, (X7=k4_enumset1(X1,X2,X3,X4,X5,X6)|esk8_7(X1,X2,X3,X4,X5,X6,X7)!=X2|~r2_hidden(esk8_7(X1,X2,X3,X4,X5,X6,X7),X7))).#trainneg
+cnf(i_0_87, plain, (X1=X10|X1=X9|X1=X8|X1=X7|X1=X6|X1=X5|X1=X4|X1=X3|X2!=k6_enumset1(X3,X4,X5,X6,X7,X8,X9,X10)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_33, plain, (X5=k2_enumset1(X1,X2,X3,X4)|esk9_5(X1,X2,X3,X4,X5)=X4|esk9_5(X1,X2,X3,X4,X5)=X3|esk9_5(X1,X2,X3,X4,X5)=X2|esk9_5(X1,X2,X3,X4,X5)=X1|r2_hidden(esk9_5(X1,X2,X3,X4,X5),X5))).#trainneg
+cnf(i_0_25, plain, (X7=k4_enumset1(X1,X2,X3,X4,X5,X6)|esk8_7(X1,X2,X3,X4,X5,X6,X7)!=X1|~r2_hidden(esk8_7(X1,X2,X3,X4,X5,X6,X7),X7))).#trainneg
+cnf(i_0_7, plain, (X6=k3_enumset1(X1,X2,X3,X4,X5)|esk7_6(X1,X2,X3,X4,X5,X6)=X5|esk7_6(X1,X2,X3,X4,X5,X6)=X4|esk7_6(X1,X2,X3,X4,X5,X6)=X3|esk7_6(X1,X2,X3,X4,X5,X6)=X2|esk7_6(X1,X2,X3,X4,X5,X6)=X1|r2_hidden(esk7_6(X1,X2,X3,X4,X5,X6),X6))).#trainneg
+cnf(i_0_89, plain, (X8=k5_enumset1(X1,X2,X3,X4,X5,X6,X7)|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)!=X7|~r2_hidden(esk18_8(X1,X2,X3,X4,X5,X6,X7,X8),X8))).#trainneg
+cnf(i_0_90, plain, (X8=k5_enumset1(X1,X2,X3,X4,X5,X6,X7)|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)!=X6|~r2_hidden(esk18_8(X1,X2,X3,X4,X5,X6,X7,X8),X8))).#trainneg
+cnf(i_0_91, plain, (X8=k5_enumset1(X1,X2,X3,X4,X5,X6,X7)|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)!=X5|~r2_hidden(esk18_8(X1,X2,X3,X4,X5,X6,X7,X8),X8))).#trainneg
+cnf(i_0_92, plain, (X8=k5_enumset1(X1,X2,X3,X4,X5,X6,X7)|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)!=X4|~r2_hidden(esk18_8(X1,X2,X3,X4,X5,X6,X7,X8),X8))).#trainneg
+cnf(i_0_93, plain, (X8=k5_enumset1(X1,X2,X3,X4,X5,X6,X7)|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)!=X3|~r2_hidden(esk18_8(X1,X2,X3,X4,X5,X6,X7,X8),X8))).#trainneg
+cnf(i_0_19, plain, (X7=k4_enumset1(X1,X2,X3,X4,X5,X6)|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X6|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X5|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X4|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X3|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X2|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X1|r2_hidden(esk8_7(X1,X2,X3,X4,X5,X6,X7),X7))).#trainneg
+cnf(i_0_94, plain, (X8=k5_enumset1(X1,X2,X3,X4,X5,X6,X7)|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)!=X2|~r2_hidden(esk18_8(X1,X2,X3,X4,X5,X6,X7,X8),X8))).#trainneg
+cnf(i_0_95, plain, (X8=k5_enumset1(X1,X2,X3,X4,X5,X6,X7)|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)!=X1|~r2_hidden(esk18_8(X1,X2,X3,X4,X5,X6,X7,X8),X8))).#trainneg
+cnf(i_0_71, plain, (X9=k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)!=X8|~r2_hidden(esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9),X9))).#trainneg
+cnf(i_0_72, plain, (X9=k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)!=X7|~r2_hidden(esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9),X9))).#trainneg
+cnf(i_0_73, plain, (X9=k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)!=X6|~r2_hidden(esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9),X9))).#trainneg
+cnf(i_0_74, plain, (X9=k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)!=X5|~r2_hidden(esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9),X9))).#trainneg
+cnf(i_0_75, plain, (X9=k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)!=X4|~r2_hidden(esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9),X9))).#trainneg
+cnf(i_0_76, plain, (X9=k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)!=X3|~r2_hidden(esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9),X9))).#trainneg
+cnf(i_0_77, plain, (X9=k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)!=X2|~r2_hidden(esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9),X9))).#trainneg
+cnf(i_0_78, plain, (X9=k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)!=X1|~r2_hidden(esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9),X9))).#trainneg
+cnf(i_0_88, plain, (X8=k5_enumset1(X1,X2,X3,X4,X5,X6,X7)|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)=X7|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)=X6|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)=X5|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)=X4|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)=X3|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)=X2|esk18_8(X1,X2,X3,X4,X5,X6,X7,X8)=X1|r2_hidden(esk18_8(X1,X2,X3,X4,X5,X6,X7,X8),X8))).#trainneg
+cnf(i_0_70, plain, (X9=k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)=X8|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)=X7|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)=X6|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)=X5|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)=X4|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)=X3|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)=X2|esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9)=X1|r2_hidden(esk17_9(X1,X2,X3,X4,X5,X6,X7,X8,X9),X9))).#trainneg
+cnf(i_0_239, plain, (X1=X2|X1=X3|X1=X4|X1=X5|X1=X6|~r2_hidden(X1,k3_enumset1(X2,X3,X4,X5,X6)))).#trainneg
+cnf(i_0_165, negated_conjecture, (esk6_0=X1|k1_tarski(X1)!=esk1_0)).#trainneg
+cnf(i_0_177, plain, (r1_tarski(X1,X1))).#trainneg
+cnf(i_0_108, negated_conjecture, (~v1_xboole_0(esk1_0))).#trainneg
+cnf(i_0_143, plain, (r1_xboole_0(X1,esk11_1(X1))|v1_xboole_0(X1))).#trainneg
+cnf(i_0_166, negated_conjecture, (esk5_0=X1|k1_tarski(X1)!=esk6_0)).#trainneg
+cnf(i_0_109, negated_conjecture, (~v1_xboole_0(esk6_0))).#trainneg
+cnf(i_0_110, negated_conjecture, (~v1_xboole_0(esk5_0))).#trainneg
+cnf(i_0_167, negated_conjecture, (esk4_0=X1|k1_tarski(X1)!=esk5_0)).#trainneg
+cnf(i_0_168, negated_conjecture, (esk3_0=X1|k1_tarski(X1)!=esk4_0)).#trainneg
+cnf(i_0_161, plain, (esk12_1(X1)=X2|v1_xboole_0(X1)|X1!=k1_tarski(X2))).#trainneg
+cnf(i_0_222, plain, (X1=X2|X1=X3|X1=X4|X1=X5|~r2_hidden(X1,k2_enumset1(X2,X3,X4,X5)))).#trainneg
+cnf(i_0_208, plain, (X1=X2|X1=X3|X1=X4|~r2_hidden(X1,k1_enumset1(X2,X3,X4)))).#trainneg
+cnf(i_0_129, negated_conjecture, (~r2_hidden(X1,esk6_0)|~r2_hidden(esk1_0,X1))).#trainneg
+cnf(i_0_130, negated_conjecture, (~r2_hidden(X1,esk5_0)|~r2_hidden(esk6_0,X1))).#trainneg
+cnf(i_0_131, negated_conjecture, (~r2_hidden(X1,esk4_0)|~r2_hidden(esk5_0,X1))).#trainneg
+cnf(i_0_132, negated_conjecture, (~r2_hidden(X1,esk3_0)|~r2_hidden(esk4_0,X1))).#trainneg
+cnf(i_0_409, negated_conjecture, (~r2_hidden(esk4_0,esk2_0))).#trainneg
+cnf(i_0_341, plain, (v1_xboole_0(X1)|~r2_hidden(X2,esk11_1(X1))|~r2_hidden(X2,X1))).#trainneg
+cnf(i_0_133, negated_conjecture, (~r2_hidden(X1,esk2_0)|~r2_hidden(esk3_0,X1))).#trainneg
+cnf(i_0_134, negated_conjecture, (~r2_hidden(X1,esk1_0)|~r2_hidden(esk2_0,X1))).#trainneg
+cnf(i_0_86, plain, (r2_hidden(X1,X2)|X2!=k6_enumset1(X1,X3,X4,X5,X6,X7,X8,X9))).#trainneg
+cnf(i_0_102, plain, (r2_hidden(X1,X2)|X2!=k5_enumset1(X1,X3,X4,X5,X6,X7,X8))).#trainneg
+cnf(i_0_169, negated_conjecture, (esk2_0=X1|k1_tarski(X1)!=esk3_0)).#trainneg
+cnf(i_0_111, negated_conjecture, (~v1_xboole_0(esk4_0))).#trainneg
+cnf(i_0_57, plain, (r2_hidden(X1,X2)|X2!=k1_enumset1(X3,X4,X1))).#trainneg
+cnf(i_0_162, plain, (esk11_1(X1)=X2|v1_xboole_0(X1)|X1!=k1_tarski(X2))).#trainneg
+cnf(i_0_170, negated_conjecture, (esk1_0=X1|k1_tarski(X1)!=esk2_0)).#trainneg
+cnf(i_0_112, negated_conjecture, (~v1_xboole_0(esk3_0))).#trainneg
+cnf(i_0_113, negated_conjecture, (~v1_xboole_0(esk2_0))).#trainneg
+cnf(i_0_244, plain, (X1=X2|X1=X3|X1=X4|X1=X5|X1=X6|X1=X7|~r2_hidden(X1,k4_enumset1(X2,X3,X4,X5,X6,X7)))).#trainneg
+cnf(i_0_163, plain, (esk10_2(X1,X2)=X3|r1_xboole_0(X1,X2)|X1!=k1_tarski(X3))).#trainneg
+cnf(i_0_164, plain, (esk10_2(X1,X2)=X3|r1_xboole_0(X1,X2)|X2!=k1_tarski(X3))).#trainneg
+cnf(i_0_59, plain, (r2_hidden(X1,X2)|X2!=k1_enumset1(X1,X3,X4))).#trainneg
+cnf(i_0_41, plain, (r2_hidden(X1,X2)|X2!=k2_enumset1(X1,X3,X4,X5))).#trainneg
+cnf(i_0_31, plain, (r2_hidden(X1,X2)|X2!=k4_enumset1(X1,X3,X4,X5,X6,X7))).#trainneg
+cnf(i_0_246, plain, (X1=X2|X1=X3|X1=X4|X1=X5|X1=X6|X1=X7|X1=X8|X1=X9|~r2_hidden(X1,k6_enumset1(X2,X3,X4,X5,X6,X7,X8,X9)))).#trainneg
+cnf(i_0_17, plain, (r2_hidden(X1,X2)|X2!=k3_enumset1(X1,X3,X4,X5,X6))).#trainneg
+cnf(i_0_245, plain, (X1=X2|X1=X3|X1=X4|X1=X5|X1=X6|X1=X7|X1=X8|~r2_hidden(X1,k5_enumset1(X2,X3,X4,X5,X6,X7,X8)))).#trainneg
+cnf(i_0_399, negated_conjecture, (~r2_hidden(esk5_0,esk3_0))).#trainneg
+cnf(i_0_379, negated_conjecture, (~r2_hidden(esk1_0,esk5_0))).#trainneg
+cnf(i_0_122, negated_conjecture, (~r2_hidden(esk5_0,esk4_0))).#trainneg
+cnf(i_0_123, negated_conjecture, (~r2_hidden(esk4_0,esk3_0))).#trainneg
+cnf(i_0_120, negated_conjecture, (~r2_hidden(esk1_0,esk6_0))).#trainneg
+cnf(i_0_121, negated_conjecture, (~r2_hidden(esk6_0,esk5_0))).#trainneg
+cnf(i_0_175, plain, (esk15_2(X1,X2)=X3|r1_tarski(X1,X2)|X1!=k1_tarski(X3))).#trainneg
+cnf(i_0_124, negated_conjecture, (~r2_hidden(esk3_0,esk2_0))).#trainneg
+cnf(i_0_58, plain, (r2_hidden(X1,X2)|X2!=k1_enumset1(X3,X1,X4))).#trainneg
+cnf(i_0_184, plain, (esk19_2(X1,X2)=X3|r1_xboole_0(X1,X2)|k3_xboole_0(X1,X2)!=k1_tarski(X3))).#trainneg
+cnf(i_0_343, plain, (esk12_1(k1_tarski(X1))=X1|v1_xboole_0(k1_tarski(X1)))).#trainneg
+cnf(i_0_125, negated_conjecture, (~r2_hidden(esk2_0,esk1_0))).#trainneg
+cnf(i_0_389, negated_conjecture, (~r2_hidden(esk6_0,esk4_0))).#trainneg
+cnf(i_0_271, plain, (X1=X2|X1=X3|X1=X4|X1=X5|X1=X6|esk7_6(X2,X3,X4,X5,X6,X7)=X2|esk7_6(X2,X3,X4,X5,X6,X7)=X3|esk7_6(X2,X3,X4,X5,X6,X7)=X4|esk7_6(X2,X3,X4,X5,X6,X7)=X5|esk7_6(X2,X3,X4,X5,X6,X7)=X6|r2_hidden(esk7_6(X2,X3,X4,X5,X6,X7),X7)|~r2_hidden(X1,X7))).#trainneg
+cnf(i_0_195, plain, (esk14_2(X1,X2)=X3|esk14_2(X1,X2)=X1|X2=k1_tarski(X1)|X2!=k1_tarski(X3))).#trainneg
+cnf(i_0_205, plain, (esk13_4(X1,X2,X3,X4)=X5|esk13_4(X1,X2,X3,X4)=X1|esk13_4(X1,X2,X3,X4)=X2|esk13_4(X1,X2,X3,X4)=X3|X4=k1_enumset1(X1,X2,X3)|X4!=k1_tarski(X5))).#trainneg
+cnf(i_0_84, plain, (r2_hidden(X1,X2)|X2!=k6_enumset1(X3,X4,X1,X5,X6,X7,X8,X9))).#trainneg
+cnf(i_0_150, negated_conjecture, (~r2_hidden(X1,esk5_0)|~r2_hidden(X2,X1)|~r2_hidden(esk6_0,X2))).#trainneg
+cnf(i_0_442, negated_conjecture, (~r2_hidden(esk2_0,esk6_0))).#trainneg
+cnf(i_0_472, plain, (r2_hidden(X1,k1_enumset1(X1,X2,X3)))).#trainneg
+cnf(i_0_432, negated_conjecture, (~r2_hidden(esk3_0,esk1_0))).#trainneg
+cnf(i_0_511, plain, (r2_hidden(X1,k1_enumset1(X2,X1,X3)))).#trainneg
+cnf(i_0_151, negated_conjecture, (~r2_hidden(X1,esk4_0)|~r2_hidden(X2,X1)|~r2_hidden(esk5_0,X2))).#trainneg
+cnf(i_0_152, negated_conjecture, (~r2_hidden(X1,esk3_0)|~r2_hidden(X2,X1)|~r2_hidden(esk4_0,X2))).#trainneg
+cnf(i_0_153, negated_conjecture, (~r2_hidden(X1,esk2_0)|~r2_hidden(X2,X1)|~r2_hidden(esk3_0,X2))).#trainneg
+cnf(i_0_154, negated_conjecture, (~r2_hidden(X1,esk1_0)|~r2_hidden(X2,X1)|~r2_hidden(esk2_0,X2))).#trainneg
+cnf(i_0_149, negated_conjecture, (~r2_hidden(X1,esk6_0)|~r2_hidden(X2,X1)|~r2_hidden(esk1_0,X2))).#trainneg
+cnf(i_0_473, plain, (r2_hidden(X1,k2_enumset1(X1,X2,X3,X4)))).#trainneg
+cnf(i_0_452, plain, (X1=X2|k1_tarski(X1)!=k1_tarski(X2))).#trainneg
+cnf(i_0_454, plain, (r2_hidden(X1,k1_enumset1(X2,X3,X1)))).#trainneg
+cnf(i_0_370, negated_conjecture, (~r2_hidden(esk1_0,esk16_1(esk6_0)))).#trainneg
+cnf(i_0_38, plain, (r2_hidden(X1,X2)|X2!=k2_enumset1(X3,X4,X5,X1))).#trainneg
+cnf(i_0_214, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|v1_xboole_0(esk16_1(X1))|~r2_hidden(X3,esk16_1(esk16_1(X1)))|~r2_hidden(X4,X3)|~r2_hidden(X5,X4)|~r2_hidden(X2,X5))).#trainneg
+cnf(i_0_455, plain, (esk11_1(k1_tarski(X1))=X1|v1_xboole_0(k1_tarski(X1)))).#trainneg
+cnf(i_0_374, negated_conjecture, (~r2_hidden(esk1_0,esk12_1(esk6_0)))).#trainneg
+cnf(i_0_375, negated_conjecture, (~r2_hidden(esk1_0,esk11_1(esk6_0)))).#trainneg
+cnf(i_0_491, plain, (r2_hidden(X1,k3_enumset1(X1,X2,X3,X4,X5)))).#trainneg
+cnf(i_0_215, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|r1_tarski(esk16_1(X1),X3)|~r2_hidden(X4,esk15_2(esk16_1(X1),X3))|~r2_hidden(X5,X4)|~r2_hidden(X6,X5)|~r2_hidden(X2,X6))).#trainneg
+cnf(i_0_216, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|esk14_2(X3,esk16_1(X1))=X3|esk16_1(X1)=k1_tarski(X3)|~r2_hidden(X4,esk14_2(X3,esk16_1(X1)))|~r2_hidden(X5,X4)|~r2_hidden(X6,X5)|~r2_hidden(X2,X6))).#trainneg
+cnf(i_0_554, plain, (~v1_xboole_0(k1_enumset1(X1,X2,X3)))).#trainneg
+cnf(i_0_616, plain, (~v1_xboole_0(k2_enumset1(X1,X2,X3,X4)))).#trainneg
+cnf(i_0_624, plain, (r2_hidden(X1,k2_enumset1(X2,X3,X4,X1)))).#trainneg
+cnf(i_0_580, negated_conjecture, (~r2_hidden(esk4_0,X1)|~r2_hidden(X1,esk2_0))).#trainneg
+cnf(i_0_451, plain, (~r2_hidden(X2,X1)|~r2_hidden(k1_tarski(X1),X2))).#trainneg
+cnf(i_0_29, plain, (r2_hidden(X1,X2)|X2!=k4_enumset1(X3,X4,X1,X5,X6,X7))).#trainneg
+cnf(i_0_642, plain, (v1_xboole_0(k1_tarski(X2))|~r2_hidden(X1,X2)|~r2_hidden(X1,k1_tarski(X2)))).#trainneg
+cnf(i_0_100, plain, (r2_hidden(X1,X2)|X2!=k5_enumset1(X3,X4,X1,X5,X6,X7,X8))).#trainneg
+cnf(i_0_548, negated_conjecture, (~r2_hidden(esk6_0,X1)|~r2_hidden(X1,esk4_0))).#trainneg
+cnf(i_0_83, plain, (r2_hidden(X1,X2)|X2!=k6_enumset1(X3,X4,X5,X1,X6,X7,X8,X9))).#trainneg
+cnf(i_0_552, plain, (X1=X2|k1_enumset1(X1,X3,X4)!=k1_tarski(X2))).#trainneg
+cnf(i_0_474, plain, (r2_hidden(X1,k4_enumset1(X1,X2,X3,X4,X5,X6)))).#trainneg
+cnf(i_0_380, negated_conjecture, (~r2_hidden(esk6_0,esk16_1(esk5_0)))).#trainneg
+cnf(i_0_39, plain, (r2_hidden(X1,X2)|X2!=k2_enumset1(X3,X4,X1,X5))).#trainneg
+cnf(i_0_217, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|esk13_4(X3,X4,X5,esk16_1(X1))=X3|esk13_4(X3,X4,X5,esk16_1(X1))=X4|esk13_4(X3,X4,X5,esk16_1(X1))=X5|esk16_1(X1)=k1_enumset1(X3,X4,X5)|~r2_hidden(X6,esk13_4(X3,X4,X5,esk16_1(X1)))|~r2_hidden(X7,X6)|~r2_hidden(X8,X7)|~r2_hidden(X2,X8))).#trainneg
+cnf(i_0_558, plain, (X1=X2|k1_enumset1(X3,X1,X4)!=k1_tarski(X2))).#trainneg
+cnf(i_0_384, negated_conjecture, (~r2_hidden(esk6_0,esk12_1(esk5_0)))).#trainneg
+cnf(i_0_385, negated_conjecture, (~r2_hidden(esk6_0,esk11_1(esk5_0)))).#trainneg
+cnf(i_0_657, negated_conjecture, (v1_xboole_0(k1_tarski(esk1_0))|r1_xboole_0(X1,k1_tarski(esk1_0))|~r2_hidden(X2,esk6_0)|~r2_hidden(X3,X2)|~r2_hidden(X4,X3)|~r2_hidden(X1,X4))).#trainneg
+cnf(i_0_218, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|v1_xboole_0(esk16_1(X1))|~r2_hidden(X3,esk12_1(esk16_1(X1)))|~r2_hidden(X4,X3)|~r2_hidden(X5,X4)|~r2_hidden(X2,X5))).#trainneg
+cnf(i_0_219, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|v1_xboole_0(esk16_1(X1))|~r2_hidden(X3,esk11_1(esk16_1(X1)))|~r2_hidden(X4,X3)|~r2_hidden(X5,X4)|~r2_hidden(X2,X5))).#trainneg
+cnf(i_0_711, negated_conjecture, (~r2_hidden(k1_tarski(esk4_0),esk2_0))).#trainneg
+cnf(i_0_746, negated_conjecture, (~r2_hidden(k1_tarski(esk6_0),esk4_0))).#trainneg
+cnf(i_0_726, plain, (r2_hidden(X1,k4_enumset1(X2,X3,X1,X4,X5,X6)))).#trainneg
+cnf(i_0_768, plain, (r2_hidden(X1,k2_enumset1(X2,X3,X1,X4)))).#trainneg
+cnf(i_0_765, plain, (~v1_xboole_0(k4_enumset1(X1,X2,X3,X4,X5,X6)))).#trainneg
+cnf(i_0_742, plain, (~r2_hidden(X1,X1))).#trainneg
+cnf(i_0_590, negated_conjecture, (~r2_hidden(esk3_0,X1)|~r2_hidden(X1,esk1_0))).#trainneg
+cnf(i_0_600, negated_conjecture, (~r2_hidden(esk2_0,X1)|~r2_hidden(X1,esk6_0))).#trainneg
+cnf(i_0_82, plain, (r2_hidden(X1,X2)|X2!=k6_enumset1(X3,X4,X5,X6,X1,X7,X8,X9))).#trainneg
+cnf(i_0_99, plain, (r2_hidden(X1,X2)|X2!=k5_enumset1(X3,X4,X5,X1,X6,X7,X8))).#trainneg
+cnf(i_0_85, plain, (r2_hidden(X1,X2)|X2!=k6_enumset1(X3,X1,X4,X5,X6,X7,X8,X9))).#trainneg
+cnf(i_0_621, plain, (X1=X2|k1_enumset1(X3,X4,X1)!=k1_tarski(X2))).#trainneg
+cnf(i_0_639, plain, (v1_xboole_0(k1_tarski(X1))|r1_xboole_0(k1_tarski(X1),X1))).#trainneg
+cnf(i_0_718, negated_conjecture, (~r2_hidden(esk5_0,esk2_0))).#trainneg
+cnf(i_0_40, plain, (r2_hidden(X1,X2)|X2!=k2_enumset1(X3,X1,X4,X5))).#trainneg
+cnf(i_0_220, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|r1_xboole_0(esk16_1(X1),X3)|~r2_hidden(X4,esk10_2(esk16_1(X1),X3))|~r2_hidden(X5,X4)|~r2_hidden(X6,X5)|~r2_hidden(X2,X6))).#trainneg
+cnf(i_0_792, negated_conjecture, (v1_xboole_0(k1_tarski(esk1_0))|r1_xboole_0(X1,k1_tarski(esk1_0))|~r2_hidden(X2,esk5_0)|~r2_hidden(X3,X2)|~r2_hidden(X1,X3))).#trainneg
+cnf(i_0_753, negated_conjecture, (~r2_hidden(esk1_0,esk4_0))).#trainneg
+cnf(i_0_433, negated_conjecture, (~r2_hidden(esk2_0,esk16_1(esk1_0)))).#trainneg
+cnf(i_0_659, negated_conjecture, (v1_xboole_0(k1_tarski(esk5_0))|r1_xboole_0(X1,k1_tarski(esk5_0))|~r2_hidden(X2,esk4_0)|~r2_hidden(X3,X2)|~r2_hidden(X4,X3)|~r2_hidden(X1,X4))).#trainneg
+cnf(i_0_221, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|r1_xboole_0(X3,esk16_1(X1))|~r2_hidden(X4,esk10_2(X3,esk16_1(X1)))|~r2_hidden(X5,X4)|~r2_hidden(X6,X5)|~r2_hidden(X2,X6))).#trainneg
+cnf(i_0_247, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|esk9_5(X3,X4,X5,X6,esk16_1(X1))=X3|esk9_5(X3,X4,X5,X6,esk16_1(X1))=X4|esk9_5(X3,X4,X5,X6,esk16_1(X1))=X5|esk9_5(X3,X4,X5,X6,esk16_1(X1))=X6|esk16_1(X1)=k2_enumset1(X3,X4,X5,X6)|~r2_hidden(X7,esk9_5(X3,X4,X5,X6,esk16_1(X1)))|~r2_hidden(X8,X7)|~r2_hidden(X9,X8)|~r2_hidden(X2,X9))).#trainneg
+cnf(i_0_13, plain, (r2_hidden(X1,X2)|X2!=k3_enumset1(X3,X4,X5,X6,X1))).#trainneg
+cnf(i_0_673, plain, (~v1_xboole_0(k3_enumset1(X1,X2,X3,X4,X5)))).#trainneg
+cnf(i_0_853, negated_conjecture, (~r2_hidden(k1_tarski(esk3_0),esk1_0))).#trainneg
+cnf(i_0_864, negated_conjecture, (~r2_hidden(k1_tarski(esk2_0),esk6_0))).#trainneg
+cnf(i_0_886, plain, (r2_hidden(X1,k2_enumset1(X2,X1,X3,X4)))).#trainneg
+cnf(i_0_959, plain, (r2_hidden(X1,k3_enumset1(X2,X3,X4,X5,X1)))).#trainneg
+cnf(i_0_910, negated_conjecture, (v1_xboole_0(k1_tarski(esk1_0))|r1_xboole_0(X1,k1_tarski(esk1_0))|~r2_hidden(X2,esk4_0)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_470, plain, (esk10_2(k1_tarski(X1),X2)=X1|r1_xboole_0(k1_tarski(X1),X2))).#trainneg
+cnf(i_0_81, plain, (r2_hidden(X1,X2)|X2!=k6_enumset1(X3,X4,X5,X6,X7,X1,X8,X9))).#trainneg
+cnf(i_0_101, plain, (r2_hidden(X1,X2)|X2!=k5_enumset1(X3,X1,X4,X5,X6,X7,X8))).#trainneg
+cnf(i_0_614, plain, (X1=X2|k2_enumset1(X1,X3,X4,X5)!=k1_tarski(X2))).#trainneg
+cnf(i_0_640, plain, (v1_xboole_0(k1_tarski(X1))|r1_xboole_0(X1,k1_tarski(X1)))).#trainneg
+cnf(i_0_863, negated_conjecture, (~r2_hidden(esk4_0,esk1_0))).#trainneg
+cnf(i_0_14, plain, (r2_hidden(X1,X2)|X2!=k3_enumset1(X3,X4,X5,X1,X6))).#trainneg
+cnf(i_0_252, plain, (esk9_5(X1,X2,X3,X4,X5)=X6|esk9_5(X1,X2,X3,X4,X5)=X1|esk9_5(X1,X2,X3,X4,X5)=X2|esk9_5(X1,X2,X3,X4,X5)=X3|esk9_5(X1,X2,X3,X4,X5)=X4|X5=k2_enumset1(X1,X2,X3,X4)|X5!=k1_tarski(X6))).#trainneg
+cnf(i_0_874, negated_conjecture, (~r2_hidden(esk3_0,esk6_0))).#trainneg
+cnf(i_0_437, negated_conjecture, (~r2_hidden(esk2_0,esk12_1(esk1_0)))).#trainneg
+cnf(i_0_930, negated_conjecture, (v1_xboole_0(k1_tarski(esk5_0))|r1_xboole_0(X1,k1_tarski(esk5_0))|~r2_hidden(X2,esk3_0)|~r2_hidden(X3,X2)|~r2_hidden(X1,X3))).#trainneg
+cnf(i_0_660, negated_conjecture, (v1_xboole_0(k1_tarski(esk4_0))|r1_xboole_0(X1,k1_tarski(esk4_0))|~r2_hidden(X2,esk3_0)|~r2_hidden(X3,X2)|~r2_hidden(X4,X3)|~r2_hidden(X1,X4))).#trainneg
+cnf(i_0_258, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|esk7_6(X3,X4,X5,X6,X7,esk16_1(X1))=X3|esk7_6(X3,X4,X5,X6,X7,esk16_1(X1))=X4|esk7_6(X3,X4,X5,X6,X7,esk16_1(X1))=X5|esk7_6(X3,X4,X5,X6,X7,esk16_1(X1))=X6|esk7_6(X3,X4,X5,X6,X7,esk16_1(X1))=X7|esk16_1(X1)=k3_enumset1(X3,X4,X5,X6,X7)|~r2_hidden(X8,esk7_6(X3,X4,X5,X6,X7,esk16_1(X1)))|~r2_hidden(X9,X8)|~r2_hidden(X10,X9)|~r2_hidden(X2,X10))).#trainneg
+cnf(i_0_263, plain, (esk7_6(X1,X2,X3,X4,X5,X6)=X7|esk7_6(X1,X2,X3,X4,X5,X6)=X1|esk7_6(X1,X2,X3,X4,X5,X6)=X2|esk7_6(X1,X2,X3,X4,X5,X6)=X3|esk7_6(X1,X2,X3,X4,X5,X6)=X4|esk7_6(X1,X2,X3,X4,X5,X6)=X5|X6=k3_enumset1(X1,X2,X3,X4,X5)|X6!=k1_tarski(X7))).#trainneg
+cnf(i_0_28, plain, (r2_hidden(X1,X2)|X2!=k4_enumset1(X3,X4,X5,X1,X6,X7))).#trainneg
+cnf(i_0_98, plain, (r2_hidden(X1,X2)|X2!=k5_enumset1(X3,X4,X5,X6,X1,X7,X8))).#trainneg
+cnf(i_0_30, plain, (r2_hidden(X1,X2)|X2!=k4_enumset1(X3,X1,X4,X5,X6,X7))).#trainneg
+cnf(i_0_16, plain, (r2_hidden(X1,X2)|X2!=k3_enumset1(X3,X1,X4,X5,X6))).#trainneg
+cnf(i_0_15, plain, (r2_hidden(X1,X2)|X2!=k3_enumset1(X3,X4,X1,X5,X6))).#trainneg
+cnf(i_0_79, plain, (r2_hidden(X1,X2)|X2!=k6_enumset1(X3,X4,X5,X6,X7,X8,X9,X1))).#trainneg
+cnf(i_0_443, plain, (r2_hidden(X1,k6_enumset1(X1,X2,X3,X4,X5,X6,X7,X8)))).#trainneg
+cnf(i_0_96, plain, (r2_hidden(X1,X2)|X2!=k5_enumset1(X3,X4,X5,X6,X7,X8,X1))).#trainneg
+cnf(i_0_610, negated_conjecture, (~r2_hidden(esk1_0,X1)|~r2_hidden(X1,esk5_0))).#trainneg
+cnf(i_0_1064, plain, (r2_hidden(X1,k4_enumset1(X2,X1,X3,X4,X5,X6)))).#trainneg
+cnf(i_0_707, plain, (X1=X2|k2_enumset1(X3,X4,X5,X1)!=k1_tarski(X2))).#trainneg
+cnf(i_0_999, plain, (r1_xboole_0(k1_tarski(X1),X2)|r2_hidden(X1,X2))).#trainneg
+cnf(i_0_1105, negated_conjecture, (~r2_hidden(esk2_0,esk5_0))).#trainneg
+cnf(i_0_26, plain, (r2_hidden(X1,X2)|X2!=k4_enumset1(X3,X4,X5,X6,X7,X1))).#trainneg
+cnf(i_0_270, plain, (esk7_6(X1,X2,X3,X4,X5,X6)=X1|esk7_6(X1,X2,X3,X4,X5,X6)=X2|esk7_6(X1,X2,X3,X4,X5,X6)=X3|esk7_6(X1,X2,X3,X4,X5,X6)=X4|esk7_6(X1,X2,X3,X4,X5,X6)=X5|X6=X7|r2_hidden(esk7_6(X1,X2,X3,X4,X5,X6),X6)|esk7_6(X1,X2,X3,X4,X5,X7)=X1|esk7_6(X1,X2,X3,X4,X5,X7)=X2|esk7_6(X1,X2,X3,X4,X5,X7)=X3|esk7_6(X1,X2,X3,X4,X5,X7)=X4|esk7_6(X1,X2,X3,X4,X5,X7)=X5|r2_hidden(esk7_6(X1,X2,X3,X4,X5,X7),X7))).#trainneg
+cnf(i_0_997, negated_conjecture, (v1_xboole_0(k1_tarski(esk1_0))|r1_xboole_0(X1,k1_tarski(esk1_0))|~r2_hidden(X1,esk3_0))).#trainneg
+cnf(i_0_438, negated_conjecture, (~r2_hidden(esk2_0,esk11_1(esk1_0)))).#trainneg
+cnf(i_0_1093, negated_conjecture, (~r2_hidden(k1_tarski(esk1_0),esk5_0))).#trainneg
+cnf(i_0_1032, negated_conjecture, (v1_xboole_0(k1_tarski(esk5_0))|r1_xboole_0(X1,k1_tarski(esk5_0))|~r2_hidden(X2,esk2_0)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_273, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|esk8_7(X3,X4,X5,X6,X7,X8,esk16_1(X1))=X3|esk8_7(X3,X4,X5,X6,X7,X8,esk16_1(X1))=X4|esk8_7(X3,X4,X5,X6,X7,X8,esk16_1(X1))=X5|esk8_7(X3,X4,X5,X6,X7,X8,esk16_1(X1))=X6|esk8_7(X3,X4,X5,X6,X7,X8,esk16_1(X1))=X7|esk8_7(X3,X4,X5,X6,X7,X8,esk16_1(X1))=X8|esk16_1(X1)=k4_enumset1(X3,X4,X5,X6,X7,X8)|~r2_hidden(X9,esk8_7(X3,X4,X5,X6,X7,X8,esk16_1(X1)))|~r2_hidden(X10,X9)|~r2_hidden(X11,X10)|~r2_hidden(X2,X11))).#trainneg
+cnf(i_0_278, plain, (esk8_7(X1,X2,X3,X4,X5,X6,X7)=X8|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X1|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X2|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X3|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X4|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X5|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X6|X7=k4_enumset1(X1,X2,X3,X4,X5,X6)|X7!=k1_tarski(X8))).#trainneg
+cnf(i_0_1067, plain, (r2_hidden(X1,k3_enumset1(X2,X1,X3,X4,X5)))).#trainneg
+cnf(i_0_1058, plain, (r2_hidden(X1,k4_enumset1(X2,X3,X4,X1,X5,X6)))).#trainneg
+cnf(i_0_1070, plain, (r2_hidden(X1,k3_enumset1(X2,X3,X1,X4,X5)))).#trainneg
+cnf(i_0_1001, plain, (r2_hidden(X1,k6_enumset1(X2,X3,X4,X5,X6,X1,X7,X8)))).#trainneg
+cnf(i_0_455, plain, (esk11_1(k1_tarski(X1))=X1)).#trainneg
+cnf(i_0_1009, plain, (r2_hidden(X1,k3_enumset1(X2,X3,X4,X1,X5)))).#trainneg
+cnf(i_0_1073, plain, (r2_hidden(X1,k6_enumset1(X2,X3,X4,X5,X6,X7,X8,X1)))).#trainneg
+cnf(i_0_639, plain, (r1_xboole_0(k1_tarski(X1),X1))).#trainneg
+cnf(i_0_343, plain, (esk12_1(k1_tarski(X1))=X1)).#trainneg
+cnf(i_0_1089, plain, (r2_hidden(X1,k5_enumset1(X2,X3,X4,X5,X6,X7,X1)))).#trainneg
+cnf(i_0_848, plain, (X1=X2|k2_enumset1(X3,X4,X1,X5)!=k1_tarski(X2))).#trainneg
+cnf(i_0_1122, plain, (r2_hidden(X1,k4_enumset1(X2,X3,X4,X5,X6,X1)))).#trainneg
+cnf(i_0_390, negated_conjecture, (v1_xboole_0(esk4_0)|~r2_hidden(esk5_0,esk16_1(esk4_0)))).#trainneg
+cnf(i_0_27, plain, (r2_hidden(X1,X2)|X2!=k4_enumset1(X3,X4,X5,X6,X1,X7))).#trainneg
+cnf(i_0_287, plain, (X1=X2|X1=X3|X1=X4|X1=X5|X1=X6|X1=X7|esk8_7(X2,X3,X4,X5,X6,X7,X8)=X2|esk8_7(X2,X3,X4,X5,X6,X7,X8)=X3|esk8_7(X2,X3,X4,X5,X6,X7,X8)=X4|esk8_7(X2,X3,X4,X5,X6,X7,X8)=X5|esk8_7(X2,X3,X4,X5,X6,X7,X8)=X6|esk8_7(X2,X3,X4,X5,X6,X7,X8)=X7|r2_hidden(esk8_7(X2,X3,X4,X5,X6,X7,X8),X8)|~r2_hidden(X1,X8))).#trainneg
+cnf(i_0_1042, negated_conjecture, (v1_xboole_0(k1_tarski(esk4_0))|r1_xboole_0(X1,k1_tarski(esk4_0))|~r2_hidden(X2,esk2_0)|~r2_hidden(X3,X2)|~r2_hidden(X1,X3))).#trainneg
+cnf(i_0_394, negated_conjecture, (v1_xboole_0(esk4_0)|~r2_hidden(esk5_0,esk12_1(esk4_0)))).#trainneg
+cnf(i_0_395, negated_conjecture, (v1_xboole_0(esk4_0)|~r2_hidden(esk5_0,esk11_1(esk4_0)))).#trainneg
+cnf(i_0_661, negated_conjecture, (v1_xboole_0(k1_tarski(esk3_0))|r1_xboole_0(X1,k1_tarski(esk3_0))|~r2_hidden(X2,esk2_0)|~r2_hidden(X3,X2)|~r2_hidden(X4,X3)|~r2_hidden(X1,X4))).#trainneg
+cnf(i_0_662, negated_conjecture, (v1_xboole_0(k1_tarski(esk2_0))|r1_xboole_0(X1,k1_tarski(esk2_0))|~r2_hidden(X2,esk1_0)|~r2_hidden(X3,X2)|~r2_hidden(X4,X3)|~r2_hidden(X1,X4))).#trainneg
+cnf(i_0_286, plain, (esk8_7(X1,X2,X3,X4,X5,X6,X7)=X1|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X2|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X3|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X4|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X5|esk8_7(X1,X2,X3,X4,X5,X6,X7)=X6|X7=X8|r2_hidden(esk8_7(X1,X2,X3,X4,X5,X6,X7),X7)|esk8_7(X1,X2,X3,X4,X5,X6,X8)=X1|esk8_7(X1,X2,X3,X4,X5,X6,X8)=X2|esk8_7(X1,X2,X3,X4,X5,X6,X8)=X3|esk8_7(X1,X2,X3,X4,X5,X6,X8)=X4|esk8_7(X1,X2,X3,X4,X5,X6,X8)=X5|esk8_7(X1,X2,X3,X4,X5,X6,X8)=X6|r2_hidden(esk8_7(X1,X2,X3,X4,X5,X6,X8),X8))).#trainneg
+cnf(i_0_289, plain, (v1_xboole_0(X1)|r1_xboole_0(X2,X1)|esk18_8(X3,X4,X5,X6,X7,X8,X9,esk16_1(X1))=X3|esk18_8(X3,X4,X5,X6,X7,X8,X9,esk16_1(X1))=X4|esk18_8(X3,X4,X5,X6,X7,X8,X9,esk16_1(X1))=X5|esk18_8(X3,X4,X5,X6,X7,X8,X9,esk16_1(X1))=X6|esk18_8(X3,X4,X5,X6,X7,X8,X9,esk16_1(X1))=X7|esk18_8(X3,X4,X5,X6,X7,X8,X9,esk16_1(X1))=X8|esk18_8(X3,X4,X5,X6,X7,X8,X9,esk16_1(X1))=X9|esk16_1(X1)=k5_enumset1(X3,X4,X5,X6,X7,X8,X9)|~r2_hidden(X10,esk18_8(X3,X4,X5,X6,X7,X8,X9,esk16_1(X1)))|~r2_hidden(X11,X10)|~r2_hidden(X12,X11)|~r2_hidden(X2,X12))).#trainneg
+cnf(i_0_1120, plain, (r1_xboole_0(X1,k1_tarski(X2))|r2_hidden(X2,X1))).#trainneg
+cnf(i_0_1985, plain, (r2_hidden(X1,k4_enumset1(X2,X3,X4,X5,X1,X6)))).#trainneg
+cnf(i_0_1783, negated_conjecture, (r1_xboole_0(k1_tarski(esk6_0),X1)|~r2_hidden(X1,esk2_0))).#trainneg
+cnf(i_0_743, plain, (r2_hidden(X1,k5_enumset1(X2,X3,X1,X4,X5,X6,X7)))).#trainneg
+cnf(i_0_1004, plain, (r2_hidden(X1,k5_enumset1(X2,X1,X3,X4,X5,X6,X7)))).#trainneg
+cnf(i_0_875, plain, (r2_hidden(X1,k6_enumset1(X2,X3,X4,X5,X1,X6,X7,X8)))).#trainneg
+# Training: Negative examples end
+# Parsed axioms                        : 19
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 107
+# Removed in clause preprocessing      : 0
+# Initial clauses in saturation        : 107
+# Processed clauses                    : 323
+# ...of these trivial                  : 0
+# ...subsumed                          : 13
+# ...remaining for further processing  : 310
+# Other redundant clauses eliminated   : 394
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 0
+# Backward-rewritten                   : 0
+# Generated clauses                    : 2855
+# ...of the previous two non-trivial   : 2421
+# Contextual simplify-reflections      : 2
+# Paramodulations                      : 2402
+# Factorizations                       : 4
+# Equation resolutions                 : 444
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 271
+#    Positive orientable unit clauses  : 37
+#    Positive unorientable unit clauses: 0
+#    Negative unit clauses             : 46
+#    Non-unit-clauses                  : 188
+# Current number of unprocessed clauses: 2191
+# ...number of literals in the above   : 25313
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 315
+# Proof object given clauses           : 25
+# Proof search given clauses           : 310
+# Clause-clause subsumption calls (NU) : 12671
+# Rec. Clause-clause subsumption calls : 2591
+# Non-unit clause-clause subsumptions  : 10
+# Unit Clause-clause subsumption calls : 2575
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 71
+# BW rewrite match successes           : 0
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 66514
+
+# -------------------------------------------------
+# User time                : 21.116 s
+# System time              : 1.057 s
+# Total time               : 22.173 s
+# Maximum resident set size: 510348 pages
+21.11user 1.17system 0:22.46elapsed 99%CPU (0avgtext+0avgdata 510348maxresident)k
+0inputs+96outputs (0major+273212minor)pagefaults 0swaps

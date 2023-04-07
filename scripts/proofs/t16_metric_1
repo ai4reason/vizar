@@ -1,0 +1,184 @@
+2020-05-25 20:05:38.743148: I tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_69
+2020-05-25 20:05:38.849154: I tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2020-05-25 20:05:39.557025: I tensorflow/cc/saved_model/loader.cc:202] Restoring SavedModel bundle.
+2020-05-25 20:05:41.765593: I tensorflow/cc/saved_model/loader.cc:311] SavedModel load for tags { serve }; Status: success. Took 3022449 microseconds.
+# ENIGMA: TensorFlow C library version 1.15.0
+# ENIGMA: TensorFlow: model 'models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_69' loaded (query=128; context=512; weigths=real; len_mult=0.000000).
+# Preprocessing time       : 4.054 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(t4_subset, axiom, ![X1, X2, X3]:((r2_hidden(X1,X2)&m1_subset_1(X2,k1_zfmisc_1(X3)))=>m1_subset_1(X1,X3)), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t4_subset)).
+fof(dt_k10_metric_1, axiom, ![X1, X2, X3]:(((l1_metric_1(X1)&m1_subset_1(X2,u1_struct_0(X1)))&v1_xreal_0(X3))=>m1_subset_1(k10_metric_1(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', dt_k10_metric_1)).
+fof(t2_tarski, axiom, ![X1, X2]:~((r2_hidden(X1,X2)&![X3]:~((r2_hidden(X3,X2)&![X4]:~((r2_hidden(X4,X2)&r2_hidden(X4,X3))))))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t2_tarski)).
+fof(d3_xboole_0, axiom, ![X1, X2, X3]:(X3=k2_xboole_0(X1,X2)<=>![X4]:(r2_hidden(X4,X3)<=>(r2_hidden(X4,X1)|r2_hidden(X4,X2)))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', d3_xboole_0)).
+fof(t1_xxreal_0, axiom, ![X1]:(v1_xxreal_0(X1)=>![X2]:(v1_xxreal_0(X2)=>((r1_xxreal_0(X1,X2)&r1_xxreal_0(X2,X1))=>X1=X2))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t1_xxreal_0)).
+fof(t12_metric_1, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(l1_metric_1(X2)=>![X3]:(m1_subset_1(X3,u1_struct_0(X2))=>![X4]:(m1_subset_1(X4,u1_struct_0(X2))=>(r2_hidden(X4,k10_metric_1(X2,X3,X1))<=>(~(v2_struct_0(X2))&r1_xxreal_0(k2_metric_1(X2,X3,X4),X1))))))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t12_metric_1)).
+fof(cc4_xreal_0, axiom, ![X1]:(v1_xreal_0(X1)=>v1_xxreal_0(X1)), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', cc4_xreal_0)).
+fof(commutativity_k2_xboole_0, axiom, ![X1, X2]:k2_xboole_0(X1,X2)=k2_xboole_0(X2,X1), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', commutativity_k2_xboole_0)).
+fof(t11_metric_1, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(l1_metric_1(X2)=>![X3]:(m1_subset_1(X3,u1_struct_0(X2))=>![X4]:(m1_subset_1(X4,u1_struct_0(X2))=>(r2_hidden(X4,k9_metric_1(X2,X3,X1))<=>(~(v2_struct_0(X2))&~(r1_xxreal_0(X1,k2_metric_1(X2,X3,X4))))))))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t11_metric_1)).
+fof(t2_subset_1, axiom, ![X1, X2]:(m1_subset_1(X2,k1_zfmisc_1(X1))=>![X3]:(m1_subset_1(X3,k1_zfmisc_1(X1))=>(![X4]:(m1_subset_1(X4,X1)=>(r2_hidden(X4,X2)=>r2_hidden(X4,X3)))=>r1_tarski(X2,X3)))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t2_subset_1)).
+fof(cc1_xreal_0, axiom, ![X1]:(m1_subset_1(X1,k1_numbers)=>v1_xreal_0(X1)), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', cc1_xreal_0)).
+fof(t13_metric_1, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(l1_metric_1(X2)=>![X3]:(m1_subset_1(X3,u1_struct_0(X2))=>![X4]:(m1_subset_1(X4,u1_struct_0(X2))=>(r2_hidden(X4,k11_metric_1(X2,X3,X1))<=>(~(v2_struct_0(X2))&k2_metric_1(X2,X3,X4)=X1)))))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t13_metric_1)).
+fof(dt_k2_metric_1, axiom, ![X1, X2, X3]:(((l1_metric_1(X1)&m1_subset_1(X2,u1_struct_0(X1)))&m1_subset_1(X3,u1_struct_0(X1)))=>m1_subset_1(k2_metric_1(X1,X2,X3),k1_numbers)), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', dt_k2_metric_1)).
+fof(redefinition_k4_subset_1, axiom, ![X1, X2, X3]:((m1_subset_1(X2,k1_zfmisc_1(X1))&m1_subset_1(X3,k1_zfmisc_1(X1)))=>k4_subset_1(X1,X2,X3)=k2_xboole_0(X2,X3)), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', redefinition_k4_subset_1)).
+fof(commutativity_k4_subset_1, axiom, ![X1, X2, X3]:((m1_subset_1(X2,k1_zfmisc_1(X1))&m1_subset_1(X3,k1_zfmisc_1(X1)))=>k4_subset_1(X1,X2,X3)=k4_subset_1(X1,X3,X2)), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', commutativity_k4_subset_1)).
+fof(dt_k4_subset_1, axiom, ![X1, X2, X3]:((m1_subset_1(X2,k1_zfmisc_1(X1))&m1_subset_1(X3,k1_zfmisc_1(X1)))=>m1_subset_1(k4_subset_1(X1,X2,X3),k1_zfmisc_1(X1))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', dt_k4_subset_1)).
+fof(t16_metric_1, conjecture, ![X1]:(v1_xreal_0(X1)=>![X2]:(l1_metric_1(X2)=>![X3]:(m1_subset_1(X3,u1_struct_0(X2))=>k4_subset_1(u1_struct_0(X2),k11_metric_1(X2,X3,X1),k9_metric_1(X2,X3,X1))=k10_metric_1(X2,X3,X1)))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t16_metric_1)).
+fof(d10_xboole_0, axiom, ![X1, X2]:(X1=X2<=>(r1_tarski(X1,X2)&r1_tarski(X2,X1))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', d10_xboole_0)).
+fof(t8_xboole_1, axiom, ![X1, X2, X3]:((r1_tarski(X1,X2)&r1_tarski(X3,X2))=>r1_tarski(k2_xboole_0(X1,X3),X2)), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t8_xboole_1)).
+fof(dt_k9_metric_1, axiom, ![X1, X2, X3]:(((l1_metric_1(X1)&m1_subset_1(X2,u1_struct_0(X1)))&v1_xreal_0(X3))=>m1_subset_1(k9_metric_1(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', dt_k9_metric_1)).
+fof(dt_k11_metric_1, axiom, ![X1, X2, X3]:(((l1_metric_1(X1)&m1_subset_1(X2,u1_struct_0(X1)))&v1_xreal_0(X3))=>m1_subset_1(k11_metric_1(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', dt_k11_metric_1)).
+fof(t15_metric_1, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(l1_metric_1(X2)=>![X3]:(m1_subset_1(X3,u1_struct_0(X2))=>r1_tarski(k11_metric_1(X2,X3,X1),k10_metric_1(X2,X3,X1))))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t15_metric_1)).
+fof(t14_metric_1, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(l1_metric_1(X2)=>![X3]:(m1_subset_1(X3,u1_struct_0(X2))=>r1_tarski(k9_metric_1(X2,X3,X1),k10_metric_1(X2,X3,X1))))), file('/home/mptp/local1/bushy_np/hardpred/preds__0.005//t16_metric_1', t14_metric_1)).
+fof(c_0_23, plain, ![X90, X91, X92]:(~r2_hidden(X90,X91)|~m1_subset_1(X91,k1_zfmisc_1(X92))|m1_subset_1(X90,X92)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t4_subset])])).
+fof(c_0_24, plain, ![X76, X77, X78]:(~l1_metric_1(X76)|~m1_subset_1(X77,u1_struct_0(X76))|~v1_xreal_0(X78)|m1_subset_1(k10_metric_1(X76,X77,X78),k1_zfmisc_1(u1_struct_0(X76)))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k10_metric_1])])).
+cnf(c_0_25, plain, (m1_subset_1(X1,X3)|~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3))), inference(split_conjunct,[status(thm)],[c_0_23])).
+cnf(c_0_26, plain, (m1_subset_1(k10_metric_1(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))|~l1_metric_1(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~v1_xreal_0(X3)), inference(split_conjunct,[status(thm)],[c_0_24])).
+fof(c_0_27, plain, ![X243, X244, X246]:((r2_hidden(esk18_2(X243,X244),X244)|~r2_hidden(X243,X244))&(~r2_hidden(X246,X244)|~r2_hidden(X246,esk18_2(X243,X244))|~r2_hidden(X243,X244))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t2_tarski])])])])])).
+fof(c_0_28, plain, ![X20, X21, X22, X23, X24, X25, X26, X27]:(((~r2_hidden(X23,X22)|(r2_hidden(X23,X20)|r2_hidden(X23,X21))|X22!=k2_xboole_0(X20,X21))&((~r2_hidden(X24,X20)|r2_hidden(X24,X22)|X22!=k2_xboole_0(X20,X21))&(~r2_hidden(X24,X21)|r2_hidden(X24,X22)|X22!=k2_xboole_0(X20,X21))))&(((~r2_hidden(esk4_3(X25,X26,X27),X25)|~r2_hidden(esk4_3(X25,X26,X27),X27)|X27=k2_xboole_0(X25,X26))&(~r2_hidden(esk4_3(X25,X26,X27),X26)|~r2_hidden(esk4_3(X25,X26,X27),X27)|X27=k2_xboole_0(X25,X26)))&(r2_hidden(esk4_3(X25,X26,X27),X27)|(r2_hidden(esk4_3(X25,X26,X27),X25)|r2_hidden(esk4_3(X25,X26,X27),X26))|X27=k2_xboole_0(X25,X26)))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(fof_nnf,[status(thm)],[d3_xboole_0])])])])])])).
+fof(c_0_29, plain, ![X18, X19]:(~v1_xxreal_0(X18)|(~v1_xxreal_0(X19)|(~r1_xxreal_0(X18,X19)|~r1_xxreal_0(X19,X18)|X18=X19))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t1_xxreal_0])])])).
+fof(c_0_30, plain, ![X62, X63, X64, X65]:(((~v2_struct_0(X63)|~r2_hidden(X65,k10_metric_1(X63,X64,X62))|~m1_subset_1(X65,u1_struct_0(X63))|~m1_subset_1(X64,u1_struct_0(X63))|~l1_metric_1(X63)|~v1_xreal_0(X62))&(r1_xxreal_0(k2_metric_1(X63,X64,X65),X62)|~r2_hidden(X65,k10_metric_1(X63,X64,X62))|~m1_subset_1(X65,u1_struct_0(X63))|~m1_subset_1(X64,u1_struct_0(X63))|~l1_metric_1(X63)|~v1_xreal_0(X62)))&(v2_struct_0(X63)|~r1_xxreal_0(k2_metric_1(X63,X64,X65),X62)|r2_hidden(X65,k10_metric_1(X63,X64,X62))|~m1_subset_1(X65,u1_struct_0(X63))|~m1_subset_1(X64,u1_struct_0(X63))|~l1_metric_1(X63)|~v1_xreal_0(X62))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t12_metric_1])])])])])).
+fof(c_0_31, plain, ![X81]:(~v1_xreal_0(X81)|v1_xxreal_0(X81)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc4_xreal_0])])).
+cnf(c_0_32, plain, (m1_subset_1(X1,u1_struct_0(X2))|~r2_hidden(X1,k10_metric_1(X2,X3,X4))|~m1_subset_1(X3,u1_struct_0(X2))|~l1_metric_1(X2)|~v1_xreal_0(X4)), inference(spm,[status(thm)],[c_0_25, c_0_26])).
+cnf(c_0_33, plain, (r2_hidden(esk18_2(X1,X2),X2)|~r2_hidden(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_27])).
+cnf(c_0_34, plain, (r2_hidden(X1,X3)|~r2_hidden(X1,X2)|X3!=k2_xboole_0(X2,X4)), inference(split_conjunct,[status(thm)],[c_0_28])).
+fof(c_0_35, plain, ![X53, X54]:k2_xboole_0(X53,X54)=k2_xboole_0(X54,X53), inference(variable_rename,[status(thm)],[commutativity_k2_xboole_0])).
+cnf(c_0_36, plain, (X1=X2|~v1_xxreal_0(X1)|~v1_xxreal_0(X2)|~r1_xxreal_0(X1,X2)|~r1_xxreal_0(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_29])).
+cnf(c_0_37, plain, (r1_xxreal_0(k2_metric_1(X1,X2,X3),X4)|~r2_hidden(X3,k10_metric_1(X1,X2,X4))|~m1_subset_1(X3,u1_struct_0(X1))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X4)), inference(split_conjunct,[status(thm)],[c_0_30])).
+cnf(c_0_38, plain, (v1_xxreal_0(X1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_31])).
+fof(c_0_39, plain, ![X46, X47, X48, X49]:(((~v2_struct_0(X47)|~r2_hidden(X49,k9_metric_1(X47,X48,X46))|~m1_subset_1(X49,u1_struct_0(X47))|~m1_subset_1(X48,u1_struct_0(X47))|~l1_metric_1(X47)|~v1_xreal_0(X46))&(~r1_xxreal_0(X46,k2_metric_1(X47,X48,X49))|~r2_hidden(X49,k9_metric_1(X47,X48,X46))|~m1_subset_1(X49,u1_struct_0(X47))|~m1_subset_1(X48,u1_struct_0(X47))|~l1_metric_1(X47)|~v1_xreal_0(X46)))&(v2_struct_0(X47)|r1_xxreal_0(X46,k2_metric_1(X47,X48,X49))|r2_hidden(X49,k9_metric_1(X47,X48,X46))|~m1_subset_1(X49,u1_struct_0(X47))|~m1_subset_1(X48,u1_struct_0(X47))|~l1_metric_1(X47)|~v1_xreal_0(X46))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t11_metric_1])])])])])).
+cnf(c_0_40, plain, (~v2_struct_0(X1)|~r2_hidden(X2,k10_metric_1(X1,X3,X4))|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X4)), inference(split_conjunct,[status(thm)],[c_0_30])).
+cnf(c_0_41, plain, (m1_subset_1(esk18_2(X1,k10_metric_1(X2,X3,X4)),u1_struct_0(X2))|~r2_hidden(X1,k10_metric_1(X2,X3,X4))|~m1_subset_1(X3,u1_struct_0(X2))|~l1_metric_1(X2)|~v1_xreal_0(X4)), inference(spm,[status(thm)],[c_0_32, c_0_33])).
+fof(c_0_42, plain, ![X29, X30, X31]:((m1_subset_1(esk5_3(X29,X30,X31),X29)|r1_tarski(X30,X31)|~m1_subset_1(X31,k1_zfmisc_1(X29))|~m1_subset_1(X30,k1_zfmisc_1(X29)))&((r2_hidden(esk5_3(X29,X30,X31),X30)|r1_tarski(X30,X31)|~m1_subset_1(X31,k1_zfmisc_1(X29))|~m1_subset_1(X30,k1_zfmisc_1(X29)))&(~r2_hidden(esk5_3(X29,X30,X31),X31)|r1_tarski(X30,X31)|~m1_subset_1(X31,k1_zfmisc_1(X29))|~m1_subset_1(X30,k1_zfmisc_1(X29))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t2_subset_1])])])])])).
+cnf(c_0_43, plain, (r2_hidden(X1,k2_xboole_0(X2,X3))|~r2_hidden(X1,X2)), inference(er,[status(thm)],[c_0_34])).
+cnf(c_0_44, plain, (k2_xboole_0(X1,X2)=k2_xboole_0(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_35])).
+cnf(c_0_45, plain, (X1=k2_metric_1(X2,X3,X4)|~r2_hidden(X4,k10_metric_1(X2,X3,X1))|~r1_xxreal_0(X1,k2_metric_1(X2,X3,X4))|~v1_xxreal_0(k2_metric_1(X2,X3,X4))|~m1_subset_1(X3,u1_struct_0(X2))|~l1_metric_1(X2)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_36, c_0_37]), c_0_32]), c_0_38])).
+cnf(c_0_46, plain, (v2_struct_0(X1)|r1_xxreal_0(X2,k2_metric_1(X1,X3,X4))|r2_hidden(X4,k9_metric_1(X1,X3,X2))|~m1_subset_1(X4,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_39])).
+cnf(c_0_47, plain, (~v2_struct_0(X1)|~r2_hidden(X2,k10_metric_1(X1,X3,X4))|~m1_subset_1(X3,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X4)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_40, c_0_33]), c_0_41])).
+cnf(c_0_48, plain, (r1_tarski(X2,X3)|~r2_hidden(esk5_3(X1,X2,X3),X3)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))), inference(split_conjunct,[status(thm)],[c_0_42])).
+cnf(c_0_49, plain, (r2_hidden(X1,k2_xboole_0(X2,X3))|~r2_hidden(X1,X3)), inference(spm,[status(thm)],[c_0_43, c_0_44])).
+cnf(c_0_50, plain, (X1=k2_metric_1(X2,X3,X4)|r2_hidden(X4,k9_metric_1(X2,X3,X1))|~r2_hidden(X4,k10_metric_1(X2,X3,X1))|~v1_xxreal_0(k2_metric_1(X2,X3,X4))|~m1_subset_1(X3,u1_struct_0(X2))|~l1_metric_1(X2)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_45, c_0_46]), c_0_32]), c_0_47])).
+cnf(c_0_51, plain, (r1_tarski(X1,k2_xboole_0(X2,X3))|~r2_hidden(esk5_3(X4,X1,k2_xboole_0(X2,X3)),X3)|~m1_subset_1(k2_xboole_0(X2,X3),k1_zfmisc_1(X4))|~m1_subset_1(X1,k1_zfmisc_1(X4))), inference(spm,[status(thm)],[c_0_48, c_0_49])).
+cnf(c_0_52, plain, (X1=k2_metric_1(X2,X3,X4)|r2_hidden(X4,k9_metric_1(X2,X3,X1))|~r2_hidden(X4,k10_metric_1(X2,X3,X1))|~m1_subset_1(X3,u1_struct_0(X2))|~l1_metric_1(X2)|~v1_xreal_0(k2_metric_1(X2,X3,X4))|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_50, c_0_38])).
+cnf(c_0_53, plain, (k2_metric_1(X1,X2,esk5_3(X3,X4,k2_xboole_0(X5,k9_metric_1(X1,X2,X6))))=X6|r1_tarski(X4,k2_xboole_0(X5,k9_metric_1(X1,X2,X6)))|~r2_hidden(esk5_3(X3,X4,k2_xboole_0(X5,k9_metric_1(X1,X2,X6))),k10_metric_1(X1,X2,X6))|~m1_subset_1(k2_xboole_0(X5,k9_metric_1(X1,X2,X6)),k1_zfmisc_1(X3))|~m1_subset_1(X4,k1_zfmisc_1(X3))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(k2_metric_1(X1,X2,esk5_3(X3,X4,k2_xboole_0(X5,k9_metric_1(X1,X2,X6)))))|~v1_xreal_0(X6)), inference(spm,[status(thm)],[c_0_51, c_0_52])).
+cnf(c_0_54, plain, (r2_hidden(esk5_3(X1,X2,X3),X2)|r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))), inference(split_conjunct,[status(thm)],[c_0_42])).
+fof(c_0_55, plain, ![X126]:(~m1_subset_1(X126,k1_numbers)|v1_xreal_0(X126)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc1_xreal_0])])).
+fof(c_0_56, plain, ![X33, X34, X35, X36]:(((~v2_struct_0(X34)|~r2_hidden(X36,k11_metric_1(X34,X35,X33))|~m1_subset_1(X36,u1_struct_0(X34))|~m1_subset_1(X35,u1_struct_0(X34))|~l1_metric_1(X34)|~v1_xreal_0(X33))&(k2_metric_1(X34,X35,X36)=X33|~r2_hidden(X36,k11_metric_1(X34,X35,X33))|~m1_subset_1(X36,u1_struct_0(X34))|~m1_subset_1(X35,u1_struct_0(X34))|~l1_metric_1(X34)|~v1_xreal_0(X33)))&(v2_struct_0(X34)|k2_metric_1(X34,X35,X36)!=X33|r2_hidden(X36,k11_metric_1(X34,X35,X33))|~m1_subset_1(X36,u1_struct_0(X34))|~m1_subset_1(X35,u1_struct_0(X34))|~l1_metric_1(X34)|~v1_xreal_0(X33))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t13_metric_1])])])])])).
+cnf(c_0_57, plain, (k2_metric_1(X1,X2,esk5_3(X3,k10_metric_1(X1,X2,X4),k2_xboole_0(X5,k9_metric_1(X1,X2,X4))))=X4|r1_tarski(k10_metric_1(X1,X2,X4),k2_xboole_0(X5,k9_metric_1(X1,X2,X4)))|~m1_subset_1(k2_xboole_0(X5,k9_metric_1(X1,X2,X4)),k1_zfmisc_1(X3))|~m1_subset_1(k10_metric_1(X1,X2,X4),k1_zfmisc_1(X3))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(k2_metric_1(X1,X2,esk5_3(X3,k10_metric_1(X1,X2,X4),k2_xboole_0(X5,k9_metric_1(X1,X2,X4)))))|~v1_xreal_0(X4)), inference(spm,[status(thm)],[c_0_53, c_0_54])).
+cnf(c_0_58, plain, (v1_xreal_0(X1)|~m1_subset_1(X1,k1_numbers)), inference(split_conjunct,[status(thm)],[c_0_55])).
+fof(c_0_59, plain, ![X94, X95, X96]:(~l1_metric_1(X94)|~m1_subset_1(X95,u1_struct_0(X94))|~m1_subset_1(X96,u1_struct_0(X94))|m1_subset_1(k2_metric_1(X94,X95,X96),k1_numbers)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k2_metric_1])])).
+fof(c_0_60, plain, ![X43, X44, X45]:(~m1_subset_1(X44,k1_zfmisc_1(X43))|~m1_subset_1(X45,k1_zfmisc_1(X43))|k4_subset_1(X43,X44,X45)=k2_xboole_0(X44,X45)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k4_subset_1])])).
+fof(c_0_61, plain, ![X50, X51, X52]:(~m1_subset_1(X51,k1_zfmisc_1(X50))|~m1_subset_1(X52,k1_zfmisc_1(X50))|k4_subset_1(X50,X51,X52)=k4_subset_1(X50,X52,X51)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[commutativity_k4_subset_1])])).
+cnf(c_0_62, plain, (r1_tarski(X1,k2_xboole_0(X2,X3))|~r2_hidden(esk5_3(X4,X1,k2_xboole_0(X2,X3)),X2)|~m1_subset_1(k2_xboole_0(X2,X3),k1_zfmisc_1(X4))|~m1_subset_1(X1,k1_zfmisc_1(X4))), inference(spm,[status(thm)],[c_0_48, c_0_43])).
+cnf(c_0_63, plain, (v2_struct_0(X1)|r2_hidden(X3,k11_metric_1(X1,X2,X4))|k2_metric_1(X1,X2,X3)!=X4|~m1_subset_1(X3,u1_struct_0(X1))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X4)), inference(split_conjunct,[status(thm)],[c_0_56])).
+cnf(c_0_64, plain, (k2_metric_1(X1,X2,esk5_3(X3,k10_metric_1(X1,X2,X4),k2_xboole_0(X5,k9_metric_1(X1,X2,X4))))=X4|r1_tarski(k10_metric_1(X1,X2,X4),k2_xboole_0(X5,k9_metric_1(X1,X2,X4)))|~m1_subset_1(k2_metric_1(X1,X2,esk5_3(X3,k10_metric_1(X1,X2,X4),k2_xboole_0(X5,k9_metric_1(X1,X2,X4)))),k1_numbers)|~m1_subset_1(k2_xboole_0(X5,k9_metric_1(X1,X2,X4)),k1_zfmisc_1(X3))|~m1_subset_1(k10_metric_1(X1,X2,X4),k1_zfmisc_1(X3))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X4)), inference(spm,[status(thm)],[c_0_57, c_0_58])).
+cnf(c_0_65, plain, (m1_subset_1(k2_metric_1(X1,X2,X3),k1_numbers)|~l1_metric_1(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))), inference(split_conjunct,[status(thm)],[c_0_59])).
+cnf(c_0_66, plain, (r1_tarski(k10_metric_1(X1,X2,X3),X4)|m1_subset_1(esk5_3(X5,k10_metric_1(X1,X2,X3),X4),u1_struct_0(X1))|~m1_subset_1(k10_metric_1(X1,X2,X3),k1_zfmisc_1(X5))|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X4,k1_zfmisc_1(X5))|~l1_metric_1(X1)|~v1_xreal_0(X3)), inference(spm,[status(thm)],[c_0_32, c_0_54])).
+fof(c_0_67, plain, ![X82, X83, X84]:(~m1_subset_1(X83,k1_zfmisc_1(X82))|~m1_subset_1(X84,k1_zfmisc_1(X82))|m1_subset_1(k4_subset_1(X82,X83,X84),k1_zfmisc_1(X82))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k4_subset_1])])).
+cnf(c_0_68, plain, (k4_subset_1(X2,X1,X3)=k2_xboole_0(X1,X3)|~m1_subset_1(X1,k1_zfmisc_1(X2))|~m1_subset_1(X3,k1_zfmisc_1(X2))), inference(split_conjunct,[status(thm)],[c_0_60])).
+cnf(c_0_69, plain, (k4_subset_1(X2,X1,X3)=k4_subset_1(X2,X3,X1)|~m1_subset_1(X1,k1_zfmisc_1(X2))|~m1_subset_1(X3,k1_zfmisc_1(X2))), inference(split_conjunct,[status(thm)],[c_0_61])).
+cnf(c_0_70, plain, (v2_struct_0(X1)|r1_tarski(X2,k2_xboole_0(k11_metric_1(X1,X3,X4),X5))|k2_metric_1(X1,X3,esk5_3(X6,X2,k2_xboole_0(k11_metric_1(X1,X3,X4),X5)))!=X4|~m1_subset_1(esk5_3(X6,X2,k2_xboole_0(k11_metric_1(X1,X3,X4),X5)),u1_struct_0(X1))|~m1_subset_1(k2_xboole_0(k11_metric_1(X1,X3,X4),X5),k1_zfmisc_1(X6))|~m1_subset_1(X2,k1_zfmisc_1(X6))|~m1_subset_1(X3,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X4)), inference(spm,[status(thm)],[c_0_62, c_0_63])).
+cnf(c_0_71, plain, (k2_metric_1(X1,X2,esk5_3(X3,k10_metric_1(X1,X2,X4),k2_xboole_0(X5,k9_metric_1(X1,X2,X4))))=X4|r1_tarski(k10_metric_1(X1,X2,X4),k2_xboole_0(X5,k9_metric_1(X1,X2,X4)))|~m1_subset_1(k2_xboole_0(X5,k9_metric_1(X1,X2,X4)),k1_zfmisc_1(X3))|~m1_subset_1(k10_metric_1(X1,X2,X4),k1_zfmisc_1(X3))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X4)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_64, c_0_65]), c_0_66])).
+cnf(c_0_72, plain, (r1_tarski(k10_metric_1(X1,X2,X3),X4)|~v2_struct_0(X1)|~m1_subset_1(k10_metric_1(X1,X2,X3),k1_zfmisc_1(X5))|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X4,k1_zfmisc_1(X5))|~l1_metric_1(X1)|~v1_xreal_0(X3)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_40, c_0_54]), c_0_66])).
+cnf(c_0_73, plain, (m1_subset_1(k4_subset_1(X2,X1,X3),k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(X2))|~m1_subset_1(X3,k1_zfmisc_1(X2))), inference(split_conjunct,[status(thm)],[c_0_67])).
+cnf(c_0_74, plain, (k4_subset_1(X1,X2,X3)=k2_xboole_0(X3,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))), inference(spm,[status(thm)],[c_0_68, c_0_69])).
+fof(c_0_75, negated_conjecture, ~(![X1]:(v1_xreal_0(X1)=>![X2]:(l1_metric_1(X2)=>![X3]:(m1_subset_1(X3,u1_struct_0(X2))=>k4_subset_1(u1_struct_0(X2),k11_metric_1(X2,X3,X1),k9_metric_1(X2,X3,X1))=k10_metric_1(X2,X3,X1))))), inference(assume_negation,[status(cth)],[t16_metric_1])).
+fof(c_0_76, plain, ![X37, X38]:(((r1_tarski(X37,X38)|X37!=X38)&(r1_tarski(X38,X37)|X37!=X38))&(~r1_tarski(X37,X38)|~r1_tarski(X38,X37)|X37=X38)), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[d10_xboole_0])])])).
+fof(c_0_77, plain, ![X9, X10, X11]:(~r1_tarski(X9,X10)|~r1_tarski(X11,X10)|r1_tarski(k2_xboole_0(X9,X11),X10)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t8_xboole_1])])).
+cnf(c_0_78, plain, (r1_tarski(k10_metric_1(X1,X2,X3),k2_xboole_0(k11_metric_1(X1,X2,X3),k9_metric_1(X1,X2,X3)))|~m1_subset_1(k2_xboole_0(k11_metric_1(X1,X2,X3),k9_metric_1(X1,X2,X3)),k1_zfmisc_1(X4))|~m1_subset_1(k10_metric_1(X1,X2,X3),k1_zfmisc_1(X4))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X3)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(er,[status(thm)],[inference(spm,[status(thm)],[c_0_70, c_0_71])]), c_0_66]), c_0_72])).
+cnf(c_0_79, plain, (m1_subset_1(k2_xboole_0(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(X3))), inference(spm,[status(thm)],[c_0_73, c_0_74])).
+fof(c_0_80, plain, ![X73, X74, X75]:(~l1_metric_1(X73)|~m1_subset_1(X74,u1_struct_0(X73))|~v1_xreal_0(X75)|m1_subset_1(k9_metric_1(X73,X74,X75),k1_zfmisc_1(u1_struct_0(X73)))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k9_metric_1])])).
+fof(c_0_81, plain, ![X55, X56, X57]:(~l1_metric_1(X55)|~m1_subset_1(X56,u1_struct_0(X55))|~v1_xreal_0(X57)|m1_subset_1(k11_metric_1(X55,X56,X57),k1_zfmisc_1(u1_struct_0(X55)))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k11_metric_1])])).
+fof(c_0_82, negated_conjecture, (v1_xreal_0(esk1_0)&(l1_metric_1(esk2_0)&(m1_subset_1(esk3_0,u1_struct_0(esk2_0))&k4_subset_1(u1_struct_0(esk2_0),k11_metric_1(esk2_0,esk3_0,esk1_0),k9_metric_1(esk2_0,esk3_0,esk1_0))!=k10_metric_1(esk2_0,esk3_0,esk1_0)))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[c_0_75])])])).
+cnf(c_0_83, plain, (X1=X2|~r1_tarski(X1,X2)|~r1_tarski(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_76])).
+cnf(c_0_84, plain, (r1_tarski(k2_xboole_0(X1,X3),X2)|~r1_tarski(X1,X2)|~r1_tarski(X3,X2)), inference(split_conjunct,[status(thm)],[c_0_77])).
+cnf(c_0_85, plain, (r1_tarski(k10_metric_1(X1,X2,X3),k2_xboole_0(k11_metric_1(X1,X2,X3),k9_metric_1(X1,X2,X3)))|~m1_subset_1(k10_metric_1(X1,X2,X3),k1_zfmisc_1(X4))|~m1_subset_1(k11_metric_1(X1,X2,X3),k1_zfmisc_1(X4))|~m1_subset_1(k9_metric_1(X1,X2,X3),k1_zfmisc_1(X4))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X3)), inference(spm,[status(thm)],[c_0_78, c_0_79])).
+cnf(c_0_86, plain, (m1_subset_1(k9_metric_1(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))|~l1_metric_1(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~v1_xreal_0(X3)), inference(split_conjunct,[status(thm)],[c_0_80])).
+cnf(c_0_87, plain, (m1_subset_1(k11_metric_1(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))|~l1_metric_1(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~v1_xreal_0(X3)), inference(split_conjunct,[status(thm)],[c_0_81])).
+fof(c_0_88, plain, ![X12, X13, X14]:(~v1_xreal_0(X12)|(~l1_metric_1(X13)|(~m1_subset_1(X14,u1_struct_0(X13))|r1_tarski(k11_metric_1(X13,X14,X12),k10_metric_1(X13,X14,X12))))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t15_metric_1])])])).
+fof(c_0_89, plain, ![X15, X16, X17]:(~v1_xreal_0(X15)|(~l1_metric_1(X16)|(~m1_subset_1(X17,u1_struct_0(X16))|r1_tarski(k9_metric_1(X16,X17,X15),k10_metric_1(X16,X17,X15))))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t14_metric_1])])])).
+cnf(c_0_90, negated_conjecture, (k4_subset_1(u1_struct_0(esk2_0),k11_metric_1(esk2_0,esk3_0,esk1_0),k9_metric_1(esk2_0,esk3_0,esk1_0))!=k10_metric_1(esk2_0,esk3_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_82])).
+cnf(c_0_91, plain, (X1=k2_xboole_0(X2,X3)|~r1_tarski(X1,k2_xboole_0(X2,X3))|~r1_tarski(X3,X1)|~r1_tarski(X2,X1)), inference(spm,[status(thm)],[c_0_83, c_0_84])).
+cnf(c_0_92, plain, (r1_tarski(k10_metric_1(X1,X2,X3),k2_xboole_0(k11_metric_1(X1,X2,X3),k9_metric_1(X1,X2,X3)))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X3)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_85, c_0_86]), c_0_87]), c_0_26])).
+cnf(c_0_93, plain, (r1_tarski(k11_metric_1(X2,X3,X1),k10_metric_1(X2,X3,X1))|~v1_xreal_0(X1)|~l1_metric_1(X2)|~m1_subset_1(X3,u1_struct_0(X2))), inference(split_conjunct,[status(thm)],[c_0_88])).
+cnf(c_0_94, plain, (r1_tarski(k9_metric_1(X2,X3,X1),k10_metric_1(X2,X3,X1))|~v1_xreal_0(X1)|~l1_metric_1(X2)|~m1_subset_1(X3,u1_struct_0(X2))), inference(split_conjunct,[status(thm)],[c_0_89])).
+cnf(c_0_95, negated_conjecture, (k2_xboole_0(k11_metric_1(esk2_0,esk3_0,esk1_0),k9_metric_1(esk2_0,esk3_0,esk1_0))!=k10_metric_1(esk2_0,esk3_0,esk1_0)|~m1_subset_1(k9_metric_1(esk2_0,esk3_0,esk1_0),k1_zfmisc_1(u1_struct_0(esk2_0)))|~m1_subset_1(k11_metric_1(esk2_0,esk3_0,esk1_0),k1_zfmisc_1(u1_struct_0(esk2_0)))), inference(spm,[status(thm)],[c_0_90, c_0_68])).
+cnf(c_0_96, plain, (k2_xboole_0(k11_metric_1(X1,X2,X3),k9_metric_1(X1,X2,X3))=k10_metric_1(X1,X2,X3)|~m1_subset_1(X2,u1_struct_0(X1))|~l1_metric_1(X1)|~v1_xreal_0(X3)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_91, c_0_92]), c_0_93]), c_0_94])).
+cnf(c_0_97, negated_conjecture, (m1_subset_1(esk3_0,u1_struct_0(esk2_0))), inference(split_conjunct,[status(thm)],[c_0_82])).
+cnf(c_0_98, negated_conjecture, (l1_metric_1(esk2_0)), inference(split_conjunct,[status(thm)],[c_0_82])).
+cnf(c_0_99, negated_conjecture, (v1_xreal_0(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_82])).
+cnf(c_0_100, negated_conjecture, (~m1_subset_1(k9_metric_1(esk2_0,esk3_0,esk1_0),k1_zfmisc_1(u1_struct_0(esk2_0)))|~m1_subset_1(k11_metric_1(esk2_0,esk3_0,esk1_0),k1_zfmisc_1(u1_struct_0(esk2_0)))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_95, c_0_96]), c_0_97]), c_0_98]), c_0_99])])).
+cnf(c_0_101, negated_conjecture, (~m1_subset_1(k11_metric_1(esk2_0,esk3_0,esk1_0),k1_zfmisc_1(u1_struct_0(esk2_0)))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_100, c_0_86]), c_0_97]), c_0_98]), c_0_99])])).
+cnf(c_0_102, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_101, c_0_87]), c_0_97]), c_0_98]), c_0_99])]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 103
+# Proof object clause steps            : 56
+# Proof object formula steps           : 47
+# Proof object conjectures             : 11
+# Proof object clause conjectures      : 8
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 28
+# Proof object initial formulas used   : 23
+# Proof object generating inferences   : 28
+# Proof object simplifying inferences  : 26
+# Training examples: 0 positive, 0 negative
+# Parsed axioms                        : 130
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 206
+# Removed in clause preprocessing      : 22
+# Initial clauses in saturation        : 184
+# Processed clauses                    : 840
+# ...of these trivial                  : 3
+# ...subsumed                          : 346
+# ...remaining for further processing  : 491
+# Other redundant clauses eliminated   : 74
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 29
+# Backward-rewritten                   : 0
+# Generated clauses                    : 2924
+# ...of the previous two non-trivial   : 2555
+# Contextual simplify-reflections      : 133
+# Paramodulations                      : 2834
+# Factorizations                       : 6
+# Equation resolutions                 : 84
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 457
+#    Positive orientable unit clauses  : 49
+#    Positive unorientable unit clauses: 1
+#    Negative unit clauses             : 5
+#    Non-unit-clauses                  : 402
+# Current number of unprocessed clauses: 1874
+# ...number of literals in the above   : 14603
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 29
+# Clause-clause subsumption calls (NU) : 173185
+# Rec. Clause-clause subsumption calls : 7039
+# Non-unit clause-clause subsumptions  : 502
+# Unit Clause-clause subsumption calls : 299
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 49
+# BW rewrite match successes           : 4
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 104240
+
+# -------------------------------------------------
+# User time                : 12.498 s
+# System time              : 0.528 s
+# Total time               : 13.026 s
+# Maximum resident set size: 367932 pages
+12.49user 0.58system 0:13.08elapsed 99%CPU (0avgtext+0avgdata 368532maxresident)k
+0inputs+64outputs (0major+156664minor)pagefaults 0swaps

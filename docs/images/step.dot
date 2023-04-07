@@ -1,0 +1,53 @@
+
+digraph proof {
+   
+   fontsize = 20;
+   graph [ 
+      overlap=false
+      //fontsize=1
+      splines=ortho
+      //splines=true
+      concentrate=true 
+      bgcolor=transparent
+   ];
+   node [ 
+      margin=0
+      width=0 
+      height=0
+      style=filled
+      fillcolor="#F8EDD1"
+      fontcolor=black
+      color="#7F7542"
+      shape=record 
+   ];
+
+	subgraph cluster_0 {
+  style="dotted";
+
+	ass3 [ fillcolor="#F8EDD1", label="{Assumption₃}" ]
+	ass2 [ fillcolor="#F8EDD1", label="{Assumption₂}" ]
+	ass1 [ fillcolor="#F8EDD1", label="{Assumption₁}" ]
+  }
+
+	subgraph cluster_1 {
+  style="bold";
+
+	claim [ fillcolor="#F8EDD1", label="{Step claim}" ]
+	ass1 -> claim
+	ass2 -> claim
+	ass3 -> claim
+  }
+
+	subgraph cluster_2 {
+  style="dotted";
+
+	cons3 [ fillcolor="#FA6900", label="{Consequence₃}" ]
+	cons2 [ fillcolor="#F8EDD1", label="{Consequence₂}" ]
+	cons1 [ fillcolor="#F8EDD1", label="{Consequence₁}" ]
+	claim -> cons1 [ style="dashed" ]
+	claim -> cons2 [ style="dashed" ]
+	claim -> cons3 [ style="dashed" ]
+  }
+
+
+}

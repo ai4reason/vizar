@@ -91,22 +91,22 @@ skolems:
     axiom: t28_card_2
     related:
     - esk2_0
-    - esk1_0
     - esk3_0
+    - esk1_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t28_card_2
     related:
     - esk2_0
-    - esk1_0
     - esk3_0
+    - esk1_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t28_card_2
     related:
     - esk2_0
-    - esk1_0
     - esk3_0
+    - esk1_0
     symbol: "sk\u2083"
 steps:
   c_0_16:
@@ -368,15 +368,14 @@ steps:
   c_0_61:
     counts:
       '=': 1
-      esk1_0: 4
+      esk1_0: 3
       esk2_0: 2
-      esk3_0: 3
+      esk3_0: 2
       k1_card_1: 1
       k1_card_2: 1
       k1_funct_2: 1
       k2_zfmisc_1: 1
-      k3_card_2: 3
-      v1_card_1: 1
+      k3_card_2: 2
     skolems:
     - esk2_0
     - esk3_0
@@ -459,17 +458,16 @@ steps:
     counts:
       '=': 1
       esk1_0: 3
-      esk2_0: 3
-      esk3_0: 3
+      esk2_0: 2
+      esk3_0: 2
       k1_card_1: 2
-      k1_card_2: 2
+      k1_card_2: 1
       k1_funct_2: 3
       k2_zfmisc_1: 1
-      v1_card_1: 1
     skolems:
     - esk2_0
-    - esk3_0
     - esk1_0
+    - esk3_0
   c_0_70:
     counts:
       esk2_0: 1
@@ -490,20 +488,6 @@ steps:
       "\u03BA2": 2
     skolems:
     - esk2_0
-  c_0_72:
-    counts:
-      '=': 1
-      esk1_0: 3
-      esk2_0: 2
-      esk3_0: 2
-      k1_card_1: 2
-      k1_card_2: 1
-      k1_funct_2: 3
-      k2_zfmisc_1: 1
-    skolems:
-    - esk2_0
-    - esk3_0
-    - esk1_0
   c_0_73:
     counts:
       '=': 2
@@ -543,25 +527,25 @@ symbols:
     vizar: x = y
   esk1_0:
     arity: 0
-    count: 20
+    count: 19
     mizar: "sk\u2081"
-    neg: 19
+    neg: 18
     pos: 1
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK1
     vizar: "sk\u2081"
   esk2_0:
     arity: 0
-    count: 25
+    count: 24
     mizar: "sk\u2082"
-    neg: 14
+    neg: 13
     pos: 11
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK2
     vizar: "sk\u2082"
   esk3_0:
     arity: 0
-    count: 26
+    count: 24
     mizar: "sk\u2083"
-    neg: 15
+    neg: 13
     pos: 11
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK3
     vizar: "sk\u2083"
@@ -575,9 +559,9 @@ symbols:
     vizar: '|x|'
   k1_card_2:
     arity: 2
-    count: 27
+    count: 26
     mizar: +`
-    neg: 8
+    neg: 7
     pos: 19
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#K1
     vizar: x + y
@@ -623,9 +607,9 @@ symbols:
     vizar: "x \xD7 y"
   k3_card_2:
     arity: 2
-    count: 10
+    count: 9
     mizar: exp
-    neg: 9
+    neg: 8
     pos: 1
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#K3
     vizar: x ^ y
@@ -647,9 +631,9 @@ symbols:
     vizar: '|x| = |y|'
   v1_card_1:
     arity: 1
-    count: 7
+    count: 5
     mizar: cardinal
-    neg: 2
+    neg: 0
     pos: 5
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#V1
     vizar: "x \u2208 Card"
@@ -773,9 +757,6 @@ tptp:
     \ ))."
   c_0_71: "cnf(c_0_71,negated_conjecture,\n    ( k1_card_1(k2_zfmisc_1(k1_funct_2(esk2_0,X1),k1_funct_2(X2,X1)))\
     \ = k1_card_1(k1_funct_2(k1_card_2(esk2_0,X2),X1))\n    | X3 = X4\n    | ~ v1_card_1(X2)\
-    \ ))."
-  c_0_72: "cnf(c_0_72,negated_conjecture,\n    ( k1_card_1(k1_funct_2(k1_card_2(esk2_0,esk3_0),esk1_0))\
-    \ != k1_card_1(k2_zfmisc_1(k1_funct_2(esk2_0,esk1_0),k1_funct_2(esk3_0,esk1_0)))\
     \ ))."
   c_0_73: "cnf(c_0_73,negated_conjecture,\n    ( k1_card_1(k2_zfmisc_1(k1_funct_2(esk2_0,X1),k1_funct_2(esk3_0,X1)))\
     \ = k1_card_1(k1_funct_2(k1_card_2(esk2_0,esk3_0),X1))\n    | X2 = X3 ))."

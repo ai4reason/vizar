@@ -1,0 +1,627 @@
+2020-05-31 19:28:33.100021: I tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_69
+2020-05-31 19:28:33.220441: I tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2020-05-31 19:28:33.453431: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2020-05-31 19:28:34.341427: I tensorflow/cc/saved_model/loader.cc:202] Restoring SavedModel bundle.
+2020-05-31 19:28:38.047310: I tensorflow/cc/saved_model/loader.cc:311] SavedModel load for tags { serve }; Status: success. Took 4947250 microseconds.
+# ENIGMA: TensorFlow C library version 1.15.0
+# ENIGMA: TensorFlow: model 'models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_69' loaded (query=128; context=256; weigths=real; len_mult=0.000000).
+# Preprocessing time       : 6.241 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(fraenkel_a_2_3_matroid0, axiom, ![X1, X2, X3]:(((((((~(v2_struct_0(X2))&~(v3_pencil_1(X2)))&v1_matroid0(X2))&v2_matroid0(X2))&v4_matroid0(X2))&l1_pre_topc(X2))&m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2))))=>(r2_hidden(X1,a_2_3_matroid0(X2,X3))<=>?[X4]:(((v3_pre_topc(X4,X2)&m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2))))&X1=k5_card_1(X4))&r1_tarski(X4,X3)))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', fraenkel_a_2_3_matroid0)).
+fof(d10_matroid0, axiom, ![X1]:(l1_pre_topc(X1)=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))=>![X3]:(m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))=>(r1_matroid0(X1,X2,X3)<=>((v3_pre_topc(X2,X1)&r1_tarski(X2,X3))&![X4]:(m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))=>(((v3_pre_topc(X4,X1)&r1_tarski(X4,X3))&r1_tarski(X2,X4))=>X2=X4))))))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', d10_matroid0)).
+fof(cc1_card_1, axiom, ![X1]:(v1_card_1(X1)=>v3_ordinal1(X1)), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', cc1_card_1)).
+fof(dt_k1_card_1, axiom, ![X1]:v1_card_1(k1_card_1(X1)), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', dt_k1_card_1)).
+fof(t11_card_1, axiom, ![X1, X2]:(r1_tarski(X1,X2)=>r1_ordinal1(k1_card_1(X1),k1_card_1(X2))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', t11_card_1)).
+fof(redefinition_k5_card_1, axiom, ![X1]:(v1_finset_1(X1)=>k5_card_1(X1)=k1_card_1(X1)), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', redefinition_k5_card_1)).
+fof(cc6_matroid0, axiom, ![X1]:(((~(v3_pencil_1(X1))&v3_matroid0(X1))&l1_pre_topc(X1))=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))=>(v3_pre_topc(X2,X1)=>(v1_finset_1(X2)&v3_pre_topc(X2,X1))))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', cc6_matroid0)).
+fof(t18_matroid0, axiom, ![X1]:((((((~(v2_struct_0(X1))&~(v3_pencil_1(X1)))&v1_matroid0(X1))&v2_matroid0(X1))&v4_matroid0(X1))&l1_pre_topc(X1))=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))=>?[X3]:(((v3_pre_topc(X3,X1)&m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1))))&r1_tarski(X3,X2))&k5_card_1(X3)=k4_matroid0(X1,X2)))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', t18_matroid0)).
+fof(redefinition_r1_ordinal1, axiom, ![X1, X2]:((v3_ordinal1(X1)&v3_ordinal1(X2))=>(r1_ordinal1(X1,X2)<=>r1_tarski(X1,X2))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', redefinition_r1_ordinal1)).
+fof(cc2_matroid0, axiom, ![X1]:(l1_pre_topc(X1)=>(v4_matroid0(X1)=>v3_matroid0(X1))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', cc2_matroid0)).
+fof(t74_zfmisc_1, axiom, ![X1, X2]:(r2_hidden(X1,X2)=>r1_tarski(X1,k3_tarski(X2))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', t74_zfmisc_1)).
+fof(d11_matroid0, axiom, ![X1]:((((((~(v2_struct_0(X1))&~(v3_pencil_1(X1)))&v1_matroid0(X1))&v2_matroid0(X1))&v4_matroid0(X1))&l1_pre_topc(X1))=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))=>k4_matroid0(X1,X2)=k3_tarski(a_2_3_matroid0(X1,X2)))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', d11_matroid0)).
+fof(d10_xboole_0, axiom, ![X1, X2]:(X1=X2<=>(r1_tarski(X1,X2)&r1_tarski(X2,X1))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', d10_xboole_0)).
+fof(t1_card_fin, axiom, ![X1]:(v1_finset_1(X1)=>![X2]:(v1_finset_1(X2)=>((r1_tarski(X1,X2)&k5_card_1(X1)=k5_card_1(X2))=>X1=X2))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', t1_card_fin)).
+fof(t19_matroid0, conjecture, ![X1]:((((((~(v2_struct_0(X1))&~(v3_pencil_1(X1)))&v1_matroid0(X1))&v2_matroid0(X1))&v4_matroid0(X1))&l1_pre_topc(X1))=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))=>![X3]:((v3_pre_topc(X3,X1)&m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1))))=>(r1_matroid0(X1,X3,X2)<=>(r1_tarski(X3,X2)&k5_card_1(X3)=k4_matroid0(X1,X2)))))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', t19_matroid0)).
+fof(t16_matroid0, axiom, ![X1]:(((((~(v2_struct_0(X1))&~(v3_pencil_1(X1)))&v1_matroid0(X1))&v4_matroid0(X1))&l1_pre_topc(X1))=>(((((~(v2_struct_0(X1))&~(v3_pencil_1(X1)))&v1_matroid0(X1))&v2_matroid0(X1))&l1_pre_topc(X1))<=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))=>![X3]:((v3_pre_topc(X3,X1)&m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1))))=>![X4]:((v3_pre_topc(X4,X1)&m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1))))=>((r1_matroid0(X1,X3,X2)&r1_matroid0(X1,X4,X2))=>k5_card_1(X3)=k5_card_1(X4))))))), file('/scratch/mptp/allpred/preds__0.005/t19_matroid0', t16_matroid0)).
+fof(c_0_16, plain, ![X115, X116, X117, X119]:(((((v3_pre_topc(esk11_3(X115,X116,X117),X116)|~r2_hidden(X115,a_2_3_matroid0(X116,X117))|(v2_struct_0(X116)|v3_pencil_1(X116)|~v1_matroid0(X116)|~v2_matroid0(X116)|~v4_matroid0(X116)|~l1_pre_topc(X116)|~m1_subset_1(X117,k1_zfmisc_1(u1_struct_0(X116)))))&(m1_subset_1(esk11_3(X115,X116,X117),k1_zfmisc_1(u1_struct_0(X116)))|~r2_hidden(X115,a_2_3_matroid0(X116,X117))|(v2_struct_0(X116)|v3_pencil_1(X116)|~v1_matroid0(X116)|~v2_matroid0(X116)|~v4_matroid0(X116)|~l1_pre_topc(X116)|~m1_subset_1(X117,k1_zfmisc_1(u1_struct_0(X116))))))&(X115=k5_card_1(esk11_3(X115,X116,X117))|~r2_hidden(X115,a_2_3_matroid0(X116,X117))|(v2_struct_0(X116)|v3_pencil_1(X116)|~v1_matroid0(X116)|~v2_matroid0(X116)|~v4_matroid0(X116)|~l1_pre_topc(X116)|~m1_subset_1(X117,k1_zfmisc_1(u1_struct_0(X116))))))&(r1_tarski(esk11_3(X115,X116,X117),X117)|~r2_hidden(X115,a_2_3_matroid0(X116,X117))|(v2_struct_0(X116)|v3_pencil_1(X116)|~v1_matroid0(X116)|~v2_matroid0(X116)|~v4_matroid0(X116)|~l1_pre_topc(X116)|~m1_subset_1(X117,k1_zfmisc_1(u1_struct_0(X116))))))&(~v3_pre_topc(X119,X116)|~m1_subset_1(X119,k1_zfmisc_1(u1_struct_0(X116)))|X115!=k5_card_1(X119)|~r1_tarski(X119,X117)|r2_hidden(X115,a_2_3_matroid0(X116,X117))|(v2_struct_0(X116)|v3_pencil_1(X116)|~v1_matroid0(X116)|~v2_matroid0(X116)|~v4_matroid0(X116)|~l1_pre_topc(X116)|~m1_subset_1(X117,k1_zfmisc_1(u1_struct_0(X116)))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[fraenkel_a_2_3_matroid0])])])])])])).
+fof(c_0_17, plain, ![X20, X21, X22, X23]:((((v3_pre_topc(X21,X20)|~r1_matroid0(X20,X21,X22)|~m1_subset_1(X22,k1_zfmisc_1(u1_struct_0(X20)))|~m1_subset_1(X21,k1_zfmisc_1(u1_struct_0(X20)))|~l1_pre_topc(X20))&(r1_tarski(X21,X22)|~r1_matroid0(X20,X21,X22)|~m1_subset_1(X22,k1_zfmisc_1(u1_struct_0(X20)))|~m1_subset_1(X21,k1_zfmisc_1(u1_struct_0(X20)))|~l1_pre_topc(X20)))&(~m1_subset_1(X23,k1_zfmisc_1(u1_struct_0(X20)))|(~v3_pre_topc(X23,X20)|~r1_tarski(X23,X22)|~r1_tarski(X21,X23)|X21=X23)|~r1_matroid0(X20,X21,X22)|~m1_subset_1(X22,k1_zfmisc_1(u1_struct_0(X20)))|~m1_subset_1(X21,k1_zfmisc_1(u1_struct_0(X20)))|~l1_pre_topc(X20)))&((m1_subset_1(esk8_3(X20,X21,X22),k1_zfmisc_1(u1_struct_0(X20)))|(~v3_pre_topc(X21,X20)|~r1_tarski(X21,X22))|r1_matroid0(X20,X21,X22)|~m1_subset_1(X22,k1_zfmisc_1(u1_struct_0(X20)))|~m1_subset_1(X21,k1_zfmisc_1(u1_struct_0(X20)))|~l1_pre_topc(X20))&((((v3_pre_topc(esk8_3(X20,X21,X22),X20)|(~v3_pre_topc(X21,X20)|~r1_tarski(X21,X22))|r1_matroid0(X20,X21,X22)|~m1_subset_1(X22,k1_zfmisc_1(u1_struct_0(X20)))|~m1_subset_1(X21,k1_zfmisc_1(u1_struct_0(X20)))|~l1_pre_topc(X20))&(r1_tarski(esk8_3(X20,X21,X22),X22)|(~v3_pre_topc(X21,X20)|~r1_tarski(X21,X22))|r1_matroid0(X20,X21,X22)|~m1_subset_1(X22,k1_zfmisc_1(u1_struct_0(X20)))|~m1_subset_1(X21,k1_zfmisc_1(u1_struct_0(X20)))|~l1_pre_topc(X20)))&(r1_tarski(X21,esk8_3(X20,X21,X22))|(~v3_pre_topc(X21,X20)|~r1_tarski(X21,X22))|r1_matroid0(X20,X21,X22)|~m1_subset_1(X22,k1_zfmisc_1(u1_struct_0(X20)))|~m1_subset_1(X21,k1_zfmisc_1(u1_struct_0(X20)))|~l1_pre_topc(X20)))&(X21!=esk8_3(X20,X21,X22)|(~v3_pre_topc(X21,X20)|~r1_tarski(X21,X22))|r1_matroid0(X20,X21,X22)|~m1_subset_1(X22,k1_zfmisc_1(u1_struct_0(X20)))|~m1_subset_1(X21,k1_zfmisc_1(u1_struct_0(X20)))|~l1_pre_topc(X20))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[d10_matroid0])])])])])).
+fof(c_0_18, plain, ![X52]:(~v1_card_1(X52)|v3_ordinal1(X52)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc1_card_1])])).
+fof(c_0_19, plain, ![X68]:v1_card_1(k1_card_1(X68)), inference(variable_rename,[status(thm)],[dt_k1_card_1])).
+cnf(c_0_20, plain, (r2_hidden(X3,a_2_3_matroid0(X2,X4))|v2_struct_0(X2)|v3_pencil_1(X2)|~v3_pre_topc(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|X3!=k5_card_1(X1)|~r1_tarski(X1,X4)|~v1_matroid0(X2)|~v2_matroid0(X2)|~v4_matroid0(X2)|~l1_pre_topc(X2)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))), inference(split_conjunct,[status(thm)],[c_0_16])).
+cnf(c_0_21, plain, (r1_tarski(esk8_3(X1,X2,X3),X3)|r1_matroid0(X1,X2,X3)|~v3_pre_topc(X2,X1)|~r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_17])).
+fof(c_0_22, plain, ![X29, X30]:(~r1_tarski(X29,X30)|r1_ordinal1(k1_card_1(X29),k1_card_1(X30))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t11_card_1])])).
+fof(c_0_23, plain, ![X35]:(~v1_finset_1(X35)|k5_card_1(X35)=k1_card_1(X35)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k5_card_1])])).
+cnf(c_0_24, plain, (v3_ordinal1(X1)|~v1_card_1(X1)), inference(split_conjunct,[status(thm)],[c_0_18])).
+cnf(c_0_25, plain, (v1_card_1(k1_card_1(X1))), inference(split_conjunct,[status(thm)],[c_0_19])).
+fof(c_0_26, plain, ![X50, X51]:((v1_finset_1(X51)|~v3_pre_topc(X51,X50)|~m1_subset_1(X51,k1_zfmisc_1(u1_struct_0(X50)))|(v3_pencil_1(X50)|~v3_matroid0(X50)|~l1_pre_topc(X50)))&(v3_pre_topc(X51,X50)|~v3_pre_topc(X51,X50)|~m1_subset_1(X51,k1_zfmisc_1(u1_struct_0(X50)))|(v3_pencil_1(X50)|~v3_matroid0(X50)|~l1_pre_topc(X50)))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[cc6_matroid0])])])])])).
+fof(c_0_27, plain, ![X8, X9]:((((v3_pre_topc(esk4_2(X8,X9),X8)|~m1_subset_1(X9,k1_zfmisc_1(u1_struct_0(X8)))|(v2_struct_0(X8)|v3_pencil_1(X8)|~v1_matroid0(X8)|~v2_matroid0(X8)|~v4_matroid0(X8)|~l1_pre_topc(X8)))&(m1_subset_1(esk4_2(X8,X9),k1_zfmisc_1(u1_struct_0(X8)))|~m1_subset_1(X9,k1_zfmisc_1(u1_struct_0(X8)))|(v2_struct_0(X8)|v3_pencil_1(X8)|~v1_matroid0(X8)|~v2_matroid0(X8)|~v4_matroid0(X8)|~l1_pre_topc(X8))))&(r1_tarski(esk4_2(X8,X9),X9)|~m1_subset_1(X9,k1_zfmisc_1(u1_struct_0(X8)))|(v2_struct_0(X8)|v3_pencil_1(X8)|~v1_matroid0(X8)|~v2_matroid0(X8)|~v4_matroid0(X8)|~l1_pre_topc(X8))))&(k5_card_1(esk4_2(X8,X9))=k4_matroid0(X8,X9)|~m1_subset_1(X9,k1_zfmisc_1(u1_struct_0(X8)))|(v2_struct_0(X8)|v3_pencil_1(X8)|~v1_matroid0(X8)|~v2_matroid0(X8)|~v4_matroid0(X8)|~l1_pre_topc(X8)))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t18_matroid0])])])])])])).
+cnf(c_0_28, plain, (v2_struct_0(X2)|v3_pencil_1(X2)|r2_hidden(X3,a_2_3_matroid0(X2,X4))|X3!=k5_card_1(X1)|~v1_matroid0(X2)|~v2_matroid0(X2)|~v4_matroid0(X2)|~l1_pre_topc(X2)|~v3_pre_topc(X1,X2)|~r1_tarski(X1,X4)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))), inference(evalgc,[status(thm)],[c_0_20])).
+cnf(c_0_29, plain, (r1_matroid0(X1,X2,X3)|r1_tarski(esk8_3(X1,X2,X3),X3)|~l1_pre_topc(X1)|~v3_pre_topc(X2,X1)|~r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[c_0_21])).
+cnf(c_0_30, plain, (v3_pre_topc(esk8_3(X1,X2,X3),X1)|r1_matroid0(X1,X2,X3)|~v3_pre_topc(X2,X1)|~r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_17])).
+fof(c_0_31, plain, ![X33, X34]:((~r1_ordinal1(X33,X34)|r1_tarski(X33,X34)|(~v3_ordinal1(X33)|~v3_ordinal1(X34)))&(~r1_tarski(X33,X34)|r1_ordinal1(X33,X34)|(~v3_ordinal1(X33)|~v3_ordinal1(X34)))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_r1_ordinal1])])])).
+cnf(c_0_32, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_22])).
+cnf(c_0_33, plain, (k5_card_1(X1)=k1_card_1(X1)|~v1_finset_1(X1)), inference(split_conjunct,[status(thm)],[c_0_23])).
+cnf(c_0_34, plain, (v3_ordinal1(X1)|~v1_card_1(X1)), inference(evalgc,[status(thm)],[c_0_24])).
+cnf(c_0_35, plain, (v1_card_1(k1_card_1(X1))), inference(evalgc,[status(thm)],[c_0_25])).
+cnf(c_0_36, plain, (v1_finset_1(X1)|v3_pencil_1(X2)|~v3_pre_topc(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~v3_matroid0(X2)|~l1_pre_topc(X2)), inference(split_conjunct,[status(thm)],[c_0_26])).
+cnf(c_0_37, plain, (v3_pre_topc(esk4_2(X1,X2),X1)|v2_struct_0(X1)|v3_pencil_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_27])).
+fof(c_0_38, plain, ![X58]:(~l1_pre_topc(X58)|(~v4_matroid0(X58)|v3_matroid0(X58))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc2_matroid0])])).
+fof(c_0_39, plain, ![X27, X28]:(~r2_hidden(X27,X28)|r1_tarski(X27,k3_tarski(X28))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t74_zfmisc_1])])).
+fof(c_0_40, plain, ![X39, X40]:(v2_struct_0(X39)|v3_pencil_1(X39)|~v1_matroid0(X39)|~v2_matroid0(X39)|~v4_matroid0(X39)|~l1_pre_topc(X39)|(~m1_subset_1(X40,k1_zfmisc_1(u1_struct_0(X39)))|k4_matroid0(X39,X40)=k3_tarski(a_2_3_matroid0(X39,X40)))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[d11_matroid0])])])])).
+cnf(c_0_41, plain, (r2_hidden(X1,a_2_3_matroid0(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|r1_matroid0(X4,X5,X3)|X1!=k5_card_1(esk8_3(X4,X5,X3))|~v3_pre_topc(esk8_3(X4,X5,X3),X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk8_3(X4,X5,X3),k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|~r1_tarski(X5,X3)|~v3_pre_topc(X5,X4)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X4)))|~m1_subset_1(X5,k1_zfmisc_1(u1_struct_0(X4)))|~l1_pre_topc(X4)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_28, c_0_29])])).
+cnf(c_0_42, plain, (r1_matroid0(X1,X2,X3)|v3_pre_topc(esk8_3(X1,X2,X3),X1)|~l1_pre_topc(X1)|~v3_pre_topc(X2,X1)|~r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[c_0_30])).
+cnf(c_0_43, plain, (m1_subset_1(esk8_3(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))|r1_matroid0(X1,X2,X3)|~v3_pre_topc(X2,X1)|~r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_17])).
+cnf(c_0_44, plain, (r1_tarski(X1,X2)|~r1_ordinal1(X1,X2)|~v3_ordinal1(X1)|~v3_ordinal1(X2)), inference(split_conjunct,[status(thm)],[c_0_31])).
+cnf(c_0_45, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[c_0_32])).
+cnf(c_0_46, plain, (k1_card_1(X1)=k5_card_1(X1)|~v1_finset_1(X1)), inference(evalgc,[status(thm)],[c_0_33])).
+cnf(c_0_47, plain, (v3_ordinal1(k1_card_1(X1))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_34, c_0_35])])).
+cnf(c_0_48, plain, (k5_card_1(esk4_2(X1,X2))=k4_matroid0(X1,X2)|v2_struct_0(X1)|v3_pencil_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_27])).
+cnf(c_0_49, plain, (v3_pencil_1(X2)|v1_finset_1(X1)|~l1_pre_topc(X2)|~v3_matroid0(X2)|~v3_pre_topc(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))), inference(evalgc,[status(thm)],[c_0_36])).
+cnf(c_0_50, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v3_pre_topc(esk4_2(X1,X2),X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[c_0_37])).
+cnf(c_0_51, plain, (m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X1)|v3_pencil_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_27])).
+cnf(c_0_52, plain, (v3_matroid0(X1)|~l1_pre_topc(X1)|~v4_matroid0(X1)), inference(split_conjunct,[status(thm)],[c_0_38])).
+cnf(c_0_53, plain, (r1_tarski(X1,k3_tarski(X2))|~r2_hidden(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_39])).
+cnf(c_0_54, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|k4_matroid0(X1,X2)=k3_tarski(a_2_3_matroid0(X1,X2))|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(split_conjunct,[status(thm)],[c_0_40])).
+cnf(c_0_55, plain, (r2_hidden(X1,a_2_3_matroid0(X2,X3))|r1_matroid0(X2,X4,X3)|v3_pencil_1(X2)|v2_struct_0(X2)|X1!=k5_card_1(esk8_3(X2,X4,X3))|~r1_tarski(X4,X3)|~v3_pre_topc(X4,X2)|~m1_subset_1(esk8_3(X2,X4,X3),k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_41, c_0_42])])).
+cnf(c_0_56, plain, (r1_matroid0(X1,X2,X3)|m1_subset_1(esk8_3(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v3_pre_topc(X2,X1)|~r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[c_0_43])).
+cnf(c_0_57, plain, (r1_tarski(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_ordinal1(X1,X2)), inference(evalgc,[status(thm)],[c_0_44])).
+cnf(c_0_58, plain, (r1_ordinal1(k5_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2)|~v1_finset_1(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_45, c_0_46])])).
+cnf(c_0_59, plain, (v3_ordinal1(k5_card_1(X1))|~v1_finset_1(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_47, c_0_46])])).
+cnf(c_0_60, plain, (k5_card_1(esk4_2(X1,X2))=k4_matroid0(X1,X2)|v2_struct_0(X1)|v3_pencil_1(X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[c_0_48])).
+cnf(c_0_61, plain, (v1_finset_1(esk4_2(X1,X2))|v3_pencil_1(X1)|v2_struct_0(X1)|~v3_matroid0(X1)|~m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_49, c_0_50])])).
+cnf(c_0_62, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[c_0_51])).
+cnf(c_0_63, plain, (v3_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)), inference(evalgc,[status(thm)],[c_0_52])).
+fof(c_0_64, plain, ![X18, X19]:(((r1_tarski(X18,X19)|X18!=X19)&(r1_tarski(X19,X18)|X18!=X19))&(~r1_tarski(X18,X19)|~r1_tarski(X19,X18)|X18=X19)), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[d10_xboole_0])])])).
+cnf(c_0_65, plain, (r1_tarski(X1,k3_tarski(X2))|~r2_hidden(X1,X2)), inference(evalgc,[status(thm)],[c_0_53])).
+cnf(c_0_66, plain, (k3_tarski(a_2_3_matroid0(X1,X2))=k4_matroid0(X1,X2)|v2_struct_0(X1)|v3_pencil_1(X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[c_0_54])).
+cnf(c_0_67, plain, (r2_hidden(X1,a_2_3_matroid0(X2,X3))|r1_matroid0(X2,X4,X3)|v3_pencil_1(X2)|v2_struct_0(X2)|X1!=k5_card_1(esk8_3(X2,X4,X3))|~r1_tarski(X4,X3)|~v3_pre_topc(X4,X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)), inference(csr,[status(thm)],[c_0_55, c_0_56])).
+cnf(c_0_68, plain, (r1_tarski(k5_card_1(X1),k1_card_1(X2))|~v3_ordinal1(k5_card_1(X1))|~v1_finset_1(X1)|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_57, c_0_58]), c_0_47])])])).
+cnf(c_0_69, plain, (v3_ordinal1(k4_matroid0(X1,X2))|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk4_2(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_59, c_0_60])])).
+cnf(c_0_70, plain, (v1_finset_1(esk4_2(X1,X2))|v3_pencil_1(X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_61, c_0_62]), c_0_63])).
+cnf(c_0_71, plain, (X1=X2|~r1_tarski(X1,X2)|~r1_tarski(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_64])).
+cnf(c_0_72, plain, (r1_tarski(X1,k4_matroid0(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|~r2_hidden(X1,a_2_3_matroid0(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_65, c_0_66])])).
+cnf(c_0_73, plain, (r2_hidden(k5_card_1(esk8_3(X1,X2,X3)),a_2_3_matroid0(X1,X3))|r1_matroid0(X1,X2,X3)|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(evalgc,[status(thm)],[inference(er,[status(thm)],[c_0_67])])).
+cnf(c_0_74, plain, (r1_tarski(k4_matroid0(X1,X2),k1_card_1(X3))|v3_pencil_1(X1)|v2_struct_0(X1)|~v3_ordinal1(k4_matroid0(X1,X2))|~v1_finset_1(esk4_2(X1,X2))|~r1_tarski(esk4_2(X1,X2),X3)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_68, c_0_60])])).
+cnf(c_0_75, plain, (v3_ordinal1(k4_matroid0(X1,X2))|v3_pencil_1(X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(csr,[status(thm)],[c_0_69, c_0_70])).
+fof(c_0_76, plain, ![X25, X26]:(~v1_finset_1(X25)|(~v1_finset_1(X26)|(~r1_tarski(X25,X26)|k5_card_1(X25)!=k5_card_1(X26)|X25=X26))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t1_card_fin])])])).
+cnf(c_0_77, plain, (X1=X2|~r1_tarski(X2,X1)|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[c_0_71])).
+cnf(c_0_78, plain, (r1_tarski(k5_card_1(esk8_3(X1,X2,X3)),k4_matroid0(X1,X3))|v3_pencil_1(X1)|v2_struct_0(X1)|r1_matroid0(X1,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_72, c_0_73])])).
+cnf(c_0_79, plain, (r1_tarski(k4_matroid0(X1,X2),k1_card_1(X3))|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(esk4_2(X1,X2),X3)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_74, c_0_70]), c_0_75])).
+fof(c_0_80, negated_conjecture, ~(![X1]:((((((~(v2_struct_0(X1))&~(v3_pencil_1(X1)))&v1_matroid0(X1))&v2_matroid0(X1))&v4_matroid0(X1))&l1_pre_topc(X1))=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))=>![X3]:((v3_pre_topc(X3,X1)&m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1))))=>(r1_matroid0(X1,X3,X2)<=>(r1_tarski(X3,X2)&k5_card_1(X3)=k4_matroid0(X1,X2))))))), inference(assume_negation,[status(cth)],[t19_matroid0])).
+cnf(c_0_81, plain, (X1=X2|~v1_finset_1(X1)|~v1_finset_1(X2)|~r1_tarski(X1,X2)|k5_card_1(X1)!=k5_card_1(X2)), inference(split_conjunct,[status(thm)],[c_0_76])).
+cnf(c_0_82, plain, (r1_tarski(X1,esk8_3(X2,X1,X3))|r1_matroid0(X2,X1,X3)|~v3_pre_topc(X1,X2)|~r1_tarski(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)), inference(split_conjunct,[status(thm)],[c_0_17])).
+cnf(c_0_83, plain, (k5_card_1(esk8_3(X1,X3,X2))=k4_matroid0(X1,X2)|r1_matroid0(X1,X3,X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(k4_matroid0(X1,X2),k5_card_1(esk8_3(X1,X3,X2)))|~r1_tarski(X3,X2)|~v3_pre_topc(X3,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_77, c_0_78])])).
+cnf(c_0_84, plain, (r1_tarski(k4_matroid0(X1,X2),k5_card_1(X3))|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(esk4_2(X1,X2),X3)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~v1_finset_1(X3)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_79, c_0_46])])).
+fof(c_0_85, negated_conjecture, ((((((~v2_struct_0(esk1_0)&~v3_pencil_1(esk1_0))&v1_matroid0(esk1_0))&v2_matroid0(esk1_0))&v4_matroid0(esk1_0))&l1_pre_topc(esk1_0))&(m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(esk1_0)))&((v3_pre_topc(esk3_0,esk1_0)&m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(esk1_0))))&((~r1_matroid0(esk1_0,esk3_0,esk2_0)|(~r1_tarski(esk3_0,esk2_0)|k5_card_1(esk3_0)!=k4_matroid0(esk1_0,esk2_0)))&((r1_tarski(esk3_0,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0))&(k5_card_1(esk3_0)=k4_matroid0(esk1_0,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0))))))), inference(distribute,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[c_0_80])])])])])).
+cnf(c_0_86, plain, (X1=X2|k5_card_1(X1)!=k5_card_1(X2)|~v1_finset_1(X2)|~v1_finset_1(X1)|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[c_0_81])).
+cnf(c_0_87, plain, (r1_matroid0(X2,X1,X3)|r1_tarski(X1,esk8_3(X2,X1,X3))|~l1_pre_topc(X2)|~v3_pre_topc(X1,X2)|~r1_tarski(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))), inference(evalgc,[status(thm)],[c_0_82])).
+cnf(c_0_88, plain, (r1_matroid0(X2,X1,X3)|X1!=esk8_3(X2,X1,X3)|~v3_pre_topc(X1,X2)|~r1_tarski(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)), inference(split_conjunct,[status(thm)],[c_0_17])).
+cnf(c_0_89, plain, (k5_card_1(esk8_3(X1,X2,X3))=k4_matroid0(X1,X3)|r1_matroid0(X1,X2,X3)|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~v1_finset_1(esk8_3(X1,X2,X3))|~r1_tarski(esk4_2(X1,X3),esk8_3(X1,X2,X3))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_83, c_0_84])])).
+cnf(c_0_90, plain, (r1_tarski(esk4_2(X1,X2),X2)|v2_struct_0(X1)|v3_pencil_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_27])).
+cnf(c_0_91, negated_conjecture, (v3_pre_topc(esk3_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_92, negated_conjecture, (m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(esk1_0)))), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_93, negated_conjecture, (l1_pre_topc(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_94, negated_conjecture, (~v3_pencil_1(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_95, plain, (esk8_3(X2,X1,X3)=X1|r1_matroid0(X2,X1,X3)|k5_card_1(esk8_3(X2,X1,X3))!=k5_card_1(X1)|~v1_finset_1(esk8_3(X2,X1,X3))|~v1_finset_1(X1)|~r1_tarski(X1,X3)|~v3_pre_topc(X1,X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_86, c_0_87])])).
+cnf(c_0_96, plain, (r1_matroid0(X2,X1,X3)|esk8_3(X2,X1,X3)!=X1|~l1_pre_topc(X2)|~v3_pre_topc(X1,X2)|~r1_tarski(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))), inference(evalgc,[status(thm)],[c_0_88])).
+cnf(c_0_97, plain, (k5_card_1(esk8_3(X1,esk4_2(X1,X2),X2))=k4_matroid0(X1,X2)|r1_matroid0(X1,esk4_2(X1,X2),X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))|~r1_tarski(esk4_2(X1,X2),X2)|~v3_pre_topc(esk4_2(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_89, c_0_87])])).
+cnf(c_0_98, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|r1_tarski(esk4_2(X1,X2),X2)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[c_0_90])).
+cnf(c_0_99, plain, (r1_tarski(k5_card_1(X1),k5_card_1(X2))|~v3_ordinal1(k5_card_1(X1))|~v1_finset_1(X1)|~r1_tarski(X1,X2)|~v1_finset_1(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_68, c_0_46])])).
+cnf(c_0_100, negated_conjecture, (k5_card_1(esk3_0)=k4_matroid0(esk1_0,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_101, negated_conjecture, (m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(esk1_0)))), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_102, negated_conjecture, (v4_matroid0(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_103, negated_conjecture, (v2_matroid0(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_104, negated_conjecture, (v1_matroid0(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_105, negated_conjecture, (~v2_struct_0(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_106, negated_conjecture, (v3_pre_topc(esk3_0,esk1_0)), inference(evalgc,[status(thm)],[c_0_91])).
+cnf(c_0_107, negated_conjecture, (m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(esk1_0)))), inference(evalgc,[status(thm)],[c_0_92])).
+cnf(c_0_108, negated_conjecture, (l1_pre_topc(esk1_0)), inference(evalgc,[status(thm)],[c_0_93])).
+cnf(c_0_109, negated_conjecture, (~v3_pencil_1(esk1_0)), inference(evalgc,[status(thm)],[c_0_94])).
+fof(c_0_110, plain, ![X11, X12, X13, X14]:((v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v2_matroid0(X11)|~l1_pre_topc(X11)|(~m1_subset_1(X12,k1_zfmisc_1(u1_struct_0(X11)))|(~v3_pre_topc(X13,X11)|~m1_subset_1(X13,k1_zfmisc_1(u1_struct_0(X11)))|(~v3_pre_topc(X14,X11)|~m1_subset_1(X14,k1_zfmisc_1(u1_struct_0(X11)))|(~r1_matroid0(X11,X13,X12)|~r1_matroid0(X11,X14,X12)|k5_card_1(X13)=k5_card_1(X14)))))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))&((((((~v2_struct_0(X11)|m1_subset_1(esk5_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))&(~v3_pencil_1(X11)|m1_subset_1(esk5_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v1_matroid0(X11)|m1_subset_1(esk5_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v2_matroid0(X11)|m1_subset_1(esk5_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(l1_pre_topc(X11)|m1_subset_1(esk5_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(((((((~v2_struct_0(X11)|v3_pre_topc(esk6_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))&(~v3_pencil_1(X11)|v3_pre_topc(esk6_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v1_matroid0(X11)|v3_pre_topc(esk6_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v2_matroid0(X11)|v3_pre_topc(esk6_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(l1_pre_topc(X11)|v3_pre_topc(esk6_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(((((~v2_struct_0(X11)|m1_subset_1(esk6_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))&(~v3_pencil_1(X11)|m1_subset_1(esk6_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v1_matroid0(X11)|m1_subset_1(esk6_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v2_matroid0(X11)|m1_subset_1(esk6_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(l1_pre_topc(X11)|m1_subset_1(esk6_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))))&(((((((~v2_struct_0(X11)|v3_pre_topc(esk7_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))&(~v3_pencil_1(X11)|v3_pre_topc(esk7_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v1_matroid0(X11)|v3_pre_topc(esk7_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v2_matroid0(X11)|v3_pre_topc(esk7_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(l1_pre_topc(X11)|v3_pre_topc(esk7_1(X11),X11)|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(((((~v2_struct_0(X11)|m1_subset_1(esk7_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))&(~v3_pencil_1(X11)|m1_subset_1(esk7_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v1_matroid0(X11)|m1_subset_1(esk7_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v2_matroid0(X11)|m1_subset_1(esk7_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(l1_pre_topc(X11)|m1_subset_1(esk7_1(X11),k1_zfmisc_1(u1_struct_0(X11)))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))))&(((((((~v2_struct_0(X11)|r1_matroid0(X11,esk6_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))&(~v3_pencil_1(X11)|r1_matroid0(X11,esk6_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v1_matroid0(X11)|r1_matroid0(X11,esk6_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v2_matroid0(X11)|r1_matroid0(X11,esk6_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(l1_pre_topc(X11)|r1_matroid0(X11,esk6_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(((((~v2_struct_0(X11)|r1_matroid0(X11,esk7_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))&(~v3_pencil_1(X11)|r1_matroid0(X11,esk7_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v1_matroid0(X11)|r1_matroid0(X11,esk7_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v2_matroid0(X11)|r1_matroid0(X11,esk7_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(l1_pre_topc(X11)|r1_matroid0(X11,esk7_1(X11),esk5_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))))&(((((~v2_struct_0(X11)|k5_card_1(esk6_1(X11))!=k5_card_1(esk7_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11)))&(~v3_pencil_1(X11)|k5_card_1(esk6_1(X11))!=k5_card_1(esk7_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v1_matroid0(X11)|k5_card_1(esk6_1(X11))!=k5_card_1(esk7_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(v2_matroid0(X11)|k5_card_1(esk6_1(X11))!=k5_card_1(esk7_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))&(l1_pre_topc(X11)|k5_card_1(esk6_1(X11))!=k5_card_1(esk7_1(X11))|(v2_struct_0(X11)|v3_pencil_1(X11)|~v1_matroid0(X11)|~v4_matroid0(X11)|~l1_pre_topc(X11))))))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t16_matroid0])])])])])])).
+cnf(c_0_111, plain, (r1_matroid0(X1,X2,X3)|k5_card_1(esk8_3(X1,X2,X3))!=k5_card_1(X2)|~v1_finset_1(esk8_3(X1,X2,X3))|~v1_finset_1(X2)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)), inference(csr,[status(thm)],[c_0_95, c_0_96])).
+cnf(c_0_112, plain, (k5_card_1(esk8_3(X1,esk4_2(X1,X2),X2))=k4_matroid0(X1,X2)|r1_matroid0(X1,esk4_2(X1,X2),X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_97, c_0_62]), c_0_50]), c_0_98])).
+cnf(c_0_113, plain, (r1_tarski(k5_card_1(X1),k5_card_1(X2))|~v1_finset_1(X1)|~v1_finset_1(X2)|~r1_tarski(X1,X2)), inference(csr,[status(thm)],[c_0_99, c_0_59])).
+cnf(c_0_114, negated_conjecture, (k4_matroid0(esk1_0,esk2_0)=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)), inference(evalgc,[status(thm)],[c_0_100])).
+cnf(c_0_115, negated_conjecture, (m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(esk1_0)))), inference(evalgc,[status(thm)],[c_0_101])).
+cnf(c_0_116, negated_conjecture, (v4_matroid0(esk1_0)), inference(evalgc,[status(thm)],[c_0_102])).
+cnf(c_0_117, negated_conjecture, (v2_matroid0(esk1_0)), inference(evalgc,[status(thm)],[c_0_103])).
+cnf(c_0_118, negated_conjecture, (v1_matroid0(esk1_0)), inference(evalgc,[status(thm)],[c_0_104])).
+cnf(c_0_119, negated_conjecture, (~v2_struct_0(esk1_0)), inference(evalgc,[status(thm)],[c_0_105])).
+cnf(c_0_120, negated_conjecture, (v1_finset_1(esk3_0)|~v3_matroid0(esk1_0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_49, c_0_106]), c_0_107]), c_0_108])]), c_0_109])])).
+cnf(c_0_121, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|k5_card_1(X3)=k5_card_1(X4)|v2_struct_0(X1)|v3_pencil_1(X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~v3_pre_topc(X3,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~v3_pre_topc(X4,X1)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))|~r1_matroid0(X1,X3,X2)|~r1_matroid0(X1,X4,X2)|~v1_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_110])).
+cnf(c_0_122, plain, (r1_matroid0(X1,esk4_2(X1,X2),X2)|v3_pencil_1(X1)|v2_struct_0(X1)|k5_card_1(esk4_2(X1,X2))!=k4_matroid0(X1,X2)|~v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))|~v1_finset_1(esk4_2(X1,X2))|~r1_tarski(esk4_2(X1,X2),X2)|~v3_pre_topc(esk4_2(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_111, c_0_112])])).
+cnf(c_0_123, plain, (v1_finset_1(esk8_3(X1,X2,X3))|v3_pencil_1(X1)|r1_matroid0(X1,X2,X3)|~v3_matroid0(X1)|~m1_subset_1(esk8_3(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_49, c_0_42])])).
+cnf(c_0_124, plain, (k5_card_1(X1)=k5_card_1(X2)|~r1_tarski(k5_card_1(X1),k5_card_1(X2))|~v1_finset_1(X2)|~v1_finset_1(X1)|~r1_tarski(X2,X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_77, c_0_113])])).
+cnf(c_0_125, negated_conjecture, (r1_tarski(k5_card_1(esk8_3(esk1_0,X1,esk2_0)),k5_card_1(esk3_0))|r1_matroid0(esk1_0,X1,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_78, c_0_114]), c_0_115]), c_0_108]), c_0_116]), c_0_117]), c_0_118])]), c_0_109]), c_0_119])])).
+cnf(c_0_126, negated_conjecture, (v1_finset_1(esk3_0)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_120, c_0_63]), c_0_108]), c_0_116])])])).
+cnf(c_0_127, plain, (k5_card_1(X3)=k5_card_1(X4)|v2_struct_0(X1)|v3_pencil_1(X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~v3_pre_topc(X4,X1)|~v3_pre_topc(X3,X1)|~r1_matroid0(X1,X4,X2)|~r1_matroid0(X1,X3,X2)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(cn,[status(thm)],[c_0_121])).
+cnf(c_0_128, plain, (v3_pre_topc(X1,X2)|~r1_matroid0(X2,X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)), inference(split_conjunct,[status(thm)],[c_0_17])).
+cnf(c_0_129, plain, (r1_matroid0(X1,esk4_2(X1,X2),X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_122, c_0_62]), c_0_50]), c_0_98]), c_0_70]), c_0_60])).
+cnf(c_0_130, plain, (v1_finset_1(esk8_3(X1,X2,X3))|r1_matroid0(X1,X2,X3)|v3_pencil_1(X1)|~v3_matroid0(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)), inference(csr,[status(thm)],[c_0_123, c_0_56])).
+cnf(c_0_131, negated_conjecture, (k5_card_1(esk8_3(esk1_0,X1,esk2_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|~v1_finset_1(esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_124, c_0_125]), c_0_126])])])).
+cnf(c_0_132, plain, (r1_tarski(X1,X2)|~r1_matroid0(X3,X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X3)), inference(split_conjunct,[status(thm)],[c_0_17])).
+cnf(c_0_133, negated_conjecture, (r1_tarski(esk3_0,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_134, plain, (k5_card_1(X3)=k5_card_1(X4)|v2_struct_0(X1)|v3_pencil_1(X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~v3_pre_topc(X4,X1)|~v3_pre_topc(X3,X1)|~r1_matroid0(X1,X4,X2)|~r1_matroid0(X1,X3,X2)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[c_0_127])).
+cnf(c_0_135, plain, (v3_pre_topc(X1,X2)|~l1_pre_topc(X2)|~r1_matroid0(X2,X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))), inference(evalgc,[status(thm)],[c_0_128])).
+cnf(c_0_136, plain, (r1_matroid0(X1,esk4_2(X1,X2),X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~v3_matroid0(X1)|~r1_tarski(esk4_2(X1,X2),X2)|~v3_pre_topc(esk4_2(X1,X2),X1)|~m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_129, c_0_130])])).
+cnf(c_0_137, negated_conjecture, (r1_matroid0(esk1_0,X1,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|k5_card_1(esk3_0)!=k5_card_1(X1)|~v1_finset_1(esk8_3(esk1_0,X1,esk2_0))|~v1_finset_1(X1)|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0))), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_111, c_0_131]), c_0_115]), c_0_108])])])).
+cnf(c_0_138, plain, (r1_tarski(X1,X2)|~l1_pre_topc(X3)|~r1_matroid0(X3,X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3)))), inference(evalgc,[status(thm)],[c_0_132])).
+cnf(c_0_139, negated_conjecture, (r1_tarski(esk3_0,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)), inference(evalgc,[status(thm)],[c_0_133])).
+cnf(c_0_140, plain, (k5_card_1(X1)=k5_card_1(X2)|v3_pencil_1(X3)|v2_struct_0(X3)|~r1_matroid0(X3,X2,X4)|~r1_matroid0(X3,X1,X4)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X3)|~v4_matroid0(X3)|~v2_matroid0(X3)|~v1_matroid0(X3)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_134, c_0_135]), c_0_135])).
+cnf(c_0_141, plain, (r1_matroid0(X1,esk4_2(X1,X2),X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_136, c_0_62]), c_0_50]), c_0_98]), c_0_63])).
+cnf(c_0_142, negated_conjecture, (r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|k5_card_1(esk3_0)!=k5_card_1(X1)|~v1_finset_1(X1)|~r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~v3_matroid0(esk1_0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_137, c_0_130]), c_0_115]), c_0_108])]), c_0_109])])).
+cnf(c_0_143, negated_conjecture, (r1_tarski(esk3_0,esk2_0)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_138, c_0_139]), c_0_115]), c_0_107]), c_0_108])])])).
+cnf(c_0_144, negated_conjecture, (~r1_matroid0(esk1_0,esk3_0,esk2_0)|~r1_tarski(esk3_0,esk2_0)|k5_card_1(esk3_0)!=k4_matroid0(esk1_0,esk2_0)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_145, plain, (k5_card_1(X1)=k5_card_1(esk4_2(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|~r1_matroid0(X2,X1,X3)|~m1_subset_1(esk4_2(X2,X3),k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_140, c_0_141])])).
+cnf(c_0_146, negated_conjecture, (r1_matroid0(esk1_0,esk3_0,esk2_0)|~v3_matroid0(esk1_0)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_142, c_0_87]), c_0_126]), c_0_143]), c_0_106]), c_0_107]), c_0_115]), c_0_108])])])).
+cnf(c_0_147, negated_conjecture, (k4_matroid0(esk1_0,esk2_0)!=k5_card_1(esk3_0)|~r1_tarski(esk3_0,esk2_0)|~r1_matroid0(esk1_0,esk3_0,esk2_0)), inference(evalgc,[status(thm)],[c_0_144])).
+cnf(c_0_148, plain, (k5_card_1(X1)=k5_card_1(esk4_2(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|~r1_matroid0(X2,X1,X3)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)), inference(csr,[status(thm)],[c_0_145, c_0_62])).
+cnf(c_0_149, negated_conjecture, (r1_matroid0(esk1_0,esk3_0,esk2_0)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_146, c_0_63]), c_0_108]), c_0_116])])])).
+cnf(c_0_150, negated_conjecture, (k4_matroid0(esk1_0,esk2_0)!=k5_card_1(esk3_0)|~r1_matroid0(esk1_0,esk3_0,esk2_0)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_147, c_0_143])])])).
+cnf(c_0_151, negated_conjecture, (k5_card_1(esk4_2(esk1_0,esk2_0))=k5_card_1(esk3_0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_148, c_0_149]), c_0_107]), c_0_115]), c_0_108]), c_0_116]), c_0_117]), c_0_118])]), c_0_109]), c_0_119])])).
+cnf(c_0_152, negated_conjecture, (k4_matroid0(esk1_0,esk2_0)!=k5_card_1(esk3_0)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_150, c_0_149])])])).
+cnf(c_0_153, negated_conjecture, ($false), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_60, c_0_151]), c_0_115]), c_0_108]), c_0_116]), c_0_117]), c_0_118])]), c_0_152]), c_0_109]), c_0_119]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 154
+# Proof object clause steps            : 121
+# Proof object formula steps           : 33
+# Proof object conjectures             : 40
+# Proof object clause conjectures      : 37
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 36
+# Proof object initial formulas used   : 16
+# Proof object generating inferences   : 34
+# Proof object simplifying inferences  : 87
+# Training examples: 71 positive, 314 negative
+# Training: Positive examples begin
+cnf(c_0_118, negated_conjecture, (v1_matroid0(esk1_0))).# trainpos
+cnf(c_0_117, negated_conjecture, (v2_matroid0(esk1_0))).# trainpos
+cnf(c_0_116, negated_conjecture, (v4_matroid0(esk1_0))).# trainpos
+cnf(c_0_108, negated_conjecture, (l1_pre_topc(esk1_0))).# trainpos
+cnf(c_0_119, negated_conjecture, (~v2_struct_0(esk1_0))).# trainpos
+cnf(c_0_109, negated_conjecture, (~v3_pencil_1(esk1_0))).# trainpos
+cnf(c_0_147, negated_conjecture, (k4_matroid0(esk1_0,esk2_0)!=k5_card_1(esk3_0)|~r1_tarski(esk3_0,esk2_0)|~r1_matroid0(esk1_0,esk3_0,esk2_0))).# trainpos
+cnf(c_0_106, negated_conjecture, (v3_pre_topc(esk3_0,esk1_0))).# trainpos
+cnf(c_0_35, plain, (v1_card_1(k1_card_1(X1)))).# trainpos
+cnf(c_0_34, plain, (v3_ordinal1(X1)|~v1_card_1(X1))).# trainpos
+cnf(c_0_115, negated_conjecture, (m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(esk1_0))))).# trainpos
+cnf(c_0_107, negated_conjecture, (m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(esk1_0))))).# trainpos
+cnf(c_0_139, negated_conjecture, (r1_tarski(esk3_0,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0))).# trainpos
+cnf(c_0_86, plain, (X1=X2|k5_card_1(X1)!=k5_card_1(X2)|~v1_finset_1(X2)|~v1_finset_1(X1)|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_114, negated_conjecture, (k4_matroid0(esk1_0,esk2_0)=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0))).# trainpos
+cnf(c_0_46, plain, (k1_card_1(X1)=k5_card_1(X1)|~v1_finset_1(X1))).# trainpos
+cnf(c_0_96, plain, (r1_matroid0(X2,X1,X3)|esk8_3(X2,X1,X3)!=X1|~l1_pre_topc(X2)|~v3_pre_topc(X1,X2)|~r1_tarski(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2))))).# trainpos
+cnf(c_0_63, plain, (v3_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1))).# trainpos
+cnf(c_0_65, plain, (r1_tarski(X1,k3_tarski(X2))|~r2_hidden(X1,X2))).# trainpos
+cnf(c_0_57, plain, (r1_tarski(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_ordinal1(X1,X2))).# trainpos
+cnf(c_0_135, plain, (v3_pre_topc(X1,X2)|~l1_pre_topc(X2)|~r1_matroid0(X2,X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2))))).# trainpos
+cnf(c_0_77, plain, (X1=X2|~r1_tarski(X2,X1)|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_45, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_138, plain, (r1_tarski(X1,X2)|~l1_pre_topc(X3)|~r1_matroid0(X3,X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3))))).# trainpos
+cnf(c_0_49, plain, (v3_pencil_1(X2)|v1_finset_1(X1)|~l1_pre_topc(X2)|~v3_matroid0(X2)|~v3_pre_topc(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2))))).# trainpos
+cnf(c_0_134, plain, (k5_card_1(X3)=k5_card_1(X4)|v2_struct_0(X1)|v3_pencil_1(X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~v3_pre_topc(X4,X1)|~v3_pre_topc(X3,X1)|~r1_matroid0(X1,X4,X2)|~r1_matroid0(X1,X3,X2)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_50, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v3_pre_topc(esk4_2(X1,X2),X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_98, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|r1_tarski(esk4_2(X1,X2),X2)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_66, plain, (k3_tarski(a_2_3_matroid0(X1,X2))=k4_matroid0(X1,X2)|v2_struct_0(X1)|v3_pencil_1(X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_60, plain, (k5_card_1(esk4_2(X1,X2))=k4_matroid0(X1,X2)|v2_struct_0(X1)|v3_pencil_1(X1)|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_62, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_87, plain, (r1_matroid0(X2,X1,X3)|r1_tarski(X1,esk8_3(X2,X1,X3))|~l1_pre_topc(X2)|~v3_pre_topc(X1,X2)|~r1_tarski(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2))))).# trainpos
+cnf(c_0_42, plain, (r1_matroid0(X1,X2,X3)|v3_pre_topc(esk8_3(X1,X2,X3),X1)|~l1_pre_topc(X1)|~v3_pre_topc(X2,X1)|~r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_29, plain, (r1_matroid0(X1,X2,X3)|r1_tarski(esk8_3(X1,X2,X3),X3)|~l1_pre_topc(X1)|~v3_pre_topc(X2,X1)|~r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_28, plain, (v2_struct_0(X2)|v3_pencil_1(X2)|r2_hidden(X3,a_2_3_matroid0(X2,X4))|X3!=k5_card_1(X1)|~v1_matroid0(X2)|~v2_matroid0(X2)|~v4_matroid0(X2)|~l1_pre_topc(X2)|~v3_pre_topc(X1,X2)|~r1_tarski(X1,X4)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2))))).# trainpos
+cnf(c_0_56, plain, (r1_matroid0(X1,X2,X3)|m1_subset_1(esk8_3(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v3_pre_topc(X2,X1)|~r1_tarski(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_47, plain, (v3_ordinal1(k1_card_1(X1)))).# trainpos
+cnf(c_0_58, plain, (r1_ordinal1(k5_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2)|~v1_finset_1(X1))).# trainpos
+cnf(c_0_143, negated_conjecture, (r1_tarski(esk3_0,esk2_0))).# trainpos
+cnf(c_0_95, plain, (esk8_3(X2,X1,X3)=X1|r1_matroid0(X2,X1,X3)|k5_card_1(esk8_3(X2,X1,X3))!=k5_card_1(X1)|~v1_finset_1(esk8_3(X2,X1,X3))|~v1_finset_1(X1)|~r1_tarski(X1,X3)|~v3_pre_topc(X1,X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2))).# trainpos
+cnf(c_0_68, plain, (r1_tarski(k5_card_1(X1),k1_card_1(X2))|~v3_ordinal1(k5_card_1(X1))|~v1_finset_1(X1)|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_41, plain, (r2_hidden(X1,a_2_3_matroid0(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|r1_matroid0(X4,X5,X3)|X1!=k5_card_1(esk8_3(X4,X5,X3))|~v3_pre_topc(esk8_3(X4,X5,X3),X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk8_3(X4,X5,X3),k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|~r1_tarski(X5,X3)|~v3_pre_topc(X5,X4)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X4)))|~m1_subset_1(X5,k1_zfmisc_1(u1_struct_0(X4)))|~l1_pre_topc(X4))).# trainpos
+cnf(c_0_120, negated_conjecture, (v1_finset_1(esk3_0)|~v3_matroid0(esk1_0))).# trainpos
+cnf(c_0_61, plain, (v1_finset_1(esk4_2(X1,X2))|v3_pencil_1(X1)|v2_struct_0(X1)|~v3_matroid0(X1)|~m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).# trainpos
+cnf(c_0_59, plain, (v3_ordinal1(k5_card_1(X1))|~v1_finset_1(X1))).# trainpos
+cnf(c_0_150, negated_conjecture, (k4_matroid0(esk1_0,esk2_0)!=k5_card_1(esk3_0)|~r1_matroid0(esk1_0,esk3_0,esk2_0))).# trainpos
+cnf(c_0_126, negated_conjecture, (v1_finset_1(esk3_0))).# trainpos
+cnf(c_0_99, plain, (r1_tarski(k5_card_1(X1),k5_card_1(X2))|~v3_ordinal1(k5_card_1(X1))|~v1_finset_1(X1)|~r1_tarski(X1,X2)|~v1_finset_1(X2))).# trainpos
+cnf(c_0_69, plain, (v3_ordinal1(k4_matroid0(X1,X2))|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk4_2(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).# trainpos
+cnf(c_0_55, plain, (r2_hidden(X1,a_2_3_matroid0(X2,X3))|r1_matroid0(X2,X4,X3)|v3_pencil_1(X2)|v2_struct_0(X2)|X1!=k5_card_1(esk8_3(X2,X4,X3))|~r1_tarski(X4,X3)|~v3_pre_topc(X4,X2)|~m1_subset_1(esk8_3(X2,X4,X3),k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).# trainpos
+cnf(c_0_74, plain, (r1_tarski(k4_matroid0(X1,X2),k1_card_1(X3))|v3_pencil_1(X1)|v2_struct_0(X1)|~v3_ordinal1(k4_matroid0(X1,X2))|~v1_finset_1(esk4_2(X1,X2))|~r1_tarski(esk4_2(X1,X2),X3)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).# trainpos
+cnf(c_0_72, plain, (r1_tarski(X1,k4_matroid0(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|~r2_hidden(X1,a_2_3_matroid0(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).# trainpos
+cnf(c_0_123, plain, (v1_finset_1(esk8_3(X1,X2,X3))|v3_pencil_1(X1)|r1_matroid0(X1,X2,X3)|~v3_matroid0(X1)|~m1_subset_1(esk8_3(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_73, plain, (r2_hidden(k5_card_1(esk8_3(X1,X2,X3)),a_2_3_matroid0(X1,X3))|r1_matroid0(X1,X2,X3)|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).# trainpos
+cnf(c_0_124, plain, (k5_card_1(X1)=k5_card_1(X2)|~r1_tarski(k5_card_1(X1),k5_card_1(X2))|~v1_finset_1(X2)|~v1_finset_1(X1)|~r1_tarski(X2,X1))).# trainpos
+cnf(c_0_84, plain, (r1_tarski(k4_matroid0(X1,X2),k5_card_1(X3))|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(esk4_2(X1,X2),X3)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~v1_finset_1(X3))).# trainpos
+cnf(c_0_78, plain, (r1_tarski(k5_card_1(esk8_3(X1,X2,X3)),k4_matroid0(X1,X3))|v3_pencil_1(X1)|v2_struct_0(X1)|r1_matroid0(X1,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_83, plain, (k5_card_1(esk8_3(X1,X3,X2))=k4_matroid0(X1,X2)|r1_matroid0(X1,X3,X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(k4_matroid0(X1,X2),k5_card_1(esk8_3(X1,X3,X2)))|~r1_tarski(X3,X2)|~v3_pre_topc(X3,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).# trainpos
+cnf(c_0_125, negated_conjecture, (r1_tarski(k5_card_1(esk8_3(esk1_0,X1,esk2_0)),k5_card_1(esk3_0))|r1_matroid0(esk1_0,X1,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0))))).# trainpos
+cnf(c_0_131, negated_conjecture, (k5_card_1(esk8_3(esk1_0,X1,esk2_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|~v1_finset_1(esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0))))).# trainpos
+cnf(c_0_89, plain, (k5_card_1(esk8_3(X1,X2,X3))=k4_matroid0(X1,X3)|r1_matroid0(X1,X2,X3)|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~v1_finset_1(esk8_3(X1,X2,X3))|~r1_tarski(esk4_2(X1,X3),esk8_3(X1,X2,X3)))).# trainpos
+cnf(c_0_97, plain, (k5_card_1(esk8_3(X1,esk4_2(X1,X2),X2))=k4_matroid0(X1,X2)|r1_matroid0(X1,esk4_2(X1,X2),X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))|~r1_tarski(esk4_2(X1,X2),X2)|~v3_pre_topc(esk4_2(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).# trainpos
+cnf(c_0_137, negated_conjecture, (r1_matroid0(esk1_0,X1,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|k5_card_1(esk3_0)!=k5_card_1(X1)|~v1_finset_1(esk8_3(esk1_0,X1,esk2_0))|~v1_finset_1(X1)|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0)))).# trainpos
+cnf(c_0_142, negated_conjecture, (r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|k5_card_1(esk3_0)!=k5_card_1(X1)|~v1_finset_1(X1)|~r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~v3_matroid0(esk1_0))).# trainpos
+cnf(c_0_122, plain, (r1_matroid0(X1,esk4_2(X1,X2),X2)|v3_pencil_1(X1)|v2_struct_0(X1)|k5_card_1(esk4_2(X1,X2))!=k4_matroid0(X1,X2)|~v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))|~v1_finset_1(esk4_2(X1,X2))|~r1_tarski(esk4_2(X1,X2),X2)|~v3_pre_topc(esk4_2(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).# trainpos
+cnf(c_0_146, negated_conjecture, (r1_matroid0(esk1_0,esk3_0,esk2_0)|~v3_matroid0(esk1_0))).# trainpos
+cnf(c_0_136, plain, (r1_matroid0(X1,esk4_2(X1,X2),X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~v3_matroid0(X1)|~r1_tarski(esk4_2(X1,X2),X2)|~v3_pre_topc(esk4_2(X1,X2),X1)|~m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1))))).# trainpos
+cnf(c_0_149, negated_conjecture, (r1_matroid0(esk1_0,esk3_0,esk2_0))).# trainpos
+cnf(c_0_145, plain, (k5_card_1(X1)=k5_card_1(esk4_2(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|~r1_matroid0(X2,X1,X3)|~m1_subset_1(esk4_2(X2,X3),k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).# trainpos
+cnf(c_0_152, negated_conjecture, (k4_matroid0(esk1_0,esk2_0)!=k5_card_1(esk3_0))).# trainpos
+cnf(c_0_151, negated_conjecture, (k5_card_1(esk4_2(esk1_0,esk2_0))=k5_card_1(esk3_0))).# trainpos
+# Training: Positive examples end
+# Training: Negative examples begin
+cnf(i_0_116, plain, (k5_numbers=k4_ordinal1)).#trainneg
+cnf(i_0_138, plain, (o_0_0_xboole_0=k1_xboole_0)).#trainneg
+cnf(i_0_99, plain, (v1_xboole_0(k1_xboole_0))).#trainneg
+cnf(i_0_165, plain, (v1_xboole_0(esk14_0))).#trainneg
+cnf(i_0_107, plain, (v6_membered(k4_ordinal1))).#trainneg
+cnf(i_0_130, plain, (v3_membered(k1_numbers))).#trainneg
+cnf(i_0_144, plain, (v2_xxreal_0(np__1))).#trainneg
+cnf(i_0_140, plain, (~v1_finset_1(k4_ordinal1))).#trainneg
+cnf(i_0_90, plain, (X1=k1_xboole_0|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_143, plain, (m2_subset_1(np__1,k1_numbers,k5_numbers))).#trainneg
+cnf(i_0_172, plain, (m1_subset_1(k1_xboole_0,k4_ordinal1))).#trainneg
+cnf(i_0_141, plain, (m1_subset_1(np__1,k1_numbers))).#trainneg
+cnf(i_0_78, plain, (r1_tarski(X1,X1))).#trainneg
+cnf(i_0_112, plain, (v1_xboole_0(esk10_1(X1)))).#trainneg
+cnf(i_0_142, plain, (m1_subset_1(np__1,k5_numbers))).#trainneg
+cnf(i_0_122, plain, (~v1_xboole_0(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_81, plain, (k1_card_1(k1_card_1(X1))=k1_card_1(X1))).#trainneg
+cnf(i_0_134, plain, (m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_104, plain, (m1_subset_1(esk9_1(X1),X1))).#trainneg
+cnf(i_0_161, plain, (~v1_subset_1(esk12_1(X1),X1))).#trainneg
+cnf(i_0_85, plain, (v1_finset_1(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_118, plain, (v1_finset_1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_80, plain, (l1_struct_0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_108, plain, (v1_card_1(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_91, plain, (v1_xreal_0(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_117, plain, (v2_membered(X1)|~v3_membered(X1))).#trainneg
+cnf(i_0_102, plain, (~v1_xboole_0(X2)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_115, plain, (~v1_xboole_0(X3)|~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_111, plain, (v1_xxreal_0(X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_132, plain, (v1_xcmplx_0(X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_147, plain, (v3_membered(X1)|~v4_membered(X1))).#trainneg
+cnf(i_0_135, plain, (v5_membered(X1)|~v6_membered(X1))).#trainneg
+cnf(i_0_168, plain, (v2_setfam_1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_177, plain, (v1_membered(X1)|~v3_membered(X1))).#trainneg
+cnf(i_0_59, plain, (r1_tarski(X1,X2)|X1!=X2)).#trainneg
+cnf(i_0_60, plain, (r1_tarski(X1,X2)|X1!=X2)).#trainneg
+cnf(i_0_113, plain, (m1_subset_1(esk10_1(X1),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_162, plain, (m1_subset_1(esk12_1(X1),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_93, plain, (v1_finset_1(k1_card_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_98, plain, (v1_xboole_0(k1_card_1(X1))|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_73, plain, (r1_tarski(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_72, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_109, plain, (v1_finset_1(X1)|~m1_subset_1(X1,k4_ordinal1))).#trainneg
+cnf(i_0_136, plain, (X1=X2|~v1_xboole_0(X2)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_106, plain, (v1_xreal_0(X1)|~m1_subset_1(X1,k1_numbers))).#trainneg
+cnf(i_0_126, plain, (v1_finset_1(X1)|~v1_finset_1(k1_card_1(X1)))).#trainneg
+cnf(i_0_146, plain, (v1_xboole_0(X1)|~v1_xboole_0(k1_card_1(X1)))).#trainneg
+cnf(i_0_174, plain, (v7_struct_0(X1)|~v2_struct_0(X1)|~l1_struct_0(X1))).#trainneg
+cnf(i_0_166, plain, (v5_finset_1(k1_zfmisc_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_95, plain, (k5_card_1(k5_card_1(X1))=k5_card_1(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_83, plain, (m1_subset_1(k5_card_1(X1),k4_ordinal1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_137, plain, (v3_membered(X1)|~m1_subset_1(X1,k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_89, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_167, plain, (v4_matroid0(X1)|~l1_pre_topc(X1)|~v8_struct_0(X1))).#trainneg
+cnf(i_0_101, plain, (v7_ordinal1(X1)|~v1_finset_1(X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_131, plain, (v1_xboole_0(u1_struct_0(X1))|~v2_struct_0(X1)|~l1_struct_0(X1))).#trainneg
+cnf(i_0_119, plain, (v2_struct_0(X1)|~l1_struct_0(X1)|~v1_xboole_0(u1_struct_0(X1)))).#trainneg
+cnf(i_0_105, plain, (r1_ordinal1(X1,X1)|~v3_ordinal1(X2)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_82, plain, (m1_subset_1(X1,X3)|~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_170, plain, (v3_pencil_1(X1)|v1_finset_1(esk15_1(X1))|~v1_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_163, plain, (v3_pencil_1(X1)|v3_pre_topc(esk13_1(X1),X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_100, plain, (v1_xboole_0(X2)|r2_hidden(X1,X2)|~m1_subset_1(X1,X2))).#trainneg
+cnf(i_0_139, plain, (v1_finset_1(X2)|~v5_finset_1(X1)|~m1_subset_1(X2,X1))).#trainneg
+cnf(i_0_114, plain, (v7_ordinal1(X2)|~v6_membered(X1)|~m1_subset_1(X2,X1))).#trainneg
+cnf(i_0_74, plain, (r1_ordinal1(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_120, plain, (r1_ordinal1(X2,X1)|r1_ordinal1(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_128, plain, (v1_xreal_0(X2)|~v3_membered(X1)|~m1_subset_1(X2,X1))).#trainneg
+cnf(i_0_110, plain, (v1_xxreal_0(X2)|~v2_membered(X1)|~m1_subset_1(X2,X1))).#trainneg
+cnf(i_0_127, plain, (v1_finset_1(X2)|~v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_84, plain, (v1_xboole_0(X2)|~v1_xboole_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_129, plain, (v2_membered(X2)|~v2_membered(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_173, plain, (v3_membered(X2)|~v3_membered(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_164, plain, (v3_pencil_1(X1)|m1_subset_1(esk13_1(X1),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_169, plain, (v3_pencil_1(X1)|v3_pre_topc(esk15_1(X1),X1)|~v1_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_171, plain, (v3_pencil_1(X1)|m1_subset_1(esk15_1(X1),k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_123, plain, (v1_xboole_0(X3)|v1_xboole_0(X2)|m2_subset_1(X1,X3,X2)|~m1_subset_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_124, plain, (v1_xboole_0(X3)|v1_xboole_0(X2)|m1_subset_1(X1,X3)|~m2_subset_1(X1,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_121, plain, (v1_xboole_0(X2)|v1_xboole_0(X1)|m1_subset_1(X3,X1)|~m2_subset_1(X3,X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_18, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v2_matroid0(X1)|k5_card_1(esk7_1(X1))!=k5_card_1(esk6_1(X1))|~v1_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_48, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v2_matroid0(X1)|v3_pre_topc(esk6_1(X1),X1)|~v1_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_66, plain, (X1=X4|~l1_pre_topc(X2)|~v3_pre_topc(X1,X2)|~r1_tarski(X4,X1)|~r1_tarski(X1,X3)|~r1_matroid0(X2,X4,X3)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2))))).#trainneg
+cnf(i_0_38, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v2_matroid0(X1)|v3_pre_topc(esk7_1(X1),X1)|~v1_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_96, plain, (v3_pencil_1(X1)|v3_pre_topc(X2,X1)|~v1_matroid0(X1)|~l1_pre_topc(X1)|~v1_xboole_0(X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).#trainneg
+cnf(i_0_77, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v7_ordinal1(k4_matroid0(X1,X2))|~v1_matroid0(X1)|~v2_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))))).#trainneg
+cnf(i_0_53, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v2_matroid0(X1)|m1_subset_1(esk5_1(X1),k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_43, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v2_matroid0(X1)|m1_subset_1(esk6_1(X1),k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_33, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v2_matroid0(X1)|m1_subset_1(esk7_1(X1),k1_zfmisc_1(u1_struct_0(X1)))|~v1_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_28, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v2_matroid0(X1)|r1_matroid0(X1,esk6_1(X1),esk5_1(X1))|~v1_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_23, plain, (v2_struct_0(X1)|v3_pencil_1(X1)|v2_matroid0(X1)|r1_matroid0(X1,esk7_1(X1),esk5_1(X1))|~v1_matroid0(X1)|~v4_matroid0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_150, plain, (k5_card_1(esk11_3(X1,X2,X3))=X1|v2_struct_0(X2)|v3_pencil_1(X2)|~v1_matroid0(X2)|~v2_matroid0(X2)|~v4_matroid0(X2)|~l1_pre_topc(X2)|~r2_hidden(X1,a_2_3_matroid0(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2))))).#trainneg
+cnf(i_0_152, plain, (v2_struct_0(X2)|v3_pencil_1(X2)|v3_pre_topc(esk11_3(X1,X2,X3),X2)|~v1_matroid0(X2)|~v2_matroid0(X2)|~v4_matroid0(X2)|~l1_pre_topc(X2)|~r2_hidden(X1,a_2_3_matroid0(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2))))).#trainneg
+cnf(i_0_149, plain, (v2_struct_0(X2)|v3_pencil_1(X2)|r1_tarski(esk11_3(X1,X2,X3),X3)|~v1_matroid0(X2)|~v2_matroid0(X2)|~v4_matroid0(X2)|~l1_pre_topc(X2)|~r2_hidden(X1,a_2_3_matroid0(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2))))).#trainneg
+cnf(i_0_151, plain, (v2_struct_0(X2)|v3_pencil_1(X2)|m1_subset_1(esk11_3(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X2)))|~v1_matroid0(X2)|~v2_matroid0(X2)|~v4_matroid0(X2)|~l1_pre_topc(X2)|~r2_hidden(X1,a_2_3_matroid0(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2))))).#trainneg
+cnf(i_0_178, plain, (esk14_0=k1_xboole_0)).#trainneg
+cnf(i_0_250, plain, (v7_ordinal1(np__1))).#trainneg
+cnf(i_0_182, plain, (~v1_xboole_0(k4_ordinal1))).#trainneg
+cnf(i_0_287, plain, (~v1_finset_1(k1_numbers))).#trainneg
+cnf(i_0_202, plain, (m1_subset_1(X1,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_224, plain, (v2_struct_0(X1)|~v1_xboole_0(u1_struct_0(X1))|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_179, plain, (esk10_1(X1)=k1_xboole_0)).#trainneg
+cnf(i_0_201, plain, (X1=X2|k5_card_1(X1)!=k5_card_1(X2)|~v1_finset_1(X2)|~v1_finset_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_276, plain, (X1=X2|~r1_tarski(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_399, plain, (esk8_3(X1,X2,X3)=X2|r1_matroid0(X1,X2,X3)|~r1_tarski(esk8_3(X1,X2,X3),X2)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_403, plain, (esk8_3(X2,X3,X1)=X1|r1_matroid0(X2,X3,X1)|~r1_tarski(X1,esk8_3(X2,X3,X1))|~r1_tarski(X3,X1)|~v3_pre_topc(X3,X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2))).#trainneg
+cnf(i_0_386, plain, (k5_card_1(k4_matroid0(X1,X2))=k4_matroid0(X1,X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk4_2(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_410, plain, (r2_hidden(X1,a_2_3_matroid0(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|X1!=k5_card_1(X3)|~v3_pre_topc(X3,X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_457, plain, (r1_ordinal1(k5_card_1(X1),k5_card_1(X2))|~v1_finset_1(X1)|~r1_tarski(X1,X2)|~v1_finset_1(X2))).#trainneg
+cnf(i_0_383, plain, (esk4_2(X2,X1)=X1|v3_pencil_1(X2)|v2_struct_0(X2)|~r1_tarski(X1,esk4_2(X2,X1))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_402, plain, (esk8_3(X1,X2,X3)=X3|r1_matroid0(X1,X2,X3)|k5_card_1(esk8_3(X1,X2,X3))!=k5_card_1(X3)|~v1_finset_1(X3)|~v1_finset_1(esk8_3(X1,X2,X3))|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_225, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,esk12_1(X2)))).#trainneg
+cnf(i_0_251, plain, (v7_ordinal1(k1_xboole_0))).#trainneg
+cnf(i_0_113, plain, (m1_subset_1(k1_xboole_0,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_193, plain, (k5_card_1(k1_card_1(X1))=k1_card_1(X1)|~v1_finset_1(k1_card_1(X1)))).#trainneg
+cnf(i_0_260, plain, (v1_xreal_0(np__1))).#trainneg
+cnf(i_0_426, plain, (~v1_xboole_0(k1_numbers))).#trainneg
+cnf(i_0_204, plain, (~m1_subset_1(k4_ordinal1,k4_ordinal1))).#trainneg
+cnf(i_0_430, plain, (v1_xreal_0(X1)|~v3_membered(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_431, plain, (v1_xxreal_0(X1)|~v2_membered(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_194, plain, (v1_card_1(k5_card_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_195, plain, (k1_card_1(k5_card_1(X1))=k5_card_1(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_382, plain, (esk4_2(X1,X2)=X2|v3_pencil_1(X1)|v2_struct_0(X1)|k5_card_1(esk4_2(X1,X2))!=k5_card_1(X2)|~v1_finset_1(X2)|~v1_finset_1(esk4_2(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_408, plain, (r2_hidden(X1,a_2_3_matroid0(X2,esk8_3(X3,X4,X5)))|v3_pencil_1(X2)|v2_struct_0(X2)|r1_matroid0(X3,X4,X5)|X1!=k5_card_1(X4)|~v3_pre_topc(X4,X2)|~m1_subset_1(esk8_3(X3,X4,X5),k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|~r1_tarski(X4,X5)|~v3_pre_topc(X4,X3)|~m1_subset_1(X5,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X3))).#trainneg
+cnf(i_0_338, plain, (v1_finset_1(k4_matroid0(X1,X2))|v3_pencil_1(X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_340, negated_conjecture, (v7_ordinal1(k5_card_1(esk3_0))|r1_matroid0(esk1_0,esk3_0,esk2_0))).#trainneg
+cnf(i_0_407, plain, (r2_hidden(X1,a_2_3_matroid0(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|v3_pencil_1(X4)|v2_struct_0(X4)|X1!=k5_card_1(esk4_2(X4,X3))|~v3_pre_topc(esk4_2(X4,X3),X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk4_2(X4,X3),k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X4)))|~l1_pre_topc(X4)|~v4_matroid0(X4)|~v2_matroid0(X4)|~v1_matroid0(X4))).#trainneg
+cnf(i_0_381, plain, (m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(X2))|v3_pencil_1(X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_460, plain, (esk8_3(X1,X2,X3)=X3|r1_matroid0(X1,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(esk8_3(X1,X2,X3)))|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_227, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,esk9_1(k1_zfmisc_1(X2))))).#trainneg
+cnf(i_0_305, plain, (v3_membered(k4_ordinal1))).#trainneg
+cnf(i_0_424, plain, (v1_finset_1(np__1))).#trainneg
+cnf(i_0_452, negated_conjecture, (u1_struct_0(esk1_0)=esk3_0|k5_card_1(u1_struct_0(esk1_0))!=k5_card_1(esk3_0)|~v1_finset_1(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_197, plain, (v1_finset_1(k5_card_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_425, plain, (v1_card_1(np__1))).#trainneg
+cnf(i_0_242, plain, (~v5_finset_1(k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_427, plain, (~m1_subset_1(k1_numbers,k4_ordinal1))).#trainneg
+cnf(i_0_220, plain, (v1_card_1(X1)|~v3_ordinal1(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_253, plain, (v7_ordinal1(k5_card_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_198, plain, (k1_card_1(X1)=k1_xboole_0|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_200, plain, (v1_xboole_0(k5_card_1(X1))|~v1_xboole_0(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_474, plain, (esk8_3(X1,X2,X2)=X2|r1_matroid0(X1,X2,X2)|~v3_pre_topc(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_535, plain, (esk4_2(X1,X2)=X2|v3_pencil_1(X1)|v2_struct_0(X1)|k4_matroid0(X1,X2)!=k5_card_1(X2)|~v1_finset_1(esk4_2(X1,X2))|~v1_finset_1(X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_542, plain, (r1_tarski(k5_card_1(X1),k5_card_1(X2))|~v3_ordinal1(k5_card_1(X1))|~v1_finset_1(X1)|~r1_tarski(X1,k5_card_1(X2))|~v1_finset_1(X2))).#trainneg
+cnf(i_0_467, negated_conjecture, (esk2_0=esk3_0|~m1_subset_1(esk2_0,k1_zfmisc_1(esk3_0)))).#trainneg
+cnf(i_0_468, negated_conjecture, (esk2_0=esk3_0|~r1_tarski(esk2_0,esk3_0))).#trainneg
+cnf(i_0_494, plain, (v1_finset_1(k1_xboole_0))).#trainneg
+cnf(i_0_466, negated_conjecture, (esk2_0=esk3_0|k5_card_1(esk2_0)!=k5_card_1(esk3_0)|~v1_finset_1(esk2_0)|~v1_finset_1(esk3_0))).#trainneg
+cnf(i_0_495, plain, (v1_card_1(k1_xboole_0))).#trainneg
+cnf(i_0_438, negated_conjecture, (~v1_xboole_0(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_465, negated_conjecture, (m1_subset_1(esk3_0,k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_439, plain, (r1_ordinal1(X1,X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_208, plain, (X1=k1_card_1(X2)|~v1_xboole_0(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_211, plain, (v1_finset_1(X1)|~v1_xboole_0(k1_card_1(X1)))).#trainneg
+cnf(i_0_469, negated_conjecture, (r2_hidden(X1,a_2_3_matroid0(X2,esk2_0))|v3_pencil_1(X2)|v2_struct_0(X2)|X1!=k5_card_1(esk3_0)|~v3_pre_topc(esk3_0,X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_541, plain, (r1_tarski(k5_card_1(X1),k1_card_1(X2))|~v3_ordinal1(k5_card_1(X1))|~v1_finset_1(X1)|~r1_tarski(X1,k1_card_1(X2)))).#trainneg
+cnf(i_0_576, plain, (esk4_2(X1,X2)=X2|v3_pencil_1(X1)|v2_struct_0(X1)|k5_card_1(esk4_2(X1,X2))!=k5_card_1(X2)|~v1_finset_1(X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_486, plain, (r1_ordinal1(k5_card_1(X1),k4_matroid0(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|~v1_finset_1(X1)|~v1_finset_1(esk4_2(X2,X3))|~r1_tarski(X1,esk4_2(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_546, plain, (r1_tarski(k4_matroid0(X1,X2),k1_card_1(X3))|v3_pencil_1(X1)|v2_struct_0(X1)|~v3_ordinal1(k4_matroid0(X1,X2))|~v1_finset_1(k4_matroid0(X1,X2))|~r1_tarski(k4_matroid0(X1,X2),X3)|~v1_finset_1(esk4_2(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_478, negated_conjecture, (k5_card_1(k5_card_1(esk3_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~v1_finset_1(esk4_2(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_472, plain, (r1_matroid0(X1,X2,X2)|~v3_pre_topc(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_505, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,k1_xboole_0))).#trainneg
+cnf(i_0_585, plain, (v3_ordinal1(np__1))).#trainneg
+cnf(i_0_453, negated_conjecture, (u1_struct_0(esk1_0)=esk2_0|k5_card_1(u1_struct_0(esk1_0))!=k5_card_1(esk2_0)|~v1_finset_1(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_212, plain, (v1_finset_1(X1)|~m1_subset_1(k1_card_1(X1),k4_ordinal1))).#trainneg
+cnf(i_0_215, plain, (v1_xboole_0(X1)|~v1_xboole_0(k5_card_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_547, plain, (r1_tarski(k5_card_1(X1),k1_card_1(X2))|~v3_ordinal1(k5_card_1(X1))|~v1_finset_1(k5_card_1(X1))|~r1_tarski(k5_card_1(X1),X2)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_492, plain, (esk4_2(X1,X2)=X2|v3_pencil_1(X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~m1_subset_1(X2,k1_zfmisc_1(esk4_2(X1,X2))))).#trainneg
+cnf(i_0_385, plain, (m1_subset_1(k4_matroid0(X1,X2),k4_ordinal1)|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk4_2(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_736, plain, (k5_card_1(X1)=k5_card_1(X2)|v3_pencil_1(X3)|v2_struct_0(X3)|~r1_matroid0(X3,X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X3)|~v4_matroid0(X3)|~v2_matroid0(X3)|~v1_matroid0(X3)|~v3_pre_topc(X2,X3))).#trainneg
+cnf(i_0_733, negated_conjecture, (k5_card_1(k5_card_1(esk3_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0))).#trainneg
+cnf(i_0_659, plain, (v3_ordinal1(k1_xboole_0))).#trainneg
+cnf(i_0_262, plain, (v1_xreal_0(k1_xboole_0)|~v3_membered(k4_ordinal1))).#trainneg
+cnf(i_0_270, plain, (v1_xxreal_0(np__1)|~v2_membered(k1_numbers))).#trainneg
+cnf(i_0_271, plain, (v1_xxreal_0(np__1)|~v2_membered(k4_ordinal1))).#trainneg
+cnf(i_0_221, plain, (m1_subset_1(X1,k1_zfmisc_1(k3_tarski(X2)))|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_222, plain, (X1=k3_tarski(X2)|k5_card_1(X1)!=k5_card_1(k3_tarski(X2))|~v1_finset_1(k3_tarski(X2))|~v1_finset_1(X1)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_765, plain, (r1_tarski(X1,k4_matroid0(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|X1!=k5_card_1(X3)|~v3_pre_topc(X3,X2))).#trainneg
+cnf(i_0_684, negated_conjecture, (r1_tarski(esk11_3(X1,X2,esk2_0),esk2_0)|v3_pencil_1(X2)|v2_struct_0(X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|X1!=k5_card_1(esk3_0)|~v3_pre_topc(esk3_0,X2)|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X2))))).#trainneg
+cnf(i_0_764, negated_conjecture, (r1_tarski(X1,k4_matroid0(X2,esk2_0))|v3_pencil_1(X2)|v2_struct_0(X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|X1!=k5_card_1(esk3_0)|~v3_pre_topc(esk3_0,X2)|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X2))))).#trainneg
+cnf(i_0_704, plain, (r1_tarski(k5_card_1(X1),k4_matroid0(X2,X3))|v3_pencil_1(X2)|v2_struct_0(X2)|~v3_ordinal1(k4_matroid0(X2,X3))|~v3_ordinal1(k5_card_1(X1))|~v1_finset_1(X1)|~r1_tarski(X1,esk4_2(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_717, plain, (r1_tarski(k4_matroid0(X1,X2),k5_card_1(X3))|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(k4_matroid0(X1,X2),X3)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~v1_finset_1(X3))).#trainneg
+cnf(i_0_230, plain, (m1_subset_1(X1,k1_numbers)|~r2_hidden(X1,k4_ordinal1))).#trainneg
+cnf(i_0_272, plain, (v1_xxreal_0(k1_xboole_0)|~v2_membered(k4_ordinal1))).#trainneg
+cnf(i_0_263, plain, (v1_xreal_0(k4_ordinal1)|~v3_membered(k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_223, plain, (v1_xboole_0(u1_struct_0(X1))|~v2_struct_0(X1)|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_299, plain, (v2_membered(k4_ordinal1)|~v2_membered(k1_numbers))).#trainneg
+cnf(i_0_665, negated_conjecture, (v1_xboole_0(esk3_0)|~v1_xboole_0(esk2_0))).#trainneg
+cnf(i_0_662, negated_conjecture, (v1_xreal_0(esk3_0)|~v3_membered(k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_228, negated_conjecture, (m1_subset_1(X1,u1_struct_0(esk1_0))|~r2_hidden(X1,esk3_0))).#trainneg
+cnf(i_0_229, negated_conjecture, (m1_subset_1(X1,u1_struct_0(esk1_0))|~r2_hidden(X1,esk2_0))).#trainneg
+cnf(i_0_705, negated_conjecture, (r1_ordinal1(k5_card_1(X1),k5_card_1(esk3_0))|r1_matroid0(esk1_0,esk3_0,esk2_0)|~v1_finset_1(X1)|~r1_tarski(X1,esk4_2(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_726, plain, (r1_tarski(k4_matroid0(X1,X2),k5_card_1(X3))|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(esk4_2(X1,X2),k5_card_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~v1_finset_1(X3))).#trainneg
+cnf(i_0_719, negated_conjecture, (r1_tarski(k5_card_1(esk3_0),k1_card_1(X1))|r1_matroid0(esk1_0,esk3_0,esk2_0)|~r1_tarski(k5_card_1(esk3_0),X1))).#trainneg
+cnf(i_0_729, negated_conjecture, (r1_tarski(k5_card_1(esk3_0),k1_card_1(X1))|r1_matroid0(esk1_0,esk3_0,esk2_0)|~r1_tarski(esk4_2(esk1_0,esk2_0),X1))).#trainneg
+cnf(i_0_831, negated_conjecture, (r1_tarski(X1,k5_card_1(esk3_0))|r1_matroid0(esk1_0,esk3_0,esk2_0)|X1!=k5_card_1(esk3_0))).#trainneg
+cnf(i_0_819, negated_conjecture, (r1_tarski(X1,k5_card_1(esk3_0))|r1_matroid0(esk1_0,esk3_0,esk2_0)|X1!=k5_card_1(esk2_0)|~v3_pre_topc(esk2_0,esk1_0))).#trainneg
+cnf(i_0_903, plain, (r1_tarski(k4_matroid0(X1,k5_card_1(X2)),k5_card_1(X2))|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(X2)|~m1_subset_1(k5_card_1(X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_822, negated_conjecture, (esk11_3(X1,X2,esk2_0)=esk2_0|v3_pencil_1(X2)|v2_struct_0(X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(esk11_3(X1,X2,esk2_0)))|X1!=k5_card_1(esk3_0)|~v3_pre_topc(esk3_0,X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_815, plain, (X1=k4_matroid0(X2,X3)|v3_pencil_1(X2)|v2_struct_0(X2)|k5_card_1(X1)!=k5_card_1(k4_matroid0(X2,X3))|~v1_finset_1(k4_matroid0(X2,X3))|~v1_finset_1(X1)|X1!=k5_card_1(X3)|~v3_pre_topc(X3,X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_669, negated_conjecture, (m1_subset_1(X1,esk2_0)|~r2_hidden(X1,esk3_0))).#trainneg
+cnf(i_0_887, plain, (v2_membered(k4_ordinal1))).#trainneg
+cnf(i_0_273, plain, (v1_xxreal_0(k4_ordinal1)|~v2_membered(k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_504, plain, (k1_xboole_0=X1|k5_card_1(k1_xboole_0)!=k5_card_1(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_234, plain, (v1_finset_1(esk12_1(X1))|~v5_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_666, negated_conjecture, (v2_membered(esk3_0)|~v2_membered(esk2_0))).#trainneg
+cnf(i_0_667, negated_conjecture, (v3_membered(esk3_0)|~v3_membered(esk2_0))).#trainneg
+cnf(i_0_252, plain, (v7_ordinal1(k4_ordinal1)|~v6_membered(k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_663, negated_conjecture, (v1_xxreal_0(esk3_0)|~v2_membered(k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_610, plain, (X1=k5_card_1(X2)|~v1_xboole_0(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_236, plain, (v1_finset_1(esk9_1(X1))|~v5_finset_1(X1))).#trainneg
+cnf(i_0_901, plain, (r1_tarski(k4_matroid0(X1,X2),k5_card_1(X3))|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(X3)|~r1_tarski(X2,k5_card_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|k4_matroid0(X1,X2)!=k5_card_1(X2)|~v1_finset_1(X2))).#trainneg
+cnf(i_0_918, negated_conjecture, (r1_tarski(k5_card_1(esk3_0),k1_card_1(X1))|r1_matroid0(esk1_0,esk3_0,esk2_0)|~r1_tarski(esk4_2(esk1_0,esk2_0),k1_card_1(X1)))).#trainneg
+cnf(i_0_775, negated_conjecture, (k1_card_1(k5_card_1(esk3_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~v1_finset_1(k5_card_1(esk3_0)))).#trainneg
+cnf(i_0_813, plain, (r1_matroid0(X1,k4_matroid0(X2,X3),X4)|v3_pencil_1(X2)|v2_struct_0(X2)|~r1_tarski(k4_matroid0(X2,X3),X4)|~v3_pre_topc(k4_matroid0(X2,X3),X1)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(k4_matroid0(X2,X3),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|esk8_3(X1,k4_matroid0(X2,X3),X4)!=k5_card_1(X3)|~v3_pre_topc(X3,X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_837, negated_conjecture, (r1_tarski(k5_card_1(X1),k5_card_1(esk3_0))|r1_matroid0(esk1_0,esk3_0,esk2_0)|~v1_finset_1(X1)|~r1_tarski(X1,esk4_2(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_825, negated_conjecture, (r1_matroid0(X1,k4_matroid0(X2,esk2_0),X3)|v3_pencil_1(X2)|v2_struct_0(X2)|~r1_tarski(k4_matroid0(X2,esk2_0),X3)|~v3_pre_topc(k4_matroid0(X2,esk2_0),X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(k4_matroid0(X2,esk2_0),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|esk8_3(X1,k4_matroid0(X2,esk2_0),X3)!=k5_card_1(esk3_0)|~v3_pre_topc(esk3_0,X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_862, plain, (k5_card_1(X1)=k5_card_1(X2)|~v1_finset_1(X2)|~v1_finset_1(X1)|~r1_tarski(X2,X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_824, negated_conjecture, (r2_hidden(X1,a_2_3_matroid0(X2,esk2_0))|v3_pencil_1(X2)|v2_struct_0(X2)|v3_pencil_1(X4)|v2_struct_0(X4)|X1!=k5_card_1(esk11_3(X3,X4,esk2_0))|~v3_pre_topc(esk11_3(X3,X4,esk2_0),X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk11_3(X3,X4,esk2_0),k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|X3!=k5_card_1(esk3_0)|~v3_pre_topc(esk3_0,X4)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X4)))|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X4)))|~l1_pre_topc(X4)|~v4_matroid0(X4)|~v2_matroid0(X4)|~v1_matroid0(X4))).#trainneg
+cnf(i_0_823, negated_conjecture, (esk11_3(X1,X2,esk2_0)=esk2_0|v3_pencil_1(X2)|v2_struct_0(X2)|~r1_tarski(esk2_0,esk11_3(X1,X2,esk2_0))|X1!=k5_card_1(esk3_0)|~v3_pre_topc(esk3_0,X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_838, plain, (r1_tarski(k4_matroid0(X1,X2),k4_matroid0(X3,X4))|v3_pencil_1(X3)|v2_struct_0(X3)|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk4_2(X1,X2))|~r1_tarski(esk4_2(X1,X2),esk4_2(X3,X4))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X3)|~v4_matroid0(X3)|~v2_matroid0(X3)|~v1_matroid0(X3)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_246, plain, (v7_ordinal1(esk9_1(X1))|~v6_membered(X1))).#trainneg
+cnf(i_0_272, plain, (v1_xxreal_0(k1_xboole_0))).#trainneg
+cnf(i_0_271, plain, (v1_xxreal_0(np__1))).#trainneg
+cnf(i_0_238, negated_conjecture, (v1_finset_1(esk2_0)|~v5_finset_1(k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_973, negated_conjecture, (v2_membered(esk3_0)|~v3_membered(esk2_0))).#trainneg
+cnf(i_0_286, negated_conjecture, (v1_finset_1(esk2_0)|~v1_finset_1(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_244, plain, (v7_ordinal1(esk12_1(X1))|~v6_membered(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1057, plain, (k5_card_1(X1)=k5_card_1(X2)|~v1_finset_1(X2)|~v1_finset_1(X1)|~r1_tarski(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1054, plain, (k5_card_1(k4_matroid0(X1,X2))=k5_card_1(X3)|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(X3)|~v1_finset_1(k4_matroid0(X1,X2))|~r1_tarski(k4_matroid0(X1,X2),X3)|X3!=k5_card_1(X2)|~v3_pre_topc(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_1024, negated_conjecture, (k5_card_1(X1)=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~v1_finset_1(X1)|~r1_tarski(esk3_0,X1)|~r1_tarski(X1,esk4_2(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_977, plain, (k5_card_1(X1)=k5_card_1(X2)|~v1_xboole_0(X2)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_974, negated_conjecture, (v3_membered(esk3_0)|~m1_subset_1(esk2_0,k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_1151, negated_conjecture, (esk2_0=esk3_0|k5_card_1(X1)!=k5_card_1(esk3_0)|~v1_finset_1(esk2_0)|~v1_xboole_0(esk2_0)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_247, negated_conjecture, (v7_ordinal1(esk3_0)|~v6_membered(k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_1069, negated_conjecture, (v1_finset_1(esk2_0)|~m1_subset_1(u1_struct_0(esk1_0),k4_ordinal1))).#trainneg
+cnf(i_0_248, negated_conjecture, (v7_ordinal1(esk2_0)|~v6_membered(k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_255, plain, (v1_xreal_0(esk12_1(X1))|~v3_membered(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1075, plain, (k5_card_1(esk8_3(X1,X2,X3))=k4_matroid0(X1,X3)|r1_matroid0(X1,X2,X3)|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~v1_finset_1(esk8_3(X1,X2,X3))|~r1_tarski(k4_matroid0(X1,X3),esk8_3(X1,X2,X3)))).#trainneg
+cnf(i_0_1122, negated_conjecture, (k5_card_1(esk8_3(esk1_0,X1,esk2_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|~r1_tarski(k5_card_1(esk3_0),k5_card_1(esk8_3(esk1_0,X1,esk2_0)))|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_1078, plain, (k5_card_1(esk8_3(X1,X2,X3))=k5_card_1(X3)|r1_matroid0(X1,X2,X3)|~v1_finset_1(esk8_3(X1,X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(esk8_3(X1,X2,X3)))|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1))).#trainneg
+cnf(i_0_1129, negated_conjecture, (k5_card_1(esk4_2(esk1_0,esk2_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~v1_finset_1(esk4_2(esk1_0,esk2_0))|~r1_tarski(esk3_0,esk4_2(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_1108, plain, (k5_card_1(k4_matroid0(X1,X2))=k5_card_1(k4_matroid0(X3,X4))|v3_pencil_1(X1)|v2_struct_0(X1)|v3_pencil_1(X3)|v2_struct_0(X3)|k4_matroid0(X3,X4)!=k5_card_1(X2)|~v1_finset_1(k4_matroid0(X3,X4))|~v3_pre_topc(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|k4_matroid0(X1,X2)!=k5_card_1(X4)|~v3_pre_topc(X4,X3)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X3)|~v4_matroid0(X3)|~v2_matroid0(X3)|~v1_matroid0(X3))).#trainneg
+cnf(i_0_763, plain, (r1_tarski(X1,k4_matroid0(X2,esk8_3(X3,X4,X5)))|v3_pencil_1(X2)|v2_struct_0(X2)|r1_matroid0(X3,X4,X5)|~m1_subset_1(esk8_3(X3,X4,X5),k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|X1!=k5_card_1(X4)|~r1_tarski(X4,X5)|~v3_pre_topc(X4,X2)|~v3_pre_topc(X4,X3)|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X5,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X3))).#trainneg
+cnf(i_0_618, plain, (k5_card_1(X1)=k5_card_1(X2)|~m1_subset_1(k5_card_1(X2),k1_zfmisc_1(k5_card_1(X1)))|~v1_finset_1(X1)|~v1_finset_1(X2)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_257, plain, (v1_xreal_0(esk9_1(X1))|~v3_membered(X1))).#trainneg
+cnf(i_0_258, negated_conjecture, (v1_xreal_0(esk3_0)|~v3_membered(k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_502, plain, (v2_membered(k1_xboole_0)|~v2_membered(X1))).#trainneg
+cnf(i_0_297, negated_conjecture, (v2_membered(esk3_0)|~v2_membered(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_298, negated_conjecture, (v2_membered(esk2_0)|~v2_membered(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_966, negated_conjecture, (m1_subset_1(X1,esk2_0)|v1_xboole_0(esk3_0)|~m1_subset_1(X1,esk3_0))).#trainneg
+cnf(i_0_259, negated_conjecture, (v1_xreal_0(esk2_0)|~v3_membered(k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_264, plain, (v1_xreal_0(k5_card_1(X1))|~v3_membered(k4_ordinal1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_1333, negated_conjecture, (k1_card_1(k5_card_1(esk3_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~v1_finset_1(esk4_2(esk1_0,esk2_0))|~r1_tarski(esk3_0,esk4_2(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_1311, negated_conjecture, (r1_tarski(k5_card_1(esk3_0),k4_matroid0(esk1_0,esk2_0))|r1_matroid0(esk1_0,X1,esk2_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~v1_finset_1(esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0)))).#trainneg
+cnf(i_0_1325, negated_conjecture, (k5_card_1(esk8_3(esk1_0,X1,esk2_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~v1_finset_1(esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(esk3_0,k5_card_1(esk8_3(esk1_0,X1,esk2_0))))).#trainneg
+cnf(i_0_923, negated_conjecture, (r1_tarski(k4_matroid0(X1,X2),k5_card_1(esk3_0))|v3_pencil_1(X1)|v2_struct_0(X1)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|esk4_2(X1,X2)!=k5_card_1(esk3_0))).#trainneg
+cnf(i_0_919, negated_conjecture, (r1_tarski(k5_card_1(esk3_0),k5_card_1(X1))|r1_matroid0(esk1_0,esk3_0,esk2_0)|~r1_tarski(esk4_2(esk1_0,esk2_0),k5_card_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_1130, negated_conjecture, (k5_card_1(X1)=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~v1_finset_1(X1)|~r1_tarski(esk3_0,X1)|~m1_subset_1(X1,k1_zfmisc_1(esk4_2(esk1_0,esk2_0))))).#trainneg
+cnf(i_0_1318, plain, (k5_card_1(esk8_3(X1,X2,X3))=k4_matroid0(X1,X3)|r1_matroid0(X1,X2,X3)|v3_pencil_1(X1)|v2_struct_0(X1)|~v1_finset_1(esk8_3(X1,X2,X3))|~r1_tarski(X2,X3)|~v3_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|~m1_subset_1(esk4_2(X1,X3),k1_zfmisc_1(esk8_3(X1,X2,X3))))).#trainneg
+cnf(i_0_756, plain, (r1_tarski(k5_card_1(X1),k5_card_1(X2))|~v1_finset_1(X1)|~r1_tarski(k5_card_1(X1),X2)|~v1_finset_1(X2))).#trainneg
+cnf(i_0_1453, plain, (v2_membered(k1_xboole_0))).#trainneg
+cnf(i_0_267, plain, (v1_xxreal_0(esk9_1(X1))|~v2_membered(X1))).#trainneg
+cnf(i_0_1455, negated_conjecture, (v2_membered(esk3_0)|~v3_membered(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_265, plain, (v1_xxreal_0(esk12_1(X1))|~v2_membered(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_503, plain, (v3_membered(k1_xboole_0)|~v3_membered(X1))).#trainneg
+cnf(i_0_303, negated_conjecture, (v3_membered(esk3_0)|~v3_membered(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_304, negated_conjecture, (v3_membered(esk2_0)|~v3_membered(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_1456, negated_conjecture, (v2_membered(esk2_0)|~v3_membered(u1_struct_0(esk1_0)))).#trainneg
+cnf(i_0_268, negated_conjecture, (v1_xxreal_0(esk3_0)|~v2_membered(k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_269, negated_conjecture, (v1_xxreal_0(esk2_0)|~v2_membered(k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_1472, negated_conjecture, (k1_card_1(k5_card_1(esk3_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|~r1_tarski(esk3_0,esk4_2(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_1475, negated_conjecture, (r1_tarski(k5_card_1(esk3_0),k4_matroid0(esk1_0,esk2_0))|r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|~r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~v3_matroid0(esk1_0))).#trainneg
+cnf(i_0_1519, plain, (k5_card_1(X1)=k5_card_1(X2)|~r1_tarski(k5_card_1(X1),k5_card_1(X2))|~v1_finset_1(X2)|~v1_finset_1(X1)|~r1_tarski(k5_card_1(X2),X1))).#trainneg
+cnf(i_0_1522, negated_conjecture, (k5_card_1(esk8_3(esk1_0,X1,esk2_0))=k5_card_1(esk3_0)|r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~v1_finset_1(esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(k5_card_1(esk3_0),esk8_3(esk1_0,X1,esk2_0)))).#trainneg
+cnf(i_0_1523, plain, (k5_card_1(X1)=k5_card_1(X2)|~v1_finset_1(X2)|~v1_finset_1(X1)|~r1_tarski(X2,X1)|~r1_tarski(k5_card_1(X1),X2))).#trainneg
+cnf(i_0_827, negated_conjecture, (X1=k4_matroid0(X2,esk2_0)|v3_pencil_1(X2)|v2_struct_0(X2)|k5_card_1(X1)!=k5_card_1(k4_matroid0(X2,esk2_0))|~v1_finset_1(k4_matroid0(X2,esk2_0))|~v1_finset_1(X1)|X1!=k5_card_1(esk3_0)|~v3_pre_topc(esk3_0,X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_1477, negated_conjecture, (r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|k5_card_1(esk3_0)!=k5_card_1(X1)|~v1_finset_1(X1)|~r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0))|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~m1_subset_1(esk8_3(esk1_0,X1,esk2_0),k4_ordinal1))).#trainneg
+cnf(i_0_282, plain, (v1_finset_1(esk12_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_556, negated_conjecture, (v1_finset_1(k5_card_1(esk3_0))|r1_matroid0(esk1_0,esk3_0,esk2_0))).#trainneg
+cnf(i_0_274, plain, (v1_xxreal_0(k5_card_1(X1))|~v2_membered(k4_ordinal1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_661, negated_conjecture, (v7_ordinal1(esk3_0)|~v6_membered(k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_428, plain, (v1_finset_1(X1)|~v5_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_429, plain, (v7_ordinal1(X1)|~v6_membered(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_275, plain, (k3_tarski(X1)=X2|~r1_tarski(k3_tarski(X1),X2)|~r2_hidden(X2,X1))).#trainneg
+cnf(i_0_277, plain, (r1_tarski(k1_card_1(X1),k1_card_1(X2))|~v3_ordinal1(k1_card_1(X2))|~v3_ordinal1(k1_card_1(X1))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_835, plain, (k4_matroid0(X1,X2)=k5_card_1(X3)|v3_pencil_1(X1)|v2_struct_0(X1)|~r1_tarski(k4_matroid0(X1,X2),k5_card_1(X3))|~v1_finset_1(X3)|~r1_tarski(X3,esk4_2(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_1674, plain, (r1_tarski(k5_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_1669, plain, (r1_tarski(k1_card_1(X1),k5_card_1(X2))|~r1_tarski(X1,X2)|~v1_finset_1(X2))).#trainneg
+cnf(i_0_1663, plain, (k1_card_1(X1)=k1_card_1(X2)|~r1_tarski(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_1627, negated_conjecture, (X1=k4_matroid0(X2,esk2_0)|v3_pencil_1(X2)|v2_struct_0(X2)|k5_card_1(X1)!=k4_matroid0(X2,esk2_0)|X1!=k5_card_1(esk3_0)|~v1_finset_1(X1)|~v3_pre_topc(esk3_0,X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2)|~v1_finset_1(esk4_2(X2,esk2_0)))).#trainneg
+cnf(i_0_1654, negated_conjecture, (k3_tarski(X1)=k4_matroid0(X2,esk2_0)|v3_pencil_1(X2)|v2_struct_0(X2)|~r2_hidden(k4_matroid0(X2,esk2_0),X1)|k3_tarski(X1)!=k5_card_1(esk3_0)|~v3_pre_topc(esk3_0,X2)|~m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v4_matroid0(X2)|~v2_matroid0(X2)|~v1_matroid0(X2))).#trainneg
+cnf(i_0_1636, negated_conjecture, (r1_matroid0(esk1_0,esk3_0,esk2_0)|r1_matroid0(esk1_0,X1,esk2_0)|k5_card_1(esk3_0)!=k5_card_1(X1)|~v1_finset_1(X1)|~r1_tarski(X1,esk2_0)|~v3_pre_topc(X1,esk1_0)|~m1_subset_1(esk8_3(esk1_0,X1,esk2_0),k4_ordinal1)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))|~m1_subset_1(esk3_0,k1_zfmisc_1(esk8_3(esk1_0,X1,esk2_0))))).#trainneg
+cnf(i_0_1637, negated_conjecture, (r1_matroid0(esk1_0,esk3_0,esk2_0)|~m1_subset_1(esk8_3(esk1_0,esk3_0,esk2_0),k4_ordinal1))).#trainneg
+cnf(i_0_1545, plain, (v3_membered(k1_xboole_0))).#trainneg
+cnf(i_0_1659, plain, (m1_subset_1(k1_card_1(X1),k1_zfmisc_1(k1_card_1(X2)))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_278, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,k1_card_1(X2)))).#trainneg
+cnf(i_0_1551, negated_conjecture, (v1_xxreal_0(esk3_0)|~v3_membered(k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_1552, negated_conjecture, (v1_xxreal_0(esk2_0)|~v3_membered(k1_zfmisc_1(u1_struct_0(esk1_0))))).#trainneg
+cnf(i_0_888, negated_conjecture, (m1_subset_1(X1,u1_struct_0(esk1_0))|v1_xboole_0(esk3_0)|~m1_subset_1(X1,esk3_0))).#trainneg
+cnf(i_0_279, plain, (r1_ordinal1(k1_card_1(X1),k5_card_1(X2))|~r1_tarski(X1,X2)|~v1_finset_1(X2))).#trainneg
+cnf(i_0_280, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(k1_card_1(X1),X2))).#trainneg
+cnf(i_0_1740, plain, (k5_card_1(esk4_2(X1,X2))=k5_card_1(X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~v3_pre_topc(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1))).#trainneg
+cnf(i_0_1695, plain, (m1_subset_1(k5_card_1(X1),k1_zfmisc_1(k1_card_1(X2)))|~v1_finset_1(X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_1743, plain, (r1_matroid0(X1,X2,X2)|v3_pencil_1(X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v4_matroid0(X1)|~v2_matroid0(X1)|~v1_matroid0(X1)|k4_matroid0(X1,X2)!=k5_card_1(X2)|~v1_finset_1(X2))).#trainneg
+cnf(i_0_1103, plain, (k5_card_1(X1)=k5_card_1(X2)|~v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_288, plain, (v1_xboole_0(esk12_1(X1))|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_1548, negated_conjecture, (v3_membered(esk3_0)|~m1_subset_1(u1_struct_0(esk1_0),k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_284, plain, (v1_finset_1(esk9_1(k1_zfmisc_1(X1)))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_1549, negated_conjecture, (v3_membered(esk2_0)|~m1_subset_1(u1_struct_0(esk1_0),k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_1451, negated_conjecture, (v1_xreal_0(esk3_0)|~m1_subset_1(k1_zfmisc_1(u1_struct_0(esk1_0)),k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_889, negated_conjecture, (m1_subset_1(X1,u1_struct_0(esk1_0))|v1_xboole_0(esk2_0)|~m1_subset_1(X1,esk2_0))).#trainneg
+cnf(i_0_1165, plain, (v1_card_1(k5_card_1(X2))|~v1_finset_1(X1)|~v1_xboole_0(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_290, plain, (v1_xboole_0(esk9_1(k1_zfmisc_1(X1)))|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_294, plain, (v2_membered(esk12_1(X1))|~v2_membered(X1))).#trainneg
+cnf(i_0_1755, plain, (k1_card_1(X1)=k1_card_1(X2)|~r1_tarski(X2,X1)|~r1_tarski(X1,X2))).#trainneg
+# Training: Negative examples end
+# Parsed axioms                        : 94
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 177
+# Removed in clause preprocessing      : 41
+# Initial clauses in saturation        : 136
+# Processed clauses                    : 484
+# ...of these trivial                  : 15
+# ...subsumed                          : 84
+# ...remaining for further processing  : 385
+# Other redundant clauses eliminated   : 2
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 11
+# Backward-rewritten                   : 41
+# Generated clauses                    : 1846
+# ...of the previous two non-trivial   : 1701
+# Contextual simplify-reflections      : 52
+# Paramodulations                      : 1838
+# Factorizations                       : 0
+# Equation resolutions                 : 8
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 331
+#    Positive orientable unit clauses  : 49
+#    Positive unorientable unit clauses: 0
+#    Negative unit clauses             : 13
+#    Non-unit-clauses                  : 269
+# Current number of unprocessed clauses: 1275
+# ...number of literals in the above   : 10736
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 437
+# Proof object given clauses           : 71
+# Proof search given clauses           : 385
+# Clause-clause subsumption calls (NU) : 69607
+# Rec. Clause-clause subsumption calls : 7011
+# Non-unit clause-clause subsumptions  : 136
+# Unit Clause-clause subsumption calls : 2053
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 39
+# BW rewrite match successes           : 9
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 52914
+
+# -------------------------------------------------
+# User time                : 13.764 s
+# System time              : 0.597 s
+# Total time               : 14.361 s
+# Maximum resident set size: 346120 pages
+13.76user 0.70system 0:14.55elapsed 99%CPU (0avgtext+0avgdata 346608maxresident)k
+0inputs+224outputs (0major+141149minor)pagefaults 0swaps

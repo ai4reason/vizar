@@ -1,0 +1,27 @@
+
+digraph proof {
+   
+   fontsize = 20;
+   graph [ 
+      overlap=false
+      //fontsize=1
+      splines=ortho
+      //splines=true
+      concentrate=true 
+      bgcolor=transparent
+   ];
+   node [ 
+      margin=0
+      width=1
+      height=0
+      style=filled
+      fillcolor="#F8EDD1"
+      fontcolor=black
+      color="#7F7542"
+      shape=record //circle // record // Mrecord
+   ];
+
+	c_0_113 [ fillcolor="#F8EDD1", label="{A|B}" ]
+
+}
+

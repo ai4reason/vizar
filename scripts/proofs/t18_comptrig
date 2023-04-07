@@ -1,0 +1,368 @@
+2020-05-02 04:12:35.514385: I tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: models_8/premsel_enigma_01_2020_T10_loop01_epoch_43
+2020-05-02 04:12:35.576875: I tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2020-05-02 04:12:35.728402: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2020-05-02 04:12:36.082385: I tensorflow/cc/saved_model/loader.cc:202] Restoring SavedModel bundle.
+2020-05-02 04:12:37.450924: I tensorflow/cc/saved_model/loader.cc:311] SavedModel load for tags { serve }; Status: success. Took 1936521 microseconds.
+# ENIGMA: TensorFlow C library version 1.15.0
+# ENIGMA: TensorFlow: model 'models_8/premsel_enigma_01_2020_T10_loop01_epoch_43' loaded (query=512; context=1024; weigths=real; len_mult=0.000000).
+# Preprocessing time       : 2.532 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(dt_k8_real_1, axiom, ![X1, X2]:((m1_subset_1(X1,k1_numbers)&v1_xreal_0(X2))=>m1_subset_1(k8_real_1(X1,X2),k1_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', dt_k8_real_1)).
+fof(redefinition_k8_real_1, axiom, ![X1, X2]:((m1_subset_1(X1,k1_numbers)&v1_xreal_0(X2))=>k8_real_1(X1,X2)=k3_xcmplx_0(X1,X2)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', redefinition_k8_real_1)).
+fof(t3_arithm, axiom, ![X1]:(v1_xcmplx_0(X1)=>k3_xcmplx_0(np__1,X1)=X1), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t3_arithm)).
+fof(cc3_xreal_0, axiom, ![X1]:(v1_xreal_0(X1)=>v1_xcmplx_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc3_xreal_0)).
+fof(cc14_membered, axiom, ![X1]:(v3_membered(X1)=>![X2]:(m1_subset_1(X2,X1)=>v1_xreal_0(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc14_membered)).
+fof(t6_boole, axiom, ![X1]:(v1_xboole_0(X1)=>X1=k1_xboole_0), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t6_boole)).
+fof(fc6_xreal_0, axiom, ![X1, X2]:((v1_xreal_0(X1)&v1_xreal_0(X2))=>v1_xreal_0(k3_xcmplx_0(X1,X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', fc6_xreal_0)).
+fof(spc3_numerals, axiom, (((v2_xxreal_0(np__3)&m2_subset_1(np__3,k1_numbers,k5_numbers))&m1_subset_1(np__3,k5_numbers))&m1_subset_1(np__3,k1_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', spc3_numerals)).
+fof(fc3_membered, axiom, v3_membered(k1_numbers), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', fc3_membered)).
+fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0, file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', redefinition_k6_numbers)).
+fof(spc1_numerals, axiom, (((v2_xxreal_0(np__1)&m2_subset_1(np__1,k1_numbers,k5_numbers))&m1_subset_1(np__1,k5_numbers))&m1_subset_1(np__1,k1_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', spc1_numerals)).
+fof(rqRealMult__k3_xcmplx_0__rn1d2_r3_rn3d2, axiom, k3_xcmplx_0(k7_xcmplx_0(np__1,np__2),np__3)=k7_xcmplx_0(np__3,np__2), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', rqRealMult__k3_xcmplx_0__rn1d2_r3_rn3d2)).
+fof(connectedness_r1_xxreal_0, axiom, ![X1, X2]:((v1_xxreal_0(X1)&v1_xxreal_0(X2))=>(r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', connectedness_r1_xxreal_0)).
+fof(cc4_xreal_0, axiom, ![X1]:(v1_xreal_0(X1)=>v1_xxreal_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc4_xreal_0)).
+fof(t13_comptrig, axiom, ![X1]:(v1_xreal_0(X1)=>~((r2_hidden(X1,k2_rcomp_1(k10_real_1(k32_sin_cos,np__2),k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos)))&r1_xxreal_0(k6_numbers,k1_seq_1(k19_sin_cos,X1))))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t13_comptrig)).
+fof(spc0_boole, axiom, v1_xboole_0(np__0), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', spc0_boole)).
+fof(t4_xxreal_1, axiom, ![X1]:(v1_xxreal_0(X1)=>![X2]:(v1_xxreal_0(X2)=>![X3]:(v1_xxreal_0(X3)=>(r2_hidden(X1,k4_xxreal_1(X2,X3))<=>(~(r1_xxreal_0(X1,X2))&~(r1_xxreal_0(X3,X1))))))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t4_xxreal_1)).
+fof(redefinition_k2_rcomp_1, axiom, ![X1, X2]:((v1_xxreal_0(X1)&v1_xxreal_0(X2))=>k2_rcomp_1(X1,X2)=k4_xxreal_1(X1,X2)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', redefinition_k2_rcomp_1)).
+fof(fc8_xreal_0, axiom, ![X1, X2]:((v1_xreal_0(X1)&v1_xreal_0(X2))=>v1_xreal_0(k7_xcmplx_0(X1,X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', fc8_xreal_0)).
+fof(spc2_numerals, axiom, (((v2_xxreal_0(np__2)&m2_subset_1(np__2,k1_numbers,k5_numbers))&m1_subset_1(np__2,k5_numbers))&m1_subset_1(np__2,k1_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', spc2_numerals)).
+fof(t15_comptrig, axiom, ![X1]:(v1_xreal_0(X1)=>~((r2_hidden(X1,k2_rcomp_1(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos),k8_real_1(np__2,k32_sin_cos)))&r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),k6_numbers)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t15_comptrig)).
+fof(t18_comptrig, conjecture, ![X1]:(v1_xreal_0(X1)=>~(((((r1_xxreal_0(k6_numbers,X1)&~(r1_xxreal_0(k8_real_1(np__2,k32_sin_cos),X1)))&k20_sin_cos(X1)=k6_numbers)&X1!=k10_real_1(k32_sin_cos,np__2))&X1!=k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t18_comptrig)).
+fof(fc3_xreal_0, axiom, ![X1]:(v1_xreal_0(X1)=>(v1_xcmplx_0(k4_xcmplx_0(X1))&v1_xreal_0(k4_xcmplx_0(X1)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', fc3_xreal_0)).
+fof(cc12_membered, axiom, ![X1]:(v1_membered(X1)=>![X2]:(m1_subset_1(X2,X1)=>v1_xcmplx_0(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc12_membered)).
+fof(rqRealNeg__k4_xcmplx_0__rn3d2_rnm3d2, axiom, k4_xcmplx_0(k7_xcmplx_0(np__3,np__2))=k7_xcmplx_0(k4_xcmplx_0(np__3),np__2), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', rqRealNeg__k4_xcmplx_0__rn3d2_rnm3d2)).
+fof(cc1_xreal_0, axiom, ![X1]:(m1_subset_1(X1,k1_numbers)=>v1_xreal_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc1_xreal_0)).
+fof(commutativity_k8_real_1, axiom, ![X1, X2]:((m1_subset_1(X1,k1_numbers)&v1_xreal_0(X2))=>k8_real_1(X1,X2)=k8_real_1(X2,X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', commutativity_k8_real_1)).
+fof(commutativity_k3_xcmplx_0, axiom, ![X1, X2]:((v1_xcmplx_0(X1)&v1_xcmplx_0(X2))=>k3_xcmplx_0(X1,X2)=k3_xcmplx_0(X2,X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', commutativity_k3_xcmplx_0)).
+fof(dt_k32_sin_cos, axiom, m1_subset_1(k32_sin_cos,k1_numbers), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', dt_k32_sin_cos)).
+fof(cc5_membered, axiom, ![X1]:(v3_membered(X1)=>v1_membered(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc5_membered)).
+fof(redefinition_k10_real_1, axiom, ![X1, X2]:((m1_subset_1(X1,k1_numbers)&v1_xreal_0(X2))=>k10_real_1(X1,X2)=k7_xcmplx_0(X1,X2)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', redefinition_k10_real_1)).
+fof(rqRealNeg__k4_xcmplx_0__rnm3d2_rn3d2, axiom, k4_xcmplx_0(k7_xcmplx_0(k4_xcmplx_0(np__3),np__2))=k7_xcmplx_0(np__3,np__2), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', rqRealNeg__k4_xcmplx_0__rnm3d2_rn3d2)).
+fof(t1_xxreal_0, axiom, ![X1]:(v1_xxreal_0(X1)=>![X2]:(v1_xxreal_0(X2)=>((r1_xxreal_0(X1,X2)&r1_xxreal_0(X2,X1))=>X1=X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t1_xxreal_0)).
+fof(d19_sin_cos, axiom, ![X1]:(v1_xreal_0(X1)=>k20_sin_cos(X1)=k1_seq_1(k19_sin_cos,X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', d19_sin_cos)).
+fof(cc17_membered, axiom, ![X1]:(v6_membered(X1)=>![X2]:(m1_subset_1(X2,X1)=>v7_ordinal1(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc17_membered)).
+fof(fc6_membered, axiom, v6_membered(k4_ordinal1), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', fc6_membered)).
+fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1, file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', redefinition_k5_numbers)).
+fof(dt_k31_sin_cos, axiom, v1_xreal_0(k31_sin_cos), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', dt_k31_sin_cos)).
+fof(redefinition_k32_sin_cos, axiom, k32_sin_cos=k31_sin_cos, file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', redefinition_k32_sin_cos)).
+fof(cc1_xcmplx_0, axiom, ![X1]:(m1_subset_1(X1,k1_numbers)=>v1_xcmplx_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc1_xcmplx_0)).
+fof(cc2_xcmplx_0, axiom, ![X1]:(v7_ordinal1(X1)=>v1_xcmplx_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc2_xcmplx_0)).
+fof(dt_k1_real_1, axiom, ![X1]:(m1_subset_1(X1,k1_numbers)=>m1_subset_1(k1_real_1(X1),k1_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', dt_k1_real_1)).
+fof(redefinition_k1_real_1, axiom, ![X1]:(m1_subset_1(X1,k1_numbers)=>k1_real_1(X1)=k4_xcmplx_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', redefinition_k1_real_1)).
+fof(rqLessOrEqual__r1_xxreal_0__r0_r0, axiom, r1_xxreal_0(np__0,np__0), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', rqLessOrEqual__r1_xxreal_0__r0_r0)).
+fof(cc13_membered, axiom, ![X1]:(v2_membered(X1)=>![X2]:(m1_subset_1(X2,X1)=>v1_xxreal_0(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc13_membered)).
+fof(t8_boole, axiom, ![X1, X2]:~(((v1_xboole_0(X1)&X1!=X2)&v1_xboole_0(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t8_boole)).
+fof(cc4_membered, axiom, ![X1]:(v3_membered(X1)=>v2_membered(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc4_membered)).
+fof(involutiveness_k1_real_1, axiom, ![X1]:(m1_subset_1(X1,k1_numbers)=>k1_real_1(k1_real_1(X1))=X1), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', involutiveness_k1_real_1)).
+fof(cc5_xxreal_0, axiom, ![X1]:((v1_xxreal_0(X1)&v3_xxreal_0(X1))=>((~(v1_xboole_0(X1))&v1_xxreal_0(X1))&~(v2_xxreal_0(X1)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', cc5_xxreal_0)).
+fof(rc4_xreal_0, axiom, ?[X1]:(((v1_xboole_0(X1)&v1_xcmplx_0(X1))&v1_xxreal_0(X1))&v1_xreal_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', rc4_xreal_0)).
+fof(t2_real, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(v1_xreal_0(X2)=>((r1_xxreal_0(X1,X2)&v3_xxreal_0(X2))=>v3_xxreal_0(X1)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t2_real)).
+fof(spc0_numerals, axiom, ((m2_subset_1(np__0,k1_numbers,k5_numbers)&m1_subset_1(np__0,k5_numbers))&m1_subset_1(np__0,k1_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', spc0_numerals)).
+fof(t7_real, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(v1_xreal_0(X2)=>~(((~(r1_xxreal_0(X1,X2))&~(v2_xxreal_0(X1)))&~(v3_xxreal_0(X2)))))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t7_real)).
+fof(t11_comptrig, axiom, ![X1]:(v1_xreal_0(X1)=>~((r2_hidden(X1,k2_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos,np__2)),k10_real_1(k32_sin_cos,np__2)))&r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),k6_numbers)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', t11_comptrig)).
+fof(fc16_xreal_0, axiom, ![X1]:((~(v3_xxreal_0(X1))&v1_xreal_0(X1))=>(v1_xcmplx_0(k4_xcmplx_0(X1))&~(v2_xxreal_0(k4_xcmplx_0(X1))))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', fc16_xreal_0)).
+fof(spc2_arithm, axiom, ![X1]:(v1_xcmplx_0(X1)=>k3_xcmplx_0(X1,k4_xcmplx_0(np__1))=k4_xcmplx_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', spc2_arithm)).
+fof(involutiveness_k4_xcmplx_0, axiom, ![X1]:(v1_xcmplx_0(X1)=>k4_xcmplx_0(k4_xcmplx_0(X1))=X1), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', involutiveness_k4_xcmplx_0)).
+fof(dt_k10_real_1, axiom, ![X1, X2]:((m1_subset_1(X1,k1_numbers)&v1_xreal_0(X2))=>m1_subset_1(k10_real_1(X1,X2),k1_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_comptrig', dt_k10_real_1)).
+fof(c_0_58, plain, ![X150, X151]:(~m1_subset_1(X150,k1_numbers)|~v1_xreal_0(X151)|m1_subset_1(k8_real_1(X150,X151),k1_numbers)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k8_real_1])])).
+fof(c_0_59, plain, ![X270, X271]:(~m1_subset_1(X270,k1_numbers)|~v1_xreal_0(X271)|k8_real_1(X270,X271)=k3_xcmplx_0(X270,X271)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k8_real_1])])).
+fof(c_0_60, plain, ![X306]:(~v1_xcmplx_0(X306)|k3_xcmplx_0(np__1,X306)=X306), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t3_arithm])])).
+fof(c_0_61, plain, ![X101]:(~v1_xreal_0(X101)|v1_xcmplx_0(X101)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc3_xreal_0])])).
+fof(c_0_62, plain, ![X21, X22]:(~v3_membered(X21)|(~m1_subset_1(X22,X21)|v1_xreal_0(X22))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc14_membered])])])).
+fof(c_0_63, plain, ![X326]:(~v1_xboole_0(X326)|X326=k1_xboole_0), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t6_boole])])).
+cnf(c_0_64, plain, (m1_subset_1(k8_real_1(X1,X2),k1_numbers)|~m1_subset_1(X1,k1_numbers)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_58])).
+cnf(c_0_65, plain, (k8_real_1(X1,X2)=k3_xcmplx_0(X1,X2)|~m1_subset_1(X1,k1_numbers)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_59])).
+cnf(c_0_66, plain, (k3_xcmplx_0(np__1,X1)=X1|~v1_xcmplx_0(X1)), inference(split_conjunct,[status(thm)],[c_0_60])).
+cnf(c_0_67, plain, (v1_xcmplx_0(X1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_61])).
+fof(c_0_68, plain, ![X207, X208]:(~v1_xreal_0(X207)|~v1_xreal_0(X208)|v1_xreal_0(k3_xcmplx_0(X207,X208))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[fc6_xreal_0])])).
+cnf(c_0_69, plain, (v1_xreal_0(X2)|~v3_membered(X1)|~m1_subset_1(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_62])).
+cnf(c_0_70, plain, (m1_subset_1(np__3,k1_numbers)), inference(split_conjunct,[status(thm)],[spc3_numerals])).
+cnf(c_0_71, plain, (v3_membered(k1_numbers)), inference(split_conjunct,[status(thm)],[fc3_membered])).
+cnf(c_0_72, plain, (X1=k1_xboole_0|~v1_xboole_0(X1)), inference(split_conjunct,[status(thm)],[c_0_63])).
+cnf(c_0_73, plain, (k6_numbers=k1_xboole_0), inference(split_conjunct,[status(thm)],[redefinition_k6_numbers])).
+cnf(c_0_74, plain, (m1_subset_1(k3_xcmplx_0(X1,X2),k1_numbers)|~m1_subset_1(X1,k1_numbers)|~v1_xreal_0(X2)), inference(spm,[status(thm)],[c_0_64, c_0_65])).
+cnf(c_0_75, plain, (k3_xcmplx_0(np__1,X1)=X1|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_66, c_0_67])).
+cnf(c_0_76, plain, (m1_subset_1(np__1,k1_numbers)), inference(split_conjunct,[status(thm)],[spc1_numerals])).
+cnf(c_0_77, plain, (v1_xreal_0(k3_xcmplx_0(X1,X2))|~v1_xreal_0(X1)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_68])).
+cnf(c_0_78, plain, (k3_xcmplx_0(k7_xcmplx_0(np__1,np__2),np__3)=k7_xcmplx_0(np__3,np__2)), inference(split_conjunct,[status(thm)],[rqRealMult__k3_xcmplx_0__rn1d2_r3_rn3d2])).
+cnf(c_0_79, plain, (v1_xreal_0(np__3)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_70]), c_0_71])])).
+fof(c_0_80, plain, ![X136, X137]:(~v1_xxreal_0(X136)|~v1_xxreal_0(X137)|(r1_xxreal_0(X136,X137)|r1_xxreal_0(X137,X136))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[connectedness_r1_xxreal_0])])).
+fof(c_0_81, plain, ![X110]:(~v1_xreal_0(X110)|v1_xxreal_0(X110)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc4_xreal_0])])).
+fof(c_0_82, plain, ![X293]:(~v1_xreal_0(X293)|(~r2_hidden(X293,k2_rcomp_1(k10_real_1(k32_sin_cos,np__2),k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos)))|~r1_xxreal_0(k6_numbers,k1_seq_1(k19_sin_cos,X293)))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t13_comptrig])])).
+cnf(c_0_83, plain, (X1=k6_numbers|~v1_xboole_0(X1)), inference(rw,[status(thm)],[c_0_72, c_0_73])).
+cnf(c_0_84, plain, (v1_xboole_0(np__0)), inference(split_conjunct,[status(thm)],[spc0_boole])).
+fof(c_0_85, plain, ![X316, X317, X318]:(((~r1_xxreal_0(X316,X317)|~r2_hidden(X316,k4_xxreal_1(X317,X318))|~v1_xxreal_0(X318)|~v1_xxreal_0(X317)|~v1_xxreal_0(X316))&(~r1_xxreal_0(X318,X316)|~r2_hidden(X316,k4_xxreal_1(X317,X318))|~v1_xxreal_0(X318)|~v1_xxreal_0(X317)|~v1_xxreal_0(X316)))&(r1_xxreal_0(X316,X317)|r1_xxreal_0(X318,X316)|r2_hidden(X316,k4_xxreal_1(X317,X318))|~v1_xxreal_0(X318)|~v1_xxreal_0(X317)|~v1_xxreal_0(X316))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t4_xxreal_1])])])])])).
+fof(c_0_86, plain, ![X268, X269]:(~v1_xxreal_0(X268)|~v1_xxreal_0(X269)|k2_rcomp_1(X268,X269)=k4_xxreal_1(X268,X269)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k2_rcomp_1])])).
+cnf(c_0_87, plain, (m1_subset_1(X1,k1_numbers)|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_74, c_0_75]), c_0_76])])).
+cnf(c_0_88, plain, (v1_xreal_0(k7_xcmplx_0(np__3,np__2))|~v1_xreal_0(k7_xcmplx_0(np__1,np__2))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_77, c_0_78]), c_0_79])])).
+fof(c_0_89, plain, ![X222, X223]:(~v1_xreal_0(X222)|~v1_xreal_0(X223)|v1_xreal_0(k7_xcmplx_0(X222,X223))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[fc8_xreal_0])])).
+cnf(c_0_90, plain, (m1_subset_1(np__2,k1_numbers)), inference(split_conjunct,[status(thm)],[spc2_numerals])).
+fof(c_0_91, plain, ![X294]:(~v1_xreal_0(X294)|(~r2_hidden(X294,k2_rcomp_1(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos),k8_real_1(np__2,k32_sin_cos)))|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X294),k6_numbers))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t15_comptrig])])).
+cnf(c_0_92, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xxreal_0(X1)|~v1_xxreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_80])).
+cnf(c_0_93, plain, (v1_xxreal_0(X1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_81])).
+fof(c_0_94, negated_conjecture, ~(![X1]:(v1_xreal_0(X1)=>~(((((r1_xxreal_0(k6_numbers,X1)&~(r1_xxreal_0(k8_real_1(np__2,k32_sin_cos),X1)))&k20_sin_cos(X1)=k6_numbers)&X1!=k10_real_1(k32_sin_cos,np__2))&X1!=k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))))), inference(assume_negation,[status(cth)],[t18_comptrig])).
+cnf(c_0_95, plain, (~v1_xreal_0(X1)|~r2_hidden(X1,k2_rcomp_1(k10_real_1(k32_sin_cos,np__2),k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos)))|~r1_xxreal_0(k6_numbers,k1_seq_1(k19_sin_cos,X1))), inference(split_conjunct,[status(thm)],[c_0_82])).
+cnf(c_0_96, plain, (k6_numbers=np__0), inference(spm,[status(thm)],[c_0_83, c_0_84])).
+cnf(c_0_97, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X3,X1)|r2_hidden(X1,k4_xxreal_1(X2,X3))|~v1_xxreal_0(X3)|~v1_xxreal_0(X2)|~v1_xxreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_85])).
+cnf(c_0_98, plain, (k2_rcomp_1(X1,X2)=k4_xxreal_1(X1,X2)|~v1_xxreal_0(X1)|~v1_xxreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_86])).
+fof(c_0_99, plain, ![X189]:((v1_xcmplx_0(k4_xcmplx_0(X189))|~v1_xreal_0(X189))&(v1_xreal_0(k4_xcmplx_0(X189))|~v1_xreal_0(X189))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[fc3_xreal_0])])])).
+cnf(c_0_100, plain, (m1_subset_1(k7_xcmplx_0(np__3,np__2),k1_numbers)|~v1_xreal_0(k7_xcmplx_0(np__1,np__2))), inference(spm,[status(thm)],[c_0_87, c_0_88])).
+cnf(c_0_101, plain, (v1_xreal_0(k7_xcmplx_0(X1,X2))|~v1_xreal_0(X1)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_89])).
+cnf(c_0_102, plain, (v1_xreal_0(np__2)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_90]), c_0_71])])).
+cnf(c_0_103, plain, (v1_xreal_0(np__1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_76]), c_0_71])])).
+cnf(c_0_104, plain, (~v1_xreal_0(X1)|~r2_hidden(X1,k2_rcomp_1(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos),k8_real_1(np__2,k32_sin_cos)))|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),k6_numbers)), inference(split_conjunct,[status(thm)],[c_0_91])).
+cnf(c_0_105, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xxreal_0(X2)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_92, c_0_93])).
+fof(c_0_106, negated_conjecture, (v1_xreal_0(esk1_0)&((((r1_xxreal_0(k6_numbers,esk1_0)&~r1_xxreal_0(k8_real_1(np__2,k32_sin_cos),esk1_0))&k20_sin_cos(esk1_0)=k6_numbers)&esk1_0!=k10_real_1(k32_sin_cos,np__2))&esk1_0!=k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[c_0_94])])])])).
+fof(c_0_107, plain, ![X13, X14]:(~v1_membered(X13)|(~m1_subset_1(X14,X13)|v1_xcmplx_0(X14))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc12_membered])])])).
+cnf(c_0_108, plain, (~r2_hidden(X1,k2_rcomp_1(k10_real_1(k32_sin_cos,np__2),k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos)))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(X1)), inference(rw,[status(thm)],[c_0_95, c_0_96])).
+cnf(c_0_109, plain, (r2_hidden(X1,k2_rcomp_1(X2,X3))|r1_xxreal_0(X3,X1)|r1_xxreal_0(X1,X2)|~v1_xxreal_0(X3)|~v1_xxreal_0(X2)|~v1_xxreal_0(X1)), inference(spm,[status(thm)],[c_0_97, c_0_98])).
+cnf(c_0_110, plain, (v1_xreal_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_99])).
+cnf(c_0_111, plain, (k4_xcmplx_0(k7_xcmplx_0(np__3,np__2))=k7_xcmplx_0(k4_xcmplx_0(np__3),np__2)), inference(split_conjunct,[status(thm)],[rqRealNeg__k4_xcmplx_0__rn3d2_rnm3d2])).
+cnf(c_0_112, plain, (m1_subset_1(k7_xcmplx_0(np__3,np__2),k1_numbers)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_100, c_0_101]), c_0_102]), c_0_103])])).
+cnf(c_0_113, plain, (~r2_hidden(X1,k2_rcomp_1(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos),k8_real_1(np__2,k32_sin_cos)))|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),np__0)|~v1_xreal_0(X1)), inference(rw,[status(thm)],[c_0_104, c_0_96])).
+cnf(c_0_114, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xreal_0(X2)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_105, c_0_93])).
+cnf(c_0_115, negated_conjecture, (v1_xreal_0(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_106])).
+fof(c_0_116, plain, ![X57]:(~m1_subset_1(X57,k1_numbers)|v1_xreal_0(X57)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc1_xreal_0])])).
+fof(c_0_117, plain, ![X134, X135]:(~m1_subset_1(X134,k1_numbers)|~v1_xreal_0(X135)|k8_real_1(X134,X135)=k8_real_1(X135,X134)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[commutativity_k8_real_1])])).
+fof(c_0_118, plain, ![X132, X133]:(~v1_xcmplx_0(X132)|~v1_xcmplx_0(X133)|k3_xcmplx_0(X132,X133)=k3_xcmplx_0(X133,X132)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[commutativity_k3_xcmplx_0])])).
+cnf(c_0_119, plain, (v1_xcmplx_0(X2)|~v1_membered(X1)|~m1_subset_1(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_107])).
+cnf(c_0_120, plain, (m1_subset_1(k32_sin_cos,k1_numbers)), inference(split_conjunct,[status(thm)],[dt_k32_sin_cos])).
+fof(c_0_121, plain, ![X114]:(~v3_membered(X114)|v1_membered(X114)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc5_membered])])).
+cnf(c_0_122, plain, (r1_xxreal_0(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos),X1)|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~v1_xxreal_0(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))|~v1_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_108, c_0_109]), c_0_93])).
+fof(c_0_123, plain, ![X263, X264]:(~m1_subset_1(X263,k1_numbers)|~v1_xreal_0(X264)|k10_real_1(X263,X264)=k7_xcmplx_0(X263,X264)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k10_real_1])])).
+cnf(c_0_124, plain, (v1_xcmplx_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_99])).
+cnf(c_0_125, plain, (k4_xcmplx_0(k7_xcmplx_0(k4_xcmplx_0(np__3),np__2))=k7_xcmplx_0(np__3,np__2)), inference(split_conjunct,[status(thm)],[rqRealNeg__k4_xcmplx_0__rnm3d2_rn3d2])).
+cnf(c_0_126, plain, (v1_xreal_0(k7_xcmplx_0(k4_xcmplx_0(np__3),np__2))|~v1_xreal_0(k7_xcmplx_0(np__3,np__2))), inference(spm,[status(thm)],[c_0_110, c_0_111])).
+cnf(c_0_127, plain, (v1_xreal_0(k7_xcmplx_0(np__3,np__2))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_112]), c_0_71])])).
+fof(c_0_128, plain, ![X299, X300]:(~v1_xxreal_0(X299)|(~v1_xxreal_0(X300)|(~r1_xxreal_0(X299,X300)|~r1_xxreal_0(X300,X299)|X299=X300))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t1_xxreal_0])])])).
+cnf(c_0_129, plain, (r1_xxreal_0(X1,k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))|r1_xxreal_0(k8_real_1(np__2,k32_sin_cos),X1)|~v1_xxreal_0(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))|~v1_xxreal_0(k8_real_1(np__2,k32_sin_cos))|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),np__0)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_113, c_0_109]), c_0_93])).
+cnf(c_0_130, negated_conjecture, (r1_xxreal_0(esk1_0,X1)|r1_xxreal_0(X1,esk1_0)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_114, c_0_115])).
+cnf(c_0_131, plain, (v1_xreal_0(X1)|~m1_subset_1(X1,k1_numbers)), inference(split_conjunct,[status(thm)],[c_0_116])).
+cnf(c_0_132, plain, (k8_real_1(X1,X2)=k8_real_1(X2,X1)|~m1_subset_1(X1,k1_numbers)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_117])).
+fof(c_0_133, plain, ![X138]:(~v1_xreal_0(X138)|k20_sin_cos(X138)=k1_seq_1(k19_sin_cos,X138)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[d19_sin_cos])])).
+cnf(c_0_134, negated_conjecture, (k20_sin_cos(esk1_0)=k6_numbers), inference(split_conjunct,[status(thm)],[c_0_106])).
+cnf(c_0_135, plain, (k3_xcmplx_0(X1,X2)=k3_xcmplx_0(X2,X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X2)), inference(split_conjunct,[status(thm)],[c_0_118])).
+cnf(c_0_136, plain, (v1_xcmplx_0(k32_sin_cos)|~v1_membered(k1_numbers)), inference(spm,[status(thm)],[c_0_119, c_0_120])).
+cnf(c_0_137, plain, (v1_membered(X1)|~v3_membered(X1)), inference(split_conjunct,[status(thm)],[c_0_121])).
+fof(c_0_138, plain, ![X34, X35]:(~v6_membered(X34)|(~m1_subset_1(X35,X34)|v7_ordinal1(X35))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc17_membered])])])).
+cnf(c_0_139, plain, (v6_membered(k4_ordinal1)), inference(split_conjunct,[status(thm)],[fc6_membered])).
+cnf(c_0_140, plain, (k5_numbers=k4_ordinal1), inference(split_conjunct,[status(thm)],[redefinition_k5_numbers])).
+cnf(c_0_141, plain, (r1_xxreal_0(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos),X1)|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~v1_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_122, c_0_93])).
+cnf(c_0_142, plain, (k10_real_1(X1,X2)=k7_xcmplx_0(X1,X2)|~m1_subset_1(X1,k1_numbers)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_123])).
+cnf(c_0_143, plain, (v1_xreal_0(k31_sin_cos)), inference(split_conjunct,[status(thm)],[dt_k31_sin_cos])).
+cnf(c_0_144, plain, (k32_sin_cos=k31_sin_cos), inference(split_conjunct,[status(thm)],[redefinition_k32_sin_cos])).
+fof(c_0_145, plain, ![X56]:(~m1_subset_1(X56,k1_numbers)|v1_xcmplx_0(X56)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc1_xcmplx_0])])).
+cnf(c_0_146, plain, (v1_xcmplx_0(k7_xcmplx_0(np__3,np__2))|~v1_xreal_0(k7_xcmplx_0(k4_xcmplx_0(np__3),np__2))), inference(spm,[status(thm)],[c_0_124, c_0_125])).
+cnf(c_0_147, plain, (v1_xreal_0(k7_xcmplx_0(k4_xcmplx_0(np__3),np__2))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_126, c_0_127])])).
+cnf(c_0_148, plain, (X1=X2|~v1_xxreal_0(X1)|~v1_xxreal_0(X2)|~r1_xxreal_0(X1,X2)|~r1_xxreal_0(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_128])).
+cnf(c_0_149, plain, (r1_xxreal_0(X1,k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))|r1_xxreal_0(k8_real_1(np__2,k32_sin_cos),X1)|~v1_xxreal_0(k8_real_1(np__2,k32_sin_cos))|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),np__0)|~v1_xreal_0(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_129, c_0_93])).
+cnf(c_0_150, negated_conjecture, (r1_xxreal_0(X1,esk1_0)|r1_xxreal_0(esk1_0,X1)|~m1_subset_1(X1,k1_numbers)), inference(spm,[status(thm)],[c_0_130, c_0_131])).
+cnf(c_0_151, plain, (m1_subset_1(k8_real_1(X1,X2),k1_numbers)|~m1_subset_1(X2,k1_numbers)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_64, c_0_132])).
+cnf(c_0_152, plain, (k20_sin_cos(X1)=k1_seq_1(k19_sin_cos,X1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_133])).
+cnf(c_0_153, negated_conjecture, (k20_sin_cos(esk1_0)=np__0), inference(rw,[status(thm)],[c_0_134, c_0_96])).
+cnf(c_0_154, plain, (k3_xcmplx_0(X1,X2)=k3_xcmplx_0(X2,X1)|~v1_xcmplx_0(X1)|~v1_xreal_0(X2)), inference(spm,[status(thm)],[c_0_135, c_0_67])).
+cnf(c_0_155, plain, (v1_xcmplx_0(k32_sin_cos)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_136, c_0_137]), c_0_71])])).
+fof(c_0_156, plain, ![X87]:(~v7_ordinal1(X87)|v1_xcmplx_0(X87)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc2_xcmplx_0])])).
+cnf(c_0_157, plain, (v7_ordinal1(X2)|~v6_membered(X1)|~m1_subset_1(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_138])).
+cnf(c_0_158, plain, (m1_subset_1(np__2,k5_numbers)), inference(split_conjunct,[status(thm)],[spc2_numerals])).
+cnf(c_0_159, plain, (v6_membered(k5_numbers)), inference(rw,[status(thm)],[c_0_139, c_0_140])).
+fof(c_0_160, plain, ![X143]:(~m1_subset_1(X143,k1_numbers)|m1_subset_1(k1_real_1(X143),k1_numbers)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k1_real_1])])).
+fof(c_0_161, plain, ![X265]:(~m1_subset_1(X265,k1_numbers)|k1_real_1(X265)=k4_xcmplx_0(X265)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k1_real_1])])).
+cnf(c_0_162, plain, (r1_xxreal_0(k8_real_1(k7_xcmplx_0(np__3,np__2),k32_sin_cos),X1)|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~v1_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k8_real_1(k7_xcmplx_0(np__3,np__2),k32_sin_cos))|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_141, c_0_142]), c_0_70]), c_0_102])])).
+cnf(c_0_163, negated_conjecture, (esk1_0!=k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos)), inference(split_conjunct,[status(thm)],[c_0_106])).
+cnf(c_0_164, plain, (v1_xreal_0(k32_sin_cos)), inference(rw,[status(thm)],[c_0_143, c_0_144])).
+cnf(c_0_165, plain, (v1_xcmplx_0(X1)|~m1_subset_1(X1,k1_numbers)), inference(split_conjunct,[status(thm)],[c_0_145])).
+cnf(c_0_166, plain, (v1_xcmplx_0(k7_xcmplx_0(np__3,np__2))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_146, c_0_147])])).
+cnf(c_0_167, plain, (k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos)=X1|r1_xxreal_0(k8_real_1(np__2,k32_sin_cos),X1)|~v1_xxreal_0(k8_real_1(np__2,k32_sin_cos))|~r1_xxreal_0(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos),X1)|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),np__0)|~v1_xreal_0(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_148, c_0_149]), c_0_93]), c_0_93])).
+cnf(c_0_168, negated_conjecture, (r1_xxreal_0(esk1_0,k8_real_1(X1,X2))|r1_xxreal_0(k8_real_1(X1,X2),esk1_0)|~m1_subset_1(X2,k1_numbers)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_150, c_0_151])).
+cnf(c_0_169, negated_conjecture, (k1_seq_1(k19_sin_cos,esk1_0)=np__0), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_152, c_0_153]), c_0_115])])).
+cnf(c_0_170, plain, (r1_xxreal_0(np__0,np__0)), inference(split_conjunct,[status(thm)],[rqLessOrEqual__r1_xxreal_0__r0_r0])).
+cnf(c_0_171, negated_conjecture, (~r1_xxreal_0(k8_real_1(np__2,k32_sin_cos),esk1_0)), inference(split_conjunct,[status(thm)],[c_0_106])).
+cnf(c_0_172, plain, (k3_xcmplx_0(k32_sin_cos,X1)=k3_xcmplx_0(X1,k32_sin_cos)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_154, c_0_155])).
+cnf(c_0_173, plain, (v1_xcmplx_0(X1)|~v7_ordinal1(X1)), inference(split_conjunct,[status(thm)],[c_0_156])).
+cnf(c_0_174, plain, (v7_ordinal1(np__2)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_157, c_0_158]), c_0_159])])).
+fof(c_0_175, plain, ![X17, X18]:(~v2_membered(X17)|(~m1_subset_1(X18,X17)|v1_xxreal_0(X18))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc13_membered])])])).
+cnf(c_0_176, plain, (m1_subset_1(k1_real_1(X1),k1_numbers)|~m1_subset_1(X1,k1_numbers)), inference(split_conjunct,[status(thm)],[c_0_160])).
+cnf(c_0_177, plain, (k1_real_1(X1)=k4_xcmplx_0(X1)|~m1_subset_1(X1,k1_numbers)), inference(split_conjunct,[status(thm)],[c_0_161])).
+cnf(c_0_178, plain, (r1_xxreal_0(k8_real_1(k7_xcmplx_0(np__3,np__2),k32_sin_cos),X1)|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k8_real_1(k7_xcmplx_0(np__3,np__2),k32_sin_cos))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_162, c_0_93])).
+cnf(c_0_179, negated_conjecture, (k3_xcmplx_0(k10_real_1(np__3,np__2),k32_sin_cos)!=esk1_0|~m1_subset_1(k10_real_1(np__3,np__2),k1_numbers)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_163, c_0_65]), c_0_164])])).
+cnf(c_0_180, plain, (k3_xcmplx_0(X1,X2)=k3_xcmplx_0(X2,X1)|~m1_subset_1(X1,k1_numbers)|~v1_xreal_0(X2)), inference(spm,[status(thm)],[c_0_154, c_0_165])).
+cnf(c_0_181, plain, (m1_subset_1(k3_xcmplx_0(X1,X2),k1_numbers)|~v1_xreal_0(X2)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_87, c_0_77])).
+cnf(c_0_182, plain, (k3_xcmplx_0(k7_xcmplx_0(np__3,np__2),X1)=k3_xcmplx_0(X1,k7_xcmplx_0(np__3,np__2))|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_154, c_0_166])).
+cnf(c_0_183, negated_conjecture, (r1_xxreal_0(esk1_0,k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))|~v1_xxreal_0(k8_real_1(np__2,k32_sin_cos))|~v1_xreal_0(k8_real_1(k10_real_1(np__3,np__2),k32_sin_cos))|~v1_xreal_0(k10_real_1(np__3,np__2))), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_167, c_0_168]), c_0_169]), c_0_170]), c_0_115]), c_0_120])]), c_0_163]), c_0_171])).
+cnf(c_0_184, plain, (k8_real_1(X1,X2)=k3_xcmplx_0(X2,X1)|~m1_subset_1(X2,k1_numbers)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_65, c_0_132])).
+cnf(c_0_185, plain, (v1_xreal_0(k3_xcmplx_0(k32_sin_cos,X1))|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_77, c_0_172]), c_0_164])])).
+cnf(c_0_186, plain, (v1_xcmplx_0(np__2)), inference(spm,[status(thm)],[c_0_173, c_0_174])).
+fof(c_0_187, plain, ![X333, X334]:(~v1_xboole_0(X333)|X333=X334|~v1_xboole_0(X334)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t8_boole])])).
+cnf(c_0_188, plain, (v1_xxreal_0(X2)|~v2_membered(X1)|~m1_subset_1(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_175])).
+cnf(c_0_189, plain, (m1_subset_1(k4_xcmplx_0(X1),k1_numbers)|~m1_subset_1(X1,k1_numbers)), inference(spm,[status(thm)],[c_0_176, c_0_177])).
+fof(c_0_190, plain, ![X105]:(~v3_membered(X105)|v2_membered(X105)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc4_membered])])).
+fof(c_0_191, plain, ![X228]:(~m1_subset_1(X228,k1_numbers)|k1_real_1(k1_real_1(X228))=X228), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[involutiveness_k1_real_1])])).
+cnf(c_0_192, plain, (X1=k8_real_1(k7_xcmplx_0(np__3,np__2),k32_sin_cos)|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(X1,k8_real_1(k7_xcmplx_0(np__3,np__2),k32_sin_cos))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k8_real_1(k7_xcmplx_0(np__3,np__2),k32_sin_cos))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_148, c_0_178]), c_0_93]), c_0_93])).
+cnf(c_0_193, negated_conjecture, (k3_xcmplx_0(k32_sin_cos,k10_real_1(np__3,np__2))!=esk1_0|~m1_subset_1(k10_real_1(np__3,np__2),k1_numbers)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_179, c_0_180]), c_0_164])])).
+cnf(c_0_194, plain, (m1_subset_1(k3_xcmplx_0(k7_xcmplx_0(np__3,np__2),X1),k1_numbers)|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_181, c_0_182]), c_0_127])])).
+cnf(c_0_195, negated_conjecture, (r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k10_real_1(np__3,np__2)))|~v1_xxreal_0(k8_real_1(np__2,k32_sin_cos))|~v1_xreal_0(k10_real_1(np__3,np__2))), inference(csr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_183, c_0_184]), c_0_120])]), c_0_185])).
+cnf(c_0_196, plain, (k3_xcmplx_0(np__2,X1)=k3_xcmplx_0(X1,np__2)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_154, c_0_186])).
+fof(c_0_197, plain, ![X116]:(((~v1_xboole_0(X116)|(~v1_xxreal_0(X116)|~v3_xxreal_0(X116)))&(v1_xxreal_0(X116)|(~v1_xxreal_0(X116)|~v3_xxreal_0(X116))))&(~v2_xxreal_0(X116)|(~v1_xxreal_0(X116)|~v3_xxreal_0(X116)))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[cc5_xxreal_0])])])])).
+fof(c_0_198, plain, (((v1_xboole_0(esk26_0)&v1_xcmplx_0(esk26_0))&v1_xxreal_0(esk26_0))&v1_xreal_0(esk26_0)), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[rc4_xreal_0])])).
+cnf(c_0_199, plain, (X1=X2|~v1_xboole_0(X1)|~v1_xboole_0(X2)), inference(split_conjunct,[status(thm)],[c_0_187])).
+cnf(c_0_200, plain, (r1_xxreal_0(k8_real_1(k32_sin_cos,k10_real_1(np__3,np__2)),X1)|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~v1_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k8_real_1(k32_sin_cos,k10_real_1(np__3,np__2)))|~v1_xreal_0(k10_real_1(np__3,np__2))|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_141, c_0_132]), c_0_120])])).
+cnf(c_0_201, plain, (v1_xxreal_0(k4_xcmplx_0(X1))|~v2_membered(k1_numbers)|~m1_subset_1(X1,k1_numbers)), inference(spm,[status(thm)],[c_0_188, c_0_189])).
+cnf(c_0_202, plain, (v2_membered(X1)|~v3_membered(X1)), inference(split_conjunct,[status(thm)],[c_0_190])).
+cnf(c_0_203, plain, (k1_real_1(k1_real_1(X1))=X1|~m1_subset_1(X1,k1_numbers)), inference(split_conjunct,[status(thm)],[c_0_191])).
+cnf(c_0_204, plain, (X1=k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2))|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(X1,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_192, c_0_184]), c_0_120]), c_0_127])])).
+cnf(c_0_205, negated_conjecture, (k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2))!=esk1_0), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_193, c_0_142]), c_0_70]), c_0_102])]), c_0_112])])).
+cnf(c_0_206, plain, (m1_subset_1(k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)),k1_numbers)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_194, c_0_172]), c_0_164]), c_0_127])])).
+cnf(c_0_207, negated_conjecture, (r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xxreal_0(k8_real_1(np__2,k32_sin_cos))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_195, c_0_142]), c_0_127]), c_0_70]), c_0_102])])).
+cnf(c_0_208, plain, (v1_xreal_0(k3_xcmplx_0(X1,np__2))|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_77, c_0_196]), c_0_102])])).
+cnf(c_0_209, plain, (~v1_xboole_0(X1)|~v1_xxreal_0(X1)|~v3_xxreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_197])).
+cnf(c_0_210, plain, (v1_xxreal_0(esk26_0)), inference(split_conjunct,[status(thm)],[c_0_198])).
+cnf(c_0_211, plain, (v1_xboole_0(esk26_0)), inference(split_conjunct,[status(thm)],[c_0_198])).
+cnf(c_0_212, plain, (X1=np__0|~v1_xboole_0(X1)), inference(spm,[status(thm)],[c_0_199, c_0_84])).
+cnf(c_0_213, plain, (X1=k8_real_1(k32_sin_cos,k10_real_1(np__3,np__2))|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~v1_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(X1,k8_real_1(k32_sin_cos,k10_real_1(np__3,np__2)))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k8_real_1(k32_sin_cos,k10_real_1(np__3,np__2)))|~v1_xreal_0(k10_real_1(np__3,np__2))|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_148, c_0_200]), c_0_93]), c_0_93])).
+cnf(c_0_214, plain, (v1_xxreal_0(k4_xcmplx_0(X1))|~m1_subset_1(X1,k1_numbers)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_201, c_0_202]), c_0_71])])).
+cnf(c_0_215, plain, (k4_xcmplx_0(k1_real_1(X1))=X1|~m1_subset_1(X1,k1_numbers)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_177, c_0_203]), c_0_176])).
+cnf(c_0_216, negated_conjecture, (r1_xxreal_0(esk1_0,k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xreal_0(k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_204, c_0_169]), c_0_170]), c_0_115])]), c_0_205])).
+cnf(c_0_217, plain, (v1_xreal_0(k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_206]), c_0_71])])).
+cnf(c_0_218, negated_conjecture, (r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xreal_0(k8_real_1(np__2,k32_sin_cos))), inference(spm,[status(thm)],[c_0_207, c_0_93])).
+cnf(c_0_219, plain, (v1_xreal_0(k3_xcmplx_0(np__2,k32_sin_cos))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_208, c_0_172]), c_0_164]), c_0_102])])).
+fof(c_0_220, plain, ![X302, X303]:(~v1_xreal_0(X302)|(~v1_xreal_0(X303)|(~r1_xxreal_0(X302,X303)|~v3_xxreal_0(X303)|v3_xxreal_0(X302)))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t2_real])])])).
+cnf(c_0_221, negated_conjecture, (r1_xxreal_0(k6_numbers,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_106])).
+cnf(c_0_222, plain, (m1_subset_1(np__0,k1_numbers)), inference(split_conjunct,[status(thm)],[spc0_numerals])).
+cnf(c_0_223, plain, (~v3_xxreal_0(esk26_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_209, c_0_210]), c_0_211])])).
+cnf(c_0_224, plain, (esk26_0=np__0), inference(spm,[status(thm)],[c_0_212, c_0_211])).
+fof(c_0_225, plain, ![X331, X332]:(~v1_xreal_0(X331)|(~v1_xreal_0(X332)|(r1_xxreal_0(X331,X332)|v2_xxreal_0(X331)|v3_xxreal_0(X332)))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t7_real])])])])).
+fof(c_0_226, plain, ![X292]:(~v1_xreal_0(X292)|(~r2_hidden(X292,k2_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos,np__2)),k10_real_1(k32_sin_cos,np__2)))|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X292),k6_numbers))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t11_comptrig])])).
+cnf(c_0_227, plain, (X1=k8_real_1(k32_sin_cos,k7_xcmplx_0(np__3,np__2))|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~v1_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(X1,k8_real_1(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k8_real_1(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_213, c_0_142]), c_0_127]), c_0_70]), c_0_102])])).
+cnf(c_0_228, plain, (v1_xxreal_0(X1)|~m1_subset_1(X1,k1_numbers)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_214, c_0_215]), c_0_176])).
+cnf(c_0_229, negated_conjecture, (r1_xxreal_0(esk1_0,k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_216, c_0_217])])).
+cnf(c_0_230, negated_conjecture, (r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_218, c_0_65]), c_0_219]), c_0_90]), c_0_164])])).
+cnf(c_0_231, plain, (v3_xxreal_0(X1)|~v1_xreal_0(X1)|~v1_xreal_0(X2)|~r1_xxreal_0(X1,X2)|~v3_xxreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_220])).
+cnf(c_0_232, negated_conjecture, (r1_xxreal_0(np__0,esk1_0)), inference(rw,[status(thm)],[c_0_221, c_0_96])).
+cnf(c_0_233, plain, (v1_xreal_0(np__0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_222]), c_0_71])])).
+cnf(c_0_234, plain, (~v3_xxreal_0(np__0)), inference(rw,[status(thm)],[c_0_223, c_0_224])).
+fof(c_0_235, plain, ![X161]:((v1_xcmplx_0(k4_xcmplx_0(X161))|(v3_xxreal_0(X161)|~v1_xreal_0(X161)))&(~v2_xxreal_0(k4_xcmplx_0(X161))|(v3_xxreal_0(X161)|~v1_xreal_0(X161)))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[fc16_xreal_0])])])])).
+cnf(c_0_236, plain, (r1_xxreal_0(X1,X2)|v2_xxreal_0(X1)|v3_xxreal_0(X2)|~v1_xreal_0(X1)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_225])).
+cnf(c_0_237, plain, (~v1_xreal_0(X1)|~r2_hidden(X1,k2_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos,np__2)),k10_real_1(k32_sin_cos,np__2)))|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),k6_numbers)), inference(split_conjunct,[status(thm)],[c_0_226])).
+cnf(c_0_238, plain, (X1=k8_real_1(k32_sin_cos,k7_xcmplx_0(np__3,np__2))|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)|~r1_xxreal_0(X1,k8_real_1(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k8_real_1(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_227, c_0_228])).
+cnf(c_0_239, negated_conjecture, (m1_subset_1(esk1_0,k1_numbers)), inference(spm,[status(thm)],[c_0_87, c_0_115])).
+cnf(c_0_240, negated_conjecture, (r1_xxreal_0(esk1_0,k10_real_1(k32_sin_cos,np__2))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_229, c_0_230])])).
+cnf(c_0_241, negated_conjecture, (~v3_xxreal_0(esk1_0)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_231, c_0_232]), c_0_115]), c_0_233])]), c_0_234])).
+cnf(c_0_242, plain, (v3_xxreal_0(X1)|~v2_xxreal_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_235])).
+cnf(c_0_243, negated_conjecture, (v2_xxreal_0(X1)|v3_xxreal_0(esk1_0)|r1_xxreal_0(X1,esk1_0)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_236, c_0_115])).
+cnf(c_0_244, plain, (~r2_hidden(X1,k2_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos,np__2)),k10_real_1(k32_sin_cos,np__2)))|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),np__0)|~v1_xreal_0(X1)), inference(rw,[status(thm)],[c_0_237, c_0_96])).
+cnf(c_0_245, plain, (X1=k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2))|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)|~r1_xxreal_0(X1,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_238, c_0_65]), c_0_120]), c_0_127])])).
+cnf(c_0_246, negated_conjecture, (v1_xcmplx_0(esk1_0)|~v1_membered(k1_numbers)), inference(spm,[status(thm)],[c_0_119, c_0_239])).
+cnf(c_0_247, negated_conjecture, (~v3_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_231, c_0_240]), c_0_115])]), c_0_241])).
+cnf(c_0_248, negated_conjecture, (v3_xxreal_0(X1)|r1_xxreal_0(k4_xcmplx_0(X1),esk1_0)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(sr,[status(thm)],[inference(spm,[status(thm)],[c_0_242, c_0_243]), c_0_241]), c_0_110])).
+cnf(c_0_249, negated_conjecture, (v1_xxreal_0(esk1_0)|~v2_membered(k1_numbers)), inference(spm,[status(thm)],[c_0_188, c_0_239])).
+cnf(c_0_250, plain, (r1_xxreal_0(X1,k1_real_1(k10_real_1(k32_sin_cos,np__2)))|r1_xxreal_0(k10_real_1(k32_sin_cos,np__2),X1)|~v1_xxreal_0(k1_real_1(k10_real_1(k32_sin_cos,np__2)))|~v1_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),np__0)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_244, c_0_109]), c_0_93])).
+cnf(c_0_251, plain, (X1=k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2))|r1_xxreal_0(X1,k10_real_1(k32_sin_cos,np__2))|~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)|~r1_xxreal_0(X1,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~r1_xxreal_0(np__0,k1_seq_1(k19_sin_cos,X1))|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_245, c_0_217])])).
+cnf(c_0_252, negated_conjecture, (v1_xcmplx_0(esk1_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_246, c_0_137]), c_0_71])])).
+cnf(c_0_253, negated_conjecture, (r1_xxreal_0(k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2)),esk1_0)|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(spm,[status(thm)],[c_0_247, c_0_248])).
+cnf(c_0_254, negated_conjecture, (v1_xxreal_0(esk1_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_249, c_0_202]), c_0_71])])).
+cnf(c_0_255, plain, (r1_xxreal_0(X1,k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2)))|r1_xxreal_0(k10_real_1(k32_sin_cos,np__2),X1)|~v1_xxreal_0(k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2)))|~v1_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),np__0)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_250, c_0_177])).
+cnf(c_0_256, plain, (v1_xreal_0(k4_xcmplx_0(X1))|~m1_subset_1(X1,k1_numbers)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_189]), c_0_71])])).
+cnf(c_0_257, negated_conjecture, (r1_xxreal_0(esk1_0,k10_real_1(k32_sin_cos,np__2))|~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)|~r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_251, c_0_169]), c_0_170]), c_0_115])]), c_0_205])).
+cnf(c_0_258, negated_conjecture, (esk1_0!=k10_real_1(k32_sin_cos,np__2)), inference(split_conjunct,[status(thm)],[c_0_106])).
+cnf(c_0_259, negated_conjecture, (k3_xcmplx_0(esk1_0,X1)=k3_xcmplx_0(X1,esk1_0)|~v1_xreal_0(X1)), inference(spm,[status(thm)],[c_0_154, c_0_252])).
+fof(c_0_260, plain, ![X284]:(~v1_xcmplx_0(X284)|k3_xcmplx_0(X284,k4_xcmplx_0(np__1))=k4_xcmplx_0(X284)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[spc2_arithm])])).
+fof(c_0_261, plain, ![X229]:(~v1_xcmplx_0(X229)|k4_xcmplx_0(k4_xcmplx_0(X229))=X229), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[involutiveness_k4_xcmplx_0])])).
+cnf(c_0_262, negated_conjecture, (k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2))=esk1_0|~v1_xxreal_0(k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2)))|~r1_xxreal_0(esk1_0,k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2)))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_148, c_0_253]), c_0_254])])).
+cnf(c_0_263, plain, (r1_xxreal_0(X1,k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2)))|r1_xxreal_0(k10_real_1(k32_sin_cos,np__2),X1)|~v1_xxreal_0(k10_real_1(k32_sin_cos,np__2))|~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),np__0)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_255, c_0_93]), c_0_256])).
+cnf(c_0_264, negated_conjecture, (~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)|~r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~r1_xxreal_0(k10_real_1(k32_sin_cos,np__2),esk1_0)), inference(csr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_148, c_0_257]), c_0_254])]), c_0_258]), c_0_228])).
+cnf(c_0_265, negated_conjecture, (v1_xreal_0(k3_xcmplx_0(esk1_0,X1))|~v1_xreal_0(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_77, c_0_259]), c_0_115])])).
+cnf(c_0_266, plain, (k3_xcmplx_0(X1,k4_xcmplx_0(np__1))=k4_xcmplx_0(X1)|~v1_xcmplx_0(X1)), inference(split_conjunct,[status(thm)],[c_0_260])).
+cnf(c_0_267, plain, (k4_xcmplx_0(k4_xcmplx_0(X1))=X1|~v1_xcmplx_0(X1)), inference(split_conjunct,[status(thm)],[c_0_261])).
+cnf(c_0_268, negated_conjecture, (k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2))=esk1_0|~r1_xxreal_0(esk1_0,k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2)))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_262, c_0_93]), c_0_110])).
+cnf(c_0_269, plain, (r1_xxreal_0(X1,k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2)))|r1_xxreal_0(k10_real_1(k32_sin_cos,np__2),X1)|~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)|~r1_xxreal_0(k1_seq_1(k19_sin_cos,X1),np__0)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_263, c_0_93]), c_0_131])).
+cnf(c_0_270, negated_conjecture, (~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)|~r1_xxreal_0(k10_real_1(k32_sin_cos,np__2),esk1_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_264, c_0_230])])).
+cnf(c_0_271, negated_conjecture, (v1_xreal_0(k4_xcmplx_0(esk1_0))|~v1_xreal_0(k4_xcmplx_0(np__1))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_265, c_0_266]), c_0_252])])).
+cnf(c_0_272, negated_conjecture, (~v1_xxreal_0(esk1_0)|~r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~r1_xxreal_0(k10_real_1(k32_sin_cos,np__2),esk1_0)|~v1_xreal_0(k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(csr,[status(thm)],[inference(sr,[status(thm)],[inference(spm,[status(thm)],[c_0_148, c_0_216]), c_0_258]), c_0_93])).
+cnf(c_0_273, plain, (k4_xcmplx_0(k4_xcmplx_0(X1))=X1|~m1_subset_1(X1,k1_numbers)), inference(spm,[status(thm)],[c_0_267, c_0_165])).
+cnf(c_0_274, negated_conjecture, (k4_xcmplx_0(k10_real_1(k32_sin_cos,np__2))=esk1_0|~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_268, c_0_269]), c_0_169]), c_0_170]), c_0_115])]), c_0_131]), c_0_270])).
+fof(c_0_275, plain, ![X141, X142]:(~m1_subset_1(X141,k1_numbers)|~v1_xreal_0(X142)|m1_subset_1(k10_real_1(X141,X142),k1_numbers)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k10_real_1])])).
+cnf(c_0_276, negated_conjecture, (m1_subset_1(k4_xcmplx_0(esk1_0),k1_numbers)|~v1_xreal_0(k4_xcmplx_0(np__1))), inference(spm,[status(thm)],[c_0_87, c_0_271])).
+cnf(c_0_277, negated_conjecture, (~r1_xxreal_0(esk1_0,k3_xcmplx_0(k32_sin_cos,k7_xcmplx_0(np__3,np__2)))|~r1_xxreal_0(k10_real_1(k32_sin_cos,np__2),esk1_0)|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_272, c_0_254])]), c_0_217])])).
+cnf(c_0_278, negated_conjecture, (k10_real_1(k32_sin_cos,np__2)=k4_xcmplx_0(esk1_0)|~m1_subset_1(k10_real_1(k32_sin_cos,np__2),k1_numbers)), inference(spm,[status(thm)],[c_0_273, c_0_274])).
+cnf(c_0_279, plain, (m1_subset_1(k10_real_1(X1,X2),k1_numbers)|~m1_subset_1(X1,k1_numbers)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_275])).
+cnf(c_0_280, negated_conjecture, (m1_subset_1(k4_xcmplx_0(esk1_0),k1_numbers)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_276, c_0_110]), c_0_103])])).
+cnf(c_0_281, negated_conjecture, (~r1_xxreal_0(k10_real_1(k32_sin_cos,np__2),esk1_0)|~v1_xreal_0(k10_real_1(k32_sin_cos,np__2))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_277, c_0_230])])).
+cnf(c_0_282, negated_conjecture, (k10_real_1(k32_sin_cos,np__2)=k4_xcmplx_0(esk1_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_278, c_0_279]), c_0_120]), c_0_102])])).
+cnf(c_0_283, negated_conjecture, (r1_xxreal_0(k4_xcmplx_0(esk1_0),esk1_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_241, c_0_248]), c_0_115])])).
+cnf(c_0_284, negated_conjecture, (v1_xreal_0(k4_xcmplx_0(esk1_0))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_280]), c_0_71])])).
+cnf(c_0_285, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_281, c_0_282]), c_0_283]), c_0_282]), c_0_284])]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 286
+# Proof object clause steps            : 185
+# Proof object formula steps           : 101
+# Proof object conjectures             : 55
+# Proof object clause conjectures      : 52
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 66
+# Proof object initial formulas used   : 58
+# Proof object generating inferences   : 101
+# Proof object simplifying inferences  : 179
+# Training examples: 0 positive, 0 negative
+# Parsed axioms                        : 372
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 517
+# Removed in clause preprocessing      : 60
+# Initial clauses in saturation        : 457
+# Processed clauses                    : 4849
+# ...of these trivial                  : 311
+# ...subsumed                          : 2014
+# ...remaining for further processing  : 2524
+# Other redundant clauses eliminated   : 0
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 92
+# Backward-rewritten                   : 289
+# Generated clauses                    : 31905
+# ...of the previous two non-trivial   : 26657
+# Contextual simplify-reflections      : 182
+# Paramodulations                      : 31904
+# Factorizations                       : 0
+# Equation resolutions                 : 0
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 2142
+#    Positive orientable unit clauses  : 444
+#    Positive unorientable unit clauses: 0
+#    Negative unit clauses             : 108
+#    Non-unit-clauses                  : 1590
+# Current number of unprocessed clauses: 21797
+# ...number of literals in the above   : 83607
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 382
+# Clause-clause subsumption calls (NU) : 721076
+# Rec. Clause-clause subsumption calls : 311865
+# Non-unit clause-clause subsumptions  : 1923
+# Unit Clause-clause subsumption calls : 22608
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 132
+# BW rewrite match successes           : 78
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 561091
+
+# -------------------------------------------------
+# User time                : 22.328 s
+# System time              : 0.988 s
+# Total time               : 23.316 s
+# Maximum resident set size: 322188 pages
+22.32user 1.03system 0:24.95elapsed 93%CPU (0avgtext+0avgdata 322188maxresident)k
+0inputs+128outputs (0major+383474minor)pagefaults 0swaps

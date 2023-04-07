@@ -1,20 +1,24 @@
-import re
+import re, yaml
 from urllib.request import urlopen
 from urllib.error import URLError
 from . import tptp, label
 
-VARSORTS = {
-   "v7_ordinal1": "N",  # "natural"
-   "v1_xreal_0":  "R",  # "real"
-   "v1_xxreal_0": "E",  # "ext-real"
-   "v1_card_1": "κ",    # cardinal
-}
+#VARSORTS = {
+#   "v7_ordinal1": "N",  # "natural"
+#   "v1_xreal_0":  "R",  # "real"
+#   "v1_xxreal_0": "E",  # "ext-real"
+#   "v1_card_1": "κ",    # cardinal
+#}
 
-HIDDEN = [
-   "v7_ordinal1",
-   "v1_xreal_0",
-   "v1_xxreal_0",
-]
+VARSORTS = {k:v["variable"] for (k,v) in yaml.safe_load(open("metavars.yml")).items()}
+
+#HIDDEN = [
+#   "v7_ordinal1",
+#   "v1_xreal_0",
+#   "v1_xxreal_0",
+#]
+
+HIDDEN = VARSORTS.keys()
 
 NOPARENS = [
    "k1_funct_2",
@@ -51,7 +55,7 @@ def link(tok):
          return HREF % (name, ref)
    return None
 
-def trans(f_trans="00constrnames-utf8"):
+def trans(f_trans="00vizar"):
    lines = open(f_trans).read().strip().split("\n")
    lines = [x.split(" ") for x in lines]
    trans = {}
@@ -173,7 +177,7 @@ def update_stats(syms, stats, miztrans=None):
 
 def set_labels(info):
    stats = {}
-   miztrans = trans("00constrnames")
+   miztrans = trans("00mizar")
    for (name, fml) in info["fmls"].items():
       if fml["lang"] == "cnf":
          lits = tptp.clause_parse(fml["fml"])

@@ -1,0 +1,191 @@
+conjecture: '    killed(agatha,agatha) )'
+final: c_0_47
+steps:
+  c_0_17:
+    '=': 3
+    agatha: 1
+    butler: 1
+    charles: 1
+    lives: 1
+  c_0_18:
+    esk1_0: 1
+    lives: 1
+  c_0_23:
+    agatha: 1
+    charles: 1
+    hates: 2
+  c_0_24:
+    '=': 1
+    agatha: 1
+    butler: 1
+    hates: 1
+  c_0_26:
+    agatha: 2
+    killed: 1
+  c_0_27:
+    '=': 3
+    agatha: 1
+    butler: 1
+    charles: 1
+    esk1_0: 3
+  c_0_28:
+    agatha: 1
+    esk1_0: 1
+    killed: 1
+  c_0_32:
+    agatha: 1
+    butler: 1
+    hates: 2
+  c_0_33:
+    '=': 1
+    butler: 1
+    charles: 1
+    hates: 1
+  c_0_34:
+    hates: 1
+    killed: 1
+  c_0_35:
+    '=': 2
+    butler: 1
+    charles: 1
+    esk1_0: 2
+  c_0_36:
+    killed: 1
+    richer: 1
+  c_0_37:
+    agatha: 1
+    butler: 1
+    hates: 1
+    richer: 1
+  c_0_38:
+    esk2_1: 1
+    hates: 1
+  c_0_39:
+    '=': 1
+    butler: 2
+    hates: 1
+  c_0_40:
+    '=': 1
+    butler: 1
+    charles: 1
+    killed: 1
+  c_0_41:
+    '=': 1
+    agatha: 1
+    butler: 1
+    charles: 1
+    esk1_0: 1
+    killed: 1
+  c_0_42:
+    '=': 1
+    agatha: 1
+    butler: 1
+  c_0_43:
+    agatha: 1
+    butler: 1
+    hates: 1
+    killed: 1
+  c_0_44:
+    '=': 1
+    butler: 2
+    esk2_1: 1
+  c_0_45:
+    '=': 1
+    butler: 1
+    esk1_0: 1
+  c_0_46:
+    agatha: 1
+    butler: 1
+    killed: 1
+  c_0_47:
+    $false: 1
+symbols:
+  $false:
+    arity: 0
+    count: 1
+    mizar: $false
+    neg: 0
+    pos: 1
+    url: null
+    vizar: $false
+  '=':
+    arity: 2
+    count: 16
+    mizar: '='
+    neg: 1
+    pos: 15
+    url: null
+    vizar: x = y
+  agatha:
+    arity: 0
+    count: 13
+    mizar: agatha
+    neg: 7
+    pos: 6
+    url: null
+    vizar: agatha
+  butler:
+    arity: 0
+    count: 17
+    mizar: butler
+    neg: 2
+    pos: 15
+    url: null
+    vizar: butler
+  charles:
+    arity: 0
+    count: 7
+    mizar: charles
+    neg: 3
+    pos: 4
+    url: null
+    vizar: charles
+  esk1_0:
+    arity: 0
+    count: 9
+    mizar: "skolem\u2081"
+    neg: 0
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/0.html#ESK1
+    vizar: "skolem\u2081"
+  esk2_1:
+    arity: 1
+    count: 2
+    mizar: "skolem\u2082"
+    neg: 1
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/1.html#ESK2
+    vizar: "skolem\u2082(x)"
+  hates:
+    arity: 2
+    count: 11
+    mizar: hates
+    neg: 5
+    pos: 6
+    url: null
+    vizar: hates(x,y)
+  killed:
+    arity: 2
+    count: 8
+    mizar: killed
+    neg: 6
+    pos: 2
+    url: null
+    vizar: killed(x,y)
+  lives:
+    arity: 1
+    count: 2
+    mizar: lives
+    neg: 1
+    pos: 1
+    url: null
+    vizar: lives(x)
+  richer:
+    arity: 2
+    count: 2
+    mizar: richer
+    neg: 1
+    pos: 1
+    url: null
+    vizar: richer(x,y)
+

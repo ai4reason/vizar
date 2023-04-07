@@ -1,0 +1,285 @@
+2020-05-05 15:19:40.124352: I tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: models_8/premsel_enigma_01_2020_T10_loop01_epoch_45
+2020-05-05 15:19:40.193933: I tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2020-05-05 15:19:40.319150: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2020-05-05 15:19:40.755603: I tensorflow/cc/saved_model/loader.cc:202] Restoring SavedModel bundle.
+2020-05-05 15:19:42.324526: I tensorflow/cc/saved_model/loader.cc:311] SavedModel load for tags { serve }; Status: success. Took 2199819 microseconds.
+# ENIGMA: TensorFlow C library version 1.15.0
+# ENIGMA: TensorFlow: model 'models_8/premsel_enigma_01_2020_T10_loop01_epoch_45' loaded (query=128; context=768; weigths=real; len_mult=0.000000).
+# Preprocessing time       : 2.784 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(fc7_card_1, axiom, ~(v1_finset_1(k4_ordinal1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', fc7_card_1)).
+fof(t8_newton, axiom, ![X1]:(v7_ordinal1(X1)=>![X2]:(v7_ordinal1(X2)=>![X3]:(v1_xcmplx_0(X3)=>k1_newton(X3,k2_xcmplx_0(X1,X2))=k3_xcmplx_0(k1_newton(X3,X1),k1_newton(X3,X2))))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', t8_newton)).
+fof(d17_group_10, axiom, ![X1]:(v7_ordinal1(X1)=>![X2]:((((~(v2_struct_0(X2))&v2_group_1(X2))&v3_group_1(X2))&l3_algstr_0(X2))=>(v2_group_10(X2,X1)<=>?[X3]:(v7_ordinal1(X3)&k7_struct_0(X2)=k1_newton(X1,X3))))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', d17_group_10)).
+fof(cc2_finset_1, axiom, ![X1]:(v1_finset_1(X1)=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(X1))=>v1_finset_1(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc2_finset_1)).
+fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1, file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', redefinition_k5_numbers)).
+fof(cc6_card_1, axiom, ![X1]:((v3_ordinal1(X1)&v1_finset_1(X1))=>v7_ordinal1(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc6_card_1)).
+fof(cc1_card_1, axiom, ![X1]:(v1_card_1(X1)=>v3_ordinal1(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc1_card_1)).
+fof(redefinition_m2_subset_1, axiom, ![X1, X2]:(((~(v1_xboole_0(X1))&~(v1_xboole_0(X2)))&m1_subset_1(X2,k1_zfmisc_1(X1)))=>![X3]:(m2_subset_1(X3,X1,X2)<=>m1_subset_1(X3,X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', redefinition_m2_subset_1)).
+fof(dt_k24_binop_2, axiom, ![X1, X2]:((v7_ordinal1(X1)&v7_ordinal1(X2))=>m2_subset_1(k24_binop_2(X1,X2),k1_numbers,k5_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', dt_k24_binop_2)).
+fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', dt_k5_numbers)).
+fof(cc5_card_1, axiom, ![X1]:(v7_ordinal1(X1)=>v1_finset_1(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc5_card_1)).
+fof(cc2_card_1, axiom, ![X1]:(v1_xboole_0(X1)=>v1_card_1(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc2_card_1)).
+fof(cc1_finset_1, axiom, ![X1]:(v1_xboole_0(X1)=>v1_finset_1(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc1_finset_1)).
+fof(free_g3_algstr_0, axiom, ![X1, X2]:(((v1_funct_1(X2)&v1_funct_2(X2,k2_zfmisc_1(X1,X1),X1))&m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X1),X1))))=>![X3, X4]:(g3_algstr_0(X1,X2)=g3_algstr_0(X3,X4)=>(X1=X3&X2=X4))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', free_g3_algstr_0)).
+fof(dt_k4_group_6, axiom, ![X1, X2]:((((((~(v2_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))&v1_group_3(X2,X1))&m1_group_2(X2,X1))=>((v1_funct_1(k4_group_6(X1,X2))&v1_funct_2(k4_group_6(X1,X2),k2_zfmisc_1(k15_group_2(X1,X2),k15_group_2(X1,X2)),k15_group_2(X1,X2)))&m1_subset_1(k4_group_6(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k15_group_2(X1,X2),k15_group_2(X1,X2)),k15_group_2(X1,X2)))))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', dt_k4_group_6)).
+fof(t18_groupp_1, conjecture, ![X1]:((v7_ordinal1(X1)&v1_int_2(X1))=>![X2]:(((((~(v2_struct_0(X2))&v8_struct_0(X2))&v2_group_1(X2))&v3_group_1(X2))&l3_algstr_0(X2))=>![X3]:((v1_group_3(X3,X2)&m1_group_2(X3,X2))=>((v2_group_10(X3,X1)&v2_group_10(k5_group_6(X2,X3),X1))=>v2_group_10(X2,X1))))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', t18_groupp_1)).
+fof(redefinition_k24_binop_2, axiom, ![X1, X2]:((v7_ordinal1(X1)&v7_ordinal1(X2))=>k24_binop_2(X1,X2)=k3_xcmplx_0(X1,X2)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', redefinition_k24_binop_2)).
+fof(cc17_membered, axiom, ![X1]:(v6_membered(X1)=>![X2]:(m1_subset_1(X2,X1)=>v7_ordinal1(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc17_membered)).
+fof(fc6_membered, axiom, v6_membered(k4_ordinal1), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', fc6_membered)).
+fof(d4_group_6, axiom, ![X1]:((((~(v2_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))=>![X2]:((v1_group_3(X2,X1)&m1_group_2(X2,X1))=>k5_group_6(X1,X2)=g3_algstr_0(k15_group_2(X1,X2),k4_group_6(X1,X2)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', d4_group_6)).
+fof(fc1_nat_1, axiom, ![X1, X2]:((v7_ordinal1(X1)&v7_ordinal1(X2))=>v7_ordinal1(k2_xcmplx_0(X1,X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', fc1_nat_1)).
+fof(t147_group_2, axiom, ![X1]:(((((~(v2_struct_0(X1))&v8_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))=>![X2]:(m1_group_2(X2,X1)=>k7_group_1(X1)=k4_nat_1(k7_group_1(X2),k18_group_2(X1,X2)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', t147_group_2)).
+fof(redefinition_k7_group_1, axiom, ![X1]:((v8_struct_0(X1)&l1_struct_0(X1))=>k7_group_1(X1)=k7_struct_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', redefinition_k7_group_1)).
+fof(cc3_group_2, axiom, ![X1]:(((((~(v2_struct_0(X1))&v8_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))=>![X2]:(m1_group_2(X2,X1)=>v8_struct_0(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc3_group_2)).
+fof(dt_k18_group_2, axiom, ![X1, X2]:(((((~(v2_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))&m1_group_2(X2,X1))=>m1_subset_1(k18_group_2(X1,X2),k5_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', dt_k18_group_2)).
+fof(fc4_newton, axiom, ![X1, X2]:((v7_ordinal1(X1)&v7_ordinal1(X2))=>v7_ordinal1(k1_newton(X1,X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', fc4_newton)).
+fof(dt_m1_group_2, axiom, ![X1]:(((~(v2_struct_0(X1))&v2_group_1(X1))&l3_algstr_0(X1))=>![X2]:(m1_group_2(X2,X1)=>((~(v2_struct_0(X2))&v2_group_1(X2))&l3_algstr_0(X2)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', dt_m1_group_2)).
+fof(t3_arithm, axiom, ![X1]:(v1_xcmplx_0(X1)=>k3_xcmplx_0(np__1,X1)=X1), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', t3_arithm)).
+fof(spc1_numerals, axiom, (((v2_xxreal_0(np__1)&m2_subset_1(np__1,k1_numbers,k5_numbers))&m1_subset_1(np__1,k5_numbers))&m1_subset_1(np__1,k1_numbers)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', spc1_numerals)).
+fof(abstractness_v15_algstr_0, axiom, ![X1]:(l3_algstr_0(X1)=>(v15_algstr_0(X1)=>X1=g3_algstr_0(u1_struct_0(X1),u2_algstr_0(X1)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', abstractness_v15_algstr_0)).
+fof(t27_group_6, axiom, ![X1]:((((~(v2_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))=>![X2]:((v1_group_3(X2,X1)&m1_group_2(X2,X1))=>(v1_finset_1(k15_group_2(X1,X2))=>k7_struct_0(k5_group_6(X1,X2))=k18_group_2(X1,X2)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', t27_group_6)).
+fof(fc6_group_6, axiom, ![X1, X2]:((((((~(v2_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))&v1_group_3(X2,X1))&m1_group_2(X2,X1))=>(v2_group_1(k5_group_6(X1,X2))&v3_group_1(k5_group_6(X1,X2)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', fc6_group_6)).
+fof(dt_k5_group_6, axiom, ![X1, X2]:((((((~(v2_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))&v1_group_3(X2,X1))&m1_group_2(X2,X1))=>l3_algstr_0(k5_group_6(X1,X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', dt_k5_group_6)).
+fof(fc5_group_6, axiom, ![X1, X2]:((((((~(v2_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))&v1_group_3(X2,X1))&m1_group_2(X2,X1))=>(~(v2_struct_0(k5_group_6(X1,X2)))&v15_algstr_0(k5_group_6(X1,X2)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', fc5_group_6)).
+fof(redefinition_k4_nat_1, axiom, ![X1, X2]:((m1_subset_1(X1,k5_numbers)&v7_ordinal1(X2))=>k4_nat_1(X1,X2)=k3_xcmplx_0(X1,X2)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', redefinition_k4_nat_1)).
+fof(cc1_group_2, axiom, ![X1]:((((~(v2_struct_0(X1))&v2_group_1(X1))&v3_group_1(X1))&l3_algstr_0(X1))=>![X2]:(m1_group_2(X2,X1)=>v3_group_1(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc1_group_2)).
+fof(cc3_xreal_0, axiom, ![X1]:(v1_xreal_0(X1)=>v1_xcmplx_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc3_xreal_0)).
+fof(cc2_xreal_0, axiom, ![X1]:(v7_ordinal1(X1)=>v1_xreal_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc2_xreal_0)).
+fof(cc19_membered, axiom, ![X1]:(v1_membered(X1)=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(X1))=>v1_membered(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc19_membered)).
+fof(cc5_membered, axiom, ![X1]:(v3_membered(X1)=>v1_membered(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc5_membered)).
+fof(d16_struct_0, axiom, ![X1]:(l1_struct_0(X1)=>k7_struct_0(X1)=k1_card_1(u1_struct_0(X1))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', d16_struct_0)).
+fof(cc12_membered, axiom, ![X1]:(v1_membered(X1)=>![X2]:(m1_subset_1(X2,X1)=>v1_xcmplx_0(X2))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', cc12_membered)).
+fof(fc3_membered, axiom, v3_membered(k1_numbers), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', fc3_membered)).
+fof(fc8_card_1, axiom, ![X1]:(~(v1_finset_1(X1))=>(~(v1_finset_1(k1_card_1(X1)))&v1_card_1(k1_card_1(X1)))), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', fc8_card_1)).
+fof(dt_l3_algstr_0, axiom, ![X1]:(l3_algstr_0(X1)=>l1_struct_0(X1)), file('/home/mptp/big1/bushy_np/problems_small_np/t18_groupp_1', dt_l3_algstr_0)).
+fof(c_0_45, plain, ~v1_finset_1(k4_ordinal1), inference(fof_simplification,[status(thm)],[fc7_card_1])).
+fof(c_0_46, plain, ![X383, X384, X385]:(~v7_ordinal1(X383)|(~v7_ordinal1(X384)|(~v1_xcmplx_0(X385)|k1_newton(X385,k2_xcmplx_0(X383,X384))=k3_xcmplx_0(k1_newton(X385,X383),k1_newton(X385,X384))))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t8_newton])])])).
+fof(c_0_47, plain, ![X145, X146, X148]:(((v7_ordinal1(esk4_2(X145,X146))|~v2_group_10(X146,X145)|(v2_struct_0(X146)|~v2_group_1(X146)|~v3_group_1(X146)|~l3_algstr_0(X146))|~v7_ordinal1(X145))&(k7_struct_0(X146)=k1_newton(X145,esk4_2(X145,X146))|~v2_group_10(X146,X145)|(v2_struct_0(X146)|~v2_group_1(X146)|~v3_group_1(X146)|~l3_algstr_0(X146))|~v7_ordinal1(X145)))&(~v7_ordinal1(X148)|k7_struct_0(X146)!=k1_newton(X145,X148)|v2_group_10(X146,X145)|(v2_struct_0(X146)|~v2_group_1(X146)|~v3_group_1(X146)|~l3_algstr_0(X146))|~v7_ordinal1(X145))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[d17_group_10])])])])])])).
+fof(c_0_48, plain, ![X63, X64]:(~v1_finset_1(X63)|(~m1_subset_1(X64,k1_zfmisc_1(X63))|v1_finset_1(X64))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc2_finset_1])])])).
+cnf(c_0_49, plain, (~v1_finset_1(k4_ordinal1)), inference(split_conjunct,[status(thm)],[c_0_45])).
+cnf(c_0_50, plain, (k5_numbers=k4_ordinal1), inference(split_conjunct,[status(thm)],[redefinition_k5_numbers])).
+fof(c_0_51, plain, ![X113]:(~v3_ordinal1(X113)|~v1_finset_1(X113)|v7_ordinal1(X113)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc6_card_1])])).
+fof(c_0_52, plain, ![X31]:(~v1_card_1(X31)|v3_ordinal1(X31)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc1_card_1])])).
+cnf(c_0_53, plain, (k1_newton(X3,k2_xcmplx_0(X1,X2))=k3_xcmplx_0(k1_newton(X3,X1),k1_newton(X3,X2))|~v7_ordinal1(X1)|~v7_ordinal1(X2)|~v1_xcmplx_0(X3)), inference(split_conjunct,[status(thm)],[c_0_46])).
+cnf(c_0_54, plain, (k7_struct_0(X1)=k1_newton(X2,esk4_2(X2,X1))|v2_struct_0(X1)|~v2_group_10(X1,X2)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v7_ordinal1(X2)), inference(split_conjunct,[status(thm)],[c_0_47])).
+cnf(c_0_55, plain, (v7_ordinal1(esk4_2(X1,X2))|v2_struct_0(X2)|~v2_group_10(X2,X1)|~v2_group_1(X2)|~v3_group_1(X2)|~l3_algstr_0(X2)|~v7_ordinal1(X1)), inference(split_conjunct,[status(thm)],[c_0_47])).
+fof(c_0_56, plain, ![X348, X349, X350]:((~m2_subset_1(X350,X348,X349)|m1_subset_1(X350,X349)|(v1_xboole_0(X348)|v1_xboole_0(X349)|~m1_subset_1(X349,k1_zfmisc_1(X348))))&(~m1_subset_1(X350,X349)|m2_subset_1(X350,X348,X349)|(v1_xboole_0(X348)|v1_xboole_0(X349)|~m1_subset_1(X349,k1_zfmisc_1(X348))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[redefinition_m2_subset_1])])])])])).
+fof(c_0_57, plain, ![X160, X161]:(~v7_ordinal1(X160)|~v7_ordinal1(X161)|m2_subset_1(k24_binop_2(X160,X161),k1_numbers,k5_numbers)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k24_binop_2])])).
+cnf(c_0_58, plain, (v1_finset_1(X2)|~v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))), inference(split_conjunct,[status(thm)],[c_0_48])).
+cnf(c_0_59, plain, (m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers))), inference(split_conjunct,[status(thm)],[dt_k5_numbers])).
+cnf(c_0_60, plain, (~v1_finset_1(k5_numbers)), inference(rw,[status(thm)],[c_0_49, c_0_50])).
+fof(c_0_61, plain, ![X108]:(~v7_ordinal1(X108)|v1_finset_1(X108)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc5_card_1])])).
+cnf(c_0_62, plain, (v7_ordinal1(X1)|~v3_ordinal1(X1)|~v1_finset_1(X1)), inference(split_conjunct,[status(thm)],[c_0_51])).
+cnf(c_0_63, plain, (v3_ordinal1(X1)|~v1_card_1(X1)), inference(split_conjunct,[status(thm)],[c_0_52])).
+fof(c_0_64, plain, ![X62]:(~v1_xboole_0(X62)|v1_card_1(X62)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc2_card_1])])).
+fof(c_0_65, plain, ![X32]:(~v1_xboole_0(X32)|v1_finset_1(X32)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc1_finset_1])])).
+fof(c_0_66, plain, ![X267, X268, X269, X270]:((X267=X269|g3_algstr_0(X267,X268)!=g3_algstr_0(X269,X270)|(~v1_funct_1(X268)|~v1_funct_2(X268,k2_zfmisc_1(X267,X267),X267)|~m1_subset_1(X268,k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X267,X267),X267)))))&(X268=X270|g3_algstr_0(X267,X268)!=g3_algstr_0(X269,X270)|(~v1_funct_1(X268)|~v1_funct_2(X268,k2_zfmisc_1(X267,X267),X267)|~m1_subset_1(X268,k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X267,X267),X267)))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[free_g3_algstr_0])])])])).
+fof(c_0_67, plain, ![X162, X163]:(((v1_funct_1(k4_group_6(X162,X163))|(v2_struct_0(X162)|~v2_group_1(X162)|~v3_group_1(X162)|~l3_algstr_0(X162)|~v1_group_3(X163,X162)|~m1_group_2(X163,X162)))&(v1_funct_2(k4_group_6(X162,X163),k2_zfmisc_1(k15_group_2(X162,X163),k15_group_2(X162,X163)),k15_group_2(X162,X163))|(v2_struct_0(X162)|~v2_group_1(X162)|~v3_group_1(X162)|~l3_algstr_0(X162)|~v1_group_3(X163,X162)|~m1_group_2(X163,X162))))&(m1_subset_1(k4_group_6(X162,X163),k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k15_group_2(X162,X163),k15_group_2(X162,X163)),k15_group_2(X162,X163))))|(v2_struct_0(X162)|~v2_group_1(X162)|~v3_group_1(X162)|~l3_algstr_0(X162)|~v1_group_3(X163,X162)|~m1_group_2(X163,X162)))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[dt_k4_group_6])])])])).
+cnf(c_0_68, plain, (v2_group_10(X2,X3)|v2_struct_0(X2)|~v7_ordinal1(X1)|k7_struct_0(X2)!=k1_newton(X3,X1)|~v2_group_1(X2)|~v3_group_1(X2)|~l3_algstr_0(X2)|~v7_ordinal1(X3)), inference(split_conjunct,[status(thm)],[c_0_47])).
+cnf(c_0_69, plain, (k1_newton(X1,k2_xcmplx_0(esk4_2(X1,X2),X3))=k3_xcmplx_0(k7_struct_0(X2),k1_newton(X1,X3))|v2_struct_0(X2)|~v1_xcmplx_0(X1)|~v2_group_10(X2,X1)|~l3_algstr_0(X2)|~v3_group_1(X2)|~v2_group_1(X2)|~v7_ordinal1(X3)|~v7_ordinal1(X1)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_53, c_0_54]), c_0_55])).
+fof(c_0_70, negated_conjecture, ~(![X1]:((v7_ordinal1(X1)&v1_int_2(X1))=>![X2]:(((((~(v2_struct_0(X2))&v8_struct_0(X2))&v2_group_1(X2))&v3_group_1(X2))&l3_algstr_0(X2))=>![X3]:((v1_group_3(X3,X2)&m1_group_2(X3,X2))=>((v2_group_10(X3,X1)&v2_group_10(k5_group_6(X2,X3),X1))=>v2_group_10(X2,X1)))))), inference(assume_negation,[status(cth)],[t18_groupp_1])).
+cnf(c_0_71, plain, (m1_subset_1(X1,X3)|v1_xboole_0(X2)|v1_xboole_0(X3)|~m2_subset_1(X1,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))), inference(split_conjunct,[status(thm)],[c_0_56])).
+cnf(c_0_72, plain, (m2_subset_1(k24_binop_2(X1,X2),k1_numbers,k5_numbers)|~v7_ordinal1(X1)|~v7_ordinal1(X2)), inference(split_conjunct,[status(thm)],[c_0_57])).
+fof(c_0_73, plain, ![X343, X344]:(~v7_ordinal1(X343)|~v7_ordinal1(X344)|k24_binop_2(X343,X344)=k3_xcmplx_0(X343,X344)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k24_binop_2])])).
+fof(c_0_74, plain, ![X25, X26]:(~v6_membered(X25)|(~m1_subset_1(X26,X25)|v7_ordinal1(X26))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc17_membered])])])).
+cnf(c_0_75, plain, (v6_membered(k4_ordinal1)), inference(split_conjunct,[status(thm)],[fc6_membered])).
+cnf(c_0_76, plain, (~v1_finset_1(k1_numbers)), inference(sr,[status(thm)],[inference(spm,[status(thm)],[c_0_58, c_0_59]), c_0_60])).
+cnf(c_0_77, plain, (v1_finset_1(X1)|~v7_ordinal1(X1)), inference(split_conjunct,[status(thm)],[c_0_61])).
+cnf(c_0_78, plain, (v7_ordinal1(X1)|~v1_finset_1(X1)|~v1_card_1(X1)), inference(spm,[status(thm)],[c_0_62, c_0_63])).
+cnf(c_0_79, plain, (v1_card_1(X1)|~v1_xboole_0(X1)), inference(split_conjunct,[status(thm)],[c_0_64])).
+cnf(c_0_80, plain, (v1_finset_1(X1)|~v1_xboole_0(X1)), inference(split_conjunct,[status(thm)],[c_0_65])).
+cnf(c_0_81, plain, (X1=X2|g3_algstr_0(X1,X3)!=g3_algstr_0(X2,X4)|~v1_funct_1(X3)|~v1_funct_2(X3,k2_zfmisc_1(X1,X1),X1)|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X1),X1)))), inference(split_conjunct,[status(thm)],[c_0_66])).
+cnf(c_0_82, plain, (v1_funct_2(k4_group_6(X1,X2),k2_zfmisc_1(k15_group_2(X1,X2),k15_group_2(X1,X2)),k15_group_2(X1,X2))|v2_struct_0(X1)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_67])).
+cnf(c_0_83, plain, (m1_subset_1(k4_group_6(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k15_group_2(X1,X2),k15_group_2(X1,X2)),k15_group_2(X1,X2))))|v2_struct_0(X1)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_67])).
+cnf(c_0_84, plain, (v1_funct_1(k4_group_6(X1,X2))|v2_struct_0(X1)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_67])).
+fof(c_0_85, plain, ![X149, X150]:(v2_struct_0(X149)|~v2_group_1(X149)|~v3_group_1(X149)|~l3_algstr_0(X149)|(~v1_group_3(X150,X149)|~m1_group_2(X150,X149)|k5_group_6(X149,X150)=g3_algstr_0(k15_group_2(X149,X150),k4_group_6(X149,X150)))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[d4_group_6])])])])).
+cnf(c_0_86, plain, (v2_group_10(X1,X2)|v2_struct_0(X3)|v2_struct_0(X1)|k7_struct_0(X1)!=k3_xcmplx_0(k7_struct_0(X3),k1_newton(X2,X4))|~v1_xcmplx_0(X2)|~v2_group_10(X3,X2)|~l3_algstr_0(X1)|~l3_algstr_0(X3)|~v3_group_1(X1)|~v3_group_1(X3)|~v2_group_1(X1)|~v2_group_1(X3)|~v7_ordinal1(k2_xcmplx_0(esk4_2(X2,X3),X4))|~v7_ordinal1(X2)|~v7_ordinal1(X4)), inference(spm,[status(thm)],[c_0_68, c_0_69])).
+fof(c_0_87, plain, ![X211, X212]:(~v7_ordinal1(X211)|~v7_ordinal1(X212)|v7_ordinal1(k2_xcmplx_0(X211,X212))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[fc1_nat_1])])).
+fof(c_0_88, plain, ![X361, X362]:(v2_struct_0(X361)|~v8_struct_0(X361)|~v2_group_1(X361)|~v3_group_1(X361)|~l3_algstr_0(X361)|(~m1_group_2(X362,X361)|k7_group_1(X361)=k4_nat_1(k7_group_1(X362),k18_group_2(X361,X362)))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t147_group_2])])])])).
+fof(c_0_89, plain, ![X347]:(~v8_struct_0(X347)|~l1_struct_0(X347)|k7_group_1(X347)=k7_struct_0(X347)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k7_group_1])])).
+fof(c_0_90, plain, ![X87, X88]:(v2_struct_0(X87)|~v8_struct_0(X87)|~v2_group_1(X87)|~v3_group_1(X87)|~l3_algstr_0(X87)|(~m1_group_2(X88,X87)|v8_struct_0(X88))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[cc3_group_2])])])])).
+fof(c_0_91, plain, ![X155, X156]:(v2_struct_0(X155)|~v2_group_1(X155)|~v3_group_1(X155)|~l3_algstr_0(X155)|~m1_group_2(X156,X155)|m1_subset_1(k18_group_2(X155,X156),k5_numbers)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[dt_k18_group_2])])])).
+fof(c_0_92, plain, ![X245, X246]:(~v7_ordinal1(X245)|~v7_ordinal1(X246)|v7_ordinal1(k1_newton(X245,X246))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[fc4_newton])])).
+fof(c_0_93, plain, ![X171, X172]:(((~v2_struct_0(X172)|~m1_group_2(X172,X171)|(v2_struct_0(X171)|~v2_group_1(X171)|~l3_algstr_0(X171)))&(v2_group_1(X172)|~m1_group_2(X172,X171)|(v2_struct_0(X171)|~v2_group_1(X171)|~l3_algstr_0(X171))))&(l3_algstr_0(X172)|~m1_group_2(X172,X171)|(v2_struct_0(X171)|~v2_group_1(X171)|~l3_algstr_0(X171)))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[dt_m1_group_2])])])])])).
+fof(c_0_94, negated_conjecture, ((v7_ordinal1(esk1_0)&v1_int_2(esk1_0))&(((((~v2_struct_0(esk2_0)&v8_struct_0(esk2_0))&v2_group_1(esk2_0))&v3_group_1(esk2_0))&l3_algstr_0(esk2_0))&((v1_group_3(esk3_0,esk2_0)&m1_group_2(esk3_0,esk2_0))&((v2_group_10(esk3_0,esk1_0)&v2_group_10(k5_group_6(esk2_0,esk3_0),esk1_0))&~v2_group_10(esk2_0,esk1_0))))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[c_0_70])])])])).
+cnf(c_0_95, plain, (m1_subset_1(k24_binop_2(X1,X2),k5_numbers)|v1_xboole_0(k5_numbers)|v1_xboole_0(k1_numbers)|~v7_ordinal1(X2)|~v7_ordinal1(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_71, c_0_72]), c_0_59])])).
+cnf(c_0_96, plain, (k24_binop_2(X1,X2)=k3_xcmplx_0(X1,X2)|~v7_ordinal1(X1)|~v7_ordinal1(X2)), inference(split_conjunct,[status(thm)],[c_0_73])).
+fof(c_0_97, plain, ![X369]:(~v1_xcmplx_0(X369)|k3_xcmplx_0(np__1,X369)=X369), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t3_arithm])])).
+cnf(c_0_98, plain, (v7_ordinal1(X2)|~v6_membered(X1)|~m1_subset_1(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_74])).
+cnf(c_0_99, plain, (m1_subset_1(np__1,k5_numbers)), inference(split_conjunct,[status(thm)],[spc1_numerals])).
+cnf(c_0_100, plain, (v6_membered(k5_numbers)), inference(rw,[status(thm)],[c_0_75, c_0_50])).
+cnf(c_0_101, plain, (~v7_ordinal1(k1_numbers)), inference(spm,[status(thm)],[c_0_76, c_0_77])).
+cnf(c_0_102, plain, (v7_ordinal1(X1)|~v1_xboole_0(X1)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_78, c_0_79]), c_0_80])).
+cnf(c_0_103, plain, (k15_group_2(X1,X2)=X3|v2_struct_0(X1)|g3_algstr_0(k15_group_2(X1,X2),k4_group_6(X1,X2))!=g3_algstr_0(X3,X4)|~m1_group_2(X2,X1)|~v1_group_3(X2,X1)|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_81, c_0_82]), c_0_83]), c_0_84])).
+cnf(c_0_104, plain, (v2_struct_0(X1)|k5_group_6(X1,X2)=g3_algstr_0(k15_group_2(X1,X2),k4_group_6(X1,X2))|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_85])).
+fof(c_0_105, plain, ![X8]:(~l3_algstr_0(X8)|(~v15_algstr_0(X8)|X8=g3_algstr_0(u1_struct_0(X8),u2_algstr_0(X8)))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[abstractness_v15_algstr_0])])).
+cnf(c_0_106, plain, (v2_group_10(X1,X2)|v2_struct_0(X3)|v2_struct_0(X1)|v2_struct_0(X4)|k7_struct_0(X1)!=k3_xcmplx_0(k7_struct_0(X4),k7_struct_0(X3))|~v1_xcmplx_0(X2)|~v2_group_10(X4,X2)|~v2_group_10(X3,X2)|~l3_algstr_0(X1)|~l3_algstr_0(X4)|~l3_algstr_0(X3)|~v3_group_1(X1)|~v3_group_1(X4)|~v3_group_1(X3)|~v2_group_1(X1)|~v2_group_1(X4)|~v2_group_1(X3)|~v7_ordinal1(k2_xcmplx_0(esk4_2(X2,X4),esk4_2(X2,X3)))|~v7_ordinal1(X2)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_86, c_0_54]), c_0_55])).
+cnf(c_0_107, plain, (v7_ordinal1(k2_xcmplx_0(X1,X2))|~v7_ordinal1(X1)|~v7_ordinal1(X2)), inference(split_conjunct,[status(thm)],[c_0_87])).
+fof(c_0_108, plain, ![X365, X366]:(v2_struct_0(X365)|~v2_group_1(X365)|~v3_group_1(X365)|~l3_algstr_0(X365)|(~v1_group_3(X366,X365)|~m1_group_2(X366,X365)|(~v1_finset_1(k15_group_2(X365,X366))|k7_struct_0(k5_group_6(X365,X366))=k18_group_2(X365,X366)))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t27_group_6])])])])).
+fof(c_0_109, plain, ![X252, X253]:((v2_group_1(k5_group_6(X252,X253))|(v2_struct_0(X252)|~v2_group_1(X252)|~v3_group_1(X252)|~l3_algstr_0(X252)|~v1_group_3(X253,X252)|~m1_group_2(X253,X252)))&(v3_group_1(k5_group_6(X252,X253))|(v2_struct_0(X252)|~v2_group_1(X252)|~v3_group_1(X252)|~l3_algstr_0(X252)|~v1_group_3(X253,X252)|~m1_group_2(X253,X252)))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[fc6_group_6])])])])).
+fof(c_0_110, plain, ![X166, X167]:(v2_struct_0(X166)|~v2_group_1(X166)|~v3_group_1(X166)|~l3_algstr_0(X166)|~v1_group_3(X167,X166)|~m1_group_2(X167,X166)|l3_algstr_0(k5_group_6(X166,X167))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[dt_k5_group_6])])])).
+fof(c_0_111, plain, ![X247, X248]:((~v2_struct_0(k5_group_6(X247,X248))|(v2_struct_0(X247)|~v2_group_1(X247)|~v3_group_1(X247)|~l3_algstr_0(X247)|~v1_group_3(X248,X247)|~m1_group_2(X248,X247)))&(v15_algstr_0(k5_group_6(X247,X248))|(v2_struct_0(X247)|~v2_group_1(X247)|~v3_group_1(X247)|~l3_algstr_0(X247)|~v1_group_3(X248,X247)|~m1_group_2(X248,X247)))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[fc5_group_6])])])])).
+fof(c_0_112, plain, ![X345, X346]:(~m1_subset_1(X345,k5_numbers)|~v7_ordinal1(X346)|k4_nat_1(X345,X346)=k3_xcmplx_0(X345,X346)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k4_nat_1])])).
+cnf(c_0_113, plain, (v2_struct_0(X1)|k7_group_1(X1)=k4_nat_1(k7_group_1(X2),k18_group_2(X1,X2))|~v8_struct_0(X1)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_88])).
+cnf(c_0_114, plain, (k7_group_1(X1)=k7_struct_0(X1)|~v8_struct_0(X1)|~l1_struct_0(X1)), inference(split_conjunct,[status(thm)],[c_0_89])).
+cnf(c_0_115, plain, (v2_struct_0(X1)|v8_struct_0(X2)|~v8_struct_0(X1)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_90])).
+cnf(c_0_116, plain, (v2_struct_0(X1)|m1_subset_1(k18_group_2(X1,X2),k5_numbers)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_91])).
+cnf(c_0_117, plain, (v7_ordinal1(k1_newton(X1,X2))|~v7_ordinal1(X1)|~v7_ordinal1(X2)), inference(split_conjunct,[status(thm)],[c_0_92])).
+cnf(c_0_118, plain, (v2_struct_0(X2)|~v2_struct_0(X1)|~m1_group_2(X1,X2)|~v2_group_1(X2)|~l3_algstr_0(X2)), inference(split_conjunct,[status(thm)],[c_0_93])).
+cnf(c_0_119, negated_conjecture, (m1_group_2(esk3_0,esk2_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_120, negated_conjecture, (l3_algstr_0(esk2_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_121, negated_conjecture, (v2_group_1(esk2_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_122, negated_conjecture, (~v2_struct_0(esk2_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_123, plain, (l3_algstr_0(X1)|v2_struct_0(X2)|~m1_group_2(X1,X2)|~v2_group_1(X2)|~l3_algstr_0(X2)), inference(split_conjunct,[status(thm)],[c_0_93])).
+cnf(c_0_124, plain, (v2_group_1(X1)|v2_struct_0(X2)|~m1_group_2(X1,X2)|~v2_group_1(X2)|~l3_algstr_0(X2)), inference(split_conjunct,[status(thm)],[c_0_93])).
+fof(c_0_125, plain, ![X37, X38]:(v2_struct_0(X37)|~v2_group_1(X37)|~v3_group_1(X37)|~l3_algstr_0(X37)|(~m1_group_2(X38,X37)|v3_group_1(X38))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[cc1_group_2])])])])).
+cnf(c_0_126, plain, (m1_subset_1(k3_xcmplx_0(X1,X2),k5_numbers)|v1_xboole_0(k1_numbers)|v1_xboole_0(k5_numbers)|~v7_ordinal1(X2)|~v7_ordinal1(X1)), inference(spm,[status(thm)],[c_0_95, c_0_96])).
+cnf(c_0_127, plain, (k3_xcmplx_0(np__1,X1)=X1|~v1_xcmplx_0(X1)), inference(split_conjunct,[status(thm)],[c_0_97])).
+cnf(c_0_128, plain, (v7_ordinal1(np__1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_98, c_0_99]), c_0_100])])).
+cnf(c_0_129, plain, (~v1_xboole_0(k1_numbers)), inference(spm,[status(thm)],[c_0_101, c_0_102])).
+cnf(c_0_130, plain, (~v1_xboole_0(k5_numbers)), inference(spm,[status(thm)],[c_0_60, c_0_80])).
+fof(c_0_131, plain, ![X95]:(~v1_xreal_0(X95)|v1_xcmplx_0(X95)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc3_xreal_0])])).
+fof(c_0_132, plain, ![X78]:(~v7_ordinal1(X78)|v1_xreal_0(X78)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc2_xreal_0])])).
+fof(c_0_133, plain, ![X29, X30]:(~v1_membered(X29)|(~m1_subset_1(X30,k1_zfmisc_1(X29))|v1_membered(X30))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc19_membered])])])).
+cnf(c_0_134, plain, (k15_group_2(X1,X2)=X3|v2_struct_0(X1)|k5_group_6(X1,X2)!=g3_algstr_0(X3,X4)|~m1_group_2(X2,X1)|~v1_group_3(X2,X1)|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)), inference(spm,[status(thm)],[c_0_103, c_0_104])).
+cnf(c_0_135, plain, (X1=g3_algstr_0(u1_struct_0(X1),u2_algstr_0(X1))|~l3_algstr_0(X1)|~v15_algstr_0(X1)), inference(split_conjunct,[status(thm)],[c_0_105])).
+cnf(c_0_136, plain, (v2_group_10(X1,X2)|v2_struct_0(X3)|v2_struct_0(X1)|v2_struct_0(X4)|k7_struct_0(X1)!=k3_xcmplx_0(k7_struct_0(X3),k7_struct_0(X4))|~v1_xcmplx_0(X2)|~v2_group_10(X3,X2)|~v2_group_10(X4,X2)|~l3_algstr_0(X1)|~l3_algstr_0(X3)|~l3_algstr_0(X4)|~v3_group_1(X1)|~v3_group_1(X3)|~v3_group_1(X4)|~v2_group_1(X1)|~v2_group_1(X3)|~v2_group_1(X4)|~v7_ordinal1(X2)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_106, c_0_107]), c_0_55]), c_0_55])).
+cnf(c_0_137, plain, (v2_struct_0(X1)|k7_struct_0(k5_group_6(X1,X2))=k18_group_2(X1,X2)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)|~v1_finset_1(k15_group_2(X1,X2))), inference(split_conjunct,[status(thm)],[c_0_108])).
+cnf(c_0_138, plain, (v2_group_1(k5_group_6(X1,X2))|v2_struct_0(X1)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_109])).
+cnf(c_0_139, plain, (v3_group_1(k5_group_6(X1,X2))|v2_struct_0(X1)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_109])).
+cnf(c_0_140, plain, (v2_struct_0(X1)|l3_algstr_0(k5_group_6(X1,X2))|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_110])).
+cnf(c_0_141, plain, (v2_struct_0(X1)|~v2_struct_0(k5_group_6(X1,X2))|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_111])).
+cnf(c_0_142, plain, (k4_nat_1(X1,X2)=k3_xcmplx_0(X1,X2)|~m1_subset_1(X1,k5_numbers)|~v7_ordinal1(X2)), inference(split_conjunct,[status(thm)],[c_0_112])).
+cnf(c_0_143, plain, (k4_nat_1(k7_struct_0(X1),k18_group_2(X2,X1))=k7_group_1(X2)|v2_struct_0(X2)|~l1_struct_0(X1)|~m1_group_2(X1,X2)|~l3_algstr_0(X2)|~v3_group_1(X2)|~v2_group_1(X2)|~v8_struct_0(X2)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_113, c_0_114]), c_0_115])).
+cnf(c_0_144, plain, (v2_struct_0(X1)|v7_ordinal1(k18_group_2(X1,X2))|~m1_group_2(X2,X1)|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_98, c_0_116]), c_0_100])])).
+cnf(c_0_145, plain, (v2_struct_0(X1)|v7_ordinal1(k7_struct_0(X1))|~v2_group_10(X1,X2)|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)|~v7_ordinal1(X2)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_117, c_0_54]), c_0_55])).
+cnf(c_0_146, negated_conjecture, (v2_group_10(esk3_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_147, negated_conjecture, (v7_ordinal1(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_148, negated_conjecture, (~v2_struct_0(esk3_0)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_118, c_0_119]), c_0_120]), c_0_121])]), c_0_122])).
+cnf(c_0_149, negated_conjecture, (l3_algstr_0(esk3_0)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_123, c_0_119]), c_0_120]), c_0_121])]), c_0_122])).
+cnf(c_0_150, negated_conjecture, (v2_group_1(esk3_0)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_124, c_0_119]), c_0_120]), c_0_121])]), c_0_122])).
+cnf(c_0_151, plain, (v2_struct_0(X1)|v3_group_1(X2)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_125])).
+cnf(c_0_152, negated_conjecture, (v3_group_1(esk2_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_153, plain, (m1_subset_1(X1,k5_numbers)|~v1_xcmplx_0(X1)|~v7_ordinal1(X1)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_126, c_0_127]), c_0_128])]), c_0_129]), c_0_130])).
+cnf(c_0_154, plain, (v1_xcmplx_0(X1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_131])).
+cnf(c_0_155, plain, (v1_xreal_0(X1)|~v7_ordinal1(X1)), inference(split_conjunct,[status(thm)],[c_0_132])).
+cnf(c_0_156, plain, (v1_membered(X2)|~v1_membered(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))), inference(split_conjunct,[status(thm)],[c_0_133])).
+fof(c_0_157, plain, ![X110]:(~v3_membered(X110)|v1_membered(X110)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc5_membered])])).
+fof(c_0_158, plain, ![X144]:(~l1_struct_0(X144)|k7_struct_0(X144)=k1_card_1(u1_struct_0(X144))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[d16_struct_0])])).
+cnf(c_0_159, plain, (k15_group_2(X1,X2)=u1_struct_0(X3)|v2_struct_0(X1)|k5_group_6(X1,X2)!=X3|~v15_algstr_0(X3)|~m1_group_2(X2,X1)|~v1_group_3(X2,X1)|~l3_algstr_0(X1)|~l3_algstr_0(X3)|~v3_group_1(X1)|~v2_group_1(X1)), inference(spm,[status(thm)],[c_0_134, c_0_135])).
+cnf(c_0_160, plain, (v15_algstr_0(k5_group_6(X1,X2))|v2_struct_0(X1)|~v2_group_1(X1)|~v3_group_1(X1)|~l3_algstr_0(X1)|~v1_group_3(X2,X1)|~m1_group_2(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_111])).
+cnf(c_0_161, plain, (v2_group_10(X1,X2)|v2_struct_0(X3)|v2_struct_0(X1)|v2_struct_0(X4)|k7_struct_0(X1)!=k3_xcmplx_0(k7_struct_0(X4),k18_group_2(X3,X5))|~v1_finset_1(k15_group_2(X3,X5))|~v1_xcmplx_0(X2)|~v2_group_10(k5_group_6(X3,X5),X2)|~v2_group_10(X4,X2)|~m1_group_2(X5,X3)|~v1_group_3(X5,X3)|~l3_algstr_0(X1)|~l3_algstr_0(X4)|~l3_algstr_0(X3)|~v3_group_1(X1)|~v3_group_1(X4)|~v3_group_1(X3)|~v2_group_1(X1)|~v2_group_1(X4)|~v2_group_1(X3)|~v7_ordinal1(X2)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_136, c_0_137]), c_0_138]), c_0_139]), c_0_140]), c_0_141])).
+cnf(c_0_162, plain, (k3_xcmplx_0(k7_struct_0(X1),k18_group_2(X2,X1))=k7_group_1(X2)|v2_struct_0(X2)|~m1_subset_1(k7_struct_0(X1),k5_numbers)|~l1_struct_0(X1)|~m1_group_2(X1,X2)|~l3_algstr_0(X2)|~v3_group_1(X2)|~v2_group_1(X2)|~v8_struct_0(X2)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_142, c_0_143]), c_0_144])).
+cnf(c_0_163, negated_conjecture, (v7_ordinal1(k7_struct_0(esk3_0))|~v3_group_1(esk3_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_145, c_0_146]), c_0_147])]), c_0_148]), c_0_149]), c_0_150])])).
+cnf(c_0_164, negated_conjecture, (v3_group_1(esk3_0)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_151, c_0_119]), c_0_120]), c_0_152]), c_0_121])]), c_0_122])).
+fof(c_0_165, plain, ![X15, X16]:(~v1_membered(X15)|(~m1_subset_1(X16,X15)|v1_xcmplx_0(X16))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc12_membered])])])).
+cnf(c_0_166, plain, (m1_subset_1(X1,k5_numbers)|~v7_ordinal1(X1)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_153, c_0_154]), c_0_155])).
+cnf(c_0_167, plain, (v1_membered(k5_numbers)|~v1_membered(k1_numbers)), inference(spm,[status(thm)],[c_0_156, c_0_59])).
+cnf(c_0_168, plain, (v1_membered(X1)|~v3_membered(X1)), inference(split_conjunct,[status(thm)],[c_0_157])).
+cnf(c_0_169, plain, (v3_membered(k1_numbers)), inference(split_conjunct,[status(thm)],[fc3_membered])).
+fof(c_0_170, plain, ![X261]:((~v1_finset_1(k1_card_1(X261))|v1_finset_1(X261))&(v1_card_1(k1_card_1(X261))|v1_finset_1(X261))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[fc8_card_1])])])])).
+cnf(c_0_171, negated_conjecture, (v2_group_10(k5_group_6(esk2_0,esk3_0),esk1_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_172, plain, (k7_struct_0(X1)=k1_card_1(u1_struct_0(X1))|~l1_struct_0(X1)), inference(split_conjunct,[status(thm)],[c_0_158])).
+cnf(c_0_173, plain, (u1_struct_0(k5_group_6(X1,X2))=k15_group_2(X1,X2)|v2_struct_0(X1)|~m1_group_2(X2,X1)|~v1_group_3(X2,X1)|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(er,[status(thm)],[c_0_159]), c_0_140]), c_0_160])).
+fof(c_0_174, plain, ![X170]:(~l3_algstr_0(X170)|l1_struct_0(X170)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_l3_algstr_0])])).
+cnf(c_0_175, plain, (v2_group_10(X1,X2)|v2_struct_0(X1)|v2_struct_0(X3)|k7_struct_0(X1)!=k7_group_1(X3)|~v1_finset_1(k15_group_2(X3,X4))|~v1_xcmplx_0(X2)|~m1_subset_1(k7_struct_0(X4),k5_numbers)|~l1_struct_0(X4)|~v2_group_10(k5_group_6(X3,X4),X2)|~v2_group_10(X4,X2)|~m1_group_2(X4,X3)|~v1_group_3(X4,X3)|~l3_algstr_0(X1)|~l3_algstr_0(X3)|~v3_group_1(X1)|~v3_group_1(X3)|~v2_group_1(X1)|~v2_group_1(X3)|~v8_struct_0(X3)|~v7_ordinal1(X2)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_161, c_0_162]), c_0_124]), c_0_151]), c_0_123]), c_0_118])).
+cnf(c_0_176, negated_conjecture, (v1_group_3(esk3_0,esk2_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_177, negated_conjecture, (v8_struct_0(esk2_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_178, negated_conjecture, (v7_ordinal1(k7_struct_0(esk3_0))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_163, c_0_164])])).
+cnf(c_0_179, plain, (v1_xcmplx_0(X2)|~v1_membered(X1)|~m1_subset_1(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_165])).
+cnf(c_0_180, negated_conjecture, (m1_subset_1(esk1_0,k5_numbers)), inference(spm,[status(thm)],[c_0_166, c_0_147])).
+cnf(c_0_181, plain, (v1_membered(k5_numbers)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_167, c_0_168]), c_0_169])])).
+cnf(c_0_182, plain, (v1_finset_1(X1)|~v1_finset_1(k1_card_1(X1))), inference(split_conjunct,[status(thm)],[c_0_170])).
+cnf(c_0_183, negated_conjecture, (v2_struct_0(k5_group_6(esk2_0,esk3_0))|v7_ordinal1(k7_struct_0(k5_group_6(esk2_0,esk3_0)))|~l3_algstr_0(k5_group_6(esk2_0,esk3_0))|~v3_group_1(k5_group_6(esk2_0,esk3_0))|~v2_group_1(k5_group_6(esk2_0,esk3_0))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_145, c_0_171]), c_0_147])])).
+cnf(c_0_184, plain, (k7_struct_0(k5_group_6(X1,X2))=k1_card_1(k15_group_2(X1,X2))|v2_struct_0(X1)|~l1_struct_0(k5_group_6(X1,X2))|~m1_group_2(X2,X1)|~v1_group_3(X2,X1)|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)), inference(spm,[status(thm)],[c_0_172, c_0_173])).
+cnf(c_0_185, plain, (l1_struct_0(X1)|~l3_algstr_0(X1)), inference(split_conjunct,[status(thm)],[c_0_174])).
+cnf(c_0_186, negated_conjecture, (v2_group_10(X1,esk1_0)|v2_struct_0(X1)|k7_struct_0(X1)!=k7_group_1(esk2_0)|~v1_finset_1(k15_group_2(esk2_0,esk3_0))|~v1_xcmplx_0(esk1_0)|~m1_subset_1(k7_struct_0(esk3_0),k5_numbers)|~l1_struct_0(esk3_0)|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_175, c_0_171]), c_0_146]), c_0_119]), c_0_176]), c_0_120]), c_0_152]), c_0_121]), c_0_177]), c_0_147])]), c_0_122])).
+cnf(c_0_187, negated_conjecture, (m1_subset_1(k7_struct_0(esk3_0),k5_numbers)), inference(spm,[status(thm)],[c_0_166, c_0_178])).
+cnf(c_0_188, negated_conjecture, (v1_xcmplx_0(esk1_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_179, c_0_180]), c_0_181])])).
+cnf(c_0_189, plain, (v1_finset_1(X1)|~v7_ordinal1(k1_card_1(X1))), inference(spm,[status(thm)],[c_0_182, c_0_77])).
+cnf(c_0_190, negated_conjecture, (v2_struct_0(k5_group_6(esk2_0,esk3_0))|v7_ordinal1(k1_card_1(k15_group_2(esk2_0,esk3_0)))|~l3_algstr_0(k5_group_6(esk2_0,esk3_0))|~v3_group_1(k5_group_6(esk2_0,esk3_0))|~v2_group_1(k5_group_6(esk2_0,esk3_0))), inference(csr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_183, c_0_184]), c_0_119]), c_0_176]), c_0_120]), c_0_152]), c_0_121])]), c_0_122]), c_0_185])).
+cnf(c_0_191, negated_conjecture, (v2_group_10(X1,esk1_0)|v2_struct_0(X1)|k7_struct_0(X1)!=k7_group_1(esk2_0)|~v1_finset_1(k15_group_2(esk2_0,esk3_0))|~l1_struct_0(esk3_0)|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_186, c_0_187])]), c_0_188])])).
+cnf(c_0_192, negated_conjecture, (v1_finset_1(k15_group_2(esk2_0,esk3_0))|v2_struct_0(k5_group_6(esk2_0,esk3_0))|~l3_algstr_0(k5_group_6(esk2_0,esk3_0))|~v3_group_1(k5_group_6(esk2_0,esk3_0))|~v2_group_1(k5_group_6(esk2_0,esk3_0))), inference(spm,[status(thm)],[c_0_189, c_0_190])).
+cnf(c_0_193, negated_conjecture, (v2_group_10(X1,esk1_0)|v2_struct_0(k5_group_6(esk2_0,esk3_0))|v2_struct_0(X1)|k7_struct_0(X1)!=k7_group_1(esk2_0)|~l1_struct_0(esk3_0)|~l3_algstr_0(k5_group_6(esk2_0,esk3_0))|~l3_algstr_0(X1)|~v3_group_1(k5_group_6(esk2_0,esk3_0))|~v3_group_1(X1)|~v2_group_1(k5_group_6(esk2_0,esk3_0))|~v2_group_1(X1)), inference(spm,[status(thm)],[c_0_191, c_0_192])).
+cnf(c_0_194, negated_conjecture, (v2_group_10(X1,esk1_0)|v2_struct_0(k5_group_6(esk2_0,esk3_0))|v2_struct_0(X1)|k7_struct_0(X1)!=k7_struct_0(esk2_0)|~l1_struct_0(esk3_0)|~l1_struct_0(esk2_0)|~l3_algstr_0(k5_group_6(esk2_0,esk3_0))|~l3_algstr_0(X1)|~v3_group_1(k5_group_6(esk2_0,esk3_0))|~v3_group_1(X1)|~v2_group_1(k5_group_6(esk2_0,esk3_0))|~v2_group_1(X1)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_193, c_0_114]), c_0_177])])).
+cnf(c_0_195, negated_conjecture, (v2_group_10(X1,esk1_0)|v2_struct_0(k5_group_6(esk2_0,esk3_0))|v2_struct_0(X1)|k7_struct_0(X1)!=k7_struct_0(esk2_0)|~l1_struct_0(esk3_0)|~l1_struct_0(esk2_0)|~l3_algstr_0(k5_group_6(esk2_0,esk3_0))|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(k5_group_6(esk2_0,esk3_0))|~v2_group_1(X1)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_194, c_0_139]), c_0_119]), c_0_176]), c_0_120]), c_0_152]), c_0_121])]), c_0_122])).
+cnf(c_0_196, negated_conjecture, (v2_group_10(X1,esk1_0)|v2_struct_0(k5_group_6(esk2_0,esk3_0))|v2_struct_0(X1)|k7_struct_0(X1)!=k7_struct_0(esk2_0)|~l1_struct_0(esk3_0)|~l1_struct_0(esk2_0)|~l3_algstr_0(k5_group_6(esk2_0,esk3_0))|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_195, c_0_138]), c_0_119]), c_0_176]), c_0_120]), c_0_152]), c_0_121])]), c_0_122])).
+cnf(c_0_197, negated_conjecture, (v2_group_10(X1,esk1_0)|v2_struct_0(k5_group_6(esk2_0,esk3_0))|v2_struct_0(X1)|k7_struct_0(X1)!=k7_struct_0(esk2_0)|~l1_struct_0(esk3_0)|~l1_struct_0(esk2_0)|~l3_algstr_0(X1)|~v3_group_1(X1)|~v2_group_1(X1)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_196, c_0_140]), c_0_119]), c_0_176]), c_0_120]), c_0_152]), c_0_121])]), c_0_122])).
+cnf(c_0_198, negated_conjecture, (~v2_group_10(esk2_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_94])).
+cnf(c_0_199, negated_conjecture, (v2_struct_0(k5_group_6(esk2_0,esk3_0))|~l1_struct_0(esk3_0)|~l1_struct_0(esk2_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(er,[status(thm)],[c_0_197]), c_0_120]), c_0_152]), c_0_121])]), c_0_198]), c_0_122])).
+cnf(c_0_200, negated_conjecture, (~l1_struct_0(esk3_0)|~l1_struct_0(esk2_0)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_141, c_0_199]), c_0_119]), c_0_176]), c_0_120]), c_0_152]), c_0_121])]), c_0_122])).
+cnf(c_0_201, negated_conjecture, (~l1_struct_0(esk2_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_200, c_0_185]), c_0_149])])).
+cnf(c_0_202, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_201, c_0_185]), c_0_120])]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 203
+# Proof object clause steps            : 117
+# Proof object formula steps           : 86
+# Proof object conjectures             : 37
+# Proof object clause conjectures      : 34
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 63
+# Proof object initial formulas used   : 45
+# Proof object generating inferences   : 50
+# Proof object simplifying inferences  : 127
+# Training examples: 0 positive, 0 negative
+# Parsed axioms                        : 256
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 422
+# Removed in clause preprocessing      : 28
+# Initial clauses in saturation        : 394
+# Processed clauses                    : 2281
+# ...of these trivial                  : 28
+# ...subsumed                          : 762
+# ...remaining for further processing  : 1491
+# Other redundant clauses eliminated   : 0
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 97
+# Backward-rewritten                   : 76
+# Generated clauses                    : 7090
+# ...of the previous two non-trivial   : 6718
+# Contextual simplify-reflections      : 637
+# Paramodulations                      : 7054
+# Factorizations                       : 0
+# Equation resolutions                 : 35
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 1317
+#    Positive orientable unit clauses  : 200
+#    Positive unorientable unit clauses: 0
+#    Negative unit clauses             : 54
+#    Non-unit-clauses                  : 1063
+# Current number of unprocessed clauses: 4681
+# ...number of literals in the above   : 71137
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 174
+# Clause-clause subsumption calls (NU) : 2215777
+# Rec. Clause-clause subsumption calls : 105591
+# Non-unit clause-clause subsumptions  : 1436
+# Unit Clause-clause subsumption calls : 28295
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 57
+# BW rewrite match successes           : 30
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 289841
+
+# -------------------------------------------------
+# User time                : 18.720 s
+# System time              : 0.896 s
+# Total time               : 19.616 s
+# Maximum resident set size: 320008 pages
+18.72user 0.93system 0:21.15elapsed 92%CPU (0avgtext+0avgdata 320008maxresident)k
+0inputs+104outputs (0major+330715minor)pagefaults 0swaps

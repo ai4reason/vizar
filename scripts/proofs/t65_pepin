@@ -1,0 +1,1116 @@
+2020-05-31 03:46:27.254928: I tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_15
+2020-05-31 03:46:27.378467: I tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2020-05-31 03:46:27.620514: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2020-05-31 03:46:28.228197: I tensorflow/cc/saved_model/loader.cc:202] Restoring SavedModel bundle.
+2020-05-31 03:46:30.225456: I tensorflow/cc/saved_model/loader.cc:311] SavedModel load for tags { serve }; Status: success. Took 2970504 microseconds.
+# ENIGMA: TensorFlow C library version 1.15.0
+# ENIGMA: TensorFlow: model 'models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_15' loaded (query=256; context=512; weigths=real; len_mult=0.000000).
+# Preprocessing time       : 4.196 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(t6_boole, axiom, ![X1]:(v1_xboole_0(X1)=>X1=k1_xboole_0), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', t6_boole)).
+fof(fc3_xreal_0, axiom, ![X1]:(v1_xreal_0(X1)=>(v1_xcmplx_0(k4_xcmplx_0(X1))&v1_xreal_0(k4_xcmplx_0(X1)))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', fc3_xreal_0)).
+fof(cc1_xreal_0, axiom, ![X1]:(m1_subset_1(X1,k1_numbers)=>v1_xreal_0(X1)), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', cc1_xreal_0)).
+fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0, file('/scratch/mptp/allpred/preds__0.005/t65_pepin', redefinition_k6_numbers)).
+fof(t3_arithm, axiom, ![X1]:(v1_xcmplx_0(X1)=>k3_xcmplx_0(np__1,X1)=X1), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', t3_arithm)).
+fof(commutativity_k3_xcmplx_0, axiom, ![X1, X2]:((v1_xcmplx_0(X1)&v1_xcmplx_0(X2))=>k3_xcmplx_0(X1,X2)=k3_xcmplx_0(X2,X1)), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', commutativity_k3_xcmplx_0)).
+fof(rqRealNeg__k4_xcmplx_0__rm1_r1, axiom, k4_xcmplx_0(k4_xcmplx_0(np__1))=np__1, file('/scratch/mptp/allpred/preds__0.005/t65_pepin', rqRealNeg__k4_xcmplx_0__rm1_r1)).
+fof(spc1_numerals, axiom, (((v2_xxreal_0(np__1)&m2_subset_1(np__1,k1_numbers,k5_numbers))&m1_subset_1(np__1,k5_numbers))&m1_subset_1(np__1,k1_numbers)), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', spc1_numerals)).
+fof(t64_xreal_1, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(v1_xreal_0(X2)=>![X3]:(v1_xreal_0(X3)=>((r1_xxreal_0(X1,X2)&r1_xxreal_0(k6_numbers,X3))=>r1_xxreal_0(k3_xcmplx_0(X1,X3),k3_xcmplx_0(X2,X3)))))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', t64_xreal_1)).
+fof(spc0_boole, axiom, v1_xboole_0(np__0), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', spc0_boole)).
+fof(t2_xxreal_0, axiom, ![X1]:(v1_xxreal_0(X1)=>![X2]:(v1_xxreal_0(X2)=>![X3]:(v1_xxreal_0(X3)=>((r1_xxreal_0(X1,X2)&r1_xxreal_0(X2,X3))=>r1_xxreal_0(X1,X3))))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', t2_xxreal_0)).
+fof(rqRealMult__k3_xcmplx_0__r1_r1_r1, axiom, k3_xcmplx_0(np__1,np__1)=np__1, file('/scratch/mptp/allpred/preds__0.005/t65_pepin', rqRealMult__k3_xcmplx_0__r1_r1_r1)).
+fof(rqLessOrEqual__r1_xxreal_0__r0_r1, axiom, r1_xxreal_0(np__0,np__1), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', rqLessOrEqual__r1_xxreal_0__r0_r1)).
+fof(cc3_xreal_0, axiom, ![X1]:(v1_xreal_0(X1)=>v1_xcmplx_0(X1)), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', cc3_xreal_0)).
+fof(connectedness_r1_xxreal_0, axiom, ![X1, X2]:((v1_xxreal_0(X1)&v1_xxreal_0(X2))=>(r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', connectedness_r1_xxreal_0)).
+fof(cc4_xreal_0, axiom, ![X1]:(v1_xreal_0(X1)=>v1_xxreal_0(X1)), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', cc4_xreal_0)).
+fof(t65_pepin, conjecture, ![X1]:(v1_xreal_0(X1)=>![X2]:(v7_ordinal1(X2)=>~(((~(r1_xxreal_0(X2,k6_numbers))&~(r1_xxreal_0(X1,np__1)))&r1_xxreal_0(k1_newton(X1,X2),np__1))))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', t65_pepin)).
+fof(t6_newton, axiom, ![X1]:(v7_ordinal1(X1)=>![X2]:(v1_xcmplx_0(X2)=>k1_newton(X2,k1_nat_1(X1,np__1))=k3_xcmplx_0(k1_newton(X2,X1),X2))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', t6_newton)).
+fof(fc16_xreal_0, axiom, ![X1]:((~(v3_xxreal_0(X1))&v1_xreal_0(X1))=>(v1_xcmplx_0(k4_xcmplx_0(X1))&~(v2_xxreal_0(k4_xcmplx_0(X1))))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', fc16_xreal_0)).
+fof(s2_nat_1__e5_114__pepin, axiom, ![X1]:(v1_xreal_0(X1)=>((~((~(r1_xxreal_0(k6_numbers,k6_numbers))&r1_xxreal_0(k1_newton(X1,k6_numbers),np__1)))&![X2]:(v7_ordinal1(X2)=>(~((~(r1_xxreal_0(X2,k6_numbers))&r1_xxreal_0(k1_newton(X1,X2),np__1)))=>~((~(r1_xxreal_0(k1_nat_1(X2,np__1),k6_numbers))&r1_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)),np__1))))))=>![X2]:(v7_ordinal1(X2)=>~((~(r1_xxreal_0(X2,k6_numbers))&r1_xxreal_0(k1_newton(X1,X2),np__1)))))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', s2_nat_1__e5_114__pepin)).
+fof(fc2_newton, axiom, ![X1, X2]:((v1_xreal_0(X1)&v7_ordinal1(X2))=>v1_xreal_0(k1_newton(X1,X2))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', fc2_newton)).
+fof(rqRealNeg__k4_xcmplx_0__r0_r0, axiom, k4_xcmplx_0(np__0)=np__0, file('/scratch/mptp/allpred/preds__0.005/t65_pepin', rqRealNeg__k4_xcmplx_0__r0_r0)).
+fof(spc0_numerals, axiom, ((m2_subset_1(np__0,k1_numbers,k5_numbers)&m1_subset_1(np__0,k5_numbers))&m1_subset_1(np__0,k1_numbers)), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', spc0_numerals)).
+fof(rqLessOrEqual__r1_xxreal_0__r0_r0, axiom, r1_xxreal_0(np__0,np__0), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', rqLessOrEqual__r1_xxreal_0__r0_r0)).
+fof(t4_real, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(v1_xreal_0(X2)=>~(((r1_xxreal_0(X1,X2)&~(v2_xxreal_0(X2)))&v2_xxreal_0(X1))))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', t4_real)).
+fof(cc2_nat_1, axiom, ![X1]:(m1_subset_1(X1,k5_numbers)=>~(v3_xxreal_0(X1))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', cc2_nat_1)).
+fof(fc6_xreal_0, axiom, ![X1, X2]:((v1_xreal_0(X1)&v1_xreal_0(X2))=>v1_xreal_0(k3_xcmplx_0(X1,X2))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', fc6_xreal_0)).
+fof(cc2_xreal_0, axiom, ![X1]:(v7_ordinal1(X1)=>v1_xreal_0(X1)), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', cc2_xreal_0)).
+fof(t6_real, axiom, ![X1]:(v1_xreal_0(X1)=>![X2]:(v1_xreal_0(X2)=>(r1_xxreal_0(X1,X2)=>(v1_xboole_0(X1)|v2_xxreal_0(X2)|v3_xxreal_0(X1))))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', t6_real)).
+fof(cc3_nat_1, axiom, ![X1]:(v7_ordinal1(X1)=>(v7_ordinal1(X1)&~(v3_xxreal_0(X1)))), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', cc3_nat_1)).
+fof(cc7_ordinal1, axiom, ![X1]:(v1_xboole_0(X1)=>v7_ordinal1(X1)), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', cc7_ordinal1)).
+fof(redefinition_k1_nat_1, axiom, ![X1, X2]:((v7_ordinal1(X1)&m1_subset_1(X2,k5_numbers))=>k1_nat_1(X1,X2)=k2_xcmplx_0(X1,X2)), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', redefinition_k1_nat_1)).
+fof(rqRealAdd__k2_xcmplx_0__r0_r1_r1, axiom, k2_xcmplx_0(np__0,np__1)=np__1, file('/scratch/mptp/allpred/preds__0.005/t65_pepin', rqRealAdd__k2_xcmplx_0__r0_r1_r1)).
+fof(t5_newton, axiom, ![X1]:(v1_xcmplx_0(X1)=>k1_newton(X1,np__1)=X1), file('/scratch/mptp/allpred/preds__0.005/t65_pepin', t5_newton)).
+fof(c_0_34, plain, ![X6]:(~v1_xboole_0(X6)|X6=k1_xboole_0), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t6_boole])])).
+fof(c_0_35, plain, ![X64]:((v1_xcmplx_0(k4_xcmplx_0(X64))|~v1_xreal_0(X64))&(v1_xreal_0(k4_xcmplx_0(X64))|~v1_xreal_0(X64))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[fc3_xreal_0])])])).
+fof(c_0_36, plain, ![X20]:(~m1_subset_1(X20,k1_numbers)|v1_xreal_0(X20)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc1_xreal_0])])).
+cnf(c_0_37, plain, (X1=k1_xboole_0|~v1_xboole_0(X1)), inference(split_conjunct,[status(thm)],[c_0_34])).
+cnf(c_0_38, plain, (k6_numbers=k1_xboole_0), inference(split_conjunct,[status(thm)],[redefinition_k6_numbers])).
+fof(c_0_39, plain, ![X54]:(~v1_xcmplx_0(X54)|k3_xcmplx_0(np__1,X54)=X54), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t3_arithm])])).
+fof(c_0_40, plain, ![X43, X44]:(~v1_xcmplx_0(X43)|~v1_xcmplx_0(X44)|k3_xcmplx_0(X43,X44)=k3_xcmplx_0(X44,X43)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[commutativity_k3_xcmplx_0])])).
+cnf(c_0_41, plain, (v1_xcmplx_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_35])).
+cnf(c_0_42, plain, (k4_xcmplx_0(k4_xcmplx_0(np__1))=np__1), inference(split_conjunct,[status(thm)],[rqRealNeg__k4_xcmplx_0__rm1_r1])).
+cnf(c_0_43, plain, (v1_xreal_0(X1)|~m1_subset_1(X1,k1_numbers)), inference(split_conjunct,[status(thm)],[c_0_36])).
+cnf(c_0_44, plain, (m1_subset_1(np__1,k1_numbers)), inference(split_conjunct,[status(thm)],[spc1_numerals])).
+fof(c_0_45, plain, ![X78, X79, X80]:(~v1_xreal_0(X78)|(~v1_xreal_0(X79)|(~v1_xreal_0(X80)|(~r1_xxreal_0(X78,X79)|~r1_xxreal_0(k6_numbers,X80)|r1_xxreal_0(k3_xcmplx_0(X78,X80),k3_xcmplx_0(X79,X80)))))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t64_xreal_1])])])).
+cnf(c_0_46, plain, (X1=k1_xboole_0|~v1_xboole_0(X1)), inference(evalgc,[status(thm)],[c_0_37])).
+cnf(c_0_47, plain, (k1_xboole_0=k6_numbers), inference(evalgc,[status(thm)],[c_0_38])).
+cnf(c_0_48, plain, (v1_xboole_0(np__0)), inference(split_conjunct,[status(thm)],[spc0_boole])).
+cnf(c_0_49, plain, (k3_xcmplx_0(np__1,X1)=X1|~v1_xcmplx_0(X1)), inference(split_conjunct,[status(thm)],[c_0_39])).
+cnf(c_0_50, plain, (k3_xcmplx_0(X1,X2)=k3_xcmplx_0(X2,X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X2)), inference(split_conjunct,[status(thm)],[c_0_40])).
+cnf(c_0_51, plain, (v1_xcmplx_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[c_0_41])).
+cnf(c_0_52, plain, (k4_xcmplx_0(k4_xcmplx_0(np__1))=np__1), inference(evalgc,[status(thm)],[c_0_42])).
+cnf(c_0_53, plain, (v1_xreal_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_35])).
+cnf(c_0_54, plain, (v1_xreal_0(X1)|~m1_subset_1(X1,k1_numbers)), inference(evalgc,[status(thm)],[c_0_43])).
+cnf(c_0_55, plain, (m1_subset_1(np__1,k1_numbers)), inference(evalgc,[status(thm)],[c_0_44])).
+cnf(c_0_56, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X3),k3_xcmplx_0(X2,X3))|~v1_xreal_0(X1)|~v1_xreal_0(X2)|~v1_xreal_0(X3)|~r1_xxreal_0(X1,X2)|~r1_xxreal_0(k6_numbers,X3)), inference(split_conjunct,[status(thm)],[c_0_45])).
+cnf(c_0_57, plain, (X1=k6_numbers|~v1_xboole_0(X1)), inference(rw,[status(thm)],[c_0_46, c_0_47])).
+cnf(c_0_58, plain, (v1_xboole_0(np__0)), inference(evalgc,[status(thm)],[c_0_48])).
+cnf(c_0_59, plain, (k3_xcmplx_0(np__1,X1)=X1|~v1_xcmplx_0(X1)), inference(evalgc,[status(thm)],[c_0_49])).
+cnf(c_0_60, plain, (k3_xcmplx_0(X1,X2)=k3_xcmplx_0(X2,X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1)), inference(evalgc,[status(thm)],[c_0_50])).
+cnf(c_0_61, plain, (v1_xcmplx_0(np__1)|~v1_xreal_0(k4_xcmplx_0(np__1))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_51, c_0_52])])).
+cnf(c_0_62, plain, (v1_xreal_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[c_0_53])).
+cnf(c_0_63, plain, (v1_xreal_0(np__1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_54, c_0_55])])).
+fof(c_0_64, plain, ![X7, X8, X9]:(~v1_xxreal_0(X7)|(~v1_xxreal_0(X8)|(~v1_xxreal_0(X9)|(~r1_xxreal_0(X7,X8)|~r1_xxreal_0(X8,X9)|r1_xxreal_0(X7,X9))))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t2_xxreal_0])])])).
+cnf(c_0_65, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X3),k3_xcmplx_0(X2,X3))|~v1_xreal_0(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~r1_xxreal_0(X1,X2)|~r1_xxreal_0(k6_numbers,X3)), inference(evalgc,[status(thm)],[c_0_56])).
+cnf(c_0_66, plain, (k6_numbers=np__0), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_57, c_0_58])])).
+cnf(c_0_67, plain, (k3_xcmplx_0(np__1,np__1)=np__1), inference(split_conjunct,[status(thm)],[rqRealMult__k3_xcmplx_0__r1_r1_r1])).
+cnf(c_0_68, plain, (r1_xxreal_0(np__0,np__1)), inference(split_conjunct,[status(thm)],[rqLessOrEqual__r1_xxreal_0__r0_r1])).
+cnf(c_0_69, plain, (k3_xcmplx_0(X1,np__1)=X1|~v1_xcmplx_0(X1)|~v1_xcmplx_0(np__1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_59, c_0_60])])).
+cnf(c_0_70, plain, (v1_xcmplx_0(np__1)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_61, c_0_62]), c_0_63])])])).
+fof(c_0_71, plain, ![X24]:(~v1_xreal_0(X24)|v1_xcmplx_0(X24)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc3_xreal_0])])).
+cnf(c_0_72, plain, (r1_xxreal_0(X1,X3)|~v1_xxreal_0(X1)|~v1_xxreal_0(X2)|~v1_xxreal_0(X3)|~r1_xxreal_0(X1,X2)|~r1_xxreal_0(X2,X3)), inference(split_conjunct,[status(thm)],[c_0_64])).
+cnf(c_0_73, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k3_xcmplx_0(X3,X2))|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,X3)|~v1_xreal_0(X2)|~v1_xreal_0(X3)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(rw,[status(thm)],[c_0_65, c_0_66])])).
+cnf(c_0_74, plain, (k3_xcmplx_0(np__1,np__1)=np__1), inference(evalgc,[status(thm)],[c_0_67])).
+cnf(c_0_75, plain, (r1_xxreal_0(np__0,np__1)), inference(evalgc,[status(thm)],[c_0_68])).
+cnf(c_0_76, plain, (k3_xcmplx_0(X1,np__1)=X1|~v1_xcmplx_0(X1)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_69, c_0_70])])])).
+cnf(c_0_77, plain, (v1_xcmplx_0(X1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_71])).
+fof(c_0_78, plain, ![X25, X26]:(~v1_xxreal_0(X25)|~v1_xxreal_0(X26)|(r1_xxreal_0(X25,X26)|r1_xxreal_0(X26,X25))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[connectedness_r1_xxreal_0])])).
+fof(c_0_79, plain, ![X18]:(~v1_xreal_0(X18)|v1_xxreal_0(X18)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc4_xreal_0])])).
+cnf(c_0_80, plain, (r1_xxreal_0(X1,X3)|~v1_xxreal_0(X3)|~v1_xxreal_0(X2)|~v1_xxreal_0(X1)|~r1_xxreal_0(X2,X3)|~r1_xxreal_0(X1,X2)), inference(evalgc,[status(thm)],[c_0_72])).
+cnf(c_0_81, plain, (r1_xxreal_0(k3_xcmplx_0(X1,np__1),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_73, c_0_74]), c_0_75]), c_0_63])])])).
+cnf(c_0_82, plain, (r1_xxreal_0(X1,k3_xcmplx_0(X2,np__1))|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_73, c_0_76]), c_0_75]), c_0_63])])])).
+cnf(c_0_83, plain, (v1_xcmplx_0(X1)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[c_0_77])).
+cnf(c_0_84, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xxreal_0(X1)|~v1_xxreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_78])).
+cnf(c_0_85, plain, (v1_xxreal_0(X1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_79])).
+fof(c_0_86, negated_conjecture, ~(![X1]:(v1_xreal_0(X1)=>![X2]:(v7_ordinal1(X2)=>~(((~(r1_xxreal_0(X2,k6_numbers))&~(r1_xxreal_0(X1,np__1)))&r1_xxreal_0(k1_newton(X1,X2),np__1)))))), inference(assume_negation,[status(cth)],[t65_pepin])).
+cnf(c_0_87, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k3_xcmplx_0(X2,np__1))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k3_xcmplx_0(X2,np__1))|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_80, c_0_81])])).
+cnf(c_0_88, plain, (r1_xxreal_0(X1,k3_xcmplx_0(X2,np__1))|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[c_0_82, c_0_83])).
+fof(c_0_89, plain, ![X35, X36]:(~v7_ordinal1(X35)|(~v1_xcmplx_0(X36)|k1_newton(X36,k1_nat_1(X35,np__1))=k3_xcmplx_0(k1_newton(X36,X35),X36))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t6_newton])])])).
+cnf(c_0_90, plain, (r1_xxreal_0(X2,X1)|r1_xxreal_0(X1,X2)|~v1_xxreal_0(X2)|~v1_xxreal_0(X1)), inference(evalgc,[status(thm)],[c_0_84])).
+cnf(c_0_91, plain, (v1_xxreal_0(X1)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[c_0_85])).
+fof(c_0_92, negated_conjecture, (v1_xreal_0(esk1_0)&(v7_ordinal1(esk2_0)&((~r1_xxreal_0(esk2_0,k6_numbers)&~r1_xxreal_0(esk1_0,np__1))&r1_xxreal_0(k1_newton(esk1_0,esk2_0),np__1)))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[c_0_86])])])])).
+fof(c_0_93, plain, ![X55]:((v1_xcmplx_0(k4_xcmplx_0(X55))|(v3_xxreal_0(X55)|~v1_xreal_0(X55)))&(~v2_xxreal_0(k4_xcmplx_0(X55))|(v3_xxreal_0(X55)|~v1_xreal_0(X55)))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[fc16_xreal_0])])])])).
+cnf(c_0_94, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(k3_xcmplx_0(X2,np__1))|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_87, c_0_88])])).
+fof(c_0_95, plain, ![X117, X119]:(((v7_ordinal1(esk6_1(X117))|~r1_xxreal_0(k6_numbers,k6_numbers)|(~v7_ordinal1(X119)|(r1_xxreal_0(X119,k6_numbers)|~r1_xxreal_0(k1_newton(X117,X119),np__1)))|~v1_xreal_0(X117))&((r1_xxreal_0(esk6_1(X117),k6_numbers)|~r1_xxreal_0(k1_newton(X117,esk6_1(X117)),np__1)|~r1_xxreal_0(k6_numbers,k6_numbers)|(~v7_ordinal1(X119)|(r1_xxreal_0(X119,k6_numbers)|~r1_xxreal_0(k1_newton(X117,X119),np__1)))|~v1_xreal_0(X117))&((~r1_xxreal_0(k1_nat_1(esk6_1(X117),np__1),k6_numbers)|~r1_xxreal_0(k6_numbers,k6_numbers)|(~v7_ordinal1(X119)|(r1_xxreal_0(X119,k6_numbers)|~r1_xxreal_0(k1_newton(X117,X119),np__1)))|~v1_xreal_0(X117))&(r1_xxreal_0(k1_newton(X117,k1_nat_1(esk6_1(X117),np__1)),np__1)|~r1_xxreal_0(k6_numbers,k6_numbers)|(~v7_ordinal1(X119)|(r1_xxreal_0(X119,k6_numbers)|~r1_xxreal_0(k1_newton(X117,X119),np__1)))|~v1_xreal_0(X117)))))&((v7_ordinal1(esk6_1(X117))|r1_xxreal_0(k1_newton(X117,k6_numbers),np__1)|(~v7_ordinal1(X119)|(r1_xxreal_0(X119,k6_numbers)|~r1_xxreal_0(k1_newton(X117,X119),np__1)))|~v1_xreal_0(X117))&((r1_xxreal_0(esk6_1(X117),k6_numbers)|~r1_xxreal_0(k1_newton(X117,esk6_1(X117)),np__1)|r1_xxreal_0(k1_newton(X117,k6_numbers),np__1)|(~v7_ordinal1(X119)|(r1_xxreal_0(X119,k6_numbers)|~r1_xxreal_0(k1_newton(X117,X119),np__1)))|~v1_xreal_0(X117))&((~r1_xxreal_0(k1_nat_1(esk6_1(X117),np__1),k6_numbers)|r1_xxreal_0(k1_newton(X117,k6_numbers),np__1)|(~v7_ordinal1(X119)|(r1_xxreal_0(X119,k6_numbers)|~r1_xxreal_0(k1_newton(X117,X119),np__1)))|~v1_xreal_0(X117))&(r1_xxreal_0(k1_newton(X117,k1_nat_1(esk6_1(X117),np__1)),np__1)|r1_xxreal_0(k1_newton(X117,k6_numbers),np__1)|(~v7_ordinal1(X119)|(r1_xxreal_0(X119,k6_numbers)|~r1_xxreal_0(k1_newton(X117,X119),np__1)))|~v1_xreal_0(X117)))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[s2_nat_1__e5_114__pepin])])])])])])).
+cnf(c_0_96, plain, (r1_xxreal_0(k3_xcmplx_0(X2,X1),k3_xcmplx_0(X3,X2))|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,X3)|~v1_xreal_0(X2)|~v1_xreal_0(X3)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_73, c_0_60])])).
+cnf(c_0_97, plain, (k1_newton(X2,k1_nat_1(X1,np__1))=k3_xcmplx_0(k1_newton(X2,X1),X2)|~v7_ordinal1(X1)|~v1_xcmplx_0(X2)), inference(split_conjunct,[status(thm)],[c_0_89])).
+fof(c_0_98, plain, ![X11, X12]:(~v1_xreal_0(X11)|~v7_ordinal1(X12)|v1_xreal_0(k1_newton(X11,X12))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[fc2_newton])])).
+cnf(c_0_99, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xxreal_0(X1)|~v1_xreal_0(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_90, c_0_91])])).
+cnf(c_0_100, negated_conjecture, (v1_xreal_0(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_92])).
+cnf(c_0_101, plain, (v3_xxreal_0(X1)|~v2_xxreal_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_93])).
+cnf(c_0_102, plain, (k4_xcmplx_0(np__0)=np__0), inference(split_conjunct,[status(thm)],[rqRealNeg__k4_xcmplx_0__r0_r0])).
+cnf(c_0_103, plain, (m1_subset_1(np__0,k1_numbers)), inference(split_conjunct,[status(thm)],[spc0_numerals])).
+cnf(c_0_104, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(k3_xcmplx_0(X2,np__1))|~v1_xxreal_0(np__1)|~r1_xxreal_0(X2,np__1)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[c_0_94, c_0_91])).
+cnf(c_0_105, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(X2,k6_numbers)|~r1_xxreal_0(k6_numbers,k6_numbers)|~v7_ordinal1(X2)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_95])).
+cnf(c_0_106, plain, (r1_xxreal_0(np__0,np__0)), inference(split_conjunct,[status(thm)],[rqLessOrEqual__r1_xxreal_0__r0_r0])).
+cnf(c_0_107, negated_conjecture, (~r1_xxreal_0(esk2_0,k6_numbers)), inference(split_conjunct,[status(thm)],[c_0_92])).
+cnf(c_0_108, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k3_xcmplx_0(X3,X1))|~r1_xxreal_0(np__0,X1)|~r1_xxreal_0(X2,X3)|~v1_xreal_0(X1)|~v1_xreal_0(X3)|~v1_xreal_0(X2)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_96, c_0_83]), c_0_83])).
+cnf(c_0_109, plain, (k1_newton(X2,k1_nat_1(X1,np__1))=k3_xcmplx_0(k1_newton(X2,X1),X2)|~v7_ordinal1(X1)|~v1_xcmplx_0(X2)), inference(evalgc,[status(thm)],[c_0_97])).
+cnf(c_0_110, plain, (v1_xreal_0(k1_newton(X1,X2))|~v1_xreal_0(X1)|~v7_ordinal1(X2)), inference(split_conjunct,[status(thm)],[c_0_98])).
+fof(c_0_111, plain, ![X37, X38]:(~v1_xreal_0(X37)|(~v1_xreal_0(X38)|(~r1_xxreal_0(X37,X38)|v2_xxreal_0(X38)|~v2_xxreal_0(X37)))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t4_real])])])])).
+cnf(c_0_112, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xreal_0(X1)|~v1_xreal_0(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_99, c_0_91])])).
+cnf(c_0_113, negated_conjecture, (v1_xreal_0(esk1_0)), inference(evalgc,[status(thm)],[c_0_100])).
+cnf(c_0_114, negated_conjecture, (~r1_xxreal_0(esk1_0,np__1)), inference(split_conjunct,[status(thm)],[c_0_92])).
+fof(c_0_115, plain, ![X22]:(~m1_subset_1(X22,k5_numbers)|~v3_xxreal_0(X22)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[cc2_nat_1])])])).
+cnf(c_0_116, plain, (v3_xxreal_0(X1)|~v1_xreal_0(X1)|~v2_xxreal_0(k4_xcmplx_0(X1))), inference(evalgc,[status(thm)],[c_0_101])).
+cnf(c_0_117, plain, (k4_xcmplx_0(np__0)=np__0), inference(evalgc,[status(thm)],[c_0_102])).
+cnf(c_0_118, plain, (m1_subset_1(np__0,k1_numbers)), inference(evalgc,[status(thm)],[c_0_103])).
+cnf(c_0_119, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(X2)|~v1_xxreal_0(np__1)|~r1_xxreal_0(X2,np__1)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_104, c_0_76])])).
+cnf(c_0_120, plain, (r1_xxreal_0(X2,k6_numbers)|r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k6_numbers,k6_numbers)|~r1_xxreal_0(k1_newton(X1,X2),np__1)), inference(evalgc,[status(thm)],[c_0_105])).
+cnf(c_0_121, plain, (r1_xxreal_0(np__0,np__0)), inference(evalgc,[status(thm)],[c_0_106])).
+cnf(c_0_122, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk2_0),np__1)), inference(split_conjunct,[status(thm)],[c_0_92])).
+cnf(c_0_123, negated_conjecture, (v7_ordinal1(esk2_0)), inference(split_conjunct,[status(thm)],[c_0_92])).
+cnf(c_0_124, negated_conjecture, (~r1_xxreal_0(esk2_0,k6_numbers)), inference(evalgc,[status(thm)],[c_0_107])).
+cnf(c_0_125, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k1_newton(X1,k1_nat_1(X3,np__1)))|~r1_xxreal_0(np__0,X1)|~r1_xxreal_0(X2,k1_newton(X1,X3))|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(X1,X3))|~v1_xreal_0(X2)|~v1_xcmplx_0(X1)|~v7_ordinal1(X3)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_108, c_0_109])])).
+cnf(c_0_126, plain, (v1_xreal_0(k1_newton(X1,X2))|~v1_xreal_0(X1)|~v7_ordinal1(X2)), inference(evalgc,[status(thm)],[c_0_110])).
+cnf(c_0_127, plain, (v2_xxreal_0(X2)|~v1_xreal_0(X1)|~v1_xreal_0(X2)|~r1_xxreal_0(X1,X2)|~v2_xxreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_111])).
+cnf(c_0_128, negated_conjecture, (r1_xxreal_0(X1,esk1_0)|r1_xxreal_0(esk1_0,X1)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_112, c_0_113])])).
+cnf(c_0_129, negated_conjecture, (~r1_xxreal_0(esk1_0,np__1)), inference(evalgc,[status(thm)],[c_0_114])).
+cnf(c_0_130, plain, (v2_xxreal_0(np__1)), inference(split_conjunct,[status(thm)],[spc1_numerals])).
+cnf(c_0_131, plain, (~m1_subset_1(X1,k5_numbers)|~v3_xxreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_115])).
+cnf(c_0_132, plain, (v3_xxreal_0(np__0)|~v2_xxreal_0(np__0)|~v1_xreal_0(np__0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_116, c_0_117])])).
+cnf(c_0_133, plain, (v1_xreal_0(np__0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_54, c_0_118])])).
+cnf(c_0_134, plain, (m1_subset_1(np__0,k5_numbers)), inference(split_conjunct,[status(thm)],[spc0_numerals])).
+cnf(c_0_135, plain, (v7_ordinal1(esk6_1(X1))|r1_xxreal_0(X2,k6_numbers)|~r1_xxreal_0(k6_numbers,k6_numbers)|~v7_ordinal1(X2)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_95])).
+fof(c_0_136, plain, ![X103, X104]:(~v1_xreal_0(X103)|~v1_xreal_0(X104)|v1_xreal_0(k3_xcmplx_0(X103,X104))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[fc6_xreal_0])])).
+cnf(c_0_137, plain, (r1_xxreal_0(esk6_1(X1),k6_numbers)|r1_xxreal_0(X2,k6_numbers)|~r1_xxreal_0(k1_newton(X1,esk6_1(X1)),np__1)|~r1_xxreal_0(k6_numbers,k6_numbers)|~v7_ordinal1(X2)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v1_xreal_0(X1)), inference(split_conjunct,[status(thm)],[c_0_95])).
+cnf(c_0_138, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~r1_xxreal_0(X2,np__1)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_119, c_0_91]), c_0_83])).
+cnf(c_0_139, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(X2,np__0)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_120, c_0_66]), c_0_66]), c_0_66]), c_0_121])])])).
+cnf(c_0_140, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk2_0),np__1)), inference(evalgc,[status(thm)],[c_0_122])).
+cnf(c_0_141, negated_conjecture, (v7_ordinal1(esk2_0)), inference(evalgc,[status(thm)],[c_0_123])).
+cnf(c_0_142, negated_conjecture, (~r1_xxreal_0(esk2_0,np__0)), inference(evalgc,[status(thm)],[inference(rw,[status(thm)],[c_0_124, c_0_66])])).
+cnf(c_0_143, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k1_newton(X1,k1_nat_1(X3,np__1)))|~r1_xxreal_0(X2,k1_newton(X1,X3))|~r1_xxreal_0(np__0,X1)|~v7_ordinal1(X3)|~v1_xreal_0(X1)|~v1_xreal_0(X2)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_125, c_0_126]), c_0_83])).
+cnf(c_0_144, plain, (v2_xxreal_0(X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(X1)|~r1_xxreal_0(X1,X2)), inference(evalgc,[status(thm)],[c_0_127])).
+cnf(c_0_145, negated_conjecture, (r1_xxreal_0(np__1,esk1_0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(spm,[status(thm)],[c_0_128, c_0_63]), c_0_129])])).
+cnf(c_0_146, plain, (v2_xxreal_0(np__1)), inference(evalgc,[status(thm)],[c_0_130])).
+cnf(c_0_147, plain, (~v3_xxreal_0(X1)|~m1_subset_1(X1,k5_numbers)), inference(evalgc,[status(thm)],[c_0_131])).
+cnf(c_0_148, plain, (v3_xxreal_0(np__0)|~v2_xxreal_0(np__0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_132, c_0_133])])).
+cnf(c_0_149, plain, (m1_subset_1(np__0,k5_numbers)), inference(evalgc,[status(thm)],[c_0_134])).
+cnf(c_0_150, plain, (v7_ordinal1(esk6_1(X1))|r1_xxreal_0(X2,k6_numbers)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k6_numbers,k6_numbers)|~r1_xxreal_0(k1_newton(X1,X2),np__1)), inference(evalgc,[status(thm)],[c_0_135])).
+cnf(c_0_151, plain, (v1_xreal_0(k3_xcmplx_0(X1,X2))|~v1_xreal_0(X1)|~v1_xreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_136])).
+cnf(c_0_152, plain, (r1_xxreal_0(X2,k6_numbers)|r1_xxreal_0(esk6_1(X1),k6_numbers)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k6_numbers,k6_numbers)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~r1_xxreal_0(k1_newton(X1,esk6_1(X1)),np__1)), inference(evalgc,[status(thm)],[c_0_137])).
+cnf(c_0_153, plain, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,X1)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_112, c_0_63])])).
+cnf(c_0_154, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X2,np__1)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_138, c_0_91]), c_0_63])])])).
+cnf(c_0_155, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)),np__1)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_139, c_0_140]), c_0_141]), c_0_113])]), c_0_142])])).
+cnf(c_0_156, plain, (r1_xxreal_0(X1,k1_newton(X1,k1_nat_1(X2,np__1)))|~r1_xxreal_0(np__1,k1_newton(X1,X2))|~r1_xxreal_0(np__0,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_143, c_0_76]), c_0_63])])])).
+cnf(c_0_157, negated_conjecture, (r1_xxreal_0(esk1_0,np__0)|r1_xxreal_0(np__0,esk1_0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_128, c_0_133])])).
+cnf(c_0_158, negated_conjecture, (v2_xxreal_0(esk1_0)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_144, c_0_145]), c_0_146]), c_0_113]), c_0_63])])])).
+cnf(c_0_159, plain, (~v2_xxreal_0(np__0)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_147, c_0_148]), c_0_149])])])).
+cnf(c_0_160, plain, (r1_xxreal_0(X1,np__0)|v7_ordinal1(esk6_1(X2))|~r1_xxreal_0(k1_newton(X2,X1),np__1)|~v7_ordinal1(X1)|~v1_xreal_0(X2)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_150, c_0_66]), c_0_66]), c_0_66]), c_0_121])])])).
+cnf(c_0_161, plain, (v1_xreal_0(k3_xcmplx_0(X1,X2))|~v1_xreal_0(X2)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[c_0_151])).
+cnf(c_0_162, plain, (r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(X2,np__0)|~r1_xxreal_0(k1_newton(X1,esk6_1(X1)),np__1)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_152, c_0_66]), c_0_66]), c_0_66]), c_0_66]), c_0_121])])])).
+cnf(c_0_163, plain, (r1_xxreal_0(np__1,k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),np__1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_153, c_0_126])])).
+cnf(c_0_164, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_154, c_0_155])])).
+cnf(c_0_165, plain, (r1_xxreal_0(X1,k1_newton(X1,k1_nat_1(X2,np__1)))|~r1_xxreal_0(np__1,k1_newton(X1,X2))|~r1_xxreal_0(np__0,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[c_0_156, c_0_83])).
+cnf(c_0_166, negated_conjecture, (r1_xxreal_0(np__0,esk1_0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_144, c_0_157]), c_0_158]), c_0_133]), c_0_113])]), c_0_159])])).
+cnf(c_0_167, negated_conjecture, (v7_ordinal1(esk6_1(esk1_0))), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_160, c_0_140]), c_0_141]), c_0_113])]), c_0_142])])).
+cnf(c_0_168, plain, (v1_xreal_0(k1_newton(X1,k1_nat_1(X2,np__1)))|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(X1,X2))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_161, c_0_109])])).
+fof(c_0_169, plain, ![X21]:(~v7_ordinal1(X21)|v1_xreal_0(X21)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc2_xreal_0])])).
+fof(c_0_170, plain, ![X66, X67]:(~v1_xreal_0(X66)|(~v1_xreal_0(X67)|(~r1_xxreal_0(X66,X67)|(v1_xboole_0(X66)|v2_xxreal_0(X67)|v3_xxreal_0(X66))))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t6_real])])])).
+cnf(c_0_171, plain, (r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(X2,np__0)|r1_xxreal_0(np__1,k1_newton(X1,esk6_1(X1)))|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v7_ordinal1(esk6_1(X1))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_162, c_0_163])])).
+cnf(c_0_172, negated_conjecture, (~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0)))), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_164, c_0_165]), c_0_113]), c_0_166]), c_0_167])]), c_0_129])])).
+cnf(c_0_173, plain, (v1_xreal_0(k1_newton(X1,k1_nat_1(X2,np__1)))|~v7_ordinal1(X2)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_168, c_0_126]), c_0_83])).
+cnf(c_0_174, plain, (v1_xreal_0(X1)|~v7_ordinal1(X1)), inference(split_conjunct,[status(thm)],[c_0_169])).
+fof(c_0_175, plain, ![X19]:((v7_ordinal1(X19)|~v7_ordinal1(X19))&(~v3_xxreal_0(X19)|~v7_ordinal1(X19))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[cc3_nat_1])])])])).
+cnf(c_0_176, plain, (v1_xboole_0(X1)|v2_xxreal_0(X2)|v3_xxreal_0(X1)|~v1_xreal_0(X1)|~v1_xreal_0(X2)|~r1_xxreal_0(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_170])).
+cnf(c_0_177, plain, (r1_xxreal_0(np__1,k1_newton(X1,esk6_1(X1)))|r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(X2,np__0)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)), inference(csr,[status(thm)],[c_0_171, c_0_160])).
+cnf(c_0_178, negated_conjecture, (~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0)))), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_172, c_0_173]), c_0_167]), c_0_113])])])).
+cnf(c_0_179, plain, (v1_xreal_0(X1)|~v7_ordinal1(X1)), inference(evalgc,[status(thm)],[c_0_174])).
+cnf(c_0_180, plain, (~v3_xxreal_0(X1)|~v7_ordinal1(X1)), inference(split_conjunct,[status(thm)],[c_0_175])).
+cnf(c_0_181, plain, (v1_xboole_0(X1)|v2_xxreal_0(X2)|v3_xxreal_0(X1)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~r1_xxreal_0(X1,X2)), inference(evalgc,[status(thm)],[c_0_176])).
+cnf(c_0_182, negated_conjecture, (r1_xxreal_0(esk6_1(esk1_0),np__0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_177, c_0_140]), c_0_141]), c_0_113])]), c_0_178]), c_0_142])])).
+cnf(c_0_183, negated_conjecture, (v1_xreal_0(esk6_1(esk1_0))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_179, c_0_167])])).
+cnf(c_0_184, plain, (~v7_ordinal1(X1)|~v3_xxreal_0(X1)), inference(evalgc,[status(thm)],[c_0_180])).
+cnf(c_0_185, negated_conjecture, (v3_xxreal_0(esk6_1(esk1_0))|v1_xboole_0(esk6_1(esk1_0))), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_181, c_0_182]), c_0_133]), c_0_183])]), c_0_159])])).
+fof(c_0_186, plain, ![X13]:(~v1_xboole_0(X13)|v7_ordinal1(X13)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc7_ordinal1])])).
+cnf(c_0_187, plain, (X1=np__0|~v1_xboole_0(X1)), inference(evalgc,[status(thm)],[inference(rw,[status(thm)],[c_0_57, c_0_66])])).
+cnf(c_0_188, negated_conjecture, (v1_xboole_0(esk6_1(esk1_0))), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_184, c_0_185]), c_0_167])])])).
+fof(c_0_189, plain, ![X14, X15]:(~v7_ordinal1(X14)|~m1_subset_1(X15,k5_numbers)|k1_nat_1(X14,X15)=k2_xcmplx_0(X14,X15)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k1_nat_1])])).
+cnf(c_0_190, plain, (v7_ordinal1(X1)|~v1_xboole_0(X1)), inference(split_conjunct,[status(thm)],[c_0_186])).
+cnf(c_0_191, negated_conjecture, (esk6_1(esk1_0)=np__0), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_187, c_0_188])])).
+cnf(c_0_192, plain, (k1_nat_1(X1,X2)=k2_xcmplx_0(X1,X2)|~v7_ordinal1(X1)|~m1_subset_1(X2,k5_numbers)), inference(split_conjunct,[status(thm)],[c_0_189])).
+cnf(c_0_193, plain, (k2_xcmplx_0(np__0,np__1)=np__1), inference(split_conjunct,[status(thm)],[rqRealAdd__k2_xcmplx_0__r0_r1_r1])).
+cnf(c_0_194, plain, (m1_subset_1(np__1,k5_numbers)), inference(split_conjunct,[status(thm)],[spc1_numerals])).
+cnf(c_0_195, plain, (v7_ordinal1(X1)|~v1_xboole_0(X1)), inference(evalgc,[status(thm)],[c_0_190])).
+fof(c_0_196, plain, ![X23]:(~v1_xcmplx_0(X23)|k1_newton(X23,np__1)=X23), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t5_newton])])).
+cnf(c_0_197, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,k1_nat_1(np__0,np__1)),np__1)), inference(evalgc,[status(thm)],[inference(rw,[status(thm)],[c_0_155, c_0_191])])).
+cnf(c_0_198, plain, (k1_nat_1(X1,X2)=k2_xcmplx_0(X1,X2)|~v7_ordinal1(X1)|~m1_subset_1(X2,k5_numbers)), inference(evalgc,[status(thm)],[c_0_192])).
+cnf(c_0_199, plain, (k2_xcmplx_0(np__0,np__1)=np__1), inference(evalgc,[status(thm)],[c_0_193])).
+cnf(c_0_200, plain, (m1_subset_1(np__1,k5_numbers)), inference(evalgc,[status(thm)],[c_0_194])).
+cnf(c_0_201, plain, (v7_ordinal1(np__0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_195, c_0_58])])).
+cnf(c_0_202, plain, (k1_newton(X1,np__1)=X1|~v1_xcmplx_0(X1)), inference(split_conjunct,[status(thm)],[c_0_196])).
+cnf(c_0_203, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,np__1),np__1)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_197, c_0_198]), c_0_199]), c_0_200]), c_0_201])])])).
+cnf(c_0_204, plain, (k1_newton(X1,np__1)=X1|~v1_xcmplx_0(X1)), inference(evalgc,[status(thm)],[c_0_202])).
+cnf(c_0_205, negated_conjecture, (~v1_xcmplx_0(esk1_0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(spm,[status(thm)],[c_0_203, c_0_204]), c_0_129])])).
+cnf(c_0_206, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_205, c_0_83]), c_0_113])]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 207
+# Proof object clause steps            : 148
+# Proof object formula steps           : 59
+# Proof object conjectures             : 33
+# Proof object clause conjectures      : 30
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 44
+# Proof object initial formulas used   : 34
+# Proof object generating inferences   : 42
+# Proof object simplifying inferences  : 95
+# Training examples: 93 positive, 728 negative
+# Training: Positive examples begin
+cnf(c_0_47, plain, (k1_xboole_0=k6_numbers)).# trainpos
+cnf(c_0_117, plain, (k4_xcmplx_0(np__0)=np__0)).# trainpos
+cnf(c_0_113, negated_conjecture, (v1_xreal_0(esk1_0))).# trainpos
+cnf(c_0_141, negated_conjecture, (v7_ordinal1(esk2_0))).# trainpos
+cnf(c_0_58, plain, (v1_xboole_0(np__0))).# trainpos
+cnf(c_0_129, negated_conjecture, (~r1_xxreal_0(esk1_0,np__1))).# trainpos
+cnf(c_0_124, negated_conjecture, (~r1_xxreal_0(esk2_0,k6_numbers))).# trainpos
+cnf(c_0_146, plain, (v2_xxreal_0(np__1))).# trainpos
+cnf(c_0_179, plain, (v1_xreal_0(X1)|~v7_ordinal1(X1))).# trainpos
+cnf(c_0_140, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk2_0),np__1))).# trainpos
+cnf(c_0_75, plain, (r1_xxreal_0(np__0,np__1))).# trainpos
+cnf(c_0_91, plain, (v1_xxreal_0(X1)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_52, plain, (k4_xcmplx_0(k4_xcmplx_0(np__1))=np__1)).# trainpos
+cnf(c_0_46, plain, (X1=k1_xboole_0|~v1_xboole_0(X1))).# trainpos
+cnf(c_0_199, plain, (k2_xcmplx_0(np__0,np__1)=np__1)).# trainpos
+cnf(c_0_74, plain, (k3_xcmplx_0(np__1,np__1)=np__1)).# trainpos
+cnf(c_0_121, plain, (r1_xxreal_0(np__0,np__0))).# trainpos
+cnf(c_0_184, plain, (~v7_ordinal1(X1)|~v3_xxreal_0(X1))).# trainpos
+cnf(c_0_55, plain, (m1_subset_1(np__1,k1_numbers))).# trainpos
+cnf(c_0_147, plain, (~v3_xxreal_0(X1)|~m1_subset_1(X1,k5_numbers))).# trainpos
+cnf(c_0_200, plain, (m1_subset_1(np__1,k5_numbers))).# trainpos
+cnf(c_0_118, plain, (m1_subset_1(np__0,k1_numbers))).# trainpos
+cnf(c_0_83, plain, (v1_xcmplx_0(X1)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_149, plain, (m1_subset_1(np__0,k5_numbers))).# trainpos
+cnf(c_0_195, plain, (v7_ordinal1(X1)|~v1_xboole_0(X1))).# trainpos
+cnf(c_0_54, plain, (v1_xreal_0(X1)|~m1_subset_1(X1,k1_numbers))).# trainpos
+cnf(c_0_62, plain, (v1_xreal_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_51, plain, (v1_xcmplx_0(k4_xcmplx_0(X1))|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_204, plain, (k1_newton(X1,np__1)=X1|~v1_xcmplx_0(X1))).# trainpos
+cnf(c_0_59, plain, (k3_xcmplx_0(np__1,X1)=X1|~v1_xcmplx_0(X1))).# trainpos
+cnf(c_0_116, plain, (v3_xxreal_0(X1)|~v1_xreal_0(X1)|~v2_xxreal_0(k4_xcmplx_0(X1)))).# trainpos
+cnf(c_0_126, plain, (v1_xreal_0(k1_newton(X1,X2))|~v1_xreal_0(X1)|~v7_ordinal1(X2))).# trainpos
+cnf(c_0_80, plain, (r1_xxreal_0(X1,X3)|~v1_xxreal_0(X3)|~v1_xxreal_0(X2)|~v1_xxreal_0(X1)|~r1_xxreal_0(X2,X3)|~r1_xxreal_0(X1,X2))).# trainpos
+cnf(c_0_161, plain, (v1_xreal_0(k3_xcmplx_0(X1,X2))|~v1_xreal_0(X2)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_144, plain, (v2_xxreal_0(X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(X1)|~r1_xxreal_0(X1,X2))).# trainpos
+cnf(c_0_60, plain, (k3_xcmplx_0(X1,X2)=k3_xcmplx_0(X2,X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).# trainpos
+cnf(c_0_198, plain, (k1_nat_1(X1,X2)=k2_xcmplx_0(X1,X2)|~v7_ordinal1(X1)|~m1_subset_1(X2,k5_numbers))).# trainpos
+cnf(c_0_90, plain, (r1_xxreal_0(X2,X1)|r1_xxreal_0(X1,X2)|~v1_xxreal_0(X2)|~v1_xxreal_0(X1))).# trainpos
+cnf(c_0_181, plain, (v1_xboole_0(X1)|v2_xxreal_0(X2)|v3_xxreal_0(X1)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~r1_xxreal_0(X1,X2))).# trainpos
+cnf(c_0_109, plain, (k1_newton(X2,k1_nat_1(X1,np__1))=k3_xcmplx_0(k1_newton(X2,X1),X2)|~v7_ordinal1(X1)|~v1_xcmplx_0(X2))).# trainpos
+cnf(c_0_150, plain, (v7_ordinal1(esk6_1(X1))|r1_xxreal_0(X2,k6_numbers)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k6_numbers,k6_numbers)|~r1_xxreal_0(k1_newton(X1,X2),np__1))).# trainpos
+cnf(c_0_65, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X3),k3_xcmplx_0(X2,X3))|~v1_xreal_0(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~r1_xxreal_0(X1,X2)|~r1_xxreal_0(k6_numbers,X3))).# trainpos
+cnf(c_0_120, plain, (r1_xxreal_0(X2,k6_numbers)|r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k6_numbers,k6_numbers)|~r1_xxreal_0(k1_newton(X1,X2),np__1))).# trainpos
+cnf(c_0_152, plain, (r1_xxreal_0(X2,k6_numbers)|r1_xxreal_0(esk6_1(X1),k6_numbers)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k6_numbers,k6_numbers)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~r1_xxreal_0(k1_newton(X1,esk6_1(X1)),np__1))).# trainpos
+cnf(c_0_66, plain, (k6_numbers=np__0)).# trainpos
+cnf(c_0_63, plain, (v1_xreal_0(np__1))).# trainpos
+cnf(c_0_201, plain, (v7_ordinal1(np__0))).# trainpos
+cnf(c_0_133, plain, (v1_xreal_0(np__0))).# trainpos
+cnf(c_0_99, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xxreal_0(X1)|~v1_xreal_0(X2))).# trainpos
+cnf(c_0_132, plain, (v3_xxreal_0(np__0)|~v2_xxreal_0(np__0)|~v1_xreal_0(np__0))).# trainpos
+cnf(c_0_69, plain, (k3_xcmplx_0(X1,np__1)=X1|~v1_xcmplx_0(X1)|~v1_xcmplx_0(np__1))).# trainpos
+cnf(c_0_61, plain, (v1_xcmplx_0(np__1)|~v1_xreal_0(k4_xcmplx_0(np__1)))).# trainpos
+cnf(c_0_142, negated_conjecture, (~r1_xxreal_0(esk2_0,np__0))).# trainpos
+cnf(c_0_70, plain, (v1_xcmplx_0(np__1))).# trainpos
+cnf(c_0_73, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k3_xcmplx_0(X3,X2))|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,X3)|~v1_xreal_0(X2)|~v1_xreal_0(X3)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_112, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xreal_0(X1)|~v1_xreal_0(X2))).# trainpos
+cnf(c_0_139, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(X2,np__0)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v7_ordinal1(X2)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_187, plain, (X1=np__0|~v1_xboole_0(X1))).# trainpos
+cnf(c_0_162, plain, (r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(X2,np__0)|~r1_xxreal_0(k1_newton(X1,esk6_1(X1)),np__1)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v7_ordinal1(X2)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_159, plain, (~v2_xxreal_0(np__0))).# trainpos
+cnf(c_0_155, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)),np__1))).# trainpos
+cnf(c_0_128, negated_conjecture, (r1_xxreal_0(X1,esk1_0)|r1_xxreal_0(esk1_0,X1)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_76, plain, (k3_xcmplx_0(X1,np__1)=X1|~v1_xcmplx_0(X1))).# trainpos
+cnf(c_0_153, plain, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,X1)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_81, plain, (r1_xxreal_0(k3_xcmplx_0(X1,np__1),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_96, plain, (r1_xxreal_0(k3_xcmplx_0(X2,X1),k3_xcmplx_0(X3,X2))|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,X3)|~v1_xreal_0(X2)|~v1_xreal_0(X3)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).# trainpos
+cnf(c_0_145, negated_conjecture, (r1_xxreal_0(np__1,esk1_0))).# trainpos
+cnf(c_0_87, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k3_xcmplx_0(X2,np__1))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k3_xcmplx_0(X2,np__1))|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2))).# trainpos
+cnf(c_0_158, negated_conjecture, (v2_xxreal_0(esk1_0))).# trainpos
+cnf(c_0_160, plain, (r1_xxreal_0(X1,np__0)|v7_ordinal1(esk6_1(X2))|~r1_xxreal_0(k1_newton(X2,X1),np__1)|~v7_ordinal1(X1)|~v1_xreal_0(X2))).# trainpos
+cnf(c_0_167, negated_conjecture, (v7_ordinal1(esk6_1(esk1_0)))).# trainpos
+cnf(c_0_82, plain, (r1_xxreal_0(X1,k3_xcmplx_0(X2,np__1))|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).# trainpos
+cnf(c_0_125, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k1_newton(X1,k1_nat_1(X3,np__1)))|~r1_xxreal_0(np__0,X1)|~r1_xxreal_0(X2,k1_newton(X1,X3))|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(X1,X3))|~v1_xreal_0(X2)|~v1_xcmplx_0(X1)|~v7_ordinal1(X3))).# trainpos
+cnf(c_0_183, negated_conjecture, (v1_xreal_0(esk6_1(esk1_0)))).# trainpos
+cnf(c_0_156, plain, (r1_xxreal_0(X1,k1_newton(X1,k1_nat_1(X2,np__1)))|~r1_xxreal_0(np__1,k1_newton(X1,X2))|~r1_xxreal_0(np__0,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).# trainpos
+cnf(c_0_157, negated_conjecture, (r1_xxreal_0(esk1_0,np__0)|r1_xxreal_0(np__0,esk1_0))).# trainpos
+cnf(c_0_166, negated_conjecture, (r1_xxreal_0(np__0,esk1_0))).# trainpos
+cnf(c_0_163, plain, (r1_xxreal_0(np__1,k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),np__1)|~v7_ordinal1(X2)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_94, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(k3_xcmplx_0(X2,np__1))|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_168, plain, (v1_xreal_0(k1_newton(X1,k1_nat_1(X2,np__1)))|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(X1,X2))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).# trainpos
+cnf(c_0_119, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(X2)|~v1_xxreal_0(np__1)|~r1_xxreal_0(X2,np__1)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2))).# trainpos
+cnf(c_0_154, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X2,np__1)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_164, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(X1))).# trainpos
+cnf(c_0_172, negated_conjecture, (~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0))))).# trainpos
+cnf(c_0_178, negated_conjecture, (~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0))))).# trainpos
+cnf(c_0_171, plain, (r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(X2,np__0)|r1_xxreal_0(np__1,k1_newton(X1,esk6_1(X1)))|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v7_ordinal1(esk6_1(X1)))).# trainpos
+cnf(c_0_182, negated_conjecture, (r1_xxreal_0(esk6_1(esk1_0),np__0))).# trainpos
+cnf(c_0_185, negated_conjecture, (v3_xxreal_0(esk6_1(esk1_0))|v1_xboole_0(esk6_1(esk1_0)))).# trainpos
+cnf(c_0_188, negated_conjecture, (v1_xboole_0(esk6_1(esk1_0)))).# trainpos
+cnf(c_0_191, negated_conjecture, (esk6_1(esk1_0)=np__0)).# trainpos
+cnf(c_0_197, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,k1_nat_1(np__0,np__1)),np__1))).# trainpos
+cnf(c_0_203, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,np__1),np__1))).# trainpos
+cnf(c_0_205, negated_conjecture, (~v1_xcmplx_0(esk1_0))).# trainpos
+# Training: Positive examples end
+# Training: Negative examples begin
+cnf(i_0_14, plain, (k4_ordinal1=k5_numbers)).#trainneg
+cnf(i_0_50, plain, (v1_xreal_0(esk3_0))).#trainneg
+cnf(i_0_170, plain, (v1_xreal_0(esk9_0))).#trainneg
+cnf(i_0_176, plain, (v1_xreal_0(esk10_0))).#trainneg
+cnf(i_0_140, plain, (v7_ordinal1(esk7_0))).#trainneg
+cnf(i_0_195, plain, (v7_ordinal1(esk13_0))).#trainneg
+cnf(i_0_35, plain, (v1_xboole_0(k1_xboole_0))).#trainneg
+cnf(i_0_53, plain, (v1_xboole_0(esk3_0))).#trainneg
+cnf(i_0_32, plain, (~r1_xxreal_0(np__1,np__0))).#trainneg
+cnf(i_0_70, plain, (v1_xboole_0(esk4_0))).#trainneg
+cnf(i_0_175, plain, (m2_subset_1(k6_numbers,k1_numbers,k5_numbers))).#trainneg
+cnf(i_0_96, plain, (~v1_xboole_0(np__1))).#trainneg
+cnf(i_0_60, plain, (~v1_xboole_0(k4_ordinal1))).#trainneg
+cnf(i_0_41, plain, (r1_xxreal_0(np__1,np__1))).#trainneg
+cnf(i_0_113, plain, (v1_xboole_0(esk5_0))).#trainneg
+cnf(i_0_51, plain, (v1_xxreal_0(esk3_0))).#trainneg
+cnf(i_0_69, plain, (v1_xxreal_0(esk4_0))).#trainneg
+cnf(i_0_161, plain, (v1_xxreal_0(esk8_0))).#trainneg
+cnf(i_0_172, plain, (v1_xxreal_0(esk9_0))).#trainneg
+cnf(i_0_178, plain, (v1_xxreal_0(esk10_0))).#trainneg
+cnf(i_0_192, plain, (v1_xxreal_0(esk12_0))).#trainneg
+cnf(i_0_160, plain, (v3_xxreal_0(esk8_0))).#trainneg
+cnf(i_0_177, plain, (v3_xxreal_0(esk10_0))).#trainneg
+cnf(i_0_52, plain, (v1_xcmplx_0(esk3_0))).#trainneg
+cnf(i_0_171, plain, (v1_xcmplx_0(esk9_0))).#trainneg
+cnf(i_0_179, plain, (v1_xcmplx_0(esk10_0))).#trainneg
+cnf(i_0_59, plain, (v3_ordinal1(k4_ordinal1))).#trainneg
+cnf(i_0_169, plain, (v1_int_1(esk9_0))).#trainneg
+cnf(i_0_141, plain, (~v1_xboole_0(esk7_0))).#trainneg
+cnf(i_0_162, plain, (~r1_xxreal_0(np__1,k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_94, plain, (~v1_finset_1(k4_ordinal1))).#trainneg
+cnf(i_0_11, plain, (m2_subset_1(np__1,k1_numbers,k5_numbers))).#trainneg
+cnf(i_0_163, plain, (~r1_xxreal_0(np__0,k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_22, plain, (v1_xxreal_0(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_190, plain, (v4_finsub_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_61, plain, (k2_xcmplx_0(np__1,np__0)=np__1)).#trainneg
+cnf(i_0_114, plain, (k2_xcmplx_0(np__0,np__0)=np__0)).#trainneg
+cnf(i_0_119, plain, (k3_xcmplx_0(np__1,np__0)=np__0)).#trainneg
+cnf(i_0_97, plain, (k3_xcmplx_0(np__0,np__1)=np__0)).#trainneg
+cnf(i_0_98, plain, (k3_xcmplx_0(np__0,np__0)=np__0)).#trainneg
+cnf(i_0_106, plain, (k6_xcmplx_0(np__1,np__1)=np__0)).#trainneg
+cnf(i_0_157, plain, (k6_xcmplx_0(np__1,np__0)=np__1)).#trainneg
+cnf(i_0_189, plain, (k6_xcmplx_0(np__0,np__0)=np__0)).#trainneg
+cnf(i_0_73, plain, (v1_xreal_0(X1)|~v1_int_1(X1))).#trainneg
+cnf(i_0_30, plain, (m2_subset_1(np__0,k1_numbers,k5_numbers))).#trainneg
+cnf(i_0_31, plain, (m1_subset_1(k1_xboole_0,k4_ordinal1))).#trainneg
+cnf(i_0_201, plain, (v3_ordinal1(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_173, plain, (m1_subset_1(esk9_0,k1_numbers))).#trainneg
+cnf(i_0_135, plain, (r1_tarski(X1,X1))).#trainneg
+cnf(i_0_123, plain, (k6_xcmplx_0(np__0,np__1)=k4_xcmplx_0(np__1))).#trainneg
+cnf(i_0_101, plain, (k2_xcmplx_0(np__1,k4_xcmplx_0(np__1))=np__0)).#trainneg
+cnf(i_0_126, plain, (k2_xcmplx_0(k4_xcmplx_0(np__1),np__1)=np__0)).#trainneg
+cnf(i_0_44, plain, (m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_199, plain, (r1_xxreal_0(k4_xcmplx_0(np__1),np__1))).#trainneg
+cnf(i_0_156, plain, (r1_xxreal_0(k4_xcmplx_0(np__1),np__0))).#trainneg
+cnf(i_0_188, plain, (m1_subset_1(esk11_1(X1),X1))).#trainneg
+cnf(i_0_144, plain, (v3_ordinal1(X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_64, plain, (v1_int_1(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_15, plain, (v7_ordinal1(X1)|~m1_subset_1(X1,k4_ordinal1))).#trainneg
+cnf(i_0_194, plain, (k2_xcmplx_0(np__0,k4_xcmplx_0(np__1))=k4_xcmplx_0(np__1))).#trainneg
+cnf(i_0_21, plain, (~v1_xboole_0(X1)|~v2_xxreal_0(X1)|~v1_xxreal_0(X1))).#trainneg
+cnf(i_0_110, plain, (v1_finset_1(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_166, plain, (v1_xboole_0(X1)|~v3_card_1(X1,k1_xboole_0))).#trainneg
+cnf(i_0_164, plain, (k2_xcmplx_0(k4_xcmplx_0(np__1),np__0)=k4_xcmplx_0(np__1))).#trainneg
+cnf(i_0_155, plain, (~v1_xboole_0(X2)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_180, plain, (v1_card_1(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_111, plain, (v1_finset_1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_174, plain, (v1_card_1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_204, plain, (v5_ordinal1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_92, plain, (v1_xcmplx_0(k4_xcmplx_0(X1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_90, plain, (v1_xcmplx_0(k4_xcmplx_0(X1))|~v1_int_1(X1))).#trainneg
+cnf(i_0_89, plain, (v1_int_1(k4_xcmplx_0(X1))|~v1_int_1(X1))).#trainneg
+cnf(i_0_91, plain, (k4_xcmplx_0(k4_xcmplx_0(X1))=X1|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_54, plain, (k3_xcmplx_0(X1,k6_numbers)=k6_numbers|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_72, plain, (k2_xcmplx_0(X1,k6_numbers)=X1|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_191, plain, (k6_xcmplx_0(X1,k6_numbers)=X1|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_99, plain, (v1_finset_1(X1)|~m1_subset_1(X1,k4_ordinal1))).#trainneg
+cnf(i_0_74, plain, (v7_ordinal1(X1)|~v3_ordinal1(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_56, plain, (r1_xxreal_0(X1,X1)|~v1_xxreal_0(X2)|~v1_xxreal_0(X1))).#trainneg
+cnf(i_0_58, plain, (X1=X2|~v1_xboole_0(X2)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_79, plain, (~v1_xboole_0(X1)|~v1_xxreal_0(X1)|~v3_xxreal_0(X1))).#trainneg
+cnf(i_0_19, plain, (~v2_xxreal_0(X1)|~v1_xxreal_0(X1)|~v3_xxreal_0(X1))).#trainneg
+cnf(i_0_83, plain, (v1_xboole_0(X1)|v2_xxreal_0(X1)|v3_xxreal_0(X1)|~v1_xxreal_0(X1))).#trainneg
+cnf(i_0_62, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_122, plain, (k3_xcmplx_0(X1,k4_xcmplx_0(np__1))=k4_xcmplx_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_185, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_186, plain, (r1_tarski(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_117, plain, (v2_xxreal_0(X1)|~v1_xreal_0(X1)|~v3_xxreal_0(k4_xcmplx_0(X1)))).#trainneg
+cnf(i_0_184, plain, (v3_ordinal1(X2)|~v3_ordinal1(X1)|~m1_subset_1(X2,X1))).#trainneg
+cnf(i_0_120, plain, (v1_xboole_0(X2)|r2_hidden(X1,X2)|~m1_subset_1(X1,X2))).#trainneg
+cnf(i_0_183, plain, (v1_finset_1(X2)|~v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_116, plain, (v1_xreal_0(k2_xcmplx_0(X1,X2))|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_137, plain, (~v1_xboole_0(X3)|~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_132, plain, (r1_xxreal_0(X2,k6_numbers)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k6_numbers,k6_numbers)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~r1_xxreal_0(k1_nat_1(esk6_1(X1),np__1),k6_numbers))).#trainneg
+cnf(i_0_39, plain, (v2_xxreal_0(X1)|v3_xxreal_0(X2)|r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_181, plain, (v1_xboole_0(X2)|~v7_ordinal1(X2)|~v7_ordinal1(X1)|~v1_xboole_0(k2_xcmplx_0(X2,X1)))).#trainneg
+cnf(i_0_182, plain, (v1_xboole_0(X2)|~v7_ordinal1(X2)|~v7_ordinal1(X1)|~v1_xboole_0(k2_xcmplx_0(X1,X2)))).#trainneg
+cnf(i_0_42, plain, (v7_ordinal1(k1_newton(X1,X2))|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_68, plain, (v1_xcmplx_0(k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_71, plain, (k2_xcmplx_0(X1,X2)=k2_xcmplx_0(X2,X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_107, plain, (v1_xreal_0(k6_xcmplx_0(X1,X2))|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_57, plain, (v7_ordinal1(k2_xcmplx_0(X1,X2))|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_108, plain, (v7_ordinal1(k3_xcmplx_0(X1,X2))|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_143, plain, (v1_int_1(k2_xcmplx_0(X1,X2))|~v1_int_1(X2)|~v1_int_1(X1))).#trainneg
+cnf(i_0_167, plain, (v1_int_1(k3_xcmplx_0(X1,X2))|~v1_int_1(X2)|~v1_int_1(X1))).#trainneg
+cnf(i_0_109, plain, (v1_int_1(k6_xcmplx_0(X1,X2))|~v1_int_1(X2)|~v1_int_1(X1))).#trainneg
+cnf(i_0_121, plain, (k2_xcmplx_0(X1,k4_xcmplx_0(X2))=k6_xcmplx_0(X1,X2)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_43, plain, (k1_nat_1(X1,X2)=k1_nat_1(X2,X1)|~v7_ordinal1(X1)|~m1_subset_1(X2,k5_numbers))).#trainneg
+cnf(i_0_102, plain, (m1_subset_1(X1,X3)|~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_158, plain, (v3_xxreal_0(X1)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v3_xxreal_0(X2)|~r1_xxreal_0(X1,X2))).#trainneg
+cnf(i_0_93, plain, (m2_subset_1(k1_nat_1(X1,X2),k1_numbers,k5_numbers)|~v7_ordinal1(X1)|~m1_subset_1(X2,k5_numbers))).#trainneg
+cnf(i_0_128, plain, (r1_xxreal_0(X2,k6_numbers)|r1_xxreal_0(k1_newton(X1,k6_numbers),np__1)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~r1_xxreal_0(k1_nat_1(esk6_1(X1),np__1),k6_numbers))).#trainneg
+cnf(i_0_142, plain, (v2_xxreal_0(X2)|v2_xxreal_0(X1)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(k2_xcmplx_0(X1,X2)))).#trainneg
+cnf(i_0_136, plain, (v2_xxreal_0(X2)|v2_xxreal_0(X1)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v3_xxreal_0(k3_xcmplx_0(X1,X2)))).#trainneg
+cnf(i_0_200, plain, (v2_xxreal_0(X2)|v3_xxreal_0(X1)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(k6_xcmplx_0(X2,X1)))).#trainneg
+cnf(i_0_81, plain, (v1_xboole_0(X2)|v2_xxreal_0(X2)|v3_xxreal_0(X1)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~r1_xxreal_0(X1,X2))).#trainneg
+cnf(i_0_193, plain, (v2_xxreal_0(X2)|v2_xxreal_0(k6_xcmplx_0(X1,X2))|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(X1))).#trainneg
+cnf(i_0_187, plain, (v2_xxreal_0(X2)|v3_xxreal_0(k6_xcmplx_0(X2,X1))|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(X1))).#trainneg
+cnf(i_0_138, plain, (v3_xxreal_0(X2)|v2_xxreal_0(k2_xcmplx_0(X2,X1))|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(X1))).#trainneg
+cnf(i_0_139, plain, (v3_xxreal_0(X2)|v2_xxreal_0(k2_xcmplx_0(X1,X2))|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(X1))).#trainneg
+cnf(i_0_124, plain, (v2_xxreal_0(X1)|v3_xxreal_0(X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(k3_xcmplx_0(X2,X1)))).#trainneg
+cnf(i_0_125, plain, (v2_xxreal_0(X1)|v3_xxreal_0(X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v2_xxreal_0(k3_xcmplx_0(X1,X2)))).#trainneg
+cnf(i_0_165, plain, (k2_xcmplx_0(k2_xcmplx_0(X1,X2),X3)=k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3))|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_105, plain, (k3_xcmplx_0(k3_xcmplx_0(X1,X2),X3)=k3_xcmplx_0(X1,k3_xcmplx_0(X2,X3))|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_103, plain, (v1_xboole_0(X3)|v1_xboole_0(X2)|m2_subset_1(X1,X3,X2)|~m1_subset_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_104, plain, (v1_xboole_0(X3)|v1_xboole_0(X2)|m1_subset_1(X1,X3)|~m2_subset_1(X1,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_112, plain, (v1_xboole_0(X2)|v1_xboole_0(X1)|m1_subset_1(X3,X1)|~m2_subset_1(X3,X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_168, plain, (k2_xcmplx_0(k3_xcmplx_0(X1,X3),k3_xcmplx_0(X2,X3))=k3_xcmplx_0(k2_xcmplx_0(X1,X2),X3)|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_130, plain, (v7_ordinal1(esk6_1(X1))|r1_xxreal_0(X2,k6_numbers)|r1_xxreal_0(k1_newton(X1,k6_numbers),np__1)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k1_newton(X1,X2),np__1))).#trainneg
+cnf(i_0_127, plain, (r1_xxreal_0(X2,k6_numbers)|r1_xxreal_0(k1_newton(X1,k6_numbers),np__1)|r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k1_newton(X1,X2),np__1))).#trainneg
+cnf(i_0_129, plain, (r1_xxreal_0(X2,k6_numbers)|r1_xxreal_0(esk6_1(X1),k6_numbers)|r1_xxreal_0(k1_newton(X1,k6_numbers),np__1)|~v1_xreal_0(X1)|~v7_ordinal1(X2)|~r1_xxreal_0(k1_newton(X1,X2),np__1)|~r1_xxreal_0(k1_newton(X1,esk6_1(X1)),np__1))).#trainneg
+cnf(i_0_212, plain, (~v7_ordinal1(esk10_0))).#trainneg
+cnf(i_0_213, plain, (~v7_ordinal1(esk8_0))).#trainneg
+cnf(i_0_207, negated_conjecture, (v1_xreal_0(esk2_0))).#trainneg
+cnf(i_0_221, plain, (v7_ordinal1(k6_numbers))).#trainneg
+cnf(i_0_205, plain, (v1_xreal_0(esk13_0))).#trainneg
+cnf(i_0_206, plain, (v1_xreal_0(esk7_0))).#trainneg
+cnf(i_0_229, plain, (v7_ordinal1(np__1))).#trainneg
+cnf(i_0_340, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k1_newton(esk1_0,esk2_0))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_219, plain, (v7_ordinal1(esk3_0))).#trainneg
+cnf(i_0_379, plain, (v1_xreal_0(k1_newton(X1,X2))|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_217, plain, (v7_ordinal1(esk5_0))).#trainneg
+cnf(i_0_264, plain, (r1_xxreal_0(X1,X1)|~v1_xxreal_0(X1))).#trainneg
+cnf(i_0_274, plain, (X1=esk3_0|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_218, plain, (v7_ordinal1(esk4_0))).#trainneg
+cnf(i_0_313, plain, (v3_ordinal1(np__0))).#trainneg
+cnf(i_0_239, plain, (~v7_ordinal1(k5_numbers))).#trainneg
+cnf(i_0_223, plain, (v1_xreal_0(esk11_1(k1_numbers)))).#trainneg
+cnf(i_0_302, plain, (r1_tarski(k5_numbers,k1_numbers))).#trainneg
+cnf(i_0_235, plain, (~v2_xxreal_0(esk4_0))).#trainneg
+cnf(i_0_236, plain, (~v2_xxreal_0(esk3_0))).#trainneg
+cnf(i_0_315, plain, (v3_ordinal1(np__1))).#trainneg
+cnf(i_0_227, plain, (v7_ordinal1(esk11_1(k5_numbers)))).#trainneg
+cnf(i_0_242, plain, (v3_ordinal1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_272, plain, (X1=esk5_0|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_493, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xxreal_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_557, plain, (k1_newton(X1,k1_nat_1(X2,np__1))=k3_xcmplx_0(X1,k1_newton(X1,X2))|~v1_xcmplx_0(X1)|~v1_xcmplx_0(k1_newton(X1,X2))|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_246, plain, (v1_xcmplx_0(np__0)|~v1_xreal_0(np__0))).#trainneg
+cnf(i_0_273, plain, (X1=esk4_0|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_339, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(np__0)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,np__0))).#trainneg
+cnf(i_0_255, plain, (v1_xreal_0(X1)|~v1_xreal_0(k4_xcmplx_0(X1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_311, plain, (v3_ordinal1(esk9_0)|~v3_ordinal1(k1_numbers))).#trainneg
+cnf(i_0_362, plain, (~v7_ordinal1(np__1)|~v7_ordinal1(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_278, plain, (~v1_xboole_0(esk10_0))).#trainneg
+cnf(i_0_299, plain, (v3_xxreal_0(X1)|v2_xxreal_0(X1)|v1_xboole_0(X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_300, plain, (v3_xxreal_0(X1)|v2_xxreal_0(X1)|v1_xboole_0(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_247, plain, (v1_xcmplx_0(np__1)|~v1_xcmplx_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_282, plain, (~v3_xxreal_0(esk3_0))).#trainneg
+cnf(i_0_570, plain, (k3_xcmplx_0(k1_newton(X1,X2),X1)=k1_newton(X1,k2_xcmplx_0(X2,np__1))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_569, plain, (k1_newton(X1,k1_nat_1(np__1,X2))=k3_xcmplx_0(k1_newton(X1,X2),X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_765, plain, (esk3_0=np__0)).#trainneg
+cnf(i_0_747, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk2_0))|~v1_xreal_0(k1_newton(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_748, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk2_0))|~v7_ordinal1(k1_newton(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_754, plain, (v1_xreal_0(esk5_0))).#trainneg
+cnf(i_0_766, plain, (v1_xreal_0(esk4_0))).#trainneg
+cnf(i_0_6, plain, (k1_xboole_0=np__0)).#trainneg
+cnf(i_0_132, plain, (r1_xxreal_0(X1,np__0)|~r1_xxreal_0(k1_nat_1(esk6_1(X2),np__1),np__0)|~r1_xxreal_0(k1_newton(X2,X1),np__1)|~v7_ordinal1(X1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_249, plain, (v1_xcmplx_0(np__1)|~v1_int_1(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_770, plain, (esk5_0=esk4_0)).#trainneg
+cnf(i_0_280, plain, (~v1_xboole_0(esk8_0))).#trainneg
+cnf(i_0_281, plain, (~v3_xxreal_0(esk4_0))).#trainneg
+cnf(i_0_762, plain, (r1_xxreal_0(X1,X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_251, plain, (v1_xreal_0(k4_xcmplx_0(X1))|~v1_int_1(X1))).#trainneg
+cnf(i_0_252, plain, (v1_int_1(np__1)|~v1_int_1(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_761, plain, (r1_xxreal_0(X1,X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_780, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v1_xreal_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_788, plain, (r1_xxreal_0(X1,X2)|r1_xxreal_0(X2,X1)|~v7_ordinal1(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_72, plain, (k2_xcmplx_0(X1,np__0)=X1|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_810, plain, (k3_xcmplx_0(X1,k1_newton(X1,X2))=k1_newton(X1,k2_xcmplx_0(X2,np__1))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_814, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,np__0))).#trainneg
+cnf(i_0_755, plain, (r1_xxreal_0(esk12_0,esk12_0))).#trainneg
+cnf(i_0_813, plain, (esk4_0=np__0)).#trainneg
+cnf(i_0_254, plain, (v1_int_1(X1)|~v1_int_1(k4_xcmplx_0(X1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_756, plain, (r1_xxreal_0(esk10_0,esk10_0))).#trainneg
+cnf(i_0_286, plain, (~v2_xxreal_0(esk10_0))).#trainneg
+cnf(i_0_288, plain, (~v2_xxreal_0(esk8_0))).#trainneg
+cnf(i_0_352, negated_conjecture, (v3_xxreal_0(esk1_0)|v2_xxreal_0(X1)|r1_xxreal_0(X1,esk1_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_741, negated_conjecture, (v3_xxreal_0(esk2_0)|v2_xxreal_0(X1)|r1_xxreal_0(X1,esk2_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_293, plain, (v3_xxreal_0(esk12_0)|v2_xxreal_0(esk12_0)|v1_xboole_0(esk12_0))).#trainneg
+cnf(i_0_881, plain, (k3_xcmplx_0(X1,k1_newton(X1,X2))=k1_newton(X1,k1_nat_1(np__1,X2))|~v1_xcmplx_0(k1_newton(X1,X2))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_884, plain, (k1_newton(X1,k1_nat_1(X2,np__1))=k1_newton(X1,k1_nat_1(np__1,X2))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_868, plain, (k1_newton(X1,k1_nat_1(X2,np__1))=k1_newton(X1,k2_xcmplx_0(X2,np__1))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_665, plain, (m1_subset_1(X1,X2)|v1_xboole_0(X3)|v1_xboole_0(X2)|~m2_subset_1(X1,X3,X2)|~r1_tarski(X2,X3))).#trainneg
+cnf(i_0_1037, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,np__0))).#trainneg
+cnf(i_0_915, negated_conjecture, (r1_xxreal_0(esk2_0,esk2_0))).#trainneg
+cnf(i_0_770, plain, (esk5_0=np__0)).#trainneg
+cnf(i_0_282, plain, (~v3_xxreal_0(np__0))).#trainneg
+cnf(i_0_295, plain, (v3_xxreal_0(esk9_0)|v2_xxreal_0(esk9_0)|v1_xboole_0(esk9_0))).#trainneg
+cnf(i_0_757, plain, (r1_xxreal_0(esk9_0,esk9_0))).#trainneg
+cnf(i_0_322, plain, (~v1_finset_1(k1_numbers))).#trainneg
+cnf(i_0_1060, negated_conjecture, (v3_xxreal_0(esk1_0)|v2_xxreal_0(esk2_0)|r1_xxreal_0(esk2_0,esk1_0))).#trainneg
+cnf(i_0_1061, negated_conjecture, (v3_xxreal_0(esk1_0)|v2_xxreal_0(esk1_0)|r1_xxreal_0(esk1_0,esk1_0))).#trainneg
+cnf(i_0_301, plain, (r1_tarski(esk11_1(k1_zfmisc_1(X1)),X1))).#trainneg
+cnf(i_0_304, plain, (v2_xxreal_0(k4_xcmplx_0(np__1))|~v3_xxreal_0(np__1)|~v1_xreal_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_901, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk2_0))|~v7_ordinal1(esk1_0))).#trainneg
+cnf(i_0_51, plain, (v1_xxreal_0(np__0))).#trainneg
+cnf(i_0_906, plain, (r1_xxreal_0(X1,np__0)|~r1_xxreal_0(k2_xcmplx_0(esk6_1(X2),np__1),np__0)|~r1_xxreal_0(k1_newton(X2,X1),np__1)|~v7_ordinal1(X1)|~v1_xreal_0(X2)|~v7_ordinal1(esk6_1(X2)))).#trainneg
+cnf(i_0_904, plain, (r1_xxreal_0(X1,np__0)|~r1_xxreal_0(k1_nat_1(np__1,esk6_1(X2)),np__0)|~r1_xxreal_0(k1_newton(X2,X1),np__1)|~v7_ordinal1(X1)|~v1_xreal_0(X2)|~m1_subset_1(esk6_1(X2),k5_numbers))).#trainneg
+cnf(i_0_905, plain, (r1_xxreal_0(X1,np__0)|~r1_xxreal_0(k1_nat_1(np__1,esk6_1(X2)),np__0)|~r1_xxreal_0(k1_newton(X2,X1),np__1)|~v7_ordinal1(X1)|~v1_xreal_0(X2)|~v7_ordinal1(esk6_1(X2)))).#trainneg
+cnf(i_0_1003, plain, (k2_xcmplx_0(np__0,X1)=X1|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_972, negated_conjecture, (r1_xxreal_0(X1,esk2_0)|r1_xxreal_0(esk2_0,X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_758, plain, (r1_xxreal_0(esk8_0,esk8_0))).#trainneg
+cnf(i_0_839, plain, (v2_xxreal_0(esk7_0))).#trainneg
+cnf(i_0_305, plain, (v2_xxreal_0(k4_xcmplx_0(X1))|~v3_xxreal_0(X1)|~v1_xreal_0(k4_xcmplx_0(X1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_911, plain, (r1_xxreal_0(esk13_0,esk13_0))).#trainneg
+cnf(i_0_215, plain, (~m1_subset_1(esk10_0,k5_numbers))).#trainneg
+cnf(i_0_1076, negated_conjecture, (v3_xxreal_0(esk2_0)|v2_xxreal_0(esk1_0)|r1_xxreal_0(esk1_0,esk2_0))).#trainneg
+cnf(i_0_307, plain, (v3_xxreal_0(k4_xcmplx_0(np__1))|~v1_xreal_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_1035, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_996, negated_conjecture, (r1_xxreal_0(X1,esk2_0)|r1_xxreal_0(esk2_0,X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_1001, plain, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_933, plain, (r1_xxreal_0(X1,k3_xcmplx_0(X2,X3))|~v1_xxreal_0(k3_xcmplx_0(X2,X3))|~v1_xxreal_0(k3_xcmplx_0(X4,X3))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k3_xcmplx_0(X4,X3))|~r1_xxreal_0(np__0,X3)|~r1_xxreal_0(X4,X2)|~v1_xreal_0(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X4))).#trainneg
+cnf(i_0_945, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k3_xcmplx_0(X2,X3))|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,X3)|~v1_xreal_0(X2)|~v1_xreal_0(X3)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X3))).#trainneg
+cnf(i_0_769, plain, (v1_xreal_0(esk11_1(k5_numbers)))).#trainneg
+cnf(i_0_446, plain, (v1_int_1(np__0)|~v1_int_1(np__1))).#trainneg
+cnf(i_0_308, plain, (v3_xxreal_0(k4_xcmplx_0(X1))|~v2_xxreal_0(X1)|~v1_xreal_0(k4_xcmplx_0(X1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_913, plain, (r1_xxreal_0(esk7_0,esk7_0))).#trainneg
+cnf(i_0_216, plain, (~m1_subset_1(esk8_0,k5_numbers))).#trainneg
+cnf(i_0_260, plain, (~m1_subset_1(k5_numbers,k5_numbers))).#trainneg
+cnf(i_0_310, plain, (v3_ordinal1(esk11_1(X1))|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_1034, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(k1_nat_1(X2,np__1),np__0)|~r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X1,X2)),np__1)|~v7_ordinal1(k1_nat_1(X2,np__1))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_955, plain, (r1_xxreal_0(X1,k3_xcmplx_0(X2,X1))|~r1_xxreal_0(np__0,X1)|~r1_xxreal_0(np__1,X2)|~v1_xreal_0(X1)|~v1_xreal_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_1179, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,np__0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1235, negated_conjecture, (r1_xxreal_0(esk1_0,esk1_0))).#trainneg
+cnf(i_0_1175, plain, (r1_xxreal_0(esk12_0,np__1)|~r1_xxreal_0(esk12_0,np__0))).#trainneg
+cnf(i_0_1196, plain, (~v7_ordinal1(k1_numbers))).#trainneg
+cnf(i_0_1182, negated_conjecture, (v3_xxreal_0(esk2_0)|v2_xxreal_0(esk2_0)|v1_xboole_0(esk2_0))).#trainneg
+cnf(i_0_318, plain, (v3_ordinal1(X1)|~v3_ordinal1(k1_zfmisc_1(X2))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_321, plain, (v1_finset_1(esk11_1(k1_zfmisc_1(X1)))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_1283, negated_conjecture, (r1_xxreal_0(np__0,esk2_0))).#trainneg
+cnf(i_0_1207, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1))))).#trainneg
+cnf(i_0_1329, plain, (r1_xxreal_0(k1_newton(X1,k2_xcmplx_0(esk6_1(X1),np__1)),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1)|~v7_ordinal1(esk6_1(X1)))).#trainneg
+cnf(i_0_1180, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,np__0)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_1457, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,X2),X3),k1_newton(X1,k1_nat_1(X2,np__1)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X3,X1)|~v1_xreal_0(k1_newton(X1,X2))|~v1_xreal_0(X1)|~v1_xreal_0(X3)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_1392, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X2,X3)),k1_newton(X2,k1_nat_1(X3,np__1)))|~r1_xxreal_0(np__0,k1_newton(X2,X3))|~r1_xxreal_0(X1,X2)|~v1_xreal_0(k1_newton(X2,X3))|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2)|~v7_ordinal1(X3))).#trainneg
+cnf(i_0_1399, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k1_newton(X2,k1_nat_1(X3,np__1)))|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,k1_newton(X2,X3))|~v1_xreal_0(X2)|~v1_xreal_0(k1_newton(X2,X3))|~v1_xreal_0(X1)|~v1_xcmplx_0(X2)|~v7_ordinal1(X3))).#trainneg
+cnf(i_0_921, plain, (v1_xreal_0(k4_xcmplx_0(esk9_0)))).#trainneg
+cnf(i_0_323, plain, (v1_finset_1(X1)|~v1_finset_1(X2)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_1176, plain, (r1_xxreal_0(esk10_0,np__1)|~r1_xxreal_0(esk10_0,np__0))).#trainneg
+cnf(i_0_1197, plain, (~v1_xboole_0(k1_numbers))).#trainneg
+cnf(i_0_1234, negated_conjecture, (r1_xxreal_0(esk1_0,esk2_0)|r1_xxreal_0(esk2_0,esk1_0))).#trainneg
+cnf(i_0_336, plain, (r1_xxreal_0(X1,np__0)|~v1_xxreal_0(np__0)|~v1_xxreal_0(k4_xcmplx_0(np__1))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_337, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k4_xcmplx_0(np__1))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_1330, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,esk6_1(X1)),X1),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(esk6_1(X1)))).#trainneg
+cnf(i_0_1325, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_1508, plain, (r1_xxreal_0(k1_newton(X1,X2),k1_newton(X1,k1_nat_1(X2,np__1)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(np__1,X1)|~v1_xreal_0(k1_newton(X1,X2))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_942, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),X2)|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_1096, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(k1_nat_1(np__1,X2),np__0)|~r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X1,X2)),np__1)|~v7_ordinal1(k1_nat_1(np__1,X2))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_1387, plain, (r1_xxreal_0(X1,k3_xcmplx_0(X2,X3))|~v1_xxreal_0(k3_xcmplx_0(X2,X3))|~v1_xxreal_0(k3_xcmplx_0(X4,X2))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k3_xcmplx_0(X4,X2))|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X4,X3)|~v1_xreal_0(X2)|~v1_xreal_0(X3)|~v1_xreal_0(X4))).#trainneg
+cnf(i_0_1527, negated_conjecture, (~v3_xxreal_0(esk2_0))).#trainneg
+cnf(i_0_1561, plain, (r1_xxreal_0(k1_newton(X1,X2),np__1)|~r1_xxreal_0(k1_newton(X1,X2),np__0)|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_1577, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,X2),X3),k1_newton(X1,k2_xcmplx_0(X2,np__1)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X3,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xreal_0(X3)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_926, plain, (v1_xreal_0(k4_xcmplx_0(X1))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_1177, plain, (r1_xxreal_0(esk9_0,np__1)|~r1_xxreal_0(esk9_0,np__0))).#trainneg
+cnf(i_0_350, plain, (v3_xxreal_0(esk9_0)|v2_xxreal_0(X1)|r1_xxreal_0(X1,esk9_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_353, plain, (v3_xxreal_0(k4_xcmplx_0(X1))|v2_xxreal_0(X2)|r1_xxreal_0(X2,k4_xcmplx_0(X1))|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1531, negated_conjecture, (r1_xxreal_0(X1,esk2_0)|~v1_xxreal_0(esk2_0)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,np__0))).#trainneg
+cnf(i_0_1603, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X2,X3)),k1_newton(X2,k2_xcmplx_0(X3,np__1)))|~r1_xxreal_0(np__0,k1_newton(X2,X3))|~r1_xxreal_0(X1,X2)|~v7_ordinal1(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1716, plain, (r1_xxreal_0(k1_newton(X1,X2),k3_xcmplx_0(k1_newton(X1,X2),X1))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(np__1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_1545, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v7_ordinal1(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1))))).#trainneg
+cnf(i_0_1636, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k1_newton(X2,k2_xcmplx_0(X3,np__1)))|~r1_xxreal_0(X1,k1_newton(X2,X3))|~r1_xxreal_0(np__0,X2)|~v7_ordinal1(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1595, plain, (r1_xxreal_0(k1_newton(X1,k2_xcmplx_0(X2,np__1)),k1_newton(X1,k1_nat_1(X2,np__1)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_1544, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1))))).#trainneg
+cnf(i_0_936, plain, (r1_xxreal_0(k3_xcmplx_0(X1,np__1),np__0)|~r1_xxreal_0(X1,np__0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1454, plain, (r1_xxreal_0(k3_xcmplx_0(np__1,X1),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_912, plain, (r1_xxreal_0(esk11_1(k5_numbers),esk11_1(k5_numbers)))).#trainneg
+cnf(i_0_1528, negated_conjecture, (v2_xxreal_0(esk2_0)|v1_xboole_0(esk2_0))).#trainneg
+cnf(i_0_354, plain, (v3_xxreal_0(k3_xcmplx_0(X1,X2))|v2_xxreal_0(X3)|r1_xxreal_0(X3,k3_xcmplx_0(X1,X2))|~v1_xreal_0(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1178, plain, (r1_xxreal_0(esk8_0,np__1)|~r1_xxreal_0(esk8_0,np__0))).#trainneg
+cnf(i_0_1286, negated_conjecture, (r1_xxreal_0(esk2_0,np__1)|r1_xxreal_0(np__1,esk2_0))).#trainneg
+cnf(i_0_355, plain, (v3_xxreal_0(k2_xcmplx_0(X1,X2))|v2_xxreal_0(X3)|r1_xxreal_0(X3,k2_xcmplx_0(X1,X2))|~v1_xreal_0(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_356, plain, (v3_xxreal_0(k1_newton(X1,X2))|v2_xxreal_0(X3)|r1_xxreal_0(X3,k1_newton(X1,X2))|~v1_xreal_0(X3)|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_2065, plain, (v7_ordinal1(esk6_1(X1))|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_1850, plain, (v1_xreal_0(X1)|~v7_ordinal1(k4_xcmplx_0(X1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_1835, plain, (r1_xxreal_0(k1_newton(X1,X2),k1_newton(X1,k2_xcmplx_0(X2,np__1)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(np__1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(k1_newton(X1,X2)))).#trainneg
+cnf(i_0_1328, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(np__1,esk6_1(X1))),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1)|~v7_ordinal1(esk6_1(X1)))).#trainneg
+cnf(i_0_940, plain, (r1_xxreal_0(k3_xcmplx_0(X1,np__0),np__0)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_2056, negated_conjecture, (esk2_0=np__0|v2_xxreal_0(esk2_0))).#trainneg
+cnf(i_0_1554, plain, (r1_xxreal_0(esk13_0,np__1)|~r1_xxreal_0(esk13_0,np__0))).#trainneg
+cnf(i_0_1195, plain, (~m1_subset_1(k1_numbers,k5_numbers))).#trainneg
+cnf(i_0_231, plain, (~v2_xxreal_0(esk12_0)|~v1_xboole_0(esk12_0))).#trainneg
+cnf(i_0_373, plain, (v2_xxreal_0(np__0)|~v2_xxreal_0(k4_xcmplx_0(np__1))|~v1_xreal_0(np__0)|~v1_xreal_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_1415, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)),k3_xcmplx_0(k1_newton(X1,X2),X3))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X1,X3)|~v1_xreal_0(k1_newton(X1,X2))|~v1_xreal_0(X3)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_1934, plain, (r1_xxreal_0(X1,k3_xcmplx_0(X1,X1))|~r1_xxreal_0(np__0,X1)|~r1_xxreal_0(np__1,X1)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_1888, negated_conjecture, (r1_xxreal_0(X1,esk2_0)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,np__0))).#trainneg
+cnf(i_0_1937, plain, (r1_xxreal_0(k1_newton(X1,X2),k3_xcmplx_0(X1,k1_newton(X1,X2)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(np__1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(k1_newton(X1,X2)))).#trainneg
+cnf(i_0_1556, plain, (r1_xxreal_0(esk7_0,np__1)|~r1_xxreal_0(esk7_0,np__0))).#trainneg
+cnf(i_0_233, plain, (~v2_xxreal_0(esk9_0)|~v1_xboole_0(esk9_0))).#trainneg
+cnf(i_0_1672, negated_conjecture, (v3_xxreal_0(esk2_0)|r1_xxreal_0(esk1_0,esk2_0)|~v3_xxreal_0(esk1_0))).#trainneg
+cnf(i_0_954, plain, (r1_xxreal_0(np__1,k3_xcmplx_0(X1,np__1))|~r1_xxreal_0(np__1,X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1331, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X1,esk6_1(X1))),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(esk6_1(X1)))).#trainneg
+cnf(i_0_482, plain, (k1_nat_1(X2,X1)=k2_xcmplx_0(X1,X2)|~m1_subset_1(X2,k5_numbers)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_1712, plain, (r1_xxreal_0(k1_newton(X1,X2),k1_newton(X1,k2_xcmplx_0(X2,np__1)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(np__1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1453, plain, (r1_xxreal_0(k3_xcmplx_0(np__0,X1),np__0)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_166, plain, (v1_xboole_0(X1)|~v3_card_1(X1,np__0))).#trainneg
+cnf(i_0_1229, negated_conjecture, (r1_xxreal_0(esk1_0,esk13_0)|r1_xxreal_0(esk13_0,esk1_0))).#trainneg
+cnf(i_0_277, plain, (~v3_xxreal_0(esk12_0)|~v1_xboole_0(esk12_0))).#trainneg
+cnf(i_0_746, plain, (v3_xxreal_0(np__1)|v2_xxreal_0(X1)|r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_2128, plain, (v1_xreal_0(esk6_1(X1))|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1679, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k4_xcmplx_0(np__1))|~v1_xreal_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_404, plain, (v1_xreal_0(k2_xcmplx_0(X1,X2))|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_54, plain, (k3_xcmplx_0(X1,np__0)=np__0|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_398, plain, (v3_xxreal_0(k6_xcmplx_0(X1,X2))|v2_xxreal_0(X3)|r1_xxreal_0(X3,k6_xcmplx_0(X1,X2))|~v1_xreal_0(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1231, negated_conjecture, (r1_xxreal_0(esk1_0,esk10_0)|r1_xxreal_0(esk10_0,esk1_0))).#trainneg
+cnf(i_0_279, plain, (~v3_xxreal_0(esk9_0)|~v1_xboole_0(esk9_0))).#trainneg
+cnf(i_0_285, plain, (~v3_xxreal_0(esk12_0)|~v2_xxreal_0(esk12_0))).#trainneg
+cnf(i_0_2114, negated_conjecture, (v3_xxreal_0(k1_newton(X1,esk2_0))|v2_xxreal_0(X2)|r1_xxreal_0(X2,k1_newton(X1,esk2_0))|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_400, plain, (v1_xreal_0(k4_xcmplx_0(np__1))|~v1_xreal_0(np__1)|~v1_xreal_0(np__0))).#trainneg
+cnf(i_0_2135, plain, (r1_xxreal_0(X1,esk6_1(X2))|r1_xxreal_0(esk6_1(X2),X1)|~v7_ordinal1(X1)|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_2129, plain, (r1_xxreal_0(esk6_1(X1),np__1)|~r1_xxreal_0(esk6_1(X1),np__0)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_2131, plain, (r1_xxreal_0(esk6_1(X1),X2)|r1_xxreal_0(X2,esk6_1(X1))|~v1_xreal_0(X2)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_2369, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,X1),np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k3_xcmplx_0(esk1_0,X1))|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~r1_xxreal_0(X1,k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(np__0,esk1_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_2133, plain, (r1_xxreal_0(np__1,esk6_1(X1))|r1_xxreal_0(esk6_1(X1),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1607, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X2,X3)),k3_xcmplx_0(k1_newton(X2,X3),X2))|~r1_xxreal_0(np__0,k1_newton(X2,X3))|~r1_xxreal_0(X1,X2)|~v7_ordinal1(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_415, plain, (v1_xreal_0(k3_xcmplx_0(X1,X2))|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_1679, plain, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_1232, negated_conjecture, (r1_xxreal_0(esk1_0,esk9_0)|r1_xxreal_0(esk9_0,esk1_0))).#trainneg
+cnf(i_0_373, plain, (~v2_xxreal_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_287, plain, (~v3_xxreal_0(esk9_0)|~v2_xxreal_0(esk9_0))).#trainneg
+cnf(i_0_2424, negated_conjecture, (v3_xxreal_0(np__1)|v2_xxreal_0(esk2_0)|r1_xxreal_0(esk2_0,np__1))).#trainneg
+cnf(i_0_423, plain, (v1_xreal_0(k2_xcmplx_0(X1,X2))|~v1_int_1(X2)|~v1_int_1(X1))).#trainneg
+cnf(i_0_2669, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k3_xcmplx_0(X2,X2))|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_2609, negated_conjecture, (~v1_xxreal_0(np__1)|~v1_xxreal_0(esk1_0)|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(np__0,esk1_0))).#trainneg
+cnf(i_0_2212, plain, (r1_xxreal_0(k1_newton(X1,k2_xcmplx_0(X2,np__1)),k3_xcmplx_0(k1_newton(X1,X2),X3))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X1,X3)|~v7_ordinal1(X2)|~v1_xreal_0(X3)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_2597, negated_conjecture, (r1_xxreal_0(esk6_1(k1_newton(esk1_0,esk2_0)),X1)|r1_xxreal_0(X1,esk6_1(k1_newton(esk1_0,esk2_0)))|~v7_ordinal1(X1)|~v1_xreal_0(k1_newton(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_2242, negated_conjecture, (r1_xxreal_0(X1,esk2_0)|~r1_xxreal_0(X1,np__0)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_2130, plain, (r1_xxreal_0(esk6_1(X1),esk6_1(X1))|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_307, plain, (v3_xxreal_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_191, plain, (k6_xcmplx_0(X1,np__0)=X1|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_1233, negated_conjecture, (r1_xxreal_0(esk1_0,esk7_0)|r1_xxreal_0(esk7_0,esk1_0))).#trainneg
+cnf(i_0_2119, plain, (v3_xxreal_0(k1_newton(X1,np__1))|v2_xxreal_0(X2)|r1_xxreal_0(X2,k1_newton(X1,np__1))|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_2561, negated_conjecture, (v3_xxreal_0(k1_newton(X1,esk2_0))|v2_xxreal_0(esk2_0)|r1_xxreal_0(esk2_0,k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1211, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)),np__1)|~v7_ordinal1(esk6_1(esk1_0)))).#trainneg
+cnf(i_0_1838, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)),k1_newton(X1,k2_xcmplx_0(X2,np__1)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_1120, plain, (k3_xcmplx_0(X1,X1)=k1_newton(X1,k1_nat_1(np__1,np__1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_900, plain, (k3_xcmplx_0(k1_newton(X1,X2),X1)=k1_newton(X1,k2_xcmplx_0(np__1,X2))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2)|~m1_subset_1(X2,k5_numbers))).#trainneg
+cnf(i_0_2883, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1))))).#trainneg
+cnf(i_0_2941, plain, (k3_xcmplx_0(X1,k1_newton(X1,np__1))=k3_xcmplx_0(X1,X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_2734, plain, (~v3_xxreal_0(np__1))).#trainneg
+cnf(i_0_2862, negated_conjecture, (v3_xxreal_0(k1_newton(X1,np__1))|v2_xxreal_0(esk2_0)|r1_xxreal_0(esk2_0,k1_newton(X1,np__1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_979, plain, (r1_xxreal_0(X1,k1_newton(X2,X3))|r1_xxreal_0(k1_newton(X2,X3),X1)|~v1_xreal_0(X1)|~v7_ordinal1(X3)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_434, plain, (v1_xreal_0(k3_xcmplx_0(X1,X2))|~v1_int_1(X2)|~v1_int_1(X1))).#trainneg
+cnf(i_0_2938, plain, (k3_xcmplx_0(k1_newton(X1,np__1),X1)=k3_xcmplx_0(X1,X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_978, plain, (r1_xxreal_0(X1,np__0)|r1_xxreal_0(np__0,X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1574, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,X2),X3),k3_xcmplx_0(k1_newton(X1,X2),X1))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X3,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xreal_0(X3)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_919, plain, (r1_xxreal_0(k1_newton(X1,X2),k1_newton(X1,X2))|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_1057, negated_conjecture, (v3_xxreal_0(esk1_0)|r1_xxreal_0(esk10_0,esk1_0))).#trainneg
+cnf(i_0_442, plain, (v1_xreal_0(k6_xcmplx_0(X1,X2))|~v1_int_1(X2)|~v1_int_1(X1))).#trainneg
+cnf(i_0_1272, negated_conjecture, (r1_xxreal_0(esk2_0,esk13_0)|r1_xxreal_0(esk13_0,esk2_0))).#trainneg
+cnf(i_0_2841, plain, (~m1_subset_1(k4_xcmplx_0(np__1),k5_numbers))).#trainneg
+cnf(i_0_1532, negated_conjecture, (v3_xxreal_0(np__1)|~v3_xxreal_0(esk1_0))).#trainneg
+cnf(i_0_980, plain, (r1_xxreal_0(X1,k1_newton(X2,X3))|r1_xxreal_0(k1_newton(X2,X3),X1)|~v1_xreal_0(X1)|~v7_ordinal1(X3)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_452, plain, (k3_xcmplx_0(k4_xcmplx_0(np__1),X1)=k4_xcmplx_0(X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_3061, plain, (k1_newton(np__1,np__1)=np__1|~v1_xcmplx_0(k1_newton(np__1,np__1)))).#trainneg
+cnf(i_0_3134, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(np__1,np__1))|~v1_xreal_0(k1_newton(np__1,np__1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3219, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,X2),X3),k1_newton(X1,k1_nat_1(np__1,X2)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X3,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xreal_0(X3)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_3131, plain, (~r1_xxreal_0(k1_newton(np__1,np__1),np__0)|~v1_xreal_0(k1_newton(np__1,np__1)))).#trainneg
+cnf(i_0_1677, plain, (r1_xxreal_0(X1,np__0)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k4_xcmplx_0(np__1))|~v1_xreal_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_935, plain, (r1_xxreal_0(k3_xcmplx_0(X1,np__0),np__0)|~r1_xxreal_0(X1,np__0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1072, negated_conjecture, (v3_xxreal_0(esk2_0)|r1_xxreal_0(esk10_0,esk2_0))).#trainneg
+cnf(i_0_1057, negated_conjecture, (r1_xxreal_0(esk10_0,esk1_0))).#trainneg
+cnf(i_0_3105, negated_conjecture, (v3_xxreal_0(X1)|v2_xxreal_0(esk2_0)|r1_xxreal_0(esk2_0,X1)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_3111, negated_conjecture, (r1_xxreal_0(k1_newton(X1,esk2_0),X2)|r1_xxreal_0(X2,k1_newton(X1,esk2_0))|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3242, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)),k3_xcmplx_0(k1_newton(X1,X2),X1))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_3053, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1))))).#trainneg
+cnf(i_0_3054, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v7_ordinal1(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1))))).#trainneg
+cnf(i_0_3232, plain, (r1_xxreal_0(np__0,k3_xcmplx_0(k1_newton(X1,X2),X1))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(np__0,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(k1_newton(X1,X2)))).#trainneg
+cnf(i_0_2630, negated_conjecture, (r1_xxreal_0(X1,esk6_1(k1_newton(esk1_0,esk2_0)))|r1_xxreal_0(esk6_1(k1_newton(esk1_0,esk2_0)),X1)|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_1789, plain, (r1_xxreal_0(X1,k3_xcmplx_0(X2,X3))|~v1_xxreal_0(k3_xcmplx_0(X2,X3))|~v1_xxreal_0(X2)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,X2)|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(np__1,X3)|~v1_xreal_0(X2)|~v1_xreal_0(X3)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_1855, plain, (v3_xxreal_0(esk9_0)|r1_xxreal_0(esk10_0,esk9_0))).#trainneg
+cnf(i_0_2424, negated_conjecture, (v2_xxreal_0(esk2_0)|r1_xxreal_0(esk2_0,np__1))).#trainneg
+cnf(i_0_1275, negated_conjecture, (r1_xxreal_0(esk2_0,esk9_0)|r1_xxreal_0(esk9_0,esk2_0))).#trainneg
+cnf(i_0_3116, plain, (r1_xxreal_0(k1_newton(X1,np__1),X2)|r1_xxreal_0(X2,k1_newton(X1,np__1))|~v1_xreal_0(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3308, negated_conjecture, (r1_xxreal_0(k1_newton(X1,esk2_0),X2)|r1_xxreal_0(X2,k1_newton(X1,esk2_0))|~v7_ordinal1(X1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_1646, plain, (r1_xxreal_0(np__0,k1_newton(np__1,k1_nat_1(X1,np__1)))|~r1_xxreal_0(np__0,k1_newton(np__1,X1))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_3006, plain, (k3_xcmplx_0(X1,k1_newton(X1,X2))=k1_newton(X1,k2_xcmplx_0(np__1,X2))|~v1_xcmplx_0(X1)|~v1_xcmplx_0(k1_newton(X1,X2))|~m1_subset_1(X2,k5_numbers))).#trainneg
+cnf(i_0_3369, plain, (r1_xxreal_0(k1_newton(np__1,np__1),np__1)|~v1_xreal_0(k1_newton(np__1,np__1)))).#trainneg
+cnf(i_0_3366, plain, (k1_newton(np__1,np__1)=np__1)).#trainneg
+cnf(i_0_3582, plain, (r1_xxreal_0(X1,k3_xcmplx_0(X2,X3))|~v1_xxreal_0(X1)|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(np__1,X3)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X3)|~v1_xreal_0(k3_xcmplx_0(X2,X3)))).#trainneg
+cnf(i_0_3451, negated_conjecture, (v2_xxreal_0(esk2_0))).#trainneg
+cnf(i_0_2609, negated_conjecture, (~v1_xxreal_0(np__1)|~v1_xxreal_0(esk1_0)|~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1))))).#trainneg
+cnf(i_0_1276, negated_conjecture, (r1_xxreal_0(esk2_0,esk7_0)|r1_xxreal_0(esk7_0,esk2_0))).#trainneg
+cnf(i_0_3622, negated_conjecture, (r1_xxreal_0(X1,k1_newton(esk2_0,esk2_0))|r1_xxreal_0(k1_newton(esk2_0,esk2_0),X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3627, negated_conjecture, (r1_xxreal_0(X1,k1_newton(np__1,esk2_0))|r1_xxreal_0(k1_newton(np__1,esk2_0),X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_468, plain, (k2_xcmplx_0(k4_xcmplx_0(X1),X2)=k6_xcmplx_0(X2,X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(k4_xcmplx_0(X1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_469, plain, (v1_xboole_0(k4_xcmplx_0(X1))|~v1_xboole_0(k6_xcmplx_0(X2,X1))|~v7_ordinal1(k4_xcmplx_0(X1))|~v7_ordinal1(X2)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_3499, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)),k3_xcmplx_0(X1,k1_newton(X1,X2)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(k1_newton(X1,X2)))).#trainneg
+cnf(i_0_2369, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,X1),np__1)|~v1_xxreal_0(k3_xcmplx_0(esk1_0,X1))|~v1_xxreal_0(np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3478, negated_conjecture, (r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|r1_xxreal_0(k1_newton(X1,esk2_0),np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3526, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)),np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_3403, plain, (r1_xxreal_0(k1_newton(X1,X2),k1_newton(X1,k1_nat_1(np__1,X2)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(np__1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(k1_newton(X1,X2)))).#trainneg
+cnf(i_0_3475, negated_conjecture, (r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|r1_xxreal_0(k1_newton(X1,esk2_0),np__0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1048, plain, (v1_int_1(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(k4_xcmplx_0(X1)))).#trainneg
+cnf(i_0_1448, plain, (r1_xxreal_0(k3_xcmplx_0(np__0,X1),np__0)|~r1_xxreal_0(X1,np__0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1866, plain, (v3_xxreal_0(esk9_0)|r1_xxreal_0(np__0,esk9_0))).#trainneg
+cnf(i_0_1306, plain, (r1_xxreal_0(np__1,esk13_0)|r1_xxreal_0(esk13_0,np__1))).#trainneg
+cnf(i_0_3585, plain, (r1_xxreal_0(esk10_0,esk9_0)|~v7_ordinal1(esk9_0))).#trainneg
+cnf(i_0_3586, plain, (r1_xxreal_0(esk10_0,esk9_0)|~v1_xboole_0(esk9_0))).#trainneg
+cnf(i_0_3313, plain, (r1_xxreal_0(k1_newton(X1,np__1),X2)|r1_xxreal_0(X2,k1_newton(X1,np__1))|~v7_ordinal1(X1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_471, plain, (v1_xreal_0(k6_xcmplx_0(X1,X2))|~v1_xreal_0(k4_xcmplx_0(X2))|~v1_xreal_0(X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_472, plain, (v7_ordinal1(k6_xcmplx_0(X1,X2))|~v7_ordinal1(k4_xcmplx_0(X2))|~v7_ordinal1(X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_3923, negated_conjecture, (v7_ordinal1(esk6_1(X1))|r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3922, negated_conjecture, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3959, negated_conjecture, (r1_xxreal_0(k1_newton(X1,esk2_0),np__1)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v7_ordinal1(X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3895, plain, (r1_xxreal_0(k1_newton(X1,k2_xcmplx_0(X2,np__1)),k3_xcmplx_0(X1,k1_newton(X1,X2)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3716, plain, (k1_newton(np__1,k2_xcmplx_0(np__1,np__1))=np__1)).#trainneg
+cnf(i_0_2421, plain, (v3_xxreal_0(np__1)|r1_xxreal_0(esk10_0,np__1))).#trainneg
+cnf(i_0_473, plain, (v1_int_1(k6_xcmplx_0(X1,X2))|~v1_int_1(k4_xcmplx_0(X2))|~v1_int_1(X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_3960, plain, (v1_int_1(np__1)|~v1_xcmplx_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_3737, plain, (v7_ordinal1(esk6_1(np__1)))).#trainneg
+cnf(i_0_3999, negated_conjecture, (r1_xxreal_0(X1,k1_newton(esk2_0,np__1))|r1_xxreal_0(k1_newton(esk2_0,np__1),X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3796, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,esk2_0),esk2_0)|r1_xxreal_0(esk2_0,k1_newton(esk2_0,esk2_0)))).#trainneg
+cnf(i_0_474, plain, (v1_xboole_0(X1)|~v1_xboole_0(k6_xcmplx_0(X1,X2))|~v7_ordinal1(X1)|~v7_ordinal1(k4_xcmplx_0(X2))|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_475, plain, (k6_xcmplx_0(X1,k4_xcmplx_0(np__1))=k2_xcmplx_0(X1,np__1)|~v1_xcmplx_0(k4_xcmplx_0(np__1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_3958, negated_conjecture, (r1_xxreal_0(k1_newton(X1,esk2_0),np__1)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v1_xreal_0(k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3955, negated_conjecture, (v3_xxreal_0(k1_newton(X1,esk2_0))|v1_xboole_0(k1_newton(X1,esk2_0))|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v1_xreal_0(k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3907, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,X1),np__1)|~v1_xxreal_0(k3_xcmplx_0(esk1_0,X1))|~v1_xxreal_0(np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3924, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)),np__1)|~v1_xxreal_0(np__1)|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_3903, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(np__1,X2)),k3_xcmplx_0(X1,k1_newton(X1,X2)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_3925, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)),np__1)|~v1_xxreal_0(np__1)|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v7_ordinal1(k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_4177, plain, (v1_int_1(np__1))).#trainneg
+cnf(i_0_2732, negated_conjecture, (v2_xxreal_0(esk9_0)|r1_xxreal_0(esk9_0,esk1_0))).#trainneg
+cnf(i_0_476, plain, (k6_xcmplx_0(X1,k4_xcmplx_0(X2))=k2_xcmplx_0(X1,X2)|~v1_xcmplx_0(k4_xcmplx_0(X2))|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_1309, plain, (r1_xxreal_0(np__1,esk9_0)|r1_xxreal_0(esk9_0,np__1))).#trainneg
+cnf(i_0_4181, plain, (v1_xreal_0(esk6_1(np__1)))).#trainneg
+cnf(i_0_4175, plain, (v1_int_1(np__0)|~v1_int_1(k4_xcmplx_0(np__1))|~v1_int_1(np__1))).#trainneg
+cnf(i_0_3797, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,esk2_0),esk1_0)|r1_xxreal_0(esk1_0,k1_newton(esk2_0,esk2_0)))).#trainneg
+cnf(i_0_477, plain, (k6_xcmplx_0(X1,np__0)=k2_xcmplx_0(X1,np__0)|~v1_xcmplx_0(np__0)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_4085, negated_conjecture, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v1_xreal_0(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_4054, negated_conjecture, (r1_xxreal_0(np__1,esk6_1(X1))|r1_xxreal_0(esk6_1(X1),np__1)|r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4074, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,esk6_1(X1)),X1),np__1)|r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(esk6_1(X1)))).#trainneg
+cnf(i_0_3761, plain, (r1_xxreal_0(X1,X2)|~v1_xxreal_0(X1)|~r1_xxreal_0(np__1,X2)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X2)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_3781, negated_conjecture, (~v1_xxreal_0(np__1)|~v1_xxreal_0(esk1_0)|~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v7_ordinal1(k1_nat_1(esk6_1(esk1_0),np__1)))).#trainneg
+cnf(i_0_483, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,esk11_1(k1_zfmisc_1(X2))))).#trainneg
+cnf(i_0_1310, plain, (r1_xxreal_0(np__1,esk7_0)|r1_xxreal_0(esk7_0,np__1))).#trainneg
+cnf(i_0_3587, plain, (r1_xxreal_0(esk10_0,esk9_0)|~v2_xxreal_0(esk9_0))).#trainneg
+cnf(i_0_3588, negated_conjecture, (r1_xxreal_0(esk9_0,esk2_0)|~v3_xxreal_0(esk9_0))).#trainneg
+cnf(i_0_3811, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,esk2_0),np__1)|r1_xxreal_0(np__1,k1_newton(esk2_0,esk2_0)))).#trainneg
+cnf(i_0_3820, negated_conjecture, (r1_xxreal_0(k1_newton(np__1,esk2_0),esk2_0)|r1_xxreal_0(esk2_0,k1_newton(np__1,esk2_0)))).#trainneg
+cnf(i_0_484, plain, (m1_subset_1(X1,k1_numbers)|~r2_hidden(X1,k5_numbers))).#trainneg
+cnf(i_0_485, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,X3)|~r1_tarski(X3,X2))).#trainneg
+cnf(i_0_4048, negated_conjecture, (v1_xreal_0(esk6_1(X1))|r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4251, negated_conjecture, (v1_xboole_0(k1_newton(X1,esk2_0))|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v7_ordinal1(k1_newton(X1,esk2_0))|~v1_xreal_0(k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4256, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)),np__1)|~v1_xxreal_0(np__1)|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(np__1,esk6_1(esk1_0))))|~v1_xreal_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xcmplx_0(esk6_1(esk1_0)))).#trainneg
+cnf(i_0_4086, negated_conjecture, (v7_ordinal1(esk6_1(X1))|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v1_xreal_0(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_4310, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(X2,np__0)|r1_xxreal_0(np__1,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4252, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,X1),np__1)|~v1_xxreal_0(k3_xcmplx_0(esk1_0,X1))|~v1_xxreal_0(np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(np__1,esk6_1(esk1_0))))|~v1_xreal_0(X1)|~v1_xcmplx_0(esk6_1(esk1_0)))).#trainneg
+cnf(i_0_4248, negated_conjecture, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(X1,esk2_0)))).#trainneg
+cnf(i_0_4285, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(np__1,X2)),k1_newton(X1,k2_xcmplx_0(X2,np__1)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_4049, negated_conjecture, (r1_xxreal_0(esk6_1(X1),np__1)|r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|~r1_xxreal_0(esk6_1(X1),np__0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4283, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(np__1,X2)),k1_newton(X1,k1_nat_1(X2,np__1)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_486, plain, (r1_xxreal_0(X1,esk12_0)|r1_xxreal_0(esk12_0,X1)|~v1_xxreal_0(X1))).#trainneg
+cnf(i_0_3983, plain, (r1_xxreal_0(np__0,esk9_0)|~v7_ordinal1(esk9_0))).#trainneg
+cnf(i_0_3984, plain, (r1_xxreal_0(np__0,esk9_0)|~v1_xboole_0(esk9_0))).#trainneg
+cnf(i_0_3821, negated_conjecture, (r1_xxreal_0(k1_newton(np__1,esk2_0),esk1_0)|r1_xxreal_0(esk1_0,k1_newton(np__1,esk2_0)))).#trainneg
+cnf(i_0_3835, negated_conjecture, (r1_xxreal_0(k1_newton(np__1,esk2_0),np__1)|r1_xxreal_0(np__1,k1_newton(np__1,esk2_0)))).#trainneg
+cnf(i_0_487, plain, (r1_xxreal_0(X1,esk10_0)|r1_xxreal_0(esk10_0,X1)|~v1_xxreal_0(X1))).#trainneg
+cnf(i_0_488, plain, (r1_xxreal_0(X1,esk9_0)|r1_xxreal_0(esk9_0,X1)|~v1_xxreal_0(X1))).#trainneg
+cnf(i_0_4404, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,esk6_1(X1)),X1),np__1)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v7_ordinal1(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(esk6_1(X1)))).#trainneg
+cnf(i_0_4437, negated_conjecture, (r1_xxreal_0(X1,esk1_0)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,np__1))).#trainneg
+cnf(i_0_4489, negated_conjecture, (r1_xxreal_0(esk6_1(X1),np__1)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~r1_xxreal_0(esk6_1(X1),np__0)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_4484, negated_conjecture, (k1_newton(X1,esk2_0)=np__0|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v7_ordinal1(k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4494, negated_conjecture, (r1_xxreal_0(np__1,esk6_1(X1))|r1_xxreal_0(esk6_1(X1),np__1)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_4402, negated_conjecture, (r1_xxreal_0(k1_newton(X1,k2_xcmplx_0(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v7_ordinal1(X1)|~v7_ordinal1(esk6_1(X1)))).#trainneg
+cnf(i_0_4488, negated_conjecture, (v1_xreal_0(esk6_1(X1))|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_4531, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,esk6_1(X1)),X1),np__1)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v1_xreal_0(k1_newton(X1,esk2_0))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(esk6_1(X1)))).#trainneg
+cnf(i_0_4298, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)),np__1)|~v1_xxreal_0(np__1)|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0)))|~v7_ordinal1(k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(np__1,esk6_1(esk1_0))))|~v1_xcmplx_0(esk6_1(esk1_0)))).#trainneg
+cnf(i_0_446, plain, (v1_int_1(np__0))).#trainneg
+cnf(i_0_3719, plain, (r1_xxreal_0(k1_newton(np__1,k1_nat_1(np__1,np__1)),np__1))).#trainneg
+cnf(i_0_1297, plain, (v3_xxreal_0(esk13_0)|v2_xxreal_0(esk13_0)|v1_xboole_0(esk13_0))).#trainneg
+cnf(i_0_4442, negated_conjecture, (~v1_xxreal_0(np__1)|~v1_xxreal_0(esk1_0)|~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v7_ordinal1(k2_xcmplx_0(esk6_1(esk1_0),np__1)))).#trainneg
+cnf(i_0_489, plain, (r1_xxreal_0(X1,esk8_0)|r1_xxreal_0(esk8_0,X1)|~v1_xxreal_0(X1))).#trainneg
+cnf(i_0_3985, plain, (r1_xxreal_0(np__0,esk9_0)|~v2_xxreal_0(esk9_0))).#trainneg
+cnf(i_0_2236, negated_conjecture, (r1_xxreal_0(esk12_0,esk2_0)|~r1_xxreal_0(esk12_0,np__0))).#trainneg
+cnf(i_0_4202, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,np__1),esk2_0)|r1_xxreal_0(esk2_0,k1_newton(esk2_0,np__1)))).#trainneg
+cnf(i_0_4203, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,np__1),esk1_0)|r1_xxreal_0(esk1_0,k1_newton(esk2_0,np__1)))).#trainneg
+cnf(i_0_4254, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,X1),np__1)|~v1_xxreal_0(k3_xcmplx_0(esk1_0,X1))|~v1_xxreal_0(np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(X1)|~v7_ordinal1(k2_xcmplx_0(esk6_1(esk1_0),np__1)))).#trainneg
+cnf(i_0_4072, negated_conjecture, (r1_xxreal_0(k1_newton(X1,k2_xcmplx_0(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|~v1_xreal_0(X1)|~v7_ordinal1(esk6_1(X1)))).#trainneg
+cnf(i_0_4258, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)),np__1)|~v1_xxreal_0(np__1)|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~v7_ordinal1(k2_xcmplx_0(esk6_1(esk1_0),np__1)))).#trainneg
+cnf(i_0_1130, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(k1_nat_1(np__1,X2),np__0)|~r1_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)),np__1)|~v7_ordinal1(k1_nat_1(np__1,X2))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_3215, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,X2),X3),k3_xcmplx_0(X1,k1_newton(X1,X2)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X3,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xreal_0(X3)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(k1_newton(X1,X2)))).#trainneg
+cnf(i_0_3891, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)),k1_newton(X1,k1_nat_1(np__1,X2)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_3244, plain, (r1_xxreal_0(k1_newton(X1,k2_xcmplx_0(X2,np__1)),k3_xcmplx_0(k1_newton(X1,X2),X1))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_4443, negated_conjecture, (~v1_xxreal_0(np__1)|~v1_xxreal_0(esk1_0)|~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v7_ordinal1(k2_xcmplx_0(np__1,esk6_1(esk1_0)))|~m1_subset_1(esk6_1(esk1_0),k5_numbers))).#trainneg
+cnf(i_0_2238, negated_conjecture, (r1_xxreal_0(esk9_0,esk2_0)|~r1_xxreal_0(esk9_0,np__0))).#trainneg
+cnf(i_0_4218, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,np__1),np__1)|r1_xxreal_0(np__1,k1_newton(esk2_0,np__1)))).#trainneg
+cnf(i_0_501, plain, (m2_subset_1(k1_nat_1(X2,X1),k1_numbers,k5_numbers)|~m1_subset_1(X2,k5_numbers)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_3211, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k3_xcmplx_0(X1,X1))|~r1_xxreal_0(np__0,X1)|~r1_xxreal_0(X2,X1)|~v1_xreal_0(X1)|~v1_xreal_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_4650, negated_conjecture, (r1_xxreal_0(X1,esk1_0)|~r1_xxreal_0(X1,np__1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_4649, negated_conjecture, (r1_xxreal_0(X1,esk1_0)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4721, plain, (v2_xxreal_0(esk13_0)|v1_xboole_0(esk13_0))).#trainneg
+cnf(i_0_4441, negated_conjecture, (~v1_xxreal_0(np__1)|~v1_xxreal_0(esk1_0)|~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v7_ordinal1(k1_nat_1(np__1,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_502, plain, (m2_subset_1(k2_xcmplx_0(X1,X2),k1_numbers,k5_numbers)|~m1_subset_1(X2,k5_numbers)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_2239, negated_conjecture, (r1_xxreal_0(esk8_0,esk2_0)|~r1_xxreal_0(esk8_0,np__0))).#trainneg
+cnf(i_0_1000, plain, (r1_xxreal_0(X1,k1_newton(X2,X3))|r1_xxreal_0(k1_newton(X2,X3),X1)|~v7_ordinal1(X1)|~v7_ordinal1(X3)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_513, plain, (v2_xxreal_0(X1)|v2_xxreal_0(k4_xcmplx_0(X2))|~v2_xxreal_0(k6_xcmplx_0(X1,X2))|~v1_xreal_0(k4_xcmplx_0(X2))|~v1_xreal_0(X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_4924, plain, (m1_subset_1(k1_nat_1(X1,X2),k5_numbers)|~m1_subset_1(X1,k5_numbers)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_4868, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,X2),X1),k1_newton(X1,k1_nat_1(np__1,X2)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_1213, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))),np__1)|~v1_xcmplx_0(esk1_0)|~v7_ordinal1(esk6_1(esk1_0)))).#trainneg
+cnf(i_0_3172, plain, (r1_xxreal_0(np__0,esk13_0)|r1_xxreal_0(esk13_0,np__0))).#trainneg
+cnf(i_0_2825, negated_conjecture, (r1_xxreal_0(esk13_0,esk2_0)|~r1_xxreal_0(esk13_0,np__0))).#trainneg
+cnf(i_0_2827, negated_conjecture, (r1_xxreal_0(esk7_0,esk2_0)|~r1_xxreal_0(esk7_0,np__0))).#trainneg
+cnf(i_0_3463, negated_conjecture, (r1_xxreal_0(esk2_0,k1_newton(X1,esk2_0))|r1_xxreal_0(k1_newton(X1,esk2_0),esk2_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3464, negated_conjecture, (r1_xxreal_0(esk1_0,k1_newton(X1,esk2_0))|r1_xxreal_0(k1_newton(X1,esk2_0),esk1_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4835, plain, (r1_xxreal_0(k3_xcmplx_0(X3,k1_newton(X1,X2)),k3_xcmplx_0(X1,k1_newton(X1,X2)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X3,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xreal_0(X3)|~v1_xcmplx_0(X3))).#trainneg
+cnf(i_0_3900, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X1),k3_xcmplx_0(X1,k1_newton(X1,np__1)))|~v1_xcmplx_0(k1_newton(X1,np__1))|~r1_xxreal_0(np__0,k1_newton(X1,np__1))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_934, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),k3_xcmplx_0(X3,k3_xcmplx_0(X4,X2)))|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,k3_xcmplx_0(X3,X4))|~v1_xreal_0(X2)|~v1_xreal_0(k3_xcmplx_0(X3,X4))|~v1_xreal_0(X1)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X4)|~v1_xcmplx_0(X3))).#trainneg
+cnf(i_0_1957, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v7_ordinal1(k1_nat_1(esk6_1(esk1_0),np__1))|~v7_ordinal1(esk1_0))).#trainneg
+cnf(i_0_5010, plain, (m2_subset_1(X1,k1_numbers,k5_numbers)|~v7_ordinal1(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_4993, plain, (esk13_0=np__0|v2_xxreal_0(esk13_0))).#trainneg
+cnf(i_0_3175, plain, (r1_xxreal_0(np__0,esk10_0)|r1_xxreal_0(esk10_0,np__0))).#trainneg
+cnf(i_0_3601, negated_conjecture, (r1_xxreal_0(esk2_0,k1_newton(X1,np__1))|r1_xxreal_0(k1_newton(X1,np__1),esk2_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3602, negated_conjecture, (r1_xxreal_0(esk1_0,k1_newton(X1,np__1))|r1_xxreal_0(k1_newton(X1,np__1),esk1_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5053, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,X2),X1),k1_newton(X1,k1_nat_1(X2,np__1)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4978, negated_conjecture, (r1_xxreal_0(esk6_1(X1),esk1_0)|~r1_xxreal_0(esk6_1(X1),np__1)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5044, plain, (m1_subset_1(k1_nat_1(X2,X1),k5_numbers)|~m1_subset_1(X1,k5_numbers)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_5056, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,X2),X1),k1_newton(X1,k2_xcmplx_0(X2,np__1)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5043, plain, (v7_ordinal1(k1_nat_1(X1,X2))|~m1_subset_1(X1,k5_numbers)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_4997, plain, (m1_subset_1(k2_xcmplx_0(X1,X2),k5_numbers)|~m1_subset_1(X2,k5_numbers)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_5079, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X1,X2)),k1_newton(X1,k1_nat_1(np__1,X2)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_773, plain, (r1_xxreal_0(X1,esk12_0)|r1_xxreal_0(esk12_0,X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3176, plain, (r1_xxreal_0(np__0,esk9_0)|r1_xxreal_0(esk9_0,np__0))).#trainneg
+cnf(i_0_5100, plain, (r1_xxreal_0(np__0,esk13_0)|~v2_xxreal_0(esk13_0))).#trainneg
+cnf(i_0_3616, plain, (r1_xxreal_0(np__1,k1_newton(X1,np__1))|r1_xxreal_0(k1_newton(X1,np__1),np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_751, plain, (v3_xxreal_0(k1_newton(X1,X2))|v2_xxreal_0(X3)|r1_xxreal_0(X3,k1_newton(X1,X2))|~v1_xreal_0(X3)|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_556, plain, (k1_newton(k4_xcmplx_0(np__1),k1_nat_1(X1,np__1))=k4_xcmplx_0(k1_newton(k4_xcmplx_0(np__1),X1))|~v1_xcmplx_0(k1_newton(k4_xcmplx_0(np__1),X1))|~v1_xcmplx_0(k4_xcmplx_0(np__1))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_5288, plain, (m1_subset_1(X1,k5_numbers)|~v1_xcmplx_0(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_5453, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X1,X2)),k1_newton(X1,k1_nat_1(X2,np__1)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5430, plain, (v7_ordinal1(k2_xcmplx_0(X2,X1))|~m1_subset_1(X1,k5_numbers)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_5369, plain, (v7_ordinal1(k1_nat_1(X1,X2))|~m1_subset_1(X2,k5_numbers)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_5426, negated_conjecture, (~v1_xxreal_0(np__1)|~v1_xxreal_0(esk1_0)|~r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_559, plain, (v7_ordinal1(k1_newton(X1,k1_nat_1(X2,np__1)))|~v7_ordinal1(X1)|~v7_ordinal1(k1_newton(X1,X2))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_3177, plain, (r1_xxreal_0(np__0,esk7_0)|r1_xxreal_0(esk7_0,np__0))).#trainneg
+cnf(i_0_560, plain, (v1_int_1(k1_newton(X1,k1_nat_1(X2,np__1)))|~v1_int_1(X1)|~v1_int_1(k1_newton(X1,X2))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_561, plain, (v2_xxreal_0(k1_newton(X1,X2))|v2_xxreal_0(X1)|~v3_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)))|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(X1,X2))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_5456, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X1,X2)),k1_newton(X1,k2_xcmplx_0(X2,np__1)))|~v1_xcmplx_0(k1_newton(X1,X2))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5526, plain, (v7_ordinal1(esk6_1(X1))|r1_xxreal_0(np__1,k1_newton(X1,np__1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5446, plain, (m1_subset_1(k2_xcmplx_0(X2,X1),k5_numbers)|~m1_subset_1(X2,k5_numbers)|~v7_ordinal1(X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_5493, negated_conjecture, (r1_xxreal_0(esk12_0,esk2_0)|r1_xxreal_0(esk2_0,esk12_0))).#trainneg
+cnf(i_0_5801, plain, (v3_xxreal_0(esk7_0)|r1_xxreal_0(np__0,esk7_0))).#trainneg
+cnf(i_0_563, plain, (v1_xreal_0(k3_xcmplx_0(k1_newton(X1,X2),X1))|~v7_ordinal1(k1_nat_1(X2,np__1))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_4593, plain, (r1_xxreal_0(esk12_0,esk10_0)|r1_xxreal_0(esk10_0,esk12_0))).#trainneg
+cnf(i_0_5537, negated_conjecture, (v3_xxreal_0(k1_newton(X1,esk2_0))|v2_xxreal_0(X2)|r1_xxreal_0(X2,k1_newton(X1,esk2_0))|~v7_ordinal1(X1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_5544, plain, (v3_xxreal_0(k1_newton(X1,np__1))|v2_xxreal_0(X2)|r1_xxreal_0(X2,k1_newton(X1,np__1))|~v7_ordinal1(X1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_564, plain, (v7_ordinal1(k3_xcmplx_0(k1_newton(X1,X2),X1))|~v7_ordinal1(k1_nat_1(X2,np__1))|~v7_ordinal1(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_565, plain, (v1_xcmplx_0(k3_xcmplx_0(k1_newton(X1,X2),X1))|~v1_xcmplx_0(X1)|~v7_ordinal1(k1_nat_1(X2,np__1))|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_5649, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,X1),np__1)|~v1_xxreal_0(k3_xcmplx_0(esk1_0,X1))|~v1_xxreal_0(np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5785, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xcmplx_0(esk1_0)|~v7_ordinal1(esk1_0))).#trainneg
+cnf(i_0_5889, plain, (v7_ordinal1(k2_xcmplx_0(X1,X2))|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1)|~m1_subset_1(X1,k5_numbers)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_5494, negated_conjecture, (r1_xxreal_0(esk12_0,esk1_0)|r1_xxreal_0(esk1_0,esk12_0))).#trainneg
+cnf(i_0_5802, plain, (r1_xxreal_0(np__0,esk7_0))).#trainneg
+cnf(i_0_566, plain, (k1_newton(X1,k1_nat_1(k1_nat_1(X2,np__1),np__1))=k3_xcmplx_0(k3_xcmplx_0(k1_newton(X1,X2),X1),X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(k1_nat_1(X2,np__1))|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_4594, plain, (r1_xxreal_0(esk12_0,esk9_0)|r1_xxreal_0(esk9_0,esk12_0))).#trainneg
+cnf(i_0_6169, plain, (~v3_xxreal_0(esk7_0))).#trainneg
+cnf(i_0_6012, negated_conjecture, (v3_xxreal_0(k1_newton(esk2_0,esk2_0))|v2_xxreal_0(X1)|r1_xxreal_0(X1,k1_newton(esk2_0,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_6022, negated_conjecture, (v3_xxreal_0(k1_newton(np__1,esk2_0))|v2_xxreal_0(X1)|r1_xxreal_0(X1,k1_newton(np__1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5927, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk2_0))|~v1_xreal_0(k1_newton(esk1_0,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5914, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k3_xcmplx_0(X2,np__1))|~v1_xreal_0(k3_xcmplx_0(X2,np__1))|~v1_xreal_0(X1)|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_5915, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xreal_0(X1)|~v1_xcmplx_0(esk1_0))).#trainneg
+cnf(i_0_6042, plain, (v2_xxreal_0(X1)|r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5934, negated_conjecture, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__0,k1_newton(X2,esk2_0))|~r1_xxreal_0(X1,k1_newton(X2,esk2_0))|~v1_xreal_0(k1_newton(X2,esk2_0))|~v1_xreal_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_5913, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k4_xcmplx_0(np__1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5941, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~v1_xreal_0(k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~v1_xreal_0(X1)|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_5933, negated_conjecture, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__0,k1_newton(X2,esk2_0))|~r1_xxreal_0(X1,k1_newton(X2,esk2_0))|~v1_xreal_0(k1_newton(X2,esk2_0))|~v1_xreal_0(X1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_5920, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k3_xcmplx_0(np__1,X2))|~v1_xreal_0(k3_xcmplx_0(np__1,X2))|~v1_xreal_0(X1)|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_1449, plain, (r1_xxreal_0(k3_xcmplx_0(np__1,X1),np__0)|~r1_xxreal_0(X1,np__0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1055, negated_conjecture, (v3_xxreal_0(esk1_0)|v2_xxreal_0(esk13_0)|r1_xxreal_0(esk13_0,esk1_0))).#trainneg
+cnf(i_0_4595, plain, (r1_xxreal_0(esk12_0,esk8_0)|r1_xxreal_0(esk8_0,esk12_0))).#trainneg
+cnf(i_0_6032, negated_conjecture, (v3_xxreal_0(k1_newton(esk2_0,np__1))|v2_xxreal_0(X1)|r1_xxreal_0(X1,k1_newton(esk2_0,np__1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5912, negated_conjecture, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,esk2_0)|~r1_xxreal_0(X1,esk2_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_579, plain, (v3_xxreal_0(X1)|v2_xxreal_0(k6_xcmplx_0(X1,X2))|~v2_xxreal_0(k4_xcmplx_0(X2))|~v1_xreal_0(X1)|~v1_xreal_0(k4_xcmplx_0(X2))|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_5928, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5939, negated_conjecture, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__0,k1_newton(X2,esk2_0))|~r1_xxreal_0(X1,k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~v1_xreal_0(k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~v1_xreal_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_6393, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,X1),np__1)|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k3_xcmplx_0(esk1_0,X1))|~r1_xxreal_0(X1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_6381, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(np__1,esk6_1(esk1_0))))|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(np__1,esk6_1(esk1_0))))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4596, plain, (r1_xxreal_0(esk12_0,np__0)|r1_xxreal_0(np__0,esk12_0))).#trainneg
+cnf(i_0_6451, plain, (r1_xxreal_0(esk8_0,np__1)|~v1_xreal_0(esk8_0))).#trainneg
+cnf(i_0_6398, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)),np__1)|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_6616, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)),np__1)|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_5940, negated_conjecture, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__0,k1_newton(X2,esk2_0))|~r1_xxreal_0(X1,k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~v1_xreal_0(k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(X2,esk2_0))|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_5932, negated_conjecture, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,k1_newton(X2,esk2_0))|~r1_xxreal_0(X1,k1_newton(X2,esk2_0))|~v1_xreal_0(k1_newton(X2,esk2_0))|~v1_xreal_0(X1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_5936, negated_conjecture, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__0,k1_newton(X2,esk2_0))|~r1_xxreal_0(X1,k1_newton(X2,k2_xcmplx_0(esk6_1(X2),np__1)))|~v1_xreal_0(k1_newton(X2,k2_xcmplx_0(esk6_1(X2),np__1)))|~v1_xreal_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_6394, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(X1,esk1_0),np__1)|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k3_xcmplx_0(X1,esk1_0))|~r1_xxreal_0(X1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5905, plain, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,esk13_0)|~r1_xxreal_0(X1,esk13_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1431, plain, (~v7_ordinal1(k4_xcmplx_0(X1))|~v1_xcmplx_0(X1)|~v2_xxreal_0(X1)|~v1_xreal_0(k4_xcmplx_0(X1)))).#trainneg
+cnf(i_0_3584, plain, (r1_xxreal_0(esk10_0,esk9_0)|~m1_subset_1(esk9_0,k5_numbers))).#trainneg
+cnf(i_0_1067, negated_conjecture, (v3_xxreal_0(esk1_0)|v2_xxreal_0(k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),esk1_0)|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1068, negated_conjecture, (v3_xxreal_0(esk1_0)|v2_xxreal_0(k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),esk1_0)|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_591, plain, (v3_xxreal_0(k4_xcmplx_0(X1))|v2_xxreal_0(k6_xcmplx_0(X2,X1))|~v2_xxreal_0(X2)|~v1_xreal_0(k4_xcmplx_0(X1))|~v1_xreal_0(X2)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_6114, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xcmplx_0(esk1_0)|~v1_xxreal_0(np__1)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v7_ordinal1(esk1_0))).#trainneg
+cnf(i_0_6391, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))),np__1)|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xcmplx_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_6610, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))),np__1)|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xcmplx_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_5678, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))),np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xcmplx_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_5944, plain, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,k1_newton(X2,X3))|~r1_xxreal_0(X1,k1_newton(X2,X3))|~v1_xreal_0(k1_newton(X2,X3))|~v1_xreal_0(X1)|~v7_ordinal1(X3)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_6513, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X2),np__1)|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(k3_xcmplx_0(np__1,X2))|~v1_xreal_0(k3_xcmplx_0(X1,X2))|~v1_xreal_0(X2)|~r1_xxreal_0(np__0,X2)|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_6375, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(esk1_0,esk2_0)),np__1)|~v1_xreal_0(k1_newton(esk1_0,esk2_0))|~v1_xreal_0(k3_xcmplx_0(X1,k1_newton(esk1_0,esk2_0)))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk2_0))|~r1_xxreal_0(X1,np__1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5842, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))),np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xreal_0(k1_newton(esk1_0,k2_xcmplx_0(esk6_1(esk1_0),np__1)))|~v1_xcmplx_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_5907, plain, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,esk9_0)|~r1_xxreal_0(X1,esk9_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4616, plain, (r1_xxreal_0(esk10_0,esk9_0)|r1_xxreal_0(esk9_0,esk10_0))).#trainneg
+cnf(i_0_1082, negated_conjecture, (v3_xxreal_0(esk2_0)|v2_xxreal_0(k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),esk2_0)|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1083, negated_conjecture, (v3_xxreal_0(esk2_0)|v2_xxreal_0(k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),esk2_0)|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_597, plain, (v3_xxreal_0(k1_newton(X1,X2))|v2_xxreal_0(X1)|~v2_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)))|~v1_xreal_0(k1_newton(X1,X2))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_6651, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,X1),np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk6_1(esk1_0)))|~v1_xreal_0(k3_xcmplx_0(esk1_0,X1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3701, plain, (k3_xcmplx_0(X1,X1)=k1_newton(X1,k2_xcmplx_0(np__1,np__1))|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_5090, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xcmplx_0(esk1_0))).#trainneg
+cnf(i_0_1162, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)|r1_xxreal_0(k1_nat_1(X2,np__1),np__0)|~r1_xxreal_0(k1_newton(X1,k2_xcmplx_0(X2,np__1)),np__1)|~v7_ordinal1(k1_nat_1(X2,np__1))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_6390, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(k1_newton(esk1_0,esk6_1(esk1_0)),X1),np__1)|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))|~v1_xreal_0(k3_xcmplx_0(k1_newton(esk1_0,esk6_1(esk1_0)),X1))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(X1,esk1_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5908, plain, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,esk7_0)|~r1_xxreal_0(X1,esk7_0)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4617, plain, (r1_xxreal_0(esk10_0,esk8_0)|r1_xxreal_0(esk8_0,esk10_0))).#trainneg
+cnf(i_0_3982, plain, (r1_xxreal_0(np__0,esk9_0)|~m1_subset_1(esk9_0,k5_numbers))).#trainneg
+cnf(i_0_3809, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,esk2_0),k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),k1_newton(esk2_0,esk2_0))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3810, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,esk2_0),k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),k1_newton(esk2_0,esk2_0))|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_4311, plain, (r1_xxreal_0(X1,np__0)|v7_ordinal1(esk6_1(X2))|r1_xxreal_0(np__1,k1_newton(X2,X1))|~v7_ordinal1(X1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_7069, plain, (r1_xxreal_0(k3_xcmplx_0(k1_newton(X1,np__1),X2),k3_xcmplx_0(X1,X1))|~r1_xxreal_0(np__0,k1_newton(X1,np__1))|~r1_xxreal_0(X2,X1)|~v1_xreal_0(X1)|~v1_xreal_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_7072, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X2,np__1)),k3_xcmplx_0(X2,X2))|~r1_xxreal_0(np__0,k1_newton(X2,np__1))|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_7004, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))),np__1)|~v1_xreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xreal_0(k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_7065, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X1,np__1)),k3_xcmplx_0(X1,X1))|~v1_xcmplx_0(k1_newton(X1,np__1))|~r1_xxreal_0(np__0,k1_newton(X1,np__1))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_5931, plain, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(np__1,k1_nat_1(np__1,np__1)))|~v1_xreal_0(k1_newton(np__1,k1_nat_1(np__1,np__1)))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1070, negated_conjecture, (v3_xxreal_0(esk2_0)|v2_xxreal_0(esk13_0)|r1_xxreal_0(esk13_0,esk2_0))).#trainneg
+cnf(i_0_607, plain, (v3_xxreal_0(X1)|v2_xxreal_0(k1_newton(X1,X2))|~v2_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)))|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(X1,X2))|~v1_xcmplx_0(X1)|~v7_ordinal1(X2))).#trainneg
+cnf(i_0_4644, negated_conjecture, (r1_xxreal_0(esk12_0,esk1_0)|~r1_xxreal_0(esk12_0,np__1))).#trainneg
+cnf(i_0_7174, negated_conjecture, (r1_xxreal_0(k1_newton(X1,esk2_0),k1_newton(esk2_0,esk2_0))|r1_xxreal_0(k1_newton(esk2_0,esk2_0),k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_7186, negated_conjecture, (r1_xxreal_0(k1_newton(X1,np__1),k1_newton(esk2_0,esk2_0))|r1_xxreal_0(k1_newton(esk2_0,esk2_0),k1_newton(X1,np__1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_1608, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X2,X3)),k3_xcmplx_0(X2,k1_newton(X2,X3)))|~r1_xxreal_0(np__0,k1_newton(X2,X3))|~r1_xxreal_0(X1,X2)|~v7_ordinal1(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_7537, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)),k3_xcmplx_0(X1,k1_newton(X1,X2)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_7506, plain, (r1_xxreal_0(k3_xcmplx_0(X1,k1_newton(X2,X3)),k1_newton(X2,k1_nat_1(np__1,X3)))|~r1_xxreal_0(np__0,k1_newton(X2,X3))|~r1_xxreal_0(X1,X2)|~v7_ordinal1(X3)|~v1_xreal_0(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_7538, plain, (r1_xxreal_0(k1_newton(X1,k1_nat_1(np__1,X2)),k3_xcmplx_0(X1,k1_newton(X1,X2)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_7539, plain, (r1_xxreal_0(k1_newton(X1,k2_xcmplx_0(X2,np__1)),k3_xcmplx_0(X1,k1_newton(X1,X2)))|~r1_xxreal_0(np__0,k1_newton(X1,X2))|~r1_xxreal_0(X1,X1)|~v7_ordinal1(X2)|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_7326, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xreal_0(X1)|~v1_xreal_0(k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_1073, negated_conjecture, (v3_xxreal_0(esk2_0)|v2_xxreal_0(esk9_0)|r1_xxreal_0(esk9_0,esk2_0))).#trainneg
+cnf(i_0_4646, negated_conjecture, (r1_xxreal_0(esk9_0,esk1_0)|~r1_xxreal_0(esk9_0,np__1))).#trainneg
+cnf(i_0_4647, negated_conjecture, (r1_xxreal_0(esk8_0,esk1_0)|~r1_xxreal_0(esk8_0,np__1))).#trainneg
+cnf(i_0_7196, negated_conjecture, (r1_xxreal_0(k1_newton(X1,esk2_0),k1_newton(esk2_0,esk2_0))|r1_xxreal_0(k1_newton(esk2_0,esk2_0),k1_newton(X1,esk2_0))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_615, plain, (k2_xcmplx_0(X1,k2_xcmplx_0(X2,k4_xcmplx_0(X3)))=k6_xcmplx_0(k2_xcmplx_0(X1,X2),X3)|~v1_xcmplx_0(X3)|~v1_xcmplx_0(k2_xcmplx_0(X1,X2))|~v1_xcmplx_0(k4_xcmplx_0(X3))|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_617, plain, (k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3))=k2_xcmplx_0(X2,k2_xcmplx_0(X3,X1))|~v1_xcmplx_0(k2_xcmplx_0(X2,X3))|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_618, plain, (v3_xxreal_0(X1)|v2_xxreal_0(k2_xcmplx_0(X2,k2_xcmplx_0(X3,X1)))|~v2_xxreal_0(k2_xcmplx_0(X2,X3))|~v1_xreal_0(X1)|~v1_xreal_0(k2_xcmplx_0(X2,X3))|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_7208, negated_conjecture, (r1_xxreal_0(k1_newton(X1,np__1),k1_newton(esk2_0,esk2_0))|r1_xxreal_0(k1_newton(esk2_0,esk2_0),k1_newton(X1,np__1))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_7429, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,esk2_0),k1_newton(esk2_0,esk2_0)))).#trainneg
+cnf(i_0_619, plain, (v1_xboole_0(X1)|~v1_xboole_0(k2_xcmplx_0(X2,k2_xcmplx_0(X3,X1)))|~v7_ordinal1(X1)|~v7_ordinal1(k2_xcmplx_0(X2,X3))|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_621, plain, (v1_xreal_0(k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3)))|~v1_xreal_0(X3)|~v1_xreal_0(k2_xcmplx_0(X1,X2))|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_4624, plain, (r1_xxreal_0(esk9_0,esk8_0)|r1_xxreal_0(esk8_0,esk9_0))).#trainneg
+cnf(i_0_4971, negated_conjecture, (r1_xxreal_0(esk13_0,esk1_0)|~r1_xxreal_0(esk13_0,np__1))).#trainneg
+cnf(i_0_4973, negated_conjecture, (r1_xxreal_0(esk7_0,esk1_0)|~r1_xxreal_0(esk7_0,np__1))).#trainneg
+cnf(i_0_3833, negated_conjecture, (r1_xxreal_0(k1_newton(np__1,esk2_0),k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),k1_newton(np__1,esk2_0))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_3834, negated_conjecture, (r1_xxreal_0(k1_newton(np__1,esk2_0),k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),k1_newton(np__1,esk2_0))|~v7_ordinal1(X2)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_622, plain, (v7_ordinal1(k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3)))|~v7_ordinal1(X3)|~v7_ordinal1(k2_xcmplx_0(X1,X2))|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_623, plain, (v1_int_1(k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3)))|~v1_int_1(X3)|~v1_int_1(k2_xcmplx_0(X1,X2))|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_8198, plain, (r1_xxreal_0(np__1,k1_newton(X1,esk6_1(X1)))|r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(X2,np__0)|r1_xxreal_0(np__1,k1_newton(X1,X2))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_8186, negated_conjecture, (r1_xxreal_0(np__1,k1_newton(X1,esk6_1(X1)))|r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_8188, negated_conjecture, (r1_xxreal_0(np__1,k1_newton(X1,esk6_1(X1)))|r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v1_xreal_0(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_5938, negated_conjecture, (r1_xxreal_0(X1,np__1)|r1_xxreal_0(np__1,k1_newton(X2,esk2_0))|~r1_xxreal_0(X1,k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~v1_xreal_0(k1_newton(X2,k1_nat_1(esk6_1(X2),np__1)))|~v1_xreal_0(X1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_923, plain, (v1_xreal_0(k4_xcmplx_0(k4_xcmplx_0(X1)))|~v1_int_1(X1))).#trainneg
+cnf(i_0_1852, plain, (v3_xxreal_0(esk9_0)|v2_xxreal_0(esk13_0)|r1_xxreal_0(esk13_0,esk9_0))).#trainneg
+cnf(i_0_624, plain, (v3_xxreal_0(k2_xcmplx_0(X1,X2))|v2_xxreal_0(k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3)))|~v2_xxreal_0(X3)|~v1_xreal_0(k2_xcmplx_0(X1,X2))|~v1_xreal_0(X3)|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_8048, negated_conjecture, (r1_xxreal_0(k1_newton(X1,esk2_0),k1_newton(np__1,esk2_0))|r1_xxreal_0(k1_newton(np__1,esk2_0),k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_625, plain, (v1_xboole_0(k2_xcmplx_0(X1,X2))|~v1_xboole_0(k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3)))|~v7_ordinal1(k2_xcmplx_0(X1,X2))|~v7_ordinal1(X3)|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_626, plain, (v2_xxreal_0(k2_xcmplx_0(X1,X2))|v2_xxreal_0(X3)|~v2_xxreal_0(k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3)))|~v1_xreal_0(X3)|~v1_xreal_0(k2_xcmplx_0(X1,X2))|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_4250, negated_conjecture, (v1_xboole_0(k1_newton(X1,esk2_0))|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~m1_subset_1(k1_newton(X1,esk2_0),k5_numbers)|~v1_xreal_0(k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_7067, plain, (r1_xxreal_0(k3_xcmplx_0(X1,X1),k3_xcmplx_0(k1_newton(X1,np__1),X1))|~r1_xxreal_0(np__0,k1_newton(X1,np__1))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_6446, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk6_1(esk1_0)),np__1)|~v1_xcmplx_0(esk1_0)|~v1_xreal_0(k3_xcmplx_0(esk1_0,k1_newton(esk1_0,esk6_1(esk1_0))))|~v1_xreal_0(k1_newton(esk1_0,esk6_1(esk1_0)))|~r1_xxreal_0(np__0,k1_newton(esk1_0,esk6_1(esk1_0))))).#trainneg
+cnf(i_0_1225, plain, (r1_xxreal_0(X1,np__0)|r1_xxreal_0(np__0,X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_4991, negated_conjecture, (r1_xxreal_0(X1,esk1_0)|~v1_xxreal_0(esk1_0)|~v1_xxreal_0(X2)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,X2)|~r1_xxreal_0(X2,np__1)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_4381, plain, (v1_xreal_0(k2_xcmplx_0(X1,np__0))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_627, plain, (k2_xcmplx_0(k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3)),X4)=k2_xcmplx_0(k2_xcmplx_0(X1,X2),k2_xcmplx_0(X3,X4))|~v1_xcmplx_0(X4)|~v1_xcmplx_0(X3)|~v1_xcmplx_0(k2_xcmplx_0(X1,X2))|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_8202, negated_conjecture, (~v2_xxreal_0(esk6_1(esk1_0)))).#trainneg
+cnf(i_0_8060, negated_conjecture, (r1_xxreal_0(k1_newton(X1,np__1),k1_newton(np__1,esk2_0))|r1_xxreal_0(k1_newton(np__1,esk2_0),k1_newton(X1,np__1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_628, plain, (k2_xcmplx_0(k4_xcmplx_0(np__1),k2_xcmplx_0(np__0,X1))=k2_xcmplx_0(k4_xcmplx_0(np__1),X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(np__0)|~v1_xcmplx_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_629, plain, (k2_xcmplx_0(k4_xcmplx_0(np__1),k2_xcmplx_0(np__1,X1))=k2_xcmplx_0(np__0,X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(np__1)|~v1_xcmplx_0(k4_xcmplx_0(np__1)))).#trainneg
+cnf(i_0_8204, negated_conjecture, (r1_xxreal_0(esk6_1(esk1_0),np__1))).#trainneg
+cnf(i_0_8203, negated_conjecture, (r1_xxreal_0(X1,np__0)|~v1_xxreal_0(esk6_1(esk1_0))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,esk6_1(esk1_0)))).#trainneg
+cnf(i_0_8473, negated_conjecture, (r1_xxreal_0(np__0,esk6_1(X1))|r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_8472, negated_conjecture, (r1_xxreal_0(np__0,esk6_1(X1))|r1_xxreal_0(esk6_1(X1),np__0)|r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_8490, negated_conjecture, (r1_xxreal_0(X1,esk1_0)|~v1_xxreal_0(X1)|~r1_xxreal_0(X2,np__1)|~r1_xxreal_0(X1,X2)|~v1_xreal_0(X2))).#trainneg
+cnf(i_0_8744, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,esk6_1(esk1_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_8757, negated_conjecture, (r1_xxreal_0(np__0,k1_newton(X1,esk2_0))|r1_xxreal_0(esk6_1(X1),np__1)|r1_xxreal_0(np__0,esk6_1(X1))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_8370, negated_conjecture, (r1_xxreal_0(k1_newton(np__1,esk2_0),k1_newton(np__1,esk2_0)))).#trainneg
+cnf(i_0_7944, plain, (~v1_xcmplx_0(k4_xcmplx_0(np__1))|~v1_xcmplx_0(X1)|~v1_xboole_0(k2_xcmplx_0(X1,np__0))|~v7_ordinal1(k2_xcmplx_0(X1,k4_xcmplx_0(np__1))))).#trainneg
+cnf(i_0_630, plain, (k2_xcmplx_0(np__0,k2_xcmplx_0(k4_xcmplx_0(np__1),X1))=k2_xcmplx_0(k4_xcmplx_0(np__1),X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(k4_xcmplx_0(np__1))|~v1_xcmplx_0(np__0))).#trainneg
+cnf(i_0_4979, negated_conjecture, (r1_xxreal_0(esk2_0,esk1_0)|~r1_xxreal_0(esk2_0,np__1))).#trainneg
+cnf(i_0_8070, negated_conjecture, (r1_xxreal_0(k1_newton(X1,esk2_0),k1_newton(np__1,esk2_0))|r1_xxreal_0(k1_newton(np__1,esk2_0),k1_newton(X1,esk2_0))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_631, plain, (k2_xcmplx_0(np__0,k2_xcmplx_0(np__0,X1))=k2_xcmplx_0(np__0,X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(np__0))).#trainneg
+cnf(i_0_632, plain, (k2_xcmplx_0(np__0,k2_xcmplx_0(np__1,X1))=k2_xcmplx_0(np__1,X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(np__1)|~v1_xcmplx_0(np__0))).#trainneg
+cnf(i_0_8765, negated_conjecture, (r1_xxreal_0(np__1,k1_newton(X1,esk2_0))|r1_xxreal_0(esk6_1(X1),np__1)|r1_xxreal_0(np__0,esk6_1(X1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_8796, negated_conjecture, (r1_xxreal_0(X1,esk1_0)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,k1_newton(esk1_0,esk2_0))|~v1_xreal_0(k1_newton(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_8742, negated_conjecture, (r1_xxreal_0(X1,np__1)|~v1_xxreal_0(np__1)|~v1_xxreal_0(esk6_1(esk1_0))|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,esk6_1(esk1_0)))).#trainneg
+cnf(i_0_8748, negated_conjecture, (r1_xxreal_0(X1,np__0)|~v1_xxreal_0(X1)|~r1_xxreal_0(X1,esk6_1(esk1_0)))).#trainneg
+cnf(i_0_633, plain, (k2_xcmplx_0(np__1,k2_xcmplx_0(k4_xcmplx_0(np__1),X1))=k2_xcmplx_0(np__0,X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(k4_xcmplx_0(np__1))|~v1_xcmplx_0(np__1))).#trainneg
+cnf(i_0_6001, plain, (r1_xxreal_0(esk10_0,esk12_0)|~v2_xxreal_0(esk12_0)|~v1_xreal_0(esk12_0))).#trainneg
+cnf(i_0_8082, negated_conjecture, (r1_xxreal_0(k1_newton(X1,np__1),k1_newton(np__1,esk2_0))|r1_xxreal_0(k1_newton(np__1,esk2_0),k1_newton(X1,np__1))|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_4216, negated_conjecture, (r1_xxreal_0(k1_newton(esk2_0,np__1),k1_newton(X1,X2))|r1_xxreal_0(k1_newton(X1,X2),k1_newton(esk2_0,np__1))|~v7_ordinal1(X2)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_634, plain, (k2_xcmplx_0(np__1,k2_xcmplx_0(np__0,X1))=k2_xcmplx_0(np__1,X1)|~v1_xcmplx_0(X1)|~v1_xcmplx_0(np__0)|~v1_xcmplx_0(np__1))).#trainneg
+cnf(i_0_635, plain, (k2_xcmplx_0(X1,k2_xcmplx_0(k4_xcmplx_0(X2),X3))=k2_xcmplx_0(k6_xcmplx_0(X1,X2),X3)|~v1_xcmplx_0(X3)|~v1_xcmplx_0(k4_xcmplx_0(X2))|~v1_xcmplx_0(X1)|~v1_xcmplx_0(X2))).#trainneg
+cnf(i_0_9041, negated_conjecture, (r1_xxreal_0(k1_newton(esk1_0,esk2_0),esk1_0)|~v1_xxreal_0(k1_newton(esk1_0,esk2_0))|~v1_xreal_0(k1_newton(esk1_0,esk2_0)))).#trainneg
+cnf(i_0_9017, plain, (k2_xcmplx_0(X1,np__1)=k2_xcmplx_0(np__1,X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_5929, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(np__0,np__1)))|~v1_xreal_0(k1_newton(esk1_0,k1_nat_1(np__0,np__1)))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_774, plain, (r1_xxreal_0(X1,esk10_0)|r1_xxreal_0(esk10_0,X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_4387, plain, (v7_ordinal1(k2_xcmplx_0(X1,np__0))|~v1_xcmplx_0(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_6674, negated_conjecture, (~r1_xxreal_0(np__1,k1_newton(esk1_0,np__0)))).#trainneg
+cnf(i_0_637, plain, (k2_xcmplx_0(k2_xcmplx_0(X2,X1),X3)=k2_xcmplx_0(X1,k2_xcmplx_0(X2,X3))|~v1_xcmplx_0(X3)|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_4726, plain, (r1_xxreal_0(esk8_0,np__0)|r1_xxreal_0(np__0,esk8_0))).#trainneg
+cnf(i_0_9131, negated_conjecture, (r1_xxreal_0(k1_newton(X1,esk2_0),k1_newton(esk2_0,np__1))|r1_xxreal_0(k1_newton(esk2_0,np__1),k1_newton(X1,esk2_0))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_639, plain, (k3_xcmplx_0(X1,k3_xcmplx_0(X2,k4_xcmplx_0(np__1)))=k4_xcmplx_0(k3_xcmplx_0(X1,X2))|~v1_xcmplx_0(k3_xcmplx_0(X1,X2))|~v1_xcmplx_0(k4_xcmplx_0(np__1))|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_9433, negated_conjecture, (r1_xxreal_0(X1,np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,np__1))|~v1_xreal_0(k1_newton(esk1_0,np__1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_6651, negated_conjecture, (r1_xxreal_0(k3_xcmplx_0(esk1_0,X1),np__1)|~r1_xxreal_0(X1,k1_newton(esk1_0,np__0))|~v1_xreal_0(k3_xcmplx_0(esk1_0,X1))|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_775, plain, (r1_xxreal_0(X1,esk9_0)|r1_xxreal_0(esk9_0,X1)|~v1_xreal_0(X1))).#trainneg
+cnf(i_0_5658, plain, (v1_xreal_0(k3_xcmplx_0(X1,X1))|~v1_xreal_0(X1)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_641, plain, (k3_xcmplx_0(X1,k3_xcmplx_0(X2,X3))=k3_xcmplx_0(X3,k3_xcmplx_0(X1,X2))|~v1_xcmplx_0(X3)|~v1_xcmplx_0(k3_xcmplx_0(X1,X2))|~v1_xcmplx_0(X2)|~v1_xcmplx_0(X1))).#trainneg
+cnf(i_0_5102, plain, (r1_xxreal_0(esk13_0,np__1)|r1_xxreal_0(np__0,esk13_0))).#trainneg
+# Training: Negative examples end
+# Parsed axioms                        : 157
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 204
+# Removed in clause preprocessing      : 18
+# Initial clauses in saturation        : 186
+# Processed clauses                    : 1411
+# ...of these trivial                  : 73
+# ...subsumed                          : 517
+# ...remaining for further processing  : 821
+# Other redundant clauses eliminated   : 0
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 31
+# Backward-rewritten                   : 116
+# Generated clauses                    : 9877
+# ...of the previous two non-trivial   : 8667
+# Contextual simplify-reflections      : 125
+# Paramodulations                      : 9872
+# Factorizations                       : 0
+# Equation resolutions                 : 0
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 669
+#    Positive orientable unit clauses  : 109
+#    Positive unorientable unit clauses: 0
+#    Negative unit clauses             : 34
+#    Non-unit-clauses                  : 526
+# Current number of unprocessed clauses: 7288
+# ...number of literals in the above   : 42586
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 973
+# Proof object given clauses           : 93
+# Proof search given clauses           : 821
+# Clause-clause subsumption calls (NU) : 96598
+# Rec. Clause-clause subsumption calls : 19665
+# Non-unit clause-clause subsumptions  : 587
+# Unit Clause-clause subsumption calls : 3788
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 17
+# BW rewrite match successes           : 17
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 214722
+
+# -------------------------------------------------
+# User time                : 17.126 s
+# System time              : 0.721 s
+# Total time               : 17.847 s
+# Maximum resident set size: 362784 pages
+17.12user 0.81system 0:18.14elapsed 98%CPU (0avgtext+0avgdata 362784maxresident)k
+0inputs+296outputs (0major+187281minor)pagefaults 0swaps
