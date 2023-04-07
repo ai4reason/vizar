@@ -18,11 +18,13 @@ negation sign (`~` in TPTP).
 
 For example, the clause 
 
-```A | B | ~C | ~D``` 
+```A | B | ~C | ~D
+``` 
 
 is considered as the logically equivalent sequent:
 
-```C, D => A, B```
+```C, D => A, B
+```
 
 The antecedents (left-hand side) are implicitly connected by logical _and_, while
 the consequents (right-hand side) are implicitly connected by _or_.
@@ -49,7 +51,7 @@ First-order translation of Mizar statements typically use predicates (type
 guards) to denote type of variables.
 For example:
 
-```natural(X1), natural(X1) => natural(plus(X1,X2))
+```natural(X1), natural(X2) => natural(plus(X1,X2))
 ```
 
 To simplify the presentation, VizAR discards the type guards applied to
