@@ -16,6 +16,12 @@ HIDDEN = [
    "v1_xxreal_0",
 ]
 
+NOPARENS = [
+   "k1_funct_2",
+   "k1_card_1",
+   "k1_tarski",
+]
+
 HREF = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/%s.html#%s"
 
 MPTP = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/"
@@ -55,7 +61,6 @@ def trans(f_trans="00constrnames-utf8"):
          trans[x.strip()] = y.strip()
    return trans
 
-
 def symbol(name, table=trans()):
    if name.startswith("np__"):
       return name[4:]
@@ -63,7 +68,7 @@ def symbol(name, table=trans()):
       return table[name] 
    mo = tptp.SKOLEM.match(name)
    if mo:
-      return "skolem%s" % label.subscripts(mo.group(1))
+      return "sk%s" % label.subscripts(mo.group(1))
    return name
 
 def symbol_apply(func, term):
@@ -310,5 +315,4 @@ def load(f_tptp):
    #remove_dups(info)
    unify_same(info)
    return info
-
 

@@ -5,13 +5,15 @@ WORD = re.compile("^[-a-zA-Z0-9₀-₉_]+$")
 
 SUBS = "₀₁₂₃₄₅₆₇₈₉"
 
+NOPARENS = [mizar.symbol(x) for x in mizar.NOPARENS]
+
 def subscripts(s):
    def subdigit(c):
       return SUBS[int(c)] if c.isnumeric() else c
    return "".join(map(subdigit, s))
 
 def isvar(t):
-   return (t[0].isupper or t[0] in mizar.VARSORTS.values()) and t[1:].isdigit()
+   return (t[0].isupper() or (t[0] in mizar.VARSORTS.values())) and t[1:].isdigit()
 
 def term(t, pars=False, predicate=False):
    if type(t) is str:
@@ -34,6 +36,7 @@ def term(t, pars=False, predicate=False):
             ret = " %s %s" % (head, args[0])
          else:
             return head
+         pars = pars and not (head in NOPARENS)
          ret = "(%s)" % ret if pars else ret
          return ret
 

@@ -77,12 +77,12 @@ See also the <a href="{{proof.axioms[proof.conjecture].url}}" target="_mizar">Mi
    {% assign prefix = sym[1].mizar | slice: 0, 6 %}
    {% if sym[0] != sym[1].mizar and prefix != "skolem" %}
    <tr>
+      <td>{{sym[0]}}</td>
       {% if sym[1].url %}
-        <td><a href="{{sym[1].url}}" target="_mizar">{{sym[0]}}</a></td>
+        <td><a href="{{sym[1].url}}" target="_mizar">{{sym[1].mizar}}</a></td>
       {% else %}
-        <td>{{sym[0]}}</td>
+        <td>{{sym[1].mizar}}</td>
       {% endif %}
-      <td>{{sym[1].mizar}}</td>
       <td>{{sym[1].vizar}}</td>
       <td>{{sym[1].arity}}</td>
       <td>{{sym[1].count}}</td>

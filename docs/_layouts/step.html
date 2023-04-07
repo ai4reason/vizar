@@ -55,12 +55,12 @@ layout: default
    {% assign prefix = symbol.mizar | slice: 0, 6 %}
    {% if sym[0] != symbol.mizar and prefix != "skolem" %}
    <tr>
+      <td>{{sym[0]}}</td>
       {% if symbol.url %}
-        <td><a href="{{symbol.url}}" target="_mizar">{{sym[0]}}</a></td>
+        <td><a href="{{symbol.url}}" target="_mizar">{{symbol.mizar}}</a></td>
       {% else %}
-        <td>{{sym[0]}}</td>
+        <td>{{symbol.mizar}}</td>
       {% endif %}
-      <td>{{symbol.mizar}}</td>
       <td>{{symbol.vizar}}</td>
       <td>{{symbol.arity}}</td>
       <td>{{sym[1]}}</td>
