@@ -11,7 +11,7 @@
 <!-- t27_nat_2 -->
 <g id="node1" class="node">
 <title>t27_nat_2</title>
-<g id="a_node1"><a xlink:href="t27_nat_2.html" xlink:title="t27_nat_2" target="_parent">
+<g id="a_node1"><a xlink:href="t27_nat_2.html" xlink:title="t27_nat_2" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="320,-52.5 320,-67.5 390,-67.5 390,-52.5 320,-52.5"/>
 <text text-anchor="middle" x="355" y="-56.3" font-family="Times,serif" font-size="14.00">t27_nat_2</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- c_0_109 -->
 <g id="node2" class="node">
 <title>c_0_109</title>
-<g id="a_node2"><a xlink:href="c_0_109.html" xlink:title="{div(div(sk₁,sk₂),sk₃) ≠ div(sk₁,sk₂ * sk₃)}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_109.html" xlink:title="{div(div(sk₁,sk₂),sk₃) ≠ div(sk₁,sk₂ * sk₃)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="0,-0.5 0,-15.5 274,-15.5 274,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="137" y="-4.3" font-family="Times,serif" font-size="14.00">div(div(sk₁,sk₂),sk₃) ≠ div(sk₁,sk₂ * sk₃)</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- c_0_41 -->
 <g id="node3" class="node">
 <title>c_0_41</title>
-<g id="a_node3"><a xlink:href="c_0_41.html" xlink:title="{sk₁ ∈ ℕ}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_41.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="292,-0.5 292,-15.5 346,-15.5 346,-0.5 292,-0.5"/>
 <text text-anchor="middle" x="319" y="-4.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
 </a>
@@ -47,33 +47,33 @@
 <path fill="none" stroke="black" d="M333,-52.33C333,-52.33 333,-25.7 333,-25.7"/>
 <polygon fill="black" stroke="black" points="336.5,-25.7 333,-15.7 329.5,-25.7 336.5,-25.7"/>
 </g>
-<!-- c_0_29 -->
-<g id="node4" class="node">
-<title>c_0_29</title>
-<g id="a_node4"><a xlink:href="c_0_29.html" xlink:title="{sk₂ ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="364,-0.5 364,-15.5 418,-15.5 418,-0.5 364,-0.5"/>
-<text text-anchor="middle" x="391" y="-4.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ ℕ</text>
-</a>
-</g>
-</g>
-<!-- t27_nat_2&#45;&gt;c_0_29 -->
-<g id="edge3" class="edge">
-<title>t27_nat_2&#45;&gt;c_0_29</title>
-<path fill="none" stroke="black" d="M377,-52.33C377,-52.33 377,-25.7 377,-25.7"/>
-<polygon fill="black" stroke="black" points="380.5,-25.7 377,-15.7 373.5,-25.7 380.5,-25.7"/>
-</g>
 <!-- c_0_44 -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>c_0_44</title>
-<g id="a_node5"><a xlink:href="c_0_44.html" xlink:title="{sk₃ ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="436,-0.5 436,-15.5 490,-15.5 490,-0.5 436,-0.5"/>
-<text text-anchor="middle" x="463" y="-4.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ ℕ</text>
+<g id="a_node4"><a xlink:href="c_0_44.html" xlink:title="{sk₃ ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="364,-0.5 364,-15.5 418,-15.5 418,-0.5 364,-0.5"/>
+<text text-anchor="middle" x="391" y="-4.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- t27_nat_2&#45;&gt;c_0_44 -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>t27_nat_2&#45;&gt;c_0_44</title>
+<path fill="none" stroke="black" d="M377,-52.33C377,-52.33 377,-25.7 377,-25.7"/>
+<polygon fill="black" stroke="black" points="380.5,-25.7 377,-15.7 373.5,-25.7 380.5,-25.7"/>
+</g>
+<!-- c_0_29 -->
+<g id="node5" class="node">
+<title>c_0_29</title>
+<g id="a_node5"><a xlink:href="c_0_29.html" xlink:title="{sk₂ ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="436,-0.5 436,-15.5 490,-15.5 490,-0.5 436,-0.5"/>
+<text text-anchor="middle" x="463" y="-4.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ ℕ</text>
+</a>
+</g>
+</g>
+<!-- t27_nat_2&#45;&gt;c_0_29 -->
+<g id="edge4" class="edge">
+<title>t27_nat_2&#45;&gt;c_0_29</title>
 <path fill="none" stroke="black" d="M390.06,-60C421.6,-60 463,-60 463,-60 463,-60 463,-25.67 463,-25.67"/>
 <polygon fill="black" stroke="black" points="466.5,-25.67 463,-15.67 459.5,-25.67 466.5,-25.67"/>
 </g>

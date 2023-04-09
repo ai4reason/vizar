@@ -190,14 +190,14 @@ skolems:
   esk1_0:
     axiom: t55_fdiff_11
     related:
-    - esk2_0
     - esk1_0
+    - esk2_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t55_fdiff_11
     related:
-    - esk2_0
     - esk1_0
+    - esk2_0
     symbol: "sk\u2082"
   esk4_0:
     axiom: rc4_xreal_0
@@ -468,8 +468,8 @@ steps:
       r2_fdiff_1: 1
       r2_hidden: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_132:
     counts:
       k1_numbers: 34
@@ -499,8 +499,8 @@ steps:
       k6_numbers: 1
       r2_fdiff_1: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_134:
     counts:
       k1_fdiff_1: 1
@@ -537,8 +537,8 @@ steps:
       v1_funct_1: 2
       v3_valued_0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_138:
     counts:
       k1_fdiff_1: 1
@@ -555,8 +555,8 @@ steps:
       r2_fdiff_1: 1
       v1_funct_1: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_140:
     counts:
       k1_numbers: 18
@@ -572,8 +572,8 @@ steps:
       v1_funct_1: 2
       v3_valued_0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_141:
     counts:
       k1_zfmisc_1: 1
@@ -609,8 +609,8 @@ steps:
       v1_funct_1: 2
       v1_xreal_0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_144:
     counts:
       k1_numbers: 11
@@ -624,8 +624,8 @@ steps:
       v1_funct_1: 1
       v3_valued_0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_145:
     counts:
       k1_zfmisc_1: 2
@@ -692,8 +692,8 @@ steps:
       r2_hidden: 1
       v1_funct_1: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_152:
     counts:
       k1_numbers: 24
@@ -721,8 +721,8 @@ steps:
       r2_hidden: 1
       v1_funct_1: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_154:
     counts:
       k1_zfmisc_1: 2
@@ -752,8 +752,8 @@ steps:
     counts:
       r2_hidden: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_158:
     counts:
       k1_numbers: 2
@@ -764,8 +764,8 @@ steps:
       r2_fdiff_1: 1
       v1_funct_1: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_159:
     counts:
       k1_numbers: 11

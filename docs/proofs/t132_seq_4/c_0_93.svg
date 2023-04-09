@@ -14,101 +14,101 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="82,-150 82,-257 406,-257 406,-150 82,-150"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="67,-150 67,-257 391,-257 391,-150 67,-150"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="82,-8 82,-130 406,-130 406,-8 82,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="67,-8 67,-130 391,-130 391,-8 67,-8"/>
 </g>
-<!-- c_0_78 -->
+<!-- c_0_74 -->
 <g id="node1" class="node">
-<title>c_0_78</title>
-<g id="a_node1"><a xlink:href="c_0_78.html" xlink:title="{FinSequenceSet(X₃,X₂)|X₁ ∈ X₂ ∈ X₃|⇊|X₁ ∈ X₃}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="316,-293 316,-353 478,-353 478,-293 316,-293"/>
-<text text-anchor="middle" x="397" y="-341.8" font-family="Times,serif" font-size="14.00">FinSequenceSet(X₃,X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="316,-338 478,-338 "/>
-<text text-anchor="middle" x="397" y="-326.8" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂ ∈ X₃</text>
-<polyline fill="none" stroke="#7f7542" points="316,-323 478,-323 "/>
-<text text-anchor="middle" x="397" y="-311.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="316,-308 478,-308 "/>
-<text text-anchor="middle" x="397" y="-296.8" font-family="Times,serif" font-size="14.00">X₁ ∈ X₃</text>
+<title>c_0_74</title>
+<g id="a_node1"><a xlink:href="c_0_74.html" xlink:title="{X₁ ∈ ℕ ⊆ ℝ|X₂ ∈ bool(COMPLEX(X₁))|⇊|closed(X₂,X₁)|sk₇(X₁,X₂) ∈ COMPLEX ∈ COMPLEX(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="196.5,-285.5 196.5,-360.5 477.5,-360.5 477.5,-285.5 196.5,-285.5"/>
+<text text-anchor="middle" x="337" y="-349.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ ⊆ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="196.5,-345.5 477.5,-345.5 "/>
+<text text-anchor="middle" x="337" y="-334.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(COMPLEX(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="196.5,-330.5 477.5,-330.5 "/>
+<text text-anchor="middle" x="337" y="-319.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="196.5,-315.5 477.5,-315.5 "/>
+<text text-anchor="middle" x="337" y="-304.3" font-family="Times,serif" font-size="14.00">closed(X₂,X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="196.5,-300.5 477.5,-300.5 "/>
+<text text-anchor="middle" x="337" y="-289.3" font-family="Times,serif" font-size="14.00">sk₇(X₁,X₂) ∈ COMPLEX ∈ COMPLEX(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_93 -->
 <g id="node3" class="node">
 <title>c_0_93</title>
-<g id="a_node3"><a xlink:href="c_0_93.html" xlink:title="{FinSequenceSet(COMPLEX(X₂),COMPLEX)|X₁ ∈ bool(COMPLEX(X₂))|X₂ ∈ ℕ ⊆ ℝ|⇊|closed(X₁,X₂)|sk₇(X₂,X₁) ∈ COMPLEX(X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="90.5,-158.5 90.5,-248.5 397.5,-248.5 397.5,-158.5 90.5,-158.5"/>
-<text text-anchor="middle" x="244" y="-237.3" font-family="Times,serif" font-size="14.00">FinSequenceSet(COMPLEX(X₂),COMPLEX)</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-233.5 397.5,-233.5 "/>
-<text text-anchor="middle" x="244" y="-222.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(COMPLEX(X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-218.5 397.5,-218.5 "/>
-<text text-anchor="middle" x="244" y="-207.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℕ ⊆ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-203.5 397.5,-203.5 "/>
-<text text-anchor="middle" x="244" y="-192.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-188.5 397.5,-188.5 "/>
-<text text-anchor="middle" x="244" y="-177.3" font-family="Times,serif" font-size="14.00">closed(X₁,X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-173.5 397.5,-173.5 "/>
-<text text-anchor="middle" x="244" y="-162.3" font-family="Times,serif" font-size="14.00">sk₇(X₂,X₁) ∈ COMPLEX(X₂)</text>
-</a>
-</g>
-</g>
-<!-- c_0_78&#45;&gt;c_0_93 -->
-<g id="edge1" class="edge">
-<title>c_0_78&#45;&gt;c_0_93</title>
-<path fill="none" stroke="black" d="M356.75,-292.85C356.75,-292.85 356.75,-258.56 356.75,-258.56"/>
-<polygon fill="black" stroke="black" points="360.25,-258.56 356.75,-248.56 353.25,-258.56 360.25,-258.56"/>
-</g>
-<!-- c_0_74 -->
-<g id="node2" class="node">
-<title>c_0_74</title>
-<g id="a_node2"><a xlink:href="c_0_74.html" xlink:title="{X₁ ∈ ℕ ⊆ ℝ|X₂ ∈ bool(COMPLEX(X₁))|⇊|closed(X₂,X₁)|sk₇(X₁,X₂) ∈ COMPLEX ∈ COMPLEX(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-285.5 16.5,-360.5 297.5,-360.5 297.5,-285.5 16.5,-285.5"/>
-<text text-anchor="middle" x="157" y="-349.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ ⊆ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-345.5 297.5,-345.5 "/>
-<text text-anchor="middle" x="157" y="-334.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(COMPLEX(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-330.5 297.5,-330.5 "/>
-<text text-anchor="middle" x="157" y="-319.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-315.5 297.5,-315.5 "/>
-<text text-anchor="middle" x="157" y="-304.3" font-family="Times,serif" font-size="14.00">closed(X₂,X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-300.5 297.5,-300.5 "/>
-<text text-anchor="middle" x="157" y="-289.3" font-family="Times,serif" font-size="14.00">sk₇(X₁,X₂) ∈ COMPLEX ∈ COMPLEX(X₁)</text>
+<g id="a_node3"><a xlink:href="c_0_93.html" xlink:title="{FinSequenceSet(COMPLEX(X₂),COMPLEX)|X₁ ∈ bool(COMPLEX(X₂))|X₂ ∈ ℕ ⊆ ℝ|⇊|closed(X₁,X₂)|sk₇(X₂,X₁) ∈ COMPLEX(X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="75.5,-158.5 75.5,-248.5 382.5,-248.5 382.5,-158.5 75.5,-158.5"/>
+<text text-anchor="middle" x="229" y="-237.3" font-family="Times,serif" font-size="14.00">FinSequenceSet(COMPLEX(X₂),COMPLEX)</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-233.5 382.5,-233.5 "/>
+<text text-anchor="middle" x="229" y="-222.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(COMPLEX(X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-218.5 382.5,-218.5 "/>
+<text text-anchor="middle" x="229" y="-207.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℕ ⊆ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-203.5 382.5,-203.5 "/>
+<text text-anchor="middle" x="229" y="-192.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-188.5 382.5,-188.5 "/>
+<text text-anchor="middle" x="229" y="-177.3" font-family="Times,serif" font-size="14.00">closed(X₁,X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-173.5 382.5,-173.5 "/>
+<text text-anchor="middle" x="229" y="-162.3" font-family="Times,serif" font-size="14.00">sk₇(X₂,X₁) ∈ COMPLEX(X₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_74&#45;&gt;c_0_93 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_74&#45;&gt;c_0_93</title>
-<path fill="none" stroke="black" d="M194,-285.19C194,-285.19 194,-258.59 194,-258.59"/>
-<polygon fill="black" stroke="black" points="197.5,-258.59 194,-248.59 190.5,-258.59 197.5,-258.59"/>
+<path fill="none" stroke="black" d="M289.5,-285.19C289.5,-285.19 289.5,-258.59 289.5,-258.59"/>
+<polygon fill="black" stroke="black" points="293,-258.59 289.5,-248.59 286,-258.59 293,-258.59"/>
+</g>
+<!-- c_0_78 -->
+<g id="node2" class="node">
+<title>c_0_78</title>
+<g id="a_node2"><a xlink:href="c_0_78.html" xlink:title="{FinSequenceSet(X₃,X₂)|X₁ ∈ X₂ ∈ X₃|⇊|X₁ ∈ X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-293 16,-353 178,-353 178,-293 16,-293"/>
+<text text-anchor="middle" x="97" y="-341.8" font-family="Times,serif" font-size="14.00">FinSequenceSet(X₃,X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-338 178,-338 "/>
+<text text-anchor="middle" x="97" y="-326.8" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂ ∈ X₃</text>
+<polyline fill="none" stroke="#7f7542" points="16,-323 178,-323 "/>
+<text text-anchor="middle" x="97" y="-311.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-308 178,-308 "/>
+<text text-anchor="middle" x="97" y="-296.8" font-family="Times,serif" font-size="14.00">X₁ ∈ X₃</text>
+</a>
+</g>
+</g>
+<!-- c_0_78&#45;&gt;c_0_93 -->
+<g id="edge2" class="edge">
+<title>c_0_78&#45;&gt;c_0_93</title>
+<path fill="none" stroke="black" d="M126.75,-292.85C126.75,-292.85 126.75,-258.56 126.75,-258.56"/>
+<polygon fill="black" stroke="black" points="130.25,-258.56 126.75,-248.56 123.25,-258.56 130.25,-258.56"/>
 </g>
 <!-- c_0_110 -->
 <g id="node4" class="node">
 <title>c_0_110</title>
-<g id="a_node4"><a xlink:href="c_0_110.html" xlink:title="{FinSequenceSet(COMPLEX(X₁),COMPLEX)|X₁ ∈ ℕ ⊆ ℝ|X₂ ∈ bool(COMPLEX(X₁))|⇊|COMPLEX(X₁) = Ø|closed(COMPLEX(X₁) ` X₂,X₁)|sk₇(X₁,COMPLEX(X₁) ` X₂) ∈ X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="90.5,-16.5 90.5,-121.5 397.5,-121.5 397.5,-16.5 90.5,-16.5"/>
-<text text-anchor="middle" x="244" y="-110.3" font-family="Times,serif" font-size="14.00">FinSequenceSet(COMPLEX(X₁),COMPLEX)</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-106.5 397.5,-106.5 "/>
-<text text-anchor="middle" x="244" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ ⊆ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-91.5 397.5,-91.5 "/>
-<text text-anchor="middle" x="244" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(COMPLEX(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-76.5 397.5,-76.5 "/>
-<text text-anchor="middle" x="244" y="-65.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-61.5 397.5,-61.5 "/>
-<text text-anchor="middle" x="244" y="-50.3" font-family="Times,serif" font-size="14.00">COMPLEX(X₁) = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-46.5 397.5,-46.5 "/>
-<text text-anchor="middle" x="244" y="-35.3" font-family="Times,serif" font-size="14.00">closed(COMPLEX(X₁) ` X₂,X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="90.5,-31.5 397.5,-31.5 "/>
-<text text-anchor="middle" x="244" y="-20.3" font-family="Times,serif" font-size="14.00">sk₇(X₁,COMPLEX(X₁) ` X₂) ∈ X₂</text>
+<g id="a_node4"><a xlink:href="c_0_110.html" xlink:title="{FinSequenceSet(COMPLEX(X₁),COMPLEX)|X₁ ∈ ℕ ⊆ ℝ|X₂ ∈ bool(COMPLEX(X₁))|⇊|COMPLEX(X₁) = Ø|closed(COMPLEX(X₁) ` X₂,X₁)|sk₇(X₁,COMPLEX(X₁) ` X₂) ∈ X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="75.5,-16.5 75.5,-121.5 382.5,-121.5 382.5,-16.5 75.5,-16.5"/>
+<text text-anchor="middle" x="229" y="-110.3" font-family="Times,serif" font-size="14.00">FinSequenceSet(COMPLEX(X₁),COMPLEX)</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-106.5 382.5,-106.5 "/>
+<text text-anchor="middle" x="229" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ ⊆ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-91.5 382.5,-91.5 "/>
+<text text-anchor="middle" x="229" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(COMPLEX(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-76.5 382.5,-76.5 "/>
+<text text-anchor="middle" x="229" y="-65.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-61.5 382.5,-61.5 "/>
+<text text-anchor="middle" x="229" y="-50.3" font-family="Times,serif" font-size="14.00">COMPLEX(X₁) = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-46.5 382.5,-46.5 "/>
+<text text-anchor="middle" x="229" y="-35.3" font-family="Times,serif" font-size="14.00">closed(COMPLEX(X₁) ` X₂,X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="75.5,-31.5 382.5,-31.5 "/>
+<text text-anchor="middle" x="229" y="-20.3" font-family="Times,serif" font-size="14.00">sk₇(X₁,COMPLEX(X₁) ` X₂) ∈ X₂</text>
 </a>
 </g>
 </g>
 <!-- c_0_93&#45;&gt;c_0_110 -->
 <g id="edge3" class="edge">
 <title>c_0_93&#45;&gt;c_0_110</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M244,-158.34C244,-158.34 244,-131.72 244,-131.72"/>
-<polygon fill="black" stroke="black" points="247.5,-131.72 244,-121.72 240.5,-131.72 247.5,-131.72"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M229,-158.34C229,-158.34 229,-131.72 229,-131.72"/>
+<polygon fill="black" stroke="black" points="232.5,-131.72 229,-121.72 225.5,-131.72 232.5,-131.72"/>
 </g>
 </g>
 </svg>

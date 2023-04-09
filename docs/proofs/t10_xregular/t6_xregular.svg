@@ -19,57 +19,57 @@
 <!-- t6_xregular -->
 <g id="node1" class="node">
 <title>t6_xregular</title>
-<g id="a_node1"><a xlink:href="t6_xregular.html" xlink:title="t6_xregular" target="_parent">
+<g id="a_node1"><a xlink:href="t6_xregular.html" xlink:title="t6_xregular" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="70.5,-173.5 70.5,-188.5 153.5,-188.5 153.5,-173.5 70.5,-173.5"/>
 <text text-anchor="middle" x="112" y="-177.3" font-family="Times,serif" font-size="14.00">t6_xregular</text>
 </a>
 </g>
 </g>
-<!-- c_0_12 -->
-<g id="node2" class="node">
-<title>c_0_12</title>
-<g id="a_node2"><a xlink:href="c_0_12.html" xlink:title="{X₁ ∈ X₂|X₂ ∈ X₃|X₃ ∈ X₄|X₄ ∈ X₅|X₅ ∈ sk₁₆(X₆)|⇊|X₁ ∩ X₆ = Ø|X₆ = Ø}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="121.5,-16.5 121.5,-136.5 208.5,-136.5 208.5,-16.5 121.5,-16.5"/>
-<text text-anchor="middle" x="165" y="-125.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="121.5,-121.5 208.5,-121.5 "/>
-<text text-anchor="middle" x="165" y="-110.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₃</text>
-<polyline fill="none" stroke="#7f7542" points="121.5,-106.5 208.5,-106.5 "/>
-<text text-anchor="middle" x="165" y="-95.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₄</text>
-<polyline fill="none" stroke="#7f7542" points="121.5,-91.5 208.5,-91.5 "/>
-<text text-anchor="middle" x="165" y="-80.3" font-family="Times,serif" font-size="14.00">X₄ ∈ X₅</text>
-<polyline fill="none" stroke="#7f7542" points="121.5,-76.5 208.5,-76.5 "/>
-<text text-anchor="middle" x="165" y="-65.3" font-family="Times,serif" font-size="14.00">X₅ ∈ sk₁₆(X₆)</text>
-<polyline fill="none" stroke="#7f7542" points="121.5,-61.5 208.5,-61.5 "/>
-<text text-anchor="middle" x="165" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="121.5,-46.5 208.5,-46.5 "/>
-<text text-anchor="middle" x="165" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ ∩ X₆ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="121.5,-31.5 208.5,-31.5 "/>
-<text text-anchor="middle" x="165" y="-20.3" font-family="Times,serif" font-size="14.00">X₆ = Ø</text>
-</a>
-</g>
-</g>
-<!-- t6_xregular&#45;&gt;c_0_12 -->
-<g id="edge1" class="edge">
-<title>t6_xregular&#45;&gt;c_0_12</title>
-<path fill="none" stroke="black" d="M137.5,-173.48C137.5,-173.48 137.5,-146.59 137.5,-146.59"/>
-<polygon fill="black" stroke="black" points="141,-146.59 137.5,-136.59 134,-146.6 141,-146.59"/>
-</g>
 <!-- c_0_8 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_8</title>
-<g id="a_node3"><a xlink:href="c_0_8.html" xlink:title="{X₁ = Ø|sk₁₆(X₁) ∈ X₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-61.5 16.5,-91.5 103.5,-91.5 103.5,-61.5 16.5,-61.5"/>
-<text text-anchor="middle" x="60" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-76.5 103.5,-76.5 "/>
-<text text-anchor="middle" x="60" y="-65.3" font-family="Times,serif" font-size="14.00">sk₁₆(X₁) ∈ X₁</text>
+<g id="a_node2"><a xlink:href="c_0_8.html" xlink:title="{X₁ = Ø|sk₁₆(X₁) ∈ X₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="121.5,-61.5 121.5,-91.5 208.5,-91.5 208.5,-61.5 121.5,-61.5"/>
+<text text-anchor="middle" x="165" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="121.5,-76.5 208.5,-76.5 "/>
+<text text-anchor="middle" x="165" y="-65.3" font-family="Times,serif" font-size="14.00">sk₁₆(X₁) ∈ X₁</text>
 </a>
 </g>
 </g>
 <!-- t6_xregular&#45;&gt;c_0_8 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t6_xregular&#45;&gt;c_0_8</title>
-<path fill="none" stroke="black" d="M87,-173.48C87,-173.48 87,-101.86 87,-101.86"/>
-<polygon fill="black" stroke="black" points="90.5,-101.86 87,-91.86 83.5,-101.86 90.5,-101.86"/>
+<path fill="none" stroke="black" d="M137.5,-173.48C137.5,-173.48 137.5,-101.86 137.5,-101.86"/>
+<polygon fill="black" stroke="black" points="141,-101.86 137.5,-91.86 134,-101.86 141,-101.86"/>
+</g>
+<!-- c_0_12 -->
+<g id="node3" class="node">
+<title>c_0_12</title>
+<g id="a_node3"><a xlink:href="c_0_12.html" xlink:title="{X₁ ∈ X₂|X₂ ∈ X₃|X₃ ∈ X₄|X₄ ∈ X₅|X₅ ∈ sk₁₆(X₆)|⇊|X₁ ∩ X₆ = Ø|X₆ = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-136.5 103.5,-136.5 103.5,-16.5 16.5,-16.5"/>
+<text text-anchor="middle" x="60" y="-125.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-121.5 103.5,-121.5 "/>
+<text text-anchor="middle" x="60" y="-110.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₃</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-106.5 103.5,-106.5 "/>
+<text text-anchor="middle" x="60" y="-95.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₄</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-91.5 103.5,-91.5 "/>
+<text text-anchor="middle" x="60" y="-80.3" font-family="Times,serif" font-size="14.00">X₄ ∈ X₅</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-76.5 103.5,-76.5 "/>
+<text text-anchor="middle" x="60" y="-65.3" font-family="Times,serif" font-size="14.00">X₅ ∈ sk₁₆(X₆)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-61.5 103.5,-61.5 "/>
+<text text-anchor="middle" x="60" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 103.5,-46.5 "/>
+<text text-anchor="middle" x="60" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ ∩ X₆ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 103.5,-31.5 "/>
+<text text-anchor="middle" x="60" y="-20.3" font-family="Times,serif" font-size="14.00">X₆ = Ø</text>
+</a>
+</g>
+</g>
+<!-- t6_xregular&#45;&gt;c_0_12 -->
+<g id="edge2" class="edge">
+<title>t6_xregular&#45;&gt;c_0_12</title>
+<path fill="none" stroke="black" d="M87,-173.48C87,-173.48 87,-146.59 87,-146.59"/>
+<polygon fill="black" stroke="black" points="90.5,-146.59 87,-136.59 83.5,-146.6 90.5,-146.59"/>
 </g>
 </g>
 </svg>

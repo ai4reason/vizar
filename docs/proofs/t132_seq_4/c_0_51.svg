@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="95,-352 95,-474 347,-474 347,-352 95,-352"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="50,-352 50,-474 302,-474 302,-352 50,-352"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
@@ -20,31 +20,19 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-190 396,-190 396,-8 8,-8"/>
 </g>
-<!-- c_0_45 -->
+<!-- c_0_27 -->
 <g id="node1" class="node">
-<title>c_0_45</title>
-<g id="a_node1"><a xlink:href="c_0_45.html" xlink:title="{X₁ ∈ ℝ|X₁ ≤ &#160;\|....\| sk₈(X₂,X₃,X₁)|X₂ ∈ ℕ ⊆ ℝ|X₃ ∈ bool(COMPLEX(X₂))|⇊|X₁ ≤ 0|closed(X₃,X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="163,-360.5 163,-465.5 339,-465.5 339,-360.5 163,-360.5"/>
-<text text-anchor="middle" x="251" y="-454.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="163,-450.5 339,-450.5 "/>
-<text text-anchor="middle" x="251" y="-439.3" font-family="Times,serif" font-size="14.00">X₁ ≤ |....| sk₈(X₂,X₃,X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="163,-435.5 339,-435.5 "/>
-<text text-anchor="middle" x="251" y="-424.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℕ ⊆ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="163,-420.5 339,-420.5 "/>
-<text text-anchor="middle" x="251" y="-409.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(COMPLEX(X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="163,-405.5 339,-405.5 "/>
-<text text-anchor="middle" x="251" y="-394.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="163,-390.5 339,-390.5 "/>
-<text text-anchor="middle" x="251" y="-379.3" font-family="Times,serif" font-size="14.00">X₁ ≤ 0</text>
-<polyline fill="none" stroke="#7f7542" points="163,-375.5 339,-375.5 "/>
-<text text-anchor="middle" x="251" y="-364.3" font-family="Times,serif" font-size="14.00">closed(X₃,X₂)</text>
+<title>c_0_27</title>
+<g id="a_node1"><a xlink:href="c_0_27.html" xlink:title="{0 = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="252,-405.5 252,-420.5 294,-420.5 294,-405.5 252,-405.5"/>
+<text text-anchor="middle" x="273" y="-409.3" font-family="Times,serif" font-size="14.00">0 = Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_51 -->
 <g id="node3" class="node">
 <title>c_0_51</title>
-<g id="a_node3"><a xlink:href="c_0_51.html" xlink:title="{X₁ ∈ ℝ|X₁ ≤ &#160;\|....\| sk₈(X₃,X₂,X₁)|X₂ ∈ bool(COMPLEX(X₃))|X₃ ∈ ℕ ⊆ ℝ|⇊|X₁ ≤ Ø|closed(X₂,X₃)}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_51.html" xlink:title="{X₁ ∈ ℝ|X₁ ≤ &#160;\|....\| sk₈(X₃,X₂,X₁)|X₂ ∈ bool(COMPLEX(X₃))|X₃ ∈ ℕ ⊆ ℝ|⇊|X₁ ≤ Ø|closed(X₂,X₃)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="114,-218.5 114,-323.5 290,-323.5 290,-218.5 114,-218.5"/>
 <text text-anchor="middle" x="202" y="-312.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℝ</text>
 <polyline fill="none" stroke="#7f7542" points="114,-308.5 290,-308.5 "/>
@@ -62,31 +50,43 @@
 </a>
 </g>
 </g>
-<!-- c_0_45&#45;&gt;c_0_51 -->
+<!-- c_0_27&#45;&gt;c_0_51 -->
 <g id="edge1" class="edge">
-<title>c_0_45&#45;&gt;c_0_51</title>
-<path fill="none" stroke="black" d="M226.5,-360.12C226.5,-360.12 226.5,-333.92 226.5,-333.92"/>
-<polygon fill="black" stroke="black" points="230,-333.92 226.5,-323.92 223,-333.92 230,-333.92"/>
+<title>c_0_27&#45;&gt;c_0_51</title>
+<path fill="none" stroke="black" d="M271,-405.37C271,-405.37 271,-333.64 271,-333.64"/>
+<polygon fill="black" stroke="black" points="274.5,-333.64 271,-323.64 267.5,-333.64 274.5,-333.64"/>
 </g>
-<!-- c_0_27 -->
+<!-- c_0_45 -->
 <g id="node2" class="node">
-<title>c_0_27</title>
-<g id="a_node2"><a xlink:href="c_0_27.html" xlink:title="{0 = Ø}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="103,-405.5 103,-420.5 145,-420.5 145,-405.5 103,-405.5"/>
-<text text-anchor="middle" x="124" y="-409.3" font-family="Times,serif" font-size="14.00">0 = Ø</text>
+<title>c_0_45</title>
+<g id="a_node2"><a xlink:href="c_0_45.html" xlink:title="{X₁ ∈ ℝ|X₁ ≤ &#160;\|....\| sk₈(X₂,X₃,X₁)|X₂ ∈ ℕ ⊆ ℝ|X₃ ∈ bool(COMPLEX(X₂))|⇊|X₁ ≤ 0|closed(X₃,X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="58,-360.5 58,-465.5 234,-465.5 234,-360.5 58,-360.5"/>
+<text text-anchor="middle" x="146" y="-454.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="58,-450.5 234,-450.5 "/>
+<text text-anchor="middle" x="146" y="-439.3" font-family="Times,serif" font-size="14.00">X₁ ≤ |....| sk₈(X₂,X₃,X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="58,-435.5 234,-435.5 "/>
+<text text-anchor="middle" x="146" y="-424.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℕ ⊆ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="58,-420.5 234,-420.5 "/>
+<text text-anchor="middle" x="146" y="-409.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(COMPLEX(X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="58,-405.5 234,-405.5 "/>
+<text text-anchor="middle" x="146" y="-394.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="58,-390.5 234,-390.5 "/>
+<text text-anchor="middle" x="146" y="-379.3" font-family="Times,serif" font-size="14.00">X₁ ≤ 0</text>
+<polyline fill="none" stroke="#7f7542" points="58,-375.5 234,-375.5 "/>
+<text text-anchor="middle" x="146" y="-364.3" font-family="Times,serif" font-size="14.00">closed(X₃,X₂)</text>
 </a>
 </g>
 </g>
-<!-- c_0_27&#45;&gt;c_0_51 -->
+<!-- c_0_45&#45;&gt;c_0_51 -->
 <g id="edge2" class="edge">
-<title>c_0_27&#45;&gt;c_0_51</title>
-<path fill="none" stroke="black" d="M129.5,-405.37C129.5,-405.37 129.5,-333.64 129.5,-333.64"/>
-<polygon fill="black" stroke="black" points="133,-333.64 129.5,-323.64 126,-333.64 133,-333.64"/>
+<title>c_0_45&#45;&gt;c_0_51</title>
+<path fill="none" stroke="black" d="M174,-360.12C174,-360.12 174,-333.92 174,-333.92"/>
+<polygon fill="black" stroke="black" points="177.5,-333.92 174,-323.92 170.5,-333.92 177.5,-333.92"/>
 </g>
 <!-- c_0_59 -->
 <g id="node4" class="node">
 <title>c_0_59</title>
-<g id="a_node4"><a xlink:href="c_0_59.html" xlink:title="{X₁ ∈ ℕ ⊆ ℝ|X₂ ∈ COMPLEX ∈ COMPLEX(X₁)|X₂ ∈ X₅|X₃ ∈ ℕ ⊆ ℝ|X₄ ∈ bool(COMPLEX(X₃))|X₅ ∈ bool(COMPLEX(X₁))|open(X₅,X₁)|sk₈(X₃,X₄,sk₃(X₁,X₅,X₂)) ∈ COMPLEX ∈ COMPLEX(X₁)|⇊|X₁ + X₂ + sk₈(X₃,X₄,sk₃(X₁,X₅,X₂)) ∈ X₅|closed(X₄,X₃)}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_59.html" xlink:title="{X₁ ∈ ℕ ⊆ ℝ|X₂ ∈ COMPLEX ∈ COMPLEX(X₁)|X₂ ∈ X₅|X₃ ∈ ℕ ⊆ ℝ|X₄ ∈ bool(COMPLEX(X₃))|X₅ ∈ bool(COMPLEX(X₁))|open(X₅,X₁)|sk₈(X₃,X₄,sk₃(X₁,X₅,X₂)) ∈ COMPLEX ∈ COMPLEX(X₁)|⇊|X₁ + X₂ + sk₈(X₃,X₄,sk₃(X₁,X₅,X₂)) ∈ X₅|closed(X₄,X₃)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-181.5 387.5,-181.5 387.5,-16.5 16.5,-16.5"/>
 <text text-anchor="middle" x="202" y="-170.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ ⊆ ℝ</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-166.5 387.5,-166.5 "/>

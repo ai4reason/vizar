@@ -14,69 +14,69 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="50,-60 50,-92 146,-92 146,-60 50,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="51,-60 51,-92 147,-92 147,-60 51,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="50,-8 50,-40 146,-40 146,-8 50,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="51,-8 51,-40 147,-40 147,-8 51,-8"/>
 </g>
-<!-- c_0_55 -->
+<!-- c_0_67 -->
 <g id="node1" class="node">
-<title>c_0_55</title>
-<g id="a_node1"><a xlink:href="c_0_55.html" xlink:title="{\|X₁\| ∈ Card}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="103.5,-135.5 103.5,-150.5 182.5,-150.5 182.5,-135.5 103.5,-135.5"/>
-<text text-anchor="middle" x="143" y="-139.3" font-family="Times,serif" font-size="14.00">|X₁| ∈ Card</text>
+<title>c_0_67</title>
+<g id="a_node1"><a xlink:href="c_0_67.html" xlink:title="{κ₁ = \|X₂\||⇊|\|X₂\| = \|κ₁\|}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="113.5,-120.5 113.5,-165.5 182.5,-165.5 182.5,-120.5 113.5,-120.5"/>
+<text text-anchor="middle" x="148" y="-154.3" font-family="Times,serif" font-size="14.00">κ₁ = |X₂|</text>
+<polyline fill="none" stroke="#7f7542" points="113.5,-150.5 182.5,-150.5 "/>
+<text text-anchor="middle" x="148" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="113.5,-135.5 182.5,-135.5 "/>
+<text text-anchor="middle" x="148" y="-124.3" font-family="Times,serif" font-size="14.00">|X₂| = |κ₁|</text>
 </a>
 </g>
 </g>
 <!-- c_0_95 -->
 <g id="node3" class="node">
 <title>c_0_95</title>
-<g id="a_node3"><a xlink:href="c_0_95.html" xlink:title="{\|X₁\| = \|\|X₁\|\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="58.5,-68.5 58.5,-83.5 137.5,-83.5 137.5,-68.5 58.5,-68.5"/>
-<text text-anchor="middle" x="98" y="-72.3" font-family="Times,serif" font-size="14.00">|X₁| = ||X₁||</text>
-</a>
-</g>
-</g>
-<!-- c_0_55&#45;&gt;c_0_95 -->
-<g id="edge1" class="edge">
-<title>c_0_55&#45;&gt;c_0_95</title>
-<path fill="none" stroke="black" d="M120.5,-135.31C120.5,-135.31 120.5,-93.6 120.5,-93.6"/>
-<polygon fill="black" stroke="black" points="124,-93.6 120.5,-83.6 117,-93.6 124,-93.6"/>
-</g>
-<!-- c_0_67 -->
-<g id="node2" class="node">
-<title>c_0_67</title>
-<g id="a_node2"><a xlink:href="c_0_67.html" xlink:title="{κ₁ = \|X₂\||⇊|\|X₂\| = \|κ₁\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-120.5 16.5,-165.5 85.5,-165.5 85.5,-120.5 16.5,-120.5"/>
-<text text-anchor="middle" x="51" y="-154.3" font-family="Times,serif" font-size="14.00">κ₁ = |X₂|</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-150.5 85.5,-150.5 "/>
-<text text-anchor="middle" x="51" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-135.5 85.5,-135.5 "/>
-<text text-anchor="middle" x="51" y="-124.3" font-family="Times,serif" font-size="14.00">|X₂| = |κ₁|</text>
+<g id="a_node3"><a xlink:href="c_0_95.html" xlink:title="{\|X₁\| = \|\|X₁\|\|}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="59.5,-68.5 59.5,-83.5 138.5,-83.5 138.5,-68.5 59.5,-68.5"/>
+<text text-anchor="middle" x="99" y="-72.3" font-family="Times,serif" font-size="14.00">|X₁| = ||X₁||</text>
 </a>
 </g>
 </g>
 <!-- c_0_67&#45;&gt;c_0_95 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_67&#45;&gt;c_0_95</title>
-<path fill="none" stroke="black" d="M72,-120.32C72,-120.32 72,-93.59 72,-93.59"/>
-<polygon fill="black" stroke="black" points="75.5,-93.59 72,-83.59 68.5,-93.59 75.5,-93.59"/>
+<path fill="none" stroke="black" d="M126,-120.32C126,-120.32 126,-93.59 126,-93.59"/>
+<polygon fill="black" stroke="black" points="129.5,-93.59 126,-83.59 122.5,-93.59 129.5,-93.59"/>
+</g>
+<!-- c_0_55 -->
+<g id="node2" class="node">
+<title>c_0_55</title>
+<g id="a_node2"><a xlink:href="c_0_55.html" xlink:title="{\|X₁\| ∈ Card}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-135.5 16.5,-150.5 95.5,-150.5 95.5,-135.5 16.5,-135.5"/>
+<text text-anchor="middle" x="56" y="-139.3" font-family="Times,serif" font-size="14.00">|X₁| ∈ Card</text>
+</a>
+</g>
+</g>
+<!-- c_0_55&#45;&gt;c_0_95 -->
+<g id="edge2" class="edge">
+<title>c_0_55&#45;&gt;c_0_95</title>
+<path fill="none" stroke="black" d="M77.5,-135.31C77.5,-135.31 77.5,-93.6 77.5,-93.6"/>
+<polygon fill="black" stroke="black" points="81,-93.6 77.5,-83.6 74,-93.6 81,-93.6"/>
 </g>
 <!-- c_0_121 -->
 <g id="node4" class="node">
 <title>c_0_121</title>
-<g id="a_node4"><a xlink:href="c_0_121.html" xlink:title="{\|\|X₁\|\| = \|X₁\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="58.5,-16.5 58.5,-31.5 137.5,-31.5 137.5,-16.5 58.5,-16.5"/>
-<text text-anchor="middle" x="98" y="-20.3" font-family="Times,serif" font-size="14.00">||X₁|| = |X₁|</text>
+<g id="a_node4"><a xlink:href="c_0_121.html" xlink:title="{\|\|X₁\|\| = \|X₁\|}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="59.5,-16.5 59.5,-31.5 138.5,-31.5 138.5,-16.5 59.5,-16.5"/>
+<text text-anchor="middle" x="99" y="-20.3" font-family="Times,serif" font-size="14.00">||X₁|| = |X₁|</text>
 </a>
 </g>
 </g>
 <!-- c_0_95&#45;&gt;c_0_121 -->
 <g id="edge3" class="edge">
 <title>c_0_95&#45;&gt;c_0_121</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M98,-68.33C98,-68.33 98,-41.7 98,-41.7"/>
-<polygon fill="black" stroke="black" points="101.5,-41.7 98,-31.7 94.5,-41.7 101.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M99,-68.33C99,-68.33 99,-41.7 99,-41.7"/>
+<polygon fill="black" stroke="black" points="102.5,-41.7 99,-31.7 95.5,-41.7 102.5,-41.7"/>
 </g>
 </g>
 </svg>

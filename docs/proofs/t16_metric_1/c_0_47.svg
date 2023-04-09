@@ -14,16 +14,16 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="228,-135 228,-242 392,-242 392,-135 228,-135"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="283,-135 283,-242 447,-242 447,-135 283,-135"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="228,-8 228,-115 392,-115 392,-8 228,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="283,-8 283,-115 447,-115 447,-8 283,-8"/>
 </g>
 <!-- c_0_33 -->
 <g id="node1" class="node">
 <title>c_0_33</title>
-<g id="a_node1"><a xlink:href="c_0_33.html" xlink:title="{X₁ ∈ X₂|⇊|sk₆(X₁,X₂) ∈ X₂}" target="_parent">
+<g id="a_node1"><a xlink:href="c_0_33.html" xlink:title="{X₁ ∈ X₂|⇊|sk₆(X₁,X₂) ∈ X₂}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="456.5,-300.5 456.5,-345.5 557.5,-345.5 557.5,-300.5 456.5,-300.5"/>
 <text text-anchor="middle" x="507" y="-334.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
 <polyline fill="none" stroke="#7f7542" points="456.5,-330.5 557.5,-330.5 "/>
@@ -36,102 +36,102 @@
 <!-- c_0_47 -->
 <g id="node4" class="node">
 <title>c_0_47</title>
-<g id="a_node4"><a xlink:href="c_0_47.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ cl_Ball(X₁,X₃,R₄)|X₃ ∈ carrier(X₁)|empty(X₁)|⇊|⊥}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="236.5,-143.5 236.5,-233.5 383.5,-233.5 383.5,-143.5 236.5,-143.5"/>
-<text text-anchor="middle" x="310" y="-222.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-218.5 383.5,-218.5 "/>
-<text text-anchor="middle" x="310" y="-207.3" font-family="Times,serif" font-size="14.00">X₂ ∈ cl_Ball(X₁,X₃,R₄)</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-203.5 383.5,-203.5 "/>
-<text text-anchor="middle" x="310" y="-192.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-188.5 383.5,-188.5 "/>
-<text text-anchor="middle" x="310" y="-177.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-173.5 383.5,-173.5 "/>
-<text text-anchor="middle" x="310" y="-162.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-158.5 383.5,-158.5 "/>
-<text text-anchor="middle" x="310" y="-147.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node4"><a xlink:href="c_0_47.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ cl_Ball(X₁,X₃,R₄)|X₃ ∈ carrier(X₁)|empty(X₁)|⇊|⊥}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="291.5,-143.5 291.5,-233.5 438.5,-233.5 438.5,-143.5 291.5,-143.5"/>
+<text text-anchor="middle" x="365" y="-222.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-218.5 438.5,-218.5 "/>
+<text text-anchor="middle" x="365" y="-207.3" font-family="Times,serif" font-size="14.00">X₂ ∈ cl_Ball(X₁,X₃,R₄)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-203.5 438.5,-203.5 "/>
+<text text-anchor="middle" x="365" y="-192.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-188.5 438.5,-188.5 "/>
+<text text-anchor="middle" x="365" y="-177.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-173.5 438.5,-173.5 "/>
+<text text-anchor="middle" x="365" y="-162.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-158.5 438.5,-158.5 "/>
+<text text-anchor="middle" x="365" y="-147.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_33&#45;&gt;c_0_47 -->
 <g id="edge1" class="edge">
 <title>c_0_33&#45;&gt;c_0_47</title>
-<path fill="none" stroke="black" d="M507,-300.4C507,-261.97 507,-188 507,-188 507,-188 393.64,-188 393.64,-188"/>
-<polygon fill="black" stroke="black" points="393.64,-184.5 383.64,-188 393.64,-191.5 393.64,-184.5"/>
-</g>
-<!-- c_0_41 -->
-<g id="node2" class="node">
-<title>c_0_41</title>
-<g id="a_node2"><a xlink:href="c_0_41.html" xlink:title="{MetrStruct(X₂)|X₁ ∈ cl_Ball(X₂,X₃,R₄)|X₃ ∈ carrier(X₂)|⇊|sk₆(X₁,cl_Ball(X₂,X₃,R₄)) ∈ carrier(X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="181.5,-285.5 181.5,-360.5 438.5,-360.5 438.5,-285.5 181.5,-285.5"/>
-<text text-anchor="middle" x="310" y="-349.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="181.5,-345.5 438.5,-345.5 "/>
-<text text-anchor="middle" x="310" y="-334.3" font-family="Times,serif" font-size="14.00">X₁ ∈ cl_Ball(X₂,X₃,R₄)</text>
-<polyline fill="none" stroke="#7f7542" points="181.5,-330.5 438.5,-330.5 "/>
-<text text-anchor="middle" x="310" y="-319.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="181.5,-315.5 438.5,-315.5 "/>
-<text text-anchor="middle" x="310" y="-304.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="181.5,-300.5 438.5,-300.5 "/>
-<text text-anchor="middle" x="310" y="-289.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,cl_Ball(X₂,X₃,R₄)) ∈ carrier(X₂)</text>
-</a>
-</g>
-</g>
-<!-- c_0_41&#45;&gt;c_0_47 -->
-<g id="edge2" class="edge">
-<title>c_0_41&#45;&gt;c_0_47</title>
-<path fill="none" stroke="black" d="M334.5,-285.18C334.5,-285.18 334.5,-243.67 334.5,-243.67"/>
-<polygon fill="black" stroke="black" points="338,-243.67 334.5,-233.67 331,-243.67 338,-243.67"/>
+<path fill="none" stroke="black" d="M507,-300.4C507,-261.97 507,-188 507,-188 507,-188 448.91,-188 448.91,-188"/>
+<polygon fill="black" stroke="black" points="448.91,-184.5 438.91,-188 448.91,-191.5 448.91,-184.5"/>
 </g>
 <!-- c_0_40 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_40</title>
-<g id="a_node3"><a xlink:href="c_0_40.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|X₂ ∈ cl_Ball(X₁,X₃,R₄)|X₃ ∈ carrier(X₁)|empty(X₁)|⇊|⊥}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-270.5 16.5,-375.5 163.5,-375.5 163.5,-270.5 16.5,-270.5"/>
-<text text-anchor="middle" x="90" y="-364.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-360.5 163.5,-360.5 "/>
-<text text-anchor="middle" x="90" y="-349.3" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-345.5 163.5,-345.5 "/>
-<text text-anchor="middle" x="90" y="-334.3" font-family="Times,serif" font-size="14.00">X₂ ∈ cl_Ball(X₁,X₃,R₄)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-330.5 163.5,-330.5 "/>
-<text text-anchor="middle" x="90" y="-319.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-315.5 163.5,-315.5 "/>
-<text text-anchor="middle" x="90" y="-304.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-300.5 163.5,-300.5 "/>
-<text text-anchor="middle" x="90" y="-289.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-285.5 163.5,-285.5 "/>
-<text text-anchor="middle" x="90" y="-274.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node2"><a xlink:href="c_0_40.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|X₂ ∈ cl_Ball(X₁,X₃,R₄)|X₃ ∈ carrier(X₁)|empty(X₁)|⇊|⊥}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="291.5,-270.5 291.5,-375.5 438.5,-375.5 438.5,-270.5 291.5,-270.5"/>
+<text text-anchor="middle" x="365" y="-364.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-360.5 438.5,-360.5 "/>
+<text text-anchor="middle" x="365" y="-349.3" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-345.5 438.5,-345.5 "/>
+<text text-anchor="middle" x="365" y="-334.3" font-family="Times,serif" font-size="14.00">X₂ ∈ cl_Ball(X₁,X₃,R₄)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-330.5 438.5,-330.5 "/>
+<text text-anchor="middle" x="365" y="-319.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-315.5 438.5,-315.5 "/>
+<text text-anchor="middle" x="365" y="-304.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-300.5 438.5,-300.5 "/>
+<text text-anchor="middle" x="365" y="-289.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-285.5 438.5,-285.5 "/>
+<text text-anchor="middle" x="365" y="-274.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_40&#45;&gt;c_0_47 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_40&#45;&gt;c_0_47</title>
-<path fill="none" stroke="black" d="M163.63,-277C219.05,-277 285.5,-277 285.5,-277 285.5,-277 285.5,-243.53 285.5,-243.53"/>
-<polygon fill="black" stroke="black" points="289,-243.53 285.5,-233.53 282,-243.53 289,-243.53"/>
+<path fill="none" stroke="black" d="M365,-270.23C365,-270.23 365,-243.72 365,-243.72"/>
+<polygon fill="black" stroke="black" points="368.5,-243.72 365,-233.72 361.5,-243.72 368.5,-243.72"/>
+</g>
+<!-- c_0_41 -->
+<g id="node3" class="node">
+<title>c_0_41</title>
+<g id="a_node3"><a xlink:href="c_0_41.html" xlink:title="{MetrStruct(X₂)|X₁ ∈ cl_Ball(X₂,X₃,R₄)|X₃ ∈ carrier(X₂)|⇊|sk₆(X₁,cl_Ball(X₂,X₃,R₄)) ∈ carrier(X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-285.5 16.5,-360.5 273.5,-360.5 273.5,-285.5 16.5,-285.5"/>
+<text text-anchor="middle" x="145" y="-349.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-345.5 273.5,-345.5 "/>
+<text text-anchor="middle" x="145" y="-334.3" font-family="Times,serif" font-size="14.00">X₁ ∈ cl_Ball(X₂,X₃,R₄)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-330.5 273.5,-330.5 "/>
+<text text-anchor="middle" x="145" y="-319.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-315.5 273.5,-315.5 "/>
+<text text-anchor="middle" x="145" y="-304.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-300.5 273.5,-300.5 "/>
+<text text-anchor="middle" x="145" y="-289.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,cl_Ball(X₂,X₃,R₄)) ∈ carrier(X₂)</text>
+</a>
+</g>
+</g>
+<!-- c_0_41&#45;&gt;c_0_47 -->
+<g id="edge3" class="edge">
+<title>c_0_41&#45;&gt;c_0_47</title>
+<path fill="none" stroke="black" d="M145,-285.39C145,-245.45 145,-188 145,-188 145,-188 281.44,-188 281.44,-188"/>
+<polygon fill="black" stroke="black" points="281.44,-191.5 291.44,-188 281.44,-184.5 281.44,-191.5"/>
 </g>
 <!-- c_0_50 -->
 <g id="node5" class="node">
 <title>c_0_50</title>
-<g id="a_node5"><a xlink:href="c_0_50.html" xlink:title="{MetrStruct(X₂)|X₃ ∈ carrier(X₂)|X₄ ∈ cl_Ball(X₂,X₃,R₁)|⇊|R₁ = dist(X₂,X₃,X₄)|X₄ ∈ Ball(X₂,X₃,R₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="236.5,-16.5 236.5,-106.5 383.5,-106.5 383.5,-16.5 236.5,-16.5"/>
-<text text-anchor="middle" x="310" y="-95.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-91.5 383.5,-91.5 "/>
-<text text-anchor="middle" x="310" y="-80.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-76.5 383.5,-76.5 "/>
-<text text-anchor="middle" x="310" y="-65.3" font-family="Times,serif" font-size="14.00">X₄ ∈ cl_Ball(X₂,X₃,R₁)</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-61.5 383.5,-61.5 "/>
-<text text-anchor="middle" x="310" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-46.5 383.5,-46.5 "/>
-<text text-anchor="middle" x="310" y="-35.3" font-family="Times,serif" font-size="14.00">R₁ = dist(X₂,X₃,X₄)</text>
-<polyline fill="none" stroke="#7f7542" points="236.5,-31.5 383.5,-31.5 "/>
-<text text-anchor="middle" x="310" y="-20.3" font-family="Times,serif" font-size="14.00">X₄ ∈ Ball(X₂,X₃,R₁)</text>
+<g id="a_node5"><a xlink:href="c_0_50.html" xlink:title="{MetrStruct(X₂)|X₃ ∈ carrier(X₂)|X₄ ∈ cl_Ball(X₂,X₃,R₁)|⇊|R₁ = dist(X₂,X₃,X₄)|X₄ ∈ Ball(X₂,X₃,R₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="291.5,-16.5 291.5,-106.5 438.5,-106.5 438.5,-16.5 291.5,-16.5"/>
+<text text-anchor="middle" x="365" y="-95.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-91.5 438.5,-91.5 "/>
+<text text-anchor="middle" x="365" y="-80.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-76.5 438.5,-76.5 "/>
+<text text-anchor="middle" x="365" y="-65.3" font-family="Times,serif" font-size="14.00">X₄ ∈ cl_Ball(X₂,X₃,R₁)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-61.5 438.5,-61.5 "/>
+<text text-anchor="middle" x="365" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-46.5 438.5,-46.5 "/>
+<text text-anchor="middle" x="365" y="-35.3" font-family="Times,serif" font-size="14.00">R₁ = dist(X₂,X₃,X₄)</text>
+<polyline fill="none" stroke="#7f7542" points="291.5,-31.5 438.5,-31.5 "/>
+<text text-anchor="middle" x="365" y="-20.3" font-family="Times,serif" font-size="14.00">X₄ ∈ Ball(X₂,X₃,R₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_47&#45;&gt;c_0_50 -->
 <g id="edge4" class="edge">
 <title>c_0_47&#45;&gt;c_0_50</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M310,-143.37C310,-143.37 310,-116.92 310,-116.92"/>
-<polygon fill="black" stroke="black" points="313.5,-116.92 310,-106.92 306.5,-116.92 313.5,-116.92"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M365,-143.37C365,-143.37 365,-116.92 365,-116.92"/>
+<polygon fill="black" stroke="black" points="368.5,-116.92 365,-106.92 361.5,-116.92 368.5,-116.92"/>
 </g>
 </g>
 </svg>

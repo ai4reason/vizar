@@ -19,7 +19,7 @@
 <!-- d3_tarski -->
 <g id="node1" class="node">
 <title>d3_tarski</title>
-<g id="a_node1"><a xlink:href="d3_tarski.html" xlink:title="d3_tarski" target="_parent">
+<g id="a_node1"><a xlink:href="d3_tarski.html" xlink:title="d3_tarski" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="152.5,-113.5 152.5,-128.5 219.5,-128.5 219.5,-113.5 152.5,-113.5"/>
 <text text-anchor="middle" x="186" y="-117.3" font-family="Times,serif" font-size="14.00">d3_tarski</text>
 </a>
@@ -28,7 +28,7 @@
 <!-- c_0_31 -->
 <g id="node2" class="node">
 <title>c_0_31</title>
-<g id="a_node2"><a xlink:href="c_0_31.html" xlink:title="{X₁ ⊆ X₂|X₃ ∈ X₁|⇊|X₃ ∈ X₂}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_31.html" xlink:title="{X₁ ⊆ X₂|X₃ ∈ X₁|⇊|X₃ ∈ X₂}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="255,-16.5 255,-76.5 307,-76.5 307,-16.5 255,-16.5"/>
 <text text-anchor="middle" x="281" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
 <polyline fill="none" stroke="#7f7542" points="255,-61.5 307,-61.5 "/>
@@ -46,41 +46,41 @@
 <path fill="none" stroke="black" d="M219.76,-121C247.07,-121 281,-121 281,-121 281,-121 281,-86.8 281,-86.8"/>
 <polygon fill="black" stroke="black" points="284.5,-86.8 281,-76.8 277.5,-86.8 284.5,-86.8"/>
 </g>
-<!-- c_0_85 -->
-<g id="node3" class="node">
-<title>c_0_85</title>
-<g id="a_node3"><a xlink:href="c_0_85.html" xlink:title="{X₁ ⊆ X₂|sk₆(X₁,X₂) ∈ X₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="135.5,-31.5 135.5,-61.5 236.5,-61.5 236.5,-31.5 135.5,-31.5"/>
-<text text-anchor="middle" x="186" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="135.5,-46.5 236.5,-46.5 "/>
-<text text-anchor="middle" x="186" y="-35.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₂) ∈ X₁</text>
-</a>
-</g>
-</g>
-<!-- d3_tarski&#45;&gt;c_0_85 -->
-<g id="edge2" class="edge">
-<title>d3_tarski&#45;&gt;c_0_85</title>
-<path fill="none" stroke="black" d="M197.17,-113.31C197.17,-113.31 197.17,-71.75 197.17,-71.75"/>
-<polygon fill="black" stroke="black" points="200.67,-71.75 197.17,-61.75 193.67,-71.75 200.67,-71.75"/>
-</g>
 <!-- c_0_94 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_94</title>
-<g id="a_node4"><a xlink:href="c_0_94.html" xlink:title="{sk₆(X₁,X₂) ∈ X₂|⇊|X₁ ⊆ X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-24 16.5,-69 117.5,-69 117.5,-24 16.5,-24"/>
-<text text-anchor="middle" x="67" y="-57.8" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₂) ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-54 117.5,-54 "/>
-<text text-anchor="middle" x="67" y="-42.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-39 117.5,-39 "/>
-<text text-anchor="middle" x="67" y="-27.8" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
+<g id="a_node3"><a xlink:href="c_0_94.html" xlink:title="{sk₆(X₁,X₂) ∈ X₂|⇊|X₁ ⊆ X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="135.5,-24 135.5,-69 236.5,-69 236.5,-24 135.5,-24"/>
+<text text-anchor="middle" x="186" y="-57.8" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₂) ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="135.5,-54 236.5,-54 "/>
+<text text-anchor="middle" x="186" y="-42.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="135.5,-39 236.5,-39 "/>
+<text text-anchor="middle" x="186" y="-27.8" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
 </a>
 </g>
 </g>
 <!-- d3_tarski&#45;&gt;c_0_94 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>d3_tarski&#45;&gt;c_0_94</title>
-<path fill="none" stroke="black" d="M174.83,-113.21C174.83,-97.83 174.83,-65 174.83,-65 174.83,-65 127.76,-65 127.76,-65"/>
-<polygon fill="black" stroke="black" points="127.76,-61.5 117.76,-65 127.76,-68.5 127.76,-61.5"/>
+<path fill="none" stroke="black" d="M186,-113.31C186,-113.31 186,-79.13 186,-79.13"/>
+<polygon fill="black" stroke="black" points="189.5,-79.13 186,-69.13 182.5,-79.13 189.5,-79.13"/>
+</g>
+<!-- c_0_85 -->
+<g id="node4" class="node">
+<title>c_0_85</title>
+<g id="a_node4"><a xlink:href="c_0_85.html" xlink:title="{X₁ ⊆ X₂|sk₆(X₁,X₂) ∈ X₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-31.5 16.5,-61.5 117.5,-61.5 117.5,-31.5 16.5,-31.5"/>
+<text text-anchor="middle" x="67" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 117.5,-46.5 "/>
+<text text-anchor="middle" x="67" y="-35.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₂) ∈ X₁</text>
+</a>
+</g>
+</g>
+<!-- d3_tarski&#45;&gt;c_0_85 -->
+<g id="edge3" class="edge">
+<title>d3_tarski&#45;&gt;c_0_85</title>
+<path fill="none" stroke="black" d="M152.22,-121C117.04,-121 67,-121 67,-121 67,-121 67,-71.58 67,-71.58"/>
+<polygon fill="black" stroke="black" points="70.5,-71.58 67,-61.58 63.5,-71.58 70.5,-71.58"/>
 </g>
 </g>
 </svg>

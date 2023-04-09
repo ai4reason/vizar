@@ -14,7 +14,7 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="298,-60 298,-92 396,-92 396,-60 298,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="300,-60 300,-92 394,-92 394,-60 300,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,7 +23,7 @@
 <!-- t3_arithm -->
 <g id="node1" class="node">
 <title>t3_arithm</title>
-<g id="a_node1"><a xlink:href="t3_arithm.html" xlink:title="t3_arithm" target="_parent">
+<g id="a_node1"><a xlink:href="t3_arithm.html" xlink:title="t3_arithm" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="312,-120.5 312,-135.5 382,-135.5 382,-120.5 312,-120.5"/>
 <text text-anchor="middle" x="347" y="-124.3" font-family="Times,serif" font-size="14.00">t3_arithm</text>
 </a>
@@ -32,9 +32,9 @@
 <!-- c_0_151 -->
 <g id="node2" class="node">
 <title>c_0_151</title>
-<g id="a_node2"><a xlink:href="c_0_151.html" xlink:title="{1 * N₁ = N₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="306.5,-68.5 306.5,-83.5 387.5,-83.5 387.5,-68.5 306.5,-68.5"/>
-<text text-anchor="middle" x="347" y="-72.3" font-family="Times,serif" font-size="14.00">1 * N₁ = N₁</text>
+<g id="a_node2"><a xlink:href="c_0_151.html" xlink:title="{1 * C₁ = C₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="308,-68.5 308,-83.5 386,-83.5 386,-68.5 308,-68.5"/>
+<text text-anchor="middle" x="347" y="-72.3" font-family="Times,serif" font-size="14.00">1 * C₁ = C₁</text>
 </a>
 </g>
 </g>
@@ -47,7 +47,7 @@
 <!-- c_0_155 -->
 <g id="node3" class="node">
 <title>c_0_155</title>
-<g id="a_node3"><a xlink:href="c_0_155.html" xlink:title="{(tau * to_power(tau,sk₁)) + to_power(tau,sk₁) ≠ to_power(tau,sk₁) + (tau * to_power(tau,sk₁))}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_155.html" xlink:title="{(tau * to_power(tau,sk₁)) + to_power(tau,sk₁) ≠ to_power(tau,sk₁) + (tau * to_power(tau,sk₁))}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-31.5 677.5,-31.5 677.5,-16.5 16.5,-16.5"/>
 <text text-anchor="middle" x="347" y="-20.3" font-family="Times,serif" font-size="14.00">(tau * to_power(tau,sk₁)) + to_power(tau,sk₁) ≠ to_power(tau,sk₁) + (tau * to_power(tau,sk₁))</text>
 </a>

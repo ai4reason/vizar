@@ -20,21 +20,25 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="79,-8 79,-55 163,-55 163,-8 79,-8"/>
 </g>
-<!-- c_0_164 -->
+<!-- c_0_163 -->
 <g id="node1" class="node">
-<title>c_0_164</title>
-<g id="a_node1"><a xlink:href="c_0_164.html" xlink:title="{ordinal(cf(ω))|ω ∈ cf(ω)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="130,-180.5 130,-210.5 226,-210.5 226,-180.5 130,-180.5"/>
-<text text-anchor="middle" x="178" y="-199.3" font-family="Times,serif" font-size="14.00">ordinal(cf(ω))</text>
+<title>c_0_163</title>
+<g id="a_node1"><a xlink:href="c_0_163.html" xlink:title="{ordinal(cf(ω))|ω ⊆ cf(ω)|⇊|ω ∈ cf(ω)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="130,-165.5 130,-225.5 226,-225.5 226,-165.5 130,-165.5"/>
+<text text-anchor="middle" x="178" y="-214.3" font-family="Times,serif" font-size="14.00">ordinal(cf(ω))</text>
+<polyline fill="none" stroke="#7f7542" points="130,-210.5 226,-210.5 "/>
+<text text-anchor="middle" x="178" y="-199.3" font-family="Times,serif" font-size="14.00">ω ⊆ cf(ω)</text>
 <polyline fill="none" stroke="#7f7542" points="130,-195.5 226,-195.5 "/>
-<text text-anchor="middle" x="178" y="-184.3" font-family="Times,serif" font-size="14.00">ω ∈ cf(ω)</text>
+<text text-anchor="middle" x="178" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="130,-180.5 226,-180.5 "/>
+<text text-anchor="middle" x="178" y="-169.3" font-family="Times,serif" font-size="14.00">ω ∈ cf(ω)</text>
 </a>
 </g>
 </g>
 <!-- c_0_173 -->
 <g id="node3" class="node">
 <title>c_0_173</title>
-<g id="a_node3"><a xlink:href="c_0_173.html" xlink:title="{ω ⊆ cf(ω)|⇊|ω ∈ cf(ω)}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_173.html" xlink:title="{ω ⊆ cf(ω)|⇊|ω ∈ cf(ω)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="87.5,-83.5 87.5,-128.5 154.5,-128.5 154.5,-83.5 87.5,-83.5"/>
 <text text-anchor="middle" x="121" y="-117.3" font-family="Times,serif" font-size="14.00">ω ⊆ cf(ω)</text>
 <polyline fill="none" stroke="#7f7542" points="87.5,-113.5 154.5,-113.5 "/>
@@ -44,37 +48,33 @@
 </a>
 </g>
 </g>
-<!-- c_0_164&#45;&gt;c_0_173 -->
+<!-- c_0_163&#45;&gt;c_0_173 -->
 <g id="edge1" class="edge">
-<title>c_0_164&#45;&gt;c_0_173</title>
-<path fill="none" stroke="black" d="M142.25,-180.32C142.25,-180.32 142.25,-138.66 142.25,-138.66"/>
-<polygon fill="black" stroke="black" points="145.75,-138.66 142.25,-128.66 138.75,-138.66 145.75,-138.66"/>
+<title>c_0_163&#45;&gt;c_0_173</title>
+<path fill="none" stroke="black" d="M142.25,-165.2C142.25,-165.2 142.25,-138.63 142.25,-138.63"/>
+<polygon fill="black" stroke="black" points="145.75,-138.63 142.25,-128.63 138.75,-138.63 145.75,-138.63"/>
 </g>
-<!-- c_0_163 -->
+<!-- c_0_164 -->
 <g id="node2" class="node">
-<title>c_0_163</title>
-<g id="a_node2"><a xlink:href="c_0_163.html" xlink:title="{ordinal(cf(ω))|ω ⊆ cf(ω)|⇊|ω ∈ cf(ω)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-165.5 16,-225.5 112,-225.5 112,-165.5 16,-165.5"/>
-<text text-anchor="middle" x="64" y="-214.3" font-family="Times,serif" font-size="14.00">ordinal(cf(ω))</text>
-<polyline fill="none" stroke="#7f7542" points="16,-210.5 112,-210.5 "/>
-<text text-anchor="middle" x="64" y="-199.3" font-family="Times,serif" font-size="14.00">ω ⊆ cf(ω)</text>
+<title>c_0_164</title>
+<g id="a_node2"><a xlink:href="c_0_164.html" xlink:title="{ordinal(cf(ω))|ω ∈ cf(ω)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-180.5 16,-210.5 112,-210.5 112,-180.5 16,-180.5"/>
+<text text-anchor="middle" x="64" y="-199.3" font-family="Times,serif" font-size="14.00">ordinal(cf(ω))</text>
 <polyline fill="none" stroke="#7f7542" points="16,-195.5 112,-195.5 "/>
-<text text-anchor="middle" x="64" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-180.5 112,-180.5 "/>
-<text text-anchor="middle" x="64" y="-169.3" font-family="Times,serif" font-size="14.00">ω ∈ cf(ω)</text>
+<text text-anchor="middle" x="64" y="-184.3" font-family="Times,serif" font-size="14.00">ω ∈ cf(ω)</text>
 </a>
 </g>
 </g>
-<!-- c_0_163&#45;&gt;c_0_173 -->
+<!-- c_0_164&#45;&gt;c_0_173 -->
 <g id="edge2" class="edge">
-<title>c_0_163&#45;&gt;c_0_173</title>
-<path fill="none" stroke="black" d="M99.75,-165.2C99.75,-165.2 99.75,-138.63 99.75,-138.63"/>
-<polygon fill="black" stroke="black" points="103.25,-138.63 99.75,-128.63 96.25,-138.63 103.25,-138.63"/>
+<title>c_0_164&#45;&gt;c_0_173</title>
+<path fill="none" stroke="black" d="M99.75,-180.32C99.75,-180.32 99.75,-138.66 99.75,-138.66"/>
+<polygon fill="black" stroke="black" points="103.25,-138.66 99.75,-128.66 96.25,-138.66 103.25,-138.66"/>
 </g>
 <!-- c_0_184 -->
 <g id="node4" class="node">
 <title>c_0_184</title>
-<g id="a_node4"><a xlink:href="c_0_184.html" xlink:title="{cf(ω) = Ø|ω ∈ cf(ω)}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_184.html" xlink:title="{cf(ω) = Ø|ω ∈ cf(ω)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="87.5,-16.5 87.5,-46.5 154.5,-46.5 154.5,-16.5 87.5,-16.5"/>
 <text text-anchor="middle" x="121" y="-35.3" font-family="Times,serif" font-size="14.00">cf(ω) = Ø</text>
 <polyline fill="none" stroke="#7f7542" points="87.5,-31.5 154.5,-31.5 "/>

@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="312,-105 312,-137 412,-137 412,-105 312,-105"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="258,-105 258,-137 358,-137 358,-105 258,-105"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,96 +19,96 @@
 <!-- t5_scmyciel -->
 <g id="node1" class="node">
 <title>t5_scmyciel</title>
-<g id="a_node1"><a xlink:href="t5_scmyciel.html" xlink:title="t5_scmyciel" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="320,-113.5 320,-128.5 404,-128.5 404,-113.5 320,-113.5"/>
-<text text-anchor="middle" x="362" y="-117.3" font-family="Times,serif" font-size="14.00">t5_scmyciel</text>
+<g id="a_node1"><a xlink:href="t5_scmyciel.html" xlink:title="t5_scmyciel" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="266,-113.5 266,-128.5 350,-128.5 350,-113.5 266,-113.5"/>
+<text text-anchor="middle" x="308" y="-117.3" font-family="Times,serif" font-size="14.00">t5_scmyciel</text>
 </a>
 </g>
 </g>
-<!-- c_0_168 -->
+<!-- c_0_159 -->
 <g id="node2" class="node">
-<title>c_0_168</title>
-<g id="a_node2"><a xlink:href="c_0_168.html" xlink:title="{3 c= \|X₁\||⇊|sk₃(X₁,X₂) ∈ X₁}" target="_parent">
+<title>c_0_159</title>
+<g id="a_node2"><a xlink:href="c_0_159.html" xlink:title="{3 c= \|X₁\||⇊|sk₄(X₁,X₂) ∈ X₁}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="550.5,-24 550.5,-69 651.5,-69 651.5,-24 550.5,-24"/>
 <text text-anchor="middle" x="601" y="-57.8" font-family="Times,serif" font-size="14.00">3 c= |X₁|</text>
 <polyline fill="none" stroke="#7f7542" points="550.5,-54 651.5,-54 "/>
 <text text-anchor="middle" x="601" y="-42.8" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="550.5,-39 651.5,-39 "/>
-<text text-anchor="middle" x="601" y="-27.8" font-family="Times,serif" font-size="14.00">sk₃(X₁,X₂) ∈ X₁</text>
-</a>
-</g>
-</g>
-<!-- t5_scmyciel&#45;&gt;c_0_168 -->
-<g id="edge1" class="edge">
-<title>t5_scmyciel&#45;&gt;c_0_168</title>
-<path fill="none" stroke="black" d="M404.18,-123C472.79,-123 601,-123 601,-123 601,-123 601,-79.04 601,-79.04"/>
-<polygon fill="black" stroke="black" points="604.5,-79.04 601,-69.04 597.5,-79.04 604.5,-79.04"/>
-</g>
-<!-- c_0_159 -->
-<g id="node3" class="node">
-<title>c_0_159</title>
-<g id="a_node3"><a xlink:href="c_0_159.html" xlink:title="{3 c= \|X₁\||⇊|sk₄(X₁,X₂) ∈ X₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="431.5,-24 431.5,-69 532.5,-69 532.5,-24 431.5,-24"/>
-<text text-anchor="middle" x="482" y="-57.8" font-family="Times,serif" font-size="14.00">3 c= |X₁|</text>
-<polyline fill="none" stroke="#7f7542" points="431.5,-54 532.5,-54 "/>
-<text text-anchor="middle" x="482" y="-42.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="431.5,-39 532.5,-39 "/>
-<text text-anchor="middle" x="482" y="-27.8" font-family="Times,serif" font-size="14.00">sk₄(X₁,X₂) ∈ X₁</text>
+<text text-anchor="middle" x="601" y="-27.8" font-family="Times,serif" font-size="14.00">sk₄(X₁,X₂) ∈ X₁</text>
 </a>
 </g>
 </g>
 <!-- t5_scmyciel&#45;&gt;c_0_159 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t5_scmyciel&#45;&gt;c_0_159</title>
-<path fill="none" stroke="black" d="M404.31,-118C438.86,-118 482,-118 482,-118 482,-118 482,-79.12 482,-79.12"/>
-<polygon fill="black" stroke="black" points="485.5,-79.12 482,-69.12 478.5,-79.12 485.5,-79.12"/>
+<path fill="none" stroke="black" d="M350.29,-123C431.43,-123 601,-123 601,-123 601,-123 601,-79.04 601,-79.04"/>
+<polygon fill="black" stroke="black" points="604.5,-79.04 601,-69.04 597.5,-79.04 604.5,-79.04"/>
+</g>
+<!-- c_0_169 -->
+<g id="node3" class="node">
+<title>c_0_169</title>
+<g id="a_node3"><a xlink:href="c_0_169.html" xlink:title="{3 c= \|X₁\||sk₃(X₁,X₂) = sk₄(X₁,X₂)|⇊|⊥}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="378,-16.5 378,-76.5 532,-76.5 532,-16.5 378,-16.5"/>
+<text text-anchor="middle" x="455" y="-65.3" font-family="Times,serif" font-size="14.00">3 c= |X₁|</text>
+<polyline fill="none" stroke="#7f7542" points="378,-61.5 532,-61.5 "/>
+<text text-anchor="middle" x="455" y="-50.3" font-family="Times,serif" font-size="14.00">sk₃(X₁,X₂) = sk₄(X₁,X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="378,-46.5 532,-46.5 "/>
+<text text-anchor="middle" x="455" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="378,-31.5 532,-31.5 "/>
+<text text-anchor="middle" x="455" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+</a>
+</g>
+</g>
+<!-- t5_scmyciel&#45;&gt;c_0_169 -->
+<g id="edge2" class="edge">
+<title>t5_scmyciel&#45;&gt;c_0_169</title>
+<path fill="none" stroke="black" d="M350.12,-118C393.56,-118 455,-118 455,-118 455,-118 455,-86.82 455,-86.82"/>
+<polygon fill="black" stroke="black" points="458.5,-86.82 455,-76.82 451.5,-86.82 458.5,-86.82"/>
 </g>
 <!-- c_0_178 -->
 <g id="node4" class="node">
 <title>c_0_178</title>
-<g id="a_node4"><a xlink:href="c_0_178.html" xlink:title="{3 c= \|X₁\||sk₃(X₁,X₂) = X₂|⇊|⊥}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="310.5,-16.5 310.5,-76.5 413.5,-76.5 413.5,-16.5 310.5,-16.5"/>
-<text text-anchor="middle" x="362" y="-65.3" font-family="Times,serif" font-size="14.00">3 c= |X₁|</text>
-<polyline fill="none" stroke="#7f7542" points="310.5,-61.5 413.5,-61.5 "/>
-<text text-anchor="middle" x="362" y="-50.3" font-family="Times,serif" font-size="14.00">sk₃(X₁,X₂) = X₂</text>
-<polyline fill="none" stroke="#7f7542" points="310.5,-46.5 413.5,-46.5 "/>
-<text text-anchor="middle" x="362" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="310.5,-31.5 413.5,-31.5 "/>
-<text text-anchor="middle" x="362" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node4"><a xlink:href="c_0_178.html" xlink:title="{3 c= \|X₁\||sk₃(X₁,X₂) = X₂|⇊|⊥}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="256.5,-16.5 256.5,-76.5 359.5,-76.5 359.5,-16.5 256.5,-16.5"/>
+<text text-anchor="middle" x="308" y="-65.3" font-family="Times,serif" font-size="14.00">3 c= |X₁|</text>
+<polyline fill="none" stroke="#7f7542" points="256.5,-61.5 359.5,-61.5 "/>
+<text text-anchor="middle" x="308" y="-50.3" font-family="Times,serif" font-size="14.00">sk₃(X₁,X₂) = X₂</text>
+<polyline fill="none" stroke="#7f7542" points="256.5,-46.5 359.5,-46.5 "/>
+<text text-anchor="middle" x="308" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="256.5,-31.5 359.5,-31.5 "/>
+<text text-anchor="middle" x="308" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- t5_scmyciel&#45;&gt;c_0_178 -->
 <g id="edge3" class="edge">
 <title>t5_scmyciel&#45;&gt;c_0_178</title>
-<path fill="none" stroke="black" d="M362,-113.31C362,-113.31 362,-86.51 362,-86.51"/>
-<polygon fill="black" stroke="black" points="365.5,-86.51 362,-76.51 358.5,-86.51 365.5,-86.51"/>
+<path fill="none" stroke="black" d="M308,-113.31C308,-113.31 308,-86.51 308,-86.51"/>
+<polygon fill="black" stroke="black" points="311.5,-86.51 308,-76.51 304.5,-86.51 311.5,-86.51"/>
 </g>
-<!-- c_0_169 -->
+<!-- c_0_168 -->
 <g id="node5" class="node">
-<title>c_0_169</title>
-<g id="a_node5"><a xlink:href="c_0_169.html" xlink:title="{3 c= \|X₁\||sk₃(X₁,X₂) = sk₄(X₁,X₂)|⇊|⊥}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="138,-16.5 138,-76.5 292,-76.5 292,-16.5 138,-16.5"/>
-<text text-anchor="middle" x="215" y="-65.3" font-family="Times,serif" font-size="14.00">3 c= |X₁|</text>
-<polyline fill="none" stroke="#7f7542" points="138,-61.5 292,-61.5 "/>
-<text text-anchor="middle" x="215" y="-50.3" font-family="Times,serif" font-size="14.00">sk₃(X₁,X₂) = sk₄(X₁,X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="138,-46.5 292,-46.5 "/>
-<text text-anchor="middle" x="215" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="138,-31.5 292,-31.5 "/>
-<text text-anchor="middle" x="215" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<title>c_0_168</title>
+<g id="a_node5"><a xlink:href="c_0_168.html" xlink:title="{3 c= \|X₁\||⇊|sk₃(X₁,X₂) ∈ X₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="137.5,-24 137.5,-69 238.5,-69 238.5,-24 137.5,-24"/>
+<text text-anchor="middle" x="188" y="-57.8" font-family="Times,serif" font-size="14.00">3 c= |X₁|</text>
+<polyline fill="none" stroke="#7f7542" points="137.5,-54 238.5,-54 "/>
+<text text-anchor="middle" x="188" y="-42.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="137.5,-39 238.5,-39 "/>
+<text text-anchor="middle" x="188" y="-27.8" font-family="Times,serif" font-size="14.00">sk₃(X₁,X₂) ∈ X₁</text>
 </a>
 </g>
 </g>
-<!-- t5_scmyciel&#45;&gt;c_0_169 -->
+<!-- t5_scmyciel&#45;&gt;c_0_168 -->
 <g id="edge4" class="edge">
-<title>t5_scmyciel&#45;&gt;c_0_169</title>
-<path fill="none" stroke="black" d="M319.88,-118C276.44,-118 215,-118 215,-118 215,-118 215,-86.82 215,-86.82"/>
-<polygon fill="black" stroke="black" points="218.5,-86.82 215,-76.82 211.5,-86.82 218.5,-86.82"/>
+<title>t5_scmyciel&#45;&gt;c_0_168</title>
+<path fill="none" stroke="black" d="M265.69,-118C231.14,-118 188,-118 188,-118 188,-118 188,-79.12 188,-79.12"/>
+<polygon fill="black" stroke="black" points="191.5,-79.12 188,-69.12 184.5,-79.12 191.5,-79.12"/>
 </g>
 <!-- c_0_174 -->
 <g id="node6" class="node">
 <title>c_0_174</title>
-<g id="a_node6"><a xlink:href="c_0_174.html" xlink:title="{3 c= \|X₁\||sk₄(X₁,X₂) = X₂|⇊|⊥}" target="_parent">
+<g id="a_node6"><a xlink:href="c_0_174.html" xlink:title="{3 c= \|X₁\||sk₄(X₁,X₂) = X₂|⇊|⊥}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-76.5 119.5,-76.5 119.5,-16.5 16.5,-16.5"/>
 <text text-anchor="middle" x="68" y="-65.3" font-family="Times,serif" font-size="14.00">3 c= |X₁|</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-61.5 119.5,-61.5 "/>
@@ -123,7 +123,7 @@
 <!-- t5_scmyciel&#45;&gt;c_0_174 -->
 <g id="edge5" class="edge">
 <title>t5_scmyciel&#45;&gt;c_0_174</title>
-<path fill="none" stroke="black" d="M319.88,-123C238.58,-123 68,-123 68,-123 68,-123 68,-86.73 68,-86.73"/>
+<path fill="none" stroke="black" d="M265.92,-123C197.09,-123 68,-123 68,-123 68,-123 68,-86.73 68,-86.73"/>
 <polygon fill="black" stroke="black" points="71.5,-86.73 68,-76.73 64.5,-86.73 71.5,-86.73"/>
 </g>
 </g>

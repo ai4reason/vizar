@@ -10,172 +10,172 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="397,-232 397,-309 619,-309 619,-232 397,-232"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="399,-232 399,-309 621,-309 621,-232 399,-232"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="453,-150 453,-212 607,-212 607,-150 453,-150"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="411,-150 411,-212 565,-212 565,-150 411,-150"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-130 905,-130 905,-8 8,-8"/>
 </g>
-<!-- c_0_32 -->
+<!-- c_0_31 -->
 <g id="node1" class="node">
-<title>c_0_32</title>
-<g id="a_node1"><a xlink:href="c_0_32.html" xlink:title="{X₁ ∈ X₂|X₂ = Ø|⇊|⊥}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="561,-240.5 561,-300.5 611,-300.5 611,-240.5 561,-240.5"/>
-<text text-anchor="middle" x="586" y="-289.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="561,-285.5 611,-285.5 "/>
-<text text-anchor="middle" x="586" y="-274.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="561,-270.5 611,-270.5 "/>
-<text text-anchor="middle" x="586" y="-259.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="561,-255.5 611,-255.5 "/>
-<text text-anchor="middle" x="586" y="-244.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<title>c_0_31</title>
+<g id="a_node1"><a xlink:href="c_0_31.html" xlink:title="{X₁ ∈ X₂|⇊|X₂ = Ø|sk₁₀(X₂)(X₁) = &amp;lt;X₁&amp;gt;}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="475,-240.5 475,-300.5 613,-300.5 613,-240.5 475,-240.5"/>
+<text text-anchor="middle" x="544" y="-289.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="475,-285.5 613,-285.5 "/>
+<text text-anchor="middle" x="544" y="-274.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="475,-270.5 613,-270.5 "/>
+<text text-anchor="middle" x="544" y="-259.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="475,-255.5 613,-255.5 "/>
+<text text-anchor="middle" x="544" y="-244.3" font-family="Times,serif" font-size="14.00">sk₁₀(X₂)(X₁) = &lt;X₁&gt;</text>
 </a>
 </g>
 </g>
 <!-- c_0_45 -->
 <g id="node3" class="node">
 <title>c_0_45</title>
-<g id="a_node3"><a xlink:href="c_0_45.html" xlink:title="{X₂ ∈ X₁|⇊|sk₁₀(X₁)(X₂) = &amp;lt;X₂&amp;gt;}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="461,-158.5 461,-203.5 599,-203.5 599,-158.5 461,-158.5"/>
-<text text-anchor="middle" x="530" y="-192.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="461,-188.5 599,-188.5 "/>
-<text text-anchor="middle" x="530" y="-177.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="461,-173.5 599,-173.5 "/>
-<text text-anchor="middle" x="530" y="-162.3" font-family="Times,serif" font-size="14.00">sk₁₀(X₁)(X₂) = &lt;X₂&gt;</text>
-</a>
-</g>
-</g>
-<!-- c_0_32&#45;&gt;c_0_45 -->
-<g id="edge1" class="edge">
-<title>c_0_32&#45;&gt;c_0_45</title>
-<path fill="none" stroke="black" d="M580,-240.2C580,-240.2 580,-213.63 580,-213.63"/>
-<polygon fill="black" stroke="black" points="583.5,-213.63 580,-203.63 576.5,-213.63 583.5,-213.63"/>
-</g>
-<!-- c_0_31 -->
-<g id="node2" class="node">
-<title>c_0_31</title>
-<g id="a_node2"><a xlink:href="c_0_31.html" xlink:title="{X₁ ∈ X₂|⇊|X₂ = Ø|sk₁₀(X₂)(X₁) = &amp;lt;X₁&amp;gt;}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="405,-240.5 405,-300.5 543,-300.5 543,-240.5 405,-240.5"/>
-<text text-anchor="middle" x="474" y="-289.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="405,-285.5 543,-285.5 "/>
-<text text-anchor="middle" x="474" y="-274.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="405,-270.5 543,-270.5 "/>
-<text text-anchor="middle" x="474" y="-259.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="405,-255.5 543,-255.5 "/>
-<text text-anchor="middle" x="474" y="-244.3" font-family="Times,serif" font-size="14.00">sk₁₀(X₂)(X₁) = &lt;X₁&gt;</text>
+<g id="a_node3"><a xlink:href="c_0_45.html" xlink:title="{X₂ ∈ X₁|⇊|sk₁₀(X₁)(X₂) = &amp;lt;X₂&amp;gt;}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="419,-158.5 419,-203.5 557,-203.5 557,-158.5 419,-158.5"/>
+<text text-anchor="middle" x="488" y="-192.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="419,-188.5 557,-188.5 "/>
+<text text-anchor="middle" x="488" y="-177.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="419,-173.5 557,-173.5 "/>
+<text text-anchor="middle" x="488" y="-162.3" font-family="Times,serif" font-size="14.00">sk₁₀(X₁)(X₂) = &lt;X₂&gt;</text>
 </a>
 </g>
 </g>
 <!-- c_0_31&#45;&gt;c_0_45 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_31&#45;&gt;c_0_45</title>
-<path fill="none" stroke="black" d="M502,-240.2C502,-240.2 502,-213.63 502,-213.63"/>
-<polygon fill="black" stroke="black" points="505.5,-213.63 502,-203.63 498.5,-213.63 505.5,-213.63"/>
+<path fill="none" stroke="black" d="M516,-240.2C516,-240.2 516,-213.63 516,-213.63"/>
+<polygon fill="black" stroke="black" points="519.5,-213.63 516,-203.63 512.5,-213.63 519.5,-213.63"/>
 </g>
-<!-- c_0_75 -->
-<g id="node4" class="node">
-<title>c_0_75</title>
-<g id="a_node4"><a xlink:href="c_0_75.html" xlink:title="{X₁ = &amp;lt;X₄&amp;gt;|X₂ = proj₂(sk₁₀(X₃))|X₄ ∈ X₃|⇊|X₁ ∈ X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="763.5,-31.5 763.5,-106.5 896.5,-106.5 896.5,-31.5 763.5,-31.5"/>
-<text text-anchor="middle" x="830" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ = &lt;X₄&gt;</text>
-<polyline fill="none" stroke="#7f7542" points="763.5,-91.5 896.5,-91.5 "/>
-<text text-anchor="middle" x="830" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ = proj₂(sk₁₀(X₃))</text>
-<polyline fill="none" stroke="#7f7542" points="763.5,-76.5 896.5,-76.5 "/>
-<text text-anchor="middle" x="830" y="-65.3" font-family="Times,serif" font-size="14.00">X₄ ∈ X₃</text>
-<polyline fill="none" stroke="#7f7542" points="763.5,-61.5 896.5,-61.5 "/>
-<text text-anchor="middle" x="830" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="763.5,-46.5 896.5,-46.5 "/>
-<text text-anchor="middle" x="830" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+<!-- c_0_32 -->
+<g id="node2" class="node">
+<title>c_0_32</title>
+<g id="a_node2"><a xlink:href="c_0_32.html" xlink:title="{X₁ ∈ X₂|X₂ = Ø|⇊|⊥}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="407,-240.5 407,-300.5 457,-300.5 457,-240.5 407,-240.5"/>
+<text text-anchor="middle" x="432" y="-289.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="407,-285.5 457,-285.5 "/>
+<text text-anchor="middle" x="432" y="-274.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="407,-270.5 457,-270.5 "/>
+<text text-anchor="middle" x="432" y="-259.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="407,-255.5 457,-255.5 "/>
+<text text-anchor="middle" x="432" y="-244.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
-<!-- c_0_45&#45;&gt;c_0_75 -->
-<g id="edge3" class="edge">
-<title>c_0_45&#45;&gt;c_0_75</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M599.2,-181C687.8,-181 830,-181 830,-181 830,-181 830,-116.61 830,-116.61"/>
-<polygon fill="black" stroke="black" points="833.5,-116.61 830,-106.61 826.5,-116.61 833.5,-116.61"/>
-</g>
-<!-- c_0_63 -->
-<g id="node5" class="node">
-<title>c_0_63</title>
-<g id="a_node5"><a xlink:href="c_0_63.html" xlink:title="{X₂ = proj₂(sk₁₀(X₁))|X₃ ∈ X₂|function(sk₁₀(X₁))|relation(sk₁₀(X₁))|sk₂(sk₁₀(X₁),X₂,X₃) ∈ X₁|⇊|&amp;lt;sk₂(sk₁₀(X₁),X₂,X₃)&amp;gt; = X₃}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="562.5,-16.5 562.5,-121.5 745.5,-121.5 745.5,-16.5 562.5,-16.5"/>
-<text text-anchor="middle" x="654" y="-110.3" font-family="Times,serif" font-size="14.00">X₂ = proj₂(sk₁₀(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="562.5,-106.5 745.5,-106.5 "/>
-<text text-anchor="middle" x="654" y="-95.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="562.5,-91.5 745.5,-91.5 "/>
-<text text-anchor="middle" x="654" y="-80.3" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="562.5,-76.5 745.5,-76.5 "/>
-<text text-anchor="middle" x="654" y="-65.3" font-family="Times,serif" font-size="14.00">relation(sk₁₀(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="562.5,-61.5 745.5,-61.5 "/>
-<text text-anchor="middle" x="654" y="-50.3" font-family="Times,serif" font-size="14.00">sk₂(sk₁₀(X₁),X₂,X₃) ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="562.5,-46.5 745.5,-46.5 "/>
-<text text-anchor="middle" x="654" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="562.5,-31.5 745.5,-31.5 "/>
-<text text-anchor="middle" x="654" y="-20.3" font-family="Times,serif" font-size="14.00">&lt;sk₂(sk₁₀(X₁),X₂,X₃)&gt; = X₃</text>
-</a>
-</g>
-</g>
-<!-- c_0_45&#45;&gt;c_0_63 -->
-<g id="edge4" class="edge">
-<title>c_0_45&#45;&gt;c_0_63</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M580.75,-158.34C580.75,-158.34 580.75,-131.72 580.75,-131.72"/>
-<polygon fill="black" stroke="black" points="584.25,-131.72 580.75,-121.72 577.25,-131.72 584.25,-131.72"/>
-</g>
-<!-- c_0_97 -->
-<g id="node6" class="node">
-<title>c_0_97</title>
-<g id="a_node6"><a xlink:href="c_0_97.html" xlink:title="{function(sk₁₀(X₁))|relation(sk₁₀(X₁))|sk₇(sk₁₀(X₁)) ∈ X₁|⇊|function(sk₁₀(X₁))|sk₁₀(X₁)(sk₆(sk₁₀(X₁))) = &amp;lt;sk₇(sk₁₀(X₁))&amp;gt;}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="270,-24 270,-114 544,-114 544,-24 270,-24"/>
-<text text-anchor="middle" x="407" y="-102.8" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="270,-99 544,-99 "/>
-<text text-anchor="middle" x="407" y="-87.8" font-family="Times,serif" font-size="14.00">relation(sk₁₀(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="270,-84 544,-84 "/>
-<text text-anchor="middle" x="407" y="-72.8" font-family="Times,serif" font-size="14.00">sk₇(sk₁₀(X₁)) ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="270,-69 544,-69 "/>
-<text text-anchor="middle" x="407" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="270,-54 544,-54 "/>
-<text text-anchor="middle" x="407" y="-42.8" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="270,-39 544,-39 "/>
-<text text-anchor="middle" x="407" y="-27.8" font-family="Times,serif" font-size="14.00">sk₁₀(X₁)(sk₆(sk₁₀(X₁))) = &lt;sk₇(sk₁₀(X₁))&gt;</text>
-</a>
-</g>
-</g>
-<!-- c_0_45&#45;&gt;c_0_97 -->
-<g id="edge5" class="edge">
-<title>c_0_45&#45;&gt;c_0_97</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M516.33,-158.34C516.33,-158.34 516.33,-124.31 516.33,-124.31"/>
-<polygon fill="black" stroke="black" points="519.83,-124.31 516.33,-114.31 512.83,-124.31 519.83,-124.31"/>
+<!-- c_0_32&#45;&gt;c_0_45 -->
+<g id="edge2" class="edge">
+<title>c_0_32&#45;&gt;c_0_45</title>
+<path fill="none" stroke="black" d="M438,-240.2C438,-240.2 438,-213.63 438,-213.63"/>
+<polygon fill="black" stroke="black" points="441.5,-213.63 438,-203.63 434.5,-213.63 441.5,-213.63"/>
 </g>
 <!-- c_0_106 -->
-<g id="node7" class="node">
+<g id="node4" class="node">
 <title>c_0_106</title>
-<g id="a_node7"><a xlink:href="c_0_106.html" xlink:title="{function(sk₁₀(X₁))|relation(sk₁₀(X₁))|sk₆(sk₁₀(X₁)) ∈ X₁|sk₇(sk₁₀(X₁)) ∈ X₁|⇊|&amp;lt;sk₇(sk₁₀(X₁))&amp;gt; = &amp;lt;sk₆(sk₁₀(X₁))&amp;gt;|function(sk₁₀(X₁))}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-121.5 252,-121.5 252,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="134" y="-110.3" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="16,-106.5 252,-106.5 "/>
-<text text-anchor="middle" x="134" y="-95.3" font-family="Times,serif" font-size="14.00">relation(sk₁₀(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="16,-91.5 252,-91.5 "/>
-<text text-anchor="middle" x="134" y="-80.3" font-family="Times,serif" font-size="14.00">sk₆(sk₁₀(X₁)) ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="16,-76.5 252,-76.5 "/>
-<text text-anchor="middle" x="134" y="-65.3" font-family="Times,serif" font-size="14.00">sk₇(sk₁₀(X₁)) ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="16,-61.5 252,-61.5 "/>
-<text text-anchor="middle" x="134" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-46.5 252,-46.5 "/>
-<text text-anchor="middle" x="134" y="-35.3" font-family="Times,serif" font-size="14.00">&lt;sk₇(sk₁₀(X₁))&gt; = &lt;sk₆(sk₁₀(X₁))&gt;</text>
-<polyline fill="none" stroke="#7f7542" points="16,-31.5 252,-31.5 "/>
-<text text-anchor="middle" x="134" y="-20.3" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
+<g id="a_node4"><a xlink:href="c_0_106.html" xlink:title="{function(sk₁₀(X₁))|relation(sk₁₀(X₁))|sk₆(sk₁₀(X₁)) ∈ X₁|sk₇(sk₁₀(X₁)) ∈ X₁|⇊|&amp;lt;sk₇(sk₁₀(X₁))&amp;gt; = &amp;lt;sk₆(sk₁₀(X₁))&amp;gt;|function(sk₁₀(X₁))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="661,-16.5 661,-121.5 897,-121.5 897,-16.5 661,-16.5"/>
+<text text-anchor="middle" x="779" y="-110.3" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="661,-106.5 897,-106.5 "/>
+<text text-anchor="middle" x="779" y="-95.3" font-family="Times,serif" font-size="14.00">relation(sk₁₀(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="661,-91.5 897,-91.5 "/>
+<text text-anchor="middle" x="779" y="-80.3" font-family="Times,serif" font-size="14.00">sk₆(sk₁₀(X₁)) ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="661,-76.5 897,-76.5 "/>
+<text text-anchor="middle" x="779" y="-65.3" font-family="Times,serif" font-size="14.00">sk₇(sk₁₀(X₁)) ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="661,-61.5 897,-61.5 "/>
+<text text-anchor="middle" x="779" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="661,-46.5 897,-46.5 "/>
+<text text-anchor="middle" x="779" y="-35.3" font-family="Times,serif" font-size="14.00">&lt;sk₇(sk₁₀(X₁))&gt; = &lt;sk₆(sk₁₀(X₁))&gt;</text>
+<polyline fill="none" stroke="#7f7542" points="661,-31.5 897,-31.5 "/>
+<text text-anchor="middle" x="779" y="-20.3" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
 </a>
 </g>
 </g>
 <!-- c_0_45&#45;&gt;c_0_106 -->
-<g id="edge6" class="edge">
+<g id="edge3" class="edge">
 <title>c_0_45&#45;&gt;c_0_106</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M488.67,-158.26C488.67,-140.21 488.67,-118 488.67,-118 488.67,-118 262.1,-118 262.1,-118"/>
-<polygon fill="black" stroke="black" points="262.1,-114.5 252.1,-118 262.1,-121.5 262.1,-114.5"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M541.17,-158.32C541.17,-138.88 541.17,-114 541.17,-114 541.17,-114 650.78,-114 650.78,-114"/>
+<polygon fill="black" stroke="black" points="650.78,-117.5 660.78,-114 650.78,-110.5 650.78,-117.5"/>
+</g>
+<!-- c_0_75 -->
+<g id="node5" class="node">
+<title>c_0_75</title>
+<g id="a_node5"><a xlink:href="c_0_75.html" xlink:title="{X₁ = &amp;lt;X₄&amp;gt;|X₂ = proj₂(sk₁₀(X₃))|X₄ ∈ X₃|⇊|X₁ ∈ X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="509.5,-31.5 509.5,-106.5 642.5,-106.5 642.5,-31.5 509.5,-31.5"/>
+<text text-anchor="middle" x="576" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ = &lt;X₄&gt;</text>
+<polyline fill="none" stroke="#7f7542" points="509.5,-91.5 642.5,-91.5 "/>
+<text text-anchor="middle" x="576" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ = proj₂(sk₁₀(X₃))</text>
+<polyline fill="none" stroke="#7f7542" points="509.5,-76.5 642.5,-76.5 "/>
+<text text-anchor="middle" x="576" y="-65.3" font-family="Times,serif" font-size="14.00">X₄ ∈ X₃</text>
+<polyline fill="none" stroke="#7f7542" points="509.5,-61.5 642.5,-61.5 "/>
+<text text-anchor="middle" x="576" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="509.5,-46.5 642.5,-46.5 "/>
+<text text-anchor="middle" x="576" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+</a>
+</g>
+</g>
+<!-- c_0_45&#45;&gt;c_0_75 -->
+<g id="edge4" class="edge">
+<title>c_0_45&#45;&gt;c_0_75</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M525.33,-158.34C525.33,-158.34 525.33,-116.63 525.33,-116.63"/>
+<polygon fill="black" stroke="black" points="528.83,-116.63 525.33,-106.63 521.83,-116.63 528.83,-116.63"/>
+</g>
+<!-- c_0_63 -->
+<g id="node6" class="node">
+<title>c_0_63</title>
+<g id="a_node6"><a xlink:href="c_0_63.html" xlink:title="{X₂ = proj₂(sk₁₀(X₁))|X₃ ∈ X₂|function(sk₁₀(X₁))|relation(sk₁₀(X₁))|sk₂(sk₁₀(X₁),X₂,X₃) ∈ X₁|⇊|&amp;lt;sk₂(sk₁₀(X₁),X₂,X₃)&amp;gt; = X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="308.5,-16.5 308.5,-121.5 491.5,-121.5 491.5,-16.5 308.5,-16.5"/>
+<text text-anchor="middle" x="400" y="-110.3" font-family="Times,serif" font-size="14.00">X₂ = proj₂(sk₁₀(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="308.5,-106.5 491.5,-106.5 "/>
+<text text-anchor="middle" x="400" y="-95.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="308.5,-91.5 491.5,-91.5 "/>
+<text text-anchor="middle" x="400" y="-80.3" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="308.5,-76.5 491.5,-76.5 "/>
+<text text-anchor="middle" x="400" y="-65.3" font-family="Times,serif" font-size="14.00">relation(sk₁₀(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="308.5,-61.5 491.5,-61.5 "/>
+<text text-anchor="middle" x="400" y="-50.3" font-family="Times,serif" font-size="14.00">sk₂(sk₁₀(X₁),X₂,X₃) ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="308.5,-46.5 491.5,-46.5 "/>
+<text text-anchor="middle" x="400" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="308.5,-31.5 491.5,-31.5 "/>
+<text text-anchor="middle" x="400" y="-20.3" font-family="Times,serif" font-size="14.00">&lt;sk₂(sk₁₀(X₁),X₂,X₃)&gt; = X₃</text>
+</a>
+</g>
+</g>
+<!-- c_0_45&#45;&gt;c_0_63 -->
+<g id="edge5" class="edge">
+<title>c_0_45&#45;&gt;c_0_63</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M455.25,-158.34C455.25,-158.34 455.25,-131.72 455.25,-131.72"/>
+<polygon fill="black" stroke="black" points="458.75,-131.72 455.25,-121.72 451.75,-131.72 458.75,-131.72"/>
+</g>
+<!-- c_0_97 -->
+<g id="node7" class="node">
+<title>c_0_97</title>
+<g id="a_node7"><a xlink:href="c_0_97.html" xlink:title="{function(sk₁₀(X₁))|relation(sk₁₀(X₁))|sk₇(sk₁₀(X₁)) ∈ X₁|⇊|function(sk₁₀(X₁))|sk₁₀(X₁)(sk₆(sk₁₀(X₁))) = &amp;lt;sk₇(sk₁₀(X₁))&amp;gt;}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-24 16,-114 290,-114 290,-24 16,-24"/>
+<text text-anchor="middle" x="153" y="-102.8" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16,-99 290,-99 "/>
+<text text-anchor="middle" x="153" y="-87.8" font-family="Times,serif" font-size="14.00">relation(sk₁₀(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16,-84 290,-84 "/>
+<text text-anchor="middle" x="153" y="-72.8" font-family="Times,serif" font-size="14.00">sk₇(sk₁₀(X₁)) ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="16,-69 290,-69 "/>
+<text text-anchor="middle" x="153" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-54 290,-54 "/>
+<text text-anchor="middle" x="153" y="-42.8" font-family="Times,serif" font-size="14.00">function(sk₁₀(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16,-39 290,-39 "/>
+<text text-anchor="middle" x="153" y="-27.8" font-family="Times,serif" font-size="14.00">sk₁₀(X₁)(sk₆(sk₁₀(X₁))) = &lt;sk₇(sk₁₀(X₁))&gt;</text>
+</a>
+</g>
+</g>
+<!-- c_0_45&#45;&gt;c_0_97 -->
+<g id="edge6" class="edge">
+<title>c_0_45&#45;&gt;c_0_97</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M418.99,-181C320.93,-181 153,-181 153,-181 153,-181 153,-124.23 153,-124.23"/>
+<polygon fill="black" stroke="black" points="156.5,-124.23 153,-114.23 149.5,-124.23 156.5,-124.23"/>
 </g>
 </g>
 </svg>

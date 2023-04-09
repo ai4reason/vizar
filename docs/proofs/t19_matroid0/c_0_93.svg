@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="1056,-247 1056,-279 1170,-279 1170,-247 1056,-247"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="1043,-247 1043,-279 1157,-279 1157,-247 1043,-247"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="1053,-195 1053,-227 1173,-227 1173,-195 1053,-195"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="1040,-195 1040,-227 1160,-227 1160,-195 1040,-195"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,232 +23,232 @@
 <!-- t19_matroid0 -->
 <g id="node1" class="node">
 <title>t19_matroid0</title>
-<g id="a_node1"><a xlink:href="t19_matroid0.html" xlink:title="t19_matroid0" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1064.5,-255.5 1064.5,-270.5 1161.5,-270.5 1161.5,-255.5 1064.5,-255.5"/>
-<text text-anchor="middle" x="1113" y="-259.3" font-family="Times,serif" font-size="14.00">t19_matroid0</text>
+<g id="a_node1"><a xlink:href="t19_matroid0.html" xlink:title="t19_matroid0" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1051.5,-255.5 1051.5,-270.5 1148.5,-270.5 1148.5,-255.5 1051.5,-255.5"/>
+<text text-anchor="middle" x="1100" y="-259.3" font-family="Times,serif" font-size="14.00">t19_matroid0</text>
 </a>
 </g>
 </g>
 <!-- c_0_93 -->
 <g id="node2" class="node">
 <title>c_0_93</title>
-<g id="a_node2"><a xlink:href="c_0_93.html" xlink:title="{TopStruct(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1061.5,-203.5 1061.5,-218.5 1164.5,-218.5 1164.5,-203.5 1061.5,-203.5"/>
-<text text-anchor="middle" x="1113" y="-207.3" font-family="Times,serif" font-size="14.00">TopStruct(sk₁)</text>
+<g id="a_node2"><a xlink:href="c_0_93.html" xlink:title="{TopStruct(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1048.5,-203.5 1048.5,-218.5 1151.5,-218.5 1151.5,-203.5 1048.5,-203.5"/>
+<text text-anchor="middle" x="1100" y="-207.3" font-family="Times,serif" font-size="14.00">TopStruct(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t19_matroid0&#45;&gt;c_0_93 -->
 <g id="edge1" class="edge">
 <title>t19_matroid0&#45;&gt;c_0_93</title>
-<path fill="none" stroke="black" d="M1113,-255.33C1113,-255.33 1113,-228.7 1113,-228.7"/>
-<polygon fill="black" stroke="black" points="1116.5,-228.7 1113,-218.7 1109.5,-228.7 1116.5,-228.7"/>
-</g>
-<!-- c_0_137 -->
-<g id="node3" class="node">
-<title>c_0_137</title>
-<g id="a_node3"><a xlink:href="c_0_137.html" xlink:title="{X₁ ∈ bool(carrier(sk₁))|X₁ ⊆ sk₂|card(sk₃) = card(X₁)|finite(X₁)|finite(sk₈(sk₁,X₁,sk₂))|open(X₁,sk₁)|sk₃ ⊆ sk₈(sk₁,X₁,sk₂)|⇊|is_maximal_independent_in(sk₁,X₁,sk₂)|is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1798.5,-16.5 1798.5,-166.5 2077.5,-166.5 2077.5,-16.5 1798.5,-16.5"/>
-<text text-anchor="middle" x="1938" y="-155.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(sk₁))</text>
-<polyline fill="none" stroke="#7f7542" points="1798.5,-151.5 2077.5,-151.5 "/>
-<text text-anchor="middle" x="1938" y="-140.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ sk₂</text>
-<polyline fill="none" stroke="#7f7542" points="1798.5,-136.5 2077.5,-136.5 "/>
-<text text-anchor="middle" x="1938" y="-125.3" font-family="Times,serif" font-size="14.00">card(sk₃) = card(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1798.5,-121.5 2077.5,-121.5 "/>
-<text text-anchor="middle" x="1938" y="-110.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1798.5,-106.5 2077.5,-106.5 "/>
-<text text-anchor="middle" x="1938" y="-95.3" font-family="Times,serif" font-size="14.00">finite(sk₈(sk₁,X₁,sk₂))</text>
-<polyline fill="none" stroke="#7f7542" points="1798.5,-91.5 2077.5,-91.5 "/>
-<text text-anchor="middle" x="1938" y="-80.3" font-family="Times,serif" font-size="14.00">open(X₁,sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1798.5,-76.5 2077.5,-76.5 "/>
-<text text-anchor="middle" x="1938" y="-65.3" font-family="Times,serif" font-size="14.00">sk₃ ⊆ sk₈(sk₁,X₁,sk₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1798.5,-61.5 2077.5,-61.5 "/>
-<text text-anchor="middle" x="1938" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="1798.5,-46.5 2077.5,-46.5 "/>
-<text text-anchor="middle" x="1938" y="-35.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,X₁,sk₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1798.5,-31.5 2077.5,-31.5 "/>
-<text text-anchor="middle" x="1938" y="-20.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
-</a>
-</g>
-</g>
-<!-- c_0_93&#45;&gt;c_0_137 -->
-<g id="edge2" class="edge">
-<title>c_0_93&#45;&gt;c_0_137</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1164.61,-215C1345.22,-215 1938,-215 1938,-215 1938,-215 1938,-176.54 1938,-176.54"/>
-<polygon fill="black" stroke="black" points="1941.5,-176.54 1938,-166.54 1934.5,-176.54 1941.5,-176.54"/>
-</g>
-<!-- c_0_142 -->
-<g id="node4" class="node">
-<title>c_0_142</title>
-<g id="a_node4"><a xlink:href="c_0_142.html" xlink:title="{X₁ ∈ bool(carrier(sk₁))|X₁ ⊆ sk₂|card(sk₃) = card(X₁)|finite(X₁)|finite&#45;membered(sk₁)|open(X₁,sk₁)|sk₃ ⊆ sk₈(sk₁,X₁,sk₂)|⇊|is_maximal_independent_in(sk₁,X₁,sk₂)|is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1501.5,-16.5 1501.5,-166.5 1780.5,-166.5 1780.5,-16.5 1501.5,-16.5"/>
-<text text-anchor="middle" x="1641" y="-155.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(sk₁))</text>
-<polyline fill="none" stroke="#7f7542" points="1501.5,-151.5 1780.5,-151.5 "/>
-<text text-anchor="middle" x="1641" y="-140.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ sk₂</text>
-<polyline fill="none" stroke="#7f7542" points="1501.5,-136.5 1780.5,-136.5 "/>
-<text text-anchor="middle" x="1641" y="-125.3" font-family="Times,serif" font-size="14.00">card(sk₃) = card(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1501.5,-121.5 1780.5,-121.5 "/>
-<text text-anchor="middle" x="1641" y="-110.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1501.5,-106.5 1780.5,-106.5 "/>
-<text text-anchor="middle" x="1641" y="-95.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1501.5,-91.5 1780.5,-91.5 "/>
-<text text-anchor="middle" x="1641" y="-80.3" font-family="Times,serif" font-size="14.00">open(X₁,sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1501.5,-76.5 1780.5,-76.5 "/>
-<text text-anchor="middle" x="1641" y="-65.3" font-family="Times,serif" font-size="14.00">sk₃ ⊆ sk₈(sk₁,X₁,sk₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1501.5,-61.5 1780.5,-61.5 "/>
-<text text-anchor="middle" x="1641" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="1501.5,-46.5 1780.5,-46.5 "/>
-<text text-anchor="middle" x="1641" y="-35.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,X₁,sk₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1501.5,-31.5 1780.5,-31.5 "/>
-<text text-anchor="middle" x="1641" y="-20.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
-</a>
-</g>
-</g>
-<!-- c_0_93&#45;&gt;c_0_142 -->
-<g id="edge3" class="edge">
-<title>c_0_93&#45;&gt;c_0_142</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1145.83,-203.21C1145.83,-187.83 1145.83,-155 1145.83,-155 1145.83,-155 1491.42,-155 1491.42,-155"/>
-<polygon fill="black" stroke="black" points="1491.42,-158.5 1501.42,-155 1491.42,-151.5 1491.42,-158.5"/>
-</g>
-<!-- c_0_143 -->
-<g id="node5" class="node">
-<title>c_0_143</title>
-<g id="a_node5"><a xlink:href="c_0_143.html" xlink:title="{sk₃ ⊆ sk₂}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1419,-84 1419,-99 1483,-99 1483,-84 1419,-84"/>
-<text text-anchor="middle" x="1451" y="-87.8" font-family="Times,serif" font-size="14.00">sk₃ ⊆ sk₂</text>
-</a>
-</g>
-</g>
-<!-- c_0_93&#45;&gt;c_0_143 -->
-<g id="edge4" class="edge">
-<title>c_0_93&#45;&gt;c_0_143</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1164.7,-211C1259.39,-211 1451,-211 1451,-211 1451,-211 1451,-109.34 1451,-109.34"/>
-<polygon fill="black" stroke="black" points="1454.5,-109.34 1451,-99.34 1447.5,-109.34 1454.5,-109.34"/>
-</g>
-<!-- c_0_126 -->
-<g id="node6" class="node">
-<title>c_0_126</title>
-<g id="a_node6"><a xlink:href="c_0_126.html" xlink:title="{finite(sk₃)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1331.5,-84 1331.5,-99 1400.5,-99 1400.5,-84 1331.5,-84"/>
-<text text-anchor="middle" x="1366" y="-87.8" font-family="Times,serif" font-size="14.00">finite(sk₃)</text>
-</a>
-</g>
-</g>
-<!-- c_0_93&#45;&gt;c_0_126 -->
-<g id="edge5" class="edge">
-<title>c_0_93&#45;&gt;c_0_126</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1164.5,-207C1238.48,-207 1366,-207 1366,-207 1366,-207 1366,-109.08 1366,-109.08"/>
-<polygon fill="black" stroke="black" points="1369.5,-109.08 1366,-99.08 1362.5,-109.08 1369.5,-109.08"/>
+<path fill="none" stroke="black" d="M1100,-255.33C1100,-255.33 1100,-228.7 1100,-228.7"/>
+<polygon fill="black" stroke="black" points="1103.5,-228.7 1100,-218.7 1096.5,-228.7 1103.5,-228.7"/>
 </g>
 <!-- c_0_151 -->
-<g id="node7" class="node">
+<g id="node3" class="node">
 <title>c_0_151</title>
-<g id="a_node7"><a xlink:href="c_0_151.html" xlink:title="{card(sk₄(sk₁,sk₂)) = card(sk₃)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1108.5,-84 1108.5,-99 1313.5,-99 1313.5,-84 1108.5,-84"/>
-<text text-anchor="middle" x="1211" y="-87.8" font-family="Times,serif" font-size="14.00">card(sk₄(sk₁,sk₂)) = card(sk₃)</text>
+<g id="a_node3"><a xlink:href="c_0_151.html" xlink:title="{card(sk₄(sk₁,sk₂)) = card(sk₃)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1872.5,-84 1872.5,-99 2077.5,-99 2077.5,-84 1872.5,-84"/>
+<text text-anchor="middle" x="1975" y="-87.8" font-family="Times,serif" font-size="14.00">card(sk₄(sk₁,sk₂)) = card(sk₃)</text>
 </a>
 </g>
 </g>
 <!-- c_0_93&#45;&gt;c_0_151 -->
-<g id="edge6" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_93&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1127.17,-203.16C1127.17,-203.16 1127.17,-109.21 1127.17,-109.21"/>
-<polygon fill="black" stroke="black" points="1130.67,-109.21 1127.17,-99.21 1123.67,-109.21 1130.67,-109.21"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1151.79,-215C1339.76,-215 1975,-215 1975,-215 1975,-215 1975,-109.23 1975,-109.23"/>
+<polygon fill="black" stroke="black" points="1978.5,-109.23 1975,-99.23 1971.5,-109.23 1978.5,-109.23"/>
 </g>
-<!-- c_0_120 -->
-<g id="node8" class="node">
-<title>c_0_120</title>
-<g id="a_node8"><a xlink:href="c_0_120.html" xlink:title="{finite&#45;membered(sk₁)|⇊|finite(sk₃)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="940,-69 940,-114 1090,-114 1090,-69 940,-69"/>
-<text text-anchor="middle" x="1015" y="-102.8" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="940,-99 1090,-99 "/>
-<text text-anchor="middle" x="1015" y="-87.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="940,-84 1090,-84 "/>
-<text text-anchor="middle" x="1015" y="-72.8" font-family="Times,serif" font-size="14.00">finite(sk₃)</text>
+<!-- c_0_153 -->
+<g id="node4" class="node">
+<title>c_0_153</title>
+<g id="a_node4"><a xlink:href="c_0_153.html" xlink:title="⊥" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1840,-84 1840,-99 1854,-99 1854,-84 1840,-84"/>
+<text text-anchor="middle" x="1847" y="-87.8" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
-<!-- c_0_93&#45;&gt;c_0_120 -->
+<!-- c_0_93&#45;&gt;c_0_153 -->
+<g id="edge3" class="edge">
+<title>c_0_93&#45;&gt;c_0_153</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1151.64,-211C1320.73,-211 1847,-211 1847,-211 1847,-211 1847,-109.34 1847,-109.34"/>
+<polygon fill="black" stroke="black" points="1850.5,-109.34 1847,-99.34 1843.5,-109.34 1850.5,-109.34"/>
+</g>
+<!-- c_0_137 -->
+<g id="node5" class="node">
+<title>c_0_137</title>
+<g id="a_node5"><a xlink:href="c_0_137.html" xlink:title="{X₁ ∈ bool(carrier(sk₁))|X₁ ⊆ sk₂|card(sk₃) = card(X₁)|finite(X₁)|finite(sk₈(sk₁,X₁,sk₂))|open(X₁,sk₁)|sk₃ ⊆ sk₈(sk₁,X₁,sk₂)|⇊|is_maximal_independent_in(sk₁,X₁,sk₂)|is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1542.5,-16.5 1542.5,-166.5 1821.5,-166.5 1821.5,-16.5 1542.5,-16.5"/>
+<text text-anchor="middle" x="1682" y="-155.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(sk₁))</text>
+<polyline fill="none" stroke="#7f7542" points="1542.5,-151.5 1821.5,-151.5 "/>
+<text text-anchor="middle" x="1682" y="-140.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ sk₂</text>
+<polyline fill="none" stroke="#7f7542" points="1542.5,-136.5 1821.5,-136.5 "/>
+<text text-anchor="middle" x="1682" y="-125.3" font-family="Times,serif" font-size="14.00">card(sk₃) = card(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="1542.5,-121.5 1821.5,-121.5 "/>
+<text text-anchor="middle" x="1682" y="-110.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="1542.5,-106.5 1821.5,-106.5 "/>
+<text text-anchor="middle" x="1682" y="-95.3" font-family="Times,serif" font-size="14.00">finite(sk₈(sk₁,X₁,sk₂))</text>
+<polyline fill="none" stroke="#7f7542" points="1542.5,-91.5 1821.5,-91.5 "/>
+<text text-anchor="middle" x="1682" y="-80.3" font-family="Times,serif" font-size="14.00">open(X₁,sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="1542.5,-76.5 1821.5,-76.5 "/>
+<text text-anchor="middle" x="1682" y="-65.3" font-family="Times,serif" font-size="14.00">sk₃ ⊆ sk₈(sk₁,X₁,sk₂)</text>
+<polyline fill="none" stroke="#7f7542" points="1542.5,-61.5 1821.5,-61.5 "/>
+<text text-anchor="middle" x="1682" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="1542.5,-46.5 1821.5,-46.5 "/>
+<text text-anchor="middle" x="1682" y="-35.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,X₁,sk₂)</text>
+<polyline fill="none" stroke="#7f7542" points="1542.5,-31.5 1821.5,-31.5 "/>
+<text text-anchor="middle" x="1682" y="-20.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
+</a>
+</g>
+</g>
+<!-- c_0_93&#45;&gt;c_0_137 -->
+<g id="edge4" class="edge">
+<title>c_0_93&#45;&gt;c_0_137</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1151.65,-207C1294.09,-207 1682,-207 1682,-207 1682,-207 1682,-176.6 1682,-176.6"/>
+<polygon fill="black" stroke="black" points="1685.5,-176.6 1682,-166.6 1678.5,-176.6 1685.5,-176.6"/>
+</g>
+<!-- c_0_142 -->
+<g id="node6" class="node">
+<title>c_0_142</title>
+<g id="a_node6"><a xlink:href="c_0_142.html" xlink:title="{X₁ ∈ bool(carrier(sk₁))|X₁ ⊆ sk₂|card(sk₃) = card(X₁)|finite(X₁)|finite&#45;membered(sk₁)|open(X₁,sk₁)|sk₃ ⊆ sk₈(sk₁,X₁,sk₂)|⇊|is_maximal_independent_in(sk₁,X₁,sk₂)|is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1245.5,-16.5 1245.5,-166.5 1524.5,-166.5 1524.5,-16.5 1245.5,-16.5"/>
+<text text-anchor="middle" x="1385" y="-155.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(sk₁))</text>
+<polyline fill="none" stroke="#7f7542" points="1245.5,-151.5 1524.5,-151.5 "/>
+<text text-anchor="middle" x="1385" y="-140.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ sk₂</text>
+<polyline fill="none" stroke="#7f7542" points="1245.5,-136.5 1524.5,-136.5 "/>
+<text text-anchor="middle" x="1385" y="-125.3" font-family="Times,serif" font-size="14.00">card(sk₃) = card(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="1245.5,-121.5 1524.5,-121.5 "/>
+<text text-anchor="middle" x="1385" y="-110.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="1245.5,-106.5 1524.5,-106.5 "/>
+<text text-anchor="middle" x="1385" y="-95.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="1245.5,-91.5 1524.5,-91.5 "/>
+<text text-anchor="middle" x="1385" y="-80.3" font-family="Times,serif" font-size="14.00">open(X₁,sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="1245.5,-76.5 1524.5,-76.5 "/>
+<text text-anchor="middle" x="1385" y="-65.3" font-family="Times,serif" font-size="14.00">sk₃ ⊆ sk₈(sk₁,X₁,sk₂)</text>
+<polyline fill="none" stroke="#7f7542" points="1245.5,-61.5 1524.5,-61.5 "/>
+<text text-anchor="middle" x="1385" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="1245.5,-46.5 1524.5,-46.5 "/>
+<text text-anchor="middle" x="1385" y="-35.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,X₁,sk₂)</text>
+<polyline fill="none" stroke="#7f7542" points="1245.5,-31.5 1524.5,-31.5 "/>
+<text text-anchor="middle" x="1385" y="-20.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
+</a>
+</g>
+</g>
+<!-- c_0_93&#45;&gt;c_0_142 -->
+<g id="edge5" class="edge">
+<title>c_0_93&#45;&gt;c_0_142</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1149.17,-203.21C1149.17,-187.83 1149.17,-155 1149.17,-155 1149.17,-155 1235.43,-155 1235.43,-155"/>
+<polygon fill="black" stroke="black" points="1235.43,-158.5 1245.43,-155 1235.43,-151.5 1235.43,-158.5"/>
+</g>
+<!-- c_0_143 -->
+<g id="node7" class="node">
+<title>c_0_143</title>
+<g id="a_node7"><a xlink:href="c_0_143.html" xlink:title="{sk₃ ⊆ sk₂}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1163,-84 1163,-99 1227,-99 1227,-84 1163,-84"/>
+<text text-anchor="middle" x="1195" y="-87.8" font-family="Times,serif" font-size="14.00">sk₃ ⊆ sk₂</text>
+</a>
+</g>
+</g>
+<!-- c_0_93&#45;&gt;c_0_143 -->
+<g id="edge6" class="edge">
+<title>c_0_93&#45;&gt;c_0_143</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1146.83,-203.49C1146.83,-177.22 1146.83,-91 1146.83,-91 1146.83,-91 1152.87,-91 1152.87,-91"/>
+<polygon fill="black" stroke="black" points="1152.87,-94.5 1162.87,-91 1152.87,-87.5 1152.87,-94.5"/>
+</g>
+<!-- c_0_146 -->
+<g id="node8" class="node">
+<title>c_0_146</title>
+<g id="a_node8"><a xlink:href="c_0_146.html" xlink:title="{finite&#45;membered(sk₁)|⇊|is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="865.5,-69 865.5,-114 1144.5,-114 1144.5,-69 865.5,-69"/>
+<text text-anchor="middle" x="1005" y="-102.8" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="865.5,-99 1144.5,-99 "/>
+<text text-anchor="middle" x="1005" y="-87.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="865.5,-84 1144.5,-84 "/>
+<text text-anchor="middle" x="1005" y="-72.8" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
+</a>
+</g>
+</g>
+<!-- c_0_93&#45;&gt;c_0_146 -->
 <g id="edge7" class="edge">
-<title>c_0_93&#45;&gt;c_0_120</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1080.5,-203.16C1080.5,-203.16 1080.5,-124.38 1080.5,-124.38"/>
-<polygon fill="black" stroke="black" points="1084,-124.38 1080.5,-114.38 1077,-124.38 1084,-124.38"/>
+<title>c_0_93&#45;&gt;c_0_146</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1112.5,-203.16C1112.5,-203.16 1112.5,-124.38 1112.5,-124.38"/>
+<polygon fill="black" stroke="black" points="1116,-124.38 1112.5,-114.38 1109,-124.38 1116,-124.38"/>
 </g>
 <!-- c_0_149 -->
 <g id="node9" class="node">
 <title>c_0_149</title>
-<g id="a_node9"><a xlink:href="c_0_149.html" xlink:title="{is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="642.5,-84 642.5,-99 921.5,-99 921.5,-84 642.5,-84"/>
-<text text-anchor="middle" x="782" y="-87.8" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
+<g id="a_node9"><a xlink:href="c_0_149.html" xlink:title="{is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="568.5,-84 568.5,-99 847.5,-99 847.5,-84 568.5,-84"/>
+<text text-anchor="middle" x="708" y="-87.8" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_93&#45;&gt;c_0_149 -->
 <g id="edge8" class="edge">
 <title>c_0_93&#45;&gt;c_0_149</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1061.28,-207C968.19,-207 782,-207 782,-207 782,-207 782,-109.08 782,-109.08"/>
-<polygon fill="black" stroke="black" points="785.5,-109.08 782,-99.08 778.5,-109.08 785.5,-109.08"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1048.35,-207C941.9,-207 708,-207 708,-207 708,-207 708,-109.08 708,-109.08"/>
+<polygon fill="black" stroke="black" points="711.5,-109.08 708,-99.08 704.5,-109.08 711.5,-109.08"/>
 </g>
 <!-- c_0_125 -->
 <g id="node10" class="node">
 <title>c_0_125</title>
-<g id="a_node10"><a xlink:href="c_0_125.html" xlink:title="{X₁ ∈ bool(carrier(sk₁))|X₁ ⊆ sk₂|open(X₁,sk₁)|⇊|card(sk₈(sk₁,X₁,sk₂)) ⊆ card(sk₃)|is_maximal_independent_in(sk₁,X₁,sk₂)|is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="345.5,-39 345.5,-144 624.5,-144 624.5,-39 345.5,-39"/>
-<text text-anchor="middle" x="485" y="-132.8" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(sk₁))</text>
-<polyline fill="none" stroke="#7f7542" points="345.5,-129 624.5,-129 "/>
-<text text-anchor="middle" x="485" y="-117.8" font-family="Times,serif" font-size="14.00">X₁ ⊆ sk₂</text>
-<polyline fill="none" stroke="#7f7542" points="345.5,-114 624.5,-114 "/>
-<text text-anchor="middle" x="485" y="-102.8" font-family="Times,serif" font-size="14.00">open(X₁,sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="345.5,-99 624.5,-99 "/>
-<text text-anchor="middle" x="485" y="-87.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="345.5,-84 624.5,-84 "/>
-<text text-anchor="middle" x="485" y="-72.8" font-family="Times,serif" font-size="14.00">card(sk₈(sk₁,X₁,sk₂)) ⊆ card(sk₃)</text>
-<polyline fill="none" stroke="#7f7542" points="345.5,-69 624.5,-69 "/>
-<text text-anchor="middle" x="485" y="-57.8" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,X₁,sk₂)</text>
-<polyline fill="none" stroke="#7f7542" points="345.5,-54 624.5,-54 "/>
-<text text-anchor="middle" x="485" y="-42.8" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
+<g id="a_node10"><a xlink:href="c_0_125.html" xlink:title="{X₁ ∈ bool(carrier(sk₁))|X₁ ⊆ sk₂|open(X₁,sk₁)|⇊|card(sk₈(sk₁,X₁,sk₂)) ⊆ card(sk₃)|is_maximal_independent_in(sk₁,X₁,sk₂)|is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="271.5,-39 271.5,-144 550.5,-144 550.5,-39 271.5,-39"/>
+<text text-anchor="middle" x="411" y="-132.8" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(sk₁))</text>
+<polyline fill="none" stroke="#7f7542" points="271.5,-129 550.5,-129 "/>
+<text text-anchor="middle" x="411" y="-117.8" font-family="Times,serif" font-size="14.00">X₁ ⊆ sk₂</text>
+<polyline fill="none" stroke="#7f7542" points="271.5,-114 550.5,-114 "/>
+<text text-anchor="middle" x="411" y="-102.8" font-family="Times,serif" font-size="14.00">open(X₁,sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="271.5,-99 550.5,-99 "/>
+<text text-anchor="middle" x="411" y="-87.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="271.5,-84 550.5,-84 "/>
+<text text-anchor="middle" x="411" y="-72.8" font-family="Times,serif" font-size="14.00">card(sk₈(sk₁,X₁,sk₂)) ⊆ card(sk₃)</text>
+<polyline fill="none" stroke="#7f7542" points="271.5,-69 550.5,-69 "/>
+<text text-anchor="middle" x="411" y="-57.8" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,X₁,sk₂)</text>
+<polyline fill="none" stroke="#7f7542" points="271.5,-54 550.5,-54 "/>
+<text text-anchor="middle" x="411" y="-42.8" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_93&#45;&gt;c_0_125 -->
 <g id="edge9" class="edge">
 <title>c_0_93&#45;&gt;c_0_125</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1071,-203.43C1071,-183.13 1071,-129 1071,-129 1071,-129 634.62,-129 634.62,-129"/>
-<polygon fill="black" stroke="black" points="634.62,-125.5 624.62,-129 634.62,-132.5 634.62,-125.5"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1080.5,-203.43C1080.5,-183.13 1080.5,-129 1080.5,-129 1080.5,-129 560.53,-129 560.53,-129"/>
+<polygon fill="black" stroke="black" points="560.53,-125.5 550.53,-129 560.53,-132.5 560.53,-125.5"/>
 </g>
-<!-- c_0_146 -->
+<!-- c_0_126 -->
 <g id="node11" class="node">
-<title>c_0_146</title>
-<g id="a_node11"><a xlink:href="c_0_146.html" xlink:title="{finite&#45;membered(sk₁)|⇊|is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="48.5,-69 48.5,-114 327.5,-114 327.5,-69 48.5,-69"/>
-<text text-anchor="middle" x="188" y="-102.8" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="48.5,-99 327.5,-99 "/>
-<text text-anchor="middle" x="188" y="-87.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="48.5,-84 327.5,-84 "/>
-<text text-anchor="middle" x="188" y="-72.8" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
+<title>c_0_126</title>
+<g id="a_node11"><a xlink:href="c_0_126.html" xlink:title="{finite(sk₃)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="184.5,-84 184.5,-99 253.5,-99 253.5,-84 184.5,-84"/>
+<text text-anchor="middle" x="219" y="-87.8" font-family="Times,serif" font-size="14.00">finite(sk₃)</text>
 </a>
 </g>
 </g>
-<!-- c_0_93&#45;&gt;c_0_146 -->
+<!-- c_0_93&#45;&gt;c_0_126 -->
 <g id="edge10" class="edge">
-<title>c_0_93&#45;&gt;c_0_146</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1061.29,-211C866.49,-211 188,-211 188,-211 188,-211 188,-124.26 188,-124.26"/>
-<polygon fill="black" stroke="black" points="191.5,-124.26 188,-114.26 184.5,-124.26 191.5,-124.26"/>
+<title>c_0_93&#45;&gt;c_0_126</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1048.18,-211C859.33,-211 219,-211 219,-211 219,-211 219,-109.34 219,-109.34"/>
+<polygon fill="black" stroke="black" points="222.5,-109.34 219,-99.34 215.5,-109.34 222.5,-109.34"/>
 </g>
-<!-- c_0_153 -->
+<!-- c_0_120 -->
 <g id="node12" class="node">
-<title>c_0_153</title>
-<g id="a_node12"><a xlink:href="c_0_153.html" xlink:title="⊥" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-84 16,-99 30,-99 30,-84 16,-84"/>
-<text text-anchor="middle" x="23" y="-87.8" font-family="Times,serif" font-size="14.00">⊥</text>
+<title>c_0_120</title>
+<g id="a_node12"><a xlink:href="c_0_120.html" xlink:title="{finite&#45;membered(sk₁)|⇊|finite(sk₃)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-69 16,-114 166,-114 166,-69 16,-69"/>
+<text text-anchor="middle" x="91" y="-102.8" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-99 166,-99 "/>
+<text text-anchor="middle" x="91" y="-87.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-84 166,-84 "/>
+<text text-anchor="middle" x="91" y="-72.8" font-family="Times,serif" font-size="14.00">finite(sk₃)</text>
 </a>
 </g>
 </g>
-<!-- c_0_93&#45;&gt;c_0_153 -->
+<!-- c_0_93&#45;&gt;c_0_120 -->
 <g id="edge11" class="edge">
-<title>c_0_93&#45;&gt;c_0_153</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1061.16,-215C844.54,-215 23,-215 23,-215 23,-215 23,-109.23 23,-109.23"/>
-<polygon fill="black" stroke="black" points="26.5,-109.23 23,-99.23 19.5,-109.23 26.5,-109.23"/>
+<title>c_0_93&#45;&gt;c_0_120</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1048.23,-215C842.11,-215 91,-215 91,-215 91,-215 91,-124.15 91,-124.15"/>
+<polygon fill="black" stroke="black" points="94.5,-124.15 91,-114.15 87.5,-124.15 94.5,-124.15"/>
 </g>
 </g>
 </svg>

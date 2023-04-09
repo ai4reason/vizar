@@ -14,135 +14,135 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="295,-60 295,-92 619,-92 619,-60 295,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="583,-60 583,-92 907,-92 907,-60 583,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="442,-8 442,-40 472,-40 472,-8 442,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="730,-8 730,-40 760,-40 760,-8 730,-8"/>
 </g>
-<!-- c_0_160 -->
+<!-- c_0_68 -->
 <g id="node1" class="node">
-<title>c_0_160</title>
-<g id="a_node1"><a xlink:href="c_0_160.html" xlink:title="{function(ℝ + ℝ + ℝ + arctan + arccot)|ℝ + ℝ + ℝ + arctan + arccot ∈ bool(ℝ × ℝ)|⇊|⊥}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="970,-150.5 970,-210.5 1286,-210.5 1286,-150.5 970,-150.5"/>
-<text text-anchor="middle" x="1128" y="-199.3" font-family="Times,serif" font-size="14.00">function(ℝ + ℝ + ℝ + arctan + arccot)</text>
-<polyline fill="none" stroke="#7f7542" points="970,-195.5 1286,-195.5 "/>
-<text text-anchor="middle" x="1128" y="-184.3" font-family="Times,serif" font-size="14.00">ℝ + ℝ + ℝ + arctan + arccot ∈ bool(ℝ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="970,-180.5 1286,-180.5 "/>
-<text text-anchor="middle" x="1128" y="-169.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="970,-165.5 1286,-165.5 "/>
-<text text-anchor="middle" x="1128" y="-154.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<title>c_0_68</title>
+<g id="a_node1"><a xlink:href="c_0_68.html" xlink:title="{ℝ ⊆ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="1240,-173 1240,-188 1286,-188 1286,-173 1240,-173"/>
+<text text-anchor="middle" x="1263" y="-176.8" font-family="Times,serif" font-size="14.00">ℝ ⊆ ℝ</text>
 </a>
 </g>
 </g>
 <!-- c_0_161 -->
 <g id="node8" class="node">
 <title>c_0_161</title>
-<g id="a_node8"><a xlink:href="c_0_161.html" xlink:title="{¬ (function(ℝ + ℝ + ℝ + arctan + arccot))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="303.5,-68.5 303.5,-83.5 610.5,-83.5 610.5,-68.5 303.5,-68.5"/>
-<text text-anchor="middle" x="457" y="-72.3" font-family="Times,serif" font-size="14.00">¬ (function(ℝ + ℝ + ℝ + arctan + arccot))</text>
-</a>
-</g>
-</g>
-<!-- c_0_160&#45;&gt;c_0_161 -->
-<g id="edge1" class="edge">
-<title>c_0_160&#45;&gt;c_0_161</title>
-<path fill="none" stroke="black" d="M1128,-150.27C1128,-118.47 1128,-73 1128,-73 1128,-73 620.52,-73 620.52,-73"/>
-<polygon fill="black" stroke="black" points="620.52,-69.5 610.52,-73 620.52,-76.5 620.52,-69.5"/>
-</g>
-<!-- c_0_147 -->
-<g id="node2" class="node">
-<title>c_0_147</title>
-<g id="a_node2"><a xlink:href="c_0_147.html" xlink:title="{function(arctan)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="836.5,-173 836.5,-188 951.5,-188 951.5,-173 836.5,-173"/>
-<text text-anchor="middle" x="894" y="-176.8" font-family="Times,serif" font-size="14.00">function(arctan)</text>
-</a>
-</g>
-</g>
-<!-- c_0_147&#45;&gt;c_0_161 -->
-<g id="edge2" class="edge">
-<title>c_0_147&#45;&gt;c_0_161</title>
-<path fill="none" stroke="black" d="M894,-172.8C894,-148.96 894,-78 894,-78 894,-78 620.76,-78 620.76,-78"/>
-<polygon fill="black" stroke="black" points="620.76,-74.5 610.76,-78 620.76,-81.5 620.76,-74.5"/>
-</g>
-<!-- c_0_142 -->
-<g id="node3" class="node">
-<title>c_0_142</title>
-<g id="a_node3"><a xlink:href="c_0_142.html" xlink:title="{X₂ ⊆ ℝ|X₃ ⊆ ℝ|X₄ ∈ bool(X₁ × X₂)|X₅ ∈ bool(X₁ × X₃)|function(X₄)|function(X₅)|⇊|X₁ + X₂ + X₃ + X₄ + X₅ ∈ bool(X₁ × ℝ)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="550,-120.5 550,-240.5 818,-240.5 818,-120.5 550,-120.5"/>
-<text text-anchor="middle" x="684" y="-229.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="550,-225.5 818,-225.5 "/>
-<text text-anchor="middle" x="684" y="-214.3" font-family="Times,serif" font-size="14.00">X₃ ⊆ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="550,-210.5 818,-210.5 "/>
-<text text-anchor="middle" x="684" y="-199.3" font-family="Times,serif" font-size="14.00">X₄ ∈ bool(X₁ × X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="550,-195.5 818,-195.5 "/>
-<text text-anchor="middle" x="684" y="-184.3" font-family="Times,serif" font-size="14.00">X₅ ∈ bool(X₁ × X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="550,-180.5 818,-180.5 "/>
-<text text-anchor="middle" x="684" y="-169.3" font-family="Times,serif" font-size="14.00">function(X₄)</text>
-<polyline fill="none" stroke="#7f7542" points="550,-165.5 818,-165.5 "/>
-<text text-anchor="middle" x="684" y="-154.3" font-family="Times,serif" font-size="14.00">function(X₅)</text>
-<polyline fill="none" stroke="#7f7542" points="550,-150.5 818,-150.5 "/>
-<text text-anchor="middle" x="684" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="550,-135.5 818,-135.5 "/>
-<text text-anchor="middle" x="684" y="-124.3" font-family="Times,serif" font-size="14.00">X₁ + X₂ + X₃ + X₄ + X₅ ∈ bool(X₁ × ℝ)</text>
-</a>
-</g>
-</g>
-<!-- c_0_142&#45;&gt;c_0_161 -->
-<g id="edge3" class="edge">
-<title>c_0_142&#45;&gt;c_0_161</title>
-<path fill="none" stroke="black" d="M580.25,-120.32C580.25,-120.32 580.25,-93.59 580.25,-93.59"/>
-<polygon fill="black" stroke="black" points="583.75,-93.59 580.25,-83.59 576.75,-93.59 583.75,-93.59"/>
-</g>
-<!-- c_0_148 -->
-<g id="node4" class="node">
-<title>c_0_148</title>
-<g id="a_node4"><a xlink:href="c_0_148.html" xlink:title="{arccot ∈ bool(ℝ × ℝ)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="382,-173 382,-188 532,-188 532,-173 382,-173"/>
-<text text-anchor="middle" x="457" y="-176.8" font-family="Times,serif" font-size="14.00">arccot ∈ bool(ℝ × ℝ)</text>
-</a>
-</g>
-</g>
-<!-- c_0_148&#45;&gt;c_0_161 -->
-<g id="edge4" class="edge">
-<title>c_0_148&#45;&gt;c_0_161</title>
-<path fill="none" stroke="black" d="M457,-172.98C457,-172.98 457,-93.73 457,-93.73"/>
-<polygon fill="black" stroke="black" points="460.5,-93.73 457,-83.73 453.5,-93.73 460.5,-93.73"/>
-</g>
-<!-- c_0_146 -->
-<g id="node5" class="node">
-<title>c_0_146</title>
-<g id="a_node5"><a xlink:href="c_0_146.html" xlink:title="{function(arccot)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="250,-173 250,-188 364,-188 364,-173 250,-173"/>
-<text text-anchor="middle" x="307" y="-176.8" font-family="Times,serif" font-size="14.00">function(arccot)</text>
-</a>
-</g>
-</g>
-<!-- c_0_146&#45;&gt;c_0_161 -->
-<g id="edge5" class="edge">
-<title>c_0_146&#45;&gt;c_0_161</title>
-<path fill="none" stroke="black" d="M333.75,-172.98C333.75,-172.98 333.75,-93.73 333.75,-93.73"/>
-<polygon fill="black" stroke="black" points="337.25,-93.73 333.75,-83.73 330.25,-93.73 337.25,-93.73"/>
-</g>
-<!-- c_0_68 -->
-<g id="node6" class="node">
-<title>c_0_68</title>
-<g id="a_node6"><a xlink:href="c_0_68.html" xlink:title="{ℝ ⊆ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="186,-173 186,-188 232,-188 232,-173 186,-173"/>
-<text text-anchor="middle" x="209" y="-176.8" font-family="Times,serif" font-size="14.00">ℝ ⊆ ℝ</text>
+<g id="a_node8"><a xlink:href="c_0_161.html" xlink:title="{¬ (function(ℝ + ℝ + ℝ + arctan + arccot))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="591.5,-68.5 591.5,-83.5 898.5,-83.5 898.5,-68.5 591.5,-68.5"/>
+<text text-anchor="middle" x="745" y="-72.3" font-family="Times,serif" font-size="14.00">¬ (function(ℝ + ℝ + ℝ + arctan + arccot))</text>
 </a>
 </g>
 </g>
 <!-- c_0_68&#45;&gt;c_0_161 -->
-<g id="edge6" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_68&#45;&gt;c_0_161</title>
-<path fill="none" stroke="black" d="M209,-172.8C209,-148.96 209,-78 209,-78 209,-78 293.47,-78 293.47,-78"/>
-<polygon fill="black" stroke="black" points="293.47,-81.5 303.47,-78 293.47,-74.5 293.47,-81.5"/>
+<path fill="none" stroke="black" d="M1263,-172.98C1263,-149.02 1263,-76 1263,-76 1263,-76 908.66,-76 908.66,-76"/>
+<polygon fill="black" stroke="black" points="908.66,-72.5 898.66,-76 908.66,-79.5 908.66,-72.5"/>
+</g>
+<!-- c_0_142 -->
+<g id="node2" class="node">
+<title>c_0_142</title>
+<g id="a_node2"><a xlink:href="c_0_142.html" xlink:title="{X₂ ⊆ ℝ|X₃ ⊆ ℝ|X₄ ∈ bool(X₁ × X₂)|X₅ ∈ bool(X₁ × X₃)|function(X₄)|function(X₅)|⇊|X₁ + X₂ + X₃ + X₄ + X₅ ∈ bool(X₁ × ℝ)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="954,-120.5 954,-240.5 1222,-240.5 1222,-120.5 954,-120.5"/>
+<text text-anchor="middle" x="1088" y="-229.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="954,-225.5 1222,-225.5 "/>
+<text text-anchor="middle" x="1088" y="-214.3" font-family="Times,serif" font-size="14.00">X₃ ⊆ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="954,-210.5 1222,-210.5 "/>
+<text text-anchor="middle" x="1088" y="-199.3" font-family="Times,serif" font-size="14.00">X₄ ∈ bool(X₁ × X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="954,-195.5 1222,-195.5 "/>
+<text text-anchor="middle" x="1088" y="-184.3" font-family="Times,serif" font-size="14.00">X₅ ∈ bool(X₁ × X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="954,-180.5 1222,-180.5 "/>
+<text text-anchor="middle" x="1088" y="-169.3" font-family="Times,serif" font-size="14.00">function(X₄)</text>
+<polyline fill="none" stroke="#7f7542" points="954,-165.5 1222,-165.5 "/>
+<text text-anchor="middle" x="1088" y="-154.3" font-family="Times,serif" font-size="14.00">function(X₅)</text>
+<polyline fill="none" stroke="#7f7542" points="954,-150.5 1222,-150.5 "/>
+<text text-anchor="middle" x="1088" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="954,-135.5 1222,-135.5 "/>
+<text text-anchor="middle" x="1088" y="-124.3" font-family="Times,serif" font-size="14.00">X₁ + X₂ + X₃ + X₄ + X₅ ∈ bool(X₁ × ℝ)</text>
+</a>
+</g>
+</g>
+<!-- c_0_142&#45;&gt;c_0_161 -->
+<g id="edge2" class="edge">
+<title>c_0_142&#45;&gt;c_0_161</title>
+<path fill="none" stroke="black" d="M953.97,-135C910.15,-135 872.5,-135 872.5,-135 872.5,-135 872.5,-93.71 872.5,-93.71"/>
+<polygon fill="black" stroke="black" points="876,-93.71 872.5,-83.71 869,-93.71 876,-93.71"/>
+</g>
+<!-- c_0_147 -->
+<g id="node3" class="node">
+<title>c_0_147</title>
+<g id="a_node3"><a xlink:href="c_0_147.html" xlink:title="{function(arctan)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="820.5,-173 820.5,-188 935.5,-188 935.5,-173 820.5,-173"/>
+<text text-anchor="middle" x="878" y="-176.8" font-family="Times,serif" font-size="14.00">function(arctan)</text>
+</a>
+</g>
+</g>
+<!-- c_0_147&#45;&gt;c_0_161 -->
+<g id="edge3" class="edge">
+<title>c_0_147&#45;&gt;c_0_161</title>
+<path fill="none" stroke="black" d="M846.5,-172.98C846.5,-172.98 846.5,-93.73 846.5,-93.73"/>
+<polygon fill="black" stroke="black" points="850,-93.73 846.5,-83.73 843,-93.73 850,-93.73"/>
+</g>
+<!-- c_0_146 -->
+<g id="node4" class="node">
+<title>c_0_146</title>
+<g id="a_node4"><a xlink:href="c_0_146.html" xlink:title="{function(arccot)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="688,-173 688,-188 802,-188 802,-173 688,-173"/>
+<text text-anchor="middle" x="745" y="-176.8" font-family="Times,serif" font-size="14.00">function(arccot)</text>
+</a>
+</g>
+</g>
+<!-- c_0_146&#45;&gt;c_0_161 -->
+<g id="edge4" class="edge">
+<title>c_0_146&#45;&gt;c_0_161</title>
+<path fill="none" stroke="black" d="M745,-172.98C745,-172.98 745,-93.73 745,-93.73"/>
+<polygon fill="black" stroke="black" points="748.5,-93.73 745,-83.73 741.5,-93.73 748.5,-93.73"/>
+</g>
+<!-- c_0_148 -->
+<g id="node5" class="node">
+<title>c_0_148</title>
+<g id="a_node5"><a xlink:href="c_0_148.html" xlink:title="{arccot ∈ bool(ℝ × ℝ)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="520,-173 520,-188 670,-188 670,-173 520,-173"/>
+<text text-anchor="middle" x="595" y="-176.8" font-family="Times,serif" font-size="14.00">arccot ∈ bool(ℝ × ℝ)</text>
+</a>
+</g>
+</g>
+<!-- c_0_148&#45;&gt;c_0_161 -->
+<g id="edge5" class="edge">
+<title>c_0_148&#45;&gt;c_0_161</title>
+<path fill="none" stroke="black" d="M643.83,-172.98C643.83,-172.98 643.83,-93.73 643.83,-93.73"/>
+<polygon fill="black" stroke="black" points="647.33,-93.73 643.83,-83.73 640.33,-93.73 647.33,-93.73"/>
+</g>
+<!-- c_0_160 -->
+<g id="node6" class="node">
+<title>c_0_160</title>
+<g id="a_node6"><a xlink:href="c_0_160.html" xlink:title="{function(ℝ + ℝ + ℝ + arctan + arccot)|ℝ + ℝ + ℝ + arctan + arccot ∈ bool(ℝ × ℝ)|⇊|⊥}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="186,-150.5 186,-210.5 502,-210.5 502,-150.5 186,-150.5"/>
+<text text-anchor="middle" x="344" y="-199.3" font-family="Times,serif" font-size="14.00">function(ℝ + ℝ + ℝ + arctan + arccot)</text>
+<polyline fill="none" stroke="#7f7542" points="186,-195.5 502,-195.5 "/>
+<text text-anchor="middle" x="344" y="-184.3" font-family="Times,serif" font-size="14.00">ℝ + ℝ + ℝ + arctan + arccot ∈ bool(ℝ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="186,-180.5 502,-180.5 "/>
+<text text-anchor="middle" x="344" y="-169.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="186,-165.5 502,-165.5 "/>
+<text text-anchor="middle" x="344" y="-154.3" font-family="Times,serif" font-size="14.00">⊥</text>
+</a>
+</g>
+</g>
+<!-- c_0_160&#45;&gt;c_0_161 -->
+<g id="edge6" class="edge">
+<title>c_0_160&#45;&gt;c_0_161</title>
+<path fill="none" stroke="black" d="M502,-161C562.68,-161 617.67,-161 617.67,-161 617.67,-161 617.67,-93.54 617.67,-93.54"/>
+<polygon fill="black" stroke="black" points="621.17,-93.54 617.67,-83.54 614.17,-93.54 621.17,-93.54"/>
 </g>
 <!-- c_0_149 -->
 <g id="node7" class="node">
 <title>c_0_149</title>
-<g id="a_node7"><a xlink:href="c_0_149.html" xlink:title="{arctan ∈ bool(ℝ × ℝ)}" target="_parent">
+<g id="a_node7"><a xlink:href="c_0_149.html" xlink:title="{arctan ∈ bool(ℝ × ℝ)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-173 16.5,-188 167.5,-188 167.5,-173 16.5,-173"/>
 <text text-anchor="middle" x="92" y="-176.8" font-family="Times,serif" font-size="14.00">arctan ∈ bool(ℝ × ℝ)</text>
 </a>
@@ -151,23 +151,23 @@
 <!-- c_0_149&#45;&gt;c_0_161 -->
 <g id="edge7" class="edge">
 <title>c_0_149&#45;&gt;c_0_161</title>
-<path fill="none" stroke="black" d="M92,-172.77C92,-148.12 92,-73 92,-73 92,-73 293.27,-73 293.27,-73"/>
-<polygon fill="black" stroke="black" points="293.27,-76.5 303.27,-73 293.26,-69.5 293.27,-76.5"/>
+<path fill="none" stroke="black" d="M92,-172.98C92,-149.02 92,-76 92,-76 92,-76 581.49,-76 581.49,-76"/>
+<polygon fill="black" stroke="black" points="581.49,-79.5 591.49,-76 581.49,-72.5 581.49,-79.5"/>
 </g>
 <!-- c_0_162 -->
 <g id="node9" class="node">
 <title>c_0_162</title>
-<g id="a_node9"><a xlink:href="c_0_162.html" xlink:title="⊥" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="450,-16.5 450,-31.5 464,-31.5 464,-16.5 450,-16.5"/>
-<text text-anchor="middle" x="457" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node9"><a xlink:href="c_0_162.html" xlink:title="⊥" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="738,-16.5 738,-31.5 752,-31.5 752,-16.5 738,-16.5"/>
+<text text-anchor="middle" x="745" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_161&#45;&gt;c_0_162 -->
 <g id="edge8" class="edge">
 <title>c_0_161&#45;&gt;c_0_162</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M457,-68.33C457,-68.33 457,-41.7 457,-41.7"/>
-<polygon fill="black" stroke="black" points="460.5,-41.7 457,-31.7 453.5,-41.7 460.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M745,-68.33C745,-68.33 745,-41.7 745,-41.7"/>
+<polygon fill="black" stroke="black" points="748.5,-41.7 745,-31.7 741.5,-41.7 748.5,-41.7"/>
 </g>
 </g>
 </svg>

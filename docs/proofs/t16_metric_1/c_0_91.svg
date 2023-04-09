@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="102,-217 102,-294 276,-294 276,-217 102,-217"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="120,-217 120,-294 294,-294 294,-217 120,-217"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
@@ -20,25 +20,25 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-85 388,-85 388,-8 8,-8"/>
 </g>
-<!-- c_0_83 -->
+<!-- c_0_84 -->
 <g id="node1" class="node">
-<title>c_0_83</title>
-<g id="a_node1"><a xlink:href="c_0_83.html" xlink:title="{X₁ ⊆ X₂|X₂ ⊆ X₁|⇊|X₁ = X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="216,-225.5 216,-285.5 268,-285.5 268,-225.5 216,-225.5"/>
+<title>c_0_84</title>
+<g id="a_node1"><a xlink:href="c_0_84.html" xlink:title="{X₁ ⊆ X₂|X₃ ⊆ X₂|⇊|X₁ ∪ X₃ ⊆ X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="198,-225.5 198,-285.5 286,-285.5 286,-225.5 198,-225.5"/>
 <text text-anchor="middle" x="242" y="-274.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="216,-270.5 268,-270.5 "/>
-<text text-anchor="middle" x="242" y="-259.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="216,-255.5 268,-255.5 "/>
+<polyline fill="none" stroke="#7f7542" points="198,-270.5 286,-270.5 "/>
+<text text-anchor="middle" x="242" y="-259.3" font-family="Times,serif" font-size="14.00">X₃ ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="198,-255.5 286,-255.5 "/>
 <text text-anchor="middle" x="242" y="-244.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="216,-240.5 268,-240.5 "/>
-<text text-anchor="middle" x="242" y="-229.3" font-family="Times,serif" font-size="14.00">X₁ = X₂</text>
+<polyline fill="none" stroke="#7f7542" points="198,-240.5 286,-240.5 "/>
+<text text-anchor="middle" x="242" y="-229.3" font-family="Times,serif" font-size="14.00">X₁ ∪ X₃ ⊆ X₂</text>
 </a>
 </g>
 </g>
 <!-- c_0_91 -->
 <g id="node3" class="node">
 <title>c_0_91</title>
-<g id="a_node3"><a xlink:href="c_0_91.html" xlink:title="{X₁ ⊆ X₂ ∪ X₃|X₂ ⊆ X₁|X₃ ⊆ X₁|⇊|X₁ = X₂ ∪ X₃}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_91.html" xlink:title="{X₁ ⊆ X₂ ∪ X₃|X₂ ⊆ X₁|X₃ ⊆ X₁|⇊|X₁ = X₂ ∪ X₃}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="154,-113.5 154,-188.5 242,-188.5 242,-113.5 154,-113.5"/>
 <text text-anchor="middle" x="198" y="-177.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂ ∪ X₃</text>
 <polyline fill="none" stroke="#7f7542" points="154,-173.5 242,-173.5 "/>
@@ -52,37 +52,37 @@
 </a>
 </g>
 </g>
-<!-- c_0_83&#45;&gt;c_0_91 -->
+<!-- c_0_84&#45;&gt;c_0_91 -->
 <g id="edge1" class="edge">
-<title>c_0_83&#45;&gt;c_0_91</title>
-<path fill="none" stroke="black" d="M229,-225.27C229,-225.27 229,-198.59 229,-198.59"/>
-<polygon fill="black" stroke="black" points="232.5,-198.59 229,-188.59 225.5,-198.59 232.5,-198.59"/>
+<title>c_0_84&#45;&gt;c_0_91</title>
+<path fill="none" stroke="black" d="M220,-225.27C220,-225.27 220,-198.59 220,-198.59"/>
+<polygon fill="black" stroke="black" points="223.5,-198.59 220,-188.59 216.5,-198.59 223.5,-198.59"/>
 </g>
-<!-- c_0_84 -->
+<!-- c_0_83 -->
 <g id="node2" class="node">
-<title>c_0_84</title>
-<g id="a_node2"><a xlink:href="c_0_84.html" xlink:title="{X₁ ⊆ X₂|X₃ ⊆ X₂|⇊|X₁ ∪ X₃ ⊆ X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="110,-225.5 110,-285.5 198,-285.5 198,-225.5 110,-225.5"/>
+<title>c_0_83</title>
+<g id="a_node2"><a xlink:href="c_0_83.html" xlink:title="{X₁ ⊆ X₂|X₂ ⊆ X₁|⇊|X₁ = X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="128,-225.5 128,-285.5 180,-285.5 180,-225.5 128,-225.5"/>
 <text text-anchor="middle" x="154" y="-274.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="110,-270.5 198,-270.5 "/>
-<text text-anchor="middle" x="154" y="-259.3" font-family="Times,serif" font-size="14.00">X₃ ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="110,-255.5 198,-255.5 "/>
+<polyline fill="none" stroke="#7f7542" points="128,-270.5 180,-270.5 "/>
+<text text-anchor="middle" x="154" y="-259.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="128,-255.5 180,-255.5 "/>
 <text text-anchor="middle" x="154" y="-244.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="110,-240.5 198,-240.5 "/>
-<text text-anchor="middle" x="154" y="-229.3" font-family="Times,serif" font-size="14.00">X₁ ∪ X₃ ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="128,-240.5 180,-240.5 "/>
+<text text-anchor="middle" x="154" y="-229.3" font-family="Times,serif" font-size="14.00">X₁ = X₂</text>
 </a>
 </g>
 </g>
-<!-- c_0_84&#45;&gt;c_0_91 -->
+<!-- c_0_83&#45;&gt;c_0_91 -->
 <g id="edge2" class="edge">
-<title>c_0_84&#45;&gt;c_0_91</title>
-<path fill="none" stroke="black" d="M176,-225.27C176,-225.27 176,-198.59 176,-198.59"/>
-<polygon fill="black" stroke="black" points="179.5,-198.59 176,-188.59 172.5,-198.59 179.5,-198.59"/>
+<title>c_0_83&#45;&gt;c_0_91</title>
+<path fill="none" stroke="black" d="M167,-225.27C167,-225.27 167,-198.59 167,-198.59"/>
+<polygon fill="black" stroke="black" points="170.5,-198.59 167,-188.59 163.5,-198.59 170.5,-198.59"/>
 </g>
 <!-- c_0_96 -->
 <g id="node4" class="node">
 <title>c_0_96</title>
-<g id="a_node4"><a xlink:href="c_0_96.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|⇊|Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃) = cl_Ball(X₁,X₂,R₃)}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_96.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|⇊|Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃) = cl_Ball(X₁,X₂,R₃)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-76.5 380,-76.5 380,-16.5 16,-16.5"/>
 <text text-anchor="middle" x="198" y="-65.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-61.5 380,-61.5 "/>

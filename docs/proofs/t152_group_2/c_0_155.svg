@@ -14,88 +14,88 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="138,-60 138,-92 268,-92 268,-60 138,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="144,-60 144,-92 274,-92 274,-60 144,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="188,-8 188,-40 218,-40 218,-8 188,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="194,-8 194,-40 224,-40 224,-8 194,-8"/>
 </g>
-<!-- c_0_139 -->
+<!-- c_0_49 -->
 <g id="node1" class="node">
-<title>c_0_139</title>
-<g id="a_node1"><a xlink:href="c_0_139.html" xlink:title="{multMagma(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="278,-135.5 278,-150.5 396,-150.5 396,-135.5 278,-135.5"/>
-<text text-anchor="middle" x="337" y="-139.3" font-family="Times,serif" font-size="14.00">multMagma(sk₁)</text>
+<title>c_0_49</title>
+<g id="a_node1"><a xlink:href="c_0_49.html" xlink:title="{multMagma(X₁)|⇊|1&#45;sorted(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="284,-120.5 284,-165.5 396,-165.5 396,-120.5 284,-120.5"/>
+<text text-anchor="middle" x="340" y="-154.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="284,-150.5 396,-150.5 "/>
+<text text-anchor="middle" x="340" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="284,-135.5 396,-135.5 "/>
+<text text-anchor="middle" x="340" y="-124.3" font-family="Times,serif" font-size="14.00">1&#45;sorted(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_155 -->
 <g id="node4" class="node">
 <title>c_0_155</title>
-<g id="a_node4"><a xlink:href="c_0_155.html" xlink:title="{carrier(sk₁) = Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="146.5,-68.5 146.5,-83.5 259.5,-83.5 259.5,-68.5 146.5,-68.5"/>
-<text text-anchor="middle" x="203" y="-72.3" font-family="Times,serif" font-size="14.00">carrier(sk₁) = Ø</text>
+<g id="a_node4"><a xlink:href="c_0_155.html" xlink:title="{carrier(sk₁) = Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="152.5,-68.5 152.5,-83.5 265.5,-83.5 265.5,-68.5 152.5,-68.5"/>
+<text text-anchor="middle" x="209" y="-72.3" font-family="Times,serif" font-size="14.00">carrier(sk₁) = Ø</text>
 </a>
 </g>
 </g>
-<!-- c_0_139&#45;&gt;c_0_155 -->
+<!-- c_0_49&#45;&gt;c_0_155 -->
 <g id="edge1" class="edge">
-<title>c_0_139&#45;&gt;c_0_155</title>
-<path fill="none" stroke="black" d="M337,-135.31C337,-117.72 337,-76 337,-76 337,-76 269.83,-76 269.83,-76"/>
-<polygon fill="black" stroke="black" points="269.83,-72.5 259.83,-76 269.83,-79.5 269.83,-72.5"/>
+<title>c_0_49&#45;&gt;c_0_155</title>
+<path fill="none" stroke="black" d="M340,-120.32C340,-100.88 340,-76 340,-76 340,-76 275.7,-76 275.7,-76"/>
+<polygon fill="black" stroke="black" points="275.7,-72.5 265.7,-76 275.7,-79.5 275.7,-72.5"/>
 </g>
 <!-- c_0_153 -->
 <g id="node2" class="node">
 <title>c_0_153</title>
-<g id="a_node2"><a xlink:href="c_0_153.html" xlink:title="{1&#45;sorted(sk₁)|⇊|carrier(sk₁) = Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="146.5,-120.5 146.5,-165.5 259.5,-165.5 259.5,-120.5 146.5,-120.5"/>
-<text text-anchor="middle" x="203" y="-154.3" font-family="Times,serif" font-size="14.00">1&#45;sorted(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146.5,-150.5 259.5,-150.5 "/>
-<text text-anchor="middle" x="203" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="146.5,-135.5 259.5,-135.5 "/>
-<text text-anchor="middle" x="203" y="-124.3" font-family="Times,serif" font-size="14.00">carrier(sk₁) = Ø</text>
+<g id="a_node2"><a xlink:href="c_0_153.html" xlink:title="{1&#45;sorted(sk₁)|⇊|carrier(sk₁) = Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="152.5,-120.5 152.5,-165.5 265.5,-165.5 265.5,-120.5 152.5,-120.5"/>
+<text text-anchor="middle" x="209" y="-154.3" font-family="Times,serif" font-size="14.00">1&#45;sorted(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="152.5,-150.5 265.5,-150.5 "/>
+<text text-anchor="middle" x="209" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="152.5,-135.5 265.5,-135.5 "/>
+<text text-anchor="middle" x="209" y="-124.3" font-family="Times,serif" font-size="14.00">carrier(sk₁) = Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_153&#45;&gt;c_0_155 -->
 <g id="edge2" class="edge">
 <title>c_0_153&#45;&gt;c_0_155</title>
-<path fill="none" stroke="black" d="M203,-120.32C203,-120.32 203,-93.59 203,-93.59"/>
-<polygon fill="black" stroke="black" points="206.5,-93.59 203,-83.59 199.5,-93.59 206.5,-93.59"/>
+<path fill="none" stroke="black" d="M209,-120.32C209,-120.32 209,-93.59 209,-93.59"/>
+<polygon fill="black" stroke="black" points="212.5,-93.59 209,-83.59 205.5,-93.59 212.5,-93.59"/>
 </g>
-<!-- c_0_49 -->
+<!-- c_0_139 -->
 <g id="node3" class="node">
-<title>c_0_49</title>
-<g id="a_node3"><a xlink:href="c_0_49.html" xlink:title="{multMagma(X₁)|⇊|1&#45;sorted(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-120.5 16,-165.5 128,-165.5 128,-120.5 16,-120.5"/>
-<text text-anchor="middle" x="72" y="-154.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-150.5 128,-150.5 "/>
-<text text-anchor="middle" x="72" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-135.5 128,-135.5 "/>
-<text text-anchor="middle" x="72" y="-124.3" font-family="Times,serif" font-size="14.00">1&#45;sorted(X₁)</text>
+<title>c_0_139</title>
+<g id="a_node3"><a xlink:href="c_0_139.html" xlink:title="{multMagma(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-135.5 16,-150.5 134,-150.5 134,-135.5 16,-135.5"/>
+<text text-anchor="middle" x="75" y="-139.3" font-family="Times,serif" font-size="14.00">multMagma(sk₁)</text>
 </a>
 </g>
 </g>
-<!-- c_0_49&#45;&gt;c_0_155 -->
+<!-- c_0_139&#45;&gt;c_0_155 -->
 <g id="edge3" class="edge">
-<title>c_0_49&#45;&gt;c_0_155</title>
-<path fill="none" stroke="black" d="M72,-120.32C72,-100.88 72,-76 72,-76 72,-76 136.3,-76 136.3,-76"/>
-<polygon fill="black" stroke="black" points="136.3,-79.5 146.3,-76 136.3,-72.5 136.3,-79.5"/>
+<title>c_0_139&#45;&gt;c_0_155</title>
+<path fill="none" stroke="black" d="M75,-135.31C75,-117.72 75,-76 75,-76 75,-76 142.17,-76 142.17,-76"/>
+<polygon fill="black" stroke="black" points="142.17,-79.5 152.17,-76 142.17,-72.5 142.17,-79.5"/>
 </g>
 <!-- c_0_156 -->
 <g id="node5" class="node">
 <title>c_0_156</title>
-<g id="a_node5"><a xlink:href="c_0_156.html" xlink:title="⊥" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="196,-16.5 196,-31.5 210,-31.5 210,-16.5 196,-16.5"/>
-<text text-anchor="middle" x="203" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node5"><a xlink:href="c_0_156.html" xlink:title="⊥" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="202,-16.5 202,-31.5 216,-31.5 216,-16.5 202,-16.5"/>
+<text text-anchor="middle" x="209" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_155&#45;&gt;c_0_156 -->
 <g id="edge4" class="edge">
 <title>c_0_155&#45;&gt;c_0_156</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M203,-68.33C203,-68.33 203,-41.7 203,-41.7"/>
-<polygon fill="black" stroke="black" points="206.5,-41.7 203,-31.7 199.5,-41.7 206.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M209,-68.33C209,-68.33 209,-41.7 209,-41.7"/>
+<polygon fill="black" stroke="black" points="212.5,-41.7 209,-31.7 205.5,-41.7 212.5,-41.7"/>
 </g>
 </g>
 </svg>

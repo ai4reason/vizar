@@ -14,96 +14,96 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="195,-135 195,-167 361,-167 361,-135 195,-135"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="104,-135 104,-167 270,-167 270,-135 104,-135"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="169,-8 169,-115 387,-115 387,-8 169,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="78,-8 78,-115 296,-115 296,-8 78,-8"/>
 </g>
-<!-- c_0_104 -->
+<!-- c_0_102 -->
 <g id="node1" class="node">
-<title>c_0_104</title>
-<g id="a_node1"><a xlink:href="c_0_104.html" xlink:title="{sk₂ ≠ Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="342,-218 342,-233 396,-233 396,-218 342,-218"/>
-<text text-anchor="middle" x="369" y="-221.8" font-family="Times,serif" font-size="14.00">sk₂ ≠ Ø</text>
+<title>c_0_102</title>
+<g id="a_node1"><a xlink:href="c_0_102.html" xlink:title="{X₁ = Ø|X₂ ∈ bool(X₁)|⇊|X₂ = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="304.5,-195.5 304.5,-255.5 395.5,-255.5 395.5,-195.5 304.5,-195.5"/>
+<text text-anchor="middle" x="350" y="-244.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="304.5,-240.5 395.5,-240.5 "/>
+<text text-anchor="middle" x="350" y="-229.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="304.5,-225.5 395.5,-225.5 "/>
+<text text-anchor="middle" x="350" y="-214.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="304.5,-210.5 395.5,-210.5 "/>
+<text text-anchor="middle" x="350" y="-199.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_114 -->
 <g id="node4" class="node">
 <title>c_0_114</title>
-<g id="a_node4"><a xlink:href="c_0_114.html" xlink:title="{Mycielskian(sk₁) ≠ Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="203.5,-143.5 203.5,-158.5 352.5,-158.5 352.5,-143.5 203.5,-143.5"/>
-<text text-anchor="middle" x="278" y="-147.3" font-family="Times,serif" font-size="14.00">Mycielskian(sk₁) ≠ Ø</text>
-</a>
-</g>
-</g>
-<!-- c_0_104&#45;&gt;c_0_114 -->
-<g id="edge1" class="edge">
-<title>c_0_104&#45;&gt;c_0_114</title>
-<path fill="none" stroke="black" d="M347.25,-217.81C347.25,-217.81 347.25,-168.76 347.25,-168.76"/>
-<polygon fill="black" stroke="black" points="350.75,-168.76 347.25,-158.76 343.75,-168.76 350.75,-168.76"/>
-</g>
-<!-- c_0_102 -->
-<g id="node2" class="node">
-<title>c_0_102</title>
-<g id="a_node2"><a xlink:href="c_0_102.html" xlink:title="{X₁ = Ø|X₂ ∈ bool(X₁)|⇊|X₂ = Ø}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="232.5,-195.5 232.5,-255.5 323.5,-255.5 323.5,-195.5 232.5,-195.5"/>
-<text text-anchor="middle" x="278" y="-244.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="232.5,-240.5 323.5,-240.5 "/>
-<text text-anchor="middle" x="278" y="-229.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="232.5,-225.5 323.5,-225.5 "/>
-<text text-anchor="middle" x="278" y="-214.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="232.5,-210.5 323.5,-210.5 "/>
-<text text-anchor="middle" x="278" y="-199.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
+<g id="a_node4"><a xlink:href="c_0_114.html" xlink:title="{Mycielskian(sk₁) ≠ Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="112.5,-143.5 112.5,-158.5 261.5,-158.5 261.5,-143.5 112.5,-143.5"/>
+<text text-anchor="middle" x="187" y="-147.3" font-family="Times,serif" font-size="14.00">Mycielskian(sk₁) ≠ Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_102&#45;&gt;c_0_114 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_102&#45;&gt;c_0_114</title>
-<path fill="none" stroke="black" d="M278,-195.2C278,-195.2 278,-168.59 278,-168.59"/>
-<polygon fill="black" stroke="black" points="281.5,-168.59 278,-158.59 274.5,-168.59 281.5,-168.59"/>
+<path fill="none" stroke="black" d="M350,-195.2C350,-174.57 350,-151 350,-151 350,-151 271.82,-151 271.82,-151"/>
+<polygon fill="black" stroke="black" points="271.82,-147.5 261.82,-151 271.82,-154.5 271.82,-147.5"/>
 </g>
 <!-- c_0_103 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_103</title>
-<g id="a_node3"><a xlink:href="c_0_103.html" xlink:title="{sk₂ ∈ bool(Mycielskian(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-218 16,-233 214,-233 214,-218 16,-218"/>
-<text text-anchor="middle" x="115" y="-221.8" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(Mycielskian(sk₁))</text>
+<g id="a_node2"><a xlink:href="c_0_103.html" xlink:title="{sk₂ ∈ bool(Mycielskian(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="88,-218 88,-233 286,-233 286,-218 88,-218"/>
+<text text-anchor="middle" x="187" y="-221.8" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(Mycielskian(sk₁))</text>
 </a>
 </g>
 </g>
 <!-- c_0_103&#45;&gt;c_0_114 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_103&#45;&gt;c_0_114</title>
-<path fill="none" stroke="black" d="M208.75,-217.81C208.75,-217.81 208.75,-168.76 208.75,-168.76"/>
-<polygon fill="black" stroke="black" points="212.25,-168.76 208.75,-158.76 205.25,-168.76 212.25,-168.76"/>
+<path fill="none" stroke="black" d="M187,-217.81C187,-217.81 187,-168.76 187,-168.76"/>
+<polygon fill="black" stroke="black" points="190.5,-168.76 187,-158.76 183.5,-168.76 190.5,-168.76"/>
+</g>
+<!-- c_0_104 -->
+<g id="node3" class="node">
+<title>c_0_104</title>
+<g id="a_node3"><a xlink:href="c_0_104.html" xlink:title="{sk₂ ≠ Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-218 16,-233 70,-233 70,-218 16,-218"/>
+<text text-anchor="middle" x="43" y="-221.8" font-family="Times,serif" font-size="14.00">sk₂ ≠ Ø</text>
+</a>
+</g>
+</g>
+<!-- c_0_104&#45;&gt;c_0_114 -->
+<g id="edge3" class="edge">
+<title>c_0_104&#45;&gt;c_0_114</title>
+<path fill="none" stroke="black" d="M43,-217.81C43,-198.77 43,-151 43,-151 43,-151 102.47,-151 102.47,-151"/>
+<polygon fill="black" stroke="black" points="102.47,-154.5 112.47,-151 102.47,-147.5 102.47,-154.5"/>
 </g>
 <!-- c_0_124 -->
 <g id="node5" class="node">
 <title>c_0_124</title>
-<g id="a_node5"><a xlink:href="c_0_124.html" xlink:title="{X₁ \{..\} X₂ ∈ Mycielskian(sk₁)|⇊|X₁ = X₂|X₁ \{..\} X₂ ∈ 0|union(sk₁) = X₁|union(sk₁) = X₂}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="177,-16.5 177,-106.5 379,-106.5 379,-16.5 177,-16.5"/>
-<text text-anchor="middle" x="278" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ {..} X₂ ∈ Mycielskian(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="177,-91.5 379,-91.5 "/>
-<text text-anchor="middle" x="278" y="-80.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="177,-76.5 379,-76.5 "/>
-<text text-anchor="middle" x="278" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ = X₂</text>
-<polyline fill="none" stroke="#7f7542" points="177,-61.5 379,-61.5 "/>
-<text text-anchor="middle" x="278" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ {..} X₂ ∈ 0</text>
-<polyline fill="none" stroke="#7f7542" points="177,-46.5 379,-46.5 "/>
-<text text-anchor="middle" x="278" y="-35.3" font-family="Times,serif" font-size="14.00">union(sk₁) = X₁</text>
-<polyline fill="none" stroke="#7f7542" points="177,-31.5 379,-31.5 "/>
-<text text-anchor="middle" x="278" y="-20.3" font-family="Times,serif" font-size="14.00">union(sk₁) = X₂</text>
+<g id="a_node5"><a xlink:href="c_0_124.html" xlink:title="{X₁ \{..\} X₂ ∈ Mycielskian(sk₁)|⇊|X₁ = X₂|X₁ \{..\} X₂ ∈ 0|union(sk₁) = X₁|union(sk₁) = X₂}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="86,-16.5 86,-106.5 288,-106.5 288,-16.5 86,-16.5"/>
+<text text-anchor="middle" x="187" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ {..} X₂ ∈ Mycielskian(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="86,-91.5 288,-91.5 "/>
+<text text-anchor="middle" x="187" y="-80.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="86,-76.5 288,-76.5 "/>
+<text text-anchor="middle" x="187" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ = X₂</text>
+<polyline fill="none" stroke="#7f7542" points="86,-61.5 288,-61.5 "/>
+<text text-anchor="middle" x="187" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ {..} X₂ ∈ 0</text>
+<polyline fill="none" stroke="#7f7542" points="86,-46.5 288,-46.5 "/>
+<text text-anchor="middle" x="187" y="-35.3" font-family="Times,serif" font-size="14.00">union(sk₁) = X₁</text>
+<polyline fill="none" stroke="#7f7542" points="86,-31.5 288,-31.5 "/>
+<text text-anchor="middle" x="187" y="-20.3" font-family="Times,serif" font-size="14.00">union(sk₁) = X₂</text>
 </a>
 </g>
 </g>
 <!-- c_0_114&#45;&gt;c_0_124 -->
 <g id="edge4" class="edge">
 <title>c_0_114&#45;&gt;c_0_124</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M278,-143.37C278,-143.37 278,-116.66 278,-116.66"/>
-<polygon fill="black" stroke="black" points="281.5,-116.66 278,-106.66 274.5,-116.66 281.5,-116.66"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M187,-143.37C187,-143.37 187,-116.66 187,-116.66"/>
+<polygon fill="black" stroke="black" points="190.5,-116.66 187,-106.66 183.5,-116.66 190.5,-116.66"/>
 </g>
 </g>
 </svg>

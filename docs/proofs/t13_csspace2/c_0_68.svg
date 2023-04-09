@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="174,-112 174,-144 296,-144 296,-112 174,-112"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="204,-112 204,-144 326,-144 326,-112 204,-112"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="114,-60 114,-92 356,-92 356,-60 114,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="144,-60 144,-92 386,-92 386,-60 144,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,71 +23,71 @@
 <!-- fc1_membered -->
 <g id="node1" class="node">
 <title>fc1_membered</title>
-<g id="a_node1"><a xlink:href="fc1_membered.html" xlink:title="fc1_membered" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="182,-120.5 182,-135.5 288,-135.5 288,-120.5 182,-120.5"/>
-<text text-anchor="middle" x="235" y="-124.3" font-family="Times,serif" font-size="14.00">fc1_membered</text>
+<g id="a_node1"><a xlink:href="fc1_membered.html" xlink:title="fc1_membered" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="212,-120.5 212,-135.5 318,-135.5 318,-120.5 212,-120.5"/>
+<text text-anchor="middle" x="265" y="-124.3" font-family="Times,serif" font-size="14.00">fc1_membered</text>
 </a>
 </g>
 </g>
 <!-- c_0_68 -->
 <g id="node2" class="node">
 <title>c_0_68</title>
-<g id="a_node2"><a xlink:href="c_0_68.html" xlink:title="{complex&#45;membered(COMPLEX)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="122,-68.5 122,-83.5 348,-83.5 348,-68.5 122,-68.5"/>
-<text text-anchor="middle" x="235" y="-72.3" font-family="Times,serif" font-size="14.00">complex&#45;membered(COMPLEX)</text>
+<g id="a_node2"><a xlink:href="c_0_68.html" xlink:title="{complex&#45;membered(COMPLEX)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="152,-68.5 152,-83.5 378,-83.5 378,-68.5 152,-68.5"/>
+<text text-anchor="middle" x="265" y="-72.3" font-family="Times,serif" font-size="14.00">complex&#45;membered(COMPLEX)</text>
 </a>
 </g>
 </g>
 <!-- fc1_membered&#45;&gt;c_0_68 -->
 <g id="edge1" class="edge">
 <title>fc1_membered&#45;&gt;c_0_68</title>
-<path fill="none" stroke="black" d="M235,-120.33C235,-120.33 235,-93.7 235,-93.7"/>
-<polygon fill="black" stroke="black" points="238.5,-93.7 235,-83.7 231.5,-93.7 238.5,-93.7"/>
+<path fill="none" stroke="black" d="M265,-120.33C265,-120.33 265,-93.7 265,-93.7"/>
+<polygon fill="black" stroke="black" points="268.5,-93.7 265,-83.7 261.5,-93.7 268.5,-93.7"/>
 </g>
-<!-- c_0_110 -->
+<!-- c_0_93 -->
 <g id="node3" class="node">
-<title>c_0_110</title>
-<g id="a_node3"><a xlink:href="c_0_110.html" xlink:title="{ \|....\| sk₁ ∈ bool(ℕ × ℝ)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="324.5,-16.5 324.5,-31.5 483.5,-31.5 483.5,-16.5 324.5,-16.5"/>
-<text text-anchor="middle" x="404" y="-20.3" font-family="Times,serif" font-size="14.00">|....| sk₁ ∈ bool(ℕ × ℝ)</text>
+<title>c_0_93</title>
+<g id="a_node3"><a xlink:href="c_0_93.html" xlink:title="{Sum( \|....\| sk₁) = 0}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="354,-16.5 354,-31.5 484,-31.5 484,-16.5 354,-16.5"/>
+<text text-anchor="middle" x="419" y="-20.3" font-family="Times,serif" font-size="14.00">Sum( |....| sk₁) = 0</text>
 </a>
 </g>
 </g>
-<!-- c_0_68&#45;&gt;c_0_110 -->
+<!-- c_0_68&#45;&gt;c_0_93 -->
 <g id="edge2" class="edge">
-<title>c_0_68&#45;&gt;c_0_110</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M336.25,-68.33C336.25,-68.33 336.25,-41.7 336.25,-41.7"/>
-<polygon fill="black" stroke="black" points="339.75,-41.7 336.25,-31.7 332.75,-41.7 339.75,-41.7"/>
+<title>c_0_68&#45;&gt;c_0_93</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M366,-68.33C366,-68.33 366,-41.7 366,-41.7"/>
+<polygon fill="black" stroke="black" points="369.5,-41.7 366,-31.7 362.5,-41.7 369.5,-41.7"/>
 </g>
 <!-- c_0_94 -->
 <g id="node4" class="node">
 <title>c_0_94</title>
-<g id="a_node4"><a xlink:href="c_0_94.html" xlink:title="{complex&#45;valued(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="164,-16.5 164,-31.5 306,-31.5 306,-16.5 164,-16.5"/>
-<text text-anchor="middle" x="235" y="-20.3" font-family="Times,serif" font-size="14.00">complex&#45;valued(sk₁)</text>
+<g id="a_node4"><a xlink:href="c_0_94.html" xlink:title="{complex&#45;valued(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="194,-16.5 194,-31.5 336,-31.5 336,-16.5 194,-16.5"/>
+<text text-anchor="middle" x="265" y="-20.3" font-family="Times,serif" font-size="14.00">complex&#45;valued(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_68&#45;&gt;c_0_94 -->
 <g id="edge3" class="edge">
 <title>c_0_68&#45;&gt;c_0_94</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M235,-68.33C235,-68.33 235,-41.7 235,-41.7"/>
-<polygon fill="black" stroke="black" points="238.5,-41.7 235,-31.7 231.5,-41.7 238.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M265,-68.33C265,-68.33 265,-41.7 265,-41.7"/>
+<polygon fill="black" stroke="black" points="268.5,-41.7 265,-31.7 261.5,-41.7 268.5,-41.7"/>
 </g>
-<!-- c_0_93 -->
+<!-- c_0_110 -->
 <g id="node5" class="node">
-<title>c_0_93</title>
-<g id="a_node5"><a xlink:href="c_0_93.html" xlink:title="{Sum( \|....\| sk₁) = 0}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 146,-31.5 146,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="81" y="-20.3" font-family="Times,serif" font-size="14.00">Sum( |....| sk₁) = 0</text>
+<title>c_0_110</title>
+<g id="a_node5"><a xlink:href="c_0_110.html" xlink:title="{ \|....\| sk₁ ∈ bool(ℕ × ℝ)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-31.5 175.5,-31.5 175.5,-16.5 16.5,-16.5"/>
+<text text-anchor="middle" x="96" y="-20.3" font-family="Times,serif" font-size="14.00">|....| sk₁ ∈ bool(ℕ × ℝ)</text>
 </a>
 </g>
 </g>
-<!-- c_0_68&#45;&gt;c_0_93 -->
+<!-- c_0_68&#45;&gt;c_0_110 -->
 <g id="edge4" class="edge">
-<title>c_0_68&#45;&gt;c_0_93</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M134,-68.33C134,-68.33 134,-41.7 134,-41.7"/>
-<polygon fill="black" stroke="black" points="137.5,-41.7 134,-31.7 130.5,-41.7 137.5,-41.7"/>
+<title>c_0_68&#45;&gt;c_0_110</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M163.75,-68.33C163.75,-68.33 163.75,-41.7 163.75,-41.7"/>
+<polygon fill="black" stroke="black" points="167.25,-41.7 163.75,-31.7 160.25,-41.7 167.25,-41.7"/>
 </g>
 </g>
 </svg>

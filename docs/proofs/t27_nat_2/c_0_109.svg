@@ -18,12 +18,12 @@
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="25,-8 25,-40 273,-40 273,-8 25,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="12,-8 12,-40 260,-40 260,-8 12,-8"/>
 </g>
 <!-- t27_nat_2 -->
 <g id="node1" class="node">
 <title>t27_nat_2</title>
-<g id="a_node1"><a xlink:href="t27_nat_2.html" xlink:title="t27_nat_2" target="_parent">
+<g id="a_node1"><a xlink:href="t27_nat_2.html" xlink:title="t27_nat_2" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="118,-120.5 118,-135.5 188,-135.5 188,-120.5 118,-120.5"/>
 <text text-anchor="middle" x="153" y="-124.3" font-family="Times,serif" font-size="14.00">t27_nat_2</text>
 </a>
@@ -32,7 +32,7 @@
 <!-- c_0_109 -->
 <g id="node2" class="node">
 <title>c_0_109</title>
-<g id="a_node2"><a xlink:href="c_0_109.html" xlink:title="{div(div(sk₁,sk₂),sk₃) ≠ div(sk₁,sk₂ * sk₃)}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_109.html" xlink:title="{div(div(sk₁,sk₂),sk₃) ≠ div(sk₁,sk₂ * sk₃)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="16,-68.5 16,-83.5 290,-83.5 290,-68.5 16,-68.5"/>
 <text text-anchor="middle" x="153" y="-72.3" font-family="Times,serif" font-size="14.00">div(div(sk₁,sk₂),sk₃) ≠ div(sk₁,sk₂ * sk₃)</text>
 </a>
@@ -44,35 +44,35 @@
 <path fill="none" stroke="black" d="M153,-120.33C153,-120.33 153,-93.7 153,-93.7"/>
 <polygon fill="black" stroke="black" points="156.5,-93.7 153,-83.7 149.5,-93.7 156.5,-93.7"/>
 </g>
-<!-- c_0_151 -->
-<g id="node3" class="node">
-<title>c_0_151</title>
-<g id="a_node3"><a xlink:href="c_0_151.html" xlink:title="{div(div(sk₁,sk₂),Ø) ≠ Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="105,-16.5 105,-31.5 265,-31.5 265,-16.5 105,-16.5"/>
-<text text-anchor="middle" x="185" y="-20.3" font-family="Times,serif" font-size="14.00">div(div(sk₁,sk₂),Ø) ≠ Ø</text>
-</a>
-</g>
-</g>
-<!-- c_0_109&#45;&gt;c_0_151 -->
-<g id="edge2" class="edge">
-<title>c_0_109&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M185,-68.33C185,-68.33 185,-41.7 185,-41.7"/>
-<polygon fill="black" stroke="black" points="188.5,-41.7 185,-31.7 181.5,-41.7 188.5,-41.7"/>
-</g>
 <!-- c_0_136 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_136</title>
-<g id="a_node4"><a xlink:href="c_0_136.html" xlink:title="{sk₃ ≤ Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="33,-16.5 33,-31.5 87,-31.5 87,-16.5 33,-16.5"/>
-<text text-anchor="middle" x="60" y="-20.3" font-family="Times,serif" font-size="14.00">sk₃ ≤ Ø</text>
+<g id="a_node3"><a xlink:href="c_0_136.html" xlink:title="{sk₃ ≤ Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="198,-16.5 198,-31.5 252,-31.5 252,-16.5 198,-16.5"/>
+<text text-anchor="middle" x="225" y="-20.3" font-family="Times,serif" font-size="14.00">sk₃ ≤ Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_109&#45;&gt;c_0_136 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_109&#45;&gt;c_0_136</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M60,-68.33C60,-68.33 60,-41.7 60,-41.7"/>
-<polygon fill="black" stroke="black" points="63.5,-41.7 60,-31.7 56.5,-41.7 63.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M225,-68.33C225,-68.33 225,-41.7 225,-41.7"/>
+<polygon fill="black" stroke="black" points="228.5,-41.7 225,-31.7 221.5,-41.7 228.5,-41.7"/>
+</g>
+<!-- c_0_151 -->
+<g id="node4" class="node">
+<title>c_0_151</title>
+<g id="a_node4"><a xlink:href="c_0_151.html" xlink:title="{div(div(sk₁,sk₂),Ø) ≠ Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="20,-16.5 20,-31.5 180,-31.5 180,-16.5 20,-16.5"/>
+<text text-anchor="middle" x="100" y="-20.3" font-family="Times,serif" font-size="14.00">div(div(sk₁,sk₂),Ø) ≠ Ø</text>
+</a>
+</g>
+</g>
+<!-- c_0_109&#45;&gt;c_0_151 -->
+<g id="edge3" class="edge">
+<title>c_0_109&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M100,-68.33C100,-68.33 100,-41.7 100,-41.7"/>
+<polygon fill="black" stroke="black" points="103.5,-41.7 100,-31.7 96.5,-41.7 103.5,-41.7"/>
 </g>
 </g>
 </svg>

@@ -185,9 +185,9 @@ def set_labels(info):
    for (name, fml) in info["fmls"].items():
       if fml["lang"] == "cnf":
          lits = tptp.clause_parse(fml["fml"])
-         syms = tptp.literal_symbols(lits)
          lits = varsorts(lits)
          lits = neghide(lits)
+         syms = tptp.literal_symbols(lits)
          lits = translate(lits)
          text = label.clause(lits) 
       else:
@@ -309,7 +309,7 @@ def statement(f_tptp):
       return ""
    mzr = "\n".join(mzr[1:])
    mzr = mzr
-   mzr = mzr.replace('href="', 'href="'+MPTP)
+   mzr = mzr.replace('href="', 'target="_mizar" href="'+MPTP)
    mzr = '<div class="mizar">\n%s\n</div>' % mzr
    return mzr
 

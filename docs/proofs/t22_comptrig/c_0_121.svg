@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="564,-172 564,-204 664,-204 664,-172 564,-172"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="432,-172 432,-204 532,-204 532,-172 432,-172"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="583,-120 583,-152 645,-152 645,-120 583,-120"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="451,-120 451,-152 513,-152 513,-120 451,-120"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,134 +23,134 @@
 <!-- cc4_xreal_0 -->
 <g id="node1" class="node">
 <title>cc4_xreal_0</title>
-<g id="a_node1"><a xlink:href="cc4_xreal_0.html" xlink:title="cc4_xreal_0" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="572.5,-180.5 572.5,-195.5 655.5,-195.5 655.5,-180.5 572.5,-180.5"/>
-<text text-anchor="middle" x="614" y="-184.3" font-family="Times,serif" font-size="14.00">cc4_xreal_0</text>
+<g id="a_node1"><a xlink:href="cc4_xreal_0.html" xlink:title="cc4_xreal_0" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="440.5,-180.5 440.5,-195.5 523.5,-195.5 523.5,-180.5 440.5,-180.5"/>
+<text text-anchor="middle" x="482" y="-184.3" font-family="Times,serif" font-size="14.00">cc4_xreal_0</text>
 </a>
 </g>
 </g>
 <!-- c_0_121 -->
 <g id="node2" class="node">
 <title>c_0_121</title>
-<g id="a_node2"><a xlink:href="c_0_121.html" xlink:title="{R₁ ∈ 𝔼}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="591,-128.5 591,-143.5 637,-143.5 637,-128.5 591,-128.5"/>
-<text text-anchor="middle" x="614" y="-132.3" font-family="Times,serif" font-size="14.00">R₁ ∈ 𝔼</text>
+<g id="a_node2"><a xlink:href="c_0_121.html" xlink:title="{R₁ ∈ 𝔼}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="459,-128.5 459,-143.5 505,-143.5 505,-128.5 459,-128.5"/>
+<text text-anchor="middle" x="482" y="-132.3" font-family="Times,serif" font-size="14.00">R₁ ∈ 𝔼</text>
 </a>
 </g>
 </g>
 <!-- cc4_xreal_0&#45;&gt;c_0_121 -->
 <g id="edge1" class="edge">
 <title>cc4_xreal_0&#45;&gt;c_0_121</title>
-<path fill="none" stroke="black" d="M614,-180.33C614,-180.33 614,-153.7 614,-153.7"/>
-<polygon fill="black" stroke="black" points="617.5,-153.7 614,-143.7 610.5,-153.7 617.5,-153.7"/>
+<path fill="none" stroke="black" d="M482,-180.33C482,-180.33 482,-153.7 482,-153.7"/>
+<polygon fill="black" stroke="black" points="485.5,-153.7 482,-143.7 478.5,-153.7 485.5,-153.7"/>
 </g>
-<!-- c_0_221 -->
+<!-- c_0_151 -->
 <g id="node3" class="node">
-<title>c_0_221</title>
-<g id="a_node3"><a xlink:href="c_0_221.html" xlink:title="{PI ]....[ (2 * PI) ≠ Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1108,-46.5 1108,-61.5 1244,-61.5 1244,-46.5 1108,-46.5"/>
-<text text-anchor="middle" x="1176" y="-50.3" font-family="Times,serif" font-size="14.00">PI ]....[ (2 * PI) ≠ Ø</text>
+<title>c_0_151</title>
+<g id="a_node3"><a xlink:href="c_0_151.html" xlink:title="{increasing(ℝ \| ℝ \| cos \| (R₁ ]....[ R₂))|sk₂(R₁,R₂,cos) ∈ R₁ ]....[ R₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="990.5,-39 990.5,-69 1243.5,-69 1243.5,-39 990.5,-39"/>
+<text text-anchor="middle" x="1117" y="-57.8" font-family="Times,serif" font-size="14.00">increasing(ℝ | ℝ | cos | (R₁ ]....[ R₂))</text>
+<polyline fill="none" stroke="#7f7542" points="990.5,-54 1243.5,-54 "/>
+<text text-anchor="middle" x="1117" y="-42.8" font-family="Times,serif" font-size="14.00">sk₂(R₁,R₂,cos) ∈ R₁ ]....[ R₂</text>
 </a>
 </g>
 </g>
-<!-- c_0_121&#45;&gt;c_0_221 -->
+<!-- c_0_121&#45;&gt;c_0_151 -->
 <g id="edge2" class="edge">
-<title>c_0_121&#45;&gt;c_0_221</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M637.08,-136C742.83,-136 1176,-136 1176,-136 1176,-136 1176,-71.57 1176,-71.57"/>
-<polygon fill="black" stroke="black" points="1179.5,-71.57 1176,-61.57 1172.5,-71.57 1179.5,-71.57"/>
+<title>c_0_121&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M505.35,-138C619.92,-138 1117,-138 1117,-138 1117,-138 1117,-79.02 1117,-79.02"/>
+<polygon fill="black" stroke="black" points="1120.5,-79.02 1117,-69.02 1113.5,-79.02 1120.5,-79.02"/>
 </g>
-<!-- c_0_210 -->
+<!-- c_0_138 -->
 <g id="node4" class="node">
-<title>c_0_210</title>
-<g id="a_node4"><a xlink:href="c_0_210.html" xlink:title="{X₃ ∈ ℝ|⇊|R₁ ]....[ (R₂ * X₃) = Ø|increasing(ℝ \| ℝ \| cos \| (R₁ ]....[ (R₂ * X₃)))|sk₂(R₁,R₂ * X₃,cos) ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="796,-16.5 796,-91.5 1090,-91.5 1090,-16.5 796,-16.5"/>
-<text text-anchor="middle" x="943" y="-80.3" font-family="Times,serif" font-size="14.00">X₃ ∈ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="796,-76.5 1090,-76.5 "/>
-<text text-anchor="middle" x="943" y="-65.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="796,-61.5 1090,-61.5 "/>
-<text text-anchor="middle" x="943" y="-50.3" font-family="Times,serif" font-size="14.00">R₁ ]....[ (R₂ * X₃) = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="796,-46.5 1090,-46.5 "/>
-<text text-anchor="middle" x="943" y="-35.3" font-family="Times,serif" font-size="14.00">increasing(ℝ | ℝ | cos | (R₁ ]....[ (R₂ * X₃)))</text>
-<polyline fill="none" stroke="#7f7542" points="796,-31.5 1090,-31.5 "/>
-<text text-anchor="middle" x="943" y="-20.3" font-family="Times,serif" font-size="14.00">sk₂(R₁,R₂ * X₃,cos) ∈ ℝ</text>
+<title>c_0_138</title>
+<g id="a_node4"><a xlink:href="c_0_138.html" xlink:title="{X₁ ∈ bool(ℝ × ℝ)|function(X₁)|is_differentiable_on(X₁,ℝ)|⇊|is_differentiable_on(X₁,R₂ ]....[ R₃)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="734,-16.5 734,-91.5 972,-91.5 972,-16.5 734,-16.5"/>
+<text text-anchor="middle" x="853" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℝ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="734,-76.5 972,-76.5 "/>
+<text text-anchor="middle" x="853" y="-65.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="734,-61.5 972,-61.5 "/>
+<text text-anchor="middle" x="853" y="-50.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(X₁,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="734,-46.5 972,-46.5 "/>
+<text text-anchor="middle" x="853" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="734,-31.5 972,-31.5 "/>
+<text text-anchor="middle" x="853" y="-20.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(X₁,R₂ ]....[ R₃)</text>
 </a>
 </g>
 </g>
-<!-- c_0_121&#45;&gt;c_0_210 -->
+<!-- c_0_121&#45;&gt;c_0_138 -->
 <g id="edge3" class="edge">
-<title>c_0_121&#45;&gt;c_0_210</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M625.5,-128.49C625.5,-113.65 625.5,-82 625.5,-82 625.5,-82 785.87,-82 785.87,-82"/>
-<polygon fill="black" stroke="black" points="785.87,-85.5 795.87,-82 785.87,-78.5 785.87,-85.5"/>
+<title>c_0_121&#45;&gt;c_0_138</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M500.5,-128.29C500.5,-112.29 500.5,-77 500.5,-77 500.5,-77 723.66,-77 723.66,-77"/>
+<polygon fill="black" stroke="black" points="723.66,-80.5 733.66,-77 723.66,-73.5 723.66,-80.5"/>
 </g>
 <!-- c_0_219 -->
 <g id="node5" class="node">
 <title>c_0_219</title>
-<g id="a_node5"><a xlink:href="c_0_219.html" xlink:title="{¬ (PI ]....[ (2 * PI) ∈ bool(ℝ))}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="576,-46.5 576,-61.5 778,-61.5 778,-46.5 576,-46.5"/>
-<text text-anchor="middle" x="677" y="-50.3" font-family="Times,serif" font-size="14.00">¬ (PI ]....[ (2 * PI) ∈ bool(ℝ))</text>
+<g id="a_node5"><a xlink:href="c_0_219.html" xlink:title="{¬ (PI ]....[ (2 * PI) ∈ bool(ℝ))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="514,-46.5 514,-61.5 716,-61.5 716,-46.5 514,-46.5"/>
+<text text-anchor="middle" x="615" y="-50.3" font-family="Times,serif" font-size="14.00">¬ (PI ]....[ (2 * PI) ∈ bool(ℝ))</text>
 </a>
 </g>
 </g>
 <!-- c_0_121&#45;&gt;c_0_219 -->
 <g id="edge4" class="edge">
 <title>c_0_121&#45;&gt;c_0_219</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M614,-128.43C614,-128.43 614,-71.79 614,-71.79"/>
-<polygon fill="black" stroke="black" points="617.5,-71.79 614,-61.79 610.5,-71.79 617.5,-71.79"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M505.07,-133C512.45,-133 518.75,-133 518.75,-133 518.75,-133 518.75,-71.57 518.75,-71.57"/>
+<polygon fill="black" stroke="black" points="522.25,-71.57 518.75,-61.57 515.25,-71.57 522.25,-71.57"/>
+</g>
+<!-- c_0_210 -->
+<g id="node6" class="node">
+<title>c_0_210</title>
+<g id="a_node6"><a xlink:href="c_0_210.html" xlink:title="{X₃ ∈ ℝ|⇊|R₁ ]....[ (R₂ * X₃) = Ø|increasing(ℝ \| ℝ \| cos \| (R₁ ]....[ (R₂ * X₃)))|sk₂(R₁,R₂ * X₃,cos) ∈ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="202,-16.5 202,-91.5 496,-91.5 496,-16.5 202,-16.5"/>
+<text text-anchor="middle" x="349" y="-80.3" font-family="Times,serif" font-size="14.00">X₃ ∈ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="202,-76.5 496,-76.5 "/>
+<text text-anchor="middle" x="349" y="-65.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="202,-61.5 496,-61.5 "/>
+<text text-anchor="middle" x="349" y="-50.3" font-family="Times,serif" font-size="14.00">R₁ ]....[ (R₂ * X₃) = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="202,-46.5 496,-46.5 "/>
+<text text-anchor="middle" x="349" y="-35.3" font-family="Times,serif" font-size="14.00">increasing(ℝ | ℝ | cos | (R₁ ]....[ (R₂ * X₃)))</text>
+<polyline fill="none" stroke="#7f7542" points="202,-31.5 496,-31.5 "/>
+<text text-anchor="middle" x="349" y="-20.3" font-family="Times,serif" font-size="14.00">sk₂(R₁,R₂ * X₃,cos) ∈ ℝ</text>
+</a>
+</g>
+</g>
+<!-- c_0_121&#45;&gt;c_0_210 -->
+<g id="edge5" class="edge">
+<title>c_0_121&#45;&gt;c_0_210</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M477.5,-128.43C477.5,-128.43 477.5,-101.67 477.5,-101.67"/>
+<polygon fill="black" stroke="black" points="481,-101.67 477.5,-91.67 474,-101.67 481,-101.67"/>
+</g>
+<!-- c_0_221 -->
+<g id="node7" class="node">
+<title>c_0_221</title>
+<g id="a_node7"><a xlink:href="c_0_221.html" xlink:title="{PI ]....[ (2 * PI) ≠ Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="48,-46.5 48,-61.5 184,-61.5 184,-46.5 48,-46.5"/>
+<text text-anchor="middle" x="116" y="-50.3" font-family="Times,serif" font-size="14.00">PI ]....[ (2 * PI) ≠ Ø</text>
+</a>
+</g>
+</g>
+<!-- c_0_121&#45;&gt;c_0_221 -->
+<g id="edge6" class="edge">
+<title>c_0_121&#45;&gt;c_0_221</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M458.83,-133C378.37,-133 116,-133 116,-133 116,-133 116,-71.57 116,-71.57"/>
+<polygon fill="black" stroke="black" points="119.5,-71.57 116,-61.57 112.5,-71.57 119.5,-71.57"/>
 </g>
 <!-- c_0_224 -->
-<g id="node6" class="node">
+<g id="node8" class="node">
 <title>c_0_224</title>
-<g id="a_node6"><a xlink:href="c_0_224.html" xlink:title="⊥" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="544,-46.5 544,-61.5 558,-61.5 558,-46.5 544,-46.5"/>
-<text text-anchor="middle" x="551" y="-50.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node8"><a xlink:href="c_0_224.html" xlink:title="⊥" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-46.5 16,-61.5 30,-61.5 30,-46.5 16,-46.5"/>
+<text text-anchor="middle" x="23" y="-50.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_121&#45;&gt;c_0_224 -->
-<g id="edge5" class="edge">
-<title>c_0_121&#45;&gt;c_0_224</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M590.9,-133C572.92,-133 551,-133 551,-133 551,-133 551,-71.57 551,-71.57"/>
-<polygon fill="black" stroke="black" points="554.5,-71.57 551,-61.57 547.5,-71.57 554.5,-71.57"/>
-</g>
-<!-- c_0_138 -->
-<g id="node7" class="node">
-<title>c_0_138</title>
-<g id="a_node7"><a xlink:href="c_0_138.html" xlink:title="{X₁ ∈ bool(ℝ × ℝ)|function(X₁)|is_differentiable_on(X₁,ℝ)|⇊|is_differentiable_on(X₁,R₂ ]....[ R₃)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="288,-16.5 288,-91.5 526,-91.5 526,-16.5 288,-16.5"/>
-<text text-anchor="middle" x="407" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℝ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="288,-76.5 526,-76.5 "/>
-<text text-anchor="middle" x="407" y="-65.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="288,-61.5 526,-61.5 "/>
-<text text-anchor="middle" x="407" y="-50.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(X₁,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="288,-46.5 526,-46.5 "/>
-<text text-anchor="middle" x="407" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="288,-31.5 526,-31.5 "/>
-<text text-anchor="middle" x="407" y="-20.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(X₁,R₂ ]....[ R₃)</text>
-</a>
-</g>
-</g>
-<!-- c_0_121&#45;&gt;c_0_138 -->
-<g id="edge6" class="edge">
-<title>c_0_121&#45;&gt;c_0_138</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M602.5,-128.15C602.5,-111.06 602.5,-72 602.5,-72 602.5,-72 536.07,-72 536.07,-72"/>
-<polygon fill="black" stroke="black" points="536.07,-68.5 526.07,-72 536.07,-75.5 536.07,-68.5"/>
-</g>
-<!-- c_0_151 -->
-<g id="node8" class="node">
-<title>c_0_151</title>
-<g id="a_node8"><a xlink:href="c_0_151.html" xlink:title="{increasing(ℝ \| ℝ \| cos \| (R₁ ]....[ R₂))|sk₂(R₁,R₂,cos) ∈ R₁ ]....[ R₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-39 16.5,-69 269.5,-69 269.5,-39 16.5,-39"/>
-<text text-anchor="middle" x="143" y="-57.8" font-family="Times,serif" font-size="14.00">increasing(ℝ | ℝ | cos | (R₁ ]....[ R₂))</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-54 269.5,-54 "/>
-<text text-anchor="middle" x="143" y="-42.8" font-family="Times,serif" font-size="14.00">sk₂(R₁,R₂,cos) ∈ R₁ ]....[ R₂</text>
-</a>
-</g>
-</g>
-<!-- c_0_121&#45;&gt;c_0_151 -->
 <g id="edge7" class="edge">
-<title>c_0_121&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M590.96,-138C496.4,-138 143,-138 143,-138 143,-138 143,-79.02 143,-79.02"/>
-<polygon fill="black" stroke="black" points="146.5,-79.02 143,-69.02 139.5,-79.02 146.5,-79.02"/>
+<title>c_0_121&#45;&gt;c_0_224</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M458.92,-138C365.85,-138 23,-138 23,-138 23,-138 23,-71.75 23,-71.75"/>
+<polygon fill="black" stroke="black" points="26.5,-71.75 23,-61.75 19.5,-71.75 26.5,-71.75"/>
 </g>
 </g>
 </svg>

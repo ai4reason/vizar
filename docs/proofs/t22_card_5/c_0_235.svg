@@ -14,75 +14,75 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="53,-60 53,-122 219,-122 219,-60 53,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="61,-60 61,-122 227,-122 227,-60 61,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="121,-8 121,-40 151,-40 151,-8 121,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="129,-8 129,-40 159,-40 159,-8 129,-8"/>
 </g>
-<!-- c_0_219 -->
+<!-- c_0_233 -->
 <g id="node1" class="node">
-<title>c_0_219</title>
-<g id="a_node1"><a xlink:href="c_0_219.html" xlink:title="{ordinal(X₁)|ordinal(X₂)|⇊|is_cofinal_with(X₁,X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="122.5,-150.5 122.5,-210.5 271.5,-210.5 271.5,-150.5 122.5,-150.5"/>
-<text text-anchor="middle" x="197" y="-199.3" font-family="Times,serif" font-size="14.00">ordinal(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="122.5,-195.5 271.5,-195.5 "/>
-<text text-anchor="middle" x="197" y="-184.3" font-family="Times,serif" font-size="14.00">ordinal(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="122.5,-180.5 271.5,-180.5 "/>
-<text text-anchor="middle" x="197" y="-169.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="122.5,-165.5 271.5,-165.5 "/>
-<text text-anchor="middle" x="197" y="-154.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(X₁,X₁)</text>
+<title>c_0_233</title>
+<g id="a_node1"><a xlink:href="c_0_233.html" xlink:title="{ordinal(sk₃₈)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="184,-173 184,-188 272,-188 272,-173 184,-173"/>
+<text text-anchor="middle" x="228" y="-176.8" font-family="Times,serif" font-size="14.00">ordinal(sk₃₈)</text>
 </a>
 </g>
 </g>
 <!-- c_0_235 -->
 <g id="node3" class="node">
 <title>c_0_235</title>
-<g id="a_node3"><a xlink:href="c_0_235.html" xlink:title="{ordinal(X₁)|⇊|is_cofinal_with(X₁,X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="61.5,-68.5 61.5,-113.5 210.5,-113.5 210.5,-68.5 61.5,-68.5"/>
-<text text-anchor="middle" x="136" y="-102.3" font-family="Times,serif" font-size="14.00">ordinal(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-98.5 210.5,-98.5 "/>
-<text text-anchor="middle" x="136" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-83.5 210.5,-83.5 "/>
-<text text-anchor="middle" x="136" y="-72.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(X₁,X₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_219&#45;&gt;c_0_235 -->
-<g id="edge1" class="edge">
-<title>c_0_219&#45;&gt;c_0_235</title>
-<path fill="none" stroke="black" d="M166.5,-150.2C166.5,-150.2 166.5,-123.63 166.5,-123.63"/>
-<polygon fill="black" stroke="black" points="170,-123.63 166.5,-113.63 163,-123.63 170,-123.63"/>
-</g>
-<!-- c_0_233 -->
-<g id="node2" class="node">
-<title>c_0_233</title>
-<g id="a_node2"><a xlink:href="c_0_233.html" xlink:title="{ordinal(sk₃₈)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-173 16,-188 104,-188 104,-173 16,-173"/>
-<text text-anchor="middle" x="60" y="-176.8" font-family="Times,serif" font-size="14.00">ordinal(sk₃₈)</text>
+<g id="a_node3"><a xlink:href="c_0_235.html" xlink:title="{ordinal(X₁)|⇊|is_cofinal_with(X₁,X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="69.5,-68.5 69.5,-113.5 218.5,-113.5 218.5,-68.5 69.5,-68.5"/>
+<text text-anchor="middle" x="144" y="-102.3" font-family="Times,serif" font-size="14.00">ordinal(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="69.5,-98.5 218.5,-98.5 "/>
+<text text-anchor="middle" x="144" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="69.5,-83.5 218.5,-83.5 "/>
+<text text-anchor="middle" x="144" y="-72.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(X₁,X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_233&#45;&gt;c_0_235 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_233&#45;&gt;c_0_235</title>
-<path fill="none" stroke="black" d="M82.75,-172.87C82.75,-172.87 82.75,-123.81 82.75,-123.81"/>
-<polygon fill="black" stroke="black" points="86.25,-123.81 82.75,-113.81 79.25,-123.81 86.25,-123.81"/>
+<path fill="none" stroke="black" d="M201.25,-172.87C201.25,-172.87 201.25,-123.81 201.25,-123.81"/>
+<polygon fill="black" stroke="black" points="204.75,-123.81 201.25,-113.81 197.75,-123.81 204.75,-123.81"/>
+</g>
+<!-- c_0_219 -->
+<g id="node2" class="node">
+<title>c_0_219</title>
+<g id="a_node2"><a xlink:href="c_0_219.html" xlink:title="{ordinal(X₁)|ordinal(X₂)|⇊|is_cofinal_with(X₁,X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-150.5 16.5,-210.5 165.5,-210.5 165.5,-150.5 16.5,-150.5"/>
+<text text-anchor="middle" x="91" y="-199.3" font-family="Times,serif" font-size="14.00">ordinal(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-195.5 165.5,-195.5 "/>
+<text text-anchor="middle" x="91" y="-184.3" font-family="Times,serif" font-size="14.00">ordinal(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-180.5 165.5,-180.5 "/>
+<text text-anchor="middle" x="91" y="-169.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-165.5 165.5,-165.5 "/>
+<text text-anchor="middle" x="91" y="-154.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(X₁,X₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_219&#45;&gt;c_0_235 -->
+<g id="edge2" class="edge">
+<title>c_0_219&#45;&gt;c_0_235</title>
+<path fill="none" stroke="black" d="M117.5,-150.2C117.5,-150.2 117.5,-123.63 117.5,-123.63"/>
+<polygon fill="black" stroke="black" points="121,-123.63 117.5,-113.63 114,-123.63 121,-123.63"/>
 </g>
 <!-- c_0_236 -->
 <g id="node4" class="node">
 <title>c_0_236</title>
-<g id="a_node4"><a xlink:href="c_0_236.html" xlink:title="⊥" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="129,-16.5 129,-31.5 143,-31.5 143,-16.5 129,-16.5"/>
-<text text-anchor="middle" x="136" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node4"><a xlink:href="c_0_236.html" xlink:title="⊥" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="137,-16.5 137,-31.5 151,-31.5 151,-16.5 137,-16.5"/>
+<text text-anchor="middle" x="144" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_235&#45;&gt;c_0_236 -->
 <g id="edge3" class="edge">
 <title>c_0_235&#45;&gt;c_0_236</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M136,-68.32C136,-68.32 136,-41.59 136,-41.59"/>
-<polygon fill="black" stroke="black" points="139.5,-41.59 136,-31.59 132.5,-41.59 139.5,-41.59"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M144,-68.32C144,-68.32 144,-41.59 144,-41.59"/>
+<polygon fill="black" stroke="black" points="147.5,-41.59 144,-31.59 140.5,-41.59 147.5,-41.59"/>
 </g>
 </g>
 </svg>

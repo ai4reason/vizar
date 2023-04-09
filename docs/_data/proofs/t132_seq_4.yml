@@ -125,56 +125,56 @@ skolems:
   esk1_0:
     axiom: t132_seq_4
     related:
-    - esk1_0
     - esk2_0
+    - esk1_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t132_seq_4
     related:
-    - esk1_0
     - esk2_0
+    - esk1_0
     symbol: "sk\u2082"
   esk3_3:
     axiom: d14_seq_4
     related:
+    - esk5_3
     - esk4_2
     - esk3_3
-    - esk5_3
     symbol: "sk\u2083"
   esk4_2:
     axiom: d14_seq_4
     related:
+    - esk5_3
     - esk4_2
     - esk3_3
-    - esk5_3
     symbol: "sk\u2084"
   esk5_3:
     axiom: d14_seq_4
     related:
+    - esk5_3
     - esk4_2
     - esk3_3
-    - esk5_3
     symbol: "sk\u2085"
   esk6_3:
     axiom: d15_seq_4
     related:
     - esk6_3
-    - esk7_2
     - esk8_3
+    - esk7_2
     symbol: "sk\u2086"
   esk7_2:
     axiom: d15_seq_4
     related:
     - esk6_3
-    - esk7_2
     - esk8_3
+    - esk7_2
     symbol: "sk\u2087"
   esk8_3:
     axiom: d15_seq_4
     related:
     - esk6_3
-    - esk7_2
     - esk8_3
+    - esk7_2
     symbol: "sk\u2088"
 steps:
   c_0_100:
@@ -212,8 +212,8 @@ steps:
       v1_xboole_0: 1
       v2_seq_4: 1
     skolems:
-    - esk4_2
     - esk5_3
+    - esk4_2
     - esk6_3
   c_0_104:
     counts:
@@ -273,8 +273,8 @@ steps:
       v1_seq_4: 1
       v2_seq_4: 1
     skolems:
-    - esk7_2
     - esk3_3
+    - esk7_2
   c_0_110:
     counts:
       k14_seq_4: 5
@@ -342,8 +342,8 @@ steps:
       v1_seq_4: 1
       v2_seq_4: 1
     skolems:
-    - esk4_2
     - esk5_3
+    - esk4_2
     - esk6_3
   c_0_118:
     counts:
@@ -420,8 +420,8 @@ steps:
       v1_seq_4: 1
       v2_seq_4: 1
     skolems:
-    - esk4_2
     - esk5_3
+    - esk4_2
     - esk6_3
   c_0_125:
     counts:
@@ -473,16 +473,16 @@ steps:
       v1_seq_4: 1
       v2_seq_4: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_130:
     counts:
       k14_seq_4: 1
       k1_zfmisc_1: 1
       m1_subset_1: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_131:
     counts:
       k14_seq_4: 1
@@ -541,8 +541,8 @@ steps:
       m1_finseq_2: 1
       v2_seq_4: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_137:
     counts:
       k14_seq_4: 5
@@ -575,14 +575,14 @@ steps:
       v1_seq_4: 1
       v2_seq_4: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_140:
     counts:
       v2_seq_4: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_141:
     counts:
       k14_seq_4: 3
@@ -603,8 +603,8 @@ steps:
       k3_subset_1: 1
       v1_seq_4: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_143:
     counts:
       k14_seq_4: 2
@@ -815,8 +815,8 @@ steps:
       r2_hidden: 1
       v1_seq_4: 1
     skolems:
-    - esk4_2
     - esk5_3
+    - esk4_2
   c_0_48:
     counts:
       k14_seq_4: 4
@@ -929,8 +929,8 @@ steps:
       r2_hidden: 1
       v1_seq_4: 1
     skolems:
-    - esk4_2
     - esk5_3
+    - esk4_2
   c_0_56:
     counts:
       k14_seq_4: 4
@@ -1006,8 +1006,8 @@ steps:
       r2_hidden: 1
       v2_seq_4: 1
     skolems:
-    - esk7_2
     - esk8_3
+    - esk7_2
   c_0_61:
     counts:
       k14_seq_4: 1
@@ -1045,8 +1045,8 @@ steps:
       v1_seq_4: 1
       v2_seq_4: 1
     skolems:
-    - esk4_2
     - esk5_3
+    - esk4_2
     - esk6_3
   c_0_72:
     counts:
@@ -1080,8 +1080,8 @@ steps:
       r2_hidden: 1
       v2_seq_4: 1
     skolems:
-    - esk7_2
     - esk8_3
+    - esk7_2
   c_0_74:
     counts:
       k14_seq_4: 2
@@ -1176,8 +1176,8 @@ steps:
       v1_seq_4: 1
       v2_seq_4: 1
     skolems:
-    - esk4_2
     - esk5_3
+    - esk4_2
     - esk6_3
   c_0_85:
     counts:
@@ -1224,9 +1224,9 @@ steps:
       v1_seq_4: 1
       v2_seq_4: 1
     skolems:
-    - esk7_2
     - esk8_3
     - esk3_3
+    - esk7_2
   c_0_91:
     counts:
       k14_seq_4: 2

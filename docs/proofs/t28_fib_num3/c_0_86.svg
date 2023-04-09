@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="251,-142 251,-174 351,-174 351,-142 251,-142"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="106,-142 106,-174 206,-174 206,-142 106,-142"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="269,-90 269,-122 333,-122 333,-90 269,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="124,-90 124,-122 188,-122 188,-90 124,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,75 +23,75 @@
 <!-- cc3_xreal_0 -->
 <g id="node1" class="node">
 <title>cc3_xreal_0</title>
-<g id="a_node1"><a xlink:href="cc3_xreal_0.html" xlink:title="cc3_xreal_0" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="259.5,-150.5 259.5,-165.5 342.5,-165.5 342.5,-150.5 259.5,-150.5"/>
-<text text-anchor="middle" x="301" y="-154.3" font-family="Times,serif" font-size="14.00">cc3_xreal_0</text>
+<g id="a_node1"><a xlink:href="cc3_xreal_0.html" xlink:title="cc3_xreal_0" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="114.5,-150.5 114.5,-165.5 197.5,-165.5 197.5,-150.5 114.5,-150.5"/>
+<text text-anchor="middle" x="156" y="-154.3" font-family="Times,serif" font-size="14.00">cc3_xreal_0</text>
 </a>
 </g>
 </g>
 <!-- c_0_86 -->
 <g id="node2" class="node">
 <title>c_0_86</title>
-<g id="a_node2"><a xlink:href="c_0_86.html" xlink:title="{R₁ ∈ ℂ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="277.5,-98.5 277.5,-113.5 324.5,-113.5 324.5,-98.5 277.5,-98.5"/>
-<text text-anchor="middle" x="301" y="-102.3" font-family="Times,serif" font-size="14.00">R₁ ∈ ℂ</text>
+<g id="a_node2"><a xlink:href="c_0_86.html" xlink:title="{R₁ ∈ ℂ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="132.5,-98.5 132.5,-113.5 179.5,-113.5 179.5,-98.5 132.5,-98.5"/>
+<text text-anchor="middle" x="156" y="-102.3" font-family="Times,serif" font-size="14.00">R₁ ∈ ℂ</text>
 </a>
 </g>
 </g>
 <!-- cc3_xreal_0&#45;&gt;c_0_86 -->
 <g id="edge1" class="edge">
 <title>cc3_xreal_0&#45;&gt;c_0_86</title>
-<path fill="none" stroke="black" d="M301,-150.33C301,-150.33 301,-123.7 301,-123.7"/>
-<polygon fill="black" stroke="black" points="304.5,-123.7 301,-113.7 297.5,-123.7 304.5,-123.7"/>
-</g>
-<!-- c_0_114 -->
-<g id="node3" class="node">
-<title>c_0_114</title>
-<g id="a_node3"><a xlink:href="c_0_114.html" xlink:title="{R₁ * R₂ ∈ ℂ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="360.5,-31.5 360.5,-46.5 439.5,-46.5 439.5,-31.5 360.5,-31.5"/>
-<text text-anchor="middle" x="400" y="-35.3" font-family="Times,serif" font-size="14.00">R₁ * R₂ ∈ ℂ</text>
-</a>
-</g>
-</g>
-<!-- c_0_86&#45;&gt;c_0_114 -->
-<g id="edge2" class="edge">
-<title>c_0_86&#45;&gt;c_0_114</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M324.71,-106C354,-106 400,-106 400,-106 400,-106 400,-56.69 400,-56.69"/>
-<polygon fill="black" stroke="black" points="403.5,-56.69 400,-46.69 396.5,-56.69 403.5,-56.69"/>
-</g>
-<!-- c_0_94 -->
-<g id="node4" class="node">
-<title>c_0_94</title>
-<g id="a_node4"><a xlink:href="c_0_94.html" xlink:title="{&#45;(R₁,R₂) ∈ ℂ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="260,-31.5 260,-46.5 342,-46.5 342,-31.5 260,-31.5"/>
-<text text-anchor="middle" x="301" y="-35.3" font-family="Times,serif" font-size="14.00">&#45;(R₁,R₂) ∈ ℂ</text>
-</a>
-</g>
-</g>
-<!-- c_0_86&#45;&gt;c_0_94 -->
-<g id="edge3" class="edge">
-<title>c_0_86&#45;&gt;c_0_94</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M308.83,-98.31C308.83,-98.31 308.83,-56.6 308.83,-56.6"/>
-<polygon fill="black" stroke="black" points="312.33,-56.6 308.83,-46.6 305.33,-56.6 312.33,-56.6"/>
+<path fill="none" stroke="black" d="M156,-150.33C156,-150.33 156,-123.7 156,-123.7"/>
+<polygon fill="black" stroke="black" points="159.5,-123.7 156,-113.7 152.5,-123.7 159.5,-123.7"/>
 </g>
 <!-- c_0_113 -->
-<g id="node5" class="node">
+<g id="node3" class="node">
 <title>c_0_113</title>
-<g id="a_node5"><a xlink:href="c_0_113.html" xlink:title="{X₁ ∈ ℕ|⇊|Lucas(X₁) * Fib(X₁) = Fib(X₁ * 2)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-61.5 242,-61.5 242,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="129" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ</text>
-<polyline fill="none" stroke="#7f7542" points="16,-46.5 242,-46.5 "/>
-<text text-anchor="middle" x="129" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-31.5 242,-31.5 "/>
-<text text-anchor="middle" x="129" y="-20.3" font-family="Times,serif" font-size="14.00">Lucas(X₁) * Fib(X₁) = Fib(X₁ * 2)</text>
+<g id="a_node3"><a xlink:href="c_0_113.html" xlink:title="{X₁ ∈ ℕ|⇊|Lucas(X₁) * Fib(X₁) = Fib(X₁ * 2)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="214,-16.5 214,-61.5 440,-61.5 440,-16.5 214,-16.5"/>
+<text text-anchor="middle" x="327" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ</text>
+<polyline fill="none" stroke="#7f7542" points="214,-46.5 440,-46.5 "/>
+<text text-anchor="middle" x="327" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="214,-31.5 440,-31.5 "/>
+<text text-anchor="middle" x="327" y="-20.3" font-family="Times,serif" font-size="14.00">Lucas(X₁) * Fib(X₁) = Fib(X₁ * 2)</text>
 </a>
 </g>
 </g>
 <!-- c_0_86&#45;&gt;c_0_113 -->
-<g id="edge4" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_86&#45;&gt;c_0_113</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M293.17,-98.33C293.17,-83.86 293.17,-54 293.17,-54 293.17,-54 252.12,-54 252.12,-54"/>
-<polygon fill="black" stroke="black" points="252.12,-50.5 242.12,-54 252.12,-57.5 252.12,-50.5"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M163.83,-98.33C163.83,-83.86 163.83,-54 163.83,-54 163.83,-54 203.68,-54 203.68,-54"/>
+<polygon fill="black" stroke="black" points="203.68,-57.5 213.68,-54 203.68,-50.5 203.68,-57.5"/>
+</g>
+<!-- c_0_114 -->
+<g id="node4" class="node">
+<title>c_0_114</title>
+<g id="a_node4"><a xlink:href="c_0_114.html" xlink:title="{R₁ * R₂ ∈ ℂ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="116.5,-31.5 116.5,-46.5 195.5,-46.5 195.5,-31.5 116.5,-31.5"/>
+<text text-anchor="middle" x="156" y="-35.3" font-family="Times,serif" font-size="14.00">R₁ * R₂ ∈ ℂ</text>
+</a>
+</g>
+</g>
+<!-- c_0_86&#45;&gt;c_0_114 -->
+<g id="edge3" class="edge">
+<title>c_0_86&#45;&gt;c_0_114</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M148.17,-98.31C148.17,-98.31 148.17,-56.6 148.17,-56.6"/>
+<polygon fill="black" stroke="black" points="151.67,-56.6 148.17,-46.6 144.67,-56.6 151.67,-56.6"/>
+</g>
+<!-- c_0_94 -->
+<g id="node5" class="node">
+<title>c_0_94</title>
+<g id="a_node5"><a xlink:href="c_0_94.html" xlink:title="{&#45;(R₁,R₂) ∈ ℂ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-31.5 16,-46.5 98,-46.5 98,-31.5 16,-31.5"/>
+<text text-anchor="middle" x="57" y="-35.3" font-family="Times,serif" font-size="14.00">&#45;(R₁,R₂) ∈ ℂ</text>
+</a>
+</g>
+</g>
+<!-- c_0_86&#45;&gt;c_0_94 -->
+<g id="edge4" class="edge">
+<title>c_0_86&#45;&gt;c_0_94</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M132.29,-106C103,-106 57,-106 57,-106 57,-106 57,-56.69 57,-56.69"/>
+<polygon fill="black" stroke="black" points="60.5,-56.69 57,-46.69 53.5,-56.69 60.5,-56.69"/>
 </g>
 </g>
 </svg>

@@ -20,31 +20,39 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="132,-8 132,-190 662,-190 662,-8 132,-8"/>
 </g>
-<!-- c_0_27 -->
+<!-- c_0_26 -->
 <g id="node1" class="node">
-<title>c_0_27</title>
-<g id="a_node1"><a xlink:href="c_0_27.html" xlink:title="{QC&#45;alphabet(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₃ ^ &amp;lt;X₂&amp;gt;|X₂ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|⇊|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₄ ^ X₃) ^ &amp;lt;X₂&amp;gt;}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="422,-450.5 422,-555.5 810,-555.5 810,-450.5 422,-450.5"/>
-<text text-anchor="middle" x="616" y="-544.3" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
+<title>c_0_26</title>
+<g id="a_node1"><a xlink:href="c_0_26.html" xlink:title="{CQC&#45;WFF(X₁) ^ X₂ ^ X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|QC&#45;alphabet(X₁)|X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &amp;lt;X₅&amp;gt;|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₂ ^ &amp;lt;(X₁ &#39;not&#39; X₅)&amp;gt;|X₂ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₄ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|⇊|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &amp;lt;X₄&amp;gt;}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="422,-420.5 422,-585.5 810,-585.5 810,-420.5 422,-420.5"/>
+<text text-anchor="middle" x="616" y="-574.3" font-family="Times,serif" font-size="14.00">CQC&#45;WFF(X₁) ^ X₂ ^ X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="422,-570.5 810,-570.5 "/>
+<text text-anchor="middle" x="616" y="-559.3" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="422,-555.5 810,-555.5 "/>
+<text text-anchor="middle" x="616" y="-544.3" font-family="Times,serif" font-size="14.00">X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="422,-540.5 810,-540.5 "/>
-<text text-anchor="middle" x="616" y="-529.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ X₃ ^ &lt;X₂&gt;</text>
+<text text-anchor="middle" x="616" y="-529.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &lt;X₅&gt;</text>
 <polyline fill="none" stroke="#7f7542" points="422,-525.5 810,-525.5 "/>
-<text text-anchor="middle" x="616" y="-514.3" font-family="Times,serif" font-size="14.00">X₂ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
+<text text-anchor="middle" x="616" y="-514.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ X₂ ^ &lt;(X₁ &#39;not&#39; X₅)&gt;</text>
 <polyline fill="none" stroke="#7f7542" points="422,-510.5 810,-510.5 "/>
-<text text-anchor="middle" x="616" y="-499.3" font-family="Times,serif" font-size="14.00">X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
+<text text-anchor="middle" x="616" y="-499.3" font-family="Times,serif" font-size="14.00">X₂ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
 <polyline fill="none" stroke="#7f7542" points="422,-495.5 810,-495.5 "/>
-<text text-anchor="middle" x="616" y="-484.3" font-family="Times,serif" font-size="14.00">X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
+<text text-anchor="middle" x="616" y="-484.3" font-family="Times,serif" font-size="14.00">X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
 <polyline fill="none" stroke="#7f7542" points="422,-480.5 810,-480.5 "/>
-<text text-anchor="middle" x="616" y="-469.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<text text-anchor="middle" x="616" y="-469.3" font-family="Times,serif" font-size="14.00">X₄ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="422,-465.5 810,-465.5 "/>
-<text text-anchor="middle" x="616" y="-454.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₄ ^ X₃) ^ &lt;X₂&gt;</text>
+<text text-anchor="middle" x="616" y="-454.3" font-family="Times,serif" font-size="14.00">X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="422,-450.5 810,-450.5 "/>
+<text text-anchor="middle" x="616" y="-439.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="422,-435.5 810,-435.5 "/>
+<text text-anchor="middle" x="616" y="-424.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &lt;X₄&gt;</text>
 </a>
 </g>
 </g>
 <!-- c_0_29 -->
 <g id="node3" class="node">
 <title>c_0_29</title>
-<g id="a_node3"><a xlink:href="c_0_29.html" xlink:title="{CQC&#45;WFF(X₁) ^ X₂ ^ X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|QC&#45;alphabet(X₁)|X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₂ ^ &amp;lt;(X₁ &#39;not&#39; X₅)&amp;gt;|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₃ ^ &amp;lt;X₅&amp;gt;|X₂ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₄ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|⇊|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &amp;lt;X₄&amp;gt;}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_29.html" xlink:title="{CQC&#45;WFF(X₁) ^ X₂ ^ X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|QC&#45;alphabet(X₁)|X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₂ ^ &amp;lt;(X₁ &#39;not&#39; X₅)&amp;gt;|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₃ ^ &amp;lt;X₅&amp;gt;|X₂ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₄ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|⇊|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &amp;lt;X₄&amp;gt;}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="203,-218.5 203,-383.5 591,-383.5 591,-218.5 203,-218.5"/>
 <text text-anchor="middle" x="397" y="-372.3" font-family="Times,serif" font-size="14.00">CQC&#45;WFF(X₁) ^ X₂ ^ X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
 <polyline fill="none" stroke="#7f7542" points="203,-368.5 591,-368.5 "/>
@@ -70,51 +78,43 @@
 </a>
 </g>
 </g>
-<!-- c_0_27&#45;&gt;c_0_29 -->
+<!-- c_0_26&#45;&gt;c_0_29 -->
 <g id="edge1" class="edge">
-<title>c_0_27&#45;&gt;c_0_29</title>
-<path fill="none" stroke="black" d="M506.5,-450.45C506.5,-450.45 506.5,-393.81 506.5,-393.81"/>
-<polygon fill="black" stroke="black" points="510,-393.81 506.5,-383.81 503,-393.81 510,-393.81"/>
+<title>c_0_26&#45;&gt;c_0_29</title>
+<path fill="none" stroke="black" d="M506.5,-420.26C506.5,-420.26 506.5,-393.62 506.5,-393.62"/>
+<polygon fill="black" stroke="black" points="510,-393.62 506.5,-383.62 503,-393.62 510,-393.62"/>
 </g>
-<!-- c_0_26 -->
+<!-- c_0_27 -->
 <g id="node2" class="node">
-<title>c_0_26</title>
-<g id="a_node2"><a xlink:href="c_0_26.html" xlink:title="{CQC&#45;WFF(X₁) ^ X₂ ^ X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|QC&#45;alphabet(X₁)|X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &amp;lt;X₅&amp;gt;|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₂ ^ &amp;lt;(X₁ &#39;not&#39; X₅)&amp;gt;|X₂ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₄ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|⇊|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &amp;lt;X₄&amp;gt;}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-420.5 16,-585.5 404,-585.5 404,-420.5 16,-420.5"/>
-<text text-anchor="middle" x="210" y="-574.3" font-family="Times,serif" font-size="14.00">CQC&#45;WFF(X₁) ^ X₂ ^ X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="16,-570.5 404,-570.5 "/>
-<text text-anchor="middle" x="210" y="-559.3" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-555.5 404,-555.5 "/>
-<text text-anchor="middle" x="210" y="-544.3" font-family="Times,serif" font-size="14.00">X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
+<title>c_0_27</title>
+<g id="a_node2"><a xlink:href="c_0_27.html" xlink:title="{QC&#45;alphabet(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₃ ^ &amp;lt;X₂&amp;gt;|X₂ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|⇊|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₄ ^ X₃) ^ &amp;lt;X₂&amp;gt;}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-450.5 16,-555.5 404,-555.5 404,-450.5 16,-450.5"/>
+<text text-anchor="middle" x="210" y="-544.3" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-540.5 404,-540.5 "/>
-<text text-anchor="middle" x="210" y="-529.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &lt;X₅&gt;</text>
+<text text-anchor="middle" x="210" y="-529.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ X₃ ^ &lt;X₂&gt;</text>
 <polyline fill="none" stroke="#7f7542" points="16,-525.5 404,-525.5 "/>
-<text text-anchor="middle" x="210" y="-514.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ X₂ ^ &lt;(X₁ &#39;not&#39; X₅)&gt;</text>
+<text text-anchor="middle" x="210" y="-514.3" font-family="Times,serif" font-size="14.00">X₂ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-510.5 404,-510.5 "/>
-<text text-anchor="middle" x="210" y="-499.3" font-family="Times,serif" font-size="14.00">X₂ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
+<text text-anchor="middle" x="210" y="-499.3" font-family="Times,serif" font-size="14.00">X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
 <polyline fill="none" stroke="#7f7542" points="16,-495.5 404,-495.5 "/>
-<text text-anchor="middle" x="210" y="-484.3" font-family="Times,serif" font-size="14.00">X₃ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
+<text text-anchor="middle" x="210" y="-484.3" font-family="Times,serif" font-size="14.00">X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
 <polyline fill="none" stroke="#7f7542" points="16,-480.5 404,-480.5 "/>
-<text text-anchor="middle" x="210" y="-469.3" font-family="Times,serif" font-size="14.00">X₄ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
+<text text-anchor="middle" x="210" y="-469.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="16,-465.5 404,-465.5 "/>
-<text text-anchor="middle" x="210" y="-454.3" font-family="Times,serif" font-size="14.00">X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-450.5 404,-450.5 "/>
-<text text-anchor="middle" x="210" y="-439.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-435.5 404,-435.5 "/>
-<text text-anchor="middle" x="210" y="-424.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₂ ^ X₃) ^ &lt;X₄&gt;</text>
+<text text-anchor="middle" x="210" y="-454.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ X₄ ^ X₃) ^ &lt;X₂&gt;</text>
 </a>
 </g>
 </g>
-<!-- c_0_26&#45;&gt;c_0_29 -->
+<!-- c_0_27&#45;&gt;c_0_29 -->
 <g id="edge2" class="edge">
-<title>c_0_26&#45;&gt;c_0_29</title>
-<path fill="none" stroke="black" d="M303.5,-420.26C303.5,-420.26 303.5,-393.62 303.5,-393.62"/>
-<polygon fill="black" stroke="black" points="307,-393.62 303.5,-383.62 300,-393.62 307,-393.62"/>
+<title>c_0_27&#45;&gt;c_0_29</title>
+<path fill="none" stroke="black" d="M303.5,-450.45C303.5,-450.45 303.5,-393.81 303.5,-393.81"/>
+<polygon fill="black" stroke="black" points="307,-393.81 303.5,-383.81 300,-393.81 307,-393.81"/>
 </g>
 <!-- c_0_36 -->
 <g id="node4" class="node">
 <title>c_0_36</title>
-<g id="a_node4"><a xlink:href="c_0_36.html" xlink:title="{CQC&#45;WFF(X₁) ^ sk₄(X₁,X₂,X₁ &#39;not&#39; X₃) ^ X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|QC&#45;alphabet(X₁)|X₁ &#39;not&#39; X₃ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₄ ^ &amp;lt;X₃&amp;gt;|X₁ \|&#45; X₂ \|&#45; X₁ &#39;not&#39; X₃|X₂ ∈ bool(CQC&#45;WFF(X₁))|X₃ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|⇊|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ sk₄(X₁,X₂,X₁ &#39;not&#39; X₃) ^ X₄) ^ &amp;lt;X₅&amp;gt;}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_36.html" xlink:title="{CQC&#45;WFF(X₁) ^ sk₄(X₁,X₂,X₁ &#39;not&#39; X₃) ^ X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|QC&#45;alphabet(X₁)|X₁ &#39;not&#39; X₃ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₄ ^ &amp;lt;X₃&amp;gt;|X₁ \|&#45; X₂ \|&#45; X₁ &#39;not&#39; X₃|X₂ ∈ bool(CQC&#45;WFF(X₁))|X₃ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|⇊|X₁ \|&#45; CQC&#45;WFF(X₁) ^ (CQC&#45;WFF(X₁) ^ sk₄(X₁,X₂,X₁ &#39;not&#39; X₃) ^ X₄) ^ &amp;lt;X₅&amp;gt;}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="140.5,-16.5 140.5,-181.5 653.5,-181.5 653.5,-16.5 140.5,-16.5"/>
 <text text-anchor="middle" x="397" y="-170.3" font-family="Times,serif" font-size="14.00">CQC&#45;WFF(X₁) ^ sk₄(X₁,X₂,X₁ &#39;not&#39; X₃) ^ X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
 <polyline fill="none" stroke="#7f7542" points="140.5,-166.5 653.5,-166.5 "/>

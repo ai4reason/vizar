@@ -18,12 +18,12 @@
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="391,-8 391,-40 681,-40 681,-8 391,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="296,-8 296,-40 586,-40 586,-8 296,-8"/>
 </g>
 <!-- c_0_115 -->
 <g id="node1" class="node">
 <title>c_0_115</title>
-<g id="a_node1"><a xlink:href="c_0_115.html" xlink:title="{sk₁ ∈ ℕ}" target="_parent">
+<g id="a_node1"><a xlink:href="c_0_115.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="673,-135.5 673,-150.5 727,-150.5 727,-135.5 673,-135.5"/>
 <text text-anchor="middle" x="700" y="-139.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
 </a>
@@ -32,7 +32,7 @@
 <!-- c_0_140 -->
 <g id="node4" class="node">
 <title>c_0_140</title>
-<g id="a_node4"><a xlink:href="c_0_140.html" xlink:title="{closed(sk₂,sk₁)}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_140.html" xlink:title="{closed(sk₂,sk₁)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="446.5,-68.5 446.5,-83.5 549.5,-83.5 549.5,-68.5 446.5,-68.5"/>
 <text text-anchor="middle" x="498" y="-72.3" font-family="Times,serif" font-size="14.00">closed(sk₂,sk₁)</text>
 </a>
@@ -41,13 +41,13 @@
 <!-- c_0_115&#45;&gt;c_0_140 -->
 <g id="edge1" class="edge">
 <title>c_0_115&#45;&gt;c_0_140</title>
-<path fill="none" stroke="black" d="M700,-135.31C700,-117.72 700,-76 700,-76 700,-76 559.76,-76 559.76,-76"/>
-<polygon fill="black" stroke="black" points="559.76,-72.5 549.76,-76 559.76,-79.5 559.76,-72.5"/>
+<path fill="none" stroke="black" d="M700,-135.29C700,-118.07 700,-78 700,-78 700,-78 559.76,-78 559.76,-78"/>
+<polygon fill="black" stroke="black" points="559.76,-74.5 549.76,-78 559.76,-81.5 559.76,-74.5"/>
 </g>
 <!-- c_0_136 -->
 <g id="node2" class="node">
 <title>c_0_136</title>
-<g id="a_node2"><a xlink:href="c_0_136.html" xlink:title="{FinSequenceSet(COMPLEX(sk₁),COMPLEX)|⇊|closed(sk₂,sk₁)}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_136.html" xlink:title="{FinSequenceSet(COMPLEX(sk₁),COMPLEX)|⇊|closed(sk₂,sk₁)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="341.5,-120.5 341.5,-165.5 654.5,-165.5 654.5,-120.5 341.5,-120.5"/>
 <text text-anchor="middle" x="498" y="-154.3" font-family="Times,serif" font-size="14.00">FinSequenceSet(COMPLEX(sk₁),COMPLEX)</text>
 <polyline fill="none" stroke="#7f7542" points="341.5,-150.5 654.5,-150.5 "/>
@@ -66,7 +66,7 @@
 <!-- c_0_86 -->
 <g id="node3" class="node">
 <title>c_0_86</title>
-<g id="a_node3"><a xlink:href="c_0_86.html" xlink:title="{X₁ ∈ ℕ|⇊|FinSequenceSet(COMPLEX(X₁),COMPLEX)}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_86.html" xlink:title="{X₁ ∈ ℕ|⇊|FinSequenceSet(COMPLEX(X₁),COMPLEX)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-120.5 16.5,-165.5 323.5,-165.5 323.5,-120.5 16.5,-120.5"/>
 <text text-anchor="middle" x="170" y="-154.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-150.5 323.5,-150.5 "/>
@@ -79,38 +79,38 @@
 <!-- c_0_86&#45;&gt;c_0_140 -->
 <g id="edge3" class="edge">
 <title>c_0_86&#45;&gt;c_0_140</title>
-<path fill="none" stroke="black" d="M170,-120.27C170,-101.52 170,-78 170,-78 170,-78 436.39,-78 436.39,-78"/>
-<polygon fill="black" stroke="black" points="436.39,-81.5 446.39,-78 436.39,-74.5 436.39,-81.5"/>
-</g>
-<!-- c_0_142 -->
-<g id="node5" class="node">
-<title>c_0_142</title>
-<g id="a_node5"><a xlink:href="c_0_142.html" xlink:title="{¬ (open(COMPLEX(sk₁) ` sk₂,sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="431.5,-16.5 431.5,-31.5 672.5,-31.5 672.5,-16.5 431.5,-16.5"/>
-<text text-anchor="middle" x="552" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (open(COMPLEX(sk₁) ` sk₂,sk₁))</text>
-</a>
-</g>
-</g>
-<!-- c_0_140&#45;&gt;c_0_142 -->
-<g id="edge4" class="edge">
-<title>c_0_140&#45;&gt;c_0_142</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M498,-68.33C498,-68.33 498,-41.7 498,-41.7"/>
-<polygon fill="black" stroke="black" points="501.5,-41.7 498,-31.7 494.5,-41.7 501.5,-41.7"/>
+<path fill="none" stroke="black" d="M314,-120.32C314,-100.88 314,-76 314,-76 314,-76 436.26,-76 436.26,-76"/>
+<polygon fill="black" stroke="black" points="436.26,-79.5 446.26,-76 436.26,-72.5 436.26,-79.5"/>
 </g>
 <!-- c_0_144 -->
-<g id="node6" class="node">
+<g id="node5" class="node">
 <title>c_0_144</title>
-<g id="a_node6"><a xlink:href="c_0_144.html" xlink:title="⊥" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="399,-16.5 399,-31.5 413,-31.5 413,-16.5 399,-16.5"/>
-<text text-anchor="middle" x="406" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node5"><a xlink:href="c_0_144.html" xlink:title="⊥" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="564,-16.5 564,-31.5 578,-31.5 578,-16.5 564,-16.5"/>
+<text text-anchor="middle" x="571" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_140&#45;&gt;c_0_144 -->
-<g id="edge5" class="edge">
+<g id="edge4" class="edge">
 <title>c_0_140&#45;&gt;c_0_144</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M446.35,-73C425.38,-73 406,-73 406,-73 406,-73 406,-41.66 406,-41.66"/>
-<polygon fill="black" stroke="black" points="409.5,-41.66 406,-31.66 402.5,-41.66 409.5,-41.66"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M549.89,-73C561.78,-73 571,-73 571,-73 571,-73 571,-41.66 571,-41.66"/>
+<polygon fill="black" stroke="black" points="574.5,-41.66 571,-31.66 567.5,-41.66 574.5,-41.66"/>
+</g>
+<!-- c_0_142 -->
+<g id="node6" class="node">
+<title>c_0_142</title>
+<g id="a_node6"><a xlink:href="c_0_142.html" xlink:title="{¬ (open(COMPLEX(sk₁) ` sk₂,sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="304.5,-16.5 304.5,-31.5 545.5,-31.5 545.5,-16.5 304.5,-16.5"/>
+<text text-anchor="middle" x="425" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (open(COMPLEX(sk₁) ` sk₂,sk₁))</text>
+</a>
+</g>
+</g>
+<!-- c_0_140&#45;&gt;c_0_142 -->
+<g id="edge5" class="edge">
+<title>c_0_140&#45;&gt;c_0_142</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M496,-68.33C496,-68.33 496,-41.7 496,-41.7"/>
+<polygon fill="black" stroke="black" points="499.5,-41.7 496,-31.7 492.5,-41.7 499.5,-41.7"/>
 </g>
 </g>
 </svg>

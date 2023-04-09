@@ -10,125 +10,125 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="113,-217 113,-279 439,-279 439,-217 113,-217"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="129,-217 129,-279 455,-279 455,-217 129,-217"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="184,-135 184,-197 368,-197 368,-135 184,-135"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="200,-135 200,-197 384,-197 384,-135 200,-135"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-115 560,-115 560,-8 8,-8"/>
 </g>
-<!-- c_0_45 -->
+<!-- c_0_79 -->
 <g id="node1" class="node">
-<title>c_0_45</title>
-<g id="a_node1"><a xlink:href="c_0_45.html" xlink:title="{X₁ \ (X₁ \ X₂) = X₁ ∩ X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="285,-240.5 285,-255.5 431,-255.5 431,-240.5 285,-240.5"/>
-<text text-anchor="middle" x="358" y="-244.3" font-family="Times,serif" font-size="14.00">X₁ &#160;(X₁ &#160;X₂) = X₁ ∩ X₂</text>
+<title>c_0_79</title>
+<g id="a_node1"><a xlink:href="c_0_79.html" xlink:title="{X₁ ∈ bool(X₂)|⇊|X₂ /\ X₃ /\ X₁ = X₃ ∩ X₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="301.5,-225.5 301.5,-270.5 446.5,-270.5 446.5,-225.5 301.5,-225.5"/>
+<text text-anchor="middle" x="374" y="-259.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="301.5,-255.5 446.5,-255.5 "/>
+<text text-anchor="middle" x="374" y="-244.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="301.5,-240.5 446.5,-240.5 "/>
+<text text-anchor="middle" x="374" y="-229.3" font-family="Times,serif" font-size="14.00">X₂ / X₃ / X₁ = X₃ ∩ X₁</text>
 </a>
 </g>
 </g>
 <!-- c_0_89 -->
 <g id="node3" class="node">
 <title>c_0_89</title>
-<g id="a_node3"><a xlink:href="c_0_89.html" xlink:title="{X₁ ∈ bool(X₂)|⇊|X₂ /\ X₃ /\ X₁ = X₃ \ (X₃ \ X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="192.5,-143.5 192.5,-188.5 359.5,-188.5 359.5,-143.5 192.5,-143.5"/>
-<text text-anchor="middle" x="276" y="-177.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="192.5,-173.5 359.5,-173.5 "/>
-<text text-anchor="middle" x="276" y="-162.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="192.5,-158.5 359.5,-158.5 "/>
-<text text-anchor="middle" x="276" y="-147.3" font-family="Times,serif" font-size="14.00">X₂ / X₃ / X₁ = X₃ &#160;(X₃ &#160;X₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_45&#45;&gt;c_0_89 -->
-<g id="edge1" class="edge">
-<title>c_0_45&#45;&gt;c_0_89</title>
-<path fill="none" stroke="black" d="M322.25,-240.43C322.25,-240.43 322.25,-198.65 322.25,-198.65"/>
-<polygon fill="black" stroke="black" points="325.75,-198.65 322.25,-188.65 318.75,-198.65 325.75,-198.65"/>
-</g>
-<!-- c_0_79 -->
-<g id="node2" class="node">
-<title>c_0_79</title>
-<g id="a_node2"><a xlink:href="c_0_79.html" xlink:title="{X₁ ∈ bool(X₂)|⇊|X₂ /\ X₃ /\ X₁ = X₃ ∩ X₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="121.5,-225.5 121.5,-270.5 266.5,-270.5 266.5,-225.5 121.5,-225.5"/>
-<text text-anchor="middle" x="194" y="-259.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="121.5,-255.5 266.5,-255.5 "/>
-<text text-anchor="middle" x="194" y="-244.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="121.5,-240.5 266.5,-240.5 "/>
-<text text-anchor="middle" x="194" y="-229.3" font-family="Times,serif" font-size="14.00">X₂ / X₃ / X₁ = X₃ ∩ X₁</text>
+<g id="a_node3"><a xlink:href="c_0_89.html" xlink:title="{X₁ ∈ bool(X₂)|⇊|X₂ /\ X₃ /\ X₁ = X₃ \ (X₃ \ X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="208.5,-143.5 208.5,-188.5 375.5,-188.5 375.5,-143.5 208.5,-143.5"/>
+<text text-anchor="middle" x="292" y="-177.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="208.5,-173.5 375.5,-173.5 "/>
+<text text-anchor="middle" x="292" y="-162.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="208.5,-158.5 375.5,-158.5 "/>
+<text text-anchor="middle" x="292" y="-147.3" font-family="Times,serif" font-size="14.00">X₂ / X₃ / X₁ = X₃ &#160;(X₃ &#160;X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_79&#45;&gt;c_0_89 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_79&#45;&gt;c_0_89</title>
-<path fill="none" stroke="black" d="M229.5,-225.16C229.5,-225.16 229.5,-198.72 229.5,-198.72"/>
-<polygon fill="black" stroke="black" points="233,-198.72 229.5,-188.72 226,-198.72 233,-198.72"/>
+<path fill="none" stroke="black" d="M338.5,-225.16C338.5,-225.16 338.5,-198.72 338.5,-198.72"/>
+<polygon fill="black" stroke="black" points="342,-198.72 338.5,-188.72 335,-198.72 342,-198.72"/>
 </g>
-<!-- c_0_103 -->
-<g id="node4" class="node">
-<title>c_0_103</title>
-<g id="a_node4"><a xlink:href="c_0_103.html" xlink:title="{X₂ ∈ bool(X₃)|X₃ /\ X₁ /\ X₂ ⊆ X₁|⇊|X₁ \ X₂ ∈ a_1_2_card_fil(X₁)|\|(X₃ /\ X₁ /\ X₂)\| = \|X₁\||finite(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="368.5,-16.5 368.5,-106.5 551.5,-106.5 551.5,-16.5 368.5,-16.5"/>
-<text text-anchor="middle" x="460" y="-95.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="368.5,-91.5 551.5,-91.5 "/>
-<text text-anchor="middle" x="460" y="-80.3" font-family="Times,serif" font-size="14.00">X₃ / X₁ / X₂ ⊆ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="368.5,-76.5 551.5,-76.5 "/>
-<text text-anchor="middle" x="460" y="-65.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="368.5,-61.5 551.5,-61.5 "/>
-<text text-anchor="middle" x="460" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ &#160;X₂ ∈ a_1_2_card_fil(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="368.5,-46.5 551.5,-46.5 "/>
-<text text-anchor="middle" x="460" y="-35.3" font-family="Times,serif" font-size="14.00">|(X₃ / X₁ / X₂)| = |X₁|</text>
-<polyline fill="none" stroke="#7f7542" points="368.5,-31.5 551.5,-31.5 "/>
-<text text-anchor="middle" x="460" y="-20.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
+<!-- c_0_45 -->
+<g id="node2" class="node">
+<title>c_0_45</title>
+<g id="a_node2"><a xlink:href="c_0_45.html" xlink:title="{X₁ \ (X₁ \ X₂) = X₁ ∩ X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="137,-240.5 137,-255.5 283,-255.5 283,-240.5 137,-240.5"/>
+<text text-anchor="middle" x="210" y="-244.3" font-family="Times,serif" font-size="14.00">X₁ &#160;(X₁ &#160;X₂) = X₁ ∩ X₂</text>
 </a>
 </g>
 </g>
-<!-- c_0_89&#45;&gt;c_0_103 -->
+<!-- c_0_45&#45;&gt;c_0_89 -->
+<g id="edge2" class="edge">
+<title>c_0_45&#45;&gt;c_0_89</title>
+<path fill="none" stroke="black" d="M245.75,-240.43C245.75,-240.43 245.75,-198.65 245.75,-198.65"/>
+<polygon fill="black" stroke="black" points="249.25,-198.65 245.75,-188.65 242.25,-198.65 249.25,-198.65"/>
+</g>
+<!-- c_0_127 -->
+<g id="node4" class="node">
+<title>c_0_127</title>
+<g id="a_node4"><a xlink:href="c_0_127.html" xlink:title="{X₁ ∈ bool(X₃)|⇊|X₁ \ (X₁ \ X₂) = X₃ /\ X₂ /\ X₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="384.5,-39 384.5,-84 551.5,-84 551.5,-39 384.5,-39"/>
+<text text-anchor="middle" x="468" y="-72.8" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="384.5,-69 551.5,-69 "/>
+<text text-anchor="middle" x="468" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="384.5,-54 551.5,-54 "/>
+<text text-anchor="middle" x="468" y="-42.8" font-family="Times,serif" font-size="14.00">X₁ &#160;(X₁ &#160;X₂) = X₃ / X₂ / X₁</text>
+</a>
+</g>
+</g>
+<!-- c_0_89&#45;&gt;c_0_127 -->
 <g id="edge3" class="edge">
-<title>c_0_89&#45;&gt;c_0_103</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M354.75,-143.14C354.75,-122.39 354.75,-95 354.75,-95 354.75,-95 358.08,-95 358.08,-95"/>
-<polygon fill="black" stroke="black" points="358.08,-98.5 368.08,-95 358.08,-91.5 358.08,-98.5"/>
+<title>c_0_89&#45;&gt;c_0_127</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M370.75,-143.47C370.75,-112.62 370.75,-61 370.75,-61 370.75,-61 374.27,-61 374.27,-61"/>
+<polygon fill="black" stroke="black" points="374.27,-64.5 384.27,-61 374.27,-57.5 374.27,-64.5"/>
 </g>
 <!-- c_0_109 -->
 <g id="node5" class="node">
 <title>c_0_109</title>
-<g id="a_node5"><a xlink:href="c_0_109.html" xlink:title="{X₂ ∈ bool(X₃)|⇊|X₃ /\ X₁ /\ X₂ ∈ bool(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="202,-39 202,-84 350,-84 350,-39 202,-39"/>
-<text text-anchor="middle" x="276" y="-72.8" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="202,-69 350,-69 "/>
-<text text-anchor="middle" x="276" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="202,-54 350,-54 "/>
-<text text-anchor="middle" x="276" y="-42.8" font-family="Times,serif" font-size="14.00">X₃ / X₁ / X₂ ∈ bool(X₁)</text>
+<g id="a_node5"><a xlink:href="c_0_109.html" xlink:title="{X₂ ∈ bool(X₃)|⇊|X₃ /\ X₁ /\ X₂ ∈ bool(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="218,-39 218,-84 366,-84 366,-39 218,-39"/>
+<text text-anchor="middle" x="292" y="-72.8" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="218,-69 366,-69 "/>
+<text text-anchor="middle" x="292" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="218,-54 366,-54 "/>
+<text text-anchor="middle" x="292" y="-42.8" font-family="Times,serif" font-size="14.00">X₃ / X₁ / X₂ ∈ bool(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_89&#45;&gt;c_0_109 -->
 <g id="edge4" class="edge">
 <title>c_0_89&#45;&gt;c_0_109</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M276,-143.33C276,-143.33 276,-94.13 276,-94.13"/>
-<polygon fill="black" stroke="black" points="279.5,-94.13 276,-84.13 272.5,-94.13 279.5,-94.13"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M292,-143.33C292,-143.33 292,-94.13 292,-94.13"/>
+<polygon fill="black" stroke="black" points="295.5,-94.13 292,-84.13 288.5,-94.13 295.5,-94.13"/>
 </g>
-<!-- c_0_127 -->
+<!-- c_0_103 -->
 <g id="node6" class="node">
-<title>c_0_127</title>
-<g id="a_node6"><a xlink:href="c_0_127.html" xlink:title="{X₁ ∈ bool(X₃)|⇊|X₁ \ (X₁ \ X₂) = X₃ /\ X₂ /\ X₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-39 16.5,-84 183.5,-84 183.5,-39 16.5,-39"/>
-<text text-anchor="middle" x="100" y="-72.8" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-69 183.5,-69 "/>
-<text text-anchor="middle" x="100" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-54 183.5,-54 "/>
-<text text-anchor="middle" x="100" y="-42.8" font-family="Times,serif" font-size="14.00">X₁ &#160;(X₁ &#160;X₂) = X₃ / X₂ / X₁</text>
+<title>c_0_103</title>
+<g id="a_node6"><a xlink:href="c_0_103.html" xlink:title="{X₂ ∈ bool(X₃)|X₃ /\ X₁ /\ X₂ ⊆ X₁|⇊|X₁ \ X₂ ∈ a_1_2_card_fil(X₁)|\|(X₃ /\ X₁ /\ X₂)\| = \|X₁\||finite(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-106.5 199.5,-106.5 199.5,-16.5 16.5,-16.5"/>
+<text text-anchor="middle" x="108" y="-95.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-91.5 199.5,-91.5 "/>
+<text text-anchor="middle" x="108" y="-80.3" font-family="Times,serif" font-size="14.00">X₃ / X₁ / X₂ ⊆ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-76.5 199.5,-76.5 "/>
+<text text-anchor="middle" x="108" y="-65.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-61.5 199.5,-61.5 "/>
+<text text-anchor="middle" x="108" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ &#160;X₂ ∈ a_1_2_card_fil(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 199.5,-46.5 "/>
+<text text-anchor="middle" x="108" y="-35.3" font-family="Times,serif" font-size="14.00">|(X₃ / X₁ / X₂)| = |X₁|</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 199.5,-31.5 "/>
+<text text-anchor="middle" x="108" y="-20.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
 </a>
 </g>
 </g>
-<!-- c_0_89&#45;&gt;c_0_127 -->
+<!-- c_0_89&#45;&gt;c_0_103 -->
 <g id="edge5" class="edge">
-<title>c_0_89&#45;&gt;c_0_127</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M197.25,-143.47C197.25,-112.62 197.25,-61 197.25,-61 197.25,-61 193.73,-61 193.73,-61"/>
-<polygon fill="black" stroke="black" points="193.73,-57.5 183.73,-61 193.73,-64.5 193.73,-57.5"/>
+<title>c_0_89&#45;&gt;c_0_103</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M213.25,-143.14C213.25,-122.39 213.25,-95 213.25,-95 213.25,-95 209.92,-95 209.92,-95"/>
+<polygon fill="black" stroke="black" points="209.92,-91.5 199.92,-95 209.92,-98.5 209.92,-91.5"/>
 </g>
 </g>
 </svg>

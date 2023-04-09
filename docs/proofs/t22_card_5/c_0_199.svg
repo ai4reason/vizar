@@ -14,79 +14,79 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="63,-90 63,-152 227,-152 227,-90 63,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="56,-90 56,-152 220,-152 220,-90 56,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="66,-8 66,-70 224,-70 224,-8 66,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="59,-8 59,-70 217,-70 217,-8 59,-8"/>
 </g>
-<!-- c_0_42 -->
+<!-- c_0_175 -->
 <g id="node1" class="node">
-<title>c_0_42</title>
-<g id="a_node1"><a xlink:href="c_0_42.html" xlink:title="{cf(κ₁) ∈ Card}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="182,-203 182,-218 274,-218 274,-203 182,-203"/>
-<text text-anchor="middle" x="228" y="-206.8" font-family="Times,serif" font-size="14.00">cf(κ₁) ∈ Card</text>
+<title>c_0_175</title>
+<g id="a_node1"><a xlink:href="c_0_175.html" xlink:title="{is_cofinal_with(κ₂,κ₁)|κ₃ = cf(κ₂)|⇊|κ₃ c= κ₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="126,-180.5 126,-240.5 274,-240.5 274,-180.5 126,-180.5"/>
+<text text-anchor="middle" x="200" y="-229.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(κ₂,κ₁)</text>
+<polyline fill="none" stroke="#7f7542" points="126,-225.5 274,-225.5 "/>
+<text text-anchor="middle" x="200" y="-214.3" font-family="Times,serif" font-size="14.00">κ₃ = cf(κ₂)</text>
+<polyline fill="none" stroke="#7f7542" points="126,-210.5 274,-210.5 "/>
+<text text-anchor="middle" x="200" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="126,-195.5 274,-195.5 "/>
+<text text-anchor="middle" x="200" y="-184.3" font-family="Times,serif" font-size="14.00">κ₃ c= κ₁</text>
 </a>
 </g>
 </g>
 <!-- c_0_199 -->
 <g id="node3" class="node">
 <title>c_0_199</title>
-<g id="a_node3"><a xlink:href="c_0_199.html" xlink:title="{is_cofinal_with(κ₁,κ₂)|⇊|cf(κ₁) c= κ₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="71,-98.5 71,-143.5 219,-143.5 219,-98.5 71,-98.5"/>
-<text text-anchor="middle" x="145" y="-132.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(κ₁,κ₂)</text>
-<polyline fill="none" stroke="#7f7542" points="71,-128.5 219,-128.5 "/>
-<text text-anchor="middle" x="145" y="-117.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="71,-113.5 219,-113.5 "/>
-<text text-anchor="middle" x="145" y="-102.3" font-family="Times,serif" font-size="14.00">cf(κ₁) c= κ₂</text>
-</a>
-</g>
-</g>
-<!-- c_0_42&#45;&gt;c_0_199 -->
-<g id="edge1" class="edge">
-<title>c_0_42&#45;&gt;c_0_199</title>
-<path fill="none" stroke="black" d="M200.5,-202.87C200.5,-202.87 200.5,-153.81 200.5,-153.81"/>
-<polygon fill="black" stroke="black" points="204,-153.81 200.5,-143.81 197,-153.81 204,-153.81"/>
-</g>
-<!-- c_0_175 -->
-<g id="node2" class="node">
-<title>c_0_175</title>
-<g id="a_node2"><a xlink:href="c_0_175.html" xlink:title="{is_cofinal_with(κ₂,κ₁)|κ₃ = cf(κ₂)|⇊|κ₃ c= κ₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-180.5 16,-240.5 164,-240.5 164,-180.5 16,-180.5"/>
-<text text-anchor="middle" x="90" y="-229.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(κ₂,κ₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-225.5 164,-225.5 "/>
-<text text-anchor="middle" x="90" y="-214.3" font-family="Times,serif" font-size="14.00">κ₃ = cf(κ₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-210.5 164,-210.5 "/>
-<text text-anchor="middle" x="90" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-195.5 164,-195.5 "/>
-<text text-anchor="middle" x="90" y="-184.3" font-family="Times,serif" font-size="14.00">κ₃ c= κ₁</text>
+<g id="a_node3"><a xlink:href="c_0_199.html" xlink:title="{is_cofinal_with(κ₁,κ₂)|⇊|cf(κ₁) c= κ₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="64,-98.5 64,-143.5 212,-143.5 212,-98.5 64,-98.5"/>
+<text text-anchor="middle" x="138" y="-132.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(κ₁,κ₂)</text>
+<polyline fill="none" stroke="#7f7542" points="64,-128.5 212,-128.5 "/>
+<text text-anchor="middle" x="138" y="-117.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="64,-113.5 212,-113.5 "/>
+<text text-anchor="middle" x="138" y="-102.3" font-family="Times,serif" font-size="14.00">cf(κ₁) c= κ₂</text>
 </a>
 </g>
 </g>
 <!-- c_0_175&#45;&gt;c_0_199 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_175&#45;&gt;c_0_199</title>
-<path fill="none" stroke="black" d="M117.5,-180.2C117.5,-180.2 117.5,-153.63 117.5,-153.63"/>
-<polygon fill="black" stroke="black" points="121,-153.63 117.5,-143.63 114,-153.63 121,-153.63"/>
+<path fill="none" stroke="black" d="M169,-180.2C169,-180.2 169,-153.63 169,-153.63"/>
+<polygon fill="black" stroke="black" points="172.5,-153.63 169,-143.63 165.5,-153.63 172.5,-153.63"/>
+</g>
+<!-- c_0_42 -->
+<g id="node2" class="node">
+<title>c_0_42</title>
+<g id="a_node2"><a xlink:href="c_0_42.html" xlink:title="{cf(κ₁) ∈ Card}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-203 16,-218 108,-218 108,-203 16,-203"/>
+<text text-anchor="middle" x="62" y="-206.8" font-family="Times,serif" font-size="14.00">cf(κ₁) ∈ Card</text>
+</a>
+</g>
+</g>
+<!-- c_0_42&#45;&gt;c_0_199 -->
+<g id="edge2" class="edge">
+<title>c_0_42&#45;&gt;c_0_199</title>
+<path fill="none" stroke="black" d="M86,-202.87C86,-202.87 86,-153.81 86,-153.81"/>
+<polygon fill="black" stroke="black" points="89.5,-153.81 86,-143.81 82.5,-153.81 89.5,-153.81"/>
 </g>
 <!-- c_0_223 -->
 <g id="node4" class="node">
 <title>c_0_223</title>
-<g id="a_node4"><a xlink:href="c_0_223.html" xlink:title="{is_cofinal_with(ω,ω)|⇊|cf(ω) = Ø}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="74,-16.5 74,-61.5 216,-61.5 216,-16.5 74,-16.5"/>
-<text text-anchor="middle" x="145" y="-50.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(ω,ω)</text>
-<polyline fill="none" stroke="#7f7542" points="74,-46.5 216,-46.5 "/>
-<text text-anchor="middle" x="145" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="74,-31.5 216,-31.5 "/>
-<text text-anchor="middle" x="145" y="-20.3" font-family="Times,serif" font-size="14.00">cf(ω) = Ø</text>
+<g id="a_node4"><a xlink:href="c_0_223.html" xlink:title="{is_cofinal_with(ω,ω)|⇊|cf(ω) = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="67,-16.5 67,-61.5 209,-61.5 209,-16.5 67,-16.5"/>
+<text text-anchor="middle" x="138" y="-50.3" font-family="Times,serif" font-size="14.00">is_cofinal_with(ω,ω)</text>
+<polyline fill="none" stroke="#7f7542" points="67,-46.5 209,-46.5 "/>
+<text text-anchor="middle" x="138" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="67,-31.5 209,-31.5 "/>
+<text text-anchor="middle" x="138" y="-20.3" font-family="Times,serif" font-size="14.00">cf(ω) = Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_199&#45;&gt;c_0_223 -->
 <g id="edge3" class="edge">
 <title>c_0_199&#45;&gt;c_0_223</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M145,-98.16C145,-98.16 145,-71.72 145,-71.72"/>
-<polygon fill="black" stroke="black" points="148.5,-71.72 145,-61.72 141.5,-71.72 148.5,-71.72"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M138,-98.16C138,-98.16 138,-71.72 138,-71.72"/>
+<polygon fill="black" stroke="black" points="141.5,-71.72 138,-61.72 134.5,-71.72 141.5,-71.72"/>
 </g>
 </g>
 </svg>

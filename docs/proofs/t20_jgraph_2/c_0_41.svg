@@ -23,7 +23,7 @@
 <!-- dt_l1_pre_topc -->
 <g id="node1" class="node">
 <title>dt_l1_pre_topc</title>
-<g id="a_node1"><a xlink:href="dt_l1_pre_topc.html" xlink:title="dt_l1_pre_topc" target="_parent">
+<g id="a_node1"><a xlink:href="dt_l1_pre_topc.html" xlink:title="dt_l1_pre_topc" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="159,-195.5 159,-210.5 263,-210.5 263,-195.5 159,-195.5"/>
 <text text-anchor="middle" x="211" y="-199.3" font-family="Times,serif" font-size="14.00">dt_l1_pre_topc</text>
 </a>
@@ -32,7 +32,7 @@
 <!-- c_0_41 -->
 <g id="node2" class="node">
 <title>c_0_41</title>
-<g id="a_node2"><a xlink:href="c_0_41.html" xlink:title="{TopStruct(X₁)|⇊|1&#45;sorted(X₁)}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_41.html" xlink:title="{TopStruct(X₁)|⇊|1&#45;sorted(X₁)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="162.5,-113.5 162.5,-158.5 259.5,-158.5 259.5,-113.5 162.5,-113.5"/>
 <text text-anchor="middle" x="211" y="-147.3" font-family="Times,serif" font-size="14.00">TopStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="162.5,-143.5 259.5,-143.5 "/>
@@ -48,31 +48,31 @@
 <path fill="none" stroke="black" d="M211,-195.31C211,-195.31 211,-168.76 211,-168.76"/>
 <polygon fill="black" stroke="black" points="214.5,-168.76 211,-158.76 207.5,-168.76 214.5,-168.76"/>
 </g>
-<!-- c_0_121 -->
+<!-- c_0_51 -->
 <g id="node3" class="node">
-<title>c_0_121</title>
-<g id="a_node3"><a xlink:href="c_0_121.html" xlink:title="{TopStruct(X₁)|carrier(X₁) = Ø|⇊|empty(X₁)}" target="_parent">
+<title>c_0_51</title>
+<g id="a_node3"><a xlink:href="c_0_51.html" xlink:title="{TopStruct(X₁)|empty(X₁)|⇊|carrier(X₁) = Ø}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="298.5,-16.5 298.5,-76.5 405.5,-76.5 405.5,-16.5 298.5,-16.5"/>
 <text text-anchor="middle" x="352" y="-65.3" font-family="Times,serif" font-size="14.00">TopStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="298.5,-61.5 405.5,-61.5 "/>
-<text text-anchor="middle" x="352" y="-50.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
+<text text-anchor="middle" x="352" y="-50.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="298.5,-46.5 405.5,-46.5 "/>
 <text text-anchor="middle" x="352" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="298.5,-31.5 405.5,-31.5 "/>
-<text text-anchor="middle" x="352" y="-20.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<text text-anchor="middle" x="352" y="-20.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
 </a>
 </g>
 </g>
-<!-- c_0_41&#45;&gt;c_0_121 -->
+<!-- c_0_41&#45;&gt;c_0_51 -->
 <g id="edge2" class="edge">
-<title>c_0_41&#45;&gt;c_0_121</title>
+<title>c_0_41&#45;&gt;c_0_51</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M259.52,-136C300.31,-136 352,-136 352,-136 352,-136 352,-86.8 352,-86.8"/>
 <polygon fill="black" stroke="black" points="355.5,-86.8 352,-76.8 348.5,-86.8 355.5,-86.8"/>
 </g>
 <!-- c_0_98 -->
 <g id="node4" class="node">
 <title>c_0_98</title>
-<g id="a_node4"><a xlink:href="c_0_98.html" xlink:title="{TopSpace&#45;like(X₁)|TopStruct(X₁)|⇊|open(carrier(X₁),X₁)}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_98.html" xlink:title="{TopSpace&#45;like(X₁)|TopStruct(X₁)|⇊|open(carrier(X₁),X₁)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="141.5,-16.5 141.5,-76.5 280.5,-76.5 280.5,-16.5 141.5,-16.5"/>
 <text text-anchor="middle" x="211" y="-65.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="141.5,-61.5 280.5,-61.5 "/>
@@ -90,24 +90,24 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M211,-113.42C211,-113.42 211,-86.52 211,-86.52"/>
 <polygon fill="black" stroke="black" points="214.5,-86.52 211,-76.52 207.5,-86.52 214.5,-86.52"/>
 </g>
-<!-- c_0_51 -->
+<!-- c_0_121 -->
 <g id="node5" class="node">
-<title>c_0_51</title>
-<g id="a_node5"><a xlink:href="c_0_51.html" xlink:title="{TopStruct(X₁)|empty(X₁)|⇊|carrier(X₁) = Ø}" target="_parent">
+<title>c_0_121</title>
+<g id="a_node5"><a xlink:href="c_0_121.html" xlink:title="{TopStruct(X₁)|carrier(X₁) = Ø|⇊|empty(X₁)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-76.5 123.5,-76.5 123.5,-16.5 16.5,-16.5"/>
 <text text-anchor="middle" x="70" y="-65.3" font-family="Times,serif" font-size="14.00">TopStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-61.5 123.5,-61.5 "/>
-<text text-anchor="middle" x="70" y="-50.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<text text-anchor="middle" x="70" y="-50.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-46.5 123.5,-46.5 "/>
 <text text-anchor="middle" x="70" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-31.5 123.5,-31.5 "/>
-<text text-anchor="middle" x="70" y="-20.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
+<text text-anchor="middle" x="70" y="-20.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
 </a>
 </g>
 </g>
-<!-- c_0_41&#45;&gt;c_0_51 -->
+<!-- c_0_41&#45;&gt;c_0_121 -->
 <g id="edge4" class="edge">
-<title>c_0_41&#45;&gt;c_0_51</title>
+<title>c_0_41&#45;&gt;c_0_121</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M162.48,-136C121.69,-136 70,-136 70,-136 70,-136 70,-86.8 70,-86.8"/>
 <polygon fill="black" stroke="black" points="73.5,-86.8 70,-76.8 66.5,-86.8 73.5,-86.8"/>
 </g>

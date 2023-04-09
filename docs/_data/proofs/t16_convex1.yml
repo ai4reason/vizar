@@ -153,14 +153,14 @@ skolems:
   esk1_0:
     axiom: t16_convex1
     related:
-    - esk1_0
     - esk2_0
+    - esk1_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t16_convex1
     related:
-    - esk1_0
     - esk2_0
+    - esk1_0
     symbol: "sk\u2082"
   esk3_2:
     axiom: d2_convex1
@@ -390,22 +390,22 @@ steps:
     counts:
       v1_convex1: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_128:
     counts:
       v2_rusub_4: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_129:
     counts:
       k1_zfmisc_1: 1
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_130:
     counts:
       l1_rlvect_1: 1

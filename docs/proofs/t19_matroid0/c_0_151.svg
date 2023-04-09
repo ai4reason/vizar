@@ -14,205 +14,205 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="748,-60 748,-92 970,-92 970,-60 748,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="756,-60 756,-92 978,-92 978,-60 756,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="844,-8 844,-40 874,-40 874,-8 844,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="852,-8 852,-40 882,-40 882,-8 852,-8"/>
 </g>
-<!-- c_0_101 -->
+<!-- c_0_148 -->
 <g id="node1" class="node">
-<title>c_0_101</title>
-<g id="a_node1"><a xlink:href="c_0_101.html" xlink:title="{sk₂ ∈ bool(carrier(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1638,-195.5 1638,-210.5 1800,-210.5 1800,-195.5 1638,-195.5"/>
-<text text-anchor="middle" x="1719" y="-199.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(carrier(sk₁))</text>
+<title>c_0_148</title>
+<g id="a_node1"><a xlink:href="c_0_148.html" xlink:title="{TopStruct(X₂)|X₁ ∈ bool(carrier(X₂))|X₃ ∈ bool(carrier(X₂))|finite&#45;degree(X₂)|is_maximal_independent_in(X₂,X₁,X₃)|subset&#45;closed(X₂)|with_exchange_property(X₂)|⇊|card(X₁) = card(sk₄(X₂,X₃))|empty(X₂)|void(X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="1538.5,-120.5 1538.5,-285.5 1799.5,-285.5 1799.5,-120.5 1538.5,-120.5"/>
+<text text-anchor="middle" x="1669" y="-274.3" font-family="Times,serif" font-size="14.00">TopStruct(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-270.5 1799.5,-270.5 "/>
+<text text-anchor="middle" x="1669" y="-259.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-255.5 1799.5,-255.5 "/>
+<text text-anchor="middle" x="1669" y="-244.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(carrier(X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-240.5 1799.5,-240.5 "/>
+<text text-anchor="middle" x="1669" y="-229.3" font-family="Times,serif" font-size="14.00">finite&#45;degree(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-225.5 1799.5,-225.5 "/>
+<text text-anchor="middle" x="1669" y="-214.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(X₂,X₁,X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-210.5 1799.5,-210.5 "/>
+<text text-anchor="middle" x="1669" y="-199.3" font-family="Times,serif" font-size="14.00">subset&#45;closed(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-195.5 1799.5,-195.5 "/>
+<text text-anchor="middle" x="1669" y="-184.3" font-family="Times,serif" font-size="14.00">with_exchange_property(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-180.5 1799.5,-180.5 "/>
+<text text-anchor="middle" x="1669" y="-169.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-165.5 1799.5,-165.5 "/>
+<text text-anchor="middle" x="1669" y="-154.3" font-family="Times,serif" font-size="14.00">card(X₁) = card(sk₄(X₂,X₃))</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-150.5 1799.5,-150.5 "/>
+<text text-anchor="middle" x="1669" y="-139.3" font-family="Times,serif" font-size="14.00">empty(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="1538.5,-135.5 1799.5,-135.5 "/>
+<text text-anchor="middle" x="1669" y="-124.3" font-family="Times,serif" font-size="14.00">void(X₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_151 -->
 <g id="node11" class="node">
 <title>c_0_151</title>
-<g id="a_node11"><a xlink:href="c_0_151.html" xlink:title="{card(sk₄(sk₁,sk₂)) = card(sk₃)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="756.5,-68.5 756.5,-83.5 961.5,-83.5 961.5,-68.5 756.5,-68.5"/>
-<text text-anchor="middle" x="859" y="-72.3" font-family="Times,serif" font-size="14.00">card(sk₄(sk₁,sk₂)) = card(sk₃)</text>
-</a>
-</g>
-</g>
-<!-- c_0_101&#45;&gt;c_0_151 -->
-<g id="edge1" class="edge">
-<title>c_0_101&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M1719,-195.2C1719,-167 1719,-72 1719,-72 1719,-72 971.88,-72 971.88,-72"/>
-<polygon fill="black" stroke="black" points="971.88,-68.5 961.88,-72 971.88,-75.5 971.88,-68.5"/>
-</g>
-<!-- c_0_148 -->
-<g id="node2" class="node">
-<title>c_0_148</title>
-<g id="a_node2"><a xlink:href="c_0_148.html" xlink:title="{TopStruct(X₂)|X₁ ∈ bool(carrier(X₂))|X₃ ∈ bool(carrier(X₂))|finite&#45;degree(X₂)|is_maximal_independent_in(X₂,X₁,X₃)|subset&#45;closed(X₂)|with_exchange_property(X₂)|⇊|card(X₁) = card(sk₄(X₂,X₃))|empty(X₂)|void(X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="1358.5,-120.5 1358.5,-285.5 1619.5,-285.5 1619.5,-120.5 1358.5,-120.5"/>
-<text text-anchor="middle" x="1489" y="-274.3" font-family="Times,serif" font-size="14.00">TopStruct(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-270.5 1619.5,-270.5 "/>
-<text text-anchor="middle" x="1489" y="-259.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-255.5 1619.5,-255.5 "/>
-<text text-anchor="middle" x="1489" y="-244.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(carrier(X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-240.5 1619.5,-240.5 "/>
-<text text-anchor="middle" x="1489" y="-229.3" font-family="Times,serif" font-size="14.00">finite&#45;degree(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-225.5 1619.5,-225.5 "/>
-<text text-anchor="middle" x="1489" y="-214.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(X₂,X₁,X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-210.5 1619.5,-210.5 "/>
-<text text-anchor="middle" x="1489" y="-199.3" font-family="Times,serif" font-size="14.00">subset&#45;closed(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-195.5 1619.5,-195.5 "/>
-<text text-anchor="middle" x="1489" y="-184.3" font-family="Times,serif" font-size="14.00">with_exchange_property(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-180.5 1619.5,-180.5 "/>
-<text text-anchor="middle" x="1489" y="-169.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-165.5 1619.5,-165.5 "/>
-<text text-anchor="middle" x="1489" y="-154.3" font-family="Times,serif" font-size="14.00">card(X₁) = card(sk₄(X₂,X₃))</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-150.5 1619.5,-150.5 "/>
-<text text-anchor="middle" x="1489" y="-139.3" font-family="Times,serif" font-size="14.00">empty(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1358.5,-135.5 1619.5,-135.5 "/>
-<text text-anchor="middle" x="1489" y="-124.3" font-family="Times,serif" font-size="14.00">void(X₂)</text>
+<g id="a_node11"><a xlink:href="c_0_151.html" xlink:title="{card(sk₄(sk₁,sk₂)) = card(sk₃)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="764.5,-68.5 764.5,-83.5 969.5,-83.5 969.5,-68.5 764.5,-68.5"/>
+<text text-anchor="middle" x="867" y="-72.3" font-family="Times,serif" font-size="14.00">card(sk₄(sk₁,sk₂)) = card(sk₃)</text>
 </a>
 </g>
 </g>
 <!-- c_0_148&#45;&gt;c_0_151 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_148&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M1358.3,-157C1195.22,-157 937.5,-157 937.5,-157 937.5,-157 937.5,-93.77 937.5,-93.77"/>
-<polygon fill="black" stroke="black" points="941,-93.77 937.5,-83.77 934,-93.77 941,-93.77"/>
-</g>
-<!-- c_0_92 -->
-<g id="node3" class="node">
-<title>c_0_92</title>
-<g id="a_node3"><a xlink:href="c_0_92.html" xlink:title="{sk₃ ∈ bool(carrier(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1178,-195.5 1178,-210.5 1340,-210.5 1340,-195.5 1178,-195.5"/>
-<text text-anchor="middle" x="1259" y="-199.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ bool(carrier(sk₁))</text>
-</a>
-</g>
-</g>
-<!-- c_0_92&#45;&gt;c_0_151 -->
-<g id="edge3" class="edge">
-<title>c_0_92&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M1259,-195.44C1259,-168.1 1259,-76 1259,-76 1259,-76 971.75,-76 971.75,-76"/>
-<polygon fill="black" stroke="black" points="971.75,-72.5 961.75,-76 971.75,-79.5 971.75,-72.5"/>
-</g>
-<!-- c_0_104 -->
-<g id="node4" class="node">
-<title>c_0_104</title>
-<g id="a_node4"><a xlink:href="c_0_104.html" xlink:title="{subset&#45;closed(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1030.5,-195.5 1030.5,-210.5 1159.5,-210.5 1159.5,-195.5 1030.5,-195.5"/>
-<text text-anchor="middle" x="1095" y="-199.3" font-family="Times,serif" font-size="14.00">subset&#45;closed(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_104&#45;&gt;c_0_151 -->
-<g id="edge4" class="edge">
-<title>c_0_104&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M1095,-195.31C1095,-168.38 1095,-80 1095,-80 1095,-80 971.83,-80 971.83,-80"/>
-<polygon fill="black" stroke="black" points="971.83,-76.5 961.83,-80 971.83,-83.5 971.83,-76.5"/>
-</g>
-<!-- c_0_102 -->
-<g id="node5" class="node">
-<title>c_0_102</title>
-<g id="a_node5"><a xlink:href="c_0_102.html" xlink:title="{finite&#45;degree(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="889.5,-195.5 889.5,-210.5 1012.5,-210.5 1012.5,-195.5 889.5,-195.5"/>
-<text text-anchor="middle" x="951" y="-199.3" font-family="Times,serif" font-size="14.00">finite&#45;degree(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_102&#45;&gt;c_0_151 -->
-<g id="edge5" class="edge">
-<title>c_0_102&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M913.5,-195.44C913.5,-195.44 913.5,-93.69 913.5,-93.69"/>
-<polygon fill="black" stroke="black" points="917,-93.68 913.5,-83.69 910,-93.69 917,-93.68"/>
-</g>
-<!-- c_0_103 -->
-<g id="node6" class="node">
-<title>c_0_103</title>
-<g id="a_node6"><a xlink:href="c_0_103.html" xlink:title="{with_exchange_property(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="664.5,-195.5 664.5,-210.5 871.5,-210.5 871.5,-195.5 664.5,-195.5"/>
-<text text-anchor="middle" x="768" y="-199.3" font-family="Times,serif" font-size="14.00">with_exchange_property(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_103&#45;&gt;c_0_151 -->
-<g id="edge6" class="edge">
-<title>c_0_103&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M814,-195.44C814,-195.44 814,-93.69 814,-93.69"/>
-<polygon fill="black" stroke="black" points="817.5,-93.68 814,-83.69 810.5,-93.69 817.5,-93.68"/>
-</g>
-<!-- c_0_94 -->
-<g id="node7" class="node">
-<title>c_0_94</title>
-<g id="a_node7"><a xlink:href="c_0_94.html" xlink:title="{¬ (void(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="557.5,-195.5 557.5,-210.5 646.5,-210.5 646.5,-195.5 557.5,-195.5"/>
-<text text-anchor="middle" x="602" y="-199.3" font-family="Times,serif" font-size="14.00">¬ (void(sk₁))</text>
-</a>
-</g>
-</g>
-<!-- c_0_94&#45;&gt;c_0_151 -->
-<g id="edge7" class="edge">
-<title>c_0_94&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M602,-195.31C602,-168.38 602,-80 602,-80 602,-80 746.32,-80 746.32,-80"/>
-<polygon fill="black" stroke="black" points="746.32,-83.5 756.32,-80 746.32,-76.5 746.32,-83.5"/>
-</g>
-<!-- c_0_105 -->
-<g id="node8" class="node">
-<title>c_0_105</title>
-<g id="a_node8"><a xlink:href="c_0_105.html" xlink:title="{¬ (empty(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="435,-195.5 435,-210.5 539,-210.5 539,-195.5 435,-195.5"/>
-<text text-anchor="middle" x="487" y="-199.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
-</a>
-</g>
-</g>
-<!-- c_0_105&#45;&gt;c_0_151 -->
-<g id="edge8" class="edge">
-<title>c_0_105&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M487,-195.5C487,-168.37 487,-77 487,-77 487,-77 746.36,-77 746.36,-77"/>
-<polygon fill="black" stroke="black" points="746.36,-80.5 756.36,-77 746.36,-73.5 746.36,-80.5"/>
-</g>
-<!-- c_0_149 -->
-<g id="node9" class="node">
-<title>c_0_149</title>
-<g id="a_node9"><a xlink:href="c_0_149.html" xlink:title="{is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="137.5,-195.5 137.5,-210.5 416.5,-210.5 416.5,-195.5 137.5,-195.5"/>
-<text text-anchor="middle" x="277" y="-199.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
-</a>
-</g>
-</g>
-<!-- c_0_149&#45;&gt;c_0_151 -->
-<g id="edge9" class="edge">
-<title>c_0_149&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M277,-195.32C277,-167.55 277,-74 277,-74 277,-74 746.29,-74 746.29,-74"/>
-<polygon fill="black" stroke="black" points="746.29,-77.5 756.29,-74 746.29,-70.5 746.29,-77.5"/>
+<path fill="none" stroke="black" d="M1538.35,-157C1324.64,-157 923.83,-157 923.83,-157 923.83,-157 923.83,-93.77 923.83,-93.77"/>
+<polygon fill="black" stroke="black" points="927.33,-93.77 923.83,-83.77 920.33,-93.77 927.33,-93.77"/>
 </g>
 <!-- c_0_93 -->
-<g id="node10" class="node">
+<g id="node2" class="node">
 <title>c_0_93</title>
-<g id="a_node10"><a xlink:href="c_0_93.html" xlink:title="{TopStruct(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-195.5 16.5,-210.5 119.5,-210.5 119.5,-195.5 16.5,-195.5"/>
-<text text-anchor="middle" x="68" y="-199.3" font-family="Times,serif" font-size="14.00">TopStruct(sk₁)</text>
+<g id="a_node2"><a xlink:href="c_0_93.html" xlink:title="{TopStruct(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1417.5,-195.5 1417.5,-210.5 1520.5,-210.5 1520.5,-195.5 1417.5,-195.5"/>
+<text text-anchor="middle" x="1469" y="-199.3" font-family="Times,serif" font-size="14.00">TopStruct(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_93&#45;&gt;c_0_151 -->
-<g id="edge10" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_93&#45;&gt;c_0_151</title>
-<path fill="none" stroke="black" d="M68,-195.14C68,-166.72 68,-71 68,-71 68,-71 746.4,-71 746.4,-71"/>
-<polygon fill="black" stroke="black" points="746.4,-74.5 756.4,-71 746.4,-67.5 746.4,-74.5"/>
+<path fill="none" stroke="black" d="M1469,-195.2C1469,-167 1469,-72 1469,-72 1469,-72 979.8,-72 979.8,-72"/>
+<polygon fill="black" stroke="black" points="979.8,-68.5 969.8,-72 979.8,-75.5 979.8,-68.5"/>
+</g>
+<!-- c_0_94 -->
+<g id="node3" class="node">
+<title>c_0_94</title>
+<g id="a_node3"><a xlink:href="c_0_94.html" xlink:title="{¬ (void(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1310.5,-195.5 1310.5,-210.5 1399.5,-210.5 1399.5,-195.5 1310.5,-195.5"/>
+<text text-anchor="middle" x="1355" y="-199.3" font-family="Times,serif" font-size="14.00">¬ (void(sk₁))</text>
+</a>
+</g>
+</g>
+<!-- c_0_94&#45;&gt;c_0_151 -->
+<g id="edge3" class="edge">
+<title>c_0_94&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" d="M1355,-195.44C1355,-168.1 1355,-76 1355,-76 1355,-76 979.6,-76 979.6,-76"/>
+<polygon fill="black" stroke="black" points="979.6,-72.5 969.6,-76 979.6,-79.5 979.6,-72.5"/>
+</g>
+<!-- c_0_101 -->
+<g id="node4" class="node">
+<title>c_0_101</title>
+<g id="a_node4"><a xlink:href="c_0_101.html" xlink:title="{sk₂ ∈ bool(carrier(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1130,-195.5 1130,-210.5 1292,-210.5 1292,-195.5 1130,-195.5"/>
+<text text-anchor="middle" x="1211" y="-199.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(carrier(sk₁))</text>
+</a>
+</g>
+</g>
+<!-- c_0_101&#45;&gt;c_0_151 -->
+<g id="edge4" class="edge">
+<title>c_0_101&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" d="M1211,-195.31C1211,-168.38 1211,-80 1211,-80 1211,-80 979.75,-80 979.75,-80"/>
+<polygon fill="black" stroke="black" points="979.75,-76.5 969.75,-80 979.75,-83.5 979.75,-76.5"/>
+</g>
+<!-- c_0_149 -->
+<g id="node5" class="node">
+<title>c_0_149</title>
+<g id="a_node5"><a xlink:href="c_0_149.html" xlink:title="{is_maximal_independent_in(sk₁,sk₃,sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="832.5,-195.5 832.5,-210.5 1111.5,-210.5 1111.5,-195.5 832.5,-195.5"/>
+<text text-anchor="middle" x="972" y="-199.3" font-family="Times,serif" font-size="14.00">is_maximal_independent_in(sk₁,sk₃,sk₂)</text>
+</a>
+</g>
+</g>
+<!-- c_0_149&#45;&gt;c_0_151 -->
+<g id="edge5" class="edge">
+<title>c_0_149&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" d="M878.17,-195.44C878.17,-195.44 878.17,-93.69 878.17,-93.69"/>
+<polygon fill="black" stroke="black" points="881.67,-93.68 878.17,-83.69 874.67,-93.69 881.67,-93.68"/>
+</g>
+<!-- c_0_105 -->
+<g id="node6" class="node">
+<title>c_0_105</title>
+<g id="a_node6"><a xlink:href="c_0_105.html" xlink:title="{¬ (empty(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="710,-195.5 710,-210.5 814,-210.5 814,-195.5 710,-195.5"/>
+<text text-anchor="middle" x="762" y="-199.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
+</a>
+</g>
+</g>
+<!-- c_0_105&#45;&gt;c_0_151 -->
+<g id="edge6" class="edge">
+<title>c_0_105&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" d="M789.25,-195.44C789.25,-195.44 789.25,-93.69 789.25,-93.69"/>
+<polygon fill="black" stroke="black" points="792.75,-93.68 789.25,-83.69 785.75,-93.69 792.75,-93.68"/>
+</g>
+<!-- c_0_92 -->
+<g id="node7" class="node">
+<title>c_0_92</title>
+<g id="a_node7"><a xlink:href="c_0_92.html" xlink:title="{sk₃ ∈ bool(carrier(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="530,-195.5 530,-210.5 692,-210.5 692,-195.5 530,-195.5"/>
+<text text-anchor="middle" x="611" y="-199.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ bool(carrier(sk₁))</text>
+</a>
+</g>
+</g>
+<!-- c_0_92&#45;&gt;c_0_151 -->
+<g id="edge7" class="edge">
+<title>c_0_92&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" d="M611,-195.31C611,-168.38 611,-80 611,-80 611,-80 754.35,-80 754.35,-80"/>
+<polygon fill="black" stroke="black" points="754.35,-83.5 764.35,-80 754.35,-76.5 754.35,-83.5"/>
+</g>
+<!-- c_0_102 -->
+<g id="node8" class="node">
+<title>c_0_102</title>
+<g id="a_node8"><a xlink:href="c_0_102.html" xlink:title="{finite&#45;degree(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="388.5,-195.5 388.5,-210.5 511.5,-210.5 511.5,-195.5 388.5,-195.5"/>
+<text text-anchor="middle" x="450" y="-199.3" font-family="Times,serif" font-size="14.00">finite&#45;degree(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_102&#45;&gt;c_0_151 -->
+<g id="edge8" class="edge">
+<title>c_0_102&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" d="M450,-195.5C450,-168.37 450,-77 450,-77 450,-77 754.46,-77 754.46,-77"/>
+<polygon fill="black" stroke="black" points="754.46,-80.5 764.46,-77 754.46,-73.5 754.46,-80.5"/>
+</g>
+<!-- c_0_104 -->
+<g id="node9" class="node">
+<title>c_0_104</title>
+<g id="a_node9"><a xlink:href="c_0_104.html" xlink:title="{subset&#45;closed(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="241.5,-195.5 241.5,-210.5 370.5,-210.5 370.5,-195.5 241.5,-195.5"/>
+<text text-anchor="middle" x="306" y="-199.3" font-family="Times,serif" font-size="14.00">subset&#45;closed(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_104&#45;&gt;c_0_151 -->
+<g id="edge9" class="edge">
+<title>c_0_104&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" d="M306,-195.32C306,-167.55 306,-74 306,-74 306,-74 754.43,-74 754.43,-74"/>
+<polygon fill="black" stroke="black" points="754.43,-77.5 764.43,-74 754.43,-70.5 754.43,-77.5"/>
+</g>
+<!-- c_0_103 -->
+<g id="node10" class="node">
+<title>c_0_103</title>
+<g id="a_node10"><a xlink:href="c_0_103.html" xlink:title="{with_exchange_property(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-195.5 16.5,-210.5 223.5,-210.5 223.5,-195.5 16.5,-195.5"/>
+<text text-anchor="middle" x="120" y="-199.3" font-family="Times,serif" font-size="14.00">with_exchange_property(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_103&#45;&gt;c_0_151 -->
+<g id="edge10" class="edge">
+<title>c_0_103&#45;&gt;c_0_151</title>
+<path fill="none" stroke="black" d="M120,-195.14C120,-166.72 120,-71 120,-71 120,-71 754.31,-71 754.31,-71"/>
+<polygon fill="black" stroke="black" points="754.31,-74.5 764.31,-71 754.31,-67.5 754.31,-74.5"/>
 </g>
 <!-- c_0_153 -->
 <g id="node12" class="node">
 <title>c_0_153</title>
-<g id="a_node12"><a xlink:href="c_0_153.html" xlink:title="⊥" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="852,-16.5 852,-31.5 866,-31.5 866,-16.5 852,-16.5"/>
-<text text-anchor="middle" x="859" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node12"><a xlink:href="c_0_153.html" xlink:title="⊥" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="860,-16.5 860,-31.5 874,-31.5 874,-16.5 860,-16.5"/>
+<text text-anchor="middle" x="867" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_151&#45;&gt;c_0_153 -->
 <g id="edge11" class="edge">
 <title>c_0_151&#45;&gt;c_0_153</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M859,-68.33C859,-68.33 859,-41.7 859,-41.7"/>
-<polygon fill="black" stroke="black" points="862.5,-41.7 859,-31.7 855.5,-41.7 862.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M867,-68.33C867,-68.33 867,-41.7 867,-41.7"/>
+<polygon fill="black" stroke="black" points="870.5,-41.7 867,-31.7 863.5,-41.7 870.5,-41.7"/>
 </g>
 </g>
 </svg>

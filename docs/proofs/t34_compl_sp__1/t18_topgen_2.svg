@@ -19,16 +19,16 @@
 <!-- t18_topgen_2 -->
 <g id="node1" class="node">
 <title>t18_topgen_2</title>
-<g id="a_node1"><a xlink:href="t18_topgen_2.html" xlink:title="t18_topgen_2" target="_parent">
+<g id="a_node1"><a xlink:href="t18_topgen_2.html" xlink:title="t18_topgen_2" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="166.5,-173.5 166.5,-188.5 263.5,-188.5 263.5,-173.5 166.5,-173.5"/>
 <text text-anchor="middle" x="215" y="-177.3" font-family="Times,serif" font-size="14.00">t18_topgen_2</text>
 </a>
 </g>
 </g>
-<!-- c_0_17 -->
+<!-- c_0_14 -->
 <g id="node2" class="node">
-<title>c_0_17</title>
-<g id="a_node2"><a xlink:href="c_0_17.html" xlink:title="{TopSpace&#45;like(X₁)|TopStruct(X₁)|X₂ ∈ bool(bool(carrier(X₁)))|open(X₂,X₁)|quasi_basis(X₂,X₁)|⇊|empty(X₁)|sk₄(X₁,X₂) ⊆ X₂}" target="_parent">
+<title>c_0_14</title>
+<g id="a_node2"><a xlink:href="c_0_14.html" xlink:title="{TopSpace&#45;like(X₁)|TopStruct(X₁)|X₂ ∈ bool(bool(carrier(X₁)))|open(X₂,X₁)|quasi_basis(X₂,X₁)|⇊|\|sk₄(X₁,X₂)\| = weight(X₁)|empty(X₁)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="224,-16.5 224,-136.5 414,-136.5 414,-16.5 224,-16.5"/>
 <text text-anchor="middle" x="319" y="-125.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="224,-121.5 414,-121.5 "/>
@@ -42,22 +42,22 @@
 <polyline fill="none" stroke="#7f7542" points="224,-61.5 414,-61.5 "/>
 <text text-anchor="middle" x="319" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="224,-46.5 414,-46.5 "/>
-<text text-anchor="middle" x="319" y="-35.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<text text-anchor="middle" x="319" y="-35.3" font-family="Times,serif" font-size="14.00">|sk₄(X₁,X₂)| = weight(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="224,-31.5 414,-31.5 "/>
-<text text-anchor="middle" x="319" y="-20.3" font-family="Times,serif" font-size="14.00">sk₄(X₁,X₂) ⊆ X₂</text>
+<text text-anchor="middle" x="319" y="-20.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
 </a>
 </g>
 </g>
-<!-- t18_topgen_2&#45;&gt;c_0_17 -->
+<!-- t18_topgen_2&#45;&gt;c_0_14 -->
 <g id="edge1" class="edge">
-<title>t18_topgen_2&#45;&gt;c_0_17</title>
+<title>t18_topgen_2&#45;&gt;c_0_14</title>
 <path fill="none" stroke="black" d="M243.75,-173.48C243.75,-173.48 243.75,-146.59 243.75,-146.59"/>
 <polygon fill="black" stroke="black" points="247.25,-146.59 243.75,-136.59 240.25,-146.6 247.25,-146.59"/>
 </g>
-<!-- c_0_14 -->
+<!-- c_0_17 -->
 <g id="node3" class="node">
-<title>c_0_14</title>
-<g id="a_node3"><a xlink:href="c_0_14.html" xlink:title="{TopSpace&#45;like(X₁)|TopStruct(X₁)|X₂ ∈ bool(bool(carrier(X₁)))|open(X₂,X₁)|quasi_basis(X₂,X₁)|⇊|\|sk₄(X₁,X₂)\| = weight(X₁)|empty(X₁)}" target="_parent">
+<title>c_0_17</title>
+<g id="a_node3"><a xlink:href="c_0_17.html" xlink:title="{TopSpace&#45;like(X₁)|TopStruct(X₁)|X₂ ∈ bool(bool(carrier(X₁)))|open(X₂,X₁)|quasi_basis(X₂,X₁)|⇊|empty(X₁)|sk₄(X₁,X₂) ⊆ X₂}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-136.5 206,-136.5 206,-16.5 16,-16.5"/>
 <text text-anchor="middle" x="111" y="-125.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-121.5 206,-121.5 "/>
@@ -71,15 +71,15 @@
 <polyline fill="none" stroke="#7f7542" points="16,-61.5 206,-61.5 "/>
 <text text-anchor="middle" x="111" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="16,-46.5 206,-46.5 "/>
-<text text-anchor="middle" x="111" y="-35.3" font-family="Times,serif" font-size="14.00">|sk₄(X₁,X₂)| = weight(X₁)</text>
+<text text-anchor="middle" x="111" y="-35.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-31.5 206,-31.5 "/>
-<text text-anchor="middle" x="111" y="-20.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<text text-anchor="middle" x="111" y="-20.3" font-family="Times,serif" font-size="14.00">sk₄(X₁,X₂) ⊆ X₂</text>
 </a>
 </g>
 </g>
-<!-- t18_topgen_2&#45;&gt;c_0_14 -->
+<!-- t18_topgen_2&#45;&gt;c_0_17 -->
 <g id="edge2" class="edge">
-<title>t18_topgen_2&#45;&gt;c_0_14</title>
+<title>t18_topgen_2&#45;&gt;c_0_17</title>
 <path fill="none" stroke="black" d="M186.25,-173.48C186.25,-173.48 186.25,-146.59 186.25,-146.59"/>
 <polygon fill="black" stroke="black" points="189.75,-146.59 186.25,-136.59 182.75,-146.6 189.75,-146.59"/>
 </g>

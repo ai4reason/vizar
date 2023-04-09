@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="174,-210 174,-242 262,-242 262,-210 174,-210"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="137,-210 137,-242 225,-242 225,-210 137,-210"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,81 +19,81 @@
 <!-- t18_seq_2 -->
 <g id="node1" class="node">
 <title>t18_seq_2</title>
-<g id="a_node1"><a xlink:href="t18_seq_2.html" xlink:title="t18_seq_2" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="182,-218.5 182,-233.5 254,-233.5 254,-218.5 182,-218.5"/>
-<text text-anchor="middle" x="218" y="-222.3" font-family="Times,serif" font-size="14.00">t18_seq_2</text>
+<g id="a_node1"><a xlink:href="t18_seq_2.html" xlink:title="t18_seq_2" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="145,-218.5 145,-233.5 217,-233.5 217,-218.5 145,-218.5"/>
+<text text-anchor="middle" x="181" y="-222.3" font-family="Times,serif" font-size="14.00">t18_seq_2</text>
 </a>
 </g>
-</g>
-<!-- c_0_32 -->
-<g id="node2" class="node">
-<title>c_0_32</title>
-<g id="a_node2"><a xlink:href="c_0_32.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|convergent(X₁)|convergent(X₂)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|lim(X₁) ≤ lim(X₂)|sk₅(X₁,X₂) ∈ ℕ ⊆ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="246,-16.5 246,-181.5 384,-181.5 384,-16.5 246,-16.5"/>
-<text text-anchor="middle" x="315" y="-170.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="246,-166.5 384,-166.5 "/>
-<text text-anchor="middle" x="315" y="-155.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="246,-151.5 384,-151.5 "/>
-<text text-anchor="middle" x="315" y="-140.3" font-family="Times,serif" font-size="14.00">convergent(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="246,-136.5 384,-136.5 "/>
-<text text-anchor="middle" x="315" y="-125.3" font-family="Times,serif" font-size="14.00">convergent(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="246,-121.5 384,-121.5 "/>
-<text text-anchor="middle" x="315" y="-110.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="246,-106.5 384,-106.5 "/>
-<text text-anchor="middle" x="315" y="-95.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="246,-91.5 384,-91.5 "/>
-<text text-anchor="middle" x="315" y="-80.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="246,-76.5 384,-76.5 "/>
-<text text-anchor="middle" x="315" y="-65.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="246,-61.5 384,-61.5 "/>
-<text text-anchor="middle" x="315" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="246,-46.5 384,-46.5 "/>
-<text text-anchor="middle" x="315" y="-35.3" font-family="Times,serif" font-size="14.00">lim(X₁) ≤ lim(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="246,-31.5 384,-31.5 "/>
-<text text-anchor="middle" x="315" y="-20.3" font-family="Times,serif" font-size="14.00">sk₅(X₁,X₂) ∈ ℕ ⊆ ℝ</text>
-</a>
-</g>
-</g>
-<!-- t18_seq_2&#45;&gt;c_0_32 -->
-<g id="edge1" class="edge">
-<title>t18_seq_2&#45;&gt;c_0_32</title>
-<path fill="none" stroke="black" d="M250,-218.44C250,-218.44 250,-191.68 250,-191.68"/>
-<polygon fill="black" stroke="black" points="253.5,-191.68 250,-181.68 246.5,-191.68 253.5,-191.68"/>
 </g>
 <!-- c_0_11 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_11</title>
-<g id="a_node3"><a xlink:href="c_0_11.html" xlink:title="{X₁ . sk₅(X₁,X₂) ≤ X₂ . sk₅(X₁,X₂)|X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|convergent(X₁)|convergent(X₂)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|lim(X₁) ≤ lim(X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-181.5 227.5,-181.5 227.5,-16.5 16.5,-16.5"/>
-<text text-anchor="middle" x="122" y="-170.3" font-family="Times,serif" font-size="14.00">X₁ . sk₅(X₁,X₂) ≤ X₂ . sk₅(X₁,X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-166.5 227.5,-166.5 "/>
-<text text-anchor="middle" x="122" y="-155.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-151.5 227.5,-151.5 "/>
-<text text-anchor="middle" x="122" y="-140.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-136.5 227.5,-136.5 "/>
-<text text-anchor="middle" x="122" y="-125.3" font-family="Times,serif" font-size="14.00">convergent(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-121.5 227.5,-121.5 "/>
-<text text-anchor="middle" x="122" y="-110.3" font-family="Times,serif" font-size="14.00">convergent(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-106.5 227.5,-106.5 "/>
-<text text-anchor="middle" x="122" y="-95.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-91.5 227.5,-91.5 "/>
-<text text-anchor="middle" x="122" y="-80.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-76.5 227.5,-76.5 "/>
-<text text-anchor="middle" x="122" y="-65.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-61.5 227.5,-61.5 "/>
-<text text-anchor="middle" x="122" y="-50.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 227.5,-46.5 "/>
-<text text-anchor="middle" x="122" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 227.5,-31.5 "/>
-<text text-anchor="middle" x="122" y="-20.3" font-family="Times,serif" font-size="14.00">lim(X₁) ≤ lim(X₂)</text>
+<g id="a_node2"><a xlink:href="c_0_11.html" xlink:title="{X₁ . sk₅(X₁,X₂) ≤ X₂ . sk₅(X₁,X₂)|X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|convergent(X₁)|convergent(X₂)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|lim(X₁) ≤ lim(X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="172.5,-16.5 172.5,-181.5 383.5,-181.5 383.5,-16.5 172.5,-16.5"/>
+<text text-anchor="middle" x="278" y="-170.3" font-family="Times,serif" font-size="14.00">X₁ . sk₅(X₁,X₂) ≤ X₂ . sk₅(X₁,X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-166.5 383.5,-166.5 "/>
+<text text-anchor="middle" x="278" y="-155.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-151.5 383.5,-151.5 "/>
+<text text-anchor="middle" x="278" y="-140.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-136.5 383.5,-136.5 "/>
+<text text-anchor="middle" x="278" y="-125.3" font-family="Times,serif" font-size="14.00">convergent(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-121.5 383.5,-121.5 "/>
+<text text-anchor="middle" x="278" y="-110.3" font-family="Times,serif" font-size="14.00">convergent(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-106.5 383.5,-106.5 "/>
+<text text-anchor="middle" x="278" y="-95.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-91.5 383.5,-91.5 "/>
+<text text-anchor="middle" x="278" y="-80.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-76.5 383.5,-76.5 "/>
+<text text-anchor="middle" x="278" y="-65.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-61.5 383.5,-61.5 "/>
+<text text-anchor="middle" x="278" y="-50.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-46.5 383.5,-46.5 "/>
+<text text-anchor="middle" x="278" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="172.5,-31.5 383.5,-31.5 "/>
+<text text-anchor="middle" x="278" y="-20.3" font-family="Times,serif" font-size="14.00">lim(X₁) ≤ lim(X₂)</text>
 </a>
 </g>
 </g>
 <!-- t18_seq_2&#45;&gt;c_0_11 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t18_seq_2&#45;&gt;c_0_11</title>
-<path fill="none" stroke="black" d="M204.75,-218.44C204.75,-218.44 204.75,-191.68 204.75,-191.68"/>
-<polygon fill="black" stroke="black" points="208.25,-191.68 204.75,-181.68 201.25,-191.68 208.25,-191.68"/>
+<path fill="none" stroke="black" d="M194.75,-218.44C194.75,-218.44 194.75,-191.68 194.75,-191.68"/>
+<polygon fill="black" stroke="black" points="198.25,-191.68 194.75,-181.68 191.25,-191.68 198.25,-191.68"/>
+</g>
+<!-- c_0_32 -->
+<g id="node3" class="node">
+<title>c_0_32</title>
+<g id="a_node3"><a xlink:href="c_0_32.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|convergent(X₁)|convergent(X₂)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|lim(X₁) ≤ lim(X₂)|sk₅(X₁,X₂) ∈ ℕ ⊆ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-181.5 154,-181.5 154,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="85" y="-170.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-166.5 154,-166.5 "/>
+<text text-anchor="middle" x="85" y="-155.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-151.5 154,-151.5 "/>
+<text text-anchor="middle" x="85" y="-140.3" font-family="Times,serif" font-size="14.00">convergent(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-136.5 154,-136.5 "/>
+<text text-anchor="middle" x="85" y="-125.3" font-family="Times,serif" font-size="14.00">convergent(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-121.5 154,-121.5 "/>
+<text text-anchor="middle" x="85" y="-110.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-106.5 154,-106.5 "/>
+<text text-anchor="middle" x="85" y="-95.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-91.5 154,-91.5 "/>
+<text text-anchor="middle" x="85" y="-80.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-76.5 154,-76.5 "/>
+<text text-anchor="middle" x="85" y="-65.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-61.5 154,-61.5 "/>
+<text text-anchor="middle" x="85" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-46.5 154,-46.5 "/>
+<text text-anchor="middle" x="85" y="-35.3" font-family="Times,serif" font-size="14.00">lim(X₁) ≤ lim(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-31.5 154,-31.5 "/>
+<text text-anchor="middle" x="85" y="-20.3" font-family="Times,serif" font-size="14.00">sk₅(X₁,X₂) ∈ ℕ ⊆ ℝ</text>
+</a>
+</g>
+</g>
+<!-- t18_seq_2&#45;&gt;c_0_32 -->
+<g id="edge2" class="edge">
+<title>t18_seq_2&#45;&gt;c_0_32</title>
+<path fill="none" stroke="black" d="M149.5,-218.44C149.5,-218.44 149.5,-191.68 149.5,-191.68"/>
+<polygon fill="black" stroke="black" points="153,-191.68 149.5,-181.68 146,-191.68 153,-191.68"/>
 </g>
 </g>
 </svg>

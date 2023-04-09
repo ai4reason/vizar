@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="285,-142 285,-174 407,-174 407,-142 285,-142"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="279,-142 279,-174 401,-174 401,-142 279,-142"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="315,-90 315,-122 377,-122 377,-90 315,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="309,-90 309,-122 371,-122 371,-90 309,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,141 +23,141 @@
 <!-- fc3_membered -->
 <g id="node1" class="node">
 <title>fc3_membered</title>
-<g id="a_node1"><a xlink:href="fc3_membered.html" xlink:title="fc3_membered" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="293,-150.5 293,-165.5 399,-165.5 399,-150.5 293,-150.5"/>
-<text text-anchor="middle" x="346" y="-154.3" font-family="Times,serif" font-size="14.00">fc3_membered</text>
+<g id="a_node1"><a xlink:href="fc3_membered.html" xlink:title="fc3_membered" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="287,-150.5 287,-165.5 393,-165.5 393,-150.5 287,-150.5"/>
+<text text-anchor="middle" x="340" y="-154.3" font-family="Times,serif" font-size="14.00">fc3_membered</text>
 </a>
 </g>
 </g>
 <!-- c_0_78 -->
 <g id="node2" class="node">
 <title>c_0_78</title>
-<g id="a_node2"><a xlink:href="c_0_78.html" xlink:title="{ℝ ⊆ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="323,-98.5 323,-113.5 369,-113.5 369,-98.5 323,-98.5"/>
-<text text-anchor="middle" x="346" y="-102.3" font-family="Times,serif" font-size="14.00">ℝ ⊆ ℝ</text>
+<g id="a_node2"><a xlink:href="c_0_78.html" xlink:title="{ℝ ⊆ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="317,-98.5 317,-113.5 363,-113.5 363,-98.5 317,-98.5"/>
+<text text-anchor="middle" x="340" y="-102.3" font-family="Times,serif" font-size="14.00">ℝ ⊆ ℝ</text>
 </a>
 </g>
 </g>
 <!-- fc3_membered&#45;&gt;c_0_78 -->
 <g id="edge1" class="edge">
 <title>fc3_membered&#45;&gt;c_0_78</title>
-<path fill="none" stroke="black" d="M346,-150.33C346,-150.33 346,-123.7 346,-123.7"/>
-<polygon fill="black" stroke="black" points="349.5,-123.7 346,-113.7 342.5,-123.7 349.5,-123.7"/>
+<path fill="none" stroke="black" d="M340,-150.33C340,-150.33 340,-123.7 340,-123.7"/>
+<polygon fill="black" stroke="black" points="343.5,-123.7 340,-113.7 336.5,-123.7 343.5,-123.7"/>
 </g>
-<!-- c_0_74 -->
+<!-- c_0_203 -->
 <g id="node3" class="node">
-<title>c_0_74</title>
-<g id="a_node3"><a xlink:href="c_0_74.html" xlink:title="{X₁ ∈ ℝ|⇊|&#45;(X₁) ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="596,-16.5 596,-61.5 658,-61.5 658,-16.5 596,-16.5"/>
-<text text-anchor="middle" x="627" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="596,-46.5 658,-46.5 "/>
-<text text-anchor="middle" x="627" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="596,-31.5 658,-31.5 "/>
-<text text-anchor="middle" x="627" y="-20.3" font-family="Times,serif" font-size="14.00">&#45;(X₁) ∈ ℝ</text>
+<title>c_0_203</title>
+<g id="a_node3"><a xlink:href="c_0_203.html" xlink:title="{real&#45;valued(sin)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="546,-31.5 546,-46.5 658,-46.5 658,-31.5 546,-31.5"/>
+<text text-anchor="middle" x="602" y="-35.3" font-family="Times,serif" font-size="14.00">real&#45;valued(sin)</text>
 </a>
 </g>
 </g>
-<!-- c_0_78&#45;&gt;c_0_74 -->
+<!-- c_0_78&#45;&gt;c_0_203 -->
 <g id="edge2" class="edge">
-<title>c_0_78&#45;&gt;c_0_74</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M369.47,-108C437.01,-108 627,-108 627,-108 627,-108 627,-71.59 627,-71.59"/>
-<polygon fill="black" stroke="black" points="630.5,-71.59 627,-61.59 623.5,-71.59 630.5,-71.59"/>
+<title>c_0_78&#45;&gt;c_0_203</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M363.25,-110C427.37,-110 602,-110 602,-110 602,-110 602,-56.6 602,-56.6"/>
+<polygon fill="black" stroke="black" points="605.5,-56.6 602,-46.6 598.5,-56.6 605.5,-56.6"/>
 </g>
 <!-- c_0_163 -->
 <g id="node4" class="node">
 <title>c_0_163</title>
-<g id="a_node4"><a xlink:href="c_0_163.html" xlink:title="{2 ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="536.5,-31.5 536.5,-46.5 577.5,-46.5 577.5,-31.5 536.5,-31.5"/>
-<text text-anchor="middle" x="557" y="-35.3" font-family="Times,serif" font-size="14.00">2 ∈ ℝ</text>
+<g id="a_node4"><a xlink:href="c_0_163.html" xlink:title="{2 ∈ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="486.5,-31.5 486.5,-46.5 527.5,-46.5 527.5,-31.5 486.5,-31.5"/>
+<text text-anchor="middle" x="507" y="-35.3" font-family="Times,serif" font-size="14.00">2 ∈ ℝ</text>
 </a>
 </g>
 </g>
 <!-- c_0_78&#45;&gt;c_0_163 -->
 <g id="edge3" class="edge">
 <title>c_0_78&#45;&gt;c_0_163</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M369.39,-103C424.32,-103 557,-103 557,-103 557,-103 557,-56.85 557,-56.85"/>
-<polygon fill="black" stroke="black" points="560.5,-56.85 557,-46.85 553.5,-56.85 560.5,-56.85"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M363.22,-106C409.11,-106 507,-106 507,-106 507,-106 507,-56.69 507,-56.69"/>
+<polygon fill="black" stroke="black" points="510.5,-56.69 507,-46.69 503.5,-56.69 510.5,-56.69"/>
 </g>
 <!-- c_0_105 -->
 <g id="node5" class="node">
 <title>c_0_105</title>
-<g id="a_node5"><a xlink:href="c_0_105.html" xlink:title="{X₁ ∈ ℝ|⇊|X₁ * R₂ ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="439.5,-16.5 439.5,-61.5 518.5,-61.5 518.5,-16.5 439.5,-16.5"/>
-<text text-anchor="middle" x="479" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="439.5,-46.5 518.5,-46.5 "/>
-<text text-anchor="middle" x="479" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="439.5,-31.5 518.5,-31.5 "/>
-<text text-anchor="middle" x="479" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ * R₂ ∈ ℝ</text>
+<g id="a_node5"><a xlink:href="c_0_105.html" xlink:title="{X₁ ∈ ℝ|⇊|X₁ * R₂ ∈ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="389.5,-16.5 389.5,-61.5 468.5,-61.5 468.5,-16.5 389.5,-16.5"/>
+<text text-anchor="middle" x="429" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="389.5,-46.5 468.5,-46.5 "/>
+<text text-anchor="middle" x="429" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="389.5,-31.5 468.5,-31.5 "/>
+<text text-anchor="middle" x="429" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ * R₂ ∈ ℝ</text>
 </a>
 </g>
 </g>
 <!-- c_0_78&#45;&gt;c_0_105 -->
 <g id="edge4" class="edge">
 <title>c_0_78&#45;&gt;c_0_105</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M353.67,-98.07C353.67,-84.44 353.67,-58 353.67,-58 353.67,-58 429.34,-58 429.34,-58"/>
-<polygon fill="black" stroke="black" points="429.34,-61.5 439.34,-58 429.34,-54.5 429.34,-61.5"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M363.37,-102C390.26,-102 430.75,-102 430.75,-102 430.75,-102 430.75,-71.74 430.75,-71.74"/>
+<polygon fill="black" stroke="black" points="434.25,-71.74 430.75,-61.74 427.25,-71.74 434.25,-71.74"/>
 </g>
-<!-- c_0_216 -->
+<!-- c_0_74 -->
 <g id="node6" class="node">
-<title>c_0_216</title>
-<g id="a_node6"><a xlink:href="c_0_216.html" xlink:title="{PI ]....[ (2 * PI) = Ø|sk₂(PI,2 * PI,cos) ∈ ℝ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="270.5,-24 270.5,-54 421.5,-54 421.5,-24 270.5,-24"/>
-<text text-anchor="middle" x="346" y="-42.8" font-family="Times,serif" font-size="14.00">PI ]....[ (2 * PI) = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="270.5,-39 421.5,-39 "/>
-<text text-anchor="middle" x="346" y="-27.8" font-family="Times,serif" font-size="14.00">sk₂(PI,2 * PI,cos) ∈ ℝ</text>
+<title>c_0_74</title>
+<g id="a_node6"><a xlink:href="c_0_74.html" xlink:title="{X₁ ∈ ℝ|⇊|&#45;(X₁) ∈ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="309,-16.5 309,-61.5 371,-61.5 371,-16.5 309,-16.5"/>
+<text text-anchor="middle" x="340" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="309,-46.5 371,-46.5 "/>
+<text text-anchor="middle" x="340" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="309,-31.5 371,-31.5 "/>
+<text text-anchor="middle" x="340" y="-20.3" font-family="Times,serif" font-size="14.00">&#45;(X₁) ∈ ℝ</text>
 </a>
 </g>
 </g>
-<!-- c_0_78&#45;&gt;c_0_216 -->
+<!-- c_0_78&#45;&gt;c_0_74 -->
 <g id="edge5" class="edge">
-<title>c_0_78&#45;&gt;c_0_216</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M338.33,-98.31C338.33,-98.31 338.33,-64.17 338.33,-64.17"/>
-<polygon fill="black" stroke="black" points="341.83,-64.17 338.33,-54.17 334.83,-64.17 341.83,-64.17"/>
+<title>c_0_78&#45;&gt;c_0_74</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M340,-98.31C340,-98.31 340,-71.76 340,-71.76"/>
+<polygon fill="black" stroke="black" points="343.5,-71.76 340,-61.76 336.5,-71.76 343.5,-71.76"/>
 </g>
-<!-- c_0_203 -->
+<!-- c_0_218 -->
 <g id="node7" class="node">
-<title>c_0_203</title>
-<g id="a_node7"><a xlink:href="c_0_203.html" xlink:title="{real&#45;valued(sin)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="140,-31.5 140,-46.5 252,-46.5 252,-31.5 140,-31.5"/>
-<text text-anchor="middle" x="196" y="-35.3" font-family="Times,serif" font-size="14.00">real&#45;valued(sin)</text>
+<title>c_0_218</title>
+<g id="a_node7"><a xlink:href="c_0_218.html" xlink:title="{PI ∈ 𝔼}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="245,-31.5 245,-46.5 291,-46.5 291,-31.5 245,-31.5"/>
+<text text-anchor="middle" x="268" y="-35.3" font-family="Times,serif" font-size="14.00">PI ∈ 𝔼</text>
 </a>
 </g>
 </g>
-<!-- c_0_78&#45;&gt;c_0_203 -->
+<!-- c_0_78&#45;&gt;c_0_218 -->
 <g id="edge6" class="edge">
-<title>c_0_78&#45;&gt;c_0_203</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M322.89,-102C280.82,-102 196,-102 196,-102 196,-102 196,-56.73 196,-56.73"/>
-<polygon fill="black" stroke="black" points="199.5,-56.73 196,-46.73 192.5,-56.73 199.5,-56.73"/>
+<title>c_0_78&#45;&gt;c_0_218</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M316.99,-102C295.27,-102 266,-102 266,-102 266,-102 266,-56.73 266,-56.73"/>
+<polygon fill="black" stroke="black" points="269.5,-56.73 266,-46.73 262.5,-56.73 269.5,-56.73"/>
 </g>
 <!-- c_0_77 -->
 <g id="node8" class="node">
 <title>c_0_77</title>
-<g id="a_node8"><a xlink:href="c_0_77.html" xlink:title="{0 ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="80.5,-31.5 80.5,-46.5 121.5,-46.5 121.5,-31.5 80.5,-31.5"/>
-<text text-anchor="middle" x="101" y="-35.3" font-family="Times,serif" font-size="14.00">0 ∈ ℝ</text>
+<g id="a_node8"><a xlink:href="c_0_77.html" xlink:title="{0 ∈ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="185.5,-31.5 185.5,-46.5 226.5,-46.5 226.5,-31.5 185.5,-31.5"/>
+<text text-anchor="middle" x="206" y="-35.3" font-family="Times,serif" font-size="14.00">0 ∈ ℝ</text>
 </a>
 </g>
 </g>
 <!-- c_0_78&#45;&gt;c_0_77 -->
 <g id="edge7" class="edge">
 <title>c_0_78&#45;&gt;c_0_77</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M322.95,-106C261.96,-106 101,-106 101,-106 101,-106 101,-56.69 101,-56.69"/>
-<polygon fill="black" stroke="black" points="104.5,-56.69 101,-46.69 97.5,-56.69 104.5,-56.69"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M316.96,-106C278.65,-106 206,-106 206,-106 206,-106 206,-56.69 206,-56.69"/>
+<polygon fill="black" stroke="black" points="209.5,-56.69 206,-46.69 202.5,-56.69 209.5,-56.69"/>
 </g>
-<!-- c_0_218 -->
+<!-- c_0_216 -->
 <g id="node9" class="node">
-<title>c_0_218</title>
-<g id="a_node9"><a xlink:href="c_0_218.html" xlink:title="{PI ∈ 𝔼}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-31.5 16,-46.5 62,-46.5 62,-31.5 16,-31.5"/>
-<text text-anchor="middle" x="39" y="-35.3" font-family="Times,serif" font-size="14.00">PI ∈ 𝔼</text>
+<title>c_0_216</title>
+<g id="a_node9"><a xlink:href="c_0_216.html" xlink:title="{PI ]....[ (2 * PI) = Ø|sk₂(PI,2 * PI,cos) ∈ ℝ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-24 16.5,-54 167.5,-54 167.5,-24 16.5,-24"/>
+<text text-anchor="middle" x="92" y="-42.8" font-family="Times,serif" font-size="14.00">PI ]....[ (2 * PI) = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-39 167.5,-39 "/>
+<text text-anchor="middle" x="92" y="-27.8" font-family="Times,serif" font-size="14.00">sk₂(PI,2 * PI,cos) ∈ ℝ</text>
 </a>
 </g>
 </g>
-<!-- c_0_78&#45;&gt;c_0_218 -->
+<!-- c_0_78&#45;&gt;c_0_216 -->
 <g id="edge8" class="edge">
-<title>c_0_78&#45;&gt;c_0_218</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M322.93,-110C251.53,-110 39,-110 39,-110 39,-110 39,-56.6 39,-56.6"/>
-<polygon fill="black" stroke="black" points="42.5,-56.6 39,-46.6 35.5,-56.6 42.5,-56.6"/>
+<title>c_0_78&#45;&gt;c_0_216</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M316.67,-110C254.93,-110 92,-110 92,-110 92,-110 92,-64.06 92,-64.06"/>
+<polygon fill="black" stroke="black" points="95.5,-64.06 92,-54.06 88.5,-64.06 95.5,-64.06"/>
 </g>
 </g>
 </svg>

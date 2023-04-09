@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="319,-142 319,-174 421,-174 421,-142 319,-142"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="346,-142 346,-174 448,-174 448,-142 346,-142"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="305,-90 305,-122 435,-122 435,-90 305,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="332,-90 332,-122 462,-122 462,-90 332,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,60 +23,60 @@
 <!-- t55_fdiff_11 -->
 <g id="node1" class="node">
 <title>t55_fdiff_11</title>
-<g id="a_node1"><a xlink:href="t55_fdiff_11.html" xlink:title="t55_fdiff_11" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="327.5,-150.5 327.5,-165.5 412.5,-165.5 412.5,-150.5 327.5,-150.5"/>
-<text text-anchor="middle" x="370" y="-154.3" font-family="Times,serif" font-size="14.00">t55_fdiff_11</text>
+<g id="a_node1"><a xlink:href="t55_fdiff_11.html" xlink:title="t55_fdiff_11" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="354.5,-150.5 354.5,-165.5 439.5,-165.5 439.5,-150.5 354.5,-150.5"/>
+<text text-anchor="middle" x="397" y="-154.3" font-family="Times,serif" font-size="14.00">t55_fdiff_11</text>
 </a>
 </g>
 </g>
 <!-- c_0_54 -->
 <g id="node2" class="node">
 <title>c_0_54</title>
-<g id="a_node2"><a xlink:href="c_0_54.html" xlink:title="{sk₁ ⊆ &#45;(1) ]....[ 1}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="313.5,-98.5 313.5,-113.5 426.5,-113.5 426.5,-98.5 313.5,-98.5"/>
-<text text-anchor="middle" x="370" y="-102.3" font-family="Times,serif" font-size="14.00">sk₁ ⊆ &#45;(1) ]....[ 1</text>
+<g id="a_node2"><a xlink:href="c_0_54.html" xlink:title="{sk₁ ⊆ &#45;(1) ]....[ 1}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="340.5,-98.5 340.5,-113.5 453.5,-113.5 453.5,-98.5 340.5,-98.5"/>
+<text text-anchor="middle" x="397" y="-102.3" font-family="Times,serif" font-size="14.00">sk₁ ⊆ &#45;(1) ]....[ 1</text>
 </a>
 </g>
 </g>
 <!-- t55_fdiff_11&#45;&gt;c_0_54 -->
 <g id="edge1" class="edge">
 <title>t55_fdiff_11&#45;&gt;c_0_54</title>
-<path fill="none" stroke="black" d="M370,-150.33C370,-150.33 370,-123.7 370,-123.7"/>
-<polygon fill="black" stroke="black" points="373.5,-123.7 370,-113.7 366.5,-123.7 373.5,-123.7"/>
-</g>
-<!-- c_0_85 -->
-<g id="node3" class="node">
-<title>c_0_85</title>
-<g id="a_node3"><a xlink:href="c_0_85.html" xlink:title="{is_differentiable_on(ℝ + ℝ + ℝ + arctan + arccot,sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="365.5,-31.5 365.5,-46.5 750.5,-46.5 750.5,-31.5 365.5,-31.5"/>
-<text text-anchor="middle" x="558" y="-35.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(ℝ + ℝ + ℝ + arctan + arccot,sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_54&#45;&gt;c_0_85 -->
-<g id="edge2" class="edge">
-<title>c_0_54&#45;&gt;c_0_85</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M396,-98.31C396,-98.31 396,-56.6 396,-56.6"/>
-<polygon fill="black" stroke="black" points="399.5,-56.6 396,-46.6 392.5,-56.6 399.5,-56.6"/>
+<path fill="none" stroke="black" d="M397,-150.33C397,-150.33 397,-123.7 397,-123.7"/>
+<polygon fill="black" stroke="black" points="400.5,-123.7 397,-113.7 393.5,-123.7 400.5,-123.7"/>
 </g>
 <!-- c_0_84 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_84</title>
-<g id="a_node4"><a xlink:href="c_0_84.html" xlink:title="{X₁ ∈ sk₁|⇊|((ℝ + ℝ + ℝ + arctan + arccot) `\| sk₁) . X₁ = 0}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-61.5 347.5,-61.5 347.5,-16.5 16.5,-16.5"/>
-<text text-anchor="middle" x="182" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ sk₁</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 347.5,-46.5 "/>
-<text text-anchor="middle" x="182" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 347.5,-31.5 "/>
-<text text-anchor="middle" x="182" y="-20.3" font-family="Times,serif" font-size="14.00">((ℝ + ℝ + ℝ + arctan + arccot) `| sk₁) . X₁ = 0</text>
+<g id="a_node3"><a xlink:href="c_0_84.html" xlink:title="{X₁ ∈ sk₁|⇊|((ℝ + ℝ + ℝ + arctan + arccot) `\| sk₁) . X₁ = 0}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="419.5,-16.5 419.5,-61.5 750.5,-61.5 750.5,-16.5 419.5,-16.5"/>
+<text text-anchor="middle" x="585" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ sk₁</text>
+<polyline fill="none" stroke="#7f7542" points="419.5,-46.5 750.5,-46.5 "/>
+<text text-anchor="middle" x="585" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="419.5,-31.5 750.5,-31.5 "/>
+<text text-anchor="middle" x="585" y="-20.3" font-family="Times,serif" font-size="14.00">((ℝ + ℝ + ℝ + arctan + arccot) `| sk₁) . X₁ = 0</text>
 </a>
 </g>
 </g>
 <!-- c_0_54&#45;&gt;c_0_84 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_54&#45;&gt;c_0_84</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M330.5,-98.31C330.5,-98.31 330.5,-71.76 330.5,-71.76"/>
-<polygon fill="black" stroke="black" points="334,-71.76 330.5,-61.76 327,-71.76 334,-71.76"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M436.5,-98.31C436.5,-98.31 436.5,-71.76 436.5,-71.76"/>
+<polygon fill="black" stroke="black" points="440,-71.76 436.5,-61.76 433,-71.76 440,-71.76"/>
+</g>
+<!-- c_0_85 -->
+<g id="node4" class="node">
+<title>c_0_85</title>
+<g id="a_node4"><a xlink:href="c_0_85.html" xlink:title="{is_differentiable_on(ℝ + ℝ + ℝ + arctan + arccot,sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-31.5 16.5,-46.5 401.5,-46.5 401.5,-31.5 16.5,-31.5"/>
+<text text-anchor="middle" x="209" y="-35.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(ℝ + ℝ + ℝ + arctan + arccot,sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_54&#45;&gt;c_0_85 -->
+<g id="edge3" class="edge">
+<title>c_0_54&#45;&gt;c_0_85</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M371,-98.31C371,-98.31 371,-56.6 371,-56.6"/>
+<polygon fill="black" stroke="black" points="374.5,-56.6 371,-46.6 367.5,-56.6 374.5,-56.6"/>
 </g>
 </g>
 </svg>

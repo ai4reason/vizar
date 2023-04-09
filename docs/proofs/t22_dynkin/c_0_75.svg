@@ -14,16 +14,16 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="451,-165 451,-257 629,-257 629,-165 451,-165"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="448,-165 448,-257 626,-257 626,-165 448,-165"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="393,-8 393,-145 687,-145 687,-8 393,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="390,-8 390,-145 684,-145 684,-8 390,-8"/>
 </g>
 <!-- c_0_66 -->
 <g id="node1" class="node">
 <title>c_0_66</title>
-<g id="a_node1"><a xlink:href="c_0_66.html" xlink:title="{sk₄ ∈ bool(sk₁)}" target="_parent">
+<g id="a_node1"><a xlink:href="c_0_66.html" xlink:title="{sk₄ ∈ bool(sk₁)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="968.5,-353 968.5,-368 1071.5,-368 1071.5,-353 968.5,-353"/>
 <text text-anchor="middle" x="1020" y="-356.8" font-family="Times,serif" font-size="14.00">sk₄ ∈ bool(sk₁)</text>
 </a>
@@ -32,30 +32,30 @@
 <!-- c_0_75 -->
 <g id="node7" class="node">
 <title>c_0_75</title>
-<g id="a_node7"><a xlink:href="c_0_75.html" xlink:title="{Dynkin_System(X₂,sk₁)|X₁ ∈ sk₂|sk₂ ⊆ X₂|⇊|sk₁ /\ X₁ /\ sk₄ ∈ X₂}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="459,-173.5 459,-248.5 621,-248.5 621,-173.5 459,-173.5"/>
-<text text-anchor="middle" x="540" y="-237.3" font-family="Times,serif" font-size="14.00">Dynkin_System(X₂,sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="459,-233.5 621,-233.5 "/>
-<text text-anchor="middle" x="540" y="-222.3" font-family="Times,serif" font-size="14.00">X₁ ∈ sk₂</text>
-<polyline fill="none" stroke="#7f7542" points="459,-218.5 621,-218.5 "/>
-<text text-anchor="middle" x="540" y="-207.3" font-family="Times,serif" font-size="14.00">sk₂ ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="459,-203.5 621,-203.5 "/>
-<text text-anchor="middle" x="540" y="-192.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="459,-188.5 621,-188.5 "/>
-<text text-anchor="middle" x="540" y="-177.3" font-family="Times,serif" font-size="14.00">sk₁ / X₁ / sk₄ ∈ X₂</text>
+<g id="a_node7"><a xlink:href="c_0_75.html" xlink:title="{Dynkin_System(X₂,sk₁)|X₁ ∈ sk₂|sk₂ ⊆ X₂|⇊|sk₁ /\ X₁ /\ sk₄ ∈ X₂}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="456,-173.5 456,-248.5 618,-248.5 618,-173.5 456,-173.5"/>
+<text text-anchor="middle" x="537" y="-237.3" font-family="Times,serif" font-size="14.00">Dynkin_System(X₂,sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="456,-233.5 618,-233.5 "/>
+<text text-anchor="middle" x="537" y="-222.3" font-family="Times,serif" font-size="14.00">X₁ ∈ sk₂</text>
+<polyline fill="none" stroke="#7f7542" points="456,-218.5 618,-218.5 "/>
+<text text-anchor="middle" x="537" y="-207.3" font-family="Times,serif" font-size="14.00">sk₂ ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="456,-203.5 618,-203.5 "/>
+<text text-anchor="middle" x="537" y="-192.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="456,-188.5 618,-188.5 "/>
+<text text-anchor="middle" x="537" y="-177.3" font-family="Times,serif" font-size="14.00">sk₁ / X₁ / sk₄ ∈ X₂</text>
 </a>
 </g>
 </g>
 <!-- c_0_66&#45;&gt;c_0_75 -->
 <g id="edge1" class="edge">
 <title>c_0_66&#45;&gt;c_0_75</title>
-<path fill="none" stroke="black" d="M1020,-352.88C1020,-322.42 1020,-211 1020,-211 1020,-211 631.15,-211 631.15,-211"/>
-<polygon fill="black" stroke="black" points="631.15,-207.5 621.15,-211 631.15,-214.5 631.15,-207.5"/>
+<path fill="none" stroke="black" d="M1020,-352.88C1020,-322.42 1020,-211 1020,-211 1020,-211 628.12,-211 628.12,-211"/>
+<polygon fill="black" stroke="black" points="628.12,-207.5 618.12,-211 628.12,-214.5 628.12,-207.5"/>
 </g>
 <!-- c_0_63 -->
 <g id="node2" class="node">
 <title>c_0_63</title>
-<g id="a_node2"><a xlink:href="c_0_63.html" xlink:title="{Dynkin_System(X₄,X₁)|X₂ ∈ X₅|X₃ ∈ bool(X₁)|X₃ ∈ generated_Dynkin_System(X₁,X₅)|X₅ ∈ bool(bool(X₁))|X₅ ⊆ X₄|cap&#45;closed(X₅)|⇊|X₁ /\ X₂ /\ X₃ ∈ X₄|X₁ = Ø}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_63.html" xlink:title="{Dynkin_System(X₄,X₁)|X₂ ∈ X₅|X₃ ∈ bool(X₁)|X₃ ∈ generated_Dynkin_System(X₁,X₅)|X₅ ∈ bool(bool(X₁))|X₅ ⊆ X₄|cap&#45;closed(X₅)|⇊|X₁ /\ X₂ /\ X₃ ∈ X₄|X₁ = Ø}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="680,-285.5 680,-435.5 950,-435.5 950,-285.5 680,-285.5"/>
 <text text-anchor="middle" x="815" y="-424.3" font-family="Times,serif" font-size="14.00">Dynkin_System(X₄,X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="680,-420.5 950,-420.5 "/>
@@ -82,97 +82,97 @@
 <!-- c_0_63&#45;&gt;c_0_75 -->
 <g id="edge2" class="edge">
 <title>c_0_63&#45;&gt;c_0_75</title>
-<path fill="none" stroke="black" d="M679.97,-318C644.85,-318 616.67,-318 616.67,-318 616.67,-318 616.67,-258.72 616.67,-258.72"/>
-<polygon fill="black" stroke="black" points="620.17,-258.72 616.67,-248.72 613.17,-258.72 620.17,-258.72"/>
-</g>
-<!-- c_0_50 -->
-<g id="node3" class="node">
-<title>c_0_50</title>
-<g id="a_node3"><a xlink:href="c_0_50.html" xlink:title="{sk₁ ≠ Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="608,-353 608,-368 662,-368 662,-353 608,-353"/>
-<text text-anchor="middle" x="635" y="-356.8" font-family="Times,serif" font-size="14.00">sk₁ ≠ Ø</text>
-</a>
-</g>
-</g>
-<!-- c_0_50&#45;&gt;c_0_75 -->
-<g id="edge3" class="edge">
-<title>c_0_50&#45;&gt;c_0_75</title>
-<path fill="none" stroke="black" d="M612.33,-352.88C612.33,-352.88 612.33,-258.52 612.33,-258.52"/>
-<polygon fill="black" stroke="black" points="615.83,-258.52 612.33,-248.52 608.83,-258.52 615.83,-258.52"/>
-</g>
-<!-- c_0_64 -->
-<g id="node4" class="node">
-<title>c_0_64</title>
-<g id="a_node4"><a xlink:href="c_0_64.html" xlink:title="{sk₄ ∈ generated_Dynkin_System(sk₁,sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="302,-353 302,-368 590,-368 590,-353 302,-353"/>
-<text text-anchor="middle" x="446" y="-356.8" font-family="Times,serif" font-size="14.00">sk₄ ∈ generated_Dynkin_System(sk₁,sk₂)</text>
-</a>
-</g>
-</g>
-<!-- c_0_64&#45;&gt;c_0_75 -->
-<g id="edge4" class="edge">
-<title>c_0_64&#45;&gt;c_0_75</title>
-<path fill="none" stroke="black" d="M524.5,-352.88C524.5,-352.88 524.5,-258.52 524.5,-258.52"/>
-<polygon fill="black" stroke="black" points="528,-258.52 524.5,-248.52 521,-258.52 528,-258.52"/>
+<path fill="none" stroke="black" d="M679.93,-318C635.54,-318 597.33,-318 597.33,-318 597.33,-318 597.33,-258.72 597.33,-258.72"/>
+<polygon fill="black" stroke="black" points="600.83,-258.72 597.33,-248.72 593.83,-258.72 600.83,-258.72"/>
 </g>
 <!-- c_0_65 -->
-<g id="node5" class="node">
+<g id="node3" class="node">
 <title>c_0_65</title>
-<g id="a_node5"><a xlink:href="c_0_65.html" xlink:title="{cap&#45;closed(sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="178,-353 178,-368 284,-368 284,-353 178,-353"/>
-<text text-anchor="middle" x="231" y="-356.8" font-family="Times,serif" font-size="14.00">cap&#45;closed(sk₂)</text>
+<g id="a_node3"><a xlink:href="c_0_65.html" xlink:title="{cap&#45;closed(sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="556,-353 556,-368 662,-368 662,-353 556,-353"/>
+<text text-anchor="middle" x="609" y="-356.8" font-family="Times,serif" font-size="14.00">cap&#45;closed(sk₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_65&#45;&gt;c_0_75 -->
-<g id="edge5" class="edge">
+<g id="edge3" class="edge">
 <title>c_0_65&#45;&gt;c_0_75</title>
-<path fill="none" stroke="black" d="M231,-352.71C231,-323.63 231,-223 231,-223 231,-223 448.81,-223 448.81,-223"/>
-<polygon fill="black" stroke="black" points="448.81,-226.5 458.81,-223 448.81,-219.5 448.81,-226.5"/>
+<path fill="none" stroke="black" d="M576.67,-352.88C576.67,-352.88 576.67,-258.52 576.67,-258.52"/>
+<polygon fill="black" stroke="black" points="580.17,-258.52 576.67,-248.52 573.17,-258.52 580.17,-258.52"/>
 </g>
 <!-- c_0_49 -->
-<g id="node6" class="node">
+<g id="node4" class="node">
 <title>c_0_49</title>
-<g id="a_node6"><a xlink:href="c_0_49.html" xlink:title="{sk₂ ∈ bool(bool(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-353 16.5,-368 159.5,-368 159.5,-353 16.5,-353"/>
-<text text-anchor="middle" x="88" y="-356.8" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(bool(sk₁))</text>
+<g id="a_node4"><a xlink:href="c_0_49.html" xlink:title="{sk₂ ∈ bool(bool(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="394.5,-353 394.5,-368 537.5,-368 537.5,-353 394.5,-353"/>
+<text text-anchor="middle" x="466" y="-356.8" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(bool(sk₁))</text>
 </a>
 </g>
 </g>
 <!-- c_0_49&#45;&gt;c_0_75 -->
-<g id="edge6" class="edge">
+<g id="edge4" class="edge">
 <title>c_0_49&#45;&gt;c_0_75</title>
-<path fill="none" stroke="black" d="M88,-352.66C88,-320.2 88,-198 88,-198 88,-198 448.93,-198 448.93,-198"/>
-<polygon fill="black" stroke="black" points="448.93,-201.5 458.93,-198 448.93,-194.5 448.93,-201.5"/>
+<path fill="none" stroke="black" d="M496.75,-352.88C496.75,-352.88 496.75,-258.52 496.75,-258.52"/>
+<polygon fill="black" stroke="black" points="500.25,-258.52 496.75,-248.52 493.25,-258.52 500.25,-258.52"/>
+</g>
+<!-- c_0_50 -->
+<g id="node5" class="node">
+<title>c_0_50</title>
+<g id="a_node5"><a xlink:href="c_0_50.html" xlink:title="{sk₁ ≠ Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="322,-353 322,-368 376,-368 376,-353 322,-353"/>
+<text text-anchor="middle" x="349" y="-356.8" font-family="Times,serif" font-size="14.00">sk₁ ≠ Ø</text>
+</a>
+</g>
+</g>
+<!-- c_0_50&#45;&gt;c_0_75 -->
+<g id="edge5" class="edge">
+<title>c_0_50&#45;&gt;c_0_75</title>
+<path fill="none" stroke="black" d="M349,-352.71C349,-323.63 349,-223 349,-223 349,-223 445.91,-223 445.91,-223"/>
+<polygon fill="black" stroke="black" points="445.91,-226.5 455.91,-223 445.91,-219.5 445.91,-226.5"/>
+</g>
+<!-- c_0_64 -->
+<g id="node6" class="node">
+<title>c_0_64</title>
+<g id="a_node6"><a xlink:href="c_0_64.html" xlink:title="{sk₄ ∈ generated_Dynkin_System(sk₁,sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-353 16,-368 304,-368 304,-353 16,-353"/>
+<text text-anchor="middle" x="160" y="-356.8" font-family="Times,serif" font-size="14.00">sk₄ ∈ generated_Dynkin_System(sk₁,sk₂)</text>
+</a>
+</g>
+</g>
+<!-- c_0_64&#45;&gt;c_0_75 -->
+<g id="edge6" class="edge">
+<title>c_0_64&#45;&gt;c_0_75</title>
+<path fill="none" stroke="black" d="M160,-352.66C160,-320.2 160,-198 160,-198 160,-198 445.66,-198 445.66,-198"/>
+<polygon fill="black" stroke="black" points="445.66,-201.5 455.66,-198 445.66,-194.5 445.66,-201.5"/>
 </g>
 <!-- c_0_83 -->
 <g id="node8" class="node">
 <title>c_0_83</title>
-<g id="a_node8"><a xlink:href="c_0_83.html" xlink:title="{DynSys(sk₁,X₂,X₃) = DynSys(sk₁,X₄,sk₄)|Dynkin_System(X₄,sk₁)|X₁ ∈ bool(sk₁)|X₁ ∈ sk₂|X₃ ∈ bool(sk₁)|sk₂ ⊆ X₄|⇊|X₁ ∈ DynSys(sk₁,X₂,X₃)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="401.5,-16.5 401.5,-136.5 678.5,-136.5 678.5,-16.5 401.5,-16.5"/>
-<text text-anchor="middle" x="540" y="-125.3" font-family="Times,serif" font-size="14.00">DynSys(sk₁,X₂,X₃) = DynSys(sk₁,X₄,sk₄)</text>
-<polyline fill="none" stroke="#7f7542" points="401.5,-121.5 678.5,-121.5 "/>
-<text text-anchor="middle" x="540" y="-110.3" font-family="Times,serif" font-size="14.00">Dynkin_System(X₄,sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="401.5,-106.5 678.5,-106.5 "/>
-<text text-anchor="middle" x="540" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="401.5,-91.5 678.5,-91.5 "/>
-<text text-anchor="middle" x="540" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ∈ sk₂</text>
-<polyline fill="none" stroke="#7f7542" points="401.5,-76.5 678.5,-76.5 "/>
-<text text-anchor="middle" x="540" y="-65.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="401.5,-61.5 678.5,-61.5 "/>
-<text text-anchor="middle" x="540" y="-50.3" font-family="Times,serif" font-size="14.00">sk₂ ⊆ X₄</text>
-<polyline fill="none" stroke="#7f7542" points="401.5,-46.5 678.5,-46.5 "/>
-<text text-anchor="middle" x="540" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="401.5,-31.5 678.5,-31.5 "/>
-<text text-anchor="middle" x="540" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ ∈ DynSys(sk₁,X₂,X₃)</text>
+<g id="a_node8"><a xlink:href="c_0_83.html" xlink:title="{DynSys(sk₁,X₂,X₃) = DynSys(sk₁,X₄,sk₄)|Dynkin_System(X₄,sk₁)|X₁ ∈ bool(sk₁)|X₁ ∈ sk₂|X₃ ∈ bool(sk₁)|sk₂ ⊆ X₄|⇊|X₁ ∈ DynSys(sk₁,X₂,X₃)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="398.5,-16.5 398.5,-136.5 675.5,-136.5 675.5,-16.5 398.5,-16.5"/>
+<text text-anchor="middle" x="537" y="-125.3" font-family="Times,serif" font-size="14.00">DynSys(sk₁,X₂,X₃) = DynSys(sk₁,X₄,sk₄)</text>
+<polyline fill="none" stroke="#7f7542" points="398.5,-121.5 675.5,-121.5 "/>
+<text text-anchor="middle" x="537" y="-110.3" font-family="Times,serif" font-size="14.00">Dynkin_System(X₄,sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="398.5,-106.5 675.5,-106.5 "/>
+<text text-anchor="middle" x="537" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="398.5,-91.5 675.5,-91.5 "/>
+<text text-anchor="middle" x="537" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ∈ sk₂</text>
+<polyline fill="none" stroke="#7f7542" points="398.5,-76.5 675.5,-76.5 "/>
+<text text-anchor="middle" x="537" y="-65.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="398.5,-61.5 675.5,-61.5 "/>
+<text text-anchor="middle" x="537" y="-50.3" font-family="Times,serif" font-size="14.00">sk₂ ⊆ X₄</text>
+<polyline fill="none" stroke="#7f7542" points="398.5,-46.5 675.5,-46.5 "/>
+<text text-anchor="middle" x="537" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="398.5,-31.5 675.5,-31.5 "/>
+<text text-anchor="middle" x="537" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ ∈ DynSys(sk₁,X₂,X₃)</text>
 </a>
 </g>
 </g>
 <!-- c_0_75&#45;&gt;c_0_83 -->
 <g id="edge7" class="edge">
 <title>c_0_75&#45;&gt;c_0_83</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M540,-173.18C540,-173.18 540,-146.69 540,-146.69"/>
-<polygon fill="black" stroke="black" points="543.5,-146.69 540,-136.69 536.5,-146.69 543.5,-146.69"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M537,-173.18C537,-173.18 537,-146.69 537,-146.69"/>
+<polygon fill="black" stroke="black" points="540.5,-146.69 537,-136.69 533.5,-146.69 540.5,-146.69"/>
 </g>
 </g>
 </svg>

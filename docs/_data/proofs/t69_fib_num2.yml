@@ -153,23 +153,23 @@ skolems:
   esk1_0:
     axiom: t69_fib_num2
     related:
-    - esk2_0
     - esk3_0
     - esk1_0
+    - esk2_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t69_fib_num2
     related:
-    - esk2_0
     - esk3_0
     - esk1_0
+    - esk2_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t69_fib_num2
     related:
-    - esk2_0
     - esk3_0
     - esk1_0
+    - esk2_0
     symbol: "sk\u2083"
 steps:
   c_0_100:
@@ -359,8 +359,8 @@ steps:
       r1_int_2: 1
       r1_nat_d: 1
     skolems:
-    - esk2_0
     - esk12_2
+    - esk2_0
     - esk3_0
   c_0_150:
     counts:
@@ -469,32 +469,32 @@ steps:
       v1_int_2: 1
       v7_ordinal1: 1
     skolems:
-    - esk2_0
     - esk12_2
+    - esk2_0
     - esk3_0
   c_0_174:
     counts:
       r1_int_2: 1
       v7_ordinal1: 1
     skolems:
-    - esk2_0
     - esk12_2
+    - esk2_0
     - esk3_0
   c_0_175:
     counts:
       r1_int_2: 1
       v1_int_2: 1
     skolems:
-    - esk2_0
     - esk12_2
+    - esk2_0
     - esk3_0
   c_0_176:
     counts:
       r1_int_2: 1
       r1_nat_d: 1
     skolems:
-    - esk2_0
     - esk12_2
+    - esk2_0
     - esk3_0
   c_0_177:
     counts:
@@ -550,8 +550,8 @@ steps:
       k1_pre_ff: 1
       r1_nat_d: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_189:
     counts:
       k1_pre_ff: 2
@@ -648,8 +648,8 @@ steps:
       k6_nat_d: 1
       r1_nat_d: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
   c_0_208:
     counts:

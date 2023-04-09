@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="380,-60 380,-92 488,-92 488,-60 380,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="151,-60 151,-92 259,-92 259,-60 151,-60"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,41 +19,41 @@
 <!-- t10_toprealb -->
 <g id="node1" class="node">
 <title>t10_toprealb</title>
-<g id="a_node1"><a xlink:href="t10_toprealb.html" xlink:title="t10_toprealb" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="388.5,-68.5 388.5,-83.5 479.5,-83.5 479.5,-68.5 388.5,-68.5"/>
-<text text-anchor="middle" x="434" y="-72.3" font-family="Times,serif" font-size="14.00">t10_toprealb</text>
+<g id="a_node1"><a xlink:href="t10_toprealb.html" xlink:title="t10_toprealb" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="159.5,-68.5 159.5,-83.5 250.5,-83.5 250.5,-68.5 159.5,-68.5"/>
+<text text-anchor="middle" x="205" y="-72.3" font-family="Times,serif" font-size="14.00">t10_toprealb</text>
 </a>
 </g>
-</g>
-<!-- c_0_116 -->
-<g id="node2" class="node">
-<title>c_0_116</title>
-<g id="a_node2"><a xlink:href="c_0_116.html" xlink:title="{sk₁ ∈ ℝ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="574.5,-16.5 574.5,-31.5 627.5,-31.5 627.5,-16.5 574.5,-16.5"/>
-<text text-anchor="middle" x="601" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℝ</text>
-</a>
-</g>
-</g>
-<!-- t10_toprealb&#45;&gt;c_0_116 -->
-<g id="edge1" class="edge">
-<title>t10_toprealb&#45;&gt;c_0_116</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M479.63,-76C529.08,-76 601,-76 601,-76 601,-76 601,-41.67 601,-41.67"/>
-<polygon fill="black" stroke="black" points="604.5,-41.67 601,-31.67 597.5,-41.67 604.5,-41.67"/>
 </g>
 <!-- c_0_114 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_114</title>
-<g id="a_node3"><a xlink:href="c_0_114.html" xlink:title="{¬ (SubSpace(Tcircle(2, 0. TOP&#45;REAL(2),sk₁),Trectangle(&#45;(sk₁),sk₁,&#45;(sk₁),sk₁)))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 556,-31.5 556,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="286" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (SubSpace(Tcircle(2, 0. TOP&#45;REAL(2),sk₁),Trectangle(&#45;(sk₁),sk₁,&#45;(sk₁),sk₁)))</text>
+<g id="a_node2"><a xlink:href="c_0_114.html" xlink:title="{¬ (SubSpace(Tcircle(2, 0. TOP&#45;REAL(2),sk₁),Trectangle(&#45;(sk₁),sk₁,&#45;(sk₁),sk₁)))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="88,-16.5 88,-31.5 628,-31.5 628,-16.5 88,-16.5"/>
+<text text-anchor="middle" x="358" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (SubSpace(Tcircle(2, 0. TOP&#45;REAL(2),sk₁),Trectangle(&#45;(sk₁),sk₁,&#45;(sk₁),sk₁)))</text>
 </a>
 </g>
 </g>
 <!-- t10_toprealb&#45;&gt;c_0_114 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t10_toprealb&#45;&gt;c_0_114</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M434,-68.33C434,-68.33 434,-41.7 434,-41.7"/>
-<polygon fill="black" stroke="black" points="437.5,-41.7 434,-31.7 430.5,-41.7 437.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M205,-68.33C205,-68.33 205,-41.7 205,-41.7"/>
+<polygon fill="black" stroke="black" points="208.5,-41.7 205,-31.7 201.5,-41.7 208.5,-41.7"/>
+</g>
+<!-- c_0_116 -->
+<g id="node3" class="node">
+<title>c_0_116</title>
+<g id="a_node3"><a xlink:href="c_0_116.html" xlink:title="{sk₁ ∈ ℝ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-31.5 69.5,-31.5 69.5,-16.5 16.5,-16.5"/>
+<text text-anchor="middle" x="43" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℝ</text>
+</a>
+</g>
+</g>
+<!-- t10_toprealb&#45;&gt;c_0_116 -->
+<g id="edge2" class="edge">
+<title>t10_toprealb&#45;&gt;c_0_116</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M159.44,-76C111.53,-76 43,-76 43,-76 43,-76 43,-41.67 43,-41.67"/>
+<polygon fill="black" stroke="black" points="46.5,-41.67 43,-31.67 39.5,-41.67 46.5,-41.67"/>
 </g>
 </g>
 </svg>

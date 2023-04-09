@@ -14,7 +14,7 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="50,-60 50,-92 166,-92 166,-60 50,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="49,-60 49,-92 167,-92 167,-60 49,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,7 +23,7 @@
 <!-- dt_k1_fib_num3 -->
 <g id="node1" class="node">
 <title>dt_k1_fib_num3</title>
-<g id="a_node1"><a xlink:href="dt_k1_fib_num3.html" xlink:title="dt_k1_fib_num3" target="_parent">
+<g id="a_node1"><a xlink:href="dt_k1_fib_num3.html" xlink:title="dt_k1_fib_num3" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="150,-143 150,-158 262,-158 262,-143 150,-143"/>
 <text text-anchor="middle" x="206" y="-146.8" font-family="Times,serif" font-size="14.00">dt_k1_fib_num3</text>
 </a>
@@ -32,22 +32,22 @@
 <!-- c_0_135 -->
 <g id="node4" class="node">
 <title>c_0_135</title>
-<g id="a_node4"><a xlink:href="c_0_135.html" xlink:title="{Lucas(C₁) ∈ ℕ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="58,-68.5 58,-83.5 158,-83.5 158,-68.5 58,-68.5"/>
-<text text-anchor="middle" x="108" y="-72.3" font-family="Times,serif" font-size="14.00">Lucas(C₁) ∈ ℕ</text>
+<g id="a_node4"><a xlink:href="c_0_135.html" xlink:title="{Lucas(N₁) ∈ ℕ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="57,-68.5 57,-83.5 159,-83.5 159,-68.5 57,-68.5"/>
+<text text-anchor="middle" x="108" y="-72.3" font-family="Times,serif" font-size="14.00">Lucas(N₁) ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- dt_k1_fib_num3&#45;&gt;c_0_135 -->
 <g id="edge1" class="edge">
 <title>dt_k1_fib_num3&#45;&gt;c_0_135</title>
-<path fill="none" stroke="black" d="M154,-142.81C154,-142.81 154,-93.76 154,-93.76"/>
-<polygon fill="black" stroke="black" points="157.5,-93.76 154,-83.76 150.5,-93.76 157.5,-93.76"/>
+<path fill="none" stroke="black" d="M154.5,-142.81C154.5,-142.81 154.5,-93.76 154.5,-93.76"/>
+<polygon fill="black" stroke="black" points="158,-93.76 154.5,-83.76 151,-93.76 158,-93.76"/>
 </g>
 <!-- c_0_127 -->
 <g id="node2" class="node">
 <title>c_0_127</title>
-<g id="a_node2"><a xlink:href="c_0_127.html" xlink:title="{ℕ ⊆ ℕ}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_127.html" xlink:title="{ℕ ⊆ ℕ}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="84.5,-143 84.5,-158 131.5,-158 131.5,-143 84.5,-143"/>
 <text text-anchor="middle" x="108" y="-146.8" font-family="Times,serif" font-size="14.00">ℕ ⊆ ℕ</text>
 </a>
@@ -62,7 +62,7 @@
 <!-- c_0_126 -->
 <g id="node3" class="node">
 <title>c_0_126</title>
-<g id="a_node3"><a xlink:href="c_0_126.html" xlink:title="{X₁ ⊆ ℕ|X₂ ∈ X₁|⇊|X₂ ∈ ℕ}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_126.html" xlink:title="{X₁ ⊆ ℕ|X₂ ∈ X₁|⇊|X₂ ∈ ℕ}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16,-120.5 16,-180.5 66,-180.5 66,-120.5 16,-120.5"/>
 <text text-anchor="middle" x="41" y="-169.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ ℕ</text>
 <polyline fill="none" stroke="#7f7542" points="16,-165.5 66,-165.5 "/>
@@ -77,13 +77,13 @@
 <!-- c_0_126&#45;&gt;c_0_135 -->
 <g id="edge3" class="edge">
 <title>c_0_126&#45;&gt;c_0_135</title>
-<path fill="none" stroke="black" d="M62,-120.2C62,-120.2 62,-93.59 62,-93.59"/>
-<polygon fill="black" stroke="black" points="65.5,-93.59 62,-83.59 58.5,-93.59 65.5,-93.59"/>
+<path fill="none" stroke="black" d="M61.5,-120.2C61.5,-120.2 61.5,-93.59 61.5,-93.59"/>
+<polygon fill="black" stroke="black" points="65,-93.59 61.5,-83.59 58,-93.59 65,-93.59"/>
 </g>
 <!-- c_0_137 -->
 <g id="node5" class="node">
 <title>c_0_137</title>
-<g id="a_node5"><a xlink:href="c_0_137.html" xlink:title="{¬ (Fib(sk₁) ∈ ℕ)}" target="_parent">
+<g id="a_node5"><a xlink:href="c_0_137.html" xlink:title="{¬ (Fib(sk₁) ∈ ℕ)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="50.5,-16.5 50.5,-31.5 165.5,-31.5 165.5,-16.5 50.5,-16.5"/>
 <text text-anchor="middle" x="108" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (Fib(sk₁) ∈ ℕ)</text>
 </a>

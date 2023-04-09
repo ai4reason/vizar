@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="236,-442 236,-474 338,-474 338,-442 236,-442"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="245,-442 245,-474 347,-474 347,-442 245,-442"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="218,-330 218,-422 356,-422 356,-330 218,-330"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="227,-330 227,-422 365,-422 365,-330 227,-330"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,134 +23,134 @@
 <!-- t2_subset_1 -->
 <g id="node1" class="node">
 <title>t2_subset_1</title>
-<g id="a_node1"><a xlink:href="t2_subset_1.html" xlink:title="t2_subset_1" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="244.5,-450.5 244.5,-465.5 329.5,-465.5 329.5,-450.5 244.5,-450.5"/>
-<text text-anchor="middle" x="287" y="-454.3" font-family="Times,serif" font-size="14.00">t2_subset_1</text>
+<g id="a_node1"><a xlink:href="t2_subset_1.html" xlink:title="t2_subset_1" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="253.5,-450.5 253.5,-465.5 338.5,-465.5 338.5,-450.5 253.5,-450.5"/>
+<text text-anchor="middle" x="296" y="-454.3" font-family="Times,serif" font-size="14.00">t2_subset_1</text>
 </a>
 </g>
 </g>
 <!-- c_0_35 -->
 <g id="node2" class="node">
 <title>c_0_35</title>
-<g id="a_node2"><a xlink:href="c_0_35.html" xlink:title="{X₂ ∈ bool(X₁)|X₃ ∈ bool(X₁)|⇊|X₂ ⊆ X₃|sk₅(X₁,X₂,X₃) ∈ X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="226.5,-338.5 226.5,-413.5 347.5,-413.5 347.5,-338.5 226.5,-338.5"/>
-<text text-anchor="middle" x="287" y="-402.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="226.5,-398.5 347.5,-398.5 "/>
-<text text-anchor="middle" x="287" y="-387.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="226.5,-383.5 347.5,-383.5 "/>
-<text text-anchor="middle" x="287" y="-372.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="226.5,-368.5 347.5,-368.5 "/>
-<text text-anchor="middle" x="287" y="-357.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ X₃</text>
-<polyline fill="none" stroke="#7f7542" points="226.5,-353.5 347.5,-353.5 "/>
-<text text-anchor="middle" x="287" y="-342.3" font-family="Times,serif" font-size="14.00">sk₅(X₁,X₂,X₃) ∈ X₂</text>
+<g id="a_node2"><a xlink:href="c_0_35.html" xlink:title="{X₂ ∈ bool(X₁)|X₃ ∈ bool(X₁)|⇊|X₂ ⊆ X₃|sk₅(X₁,X₂,X₃) ∈ X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="235.5,-338.5 235.5,-413.5 356.5,-413.5 356.5,-338.5 235.5,-338.5"/>
+<text text-anchor="middle" x="296" y="-402.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="235.5,-398.5 356.5,-398.5 "/>
+<text text-anchor="middle" x="296" y="-387.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="235.5,-383.5 356.5,-383.5 "/>
+<text text-anchor="middle" x="296" y="-372.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="235.5,-368.5 356.5,-368.5 "/>
+<text text-anchor="middle" x="296" y="-357.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ X₃</text>
+<polyline fill="none" stroke="#7f7542" points="235.5,-353.5 356.5,-353.5 "/>
+<text text-anchor="middle" x="296" y="-342.3" font-family="Times,serif" font-size="14.00">sk₅(X₁,X₂,X₃) ∈ X₂</text>
 </a>
 </g>
 </g>
 <!-- t2_subset_1&#45;&gt;c_0_35 -->
 <g id="edge1" class="edge">
 <title>t2_subset_1&#45;&gt;c_0_35</title>
-<path fill="none" stroke="black" d="M287,-450.43C287,-450.43 287,-423.67 287,-423.67"/>
-<polygon fill="black" stroke="black" points="290.5,-423.67 287,-413.67 283.5,-423.67 290.5,-423.67"/>
-</g>
-<!-- c_0_42 -->
-<g id="node3" class="node">
-<title>c_0_42</title>
-<g id="a_node3"><a xlink:href="c_0_42.html" xlink:title="{Abelian(X₁)|Ball(X₁,X₂,X₃) ∈ bool(X₅)|RealUnitarySpace&#45;like(X₁)|UNITSTR(X₁)|X₂ ∈ carrier(X₁)|X₃ ∈ ℝ|X₃ ≤ dist(X₁,X₂,sk₅(X₅,Ball(X₁,X₂,X₃),X₄))|X₄ ∈ bool(X₅)|add&#45;associative(X₁)|right_complementable(X₁)|right_zeroed(X₁)|scalar&#45;associative(X₁)|scalar&#45;distributive(X₁)|scalar&#45;unital(X₁)|sk₅(X₅,Ball(X₁,X₂,X₃),X₄) ∈ carrier(X₁)|vector&#45;distributive(X₁)|⇊|Ball(X₁,X₂,X₃) ⊆ X₄|empty(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="292,-16.5 292,-301.5 568,-301.5 568,-16.5 292,-16.5"/>
-<text text-anchor="middle" x="430" y="-290.3" font-family="Times,serif" font-size="14.00">Abelian(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-286.5 568,-286.5 "/>
-<text text-anchor="middle" x="430" y="-275.3" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,X₃) ∈ bool(X₅)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-271.5 568,-271.5 "/>
-<text text-anchor="middle" x="430" y="-260.3" font-family="Times,serif" font-size="14.00">RealUnitarySpace&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-256.5 568,-256.5 "/>
-<text text-anchor="middle" x="430" y="-245.3" font-family="Times,serif" font-size="14.00">UNITSTR(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-241.5 568,-241.5 "/>
-<text text-anchor="middle" x="430" y="-230.3" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-226.5 568,-226.5 "/>
-<text text-anchor="middle" x="430" y="-215.3" font-family="Times,serif" font-size="14.00">X₃ ∈ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="292,-211.5 568,-211.5 "/>
-<text text-anchor="middle" x="430" y="-200.3" font-family="Times,serif" font-size="14.00">X₃ ≤ dist(X₁,X₂,sk₅(X₅,Ball(X₁,X₂,X₃),X₄))</text>
-<polyline fill="none" stroke="#7f7542" points="292,-196.5 568,-196.5 "/>
-<text text-anchor="middle" x="430" y="-185.3" font-family="Times,serif" font-size="14.00">X₄ ∈ bool(X₅)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-181.5 568,-181.5 "/>
-<text text-anchor="middle" x="430" y="-170.3" font-family="Times,serif" font-size="14.00">add&#45;associative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-166.5 568,-166.5 "/>
-<text text-anchor="middle" x="430" y="-155.3" font-family="Times,serif" font-size="14.00">right_complementable(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-151.5 568,-151.5 "/>
-<text text-anchor="middle" x="430" y="-140.3" font-family="Times,serif" font-size="14.00">right_zeroed(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-136.5 568,-136.5 "/>
-<text text-anchor="middle" x="430" y="-125.3" font-family="Times,serif" font-size="14.00">scalar&#45;associative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-121.5 568,-121.5 "/>
-<text text-anchor="middle" x="430" y="-110.3" font-family="Times,serif" font-size="14.00">scalar&#45;distributive(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-106.5 568,-106.5 "/>
-<text text-anchor="middle" x="430" y="-95.3" font-family="Times,serif" font-size="14.00">scalar&#45;unital(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-91.5 568,-91.5 "/>
-<text text-anchor="middle" x="430" y="-80.3" font-family="Times,serif" font-size="14.00">sk₅(X₅,Ball(X₁,X₂,X₃),X₄) ∈ carrier(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-76.5 568,-76.5 "/>
-<text text-anchor="middle" x="430" y="-65.3" font-family="Times,serif" font-size="14.00">vector&#45;distributive(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="292,-61.5 568,-61.5 "/>
-<text text-anchor="middle" x="430" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="292,-46.5 568,-46.5 "/>
-<text text-anchor="middle" x="430" y="-35.3" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,X₃) ⊆ X₄</text>
-<polyline fill="none" stroke="#7f7542" points="292,-31.5 568,-31.5 "/>
-<text text-anchor="middle" x="430" y="-20.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_35&#45;&gt;c_0_42 -->
-<g id="edge2" class="edge">
-<title>c_0_35&#45;&gt;c_0_42</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M319.75,-338.2C319.75,-338.2 319.75,-311.71 319.75,-311.71"/>
-<polygon fill="black" stroke="black" points="323.25,-311.71 319.75,-301.71 316.25,-311.71 323.25,-311.71"/>
+<path fill="none" stroke="black" d="M296,-450.43C296,-450.43 296,-423.67 296,-423.67"/>
+<polygon fill="black" stroke="black" points="299.5,-423.67 296,-413.67 292.5,-423.67 299.5,-423.67"/>
 </g>
 <!-- c_0_44 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_44</title>
-<g id="a_node4"><a xlink:href="c_0_44.html" xlink:title="{Abelian(X₁)|Ball(X₁,X₂,X₃) ∈ bool(X₅)|RealUnitarySpace&#45;like(X₁)|UNITSTR(X₁)|X₂ ∈ carrier(X₁)|X₃ ∈ ℝ|X₄ ∈ bool(X₅)|add&#45;associative(X₁)|right_complementable(X₁)|right_zeroed(X₁)|scalar&#45;associative(X₁)|scalar&#45;distributive(X₁)|scalar&#45;unital(X₁)|vector&#45;distributive(X₁)|⇊|Ball(X₁,X₂,X₃) ⊆ X₄|empty(X₁)|sk₅(X₅,Ball(X₁,X₂,X₃),X₄) ∈ carrier(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-24 16.5,-294 273.5,-294 273.5,-24 16.5,-24"/>
-<text text-anchor="middle" x="145" y="-282.8" font-family="Times,serif" font-size="14.00">Abelian(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-279 273.5,-279 "/>
-<text text-anchor="middle" x="145" y="-267.8" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,X₃) ∈ bool(X₅)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-264 273.5,-264 "/>
-<text text-anchor="middle" x="145" y="-252.8" font-family="Times,serif" font-size="14.00">RealUnitarySpace&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-249 273.5,-249 "/>
-<text text-anchor="middle" x="145" y="-237.8" font-family="Times,serif" font-size="14.00">UNITSTR(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-234 273.5,-234 "/>
-<text text-anchor="middle" x="145" y="-222.8" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-219 273.5,-219 "/>
-<text text-anchor="middle" x="145" y="-207.8" font-family="Times,serif" font-size="14.00">X₃ ∈ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-204 273.5,-204 "/>
-<text text-anchor="middle" x="145" y="-192.8" font-family="Times,serif" font-size="14.00">X₄ ∈ bool(X₅)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-189 273.5,-189 "/>
-<text text-anchor="middle" x="145" y="-177.8" font-family="Times,serif" font-size="14.00">add&#45;associative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-174 273.5,-174 "/>
-<text text-anchor="middle" x="145" y="-162.8" font-family="Times,serif" font-size="14.00">right_complementable(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-159 273.5,-159 "/>
-<text text-anchor="middle" x="145" y="-147.8" font-family="Times,serif" font-size="14.00">right_zeroed(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-144 273.5,-144 "/>
-<text text-anchor="middle" x="145" y="-132.8" font-family="Times,serif" font-size="14.00">scalar&#45;associative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-129 273.5,-129 "/>
-<text text-anchor="middle" x="145" y="-117.8" font-family="Times,serif" font-size="14.00">scalar&#45;distributive(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-114 273.5,-114 "/>
-<text text-anchor="middle" x="145" y="-102.8" font-family="Times,serif" font-size="14.00">scalar&#45;unital(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-99 273.5,-99 "/>
-<text text-anchor="middle" x="145" y="-87.8" font-family="Times,serif" font-size="14.00">vector&#45;distributive(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-84 273.5,-84 "/>
-<text text-anchor="middle" x="145" y="-72.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-69 273.5,-69 "/>
-<text text-anchor="middle" x="145" y="-57.8" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,X₃) ⊆ X₄</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-54 273.5,-54 "/>
-<text text-anchor="middle" x="145" y="-42.8" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-39 273.5,-39 "/>
-<text text-anchor="middle" x="145" y="-27.8" font-family="Times,serif" font-size="14.00">sk₅(X₅,Ball(X₁,X₂,X₃),X₄) ∈ carrier(X₁)</text>
+<g id="a_node3"><a xlink:href="c_0_44.html" xlink:title="{Abelian(X₁)|Ball(X₁,X₂,X₃) ∈ bool(X₅)|RealUnitarySpace&#45;like(X₁)|UNITSTR(X₁)|X₂ ∈ carrier(X₁)|X₃ ∈ ℝ|X₄ ∈ bool(X₅)|add&#45;associative(X₁)|right_complementable(X₁)|right_zeroed(X₁)|scalar&#45;associative(X₁)|scalar&#45;distributive(X₁)|scalar&#45;unital(X₁)|vector&#45;distributive(X₁)|⇊|Ball(X₁,X₂,X₃) ⊆ X₄|empty(X₁)|sk₅(X₅,Ball(X₁,X₂,X₃),X₄) ∈ carrier(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="310.5,-24 310.5,-294 567.5,-294 567.5,-24 310.5,-24"/>
+<text text-anchor="middle" x="439" y="-282.8" font-family="Times,serif" font-size="14.00">Abelian(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-279 567.5,-279 "/>
+<text text-anchor="middle" x="439" y="-267.8" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,X₃) ∈ bool(X₅)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-264 567.5,-264 "/>
+<text text-anchor="middle" x="439" y="-252.8" font-family="Times,serif" font-size="14.00">RealUnitarySpace&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-249 567.5,-249 "/>
+<text text-anchor="middle" x="439" y="-237.8" font-family="Times,serif" font-size="14.00">UNITSTR(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-234 567.5,-234 "/>
+<text text-anchor="middle" x="439" y="-222.8" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-219 567.5,-219 "/>
+<text text-anchor="middle" x="439" y="-207.8" font-family="Times,serif" font-size="14.00">X₃ ∈ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-204 567.5,-204 "/>
+<text text-anchor="middle" x="439" y="-192.8" font-family="Times,serif" font-size="14.00">X₄ ∈ bool(X₅)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-189 567.5,-189 "/>
+<text text-anchor="middle" x="439" y="-177.8" font-family="Times,serif" font-size="14.00">add&#45;associative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-174 567.5,-174 "/>
+<text text-anchor="middle" x="439" y="-162.8" font-family="Times,serif" font-size="14.00">right_complementable(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-159 567.5,-159 "/>
+<text text-anchor="middle" x="439" y="-147.8" font-family="Times,serif" font-size="14.00">right_zeroed(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-144 567.5,-144 "/>
+<text text-anchor="middle" x="439" y="-132.8" font-family="Times,serif" font-size="14.00">scalar&#45;associative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-129 567.5,-129 "/>
+<text text-anchor="middle" x="439" y="-117.8" font-family="Times,serif" font-size="14.00">scalar&#45;distributive(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-114 567.5,-114 "/>
+<text text-anchor="middle" x="439" y="-102.8" font-family="Times,serif" font-size="14.00">scalar&#45;unital(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-99 567.5,-99 "/>
+<text text-anchor="middle" x="439" y="-87.8" font-family="Times,serif" font-size="14.00">vector&#45;distributive(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-84 567.5,-84 "/>
+<text text-anchor="middle" x="439" y="-72.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-69 567.5,-69 "/>
+<text text-anchor="middle" x="439" y="-57.8" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,X₃) ⊆ X₄</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-54 567.5,-54 "/>
+<text text-anchor="middle" x="439" y="-42.8" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="310.5,-39 567.5,-39 "/>
+<text text-anchor="middle" x="439" y="-27.8" font-family="Times,serif" font-size="14.00">sk₅(X₅,Ball(X₁,X₂,X₃),X₄) ∈ carrier(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_35&#45;&gt;c_0_44 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_35&#45;&gt;c_0_44</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M250,-338.2C250,-338.2 250,-304.06 250,-304.06"/>
-<polygon fill="black" stroke="black" points="253.5,-304.06 250,-294.06 246.5,-304.06 253.5,-304.06"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M333.5,-338.2C333.5,-338.2 333.5,-304.06 333.5,-304.06"/>
+<polygon fill="black" stroke="black" points="337,-304.06 333.5,-294.06 330,-304.06 337,-304.06"/>
+</g>
+<!-- c_0_42 -->
+<g id="node4" class="node">
+<title>c_0_42</title>
+<g id="a_node4"><a xlink:href="c_0_42.html" xlink:title="{Abelian(X₁)|Ball(X₁,X₂,X₃) ∈ bool(X₅)|RealUnitarySpace&#45;like(X₁)|UNITSTR(X₁)|X₂ ∈ carrier(X₁)|X₃ ∈ ℝ|X₃ ≤ dist(X₁,X₂,sk₅(X₅,Ball(X₁,X₂,X₃),X₄))|X₄ ∈ bool(X₅)|add&#45;associative(X₁)|right_complementable(X₁)|right_zeroed(X₁)|scalar&#45;associative(X₁)|scalar&#45;distributive(X₁)|scalar&#45;unital(X₁)|sk₅(X₅,Ball(X₁,X₂,X₃),X₄) ∈ carrier(X₁)|vector&#45;distributive(X₁)|⇊|Ball(X₁,X₂,X₃) ⊆ X₄|empty(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-301.5 292,-301.5 292,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="154" y="-290.3" font-family="Times,serif" font-size="14.00">Abelian(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-286.5 292,-286.5 "/>
+<text text-anchor="middle" x="154" y="-275.3" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,X₃) ∈ bool(X₅)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-271.5 292,-271.5 "/>
+<text text-anchor="middle" x="154" y="-260.3" font-family="Times,serif" font-size="14.00">RealUnitarySpace&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-256.5 292,-256.5 "/>
+<text text-anchor="middle" x="154" y="-245.3" font-family="Times,serif" font-size="14.00">UNITSTR(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-241.5 292,-241.5 "/>
+<text text-anchor="middle" x="154" y="-230.3" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-226.5 292,-226.5 "/>
+<text text-anchor="middle" x="154" y="-215.3" font-family="Times,serif" font-size="14.00">X₃ ∈ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="16,-211.5 292,-211.5 "/>
+<text text-anchor="middle" x="154" y="-200.3" font-family="Times,serif" font-size="14.00">X₃ ≤ dist(X₁,X₂,sk₅(X₅,Ball(X₁,X₂,X₃),X₄))</text>
+<polyline fill="none" stroke="#7f7542" points="16,-196.5 292,-196.5 "/>
+<text text-anchor="middle" x="154" y="-185.3" font-family="Times,serif" font-size="14.00">X₄ ∈ bool(X₅)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-181.5 292,-181.5 "/>
+<text text-anchor="middle" x="154" y="-170.3" font-family="Times,serif" font-size="14.00">add&#45;associative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-166.5 292,-166.5 "/>
+<text text-anchor="middle" x="154" y="-155.3" font-family="Times,serif" font-size="14.00">right_complementable(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-151.5 292,-151.5 "/>
+<text text-anchor="middle" x="154" y="-140.3" font-family="Times,serif" font-size="14.00">right_zeroed(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-136.5 292,-136.5 "/>
+<text text-anchor="middle" x="154" y="-125.3" font-family="Times,serif" font-size="14.00">scalar&#45;associative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-121.5 292,-121.5 "/>
+<text text-anchor="middle" x="154" y="-110.3" font-family="Times,serif" font-size="14.00">scalar&#45;distributive(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-106.5 292,-106.5 "/>
+<text text-anchor="middle" x="154" y="-95.3" font-family="Times,serif" font-size="14.00">scalar&#45;unital(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-91.5 292,-91.5 "/>
+<text text-anchor="middle" x="154" y="-80.3" font-family="Times,serif" font-size="14.00">sk₅(X₅,Ball(X₁,X₂,X₃),X₄) ∈ carrier(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-76.5 292,-76.5 "/>
+<text text-anchor="middle" x="154" y="-65.3" font-family="Times,serif" font-size="14.00">vector&#45;distributive(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-61.5 292,-61.5 "/>
+<text text-anchor="middle" x="154" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-46.5 292,-46.5 "/>
+<text text-anchor="middle" x="154" y="-35.3" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,X₃) ⊆ X₄</text>
+<polyline fill="none" stroke="#7f7542" points="16,-31.5 292,-31.5 "/>
+<text text-anchor="middle" x="154" y="-20.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_35&#45;&gt;c_0_42 -->
+<g id="edge3" class="edge">
+<title>c_0_35&#45;&gt;c_0_42</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M263.75,-338.2C263.75,-338.2 263.75,-311.71 263.75,-311.71"/>
+<polygon fill="black" stroke="black" points="267.25,-311.71 263.75,-301.71 260.25,-311.71 267.25,-311.71"/>
 </g>
 </g>
 </svg>

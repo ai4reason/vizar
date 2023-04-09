@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="171,-172 171,-234 335,-234 335,-172 171,-172"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="186,-172 186,-234 350,-234 350,-172 186,-172"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
@@ -20,53 +20,53 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-100 598,-100 598,-8 8,-8"/>
 </g>
-<!-- c_0_44 -->
+<!-- t22_dynkin -->
 <g id="node1" class="node">
-<title>c_0_44</title>
-<g id="a_node1"><a xlink:href="c_0_44.html" xlink:title="{X₁ ∈ X₂|⇊|X₁ ∈ X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="277,-180.5 277,-225.5 327,-225.5 327,-180.5 277,-180.5"/>
-<text text-anchor="middle" x="302" y="-214.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="277,-210.5 327,-210.5 "/>
-<text text-anchor="middle" x="302" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="277,-195.5 327,-195.5 "/>
-<text text-anchor="middle" x="302" y="-184.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+<title>t22_dynkin</title>
+<g id="a_node1"><a xlink:href="t22_dynkin.html" xlink:title="t22_dynkin" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="262.5,-195.5 262.5,-210.5 341.5,-210.5 341.5,-195.5 262.5,-195.5"/>
+<text text-anchor="middle" x="302" y="-199.3" font-family="Times,serif" font-size="14.00">t22_dynkin</text>
 </a>
 </g>
 </g>
 <!-- c_0_64 -->
 <g id="node3" class="node">
 <title>c_0_64</title>
-<g id="a_node3"><a xlink:href="c_0_64.html" xlink:title="{sk₄ ∈ generated_Dynkin_System(sk₁,sk₂)}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_64.html" xlink:title="{sk₄ ∈ generated_Dynkin_System(sk₁,sk₂)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="117,-128.5 117,-143.5 405,-143.5 405,-128.5 117,-128.5"/>
 <text text-anchor="middle" x="261" y="-132.3" font-family="Times,serif" font-size="14.00">sk₄ ∈ generated_Dynkin_System(sk₁,sk₂)</text>
 </a>
 </g>
 </g>
-<!-- c_0_44&#45;&gt;c_0_64 -->
+<!-- t22_dynkin&#45;&gt;c_0_64 -->
 <g id="edge1" class="edge">
-<title>c_0_44&#45;&gt;c_0_64</title>
-<path fill="none" stroke="black" d="M302,-180.32C302,-180.32 302,-153.59 302,-153.59"/>
-<polygon fill="black" stroke="black" points="305.5,-153.59 302,-143.59 298.5,-153.59 305.5,-153.59"/>
+<title>t22_dynkin&#45;&gt;c_0_64</title>
+<path fill="none" stroke="black" d="M302,-195.31C302,-195.31 302,-153.6 302,-153.6"/>
+<polygon fill="black" stroke="black" points="305.5,-153.6 302,-143.6 298.5,-153.6 305.5,-153.6"/>
 </g>
-<!-- t22_dynkin -->
+<!-- c_0_44 -->
 <g id="node2" class="node">
-<title>t22_dynkin</title>
-<g id="a_node2"><a xlink:href="t22_dynkin.html" xlink:title="t22_dynkin" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="179.5,-195.5 179.5,-210.5 258.5,-210.5 258.5,-195.5 179.5,-195.5"/>
-<text text-anchor="middle" x="219" y="-199.3" font-family="Times,serif" font-size="14.00">t22_dynkin</text>
+<title>c_0_44</title>
+<g id="a_node2"><a xlink:href="c_0_44.html" xlink:title="{X₁ ∈ X₂|⇊|X₁ ∈ X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="194,-180.5 194,-225.5 244,-225.5 244,-180.5 194,-180.5"/>
+<text text-anchor="middle" x="219" y="-214.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="194,-210.5 244,-210.5 "/>
+<text text-anchor="middle" x="219" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="194,-195.5 244,-195.5 "/>
+<text text-anchor="middle" x="219" y="-184.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
 </a>
 </g>
 </g>
-<!-- t22_dynkin&#45;&gt;c_0_64 -->
+<!-- c_0_44&#45;&gt;c_0_64 -->
 <g id="edge2" class="edge">
-<title>t22_dynkin&#45;&gt;c_0_64</title>
-<path fill="none" stroke="black" d="M219,-195.31C219,-195.31 219,-153.6 219,-153.6"/>
-<polygon fill="black" stroke="black" points="222.5,-153.6 219,-143.6 215.5,-153.6 222.5,-153.6"/>
+<title>c_0_44&#45;&gt;c_0_64</title>
+<path fill="none" stroke="black" d="M219,-180.32C219,-180.32 219,-153.59 219,-153.59"/>
+<polygon fill="black" stroke="black" points="222.5,-153.59 219,-143.59 215.5,-153.59 222.5,-153.59"/>
 </g>
 <!-- c_0_123 -->
 <g id="node4" class="node">
 <title>c_0_123</title>
-<g id="a_node4"><a xlink:href="c_0_123.html" xlink:title="{Dynkin_System(generated_Dynkin_System(sk₁,sk₂),sk₁)|sk₂ ⊆ generated_Dynkin_System(sk₁,sk₂)|⇊|⊥}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_123.html" xlink:title="{Dynkin_System(generated_Dynkin_System(sk₁,sk₂),sk₁)|sk₂ ⊆ generated_Dynkin_System(sk₁,sk₂)|⇊|⊥}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="196,-24 196,-84 590,-84 590,-24 196,-24"/>
 <text text-anchor="middle" x="393" y="-72.8" font-family="Times,serif" font-size="14.00">Dynkin_System(generated_Dynkin_System(sk₁,sk₂),sk₁)</text>
 <polyline fill="none" stroke="#7f7542" points="196,-69 590,-69 "/>
@@ -87,7 +87,7 @@
 <!-- c_0_75 -->
 <g id="node5" class="node">
 <title>c_0_75</title>
-<g id="a_node5"><a xlink:href="c_0_75.html" xlink:title="{Dynkin_System(X₂,sk₁)|X₁ ∈ sk₂|sk₂ ⊆ X₂|⇊|sk₁ /\ X₁ /\ sk₄ ∈ X₂}" target="_parent">
+<g id="a_node5"><a xlink:href="c_0_75.html" xlink:title="{Dynkin_System(X₂,sk₁)|X₁ ∈ sk₂|sk₂ ⊆ X₂|⇊|sk₁ /\ X₁ /\ sk₄ ∈ X₂}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-91.5 178,-91.5 178,-16.5 16,-16.5"/>
 <text text-anchor="middle" x="97" y="-80.3" font-family="Times,serif" font-size="14.00">Dynkin_System(X₂,sk₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-76.5 178,-76.5 "/>

@@ -113,22 +113,22 @@ skolems:
     axiom: t27_nat_2
     related:
     - esk1_0
-    - esk3_0
     - esk2_0
+    - esk3_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t27_nat_2
     related:
     - esk1_0
-    - esk3_0
     - esk2_0
+    - esk3_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t27_nat_2
     related:
     - esk1_0
-    - esk3_0
     - esk2_0
+    - esk3_0
     symbol: "sk\u2083"
   esk5_0:
     axiom: rc4_xreal_0
@@ -178,16 +178,16 @@ steps:
       k5_int_1: 1
       v7_ordinal1: 1
     skolems:
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_109:
     counts:
       k3_nat_d: 3
       k3_xcmplx_0: 1
     skolems:
     - esk1_0
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_111:
     counts:
       v1_xcmplx_0: 1
@@ -251,8 +251,8 @@ steps:
       r1_xxreal_0: 1
       v1_int_1: 1
     skolems:
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_122:
     counts:
       v1_int_1: 1
@@ -264,8 +264,8 @@ steps:
       k5_int_1: 1
     skolems:
     - esk1_0
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_124:
     counts:
       k3_nat_d: 1
@@ -273,8 +273,8 @@ steps:
       k5_int_1: 1
     skolems:
     - esk1_0
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_126:
     counts:
       k1_xboole_0: 1
@@ -349,8 +349,8 @@ steps:
       v7_ordinal1: 1
     skolems:
     - esk1_0
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_145:
     counts:
       k1_xboole_0: 1
@@ -577,8 +577,8 @@ steps:
       k3_xcmplx_0: 1
       v7_ordinal1: 1
     skolems:
-    - esk3_0
     - esk2_0
+    - esk3_0
   c_0_93:
     counts:
       k2_xcmplx_0: 1

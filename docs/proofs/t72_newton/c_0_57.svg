@@ -14,16 +14,16 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="61,-105 61,-167 123,-167 123,-105 61,-105"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="59,-105 59,-167 125,-167 125,-105 59,-105"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="46,-8 46,-85 138,-85 138,-8 46,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="44,-8 44,-85 140,-85 140,-8 44,-8"/>
 </g>
 <!-- redefinition_r1_nat_d -->
 <g id="node1" class="node">
 <title>redefinition_r1_nat_d</title>
-<g id="a_node1"><a xlink:href="redefinition_r1_nat_d.html" xlink:title="redefinition_r1_nat_d" target="_parent">
+<g id="a_node1"><a xlink:href="redefinition_r1_nat_d.html" xlink:title="redefinition_r1_nat_d" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="16.5,-195.5 16.5,-210.5 167.5,-210.5 167.5,-195.5 16.5,-195.5"/>
 <text text-anchor="middle" x="92" y="-199.3" font-family="Times,serif" font-size="14.00">redefinition_r1_nat_d</text>
 </a>
@@ -32,13 +32,13 @@
 <!-- c_0_57 -->
 <g id="node2" class="node">
 <title>c_0_57</title>
-<g id="a_node2"><a xlink:href="c_0_57.html" xlink:title="{C₁ । C₂|⇊|C₁ । C₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="69,-113.5 69,-158.5 115,-158.5 115,-113.5 69,-113.5"/>
-<text text-anchor="middle" x="92" y="-147.3" font-family="Times,serif" font-size="14.00">C₁ । C₂</text>
-<polyline fill="none" stroke="#7f7542" points="69,-143.5 115,-143.5 "/>
+<g id="a_node2"><a xlink:href="c_0_57.html" xlink:title="{N₁ । N₂|⇊|N₁ । N₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="67.5,-113.5 67.5,-158.5 116.5,-158.5 116.5,-113.5 67.5,-113.5"/>
+<text text-anchor="middle" x="92" y="-147.3" font-family="Times,serif" font-size="14.00">N₁ । N₂</text>
+<polyline fill="none" stroke="#7f7542" points="67.5,-143.5 116.5,-143.5 "/>
 <text text-anchor="middle" x="92" y="-132.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="69,-128.5 115,-128.5 "/>
-<text text-anchor="middle" x="92" y="-117.3" font-family="Times,serif" font-size="14.00">C₁ । C₂</text>
+<polyline fill="none" stroke="#7f7542" points="67.5,-128.5 116.5,-128.5 "/>
+<text text-anchor="middle" x="92" y="-117.3" font-family="Times,serif" font-size="14.00">N₁ । N₂</text>
 </a>
 </g>
 </g>
@@ -51,15 +51,15 @@
 <!-- c_0_43 -->
 <g id="node3" class="node">
 <title>c_0_43</title>
-<g id="a_node3"><a xlink:href="c_0_43.html" xlink:title="{C₁ । C₂|C₁ । C₂ + 1|⇊|C₁ = 1}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="54,-16.5 54,-76.5 130,-76.5 130,-16.5 54,-16.5"/>
-<text text-anchor="middle" x="92" y="-65.3" font-family="Times,serif" font-size="14.00">C₁ । C₂</text>
-<polyline fill="none" stroke="#7f7542" points="54,-61.5 130,-61.5 "/>
-<text text-anchor="middle" x="92" y="-50.3" font-family="Times,serif" font-size="14.00">C₁ । C₂ + 1</text>
-<polyline fill="none" stroke="#7f7542" points="54,-46.5 130,-46.5 "/>
+<g id="a_node3"><a xlink:href="c_0_43.html" xlink:title="{N₁ । N₂|N₁ । N₂ + 1|⇊|N₁ = 1}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="52.5,-16.5 52.5,-76.5 131.5,-76.5 131.5,-16.5 52.5,-16.5"/>
+<text text-anchor="middle" x="92" y="-65.3" font-family="Times,serif" font-size="14.00">N₁ । N₂</text>
+<polyline fill="none" stroke="#7f7542" points="52.5,-61.5 131.5,-61.5 "/>
+<text text-anchor="middle" x="92" y="-50.3" font-family="Times,serif" font-size="14.00">N₁ । N₂ + 1</text>
+<polyline fill="none" stroke="#7f7542" points="52.5,-46.5 131.5,-46.5 "/>
 <text text-anchor="middle" x="92" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="54,-31.5 130,-31.5 "/>
-<text text-anchor="middle" x="92" y="-20.3" font-family="Times,serif" font-size="14.00">C₁ = 1</text>
+<polyline fill="none" stroke="#7f7542" points="52.5,-31.5 131.5,-31.5 "/>
+<text text-anchor="middle" x="92" y="-20.3" font-family="Times,serif" font-size="14.00">N₁ = 1</text>
 </a>
 </g>
 </g>

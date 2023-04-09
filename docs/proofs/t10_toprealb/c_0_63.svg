@@ -14,69 +14,69 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="285,-90 285,-122 789,-122 789,-90 285,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="322,-90 322,-122 826,-122 826,-90 322,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="309,-8 309,-70 765,-70 765,-8 309,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="346,-8 346,-70 802,-70 802,-8 346,-8"/>
 </g>
-<!-- c_0_52 -->
+<!-- c_0_53 -->
 <g id="node1" class="node">
-<title>c_0_52</title>
-<g id="a_node1"><a xlink:href="c_0_52.html" xlink:title="{Trectangle(R₁,R₂,R₃,R₄) = TOP&#45;REAL(2) \| closed_inside_of_rectangle(R₁,R₂,R₃,R₄)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="528,-150.5 528,-165.5 1096,-165.5 1096,-150.5 528,-150.5"/>
-<text text-anchor="middle" x="812" y="-154.3" font-family="Times,serif" font-size="14.00">Trectangle(R₁,R₂,R₃,R₄) = TOP&#45;REAL(2) | closed_inside_of_rectangle(R₁,R₂,R₃,R₄)</text>
+<title>c_0_53</title>
+<g id="a_node1"><a xlink:href="c_0_53.html" xlink:title="{closed_inside_of_rectangle(R₁,R₂,R₃,R₄) = a_4_1_jgraph_6(R₁,R₂,R₃,R₄)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="602.5,-150.5 602.5,-165.5 1095.5,-165.5 1095.5,-150.5 602.5,-150.5"/>
+<text text-anchor="middle" x="849" y="-154.3" font-family="Times,serif" font-size="14.00">closed_inside_of_rectangle(R₁,R₂,R₃,R₄) = a_4_1_jgraph_6(R₁,R₂,R₃,R₄)</text>
 </a>
 </g>
 </g>
 <!-- c_0_63 -->
 <g id="node3" class="node">
 <title>c_0_63</title>
-<g id="a_node3"><a xlink:href="c_0_63.html" xlink:title="{TOP&#45;REAL(2) \| a_4_1_jgraph_6(R₁,R₂,R₃,R₄) = Trectangle(R₁,R₂,R₃,R₄)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="293.5,-98.5 293.5,-113.5 780.5,-113.5 780.5,-98.5 293.5,-98.5"/>
-<text text-anchor="middle" x="537" y="-102.3" font-family="Times,serif" font-size="14.00">TOP&#45;REAL(2) | a_4_1_jgraph_6(R₁,R₂,R₃,R₄) = Trectangle(R₁,R₂,R₃,R₄)</text>
-</a>
-</g>
-</g>
-<!-- c_0_52&#45;&gt;c_0_63 -->
-<g id="edge1" class="edge">
-<title>c_0_52&#45;&gt;c_0_63</title>
-<path fill="none" stroke="black" d="M654.25,-150.33C654.25,-150.33 654.25,-123.7 654.25,-123.7"/>
-<polygon fill="black" stroke="black" points="657.75,-123.7 654.25,-113.7 650.75,-123.7 657.75,-123.7"/>
-</g>
-<!-- c_0_53 -->
-<g id="node2" class="node">
-<title>c_0_53</title>
-<g id="a_node2"><a xlink:href="c_0_53.html" xlink:title="{closed_inside_of_rectangle(R₁,R₂,R₃,R₄) = a_4_1_jgraph_6(R₁,R₂,R₃,R₄)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-150.5 16.5,-165.5 509.5,-165.5 509.5,-150.5 16.5,-150.5"/>
-<text text-anchor="middle" x="263" y="-154.3" font-family="Times,serif" font-size="14.00">closed_inside_of_rectangle(R₁,R₂,R₃,R₄) = a_4_1_jgraph_6(R₁,R₂,R₃,R₄)</text>
+<g id="a_node3"><a xlink:href="c_0_63.html" xlink:title="{TOP&#45;REAL(2) \| a_4_1_jgraph_6(R₁,R₂,R₃,R₄) = Trectangle(R₁,R₂,R₃,R₄)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="330.5,-98.5 330.5,-113.5 817.5,-113.5 817.5,-98.5 330.5,-98.5"/>
+<text text-anchor="middle" x="574" y="-102.3" font-family="Times,serif" font-size="14.00">TOP&#45;REAL(2) | a_4_1_jgraph_6(R₁,R₂,R₃,R₄) = Trectangle(R₁,R₂,R₃,R₄)</text>
 </a>
 </g>
 </g>
 <!-- c_0_53&#45;&gt;c_0_63 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_53&#45;&gt;c_0_63</title>
-<path fill="none" stroke="black" d="M401.5,-150.33C401.5,-150.33 401.5,-123.7 401.5,-123.7"/>
-<polygon fill="black" stroke="black" points="405,-123.7 401.5,-113.7 398,-123.7 405,-123.7"/>
+<path fill="none" stroke="black" d="M710,-150.33C710,-150.33 710,-123.7 710,-123.7"/>
+<polygon fill="black" stroke="black" points="713.5,-123.7 710,-113.7 706.5,-123.7 713.5,-123.7"/>
+</g>
+<!-- c_0_52 -->
+<g id="node2" class="node">
+<title>c_0_52</title>
+<g id="a_node2"><a xlink:href="c_0_52.html" xlink:title="{Trectangle(R₁,R₂,R₃,R₄) = TOP&#45;REAL(2) \| closed_inside_of_rectangle(R₁,R₂,R₃,R₄)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-150.5 16,-165.5 584,-165.5 584,-150.5 16,-150.5"/>
+<text text-anchor="middle" x="300" y="-154.3" font-family="Times,serif" font-size="14.00">Trectangle(R₁,R₂,R₃,R₄) = TOP&#45;REAL(2) | closed_inside_of_rectangle(R₁,R₂,R₃,R₄)</text>
+</a>
+</g>
+</g>
+<!-- c_0_52&#45;&gt;c_0_63 -->
+<g id="edge2" class="edge">
+<title>c_0_52&#45;&gt;c_0_63</title>
+<path fill="none" stroke="black" d="M457.25,-150.33C457.25,-150.33 457.25,-123.7 457.25,-123.7"/>
+<polygon fill="black" stroke="black" points="460.75,-123.7 457.25,-113.7 453.75,-123.7 460.75,-123.7"/>
 </g>
 <!-- c_0_74 -->
 <g id="node4" class="node">
 <title>c_0_74</title>
-<g id="a_node4"><a xlink:href="c_0_74.html" xlink:title="{TopStruct(TOP&#45;REAL(2))|⇊|carrier(Trectangle(R₁,R₂,R₃,R₄)) = a_4_1_jgraph_6(R₁,R₂,R₃,R₄)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="317,-16.5 317,-61.5 757,-61.5 757,-16.5 317,-16.5"/>
-<text text-anchor="middle" x="537" y="-50.3" font-family="Times,serif" font-size="14.00">TopStruct(TOP&#45;REAL(2))</text>
-<polyline fill="none" stroke="#7f7542" points="317,-46.5 757,-46.5 "/>
-<text text-anchor="middle" x="537" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="317,-31.5 757,-31.5 "/>
-<text text-anchor="middle" x="537" y="-20.3" font-family="Times,serif" font-size="14.00">carrier(Trectangle(R₁,R₂,R₃,R₄)) = a_4_1_jgraph_6(R₁,R₂,R₃,R₄)</text>
+<g id="a_node4"><a xlink:href="c_0_74.html" xlink:title="{TopStruct(TOP&#45;REAL(2))|⇊|carrier(Trectangle(R₁,R₂,R₃,R₄)) = a_4_1_jgraph_6(R₁,R₂,R₃,R₄)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="354,-16.5 354,-61.5 794,-61.5 794,-16.5 354,-16.5"/>
+<text text-anchor="middle" x="574" y="-50.3" font-family="Times,serif" font-size="14.00">TopStruct(TOP&#45;REAL(2))</text>
+<polyline fill="none" stroke="#7f7542" points="354,-46.5 794,-46.5 "/>
+<text text-anchor="middle" x="574" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="354,-31.5 794,-31.5 "/>
+<text text-anchor="middle" x="574" y="-20.3" font-family="Times,serif" font-size="14.00">carrier(Trectangle(R₁,R₂,R₃,R₄)) = a_4_1_jgraph_6(R₁,R₂,R₃,R₄)</text>
 </a>
 </g>
 </g>
 <!-- c_0_63&#45;&gt;c_0_74 -->
 <g id="edge3" class="edge">
 <title>c_0_63&#45;&gt;c_0_74</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M537,-98.31C537,-98.31 537,-71.76 537,-71.76"/>
-<polygon fill="black" stroke="black" points="540.5,-71.76 537,-61.76 533.5,-71.76 540.5,-71.76"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M574,-98.31C574,-98.31 574,-71.76 574,-71.76"/>
+<polygon fill="black" stroke="black" points="577.5,-71.76 574,-61.76 570.5,-71.76 577.5,-71.76"/>
 </g>
 </g>
 </svg>

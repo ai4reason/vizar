@@ -14,16 +14,16 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="238,-60 238,-137 378,-137 378,-60 238,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="230,-60 230,-137 370,-137 370,-60 230,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="235,-8 235,-40 381,-40 381,-8 235,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="227,-8 227,-40 373,-40 373,-8 227,-8"/>
 </g>
 <!-- c_0_88 -->
 <g id="node1" class="node">
 <title>c_0_88</title>
-<g id="a_node1"><a xlink:href="c_0_88.html" xlink:title="{X₂ ∈ bool(X₃ × X₁)|quasi_total(X₂,X₃,X₁)|⇊|X₁ = Ø|total(X₂,X₃)}" target="_parent">
+<g id="a_node1"><a xlink:href="c_0_88.html" xlink:title="{X₂ ∈ bool(X₃ × X₁)|quasi_total(X₂,X₃,X₁)|⇊|X₁ = Ø|total(X₂,X₃)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="412.5,-165.5 412.5,-240.5 555.5,-240.5 555.5,-165.5 412.5,-165.5"/>
 <text text-anchor="middle" x="484" y="-229.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₃ × X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="412.5,-225.5 555.5,-225.5 "/>
@@ -40,80 +40,80 @@
 <!-- c_0_101 -->
 <g id="node4" class="node">
 <title>c_0_101</title>
-<g id="a_node4"><a xlink:href="c_0_101.html" xlink:title="{X₃ ∈ X₁|⇊|X₁ = Ø|total(X₂ &#45;&#45;&amp;gt; X₃,X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="246,-68.5 246,-128.5 370,-128.5 370,-68.5 246,-68.5"/>
-<text text-anchor="middle" x="308" y="-117.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="246,-113.5 370,-113.5 "/>
-<text text-anchor="middle" x="308" y="-102.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="246,-98.5 370,-98.5 "/>
-<text text-anchor="middle" x="308" y="-87.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="246,-83.5 370,-83.5 "/>
-<text text-anchor="middle" x="308" y="-72.3" font-family="Times,serif" font-size="14.00">total(X₂ &#45;&#45;&gt; X₃,X₂)</text>
+<g id="a_node4"><a xlink:href="c_0_101.html" xlink:title="{X₃ ∈ X₁|⇊|X₁ = Ø|total(X₂ &#45;&#45;&amp;gt; X₃,X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="238,-68.5 238,-128.5 362,-128.5 362,-68.5 238,-68.5"/>
+<text text-anchor="middle" x="300" y="-117.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="238,-113.5 362,-113.5 "/>
+<text text-anchor="middle" x="300" y="-102.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="238,-98.5 362,-98.5 "/>
+<text text-anchor="middle" x="300" y="-87.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="238,-83.5 362,-83.5 "/>
+<text text-anchor="middle" x="300" y="-72.3" font-family="Times,serif" font-size="14.00">total(X₂ &#45;&#45;&gt; X₃,X₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_88&#45;&gt;c_0_101 -->
 <g id="edge1" class="edge">
 <title>c_0_88&#45;&gt;c_0_101</title>
-<path fill="none" stroke="black" d="M412.24,-168C371.54,-168 328.67,-168 328.67,-168 328.67,-168 328.67,-138.78 328.67,-138.78"/>
-<polygon fill="black" stroke="black" points="332.17,-138.78 328.67,-128.78 325.17,-138.78 332.17,-138.78"/>
-</g>
-<!-- c_0_90 -->
-<g id="node2" class="node">
-<title>c_0_90</title>
-<g id="a_node2"><a xlink:href="c_0_90.html" xlink:title="{X₃ ∈ X₁|⇊|X₁ = Ø|X₂ &#45;&#45;&amp;gt; X₃ ∈ bool(X₂ × X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="222,-173 222,-233 394,-233 394,-173 222,-173"/>
-<text text-anchor="middle" x="308" y="-221.8" font-family="Times,serif" font-size="14.00">X₃ ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="222,-218 394,-218 "/>
-<text text-anchor="middle" x="308" y="-206.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="222,-203 394,-203 "/>
-<text text-anchor="middle" x="308" y="-191.8" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="222,-188 394,-188 "/>
-<text text-anchor="middle" x="308" y="-176.8" font-family="Times,serif" font-size="14.00">X₂ &#45;&#45;&gt; X₃ ∈ bool(X₂ × X₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_90&#45;&gt;c_0_101 -->
-<g id="edge2" class="edge">
-<title>c_0_90&#45;&gt;c_0_101</title>
-<path fill="none" stroke="black" d="M287.33,-172.77C287.33,-172.77 287.33,-138.66 287.33,-138.66"/>
-<polygon fill="black" stroke="black" points="290.83,-138.66 287.33,-128.66 283.83,-138.66 290.83,-138.66"/>
+<path fill="none" stroke="black" d="M412.36,-168C368.47,-168 320.67,-168 320.67,-168 320.67,-168 320.67,-138.78 320.67,-138.78"/>
+<polygon fill="black" stroke="black" points="324.17,-138.78 320.67,-128.78 317.17,-138.78 324.17,-138.78"/>
 </g>
 <!-- c_0_89 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_89</title>
-<g id="a_node3"><a xlink:href="c_0_89.html" xlink:title="{X₃ ∈ X₁|⇊|X₁ = Ø|quasi_total(X₂ &#45;&#45;&amp;gt; X₃,X₂,X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-173 16,-233 204,-233 204,-173 16,-173"/>
-<text text-anchor="middle" x="110" y="-221.8" font-family="Times,serif" font-size="14.00">X₃ ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="16,-218 204,-218 "/>
-<text text-anchor="middle" x="110" y="-206.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-203 204,-203 "/>
-<text text-anchor="middle" x="110" y="-191.8" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="16,-188 204,-188 "/>
-<text text-anchor="middle" x="110" y="-176.8" font-family="Times,serif" font-size="14.00">quasi_total(X₂ &#45;&#45;&gt; X₃,X₂,X₁)</text>
+<g id="a_node2"><a xlink:href="c_0_89.html" xlink:title="{X₃ ∈ X₁|⇊|X₁ = Ø|quasi_total(X₂ &#45;&#45;&amp;gt; X₃,X₂,X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="206,-173 206,-233 394,-233 394,-173 206,-173"/>
+<text text-anchor="middle" x="300" y="-221.8" font-family="Times,serif" font-size="14.00">X₃ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="206,-218 394,-218 "/>
+<text text-anchor="middle" x="300" y="-206.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="206,-203 394,-203 "/>
+<text text-anchor="middle" x="300" y="-191.8" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="206,-188 394,-188 "/>
+<text text-anchor="middle" x="300" y="-176.8" font-family="Times,serif" font-size="14.00">quasi_total(X₂ &#45;&#45;&gt; X₃,X₂,X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_89&#45;&gt;c_0_101 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_89&#45;&gt;c_0_101</title>
-<path fill="none" stroke="black" d="M110,-172.91C110,-141.88 110,-98 110,-98 110,-98 235.89,-98 235.89,-98"/>
-<polygon fill="black" stroke="black" points="235.89,-101.5 245.89,-98 235.89,-94.5 235.89,-101.5"/>
+<path fill="none" stroke="black" d="M279.33,-172.77C279.33,-172.77 279.33,-138.66 279.33,-138.66"/>
+<polygon fill="black" stroke="black" points="282.83,-138.66 279.33,-128.66 275.83,-138.66 282.83,-138.66"/>
+</g>
+<!-- c_0_90 -->
+<g id="node3" class="node">
+<title>c_0_90</title>
+<g id="a_node3"><a xlink:href="c_0_90.html" xlink:title="{X₃ ∈ X₁|⇊|X₁ = Ø|X₂ &#45;&#45;&amp;gt; X₃ ∈ bool(X₂ × X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-173 16,-233 188,-233 188,-173 16,-173"/>
+<text text-anchor="middle" x="102" y="-221.8" font-family="Times,serif" font-size="14.00">X₃ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="16,-218 188,-218 "/>
+<text text-anchor="middle" x="102" y="-206.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-203 188,-203 "/>
+<text text-anchor="middle" x="102" y="-191.8" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="16,-188 188,-188 "/>
+<text text-anchor="middle" x="102" y="-176.8" font-family="Times,serif" font-size="14.00">X₂ &#45;&#45;&gt; X₃ ∈ bool(X₂ × X₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_90&#45;&gt;c_0_101 -->
+<g id="edge3" class="edge">
+<title>c_0_90&#45;&gt;c_0_101</title>
+<path fill="none" stroke="black" d="M102,-172.91C102,-141.88 102,-98 102,-98 102,-98 227.89,-98 227.89,-98"/>
+<polygon fill="black" stroke="black" points="227.89,-101.5 237.89,-98 227.89,-94.5 227.89,-101.5"/>
 </g>
 <!-- c_0_113 -->
 <g id="node5" class="node">
 <title>c_0_113</title>
-<g id="a_node5"><a xlink:href="c_0_113.html" xlink:title="{total(X₁ &#45;&#45;&amp;gt; sk₂,X₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="243,-16.5 243,-31.5 373,-31.5 373,-16.5 243,-16.5"/>
-<text text-anchor="middle" x="308" y="-20.3" font-family="Times,serif" font-size="14.00">total(X₁ &#45;&#45;&gt; sk₂,X₁)</text>
+<g id="a_node5"><a xlink:href="c_0_113.html" xlink:title="{total(X₁ &#45;&#45;&amp;gt; sk₂,X₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="235,-16.5 235,-31.5 365,-31.5 365,-16.5 235,-16.5"/>
+<text text-anchor="middle" x="300" y="-20.3" font-family="Times,serif" font-size="14.00">total(X₁ &#45;&#45;&gt; sk₂,X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_101&#45;&gt;c_0_113 -->
 <g id="edge4" class="edge">
 <title>c_0_101&#45;&gt;c_0_113</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M308,-68.2C308,-68.2 308,-41.59 308,-41.59"/>
-<polygon fill="black" stroke="black" points="311.5,-41.59 308,-31.59 304.5,-41.59 311.5,-41.59"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M300,-68.2C300,-68.2 300,-41.59 300,-41.59"/>
+<polygon fill="black" stroke="black" points="303.5,-41.59 300,-31.59 296.5,-41.59 303.5,-41.59"/>
 </g>
 </g>
 </svg>

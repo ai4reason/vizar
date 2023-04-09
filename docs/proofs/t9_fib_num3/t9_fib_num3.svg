@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="137,-60 137,-92 241,-92 241,-60 137,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="335,-60 335,-92 439,-92 439,-60 335,-60"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,41 +19,41 @@
 <!-- t9_fib_num3 -->
 <g id="node1" class="node">
 <title>t9_fib_num3</title>
-<g id="a_node1"><a xlink:href="t9_fib_num3.html" xlink:title="t9_fib_num3" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="145,-68.5 145,-83.5 233,-83.5 233,-68.5 145,-68.5"/>
-<text text-anchor="middle" x="189" y="-72.3" font-family="Times,serif" font-size="14.00">t9_fib_num3</text>
+<g id="a_node1"><a xlink:href="t9_fib_num3.html" xlink:title="t9_fib_num3" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="343,-68.5 343,-83.5 431,-83.5 431,-68.5 343,-68.5"/>
+<text text-anchor="middle" x="387" y="-72.3" font-family="Times,serif" font-size="14.00">t9_fib_num3</text>
 </a>
 </g>
-</g>
-<!-- c_0_37 -->
-<g id="node2" class="node">
-<title>c_0_37</title>
-<g id="a_node2"><a xlink:href="c_0_37.html" xlink:title="{to_power(tau,sk₁) + to_power(tau,sk₁ + 1) ≠ to_power(tau,sk₁ + 2)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="88,-16.5 88,-31.5 564,-31.5 564,-16.5 88,-16.5"/>
-<text text-anchor="middle" x="326" y="-20.3" font-family="Times,serif" font-size="14.00">to_power(tau,sk₁) + to_power(tau,sk₁ + 1) ≠ to_power(tau,sk₁ + 2)</text>
-</a>
-</g>
-</g>
-<!-- t9_fib_num3&#45;&gt;c_0_37 -->
-<g id="edge1" class="edge">
-<title>t9_fib_num3&#45;&gt;c_0_37</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M189,-68.33C189,-68.33 189,-41.7 189,-41.7"/>
-<polygon fill="black" stroke="black" points="192.5,-41.7 189,-31.7 185.5,-41.7 192.5,-41.7"/>
 </g>
 <!-- c_0_40 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_40</title>
-<g id="a_node3"><a xlink:href="c_0_40.html" xlink:title="{sk₁ ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 70,-31.5 70,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="43" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
+<g id="a_node2"><a xlink:href="c_0_40.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="510,-16.5 510,-31.5 564,-31.5 564,-16.5 510,-16.5"/>
+<text text-anchor="middle" x="537" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- t9_fib_num3&#45;&gt;c_0_40 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t9_fib_num3&#45;&gt;c_0_40</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M144.8,-76C101.83,-76 43,-76 43,-76 43,-76 43,-41.67 43,-41.67"/>
-<polygon fill="black" stroke="black" points="46.5,-41.67 43,-31.67 39.5,-41.67 46.5,-41.67"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M431.19,-76C475.44,-76 537,-76 537,-76 537,-76 537,-41.67 537,-41.67"/>
+<polygon fill="black" stroke="black" points="540.5,-41.67 537,-31.67 533.5,-41.67 540.5,-41.67"/>
+</g>
+<!-- c_0_37 -->
+<g id="node3" class="node">
+<title>c_0_37</title>
+<g id="a_node3"><a xlink:href="c_0_37.html" xlink:title="{to_power(tau,sk₁) + to_power(tau,sk₁ + 1) ≠ to_power(tau,sk₁ + 2)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 492,-31.5 492,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="254" y="-20.3" font-family="Times,serif" font-size="14.00">to_power(tau,sk₁) + to_power(tau,sk₁ + 1) ≠ to_power(tau,sk₁ + 2)</text>
+</a>
+</g>
+</g>
+<!-- t9_fib_num3&#45;&gt;c_0_37 -->
+<g id="edge2" class="edge">
+<title>t9_fib_num3&#45;&gt;c_0_37</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M387,-68.33C387,-68.33 387,-41.7 387,-41.7"/>
+<polygon fill="black" stroke="black" points="390.5,-41.7 387,-31.7 383.5,-41.7 390.5,-41.7"/>
 </g>
 </g>
 </svg>

@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="105,-60 105,-92 227,-92 227,-60 105,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="87,-60 87,-92 209,-92 209,-60 87,-60"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,41 +19,41 @@
 <!-- dt_k2_sin_cos9 -->
 <g id="node1" class="node">
 <title>dt_k2_sin_cos9</title>
-<g id="a_node1"><a xlink:href="dt_k2_sin_cos9.html" xlink:title="dt_k2_sin_cos9" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="113,-68.5 113,-83.5 219,-83.5 219,-68.5 113,-68.5"/>
-<text text-anchor="middle" x="166" y="-72.3" font-family="Times,serif" font-size="14.00">dt_k2_sin_cos9</text>
+<g id="a_node1"><a xlink:href="dt_k2_sin_cos9.html" xlink:title="dt_k2_sin_cos9" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="95,-68.5 95,-83.5 201,-83.5 201,-68.5 95,-68.5"/>
+<text text-anchor="middle" x="148" y="-72.3" font-family="Times,serif" font-size="14.00">dt_k2_sin_cos9</text>
 </a>
 </g>
-</g>
-<!-- c_0_146 -->
-<g id="node2" class="node">
-<title>c_0_146</title>
-<g id="a_node2"><a xlink:href="c_0_146.html" xlink:title="{function(arccot)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="184,-16.5 184,-31.5 298,-31.5 298,-16.5 184,-16.5"/>
-<text text-anchor="middle" x="241" y="-20.3" font-family="Times,serif" font-size="14.00">function(arccot)</text>
-</a>
-</g>
-</g>
-<!-- dt_k2_sin_cos9&#45;&gt;c_0_146 -->
-<g id="edge1" class="edge">
-<title>dt_k2_sin_cos9&#45;&gt;c_0_146</title>
-<path fill="none" stroke="black" d="M201.5,-68.33C201.5,-68.33 201.5,-41.7 201.5,-41.7"/>
-<polygon fill="black" stroke="black" points="205,-41.7 201.5,-31.7 198,-41.7 205,-41.7"/>
 </g>
 <!-- c_0_148 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_148</title>
-<g id="a_node3"><a xlink:href="c_0_148.html" xlink:title="{arccot ∈ bool(ℝ × ℝ)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-31.5 166,-31.5 166,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="91" y="-20.3" font-family="Times,serif" font-size="14.00">arccot ∈ bool(ℝ × ℝ)</text>
+<g id="a_node2"><a xlink:href="c_0_148.html" xlink:title="{arccot ∈ bool(ℝ × ℝ)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="148,-16.5 148,-31.5 298,-31.5 298,-16.5 148,-16.5"/>
+<text text-anchor="middle" x="223" y="-20.3" font-family="Times,serif" font-size="14.00">arccot ∈ bool(ℝ × ℝ)</text>
 </a>
 </g>
 </g>
 <!-- dt_k2_sin_cos9&#45;&gt;c_0_148 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>dt_k2_sin_cos9&#45;&gt;c_0_148</title>
-<path fill="none" stroke="black" d="M139.5,-68.33C139.5,-68.33 139.5,-41.7 139.5,-41.7"/>
-<polygon fill="black" stroke="black" points="143,-41.7 139.5,-31.7 136,-41.7 143,-41.7"/>
+<path fill="none" stroke="black" d="M174.5,-68.33C174.5,-68.33 174.5,-41.7 174.5,-41.7"/>
+<polygon fill="black" stroke="black" points="178,-41.7 174.5,-31.7 171,-41.7 178,-41.7"/>
+</g>
+<!-- c_0_146 -->
+<g id="node3" class="node">
+<title>c_0_146</title>
+<g id="a_node3"><a xlink:href="c_0_146.html" xlink:title="{function(arccot)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-31.5 130,-31.5 130,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="73" y="-20.3" font-family="Times,serif" font-size="14.00">function(arccot)</text>
+</a>
+</g>
+</g>
+<!-- dt_k2_sin_cos9&#45;&gt;c_0_146 -->
+<g id="edge2" class="edge">
+<title>dt_k2_sin_cos9&#45;&gt;c_0_146</title>
+<path fill="none" stroke="black" d="M112.5,-68.33C112.5,-68.33 112.5,-41.7 112.5,-41.7"/>
+<polygon fill="black" stroke="black" points="116,-41.7 112.5,-31.7 109,-41.7 116,-41.7"/>
 </g>
 </g>
 </svg>

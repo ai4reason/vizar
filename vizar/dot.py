@@ -42,7 +42,7 @@ def dot_edge(src, dst, args=None):
 def dot_formula(lang, name, role, fml, parents, text, **others):
    color = label.color(role)
    url = f"{name}.html"
-   target = "_parent"
+   target = "_vizar"
    #if role in ["axiom", "conjecture"]:
    #   url = mizar.link(name)
    #   target = "_blank"

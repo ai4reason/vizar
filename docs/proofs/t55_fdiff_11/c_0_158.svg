@@ -14,125 +14,125 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="154,-120 154,-212 360,-212 360,-120 154,-120"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="167,-120 167,-212 373,-212 373,-120 167,-120"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="91,-8 91,-100 423,-100 423,-8 91,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="104,-8 104,-100 436,-100 436,-8 104,-8"/>
 </g>
-<!-- c_0_55 -->
+<!-- c_0_56 -->
 <g id="node1" class="node">
-<title>c_0_55</title>
-<g id="a_node1"><a xlink:href="c_0_55.html" xlink:title="{sk₁ ∈ bool(ℝ)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="384,-293 384,-308 478,-308 478,-293 384,-293"/>
-<text text-anchor="middle" x="431" y="-296.8" font-family="Times,serif" font-size="14.00">sk₁ ∈ bool(ℝ)</text>
+<title>c_0_56</title>
+<g id="a_node1"><a xlink:href="c_0_56.html" xlink:title="{open(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="410.5,-293 410.5,-308 477.5,-308 477.5,-293 410.5,-293"/>
+<text text-anchor="middle" x="444" y="-296.8" font-family="Times,serif" font-size="14.00">open(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_158 -->
 <g id="node5" class="node">
 <title>c_0_158</title>
-<g id="a_node5"><a xlink:href="c_0_158.html" xlink:title="{X₁ ∈ bool(ℝ × ℝ)|function(X₁)|is_differentiable_on(X₁,sk₁)|⇊|is_differentiable_in(X₁,sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="162,-128.5 162,-203.5 352,-203.5 352,-128.5 162,-128.5"/>
-<text text-anchor="middle" x="257" y="-192.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℝ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="162,-188.5 352,-188.5 "/>
-<text text-anchor="middle" x="257" y="-177.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="162,-173.5 352,-173.5 "/>
-<text text-anchor="middle" x="257" y="-162.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(X₁,sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="162,-158.5 352,-158.5 "/>
-<text text-anchor="middle" x="257" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="162,-143.5 352,-143.5 "/>
-<text text-anchor="middle" x="257" y="-132.3" font-family="Times,serif" font-size="14.00">is_differentiable_in(X₁,sk₂)</text>
+<g id="a_node5"><a xlink:href="c_0_158.html" xlink:title="{X₁ ∈ bool(ℝ × ℝ)|function(X₁)|is_differentiable_on(X₁,sk₁)|⇊|is_differentiable_in(X₁,sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="175,-128.5 175,-203.5 365,-203.5 365,-128.5 175,-128.5"/>
+<text text-anchor="middle" x="270" y="-192.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℝ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="175,-188.5 365,-188.5 "/>
+<text text-anchor="middle" x="270" y="-177.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="175,-173.5 365,-173.5 "/>
+<text text-anchor="middle" x="270" y="-162.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(X₁,sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="175,-158.5 365,-158.5 "/>
+<text text-anchor="middle" x="270" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="175,-143.5 365,-143.5 "/>
+<text text-anchor="middle" x="270" y="-132.3" font-family="Times,serif" font-size="14.00">is_differentiable_in(X₁,sk₂)</text>
 </a>
 </g>
 </g>
-<!-- c_0_55&#45;&gt;c_0_158 -->
+<!-- c_0_56&#45;&gt;c_0_158 -->
 <g id="edge1" class="edge">
-<title>c_0_55&#45;&gt;c_0_158</title>
-<path fill="none" stroke="black" d="M399.5,-292.88C399.5,-264.43 399.5,-166 399.5,-166 399.5,-166 362.05,-166 362.05,-166"/>
-<polygon fill="black" stroke="black" points="362.05,-162.5 352.05,-166 362.05,-169.5 362.05,-162.5"/>
+<title>c_0_56&#45;&gt;c_0_158</title>
+<path fill="none" stroke="black" d="M419.25,-292.88C419.25,-264.43 419.25,-166 419.25,-166 419.25,-166 375.37,-166 375.37,-166"/>
+<polygon fill="black" stroke="black" points="375.37,-162.5 365.37,-166 375.37,-169.5 375.37,-162.5"/>
 </g>
 <!-- c_0_156 -->
 <g id="node2" class="node">
 <title>c_0_156</title>
-<g id="a_node2"><a xlink:href="c_0_156.html" xlink:title="{sk₂ ∈ sk₁}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="304,-293 304,-308 366,-308 366,-293 304,-293"/>
-<text text-anchor="middle" x="335" y="-296.8" font-family="Times,serif" font-size="14.00">sk₂ ∈ sk₁</text>
+<g id="a_node2"><a xlink:href="c_0_156.html" xlink:title="{sk₂ ∈ sk₁}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="330,-293 330,-308 392,-308 392,-293 330,-293"/>
+<text text-anchor="middle" x="361" y="-296.8" font-family="Times,serif" font-size="14.00">sk₂ ∈ sk₁</text>
 </a>
 </g>
 </g>
 <!-- c_0_156&#45;&gt;c_0_158 -->
 <g id="edge2" class="edge">
 <title>c_0_156&#45;&gt;c_0_158</title>
-<path fill="none" stroke="black" d="M328,-292.88C328,-292.88 328,-213.75 328,-213.75"/>
-<polygon fill="black" stroke="black" points="331.5,-213.75 328,-203.75 324.5,-213.75 331.5,-213.75"/>
+<path fill="none" stroke="black" d="M347.5,-292.88C347.5,-292.88 347.5,-213.75 347.5,-213.75"/>
+<polygon fill="black" stroke="black" points="351,-213.75 347.5,-203.75 344,-213.75 351,-213.75"/>
 </g>
 <!-- c_0_112 -->
 <g id="node3" class="node">
 <title>c_0_112</title>
-<g id="a_node3"><a xlink:href="c_0_112.html" xlink:title="{X₁ ∈ bool(ℝ × ℝ)|X₂ ∈ X₃|X₃ ∈ bool(ℝ)|function(X₁)|is_differentiable_on(X₁,X₃)|open(X₃)|⇊|is_differentiable_in(X₁,X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="102,-240.5 102,-360.5 286,-360.5 286,-240.5 102,-240.5"/>
-<text text-anchor="middle" x="194" y="-349.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℝ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="102,-345.5 286,-345.5 "/>
-<text text-anchor="middle" x="194" y="-334.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₃</text>
-<polyline fill="none" stroke="#7f7542" points="102,-330.5 286,-330.5 "/>
-<text text-anchor="middle" x="194" y="-319.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="102,-315.5 286,-315.5 "/>
-<text text-anchor="middle" x="194" y="-304.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="102,-300.5 286,-300.5 "/>
-<text text-anchor="middle" x="194" y="-289.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(X₁,X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="102,-285.5 286,-285.5 "/>
-<text text-anchor="middle" x="194" y="-274.3" font-family="Times,serif" font-size="14.00">open(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="102,-270.5 286,-270.5 "/>
-<text text-anchor="middle" x="194" y="-259.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="102,-255.5 286,-255.5 "/>
-<text text-anchor="middle" x="194" y="-244.3" font-family="Times,serif" font-size="14.00">is_differentiable_in(X₁,X₂)</text>
+<g id="a_node3"><a xlink:href="c_0_112.html" xlink:title="{X₁ ∈ bool(ℝ × ℝ)|X₂ ∈ X₃|X₃ ∈ bool(ℝ)|function(X₁)|is_differentiable_on(X₁,X₃)|open(X₃)|⇊|is_differentiable_in(X₁,X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="128,-240.5 128,-360.5 312,-360.5 312,-240.5 128,-240.5"/>
+<text text-anchor="middle" x="220" y="-349.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℝ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="128,-345.5 312,-345.5 "/>
+<text text-anchor="middle" x="220" y="-334.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₃</text>
+<polyline fill="none" stroke="#7f7542" points="128,-330.5 312,-330.5 "/>
+<text text-anchor="middle" x="220" y="-319.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="128,-315.5 312,-315.5 "/>
+<text text-anchor="middle" x="220" y="-304.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="128,-300.5 312,-300.5 "/>
+<text text-anchor="middle" x="220" y="-289.3" font-family="Times,serif" font-size="14.00">is_differentiable_on(X₁,X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="128,-285.5 312,-285.5 "/>
+<text text-anchor="middle" x="220" y="-274.3" font-family="Times,serif" font-size="14.00">open(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="128,-270.5 312,-270.5 "/>
+<text text-anchor="middle" x="220" y="-259.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="128,-255.5 312,-255.5 "/>
+<text text-anchor="middle" x="220" y="-244.3" font-family="Times,serif" font-size="14.00">is_differentiable_in(X₁,X₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_112&#45;&gt;c_0_158 -->
 <g id="edge3" class="edge">
 <title>c_0_112&#45;&gt;c_0_158</title>
-<path fill="none" stroke="black" d="M224,-240.33C224,-240.33 224,-213.73 224,-213.73"/>
-<polygon fill="black" stroke="black" points="227.5,-213.73 224,-203.73 220.5,-213.73 227.5,-213.73"/>
+<path fill="none" stroke="black" d="M243.5,-240.33C243.5,-240.33 243.5,-213.73 243.5,-213.73"/>
+<polygon fill="black" stroke="black" points="247,-213.73 243.5,-203.73 240,-213.73 247,-213.73"/>
 </g>
-<!-- c_0_56 -->
+<!-- c_0_55 -->
 <g id="node4" class="node">
-<title>c_0_56</title>
-<g id="a_node4"><a xlink:href="c_0_56.html" xlink:title="{open(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-293 16.5,-308 83.5,-308 83.5,-293 16.5,-293"/>
-<text text-anchor="middle" x="50" y="-296.8" font-family="Times,serif" font-size="14.00">open(sk₁)</text>
+<title>c_0_55</title>
+<g id="a_node4"><a xlink:href="c_0_55.html" xlink:title="{sk₁ ∈ bool(ℝ)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-293 16,-308 110,-308 110,-293 16,-293"/>
+<text text-anchor="middle" x="63" y="-296.8" font-family="Times,serif" font-size="14.00">sk₁ ∈ bool(ℝ)</text>
 </a>
 </g>
 </g>
-<!-- c_0_56&#45;&gt;c_0_158 -->
+<!-- c_0_55&#45;&gt;c_0_158 -->
 <g id="edge4" class="edge">
-<title>c_0_56&#45;&gt;c_0_158</title>
-<path fill="none" stroke="black" d="M50,-292.88C50,-264.43 50,-166 50,-166 50,-166 151.98,-166 151.98,-166"/>
-<polygon fill="black" stroke="black" points="151.98,-169.5 161.98,-166 151.98,-162.5 151.98,-169.5"/>
+<title>c_0_55&#45;&gt;c_0_158</title>
+<path fill="none" stroke="black" d="M63,-292.88C63,-264.43 63,-166 63,-166 63,-166 164.98,-166 164.98,-166"/>
+<polygon fill="black" stroke="black" points="164.98,-169.5 174.98,-166 164.98,-162.5 164.98,-169.5"/>
 </g>
 <!-- c_0_159 -->
 <g id="node6" class="node">
 <title>c_0_159</title>
-<g id="a_node6"><a xlink:href="c_0_159.html" xlink:title="{function(ℝ + ℝ + ℝ + arctan + arccot)|real&#45;valued(ℝ + ℝ + ℝ + arctan + arccot)|ℝ + ℝ + ℝ + arctan + arccot ∈ bool(ℝ × ℝ)|⇊|⊥}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="99,-16.5 99,-91.5 415,-91.5 415,-16.5 99,-16.5"/>
-<text text-anchor="middle" x="257" y="-80.3" font-family="Times,serif" font-size="14.00">function(ℝ + ℝ + ℝ + arctan + arccot)</text>
-<polyline fill="none" stroke="#7f7542" points="99,-76.5 415,-76.5 "/>
-<text text-anchor="middle" x="257" y="-65.3" font-family="Times,serif" font-size="14.00">real&#45;valued(ℝ + ℝ + ℝ + arctan + arccot)</text>
-<polyline fill="none" stroke="#7f7542" points="99,-61.5 415,-61.5 "/>
-<text text-anchor="middle" x="257" y="-50.3" font-family="Times,serif" font-size="14.00">ℝ + ℝ + ℝ + arctan + arccot ∈ bool(ℝ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="99,-46.5 415,-46.5 "/>
-<text text-anchor="middle" x="257" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="99,-31.5 415,-31.5 "/>
-<text text-anchor="middle" x="257" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node6"><a xlink:href="c_0_159.html" xlink:title="{function(ℝ + ℝ + ℝ + arctan + arccot)|real&#45;valued(ℝ + ℝ + ℝ + arctan + arccot)|ℝ + ℝ + ℝ + arctan + arccot ∈ bool(ℝ × ℝ)|⇊|⊥}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="112,-16.5 112,-91.5 428,-91.5 428,-16.5 112,-16.5"/>
+<text text-anchor="middle" x="270" y="-80.3" font-family="Times,serif" font-size="14.00">function(ℝ + ℝ + ℝ + arctan + arccot)</text>
+<polyline fill="none" stroke="#7f7542" points="112,-76.5 428,-76.5 "/>
+<text text-anchor="middle" x="270" y="-65.3" font-family="Times,serif" font-size="14.00">real&#45;valued(ℝ + ℝ + ℝ + arctan + arccot)</text>
+<polyline fill="none" stroke="#7f7542" points="112,-61.5 428,-61.5 "/>
+<text text-anchor="middle" x="270" y="-50.3" font-family="Times,serif" font-size="14.00">ℝ + ℝ + ℝ + arctan + arccot ∈ bool(ℝ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="112,-46.5 428,-46.5 "/>
+<text text-anchor="middle" x="270" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="112,-31.5 428,-31.5 "/>
+<text text-anchor="middle" x="270" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_158&#45;&gt;c_0_159 -->
 <g id="edge5" class="edge">
 <title>c_0_158&#45;&gt;c_0_159</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M257,-128.39C257,-128.39 257,-101.7 257,-101.7"/>
-<polygon fill="black" stroke="black" points="260.5,-101.7 257,-91.7 253.5,-101.7 260.5,-101.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M270,-128.39C270,-128.39 270,-101.7 270,-101.7"/>
+<polygon fill="black" stroke="black" points="273.5,-101.7 270,-91.7 266.5,-101.7 273.5,-101.7"/>
 </g>
 </g>
 </svg>

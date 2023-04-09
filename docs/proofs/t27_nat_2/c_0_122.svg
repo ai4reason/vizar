@@ -14,65 +14,65 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="41,-60 41,-92 141,-92 141,-60 41,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="38,-60 38,-92 138,-92 138,-60 38,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="56,-8 56,-40 126,-40 126,-8 56,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="53,-8 53,-40 123,-40 123,-8 53,-8"/>
 </g>
-<!-- c_0_41 -->
+<!-- c_0_56 -->
 <g id="node1" class="node">
-<title>c_0_41</title>
-<g id="a_node1"><a xlink:href="c_0_41.html" xlink:title="{sk₁ ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="114,-120.5 114,-135.5 168,-135.5 168,-120.5 114,-120.5"/>
-<text text-anchor="middle" x="141" y="-124.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
+<title>c_0_56</title>
+<g id="a_node1"><a xlink:href="c_0_56.html" xlink:title="{integer(N₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="88,-120.5 88,-135.5 168,-135.5 168,-120.5 88,-120.5"/>
+<text text-anchor="middle" x="128" y="-124.3" font-family="Times,serif" font-size="14.00">integer(N₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_122 -->
 <g id="node3" class="node">
 <title>c_0_122</title>
-<g id="a_node3"><a xlink:href="c_0_122.html" xlink:title="{integer(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="49,-68.5 49,-83.5 133,-83.5 133,-68.5 49,-68.5"/>
-<text text-anchor="middle" x="91" y="-72.3" font-family="Times,serif" font-size="14.00">integer(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_41&#45;&gt;c_0_122 -->
-<g id="edge1" class="edge">
-<title>c_0_41&#45;&gt;c_0_122</title>
-<path fill="none" stroke="black" d="M123.5,-120.33C123.5,-120.33 123.5,-93.7 123.5,-93.7"/>
-<polygon fill="black" stroke="black" points="127,-93.7 123.5,-83.7 120,-93.7 127,-93.7"/>
-</g>
-<!-- c_0_56 -->
-<g id="node2" class="node">
-<title>c_0_56</title>
-<g id="a_node2"><a xlink:href="c_0_56.html" xlink:title="{integer(C₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-120.5 16.5,-135.5 95.5,-135.5 95.5,-120.5 16.5,-120.5"/>
-<text text-anchor="middle" x="56" y="-124.3" font-family="Times,serif" font-size="14.00">integer(C₁)</text>
+<g id="a_node3"><a xlink:href="c_0_122.html" xlink:title="{integer(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="46,-68.5 46,-83.5 130,-83.5 130,-68.5 46,-68.5"/>
+<text text-anchor="middle" x="88" y="-72.3" font-family="Times,serif" font-size="14.00">integer(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_56&#45;&gt;c_0_122 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_56&#45;&gt;c_0_122</title>
-<path fill="none" stroke="black" d="M72.25,-120.33C72.25,-120.33 72.25,-93.7 72.25,-93.7"/>
-<polygon fill="black" stroke="black" points="75.75,-93.7 72.25,-83.7 68.75,-93.7 75.75,-93.7"/>
+<path fill="none" stroke="black" d="M109,-120.33C109,-120.33 109,-93.7 109,-93.7"/>
+<polygon fill="black" stroke="black" points="112.5,-93.7 109,-83.7 105.5,-93.7 112.5,-93.7"/>
+</g>
+<!-- c_0_41 -->
+<g id="node2" class="node">
+<title>c_0_41</title>
+<g id="a_node2"><a xlink:href="c_0_41.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-120.5 16,-135.5 70,-135.5 70,-120.5 16,-120.5"/>
+<text text-anchor="middle" x="43" y="-124.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
+</a>
+</g>
+</g>
+<!-- c_0_41&#45;&gt;c_0_122 -->
+<g id="edge2" class="edge">
+<title>c_0_41&#45;&gt;c_0_122</title>
+<path fill="none" stroke="black" d="M58,-120.33C58,-120.33 58,-93.7 58,-93.7"/>
+<polygon fill="black" stroke="black" points="61.5,-93.7 58,-83.7 54.5,-93.7 61.5,-93.7"/>
 </g>
 <!-- c_0_136 -->
 <g id="node4" class="node">
 <title>c_0_136</title>
-<g id="a_node4"><a xlink:href="c_0_136.html" xlink:title="{sk₃ ≤ Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="64,-16.5 64,-31.5 118,-31.5 118,-16.5 64,-16.5"/>
-<text text-anchor="middle" x="91" y="-20.3" font-family="Times,serif" font-size="14.00">sk₃ ≤ Ø</text>
+<g id="a_node4"><a xlink:href="c_0_136.html" xlink:title="{sk₃ ≤ Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="61,-16.5 61,-31.5 115,-31.5 115,-16.5 61,-16.5"/>
+<text text-anchor="middle" x="88" y="-20.3" font-family="Times,serif" font-size="14.00">sk₃ ≤ Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_122&#45;&gt;c_0_136 -->
 <g id="edge3" class="edge">
 <title>c_0_122&#45;&gt;c_0_136</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M91,-68.33C91,-68.33 91,-41.7 91,-41.7"/>
-<polygon fill="black" stroke="black" points="94.5,-41.7 91,-31.7 87.5,-41.7 94.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M88,-68.33C88,-68.33 88,-41.7 88,-41.7"/>
+<polygon fill="black" stroke="black" points="91.5,-41.7 88,-31.7 84.5,-41.7 91.5,-41.7"/>
 </g>
 </g>
 </svg>

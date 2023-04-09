@@ -14,92 +14,92 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="61,-60 61,-137 199,-137 199,-60 61,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="80,-60 80,-137 218,-137 218,-60 80,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="70,-8 70,-40 190,-40 190,-8 70,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="89,-8 89,-40 209,-40 209,-8 89,-8"/>
 </g>
-<!-- c_0_68 -->
+<!-- c_0_91 -->
 <g id="node1" class="node">
-<title>c_0_68</title>
-<g id="a_node1"><a xlink:href="c_0_68.html" xlink:title="{ℝ ⊆ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="194,-188 194,-203 240,-203 240,-188 194,-188"/>
-<text text-anchor="middle" x="217" y="-191.8" font-family="Times,serif" font-size="14.00">ℝ ⊆ ℝ</text>
+<title>c_0_91</title>
+<g id="a_node1"><a xlink:href="c_0_91.html" xlink:title="{X₁ ⊆ ℝ|X₂ ∈ X₁|⇊|X₂ ∈ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="190,-165.5 190,-225.5 240,-225.5 240,-165.5 190,-165.5"/>
+<text text-anchor="middle" x="215" y="-214.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="190,-210.5 240,-210.5 "/>
+<text text-anchor="middle" x="215" y="-199.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="190,-195.5 240,-195.5 "/>
+<text text-anchor="middle" x="215" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="190,-180.5 240,-180.5 "/>
+<text text-anchor="middle" x="215" y="-169.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℝ</text>
 </a>
 </g>
 </g>
 <!-- c_0_94 -->
 <g id="node4" class="node">
 <title>c_0_94</title>
-<g id="a_node4"><a xlink:href="c_0_94.html" xlink:title="{X₁ ∈ bool(ℝ × ℝ)|function(X₁)|⇊|diff(X₁,R₂) ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="69.5,-68.5 69.5,-128.5 190.5,-128.5 190.5,-68.5 69.5,-68.5"/>
-<text text-anchor="middle" x="130" y="-117.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℝ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="69.5,-113.5 190.5,-113.5 "/>
-<text text-anchor="middle" x="130" y="-102.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="69.5,-98.5 190.5,-98.5 "/>
-<text text-anchor="middle" x="130" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="69.5,-83.5 190.5,-83.5 "/>
-<text text-anchor="middle" x="130" y="-72.3" font-family="Times,serif" font-size="14.00">diff(X₁,R₂) ∈ ℝ</text>
-</a>
-</g>
-</g>
-<!-- c_0_68&#45;&gt;c_0_94 -->
-<g id="edge1" class="edge">
-<title>c_0_68&#45;&gt;c_0_94</title>
-<path fill="none" stroke="black" d="M193.76,-195C187.78,-195 183,-195 183,-195 183,-195 183,-138.5 183,-138.5"/>
-<polygon fill="black" stroke="black" points="186.5,-138.5 183,-128.5 179.5,-138.5 186.5,-138.5"/>
-</g>
-<!-- dt_k1_fdiff_1 -->
-<g id="node2" class="node">
-<title>dt_k1_fdiff_1</title>
-<g id="a_node2"><a xlink:href="dt_k1_fdiff_1.html" xlink:title="dt_k1_fdiff_1" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="84.5,-188 84.5,-203 175.5,-203 175.5,-188 84.5,-188"/>
-<text text-anchor="middle" x="130" y="-191.8" font-family="Times,serif" font-size="14.00">dt_k1_fdiff_1</text>
-</a>
-</g>
-</g>
-<!-- dt_k1_fdiff_1&#45;&gt;c_0_94 -->
-<g id="edge2" class="edge">
-<title>dt_k1_fdiff_1&#45;&gt;c_0_94</title>
-<path fill="none" stroke="black" d="M130,-187.89C130,-187.89 130,-138.78 130,-138.78"/>
-<polygon fill="black" stroke="black" points="133.5,-138.78 130,-128.78 126.5,-138.78 133.5,-138.78"/>
-</g>
-<!-- c_0_91 -->
-<g id="node3" class="node">
-<title>c_0_91</title>
-<g id="a_node3"><a xlink:href="c_0_91.html" xlink:title="{X₁ ⊆ ℝ|X₂ ∈ X₁|⇊|X₂ ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-165.5 16,-225.5 66,-225.5 66,-165.5 16,-165.5"/>
-<text text-anchor="middle" x="41" y="-214.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="16,-210.5 66,-210.5 "/>
-<text text-anchor="middle" x="41" y="-199.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="16,-195.5 66,-195.5 "/>
-<text text-anchor="middle" x="41" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-180.5 66,-180.5 "/>
-<text text-anchor="middle" x="41" y="-169.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℝ</text>
+<g id="a_node4"><a xlink:href="c_0_94.html" xlink:title="{X₁ ∈ bool(ℝ × ℝ)|function(X₁)|⇊|diff(X₁,R₂) ∈ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="88.5,-68.5 88.5,-128.5 209.5,-128.5 209.5,-68.5 88.5,-68.5"/>
+<text text-anchor="middle" x="149" y="-117.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℝ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="88.5,-113.5 209.5,-113.5 "/>
+<text text-anchor="middle" x="149" y="-102.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="88.5,-98.5 209.5,-98.5 "/>
+<text text-anchor="middle" x="149" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="88.5,-83.5 209.5,-83.5 "/>
+<text text-anchor="middle" x="149" y="-72.3" font-family="Times,serif" font-size="14.00">diff(X₁,R₂) ∈ ℝ</text>
 </a>
 </g>
 </g>
 <!-- c_0_91&#45;&gt;c_0_94 -->
-<g id="edge3" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_91&#45;&gt;c_0_94</title>
-<path fill="none" stroke="black" d="M66,-176C72.15,-176 77,-176 77,-176 77,-176 77,-138.69 77,-138.69"/>
-<polygon fill="black" stroke="black" points="80.5,-138.69 77,-128.69 73.5,-138.69 80.5,-138.69"/>
+<path fill="none" stroke="black" d="M199.75,-165.34C199.75,-165.34 199.75,-138.64 199.75,-138.64"/>
+<polygon fill="black" stroke="black" points="203.25,-138.64 199.75,-128.64 196.25,-138.64 203.25,-138.64"/>
+</g>
+<!-- c_0_68 -->
+<g id="node2" class="node">
+<title>c_0_68</title>
+<g id="a_node2"><a xlink:href="c_0_68.html" xlink:title="{ℝ ⊆ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="126,-188 126,-203 172,-203 172,-188 126,-188"/>
+<text text-anchor="middle" x="149" y="-191.8" font-family="Times,serif" font-size="14.00">ℝ ⊆ ℝ</text>
+</a>
+</g>
+</g>
+<!-- c_0_68&#45;&gt;c_0_94 -->
+<g id="edge2" class="edge">
+<title>c_0_68&#45;&gt;c_0_94</title>
+<path fill="none" stroke="black" d="M149,-187.89C149,-187.89 149,-138.78 149,-138.78"/>
+<polygon fill="black" stroke="black" points="152.5,-138.78 149,-128.78 145.5,-138.78 152.5,-138.78"/>
+</g>
+<!-- dt_k1_fdiff_1 -->
+<g id="node3" class="node">
+<title>dt_k1_fdiff_1</title>
+<g id="a_node3"><a xlink:href="dt_k1_fdiff_1.html" xlink:title="dt_k1_fdiff_1" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="16.5,-188 16.5,-203 107.5,-203 107.5,-188 16.5,-188"/>
+<text text-anchor="middle" x="62" y="-191.8" font-family="Times,serif" font-size="14.00">dt_k1_fdiff_1</text>
+</a>
+</g>
+</g>
+<!-- dt_k1_fdiff_1&#45;&gt;c_0_94 -->
+<g id="edge3" class="edge">
+<title>dt_k1_fdiff_1&#45;&gt;c_0_94</title>
+<path fill="none" stroke="black" d="M98,-187.89C98,-187.89 98,-138.78 98,-138.78"/>
+<polygon fill="black" stroke="black" points="101.5,-138.78 98,-128.78 94.5,-138.78 101.5,-138.78"/>
 </g>
 <!-- c_0_121 -->
 <g id="node5" class="node">
 <title>c_0_121</title>
-<g id="a_node5"><a xlink:href="c_0_121.html" xlink:title="{exp_R . R₁ ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="78,-16.5 78,-31.5 182,-31.5 182,-16.5 78,-16.5"/>
-<text text-anchor="middle" x="130" y="-20.3" font-family="Times,serif" font-size="14.00">exp_R . R₁ ∈ ℝ</text>
+<g id="a_node5"><a xlink:href="c_0_121.html" xlink:title="{exp_R . R₁ ∈ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="97,-16.5 97,-31.5 201,-31.5 201,-16.5 97,-16.5"/>
+<text text-anchor="middle" x="149" y="-20.3" font-family="Times,serif" font-size="14.00">exp_R . R₁ ∈ ℝ</text>
 </a>
 </g>
 </g>
 <!-- c_0_94&#45;&gt;c_0_121 -->
 <g id="edge4" class="edge">
 <title>c_0_94&#45;&gt;c_0_121</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M130,-68.2C130,-68.2 130,-41.59 130,-41.59"/>
-<polygon fill="black" stroke="black" points="133.5,-41.59 130,-31.59 126.5,-41.59 133.5,-41.59"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M149,-68.2C149,-68.2 149,-41.59 149,-41.59"/>
+<polygon fill="black" stroke="black" points="152.5,-41.59 149,-31.59 145.5,-41.59 152.5,-41.59"/>
 </g>
 </g>
 </svg>

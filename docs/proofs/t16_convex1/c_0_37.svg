@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="656,-232 656,-309 912,-309 912,-232 656,-232"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="598,-232 598,-309 854,-309 854,-232 598,-232"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
@@ -20,34 +20,40 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-160 1137,-160 1137,-8 8,-8"/>
 </g>
-<!-- spc1_numerals -->
+<!-- c_0_36 -->
 <g id="node1" class="node">
-<title>spc1_numerals</title>
-<g id="a_node1"><a xlink:href="spc1_numerals.html" xlink:title="spc1_numerals" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="796.5,-263 796.5,-278 903.5,-278 903.5,-263 796.5,-263"/>
-<text text-anchor="middle" x="850" y="-266.8" font-family="Times,serif" font-size="14.00">spc1_numerals</text>
+<title>c_0_36</title>
+<g id="a_node1"><a xlink:href="c_0_36.html" xlink:title="{X₁ ⊆ ℝ|X₂ ∈ X₁|⇊|X₂ ∈ ℝ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="796,-240.5 796,-300.5 846,-300.5 846,-240.5 796,-240.5"/>
+<text text-anchor="middle" x="821" y="-289.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ ℝ</text>
+<polyline fill="none" stroke="#7f7542" points="796,-285.5 846,-285.5 "/>
+<text text-anchor="middle" x="821" y="-274.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="796,-270.5 846,-270.5 "/>
+<text text-anchor="middle" x="821" y="-259.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="796,-255.5 846,-255.5 "/>
+<text text-anchor="middle" x="821" y="-244.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℝ</text>
 </a>
 </g>
 </g>
 <!-- c_0_37 -->
 <g id="node4" class="node">
 <title>c_0_37</title>
-<g id="a_node4"><a xlink:href="c_0_37.html" xlink:title="{1 ∈ ℝ}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_37.html" xlink:title="{1 ∈ ℝ}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="734.5,-188.5 734.5,-203.5 775.5,-203.5 775.5,-188.5 734.5,-188.5"/>
 <text text-anchor="middle" x="755" y="-192.3" font-family="Times,serif" font-size="14.00">1 ∈ ℝ</text>
 </a>
 </g>
 </g>
-<!-- spc1_numerals&#45;&gt;c_0_37 -->
+<!-- c_0_36&#45;&gt;c_0_37 -->
 <g id="edge1" class="edge">
-<title>spc1_numerals&#45;&gt;c_0_37</title>
-<path fill="none" stroke="black" d="M849.5,-262.96C849.5,-244.77 849.5,-200 849.5,-200 849.5,-200 785.51,-200 785.51,-200"/>
-<polygon fill="black" stroke="black" points="785.51,-196.5 775.51,-200 785.51,-203.5 785.51,-196.5"/>
+<title>c_0_36&#45;&gt;c_0_37</title>
+<path fill="none" stroke="black" d="M795.91,-251C779.78,-251 761.83,-251 761.83,-251 761.83,-251 761.83,-213.65 761.83,-213.65"/>
+<polygon fill="black" stroke="black" points="765.33,-213.65 761.83,-203.65 758.33,-213.65 765.33,-213.65"/>
 </g>
 <!-- c_0_38 -->
 <g id="node2" class="node">
 <title>c_0_38</title>
-<g id="a_node2"><a xlink:href="c_0_38.html" xlink:title="{ℝ ⊆ ℝ}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_38.html" xlink:title="{ℝ ⊆ ℝ}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="732,-263 732,-278 778,-278 778,-263 732,-263"/>
 <text text-anchor="middle" x="755" y="-266.8" font-family="Times,serif" font-size="14.00">ℝ ⊆ ℝ</text>
 </a>
@@ -56,34 +62,28 @@
 <!-- c_0_38&#45;&gt;c_0_37 -->
 <g id="edge2" class="edge">
 <title>c_0_38&#45;&gt;c_0_37</title>
-<path fill="none" stroke="black" d="M761.83,-262.81C761.83,-262.81 761.83,-213.76 761.83,-213.76"/>
-<polygon fill="black" stroke="black" points="765.33,-213.76 761.83,-203.76 758.33,-213.76 765.33,-213.76"/>
+<path fill="none" stroke="black" d="M748.17,-262.81C748.17,-262.81 748.17,-213.76 748.17,-213.76"/>
+<polygon fill="black" stroke="black" points="751.67,-213.76 748.17,-203.76 744.67,-213.76 751.67,-213.76"/>
 </g>
-<!-- c_0_36 -->
+<!-- spc1_numerals -->
 <g id="node3" class="node">
-<title>c_0_36</title>
-<g id="a_node3"><a xlink:href="c_0_36.html" xlink:title="{X₁ ⊆ ℝ|X₂ ∈ X₁|⇊|X₂ ∈ ℝ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="664,-240.5 664,-300.5 714,-300.5 714,-240.5 664,-240.5"/>
-<text text-anchor="middle" x="689" y="-289.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ ℝ</text>
-<polyline fill="none" stroke="#7f7542" points="664,-285.5 714,-285.5 "/>
-<text text-anchor="middle" x="689" y="-274.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="664,-270.5 714,-270.5 "/>
-<text text-anchor="middle" x="689" y="-259.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="664,-255.5 714,-255.5 "/>
-<text text-anchor="middle" x="689" y="-244.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℝ</text>
+<title>spc1_numerals</title>
+<g id="a_node3"><a xlink:href="spc1_numerals.html" xlink:title="spc1_numerals" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="606.5,-263 606.5,-278 713.5,-278 713.5,-263 606.5,-263"/>
+<text text-anchor="middle" x="660" y="-266.8" font-family="Times,serif" font-size="14.00">spc1_numerals</text>
 </a>
 </g>
 </g>
-<!-- c_0_36&#45;&gt;c_0_37 -->
+<!-- spc1_numerals&#45;&gt;c_0_37 -->
 <g id="edge3" class="edge">
-<title>c_0_36&#45;&gt;c_0_37</title>
-<path fill="none" stroke="black" d="M714.09,-251C730.22,-251 748.17,-251 748.17,-251 748.17,-251 748.17,-213.65 748.17,-213.65"/>
-<polygon fill="black" stroke="black" points="751.67,-213.65 748.17,-203.65 744.67,-213.65 751.67,-213.65"/>
+<title>spc1_numerals&#45;&gt;c_0_37</title>
+<path fill="none" stroke="black" d="M660.5,-262.96C660.5,-244.77 660.5,-200 660.5,-200 660.5,-200 724.49,-200 724.49,-200"/>
+<polygon fill="black" stroke="black" points="724.49,-203.5 734.49,-200 724.49,-196.5 724.49,-203.5"/>
 </g>
 <!-- c_0_124 -->
 <g id="node5" class="node">
 <title>c_0_124</title>
-<g id="a_node5"><a xlink:href="c_0_124.html" xlink:title="{Affine(X₁,X₂)|RLSStruct(X₂)|X₁ ∈ bool(carrier(X₂))|⇊|convex(X₁,X₂)|empty(X₂)}" target="_parent">
+<g id="a_node5"><a xlink:href="c_0_124.html" xlink:title="{Affine(X₁,X₂)|RLSStruct(X₂)|X₁ ∈ bool(carrier(X₂))|⇊|convex(X₁,X₂)|empty(X₂)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="979,-39 979,-129 1129,-129 1129,-39 979,-39"/>
 <text text-anchor="middle" x="1054" y="-117.8" font-family="Times,serif" font-size="14.00">Affine(X₁,X₂)</text>
 <polyline fill="none" stroke="#7f7542" points="979,-114 1129,-114 "/>
@@ -102,13 +102,13 @@
 <!-- c_0_37&#45;&gt;c_0_124 -->
 <g id="edge4" class="edge">
 <title>c_0_37&#45;&gt;c_0_124</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M775.55,-196C843.1,-196 1054,-196 1054,-196 1054,-196 1054,-139.23 1054,-139.23"/>
-<polygon fill="black" stroke="black" points="1057.5,-139.23 1054,-129.23 1050.5,-139.23 1057.5,-139.23"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M775.55,-198C843.1,-198 1054,-198 1054,-198 1054,-198 1054,-139.06 1054,-139.06"/>
+<polygon fill="black" stroke="black" points="1057.5,-139.06 1054,-129.06 1050.5,-139.06 1057.5,-139.06"/>
 </g>
 <!-- c_0_77 -->
 <g id="node6" class="node">
 <title>c_0_77</title>
-<g id="a_node6"><a xlink:href="c_0_77.html" xlink:title="{1 ∈ ℂ}" target="_parent">
+<g id="a_node6"><a xlink:href="c_0_77.html" xlink:title="{1 ∈ ℂ}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="921,-76.5 921,-91.5 961,-91.5 961,-76.5 921,-76.5"/>
 <text text-anchor="middle" x="941" y="-80.3" font-family="Times,serif" font-size="14.00">1 ∈ ℂ</text>
 </a>
@@ -117,13 +117,13 @@
 <!-- c_0_37&#45;&gt;c_0_77 -->
 <g id="edge5" class="edge">
 <title>c_0_37&#45;&gt;c_0_77</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M775.62,-192C824.04,-192 941,-192 941,-192 941,-192 941,-101.77 941,-101.77"/>
-<polygon fill="black" stroke="black" points="944.5,-101.77 941,-91.77 937.5,-101.77 944.5,-101.77"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M775.62,-193C824.04,-193 941,-193 941,-193 941,-193 941,-101.84 941,-101.84"/>
+<polygon fill="black" stroke="black" points="944.5,-101.84 941,-91.84 937.5,-101.84 944.5,-101.84"/>
 </g>
 <!-- c_0_94 -->
 <g id="node7" class="node">
 <title>c_0_94</title>
-<g id="a_node7"><a xlink:href="c_0_94.html" xlink:title="{Affine(X₅,X₁)|RLSStruct(X₁)|X₂ ∈ X₅|X₃ ∈ ℝ|X₄ ∈ X₅|X₅ ∈ bool(carrier(X₁))|⇊|X₁ + (X₁ * X₂ * &#45;(1,X₃)) + (X₁ * X₄ * X₃) ∈ X₅|empty(X₁)}" target="_parent">
+<g id="a_node7"><a xlink:href="c_0_94.html" xlink:title="{Affine(X₅,X₁)|RLSStruct(X₁)|X₂ ∈ X₅|X₃ ∈ ℝ|X₄ ∈ X₅|X₅ ∈ bool(carrier(X₁))|⇊|X₁ + (X₁ * X₂ * &#45;(1,X₃)) + (X₁ * X₄ * X₃) ∈ X₅|empty(X₁)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="607.5,-16.5 607.5,-151.5 902.5,-151.5 902.5,-16.5 607.5,-16.5"/>
 <text text-anchor="middle" x="755" y="-140.3" font-family="Times,serif" font-size="14.00">Affine(X₅,X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="607.5,-136.5 902.5,-136.5 "/>
@@ -154,7 +154,7 @@
 <!-- c_0_113 -->
 <g id="node8" class="node">
 <title>c_0_113</title>
-<g id="a_node8"><a xlink:href="c_0_113.html" xlink:title="{RLSStruct(X₂)|X₁ ∈ bool(carrier(X₂))|X₂ + (X₂ * sk₃(X₂,X₁) * sk₅(X₂,X₁)) + (X₂ * sk₄(X₂,X₁) * &#45;(1,sk₅(X₂,X₁))) ∈ X₁|⇊|convex(X₁,X₂)|empty(X₂)}" target="_parent">
+<g id="a_node8"><a xlink:href="c_0_113.html" xlink:title="{RLSStruct(X₂)|X₁ ∈ bool(carrier(X₂))|X₂ + (X₂ * sk₃(X₂,X₁) * sk₅(X₂,X₁)) + (X₂ * sk₄(X₂,X₁) * &#45;(1,sk₅(X₂,X₁))) ∈ X₁|⇊|convex(X₁,X₂)|empty(X₂)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="90.5,-39 90.5,-129 589.5,-129 589.5,-39 90.5,-39"/>
 <text text-anchor="middle" x="340" y="-117.8" font-family="Times,serif" font-size="14.00">RLSStruct(X₂)</text>
 <polyline fill="none" stroke="#7f7542" points="90.5,-114 589.5,-114 "/>
@@ -173,13 +173,13 @@
 <!-- c_0_37&#45;&gt;c_0_113 -->
 <g id="edge7" class="edge">
 <title>c_0_37&#45;&gt;c_0_113</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M734.42,-193C650.68,-193 340,-193 340,-193 340,-193 340,-139.28 340,-139.28"/>
-<polygon fill="black" stroke="black" points="343.5,-139.28 340,-129.28 336.5,-139.28 343.5,-139.28"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M734.42,-192C650.68,-192 340,-192 340,-192 340,-192 340,-139.18 340,-139.18"/>
+<polygon fill="black" stroke="black" points="343.5,-139.18 340,-129.18 336.5,-139.18 343.5,-139.18"/>
 </g>
 <!-- c_0_62 -->
 <g id="node9" class="node">
 <title>c_0_62</title>
-<g id="a_node9"><a xlink:href="c_0_62.html" xlink:title="{&#45;(1) ∈ ℝ}" target="_parent">
+<g id="a_node9"><a xlink:href="c_0_62.html" xlink:title="{&#45;(1) ∈ ℝ}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16,-76.5 16,-91.5 72,-91.5 72,-76.5 16,-76.5"/>
 <text text-anchor="middle" x="44" y="-80.3" font-family="Times,serif" font-size="14.00">&#45;(1) ∈ ℝ</text>
 </a>
@@ -188,8 +188,8 @@
 <!-- c_0_37&#45;&gt;c_0_62 -->
 <g id="edge8" class="edge">
 <title>c_0_37&#45;&gt;c_0_62</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M734.49,-198C617.91,-198 44,-198 44,-198 44,-198 44,-101.84 44,-101.84"/>
-<polygon fill="black" stroke="black" points="47.5,-101.84 44,-91.84 40.5,-101.84 47.5,-101.84"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M734.49,-196C617.91,-196 44,-196 44,-196 44,-196 44,-101.7 44,-101.7"/>
+<polygon fill="black" stroke="black" points="47.5,-101.7 44,-91.7 40.5,-101.7 47.5,-101.7"/>
 </g>
 </g>
 </svg>

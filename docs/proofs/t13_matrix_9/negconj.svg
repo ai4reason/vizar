@@ -11,266 +11,266 @@
 <!-- t13_matrix_9 -->
 <g id="node1" class="node">
 <title>t13_matrix_9</title>
-<g id="a_node1"><a xlink:href="t13_matrix_9.html" xlink:title="t13_matrix_9" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1273,-52.5 1273,-67.5 1367,-67.5 1367,-52.5 1273,-52.5"/>
-<text text-anchor="middle" x="1320" y="-56.3" font-family="Times,serif" font-size="14.00">t13_matrix_9</text>
+<g id="a_node1"><a xlink:href="t13_matrix_9.html" xlink:title="t13_matrix_9" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1209,-52.5 1209,-67.5 1303,-67.5 1303,-52.5 1209,-52.5"/>
+<text text-anchor="middle" x="1256" y="-56.3" font-family="Times,serif" font-size="14.00">t13_matrix_9</text>
 </a>
 </g>
 </g>
-<!-- c_0_63 -->
+<!-- c_0_56 -->
 <g id="node2" class="node">
-<title>c_0_63</title>
-<g id="a_node2"><a xlink:href="c_0_63.html" xlink:title="{¬ (empty(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="0,-0.5 0,-15.5 104,-15.5 104,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="52" y="-4.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
+<title>c_0_56</title>
+<g id="a_node2"><a xlink:href="c_0_56.html" xlink:title="{add&#45;associative(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="0,-0.5 0,-15.5 142,-15.5 142,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="71" y="-4.3" font-family="Times,serif" font-size="14.00">add&#45;associative(sk₁)</text>
 </a>
 </g>
 </g>
-<!-- t13_matrix_9&#45;&gt;c_0_63 -->
+<!-- t13_matrix_9&#45;&gt;c_0_56 -->
 <g id="edge1" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_63</title>
-<path fill="none" stroke="black" d="M1296.5,-52.25C1296.5,-42.78 1296.5,-28 1296.5,-28 1296.5,-28 52,-28 52,-28 52,-28 52,-25.68 52,-25.68"/>
-<polygon fill="black" stroke="black" points="55.5,-25.68 52,-15.68 48.5,-25.68 55.5,-25.68"/>
-</g>
-<!-- c_0_53 -->
-<g id="node3" class="node">
-<title>c_0_53</title>
-<g id="a_node3"><a xlink:href="c_0_53.html" xlink:title="{distributive(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="122.5,-0.5 122.5,-15.5 237.5,-15.5 237.5,-0.5 122.5,-0.5"/>
-<text text-anchor="middle" x="180" y="-4.3" font-family="Times,serif" font-size="14.00">distributive(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t13_matrix_9&#45;&gt;c_0_53 -->
-<g id="edge2" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_53</title>
-<path fill="none" stroke="black" d="M1272.83,-66C1057.69,-66 180,-66 180,-66 180,-66 180,-25.58 180,-25.58"/>
-<polygon fill="black" stroke="black" points="183.5,-25.58 180,-15.58 176.5,-25.58 183.5,-25.58"/>
+<title>t13_matrix_9&#45;&gt;c_0_56</title>
+<path fill="none" stroke="black" d="M1232.5,-52.25C1232.5,-42.78 1232.5,-28 1232.5,-28 1232.5,-28 71,-28 71,-28 71,-28 71,-25.68 71,-25.68"/>
+<polygon fill="black" stroke="black" points="74.5,-25.68 71,-15.68 67.5,-25.68 74.5,-25.68"/>
 </g>
 <!-- c_0_60 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_60</title>
-<g id="a_node4"><a xlink:href="c_0_60.html" xlink:title="{almost_left_invertible(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="255.5,-0.5 255.5,-15.5 442.5,-15.5 442.5,-0.5 255.5,-0.5"/>
-<text text-anchor="middle" x="349" y="-4.3" font-family="Times,serif" font-size="14.00">almost_left_invertible(sk₁)</text>
+<g id="a_node3"><a xlink:href="c_0_60.html" xlink:title="{almost_left_invertible(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="160.5,-0.5 160.5,-15.5 347.5,-15.5 347.5,-0.5 160.5,-0.5"/>
+<text text-anchor="middle" x="254" y="-4.3" font-family="Times,serif" font-size="14.00">almost_left_invertible(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t13_matrix_9&#45;&gt;c_0_60 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>t13_matrix_9&#45;&gt;c_0_60</title>
-<path fill="none" stroke="black" d="M1272.84,-64C1078.38,-64 349,-64 349,-64 349,-64 349,-25.79 349,-25.79"/>
-<polygon fill="black" stroke="black" points="352.5,-25.79 349,-15.79 345.5,-25.79 352.5,-25.79"/>
+<path fill="none" stroke="black" d="M1208.68,-66C1010.07,-66 254,-66 254,-66 254,-66 254,-25.58 254,-25.58"/>
+<polygon fill="black" stroke="black" points="257.5,-25.58 254,-15.58 250.5,-25.58 257.5,-25.58"/>
 </g>
 <!-- c_0_48 -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>c_0_48</title>
-<g id="a_node5"><a xlink:href="c_0_48.html" xlink:title="{sk₅ ∈ carrier(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="460.5,-0.5 460.5,-15.5 581.5,-15.5 581.5,-0.5 460.5,-0.5"/>
-<text text-anchor="middle" x="521" y="-4.3" font-family="Times,serif" font-size="14.00">sk₅ ∈ carrier(sk₁)</text>
+<g id="a_node4"><a xlink:href="c_0_48.html" xlink:title="{sk₅ ∈ carrier(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="365.5,-0.5 365.5,-15.5 486.5,-15.5 486.5,-0.5 365.5,-0.5"/>
+<text text-anchor="middle" x="426" y="-4.3" font-family="Times,serif" font-size="14.00">sk₅ ∈ carrier(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t13_matrix_9&#45;&gt;c_0_48 -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>t13_matrix_9&#45;&gt;c_0_48</title>
-<path fill="none" stroke="black" d="M1272.71,-62C1101.07,-62 521,-62 521,-62 521,-62 521,-25.51 521,-25.51"/>
-<polygon fill="black" stroke="black" points="524.5,-25.51 521,-15.51 517.5,-25.51 524.5,-25.51"/>
+<path fill="none" stroke="black" d="M1209,-64C1033.42,-64 426,-64 426,-64 426,-64 426,-25.79 426,-25.79"/>
+<polygon fill="black" stroke="black" points="429.5,-25.79 426,-15.79 422.5,-25.79 429.5,-25.79"/>
+</g>
+<!-- c_0_63 -->
+<g id="node5" class="node">
+<title>c_0_63</title>
+<g id="a_node5"><a xlink:href="c_0_63.html" xlink:title="{¬ (empty(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="505,-0.5 505,-15.5 609,-15.5 609,-0.5 505,-0.5"/>
+<text text-anchor="middle" x="557" y="-4.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
+</a>
+</g>
+</g>
+<!-- t13_matrix_9&#45;&gt;c_0_63 -->
+<g id="edge4" class="edge">
+<title>t13_matrix_9&#45;&gt;c_0_63</title>
+<path fill="none" stroke="black" d="M1208.78,-62C1051.75,-62 557,-62 557,-62 557,-62 557,-25.51 557,-25.51"/>
+<polygon fill="black" stroke="black" points="560.5,-25.51 557,-15.51 553.5,-25.51 560.5,-25.51"/>
+</g>
+<!-- c_0_53 -->
+<g id="node6" class="node">
+<title>c_0_53</title>
+<g id="a_node6"><a xlink:href="c_0_53.html" xlink:title="{distributive(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="627.5,-0.5 627.5,-15.5 742.5,-15.5 742.5,-0.5 627.5,-0.5"/>
+<text text-anchor="middle" x="685" y="-4.3" font-family="Times,serif" font-size="14.00">distributive(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t13_matrix_9&#45;&gt;c_0_53 -->
+<g id="edge5" class="edge">
+<title>t13_matrix_9&#45;&gt;c_0_53</title>
+<path fill="none" stroke="black" d="M1208.79,-60C1071.98,-60 685,-60 685,-60 685,-60 685,-25.67 685,-25.67"/>
+<polygon fill="black" stroke="black" points="688.5,-25.67 685,-15.67 681.5,-25.67 688.5,-25.67"/>
+</g>
+<!-- c_0_55 -->
+<g id="node7" class="node">
+<title>c_0_55</title>
+<g id="a_node7"><a xlink:href="c_0_55.html" xlink:title="{right_zeroed(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="761,-0.5 761,-15.5 883,-15.5 883,-0.5 761,-0.5"/>
+<text text-anchor="middle" x="822" y="-4.3" font-family="Times,serif" font-size="14.00">right_zeroed(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t13_matrix_9&#45;&gt;c_0_55 -->
+<g id="edge6" class="edge">
+<title>t13_matrix_9&#45;&gt;c_0_55</title>
+<path fill="none" stroke="black" d="M1208.73,-58C1096.24,-58 822,-58 822,-58 822,-58 822,-25.81 822,-25.81"/>
+<polygon fill="black" stroke="black" points="825.5,-25.81 822,-15.81 818.5,-25.81 825.5,-25.81"/>
 </g>
 <!-- c_0_62 -->
-<g id="node6" class="node">
+<g id="node8" class="node">
 <title>c_0_62</title>
-<g id="a_node6"><a xlink:href="c_0_62.html" xlink:title="{¬ (degenerated(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="599.5,-0.5 599.5,-15.5 748.5,-15.5 748.5,-0.5 599.5,-0.5"/>
-<text text-anchor="middle" x="674" y="-4.3" font-family="Times,serif" font-size="14.00">¬ (degenerated(sk₁))</text>
+<g id="a_node8"><a xlink:href="c_0_62.html" xlink:title="{¬ (degenerated(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="901.5,-0.5 901.5,-15.5 1050.5,-15.5 1050.5,-0.5 901.5,-0.5"/>
+<text text-anchor="middle" x="976" y="-4.3" font-family="Times,serif" font-size="14.00">¬ (degenerated(sk₁))</text>
 </a>
 </g>
 </g>
 <!-- t13_matrix_9&#45;&gt;c_0_62 -->
-<g id="edge5" class="edge">
+<g id="edge7" class="edge">
 <title>t13_matrix_9&#45;&gt;c_0_62</title>
-<path fill="none" stroke="black" d="M1272.76,-60C1123.84,-60 674,-60 674,-60 674,-60 674,-25.67 674,-25.67"/>
-<polygon fill="black" stroke="black" points="677.5,-25.67 674,-15.67 670.5,-25.67 677.5,-25.67"/>
+<path fill="none" stroke="black" d="M1208.82,-56C1129.02,-56 976,-56 976,-56 976,-56 976,-25.93 976,-25.93"/>
+<polygon fill="black" stroke="black" points="979.5,-25.93 976,-15.93 972.5,-25.93 979.5,-25.93"/>
+</g>
+<!-- c_0_54 -->
+<g id="node9" class="node">
+<title>c_0_54</title>
+<g id="a_node9"><a xlink:href="c_0_54.html" xlink:title="{well&#45;unital(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1068.5,-0.5 1068.5,-15.5 1175.5,-15.5 1175.5,-0.5 1068.5,-0.5"/>
+<text text-anchor="middle" x="1122" y="-4.3" font-family="Times,serif" font-size="14.00">well&#45;unital(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t13_matrix_9&#45;&gt;c_0_54 -->
+<g id="edge8" class="edge">
+<title>t13_matrix_9&#45;&gt;c_0_54</title>
+<path fill="none" stroke="black" d="M1208.76,-54C1170.18,-54 1122,-54 1122,-54 1122,-54 1122,-25.6 1122,-25.6"/>
+<polygon fill="black" stroke="black" points="1125.5,-25.6 1122,-15.6 1118.5,-25.6 1125.5,-25.6"/>
 </g>
 <!-- c_0_58 -->
-<g id="node7" class="node">
+<g id="node10" class="node">
 <title>c_0_58</title>
-<g id="a_node7"><a xlink:href="c_0_58.html" xlink:title="{commutative(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="766.5,-0.5 766.5,-15.5 891.5,-15.5 891.5,-0.5 766.5,-0.5"/>
-<text text-anchor="middle" x="829" y="-4.3" font-family="Times,serif" font-size="14.00">commutative(sk₁)</text>
+<g id="a_node10"><a xlink:href="c_0_58.html" xlink:title="{commutative(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1193.5,-0.5 1193.5,-15.5 1318.5,-15.5 1318.5,-0.5 1193.5,-0.5"/>
+<text text-anchor="middle" x="1256" y="-4.3" font-family="Times,serif" font-size="14.00">commutative(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t13_matrix_9&#45;&gt;c_0_58 -->
-<g id="edge6" class="edge">
+<g id="edge9" class="edge">
 <title>t13_matrix_9&#45;&gt;c_0_58</title>
-<path fill="none" stroke="black" d="M1272.92,-58C1150.03,-58 829,-58 829,-58 829,-58 829,-25.81 829,-25.81"/>
-<polygon fill="black" stroke="black" points="832.5,-25.81 829,-15.81 825.5,-25.81 832.5,-25.81"/>
+<path fill="none" stroke="black" d="M1256,-52.33C1256,-52.33 1256,-25.7 1256,-25.7"/>
+<polygon fill="black" stroke="black" points="1259.5,-25.7 1256,-15.7 1252.5,-25.7 1259.5,-25.7"/>
 </g>
 <!-- c_0_61 -->
-<g id="node8" class="node">
+<g id="node11" class="node">
 <title>c_0_61</title>
-<g id="a_node8"><a xlink:href="c_0_61.html" xlink:title="{right_complementable(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="910,-0.5 910,-15.5 1102,-15.5 1102,-0.5 910,-0.5"/>
-<text text-anchor="middle" x="1006" y="-4.3" font-family="Times,serif" font-size="14.00">right_complementable(sk₁)</text>
+<g id="a_node11"><a xlink:href="c_0_61.html" xlink:title="{right_complementable(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1337,-0.5 1337,-15.5 1529,-15.5 1529,-0.5 1337,-0.5"/>
+<text text-anchor="middle" x="1433" y="-4.3" font-family="Times,serif" font-size="14.00">right_complementable(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t13_matrix_9&#45;&gt;c_0_61 -->
-<g id="edge7" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_61</title>
-<path fill="none" stroke="black" d="M1272.99,-56C1185.4,-56 1006,-56 1006,-56 1006,-56 1006,-25.93 1006,-25.93"/>
-<polygon fill="black" stroke="black" points="1009.5,-25.93 1006,-15.93 1002.5,-25.93 1009.5,-25.93"/>
-</g>
-<!-- c_0_49 -->
-<g id="node9" class="node">
-<title>c_0_49</title>
-<g id="a_node9"><a xlink:href="c_0_49.html" xlink:title="{sk₄ ∈ carrier(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1120.5,-0.5 1120.5,-15.5 1241.5,-15.5 1241.5,-0.5 1120.5,-0.5"/>
-<text text-anchor="middle" x="1181" y="-4.3" font-family="Times,serif" font-size="14.00">sk₄ ∈ carrier(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t13_matrix_9&#45;&gt;c_0_49 -->
-<g id="edge8" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_49</title>
-<path fill="none" stroke="black" d="M1272.94,-54C1232.62,-54 1181,-54 1181,-54 1181,-54 1181,-25.6 1181,-25.6"/>
-<polygon fill="black" stroke="black" points="1184.5,-25.6 1181,-15.6 1177.5,-25.6 1184.5,-25.6"/>
-</g>
-<!-- c_0_51 -->
-<g id="node10" class="node">
-<title>c_0_51</title>
-<g id="a_node10"><a xlink:href="c_0_51.html" xlink:title="{sk₂ ∈ carrier(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1259.5,-0.5 1259.5,-15.5 1380.5,-15.5 1380.5,-0.5 1259.5,-0.5"/>
-<text text-anchor="middle" x="1320" y="-4.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ carrier(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t13_matrix_9&#45;&gt;c_0_51 -->
-<g id="edge9" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_51</title>
-<path fill="none" stroke="black" d="M1320,-52.33C1320,-52.33 1320,-25.7 1320,-25.7"/>
-<polygon fill="black" stroke="black" points="1323.5,-25.7 1320,-15.7 1316.5,-25.7 1323.5,-25.7"/>
-</g>
-<!-- c_0_52 -->
-<g id="node11" class="node">
-<title>c_0_52</title>
-<g id="a_node11"><a xlink:href="c_0_52.html" xlink:title="{doubleLoopStr(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1398.5,-0.5 1398.5,-15.5 1535.5,-15.5 1535.5,-0.5 1398.5,-0.5"/>
-<text text-anchor="middle" x="1467" y="-4.3" font-family="Times,serif" font-size="14.00">doubleLoopStr(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t13_matrix_9&#45;&gt;c_0_52 -->
 <g id="edge10" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_52</title>
-<path fill="none" stroke="black" d="M1367.32,-54C1410.29,-54 1467,-54 1467,-54 1467,-54 1467,-25.6 1467,-25.6"/>
-<polygon fill="black" stroke="black" points="1470.5,-25.6 1467,-15.6 1463.5,-25.6 1470.5,-25.6"/>
+<title>t13_matrix_9&#45;&gt;c_0_61</title>
+<path fill="none" stroke="black" d="M1303.43,-54C1355.86,-54 1433,-54 1433,-54 1433,-54 1433,-25.6 1433,-25.6"/>
+<polygon fill="black" stroke="black" points="1436.5,-25.6 1433,-15.6 1429.5,-25.6 1436.5,-25.6"/>
 </g>
 <!-- c_0_46 -->
 <g id="node12" class="node">
 <title>c_0_46</title>
-<g id="a_node12"><a xlink:href="c_0_46.html" xlink:title="{Det(2,sk₁,carrier(sk₁) ][ sk₂ ][ sk₃ ][ sk₄ ][ sk₅) ≠ &#45;(sk₁,sk₁ * sk₂ * sk₅,sk₁ * sk₃ * sk₄)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1553.5,-0.5 1553.5,-15.5 2126.5,-15.5 2126.5,-0.5 1553.5,-0.5"/>
-<text text-anchor="middle" x="1840" y="-4.3" font-family="Times,serif" font-size="14.00">Det(2,sk₁,carrier(sk₁) ][ sk₂ ][ sk₃ ][ sk₄ ][ sk₅) ≠ &#45;(sk₁,sk₁ * sk₂ * sk₅,sk₁ * sk₃ * sk₄)</text>
+<g id="a_node12"><a xlink:href="c_0_46.html" xlink:title="{Det(2,sk₁,carrier(sk₁) ][ sk₂ ][ sk₃ ][ sk₄ ][ sk₅) ≠ &#45;(sk₁,sk₁ * sk₂ * sk₅,sk₁ * sk₃ * sk₄)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1547.5,-0.5 1547.5,-15.5 2120.5,-15.5 2120.5,-0.5 1547.5,-0.5"/>
+<text text-anchor="middle" x="1834" y="-4.3" font-family="Times,serif" font-size="14.00">Det(2,sk₁,carrier(sk₁) ][ sk₂ ][ sk₃ ][ sk₄ ][ sk₅) ≠ &#45;(sk₁,sk₁ * sk₂ * sk₅,sk₁ * sk₃ * sk₄)</text>
 </a>
 </g>
 </g>
 <!-- t13_matrix_9&#45;&gt;c_0_46 -->
 <g id="edge11" class="edge">
 <title>t13_matrix_9&#45;&gt;c_0_46</title>
-<path fill="none" stroke="black" d="M1367.06,-56C1495.07,-56 1840,-56 1840,-56 1840,-56 1840,-25.93 1840,-25.93"/>
-<polygon fill="black" stroke="black" points="1843.5,-25.93 1840,-15.93 1836.5,-25.93 1843.5,-25.93"/>
+<path fill="none" stroke="black" d="M1303.3,-56C1441.34,-56 1834,-56 1834,-56 1834,-56 1834,-25.93 1834,-25.93"/>
+<polygon fill="black" stroke="black" points="1837.5,-25.93 1834,-15.93 1830.5,-25.93 1837.5,-25.93"/>
 </g>
-<!-- c_0_56 -->
+<!-- c_0_51 -->
 <g id="node13" class="node">
-<title>c_0_56</title>
-<g id="a_node13"><a xlink:href="c_0_56.html" xlink:title="{add&#45;associative(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="2145,-0.5 2145,-15.5 2287,-15.5 2287,-0.5 2145,-0.5"/>
-<text text-anchor="middle" x="2216" y="-4.3" font-family="Times,serif" font-size="14.00">add&#45;associative(sk₁)</text>
+<title>c_0_51</title>
+<g id="a_node13"><a xlink:href="c_0_51.html" xlink:title="{sk₂ ∈ carrier(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="2138.5,-0.5 2138.5,-15.5 2259.5,-15.5 2259.5,-0.5 2138.5,-0.5"/>
+<text text-anchor="middle" x="2199" y="-4.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ carrier(sk₁)</text>
 </a>
 </g>
 </g>
-<!-- t13_matrix_9&#45;&gt;c_0_56 -->
+<!-- t13_matrix_9&#45;&gt;c_0_51 -->
 <g id="edge12" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_56</title>
-<path fill="none" stroke="black" d="M1367.23,-58C1552.02,-58 2216,-58 2216,-58 2216,-58 2216,-25.81 2216,-25.81"/>
-<polygon fill="black" stroke="black" points="2219.5,-25.81 2216,-15.81 2212.5,-25.81 2219.5,-25.81"/>
+<title>t13_matrix_9&#45;&gt;c_0_51</title>
+<path fill="none" stroke="black" d="M1303.09,-58C1493.84,-58 2199,-58 2199,-58 2199,-58 2199,-25.81 2199,-25.81"/>
+<polygon fill="black" stroke="black" points="2202.5,-25.81 2199,-15.81 2195.5,-25.81 2202.5,-25.81"/>
 </g>
-<!-- c_0_59 -->
+<!-- c_0_52 -->
 <g id="node14" class="node">
-<title>c_0_59</title>
-<g id="a_node14"><a xlink:href="c_0_59.html" xlink:title="{associative(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="2305.5,-0.5 2305.5,-15.5 2416.5,-15.5 2416.5,-0.5 2305.5,-0.5"/>
-<text text-anchor="middle" x="2361" y="-4.3" font-family="Times,serif" font-size="14.00">associative(sk₁)</text>
+<title>c_0_52</title>
+<g id="a_node14"><a xlink:href="c_0_52.html" xlink:title="{doubleLoopStr(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="2277.5,-0.5 2277.5,-15.5 2414.5,-15.5 2414.5,-0.5 2277.5,-0.5"/>
+<text text-anchor="middle" x="2346" y="-4.3" font-family="Times,serif" font-size="14.00">doubleLoopStr(sk₁)</text>
 </a>
 </g>
 </g>
-<!-- t13_matrix_9&#45;&gt;c_0_59 -->
+<!-- t13_matrix_9&#45;&gt;c_0_52 -->
 <g id="edge13" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_59</title>
-<path fill="none" stroke="black" d="M1367.09,-60C1570.2,-60 2361,-60 2361,-60 2361,-60 2361,-25.67 2361,-25.67"/>
-<polygon fill="black" stroke="black" points="2364.5,-25.67 2361,-15.67 2357.5,-25.67 2364.5,-25.67"/>
-</g>
-<!-- c_0_55 -->
-<g id="node15" class="node">
-<title>c_0_55</title>
-<g id="a_node15"><a xlink:href="c_0_55.html" xlink:title="{right_zeroed(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="2435,-0.5 2435,-15.5 2557,-15.5 2557,-0.5 2435,-0.5"/>
-<text text-anchor="middle" x="2496" y="-4.3" font-family="Times,serif" font-size="14.00">right_zeroed(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t13_matrix_9&#45;&gt;c_0_55 -->
-<g id="edge14" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_55</title>
-<path fill="none" stroke="black" d="M1367.19,-62C1586.56,-62 2496,-62 2496,-62 2496,-62 2496,-25.51 2496,-25.51"/>
-<polygon fill="black" stroke="black" points="2499.5,-25.51 2496,-15.51 2492.5,-25.51 2499.5,-25.51"/>
-</g>
-<!-- c_0_50 -->
-<g id="node16" class="node">
-<title>c_0_50</title>
-<g id="a_node16"><a xlink:href="c_0_50.html" xlink:title="{sk₃ ∈ carrier(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="2575.5,-0.5 2575.5,-15.5 2696.5,-15.5 2696.5,-0.5 2575.5,-0.5"/>
-<text text-anchor="middle" x="2636" y="-4.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ carrier(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t13_matrix_9&#45;&gt;c_0_50 -->
-<g id="edge15" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_50</title>
-<path fill="none" stroke="black" d="M1367.23,-64C1602.41,-64 2636,-64 2636,-64 2636,-64 2636,-25.79 2636,-25.79"/>
-<polygon fill="black" stroke="black" points="2639.5,-25.79 2636,-15.79 2632.5,-25.79 2639.5,-25.79"/>
+<title>t13_matrix_9&#45;&gt;c_0_52</title>
+<path fill="none" stroke="black" d="M1303.19,-60C1512.4,-60 2346,-60 2346,-60 2346,-60 2346,-25.67 2346,-25.67"/>
+<polygon fill="black" stroke="black" points="2349.5,-25.67 2346,-15.67 2342.5,-25.67 2349.5,-25.67"/>
 </g>
 <!-- c_0_57 -->
-<g id="node17" class="node">
+<g id="node15" class="node">
 <title>c_0_57</title>
-<g id="a_node17"><a xlink:href="c_0_57.html" xlink:title="{Abelian(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="2714.5,-0.5 2714.5,-15.5 2799.5,-15.5 2799.5,-0.5 2714.5,-0.5"/>
-<text text-anchor="middle" x="2757" y="-4.3" font-family="Times,serif" font-size="14.00">Abelian(sk₁)</text>
+<g id="a_node15"><a xlink:href="c_0_57.html" xlink:title="{Abelian(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="2432.5,-0.5 2432.5,-15.5 2517.5,-15.5 2517.5,-0.5 2432.5,-0.5"/>
+<text text-anchor="middle" x="2475" y="-4.3" font-family="Times,serif" font-size="14.00">Abelian(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t13_matrix_9&#45;&gt;c_0_57 -->
-<g id="edge16" class="edge">
+<g id="edge14" class="edge">
 <title>t13_matrix_9&#45;&gt;c_0_57</title>
-<path fill="none" stroke="black" d="M1367.4,-66C1615.9,-66 2757,-66 2757,-66 2757,-66 2757,-25.58 2757,-25.58"/>
-<polygon fill="black" stroke="black" points="2760.5,-25.58 2757,-15.58 2753.5,-25.58 2760.5,-25.58"/>
+<path fill="none" stroke="black" d="M1303.04,-62C1527.06,-62 2475,-62 2475,-62 2475,-62 2475,-25.51 2475,-25.51"/>
+<polygon fill="black" stroke="black" points="2478.5,-25.51 2475,-15.51 2471.5,-25.51 2478.5,-25.51"/>
 </g>
-<!-- c_0_54 -->
-<g id="node18" class="node">
-<title>c_0_54</title>
-<g id="a_node18"><a xlink:href="c_0_54.html" xlink:title="{well&#45;unital(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="2817.5,-0.5 2817.5,-15.5 2924.5,-15.5 2924.5,-0.5 2817.5,-0.5"/>
-<text text-anchor="middle" x="2871" y="-4.3" font-family="Times,serif" font-size="14.00">well&#45;unital(sk₁)</text>
+<!-- c_0_49 -->
+<g id="node16" class="node">
+<title>c_0_49</title>
+<g id="a_node16"><a xlink:href="c_0_49.html" xlink:title="{sk₄ ∈ carrier(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="2535.5,-0.5 2535.5,-15.5 2656.5,-15.5 2656.5,-0.5 2535.5,-0.5"/>
+<text text-anchor="middle" x="2596" y="-4.3" font-family="Times,serif" font-size="14.00">sk₄ ∈ carrier(sk₁)</text>
 </a>
 </g>
 </g>
-<!-- t13_matrix_9&#45;&gt;c_0_54 -->
+<!-- t13_matrix_9&#45;&gt;c_0_49 -->
+<g id="edge15" class="edge">
+<title>t13_matrix_9&#45;&gt;c_0_49</title>
+<path fill="none" stroke="black" d="M1303.3,-64C1541.24,-64 2596,-64 2596,-64 2596,-64 2596,-25.79 2596,-25.79"/>
+<polygon fill="black" stroke="black" points="2599.5,-25.79 2596,-15.79 2592.5,-25.79 2599.5,-25.79"/>
+</g>
+<!-- c_0_59 -->
+<g id="node17" class="node">
+<title>c_0_59</title>
+<g id="a_node17"><a xlink:href="c_0_59.html" xlink:title="{associative(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="2674.5,-0.5 2674.5,-15.5 2785.5,-15.5 2785.5,-0.5 2674.5,-0.5"/>
+<text text-anchor="middle" x="2730" y="-4.3" font-family="Times,serif" font-size="14.00">associative(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t13_matrix_9&#45;&gt;c_0_59 -->
+<g id="edge16" class="edge">
+<title>t13_matrix_9&#45;&gt;c_0_59</title>
+<path fill="none" stroke="black" d="M1303.37,-66C1555.67,-66 2730,-66 2730,-66 2730,-66 2730,-25.58 2730,-25.58"/>
+<polygon fill="black" stroke="black" points="2733.5,-25.58 2730,-15.58 2726.5,-25.58 2733.5,-25.58"/>
+</g>
+<!-- c_0_50 -->
+<g id="node18" class="node">
+<title>c_0_50</title>
+<g id="a_node18"><a xlink:href="c_0_50.html" xlink:title="{sk₃ ∈ carrier(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="2803.5,-0.5 2803.5,-15.5 2924.5,-15.5 2924.5,-0.5 2803.5,-0.5"/>
+<text text-anchor="middle" x="2864" y="-4.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ carrier(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t13_matrix_9&#45;&gt;c_0_50 -->
 <g id="edge17" class="edge">
-<title>t13_matrix_9&#45;&gt;c_0_54</title>
-<path fill="none" stroke="black" d="M1343.5,-52.32C1343.5,-46.68 1343.5,-40 1343.5,-40 1343.5,-40 2871,-40 2871,-40 2871,-40 2871,-25.75 2871,-25.75"/>
-<polygon fill="black" stroke="black" points="2874.5,-25.75 2871,-15.75 2867.5,-25.75 2874.5,-25.75"/>
+<title>t13_matrix_9&#45;&gt;c_0_50</title>
+<path fill="none" stroke="black" d="M1279.5,-52.32C1279.5,-46.68 1279.5,-40 1279.5,-40 1279.5,-40 2864,-40 2864,-40 2864,-40 2864,-25.75 2864,-25.75"/>
+<polygon fill="black" stroke="black" points="2867.5,-25.75 2864,-15.75 2860.5,-25.75 2867.5,-25.75"/>
 </g>
 </g>
 </svg>

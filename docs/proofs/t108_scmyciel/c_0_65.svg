@@ -14,107 +14,107 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="138,-150 138,-287 420,-287 420,-150 138,-150"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="203,-150 203,-287 485,-287 485,-150 203,-150"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="87,-8 87,-130 471,-130 471,-8 87,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="152,-8 152,-130 536,-130 536,-8 152,-8"/>
 </g>
-<!-- c_0_55 -->
+<!-- c_0_54 -->
 <g id="node1" class="node">
-<title>c_0_55</title>
-<g id="a_node1"><a xlink:href="c_0_55.html" xlink:title="{SimpleGraph&#45;like(X₁)|X₂ ∈ PairsOf(Mycielskian(X₁))|⇊|X₂ ∈ PairsOf(X₁)|sk₆(X₁,X₂) \{..\} sk₅(X₁,X₂) ∈ PairsOf(X₁)|union(X₁) \{..\} (\{sk₇(X₁,X₂)\} \{..\} (union(X₁) \{..\} sk₇(X₁,X₂))) = X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="188,-315.5 188,-405.5 634,-405.5 634,-315.5 188,-315.5"/>
-<text text-anchor="middle" x="411" y="-394.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="188,-390.5 634,-390.5 "/>
-<text text-anchor="middle" x="411" y="-379.3" font-family="Times,serif" font-size="14.00">X₂ ∈ PairsOf(Mycielskian(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="188,-375.5 634,-375.5 "/>
-<text text-anchor="middle" x="411" y="-364.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="188,-360.5 634,-360.5 "/>
-<text text-anchor="middle" x="411" y="-349.3" font-family="Times,serif" font-size="14.00">X₂ ∈ PairsOf(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="188,-345.5 634,-345.5 "/>
-<text text-anchor="middle" x="411" y="-334.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₂) {..} sk₅(X₁,X₂) ∈ PairsOf(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="188,-330.5 634,-330.5 "/>
-<text text-anchor="middle" x="411" y="-319.3" font-family="Times,serif" font-size="14.00">union(X₁) {..} ({sk₇(X₁,X₂)} {..} (union(X₁) {..} sk₇(X₁,X₂))) = X₂</text>
+<title>c_0_54</title>
+<g id="a_node1"><a xlink:href="c_0_54.html" xlink:title="{X₁ \{..\} X₂ = X₃ \{..\} X₄|⇊|X₁ = X₃|X₁ = X₄}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="480,-330.5 480,-390.5 634,-390.5 634,-330.5 480,-330.5"/>
+<text text-anchor="middle" x="557" y="-379.3" font-family="Times,serif" font-size="14.00">X₁ {..} X₂ = X₃ {..} X₄</text>
+<polyline fill="none" stroke="#7f7542" points="480,-375.5 634,-375.5 "/>
+<text text-anchor="middle" x="557" y="-364.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="480,-360.5 634,-360.5 "/>
+<text text-anchor="middle" x="557" y="-349.3" font-family="Times,serif" font-size="14.00">X₁ = X₃</text>
+<polyline fill="none" stroke="#7f7542" points="480,-345.5 634,-345.5 "/>
+<text text-anchor="middle" x="557" y="-334.3" font-family="Times,serif" font-size="14.00">X₁ = X₄</text>
 </a>
 </g>
 </g>
 <!-- c_0_65 -->
 <g id="node3" class="node">
 <title>c_0_65</title>
-<g id="a_node3"><a xlink:href="c_0_65.html" xlink:title="{SimpleGraph&#45;like(X₁)|X₄ = X₃ \{..\} X₂|X₄ ∈ PairsOf(Mycielskian(X₁))|⇊|X₄ ∈ PairsOf(X₁)|sk₆(X₁,X₄) \{..\} sk₅(X₁,X₄) ∈ PairsOf(X₁)|union(X₁) = X₂|union(X₁) = X₃}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="146,-158.5 146,-278.5 412,-278.5 412,-158.5 146,-158.5"/>
-<text text-anchor="middle" x="279" y="-267.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-263.5 412,-263.5 "/>
-<text text-anchor="middle" x="279" y="-252.3" font-family="Times,serif" font-size="14.00">X₄ = X₃ {..} X₂</text>
-<polyline fill="none" stroke="#7f7542" points="146,-248.5 412,-248.5 "/>
-<text text-anchor="middle" x="279" y="-237.3" font-family="Times,serif" font-size="14.00">X₄ ∈ PairsOf(Mycielskian(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="146,-233.5 412,-233.5 "/>
-<text text-anchor="middle" x="279" y="-222.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="146,-218.5 412,-218.5 "/>
-<text text-anchor="middle" x="279" y="-207.3" font-family="Times,serif" font-size="14.00">X₄ ∈ PairsOf(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-203.5 412,-203.5 "/>
-<text text-anchor="middle" x="279" y="-192.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₄) {..} sk₅(X₁,X₄) ∈ PairsOf(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-188.5 412,-188.5 "/>
-<text text-anchor="middle" x="279" y="-177.3" font-family="Times,serif" font-size="14.00">union(X₁) = X₂</text>
-<polyline fill="none" stroke="#7f7542" points="146,-173.5 412,-173.5 "/>
-<text text-anchor="middle" x="279" y="-162.3" font-family="Times,serif" font-size="14.00">union(X₁) = X₃</text>
-</a>
-</g>
-</g>
-<!-- c_0_55&#45;&gt;c_0_65 -->
-<g id="edge1" class="edge">
-<title>c_0_55&#45;&gt;c_0_65</title>
-<path fill="none" stroke="black" d="M300,-315.18C300,-315.18 300,-288.68 300,-288.68"/>
-<polygon fill="black" stroke="black" points="303.5,-288.68 300,-278.68 296.5,-288.68 303.5,-288.68"/>
-</g>
-<!-- c_0_54 -->
-<g id="node2" class="node">
-<title>c_0_54</title>
-<g id="a_node2"><a xlink:href="c_0_54.html" xlink:title="{X₁ \{..\} X₂ = X₃ \{..\} X₄|⇊|X₁ = X₃|X₁ = X₄}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-330.5 16,-390.5 170,-390.5 170,-330.5 16,-330.5"/>
-<text text-anchor="middle" x="93" y="-379.3" font-family="Times,serif" font-size="14.00">X₁ {..} X₂ = X₃ {..} X₄</text>
-<polyline fill="none" stroke="#7f7542" points="16,-375.5 170,-375.5 "/>
-<text text-anchor="middle" x="93" y="-364.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-360.5 170,-360.5 "/>
-<text text-anchor="middle" x="93" y="-349.3" font-family="Times,serif" font-size="14.00">X₁ = X₃</text>
-<polyline fill="none" stroke="#7f7542" points="16,-345.5 170,-345.5 "/>
-<text text-anchor="middle" x="93" y="-334.3" font-family="Times,serif" font-size="14.00">X₁ = X₄</text>
+<g id="a_node3"><a xlink:href="c_0_65.html" xlink:title="{SimpleGraph&#45;like(X₁)|X₄ = X₃ \{..\} X₂|X₄ ∈ PairsOf(Mycielskian(X₁))|⇊|X₄ ∈ PairsOf(X₁)|sk₆(X₁,X₄) \{..\} sk₅(X₁,X₄) ∈ PairsOf(X₁)|union(X₁) = X₂|union(X₁) = X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="211,-158.5 211,-278.5 477,-278.5 477,-158.5 211,-158.5"/>
+<text text-anchor="middle" x="344" y="-267.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="211,-263.5 477,-263.5 "/>
+<text text-anchor="middle" x="344" y="-252.3" font-family="Times,serif" font-size="14.00">X₄ = X₃ {..} X₂</text>
+<polyline fill="none" stroke="#7f7542" points="211,-248.5 477,-248.5 "/>
+<text text-anchor="middle" x="344" y="-237.3" font-family="Times,serif" font-size="14.00">X₄ ∈ PairsOf(Mycielskian(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="211,-233.5 477,-233.5 "/>
+<text text-anchor="middle" x="344" y="-222.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="211,-218.5 477,-218.5 "/>
+<text text-anchor="middle" x="344" y="-207.3" font-family="Times,serif" font-size="14.00">X₄ ∈ PairsOf(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="211,-203.5 477,-203.5 "/>
+<text text-anchor="middle" x="344" y="-192.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₄) {..} sk₅(X₁,X₄) ∈ PairsOf(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="211,-188.5 477,-188.5 "/>
+<text text-anchor="middle" x="344" y="-177.3" font-family="Times,serif" font-size="14.00">union(X₁) = X₂</text>
+<polyline fill="none" stroke="#7f7542" points="211,-173.5 477,-173.5 "/>
+<text text-anchor="middle" x="344" y="-162.3" font-family="Times,serif" font-size="14.00">union(X₁) = X₃</text>
 </a>
 </g>
 </g>
 <!-- c_0_54&#45;&gt;c_0_65 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_54&#45;&gt;c_0_65</title>
-<path fill="none" stroke="black" d="M158,-330.39C158,-330.39 158,-288.69 158,-288.69"/>
-<polygon fill="black" stroke="black" points="161.5,-288.69 158,-278.69 154.5,-288.69 161.5,-288.69"/>
+<path fill="none" stroke="black" d="M479.88,-360C473.54,-360 469.5,-360 469.5,-360 469.5,-360 469.5,-288.51 469.5,-288.51"/>
+<polygon fill="black" stroke="black" points="473,-288.51 469.5,-278.51 466,-288.51 473,-288.51"/>
+</g>
+<!-- c_0_55 -->
+<g id="node2" class="node">
+<title>c_0_55</title>
+<g id="a_node2"><a xlink:href="c_0_55.html" xlink:title="{SimpleGraph&#45;like(X₁)|X₂ ∈ PairsOf(Mycielskian(X₁))|⇊|X₂ ∈ PairsOf(X₁)|sk₆(X₁,X₂) \{..\} sk₅(X₁,X₂) ∈ PairsOf(X₁)|union(X₁) \{..\} (\{sk₇(X₁,X₂)\} \{..\} (union(X₁) \{..\} sk₇(X₁,X₂))) = X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-315.5 16,-405.5 462,-405.5 462,-315.5 16,-315.5"/>
+<text text-anchor="middle" x="239" y="-394.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-390.5 462,-390.5 "/>
+<text text-anchor="middle" x="239" y="-379.3" font-family="Times,serif" font-size="14.00">X₂ ∈ PairsOf(Mycielskian(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16,-375.5 462,-375.5 "/>
+<text text-anchor="middle" x="239" y="-364.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-360.5 462,-360.5 "/>
+<text text-anchor="middle" x="239" y="-349.3" font-family="Times,serif" font-size="14.00">X₂ ∈ PairsOf(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-345.5 462,-345.5 "/>
+<text text-anchor="middle" x="239" y="-334.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₂) {..} sk₅(X₁,X₂) ∈ PairsOf(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-330.5 462,-330.5 "/>
+<text text-anchor="middle" x="239" y="-319.3" font-family="Times,serif" font-size="14.00">union(X₁) {..} ({sk₇(X₁,X₂)} {..} (union(X₁) {..} sk₇(X₁,X₂))) = X₂</text>
+</a>
+</g>
+</g>
+<!-- c_0_55&#45;&gt;c_0_65 -->
+<g id="edge2" class="edge">
+<title>c_0_55&#45;&gt;c_0_65</title>
+<path fill="none" stroke="black" d="M336.5,-315.18C336.5,-315.18 336.5,-288.68 336.5,-288.68"/>
+<polygon fill="black" stroke="black" points="340,-288.68 336.5,-278.68 333,-288.68 340,-288.68"/>
 </g>
 <!-- c_0_75 -->
 <g id="node4" class="node">
 <title>c_0_75</title>
-<g id="a_node4"><a xlink:href="c_0_75.html" xlink:title="{SimpleGraph&#45;like(X₁)|X₂ \{..\} X₃ ∈ PairsOf(Mycielskian(X₁))|⇊|X₂ \{..\} X₃ ∈ PairsOf(X₁)|sk₆(X₁,X₂ \{..\} X₃) \{..\} sk₅(X₁,X₂ \{..\} X₃) ∈ PairsOf(X₁)|union(X₁) = X₂|union(X₁) = X₃}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="95,-16.5 95,-121.5 463,-121.5 463,-16.5 95,-16.5"/>
-<text text-anchor="middle" x="279" y="-110.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="95,-106.5 463,-106.5 "/>
-<text text-anchor="middle" x="279" y="-95.3" font-family="Times,serif" font-size="14.00">X₂ {..} X₃ ∈ PairsOf(Mycielskian(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="95,-91.5 463,-91.5 "/>
-<text text-anchor="middle" x="279" y="-80.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="95,-76.5 463,-76.5 "/>
-<text text-anchor="middle" x="279" y="-65.3" font-family="Times,serif" font-size="14.00">X₂ {..} X₃ ∈ PairsOf(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="95,-61.5 463,-61.5 "/>
-<text text-anchor="middle" x="279" y="-50.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₂ {..} X₃) {..} sk₅(X₁,X₂ {..} X₃) ∈ PairsOf(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="95,-46.5 463,-46.5 "/>
-<text text-anchor="middle" x="279" y="-35.3" font-family="Times,serif" font-size="14.00">union(X₁) = X₂</text>
-<polyline fill="none" stroke="#7f7542" points="95,-31.5 463,-31.5 "/>
-<text text-anchor="middle" x="279" y="-20.3" font-family="Times,serif" font-size="14.00">union(X₁) = X₃</text>
+<g id="a_node4"><a xlink:href="c_0_75.html" xlink:title="{SimpleGraph&#45;like(X₁)|X₂ \{..\} X₃ ∈ PairsOf(Mycielskian(X₁))|⇊|X₂ \{..\} X₃ ∈ PairsOf(X₁)|sk₆(X₁,X₂ \{..\} X₃) \{..\} sk₅(X₁,X₂ \{..\} X₃) ∈ PairsOf(X₁)|union(X₁) = X₂|union(X₁) = X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="160,-16.5 160,-121.5 528,-121.5 528,-16.5 160,-16.5"/>
+<text text-anchor="middle" x="344" y="-110.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="160,-106.5 528,-106.5 "/>
+<text text-anchor="middle" x="344" y="-95.3" font-family="Times,serif" font-size="14.00">X₂ {..} X₃ ∈ PairsOf(Mycielskian(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="160,-91.5 528,-91.5 "/>
+<text text-anchor="middle" x="344" y="-80.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="160,-76.5 528,-76.5 "/>
+<text text-anchor="middle" x="344" y="-65.3" font-family="Times,serif" font-size="14.00">X₂ {..} X₃ ∈ PairsOf(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="160,-61.5 528,-61.5 "/>
+<text text-anchor="middle" x="344" y="-50.3" font-family="Times,serif" font-size="14.00">sk₆(X₁,X₂ {..} X₃) {..} sk₅(X₁,X₂ {..} X₃) ∈ PairsOf(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="160,-46.5 528,-46.5 "/>
+<text text-anchor="middle" x="344" y="-35.3" font-family="Times,serif" font-size="14.00">union(X₁) = X₂</text>
+<polyline fill="none" stroke="#7f7542" points="160,-31.5 528,-31.5 "/>
+<text text-anchor="middle" x="344" y="-20.3" font-family="Times,serif" font-size="14.00">union(X₁) = X₃</text>
 </a>
 </g>
 </g>
 <!-- c_0_65&#45;&gt;c_0_75 -->
 <g id="edge3" class="edge">
 <title>c_0_65&#45;&gt;c_0_75</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M279,-158.12C279,-158.12 279,-131.9 279,-131.9"/>
-<polygon fill="black" stroke="black" points="282.5,-131.9 279,-121.9 275.5,-131.9 282.5,-131.9"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M344,-158.12C344,-158.12 344,-131.9 344,-131.9"/>
+<polygon fill="black" stroke="black" points="347.5,-131.9 344,-121.9 340.5,-131.9 347.5,-131.9"/>
 </g>
 </g>
 </svg>

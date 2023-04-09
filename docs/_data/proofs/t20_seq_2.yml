@@ -69,22 +69,22 @@ skolems:
   esk1_0:
     axiom: t20_seq_2
     related:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t20_seq_2
     related:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t20_seq_2
     related:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
     symbol: "sk\u2083"
   esk4_3:
@@ -247,10 +247,10 @@ steps:
       r1_xxreal_0: 1
       v2_comseq_2: 1
     skolems:
-    - esk5_2
-    - esk1_0
     - esk2_0
+    - esk1_0
     - esk3_0
+    - esk5_2
   c_0_41:
     counts:
       k2_seq_2: 2
@@ -274,9 +274,9 @@ steps:
       r1_xxreal_0: 1
       v2_comseq_2: 1
     skolems:
-    - esk5_2
     - esk1_0
     - esk3_0
+    - esk5_2
   c_0_53:
     counts:
       m1_subset_1: 1
@@ -399,8 +399,8 @@ steps:
     skolems:
     - esk4_3
     - esk1_0
-    - esk2_0
     - esk3_0
+    - esk2_0
   c_0_74:
     counts:
       v2_comseq_2: 1
@@ -421,10 +421,10 @@ steps:
       v1_funct_2: 1
       v2_comseq_2: 1
     skolems:
-    - esk4_3
-    - esk1_0
     - esk2_0
     - esk3_0
+    - esk1_0
+    - esk4_3
   c_0_76:
     counts:
       k1_numbers: 7
@@ -445,10 +445,10 @@ steps:
       k5_numbers: 1
       m2_subset_1: 1
     skolems:
-    - esk4_3
-    - esk1_0
     - esk2_0
     - esk3_0
+    - esk1_0
+    - esk4_3
 symbols:
   k1_numbers:
     arity: 0

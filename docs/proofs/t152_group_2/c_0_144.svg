@@ -14,16 +14,16 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="138,-135 138,-242 396,-242 396,-135 138,-135"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="203,-135 203,-242 461,-242 461,-135 203,-135"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="137,-8 137,-115 397,-115 397,-8 137,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="202,-8 202,-115 462,-115 462,-8 202,-8"/>
 </g>
 <!-- c_0_134 -->
 <g id="node1" class="node">
 <title>c_0_134</title>
-<g id="a_node1"><a xlink:href="c_0_134.html" xlink:title="{Group&#45;like(X₁)|associative(X₁)|multMagma(X₁)|⇊|empty(X₁)|proj₂(sk₂(X₁)) ⊆ a_1_0_group_2(X₁)}" target="_parent">
+<g id="a_node1"><a xlink:href="c_0_134.html" xlink:title="{Group&#45;like(X₁)|associative(X₁)|multMagma(X₁)|⇊|empty(X₁)|proj₂(sk₂(X₁)) ⊆ a_1_0_group_2(X₁)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="406,-278 406,-368 648,-368 648,-278 406,-278"/>
 <text text-anchor="middle" x="527" y="-356.8" font-family="Times,serif" font-size="14.00">Group&#45;like(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="406,-353 648,-353 "/>
@@ -42,100 +42,100 @@
 <!-- c_0_144 -->
 <g id="node4" class="node">
 <title>c_0_144</title>
-<g id="a_node4"><a xlink:href="c_0_144.html" xlink:title="{Group&#45;like(X₁)|associative(X₁)|multMagma(X₁)|⇊|carrier(X₁) = Ø|proj₂(sk₂(X₁)) = a_1_0_group_2(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="146,-143.5 146,-233.5 388,-233.5 388,-143.5 146,-143.5"/>
-<text text-anchor="middle" x="267" y="-222.3" font-family="Times,serif" font-size="14.00">Group&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-218.5 388,-218.5 "/>
-<text text-anchor="middle" x="267" y="-207.3" font-family="Times,serif" font-size="14.00">associative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-203.5 388,-203.5 "/>
-<text text-anchor="middle" x="267" y="-192.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-188.5 388,-188.5 "/>
-<text text-anchor="middle" x="267" y="-177.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="146,-173.5 388,-173.5 "/>
-<text text-anchor="middle" x="267" y="-162.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="146,-158.5 388,-158.5 "/>
-<text text-anchor="middle" x="267" y="-147.3" font-family="Times,serif" font-size="14.00">proj₂(sk₂(X₁)) = a_1_0_group_2(X₁)</text>
+<g id="a_node4"><a xlink:href="c_0_144.html" xlink:title="{Group&#45;like(X₁)|associative(X₁)|multMagma(X₁)|⇊|carrier(X₁) = Ø|proj₂(sk₂(X₁)) = a_1_0_group_2(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="211,-143.5 211,-233.5 453,-233.5 453,-143.5 211,-143.5"/>
+<text text-anchor="middle" x="332" y="-222.3" font-family="Times,serif" font-size="14.00">Group&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="211,-218.5 453,-218.5 "/>
+<text text-anchor="middle" x="332" y="-207.3" font-family="Times,serif" font-size="14.00">associative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="211,-203.5 453,-203.5 "/>
+<text text-anchor="middle" x="332" y="-192.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="211,-188.5 453,-188.5 "/>
+<text text-anchor="middle" x="332" y="-177.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="211,-173.5 453,-173.5 "/>
+<text text-anchor="middle" x="332" y="-162.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="211,-158.5 453,-158.5 "/>
+<text text-anchor="middle" x="332" y="-147.3" font-family="Times,serif" font-size="14.00">proj₂(sk₂(X₁)) = a_1_0_group_2(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_134&#45;&gt;c_0_144 -->
 <g id="edge1" class="edge">
 <title>c_0_134&#45;&gt;c_0_144</title>
-<path fill="none" stroke="black" d="M527,-277.67C527,-238.45 527,-188 527,-188 527,-188 398.25,-188 398.25,-188"/>
-<polygon fill="black" stroke="black" points="398.25,-184.5 388.25,-188 398.25,-191.5 398.25,-184.5"/>
-</g>
-<!-- c_0_133 -->
-<g id="node2" class="node">
-<title>c_0_133</title>
-<g id="a_node2"><a xlink:href="c_0_133.html" xlink:title="{Group&#45;like(X₁)|associative(X₁)|multMagma(X₁)|proj₂(sk₂(X₁)) ⊆ a_1_0_group_2(X₁)|⇊|carrier(X₁) = Ø|proj₂(sk₂(X₁)) = a_1_0_group_2(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="146,-270.5 146,-375.5 388,-375.5 388,-270.5 146,-270.5"/>
-<text text-anchor="middle" x="267" y="-364.3" font-family="Times,serif" font-size="14.00">Group&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-360.5 388,-360.5 "/>
-<text text-anchor="middle" x="267" y="-349.3" font-family="Times,serif" font-size="14.00">associative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-345.5 388,-345.5 "/>
-<text text-anchor="middle" x="267" y="-334.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-330.5 388,-330.5 "/>
-<text text-anchor="middle" x="267" y="-319.3" font-family="Times,serif" font-size="14.00">proj₂(sk₂(X₁)) ⊆ a_1_0_group_2(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146,-315.5 388,-315.5 "/>
-<text text-anchor="middle" x="267" y="-304.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="146,-300.5 388,-300.5 "/>
-<text text-anchor="middle" x="267" y="-289.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="146,-285.5 388,-285.5 "/>
-<text text-anchor="middle" x="267" y="-274.3" font-family="Times,serif" font-size="14.00">proj₂(sk₂(X₁)) = a_1_0_group_2(X₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_133&#45;&gt;c_0_144 -->
-<g id="edge2" class="edge">
-<title>c_0_133&#45;&gt;c_0_144</title>
-<path fill="none" stroke="black" d="M267,-270.23C267,-270.23 267,-243.72 267,-243.72"/>
-<polygon fill="black" stroke="black" points="270.5,-243.72 267,-233.72 263.5,-243.72 270.5,-243.72"/>
+<path fill="none" stroke="black" d="M429.5,-277.84C429.5,-277.84 429.5,-243.77 429.5,-243.77"/>
+<polygon fill="black" stroke="black" points="433,-243.77 429.5,-233.77 426,-243.77 433,-243.77"/>
 </g>
 <!-- c_0_64 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_64</title>
-<g id="a_node3"><a xlink:href="c_0_64.html" xlink:title="{empty(X₁)|multMagma(X₁)|⇊|carrier(X₁) = Ø}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-293 16,-353 128,-353 128,-293 16,-293"/>
-<text text-anchor="middle" x="72" y="-341.8" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-338 128,-338 "/>
-<text text-anchor="middle" x="72" y="-326.8" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-323 128,-323 "/>
-<text text-anchor="middle" x="72" y="-311.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-308 128,-308 "/>
-<text text-anchor="middle" x="72" y="-296.8" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
+<g id="a_node2"><a xlink:href="c_0_64.html" xlink:title="{empty(X₁)|multMagma(X₁)|⇊|carrier(X₁) = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="276,-293 276,-353 388,-353 388,-293 276,-293"/>
+<text text-anchor="middle" x="332" y="-341.8" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="276,-338 388,-338 "/>
+<text text-anchor="middle" x="332" y="-326.8" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="276,-323 388,-323 "/>
+<text text-anchor="middle" x="332" y="-311.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="276,-308 388,-308 "/>
+<text text-anchor="middle" x="332" y="-296.8" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_64&#45;&gt;c_0_144 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_64&#45;&gt;c_0_144</title>
-<path fill="none" stroke="black" d="M72,-292.7C72,-252.9 72,-188 72,-188 72,-188 136,-188 136,-188"/>
-<polygon fill="black" stroke="black" points="136,-191.5 146,-188 136,-184.5 136,-191.5"/>
+<path fill="none" stroke="black" d="M332,-292.82C332,-292.82 332,-243.66 332,-243.66"/>
+<polygon fill="black" stroke="black" points="335.5,-243.66 332,-233.66 328.5,-243.66 335.5,-243.66"/>
+</g>
+<!-- c_0_133 -->
+<g id="node3" class="node">
+<title>c_0_133</title>
+<g id="a_node3"><a xlink:href="c_0_133.html" xlink:title="{Group&#45;like(X₁)|associative(X₁)|multMagma(X₁)|proj₂(sk₂(X₁)) ⊆ a_1_0_group_2(X₁)|⇊|carrier(X₁) = Ø|proj₂(sk₂(X₁)) = a_1_0_group_2(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-270.5 16,-375.5 258,-375.5 258,-270.5 16,-270.5"/>
+<text text-anchor="middle" x="137" y="-364.3" font-family="Times,serif" font-size="14.00">Group&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-360.5 258,-360.5 "/>
+<text text-anchor="middle" x="137" y="-349.3" font-family="Times,serif" font-size="14.00">associative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-345.5 258,-345.5 "/>
+<text text-anchor="middle" x="137" y="-334.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-330.5 258,-330.5 "/>
+<text text-anchor="middle" x="137" y="-319.3" font-family="Times,serif" font-size="14.00">proj₂(sk₂(X₁)) ⊆ a_1_0_group_2(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-315.5 258,-315.5 "/>
+<text text-anchor="middle" x="137" y="-304.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-300.5 258,-300.5 "/>
+<text text-anchor="middle" x="137" y="-289.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="16,-285.5 258,-285.5 "/>
+<text text-anchor="middle" x="137" y="-274.3" font-family="Times,serif" font-size="14.00">proj₂(sk₂(X₁)) = a_1_0_group_2(X₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_133&#45;&gt;c_0_144 -->
+<g id="edge3" class="edge">
+<title>c_0_133&#45;&gt;c_0_144</title>
+<path fill="none" stroke="black" d="M234.5,-270.23C234.5,-270.23 234.5,-243.72 234.5,-243.72"/>
+<polygon fill="black" stroke="black" points="238,-243.72 234.5,-233.72 231,-243.72 238,-243.72"/>
 </g>
 <!-- c_0_147 -->
 <g id="node5" class="node">
 <title>c_0_147</title>
-<g id="a_node5"><a xlink:href="c_0_147.html" xlink:title="{Group&#45;like(X₁)|associative(X₁)|multMagma(X₁)|⇊|\|a_1_0_group_2(X₁)\| = \|carrier(X₁)\||carrier(X₁) = Ø}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="145,-16.5 145,-106.5 389,-106.5 389,-16.5 145,-16.5"/>
-<text text-anchor="middle" x="267" y="-95.3" font-family="Times,serif" font-size="14.00">Group&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="145,-91.5 389,-91.5 "/>
-<text text-anchor="middle" x="267" y="-80.3" font-family="Times,serif" font-size="14.00">associative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="145,-76.5 389,-76.5 "/>
-<text text-anchor="middle" x="267" y="-65.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="145,-61.5 389,-61.5 "/>
-<text text-anchor="middle" x="267" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="145,-46.5 389,-46.5 "/>
-<text text-anchor="middle" x="267" y="-35.3" font-family="Times,serif" font-size="14.00">|a_1_0_group_2(X₁)| = |carrier(X₁)|</text>
-<polyline fill="none" stroke="#7f7542" points="145,-31.5 389,-31.5 "/>
-<text text-anchor="middle" x="267" y="-20.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
+<g id="a_node5"><a xlink:href="c_0_147.html" xlink:title="{Group&#45;like(X₁)|associative(X₁)|multMagma(X₁)|⇊|\|a_1_0_group_2(X₁)\| = \|carrier(X₁)\||carrier(X₁) = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="210,-16.5 210,-106.5 454,-106.5 454,-16.5 210,-16.5"/>
+<text text-anchor="middle" x="332" y="-95.3" font-family="Times,serif" font-size="14.00">Group&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="210,-91.5 454,-91.5 "/>
+<text text-anchor="middle" x="332" y="-80.3" font-family="Times,serif" font-size="14.00">associative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="210,-76.5 454,-76.5 "/>
+<text text-anchor="middle" x="332" y="-65.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="210,-61.5 454,-61.5 "/>
+<text text-anchor="middle" x="332" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="210,-46.5 454,-46.5 "/>
+<text text-anchor="middle" x="332" y="-35.3" font-family="Times,serif" font-size="14.00">|a_1_0_group_2(X₁)| = |carrier(X₁)|</text>
+<polyline fill="none" stroke="#7f7542" points="210,-31.5 454,-31.5 "/>
+<text text-anchor="middle" x="332" y="-20.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_144&#45;&gt;c_0_147 -->
 <g id="edge4" class="edge">
 <title>c_0_144&#45;&gt;c_0_147</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M267,-143.37C267,-143.37 267,-116.92 267,-116.92"/>
-<polygon fill="black" stroke="black" points="270.5,-116.92 267,-106.92 263.5,-116.92 270.5,-116.92"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M332,-143.37C332,-143.37 332,-116.92 332,-116.92"/>
+<polygon fill="black" stroke="black" points="335.5,-116.92 332,-106.92 328.5,-116.92 335.5,-116.92"/>
 </g>
 </g>
 </svg>

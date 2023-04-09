@@ -207,35 +207,35 @@ skolems:
   esk3_2:
     axiom: t5_scmyciel
     related:
-    - esk4_2
     - esk3_2
+    - esk4_2
     symbol: "sk\u2083"
   esk4_2:
     axiom: t5_scmyciel
     related:
-    - esk4_2
     - esk3_2
+    - esk4_2
     symbol: "sk\u2084"
   esk5_2:
     axiom: t90_scmyciel
     related:
+    - esk5_2
     - esk7_2
     - esk6_2
-    - esk5_2
     symbol: "sk\u2085"
   esk6_2:
     axiom: t90_scmyciel
     related:
+    - esk5_2
     - esk7_2
     - esk6_2
-    - esk5_2
     symbol: "sk\u2086"
   esk7_2:
     axiom: t90_scmyciel
     related:
+    - esk5_2
     - esk7_2
     - esk6_2
-    - esk5_2
     symbol: "sk\u2087"
 steps:
   c_0_100:
@@ -598,15 +598,15 @@ steps:
       np__3: 1
       r1_ordinal1: 1
     skolems:
-    - esk4_2
     - esk3_2
+    - esk4_2
   c_0_170:
     counts:
       k3_tarski: 5
       r2_hidden: 1
     skolems:
-    - esk4_2
     - esk2_0
+    - esk4_2
     - esk1_0
   c_0_171:
     counts:
@@ -624,15 +624,15 @@ steps:
       m1_subset_1: 1
       np__3: 1
     skolems:
-    - esk4_2
     - esk3_2
+    - esk4_2
   c_0_173:
     counts:
       k3_tarski: 6
     skolems:
-    - esk4_2
     - esk2_0
     - esk3_2
+    - esk4_2
     - esk1_0
   c_0_174:
     counts:
@@ -645,10 +645,10 @@ steps:
     counts:
       k3_tarski: 6
     skolems:
-    - esk4_2
     - esk2_0
-    - esk3_2
+    - esk4_2
     - esk1_0
+    - esk3_2
   c_0_176:
     counts:
       k1_card_1: 1
@@ -661,8 +661,8 @@ steps:
     counts:
       k3_tarski: 6
     skolems:
-    - esk4_2
     - esk2_0
+    - esk4_2
     - esk1_0
   c_0_178:
     counts:
@@ -675,16 +675,16 @@ steps:
     counts:
       k3_tarski: 4
     skolems:
-    - esk4_2
     - esk2_0
     - esk3_2
+    - esk4_2
     - esk1_0
   c_0_180:
     counts:
       k3_tarski: 5
     skolems:
-    - esk4_2
     - esk2_0
+    - esk4_2
     - esk1_0
   c_0_181:
     counts:
@@ -705,8 +705,8 @@ steps:
     counts:
       k3_tarski: 5
     skolems:
-    - esk4_2
     - esk2_0
+    - esk4_2
     - esk1_0
   c_0_184:
     counts:
@@ -723,9 +723,9 @@ steps:
       r2_hidden: 3
       v4_scmyciel: 1
     skolems:
+    - esk5_2
     - esk7_2
     - esk6_2
-    - esk5_2
   c_0_44:
     counts:
       k1_tarski: 1
@@ -742,9 +742,9 @@ steps:
       r2_hidden: 3
       v4_scmyciel: 1
     skolems:
+    - esk5_2
     - esk7_2
     - esk6_2
-    - esk5_2
   c_0_49:
     counts:
       k2_tarski: 2
@@ -763,9 +763,9 @@ steps:
       r2_hidden: 3
       v4_scmyciel: 1
     skolems:
+    - esk5_2
     - esk7_2
     - esk6_2
-    - esk5_2
   c_0_56:
     counts:
       k1_scmyciel: 1
@@ -817,8 +817,8 @@ steps:
       r2_hidden: 3
       v4_scmyciel: 1
     skolems:
-    - esk6_2
     - esk5_2
+    - esk6_2
   c_0_66:
     counts:
       k1_scmyciel: 1
@@ -851,8 +851,8 @@ steps:
       r2_hidden: 3
       v4_scmyciel: 1
     skolems:
-    - esk6_2
     - esk5_2
+    - esk6_2
   c_0_76:
     counts:
       k1_scmyciel: 1
@@ -912,8 +912,8 @@ steps:
       np__0: 2
       r2_hidden: 3
     skolems:
-    - esk6_2
     - esk5_2
+    - esk6_2
     - esk1_0
   c_0_90:
     counts:

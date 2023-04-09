@@ -141,22 +141,22 @@ skolems:
   esk1_0:
     axiom: t16_metric_1
     related:
-    - esk2_0
     - esk3_0
+    - esk2_0
     - esk1_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t16_metric_1
     related:
-    - esk2_0
     - esk3_0
+    - esk2_0
     - esk1_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t16_metric_1
     related:
-    - esk2_0
     - esk3_0
+    - esk2_0
     - esk1_0
     symbol: "sk\u2083"
   esk5_3:
@@ -178,9 +178,9 @@ steps:
       m1_subset_1: 2
       u1_struct_0: 2
     skolems:
+    - esk3_0
     - esk1_0
     - esk2_0
-    - esk3_0
   c_0_101:
     counts:
       k11_metric_1: 1
@@ -188,9 +188,9 @@ steps:
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
+    - esk3_0
     - esk1_0
     - esk2_0
-    - esk3_0
   c_0_25:
     counts:
       k1_zfmisc_1: 1
@@ -572,9 +572,9 @@ steps:
       k9_metric_1: 1
       u1_struct_0: 1
     skolems:
+    - esk3_0
     - esk1_0
     - esk2_0
-    - esk3_0
   c_0_91:
     counts:
       k2_xboole_0: 2
@@ -622,9 +622,9 @@ steps:
       m1_subset_1: 2
       u1_struct_0: 2
     skolems:
+    - esk3_0
     - esk1_0
     - esk2_0
-    - esk3_0
   c_0_96:
     counts:
       k10_metric_1: 1
@@ -641,8 +641,8 @@ steps:
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk2_0
     - esk3_0
+    - esk2_0
   c_0_98:
     counts:
       l1_metric_1: 1

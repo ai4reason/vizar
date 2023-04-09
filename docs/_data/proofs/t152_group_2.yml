@@ -175,14 +175,14 @@ skolems:
   esk6_1:
     axiom: d4_funct_1
     related:
-    - esk7_1
     - esk6_1
+    - esk7_1
     symbol: "sk\u2086"
   esk7_1:
     axiom: d4_funct_1
     related:
-    - esk7_1
     - esk6_1
+    - esk7_1
     symbol: "sk\u2087"
   esk8_3:
     axiom: d3_funct_1
@@ -231,8 +231,8 @@ steps:
       v1_relat_1: 1
       v2_funct_1: 1
     skolems:
-    - esk6_1
     - esk7_1
+    - esk6_1
   c_0_106:
     counts:
       k9_xtuple_0: 1
@@ -303,8 +303,8 @@ steps:
       v2_struct_0: 1
       v3_group_1: 1
     skolems:
-    - esk6_1
     - esk7_1
+    - esk6_1
     - esk2_1
   c_0_115:
     counts:
@@ -390,8 +390,8 @@ steps:
       v2_struct_0: 1
       v3_group_1: 1
     skolems:
-    - esk6_1
     - esk7_1
+    - esk6_1
     - esk2_1
   c_0_129:
     counts:
@@ -452,8 +452,8 @@ steps:
       v1_relat_1: 1
       v2_funct_1: 1
     skolems:
-    - esk6_1
     - esk7_1
+    - esk6_1
   c_0_136:
     counts:
       l3_algstr_0: 1
@@ -462,8 +462,8 @@ steps:
       v2_struct_0: 1
       v3_group_1: 1
     skolems:
-    - esk6_1
     - esk7_1
+    - esk6_1
     - esk2_1
   c_0_137:
     counts:

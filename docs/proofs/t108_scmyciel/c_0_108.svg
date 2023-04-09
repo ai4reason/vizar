@@ -14,16 +14,16 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="300,-90 300,-122 358,-122 358,-90 300,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="295,-90 295,-122 353,-122 353,-90 295,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="132,-8 132,-70 498,-70 498,-8 132,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="151,-8 151,-70 521,-70 521,-8 151,-8"/>
 </g>
 <!-- c_0_59 -->
 <g id="node1" class="node">
 <title>c_0_59</title>
-<g id="a_node1"><a xlink:href="c_0_59.html" xlink:title="{SimpleGraph&#45;like(sk₁)}" target="_parent">
+<g id="a_node1"><a xlink:href="c_0_59.html" xlink:title="{SimpleGraph&#45;like(sk₁)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="502,-173 502,-188 658,-188 658,-173 502,-173"/>
 <text text-anchor="middle" x="580" y="-176.8" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(sk₁)</text>
 </a>
@@ -32,119 +32,119 @@
 <!-- c_0_108 -->
 <g id="node5" class="node">
 <title>c_0_108</title>
-<g id="a_node5"><a xlink:href="c_0_108.html" xlink:title="{1 ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="308,-98.5 308,-113.5 350,-113.5 350,-98.5 308,-98.5"/>
-<text text-anchor="middle" x="329" y="-102.3" font-family="Times,serif" font-size="14.00">1 ∈ ℕ</text>
+<g id="a_node5"><a xlink:href="c_0_108.html" xlink:title="{1 ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="303,-98.5 303,-113.5 345,-113.5 345,-98.5 303,-98.5"/>
+<text text-anchor="middle" x="324" y="-102.3" font-family="Times,serif" font-size="14.00">1 ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- c_0_59&#45;&gt;c_0_108 -->
 <g id="edge1" class="edge">
 <title>c_0_59&#45;&gt;c_0_108</title>
-<path fill="none" stroke="black" d="M580,-172.81C580,-153.77 580,-106 580,-106 580,-106 360.4,-106 360.4,-106"/>
-<polygon fill="black" stroke="black" points="360.4,-102.5 350.4,-106 360.4,-109.5 360.4,-102.5"/>
+<path fill="none" stroke="black" d="M507.5,-172.81C507.5,-153.77 507.5,-106 507.5,-106 507.5,-106 355.05,-106 355.05,-106"/>
+<polygon fill="black" stroke="black" points="355.05,-102.5 345.05,-106 355.05,-109.5 355.05,-102.5"/>
 </g>
-<!-- c_0_95 -->
+<!-- c_0_58 -->
 <g id="node2" class="node">
-<title>c_0_95</title>
-<g id="a_node2"><a xlink:href="c_0_95.html" xlink:title="{ with_finite_clique# X₁|SimpleGraph&#45;like(X₁)|⇊| clique# X₁ ∈ ℕ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="326.5,-150.5 326.5,-210.5 483.5,-210.5 483.5,-150.5 326.5,-150.5"/>
-<text text-anchor="middle" x="405" y="-199.3" font-family="Times,serif" font-size="14.00">with_finite_clique# X₁</text>
-<polyline fill="none" stroke="#7f7542" points="326.5,-195.5 483.5,-195.5 "/>
-<text text-anchor="middle" x="405" y="-184.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="326.5,-180.5 483.5,-180.5 "/>
-<text text-anchor="middle" x="405" y="-169.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="326.5,-165.5 483.5,-165.5 "/>
-<text text-anchor="middle" x="405" y="-154.3" font-family="Times,serif" font-size="14.00">clique# X₁ ∈ ℕ</text>
+<title>c_0_58</title>
+<g id="a_node2"><a xlink:href="c_0_58.html" xlink:title="{ with_finite_clique# sk₁}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="320.5,-173 320.5,-188 483.5,-188 483.5,-173 320.5,-173"/>
+<text text-anchor="middle" x="402" y="-176.8" font-family="Times,serif" font-size="14.00">with_finite_clique# sk₁</text>
 </a>
 </g>
 </g>
-<!-- c_0_95&#45;&gt;c_0_108 -->
+<!-- c_0_58&#45;&gt;c_0_108 -->
 <g id="edge2" class="edge">
-<title>c_0_95&#45;&gt;c_0_108</title>
-<path fill="none" stroke="black" d="M338.25,-150.2C338.25,-150.2 338.25,-123.59 338.25,-123.59"/>
-<polygon fill="black" stroke="black" points="341.75,-123.59 338.25,-113.59 334.75,-123.59 341.75,-123.59"/>
+<title>c_0_58&#45;&gt;c_0_108</title>
+<path fill="none" stroke="black" d="M332.75,-172.81C332.75,-172.81 332.75,-123.76 332.75,-123.76"/>
+<polygon fill="black" stroke="black" points="336.25,-123.76 332.75,-113.76 329.25,-123.76 336.25,-123.76"/>
 </g>
 <!-- c_0_57 -->
 <g id="node3" class="node">
 <title>c_0_57</title>
-<g id="a_node3"><a xlink:href="c_0_57.html" xlink:title="{ clique# sk₁ = 1}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="197.5,-173 197.5,-188 308.5,-188 308.5,-173 197.5,-173"/>
-<text text-anchor="middle" x="253" y="-176.8" font-family="Times,serif" font-size="14.00">clique# sk₁ = 1</text>
+<g id="a_node3"><a xlink:href="c_0_57.html" xlink:title="{ clique# sk₁ = 1}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="191.5,-173 191.5,-188 302.5,-188 302.5,-173 191.5,-173"/>
+<text text-anchor="middle" x="247" y="-176.8" font-family="Times,serif" font-size="14.00">clique# sk₁ = 1</text>
 </a>
 </g>
 </g>
 <!-- c_0_57&#45;&gt;c_0_108 -->
 <g id="edge3" class="edge">
 <title>c_0_57&#45;&gt;c_0_108</title>
-<path fill="none" stroke="black" d="M299,-172.79C299,-153.18 299,-103 299,-103 299,-103 299.88,-103 299.88,-103"/>
-<polygon fill="black" stroke="black" points="297.84,-106.5 307.84,-103 297.84,-99.5 297.84,-106.5"/>
+<path fill="none" stroke="black" d="M302.75,-180C308.19,-180 311.75,-180 311.75,-180 311.75,-180 311.75,-123.64 311.75,-123.64"/>
+<polygon fill="black" stroke="black" points="315.25,-123.64 311.75,-113.64 308.25,-123.64 315.25,-123.64"/>
 </g>
-<!-- c_0_58 -->
+<!-- c_0_95 -->
 <g id="node4" class="node">
-<title>c_0_58</title>
-<g id="a_node4"><a xlink:href="c_0_58.html" xlink:title="{ with_finite_clique# sk₁}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-173 16.5,-188 179.5,-188 179.5,-173 16.5,-173"/>
-<text text-anchor="middle" x="98" y="-176.8" font-family="Times,serif" font-size="14.00">with_finite_clique# sk₁</text>
+<title>c_0_95</title>
+<g id="a_node4"><a xlink:href="c_0_95.html" xlink:title="{ with_finite_clique# X₁|SimpleGraph&#45;like(X₁)|⇊| clique# X₁ ∈ ℕ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-150.5 16.5,-210.5 173.5,-210.5 173.5,-150.5 16.5,-150.5"/>
+<text text-anchor="middle" x="95" y="-199.3" font-family="Times,serif" font-size="14.00">with_finite_clique# X₁</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-195.5 173.5,-195.5 "/>
+<text text-anchor="middle" x="95" y="-184.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-180.5 173.5,-180.5 "/>
+<text text-anchor="middle" x="95" y="-169.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-165.5 173.5,-165.5 "/>
+<text text-anchor="middle" x="95" y="-154.3" font-family="Times,serif" font-size="14.00">clique# X₁ ∈ ℕ</text>
 </a>
 </g>
 </g>
-<!-- c_0_58&#45;&gt;c_0_108 -->
+<!-- c_0_95&#45;&gt;c_0_108 -->
 <g id="edge4" class="edge">
-<title>c_0_58&#45;&gt;c_0_108</title>
-<path fill="none" stroke="black" d="M159.75,-172.74C159.75,-154.04 159.75,-108 159.75,-108 159.75,-108 297.91,-108 297.91,-108"/>
-<polygon fill="black" stroke="black" points="297.91,-111.5 307.91,-108 297.91,-104.5 297.91,-111.5"/>
+<title>c_0_95&#45;&gt;c_0_108</title>
+<path fill="none" stroke="black" d="M166.5,-150.2C166.5,-129.57 166.5,-106 166.5,-106 166.5,-106 292.76,-106 292.76,-106"/>
+<polygon fill="black" stroke="black" points="292.76,-109.5 302.76,-106 292.76,-102.5 292.76,-109.5"/>
 </g>
-<!-- c_0_106 -->
+<!-- c_0_111 -->
 <g id="node6" class="node">
-<title>c_0_106</title>
-<g id="a_node6"><a xlink:href="c_0_106.html" xlink:title="{C₁ ≤ C₂|C₂ + 1 ∈ bool(C₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="368,-24 368,-54 490,-54 490,-24 368,-24"/>
-<text text-anchor="middle" x="429" y="-42.8" font-family="Times,serif" font-size="14.00">C₁ ≤ C₂</text>
-<polyline fill="none" stroke="#7f7542" points="368,-39 490,-39 "/>
-<text text-anchor="middle" x="429" y="-27.8" font-family="Times,serif" font-size="14.00">C₂ + 1 ∈ bool(C₁)</text>
+<title>c_0_111</title>
+<g id="a_node6"><a xlink:href="c_0_111.html" xlink:title="{SimpleGraph&#45;like(X₁)|⇊|finite&#45;membered(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="363,-16.5 363,-61.5 513,-61.5 513,-16.5 363,-16.5"/>
+<text text-anchor="middle" x="438" y="-50.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="363,-46.5 513,-46.5 "/>
+<text text-anchor="middle" x="438" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="363,-31.5 513,-31.5 "/>
+<text text-anchor="middle" x="438" y="-20.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(X₁)</text>
 </a>
 </g>
 </g>
-<!-- c_0_108&#45;&gt;c_0_106 -->
+<!-- c_0_108&#45;&gt;c_0_111 -->
 <g id="edge5" class="edge">
-<title>c_0_108&#45;&gt;c_0_106</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M339.5,-98.21C339.5,-82.83 339.5,-50 339.5,-50 339.5,-50 357.82,-50 357.82,-50"/>
-<polygon fill="black" stroke="black" points="357.82,-53.5 367.82,-50 357.82,-46.5 357.82,-53.5"/>
+<title>c_0_108&#45;&gt;c_0_111</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M334.5,-98.07C334.5,-84.44 334.5,-58 334.5,-58 334.5,-58 352.78,-58 352.78,-58"/>
+<polygon fill="black" stroke="black" points="352.78,-61.5 362.78,-58 352.78,-54.5 352.78,-61.5"/>
 </g>
 <!-- c_0_120 -->
 <g id="node7" class="node">
 <title>c_0_120</title>
-<g id="a_node7"><a xlink:href="c_0_120.html" xlink:title="{2 ∈ ℕ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="308,-31.5 308,-46.5 350,-46.5 350,-31.5 308,-31.5"/>
-<text text-anchor="middle" x="329" y="-35.3" font-family="Times,serif" font-size="14.00">2 ∈ ℕ</text>
+<g id="a_node7"><a xlink:href="c_0_120.html" xlink:title="{2 ∈ ℕ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="303,-31.5 303,-46.5 345,-46.5 345,-31.5 303,-31.5"/>
+<text text-anchor="middle" x="324" y="-35.3" font-family="Times,serif" font-size="14.00">2 ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- c_0_108&#45;&gt;c_0_120 -->
 <g id="edge6" class="edge">
 <title>c_0_108&#45;&gt;c_0_120</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M329,-98.31C329,-98.31 329,-56.6 329,-56.6"/>
-<polygon fill="black" stroke="black" points="332.5,-56.6 329,-46.6 325.5,-56.6 332.5,-56.6"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M324,-98.31C324,-98.31 324,-56.6 324,-56.6"/>
+<polygon fill="black" stroke="black" points="327.5,-56.6 324,-46.6 320.5,-56.6 327.5,-56.6"/>
 </g>
-<!-- c_0_111 -->
+<!-- c_0_106 -->
 <g id="node8" class="node">
-<title>c_0_111</title>
-<g id="a_node8"><a xlink:href="c_0_111.html" xlink:title="{SimpleGraph&#45;like(X₁)|⇊|finite&#45;membered(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="140,-16.5 140,-61.5 290,-61.5 290,-16.5 140,-16.5"/>
-<text text-anchor="middle" x="215" y="-50.3" font-family="Times,serif" font-size="14.00">SimpleGraph&#45;like(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="140,-46.5 290,-46.5 "/>
-<text text-anchor="middle" x="215" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="140,-31.5 290,-31.5 "/>
-<text text-anchor="middle" x="215" y="-20.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(X₁)</text>
+<title>c_0_106</title>
+<g id="a_node8"><a xlink:href="c_0_106.html" xlink:title="{N₁ ≤ N₂|N₂ + 1 ∈ bool(N₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="159.5,-24 159.5,-54 284.5,-54 284.5,-24 159.5,-24"/>
+<text text-anchor="middle" x="222" y="-42.8" font-family="Times,serif" font-size="14.00">N₁ ≤ N₂</text>
+<polyline fill="none" stroke="#7f7542" points="159.5,-39 284.5,-39 "/>
+<text text-anchor="middle" x="222" y="-27.8" font-family="Times,serif" font-size="14.00">N₂ + 1 ∈ bool(N₁)</text>
 </a>
 </g>
 </g>
-<!-- c_0_108&#45;&gt;c_0_111 -->
+<!-- c_0_108&#45;&gt;c_0_106 -->
 <g id="edge7" class="edge">
-<title>c_0_108&#45;&gt;c_0_111</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M318.5,-98.07C318.5,-84.44 318.5,-58 318.5,-58 318.5,-58 300.22,-58 300.22,-58"/>
-<polygon fill="black" stroke="black" points="300.22,-54.5 290.22,-58 300.22,-61.5 300.22,-54.5"/>
+<title>c_0_108&#45;&gt;c_0_106</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M313.5,-98.21C313.5,-82.83 313.5,-50 313.5,-50 313.5,-50 294.55,-50 294.55,-50"/>
+<polygon fill="black" stroke="black" points="294.55,-46.5 284.55,-50 294.55,-53.5 294.55,-46.5"/>
 </g>
 </g>
 </svg>

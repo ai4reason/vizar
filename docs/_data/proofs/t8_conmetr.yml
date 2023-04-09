@@ -116,62 +116,62 @@ skolems:
   esk2_1:
     axiom: d8_conmetr
     related:
-    - esk5_1
-    - esk2_1
-    - esk3_1
-    - esk4_1
-    - esk6_1
     - esk7_1
+    - esk2_1
+    - esk6_1
+    - esk3_1
+    - esk5_1
+    - esk4_1
     symbol: "sk\u2082"
   esk3_1:
     axiom: d8_conmetr
     related:
-    - esk5_1
-    - esk2_1
-    - esk3_1
-    - esk4_1
-    - esk6_1
     - esk7_1
+    - esk2_1
+    - esk6_1
+    - esk3_1
+    - esk5_1
+    - esk4_1
     symbol: "sk\u2083"
   esk4_1:
     axiom: d8_conmetr
     related:
-    - esk5_1
-    - esk2_1
-    - esk3_1
-    - esk4_1
-    - esk6_1
     - esk7_1
+    - esk2_1
+    - esk6_1
+    - esk3_1
+    - esk5_1
+    - esk4_1
     symbol: "sk\u2084"
   esk5_1:
     axiom: d8_conmetr
     related:
-    - esk5_1
-    - esk2_1
-    - esk3_1
-    - esk4_1
-    - esk6_1
     - esk7_1
+    - esk2_1
+    - esk6_1
+    - esk3_1
+    - esk5_1
+    - esk4_1
     symbol: "sk\u2085"
   esk6_1:
     axiom: d8_conmetr
     related:
-    - esk5_1
-    - esk2_1
-    - esk3_1
-    - esk4_1
-    - esk6_1
     - esk7_1
+    - esk2_1
+    - esk6_1
+    - esk3_1
+    - esk5_1
+    - esk4_1
     symbol: "sk\u2086"
   esk7_1:
     axiom: d8_conmetr
     related:
-    - esk5_1
-    - esk2_1
-    - esk3_1
-    - esk4_1
-    - esk6_1
     - esk7_1
+    - esk2_1
+    - esk6_1
+    - esk3_1
+    - esk5_1
+    - esk4_1
     symbol: "sk\u2087"
 steps:
   c_0_100:
@@ -191,11 +191,11 @@ steps:
       r1_aff_1: 2
       v7_struct_0: 1
     skolems:
+    - esk3_1
     - esk2_1
+    - esk1_0
     - esk4_1
     - esk6_1
-    - esk1_0
-    - esk3_1
   c_0_102:
     counts:
       v2_analmetr: 1
@@ -210,8 +210,8 @@ steps:
       v8_conmetr: 1
     skolems:
     - esk2_1
-    - esk3_1
     - esk6_1
+    - esk3_1
   c_0_104:
     counts:
       k3_analmetr: 2
@@ -219,11 +219,11 @@ steps:
       r5_analmetr: 1
       v7_struct_0: 1
     skolems:
+    - esk3_1
     - esk2_1
+    - esk1_0
     - esk4_1
     - esk6_1
-    - esk1_0
-    - esk3_1
   c_0_105:
     counts:
       l1_analmetr: 1
@@ -233,19 +233,19 @@ steps:
       v8_conmetr: 1
     skolems:
     - esk2_1
-    - esk3_1
     - esk4_1
+    - esk3_1
   c_0_107:
     counts:
       k3_analmetr: 1
       r5_analmetr: 2
       v7_struct_0: 1
     skolems:
+    - esk3_1
     - esk2_1
+    - esk1_0
     - esk4_1
     - esk6_1
-    - esk1_0
-    - esk3_1
   c_0_108:
     counts:
       k3_analmetr: 1
@@ -261,9 +261,9 @@ steps:
       v7_struct_0: 1
     skolems:
     - esk2_1
+    - esk1_0
     - esk4_1
     - esk3_1
-    - esk1_0
   c_0_112:
     counts:
       k3_analmetr: 1
@@ -362,10 +362,10 @@ steps:
       v3_analmetr: 1
       v8_conmetr: 1
     skolems:
-    - esk2_1
     - esk7_1
-    - esk3_1
+    - esk2_1
     - esk6_1
+    - esk3_1
   c_0_38:
     counts:
       l1_analmetr: 1
@@ -398,8 +398,8 @@ steps:
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk3_1
     - esk1_0
+    - esk3_1
   c_0_44:
     counts:
       m1_subset_1: 1
@@ -445,10 +445,10 @@ steps:
       v3_analmetr: 1
       v8_conmetr: 1
     skolems:
-    - esk2_1
     - esk7_1
-    - esk3_1
+    - esk2_1
     - esk6_1
+    - esk3_1
   c_0_51:
     counts:
       l1_analmetr: 1
@@ -484,19 +484,19 @@ steps:
     counts:
       r2_analoaf: 1
     skolems:
+    - esk3_1
     - esk2_1
+    - esk1_0
     - esk7_1
     - esk6_1
-    - esk1_0
-    - esk3_1
   c_0_55:
     counts:
       k3_analmetr: 1
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk3_1
     - esk1_0
+    - esk3_1
   c_0_56:
     counts:
       k3_analmetr: 1
@@ -524,8 +524,8 @@ steps:
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk5_1
     - esk1_0
+    - esk5_1
   c_0_64:
     counts:
       l1_analmetr: 1
@@ -536,8 +536,8 @@ steps:
     skolems:
     - esk5_1
     - esk2_1
-    - esk3_1
     - esk4_1
+    - esk3_1
   c_0_66:
     counts:
       l1_analmetr: 1
@@ -548,18 +548,18 @@ steps:
     skolems:
     - esk5_1
     - esk2_1
-    - esk3_1
     - esk4_1
+    - esk3_1
   c_0_68:
     counts:
       k3_analmetr: 1
       r2_analoaf: 1
     skolems:
+    - esk3_1
     - esk2_1
+    - esk1_0
     - esk7_1
     - esk6_1
-    - esk1_0
-    - esk3_1
   c_0_69:
     counts:
       k3_analmetr: 1
@@ -582,26 +582,26 @@ steps:
     counts:
       r2_analoaf: 1
     skolems:
+    - esk3_1
     - esk2_1
+    - esk1_0
     - esk7_1
     - esk6_1
-    - esk1_0
-    - esk3_1
   c_0_74:
     counts:
       k3_analmetr: 1
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk5_1
     - esk1_0
+    - esk5_1
   c_0_76:
     counts:
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk1_0
     - esk4_1
+    - esk1_0
   c_0_78:
     counts:
       k3_analmetr: 5
@@ -620,21 +620,21 @@ steps:
       u1_struct_0: 2
       v7_struct_0: 1
     skolems:
+    - esk3_1
     - esk2_1
+    - esk1_0
     - esk7_1
     - esk6_1
-    - esk1_0
-    - esk3_1
   c_0_80:
     counts:
       k3_analmetr: 1
       r2_analoaf: 1
     skolems:
+    - esk3_1
     - esk2_1
+    - esk1_0
     - esk7_1
     - esk6_1
-    - esk1_0
-    - esk3_1
   c_0_81:
     counts:
       k3_analmetr: 4
@@ -642,34 +642,34 @@ steps:
       r2_analoaf: 2
       u1_struct_0: 6
     skolems:
-    - esk5_1
     - esk1_0
+    - esk5_1
   c_0_82:
     counts:
       r2_analoaf: 1
     skolems:
-    - esk2_1
-    - esk4_1
-    - esk1_0
     - esk5_1
     - esk3_1
+    - esk2_1
+    - esk1_0
+    - esk4_1
   c_0_83:
     counts:
       k3_analmetr: 1
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk1_0
     - esk4_1
+    - esk1_0
   c_0_84:
     counts:
       r2_analoaf: 1
     skolems:
-    - esk2_1
-    - esk4_1
-    - esk1_0
     - esk5_1
     - esk3_1
+    - esk2_1
+    - esk1_0
+    - esk4_1
   c_0_86:
     counts:
       k3_analmetr: 5
@@ -688,31 +688,31 @@ steps:
       u1_struct_0: 2
       v7_struct_0: 1
     skolems:
+    - esk3_1
     - esk2_1
+    - esk1_0
     - esk7_1
     - esk6_1
-    - esk1_0
-    - esk3_1
   c_0_88:
     counts:
       k3_analmetr: 1
       r2_analoaf: 1
     skolems:
-    - esk2_1
-    - esk4_1
-    - esk1_0
     - esk5_1
     - esk3_1
+    - esk2_1
+    - esk1_0
+    - esk4_1
   c_0_89:
     counts:
       k3_analmetr: 1
       r2_analoaf: 1
     skolems:
-    - esk2_1
-    - esk4_1
-    - esk1_0
     - esk5_1
     - esk3_1
+    - esk2_1
+    - esk1_0
+    - esk4_1
   c_0_91:
     counts:
       k3_analmetr: 4
@@ -732,10 +732,10 @@ steps:
       v3_analmetr: 1
       v8_conmetr: 1
     skolems:
-    - esk5_1
-    - esk6_1
     - esk7_1
     - esk4_1
+    - esk6_1
+    - esk5_1
   c_0_93:
     counts:
       k3_analmetr: 5
@@ -752,13 +752,13 @@ steps:
       r2_analoaf: 1
       v7_struct_0: 1
     skolems:
-    - esk2_1
-    - esk7_1
     - esk5_1
-    - esk4_1
-    - esk6_1
-    - esk1_0
     - esk3_1
+    - esk2_1
+    - esk1_0
+    - esk4_1
+    - esk7_1
+    - esk6_1
   c_0_95:
     counts:
       l1_analmetr: 1
@@ -784,13 +784,13 @@ steps:
       r2_analoaf: 1
       v7_struct_0: 1
     skolems:
+    - esk5_1
+    - esk3_1
+    - esk4_1
+    - esk1_0
     - esk2_1
     - esk7_1
     - esk6_1
-    - esk4_1
-    - esk5_1
-    - esk1_0
-    - esk3_1
 symbols:
   k3_analmetr:
     arity: 1

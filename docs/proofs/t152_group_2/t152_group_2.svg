@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="373,-60 373,-92 487,-92 487,-60 373,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="380,-60 380,-92 494,-92 494,-60 380,-60"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,86 +19,86 @@
 <!-- t152_group_2 -->
 <g id="node1" class="node">
 <title>t152_group_2</title>
-<g id="a_node1"><a xlink:href="t152_group_2.html" xlink:title="t152_group_2" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="381,-68.5 381,-83.5 479,-83.5 479,-68.5 381,-68.5"/>
-<text text-anchor="middle" x="430" y="-72.3" font-family="Times,serif" font-size="14.00">t152_group_2</text>
+<g id="a_node1"><a xlink:href="t152_group_2.html" xlink:title="t152_group_2" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="388,-68.5 388,-83.5 486,-83.5 486,-68.5 388,-68.5"/>
+<text text-anchor="middle" x="437" y="-72.3" font-family="Times,serif" font-size="14.00">t152_group_2</text>
 </a>
 </g>
-</g>
-<!-- c_0_139 -->
-<g id="node2" class="node">
-<title>c_0_139</title>
-<g id="a_node2"><a xlink:href="c_0_139.html" xlink:title="{multMagma(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="624,-16.5 624,-31.5 742,-31.5 742,-16.5 624,-16.5"/>
-<text text-anchor="middle" x="683" y="-20.3" font-family="Times,serif" font-size="14.00">multMagma(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t152_group_2&#45;&gt;c_0_139 -->
-<g id="edge1" class="edge">
-<title>t152_group_2&#45;&gt;c_0_139</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M479.08,-78C552.65,-78 683,-78 683,-78 683,-78 683,-41.51 683,-41.51"/>
-<polygon fill="black" stroke="black" points="686.5,-41.51 683,-31.51 679.5,-41.51 686.5,-41.51"/>
-</g>
-<!-- c_0_141 -->
-<g id="node3" class="node">
-<title>c_0_141</title>
-<g id="a_node3"><a xlink:href="c_0_141.html" xlink:title="{Group&#45;like(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="500,-16.5 500,-31.5 606,-31.5 606,-16.5 500,-16.5"/>
-<text text-anchor="middle" x="553" y="-20.3" font-family="Times,serif" font-size="14.00">Group&#45;like(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t152_group_2&#45;&gt;c_0_141 -->
-<g id="edge2" class="edge">
-<title>t152_group_2&#45;&gt;c_0_141</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M479.32,-73C513.54,-73 553,-73 553,-73 553,-73 553,-41.66 553,-41.66"/>
-<polygon fill="black" stroke="black" points="556.5,-41.66 553,-31.66 549.5,-41.66 556.5,-41.66"/>
 </g>
 <!-- c_0_142 -->
-<g id="node4" class="node">
+<g id="node2" class="node">
 <title>c_0_142</title>
-<g id="a_node4"><a xlink:href="c_0_142.html" xlink:title="{¬ (empty(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="378,-16.5 378,-31.5 482,-31.5 482,-16.5 378,-16.5"/>
-<text text-anchor="middle" x="430" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
+<g id="a_node2"><a xlink:href="c_0_142.html" xlink:title="{¬ (empty(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="638,-16.5 638,-31.5 742,-31.5 742,-16.5 638,-16.5"/>
+<text text-anchor="middle" x="690" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
 </a>
 </g>
 </g>
 <!-- t152_group_2&#45;&gt;c_0_142 -->
-<g id="edge3" class="edge">
+<g id="edge1" class="edge">
 <title>t152_group_2&#45;&gt;c_0_142</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M430,-68.33C430,-68.33 430,-41.7 430,-41.7"/>
-<polygon fill="black" stroke="black" points="433.5,-41.7 430,-31.7 426.5,-41.7 433.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M486.08,-78C559.65,-78 690,-78 690,-78 690,-78 690,-41.51 690,-41.51"/>
+<polygon fill="black" stroke="black" points="693.5,-41.51 690,-31.51 686.5,-41.51 693.5,-41.51"/>
+</g>
+<!-- c_0_140 -->
+<g id="node3" class="node">
+<title>c_0_140</title>
+<g id="a_node3"><a xlink:href="c_0_140.html" xlink:title="{associative(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="508.5,-16.5 508.5,-31.5 619.5,-31.5 619.5,-16.5 508.5,-16.5"/>
+<text text-anchor="middle" x="564" y="-20.3" font-family="Times,serif" font-size="14.00">associative(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t152_group_2&#45;&gt;c_0_140 -->
+<g id="edge2" class="edge">
+<title>t152_group_2&#45;&gt;c_0_140</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M486.1,-73C521.84,-73 564,-73 564,-73 564,-73 564,-41.66 564,-41.66"/>
+<polygon fill="black" stroke="black" points="567.5,-41.66 564,-31.66 560.5,-41.66 567.5,-41.66"/>
+</g>
+<!-- c_0_141 -->
+<g id="node4" class="node">
+<title>c_0_141</title>
+<g id="a_node4"><a xlink:href="c_0_141.html" xlink:title="{Group&#45;like(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="384,-16.5 384,-31.5 490,-31.5 490,-16.5 384,-16.5"/>
+<text text-anchor="middle" x="437" y="-20.3" font-family="Times,serif" font-size="14.00">Group&#45;like(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t152_group_2&#45;&gt;c_0_141 -->
+<g id="edge3" class="edge">
+<title>t152_group_2&#45;&gt;c_0_141</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M437,-68.33C437,-68.33 437,-41.7 437,-41.7"/>
+<polygon fill="black" stroke="black" points="440.5,-41.7 437,-31.7 433.5,-41.7 440.5,-41.7"/>
 </g>
 <!-- c_0_137 -->
 <g id="node5" class="node">
 <title>c_0_137</title>
-<g id="a_node5"><a xlink:href="c_0_137.html" xlink:title="{Index(sk₁, (1). sk₁) ≠ card(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="146,-16.5 146,-31.5 360,-31.5 360,-16.5 146,-16.5"/>
-<text text-anchor="middle" x="253" y="-20.3" font-family="Times,serif" font-size="14.00">Index(sk₁, (1). sk₁) ≠ card(sk₁)</text>
+<g id="a_node5"><a xlink:href="c_0_137.html" xlink:title="{Index(sk₁, (1). sk₁) ≠ card(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="152,-16.5 152,-31.5 366,-31.5 366,-16.5 152,-16.5"/>
+<text text-anchor="middle" x="259" y="-20.3" font-family="Times,serif" font-size="14.00">Index(sk₁, (1). sk₁) ≠ card(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t152_group_2&#45;&gt;c_0_137 -->
 <g id="edge4" class="edge">
 <title>t152_group_2&#45;&gt;c_0_137</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M380.7,-73C328.32,-73 253,-73 253,-73 253,-73 253,-41.66 253,-41.66"/>
-<polygon fill="black" stroke="black" points="256.5,-41.66 253,-31.66 249.5,-41.66 256.5,-41.66"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M387.89,-73C335.2,-73 259,-73 259,-73 259,-73 259,-41.66 259,-41.66"/>
+<polygon fill="black" stroke="black" points="262.5,-41.66 259,-31.66 255.5,-41.66 262.5,-41.66"/>
 </g>
-<!-- c_0_140 -->
+<!-- c_0_139 -->
 <g id="node6" class="node">
-<title>c_0_140</title>
-<g id="a_node6"><a xlink:href="c_0_140.html" xlink:title="{associative(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-31.5 127.5,-31.5 127.5,-16.5 16.5,-16.5"/>
-<text text-anchor="middle" x="72" y="-20.3" font-family="Times,serif" font-size="14.00">associative(sk₁)</text>
+<title>c_0_139</title>
+<g id="a_node6"><a xlink:href="c_0_139.html" xlink:title="{multMagma(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 134,-31.5 134,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="75" y="-20.3" font-family="Times,serif" font-size="14.00">multMagma(sk₁)</text>
 </a>
 </g>
 </g>
-<!-- t152_group_2&#45;&gt;c_0_140 -->
+<!-- t152_group_2&#45;&gt;c_0_139 -->
 <g id="edge5" class="edge">
-<title>t152_group_2&#45;&gt;c_0_140</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M380.97,-78C282.93,-78 72,-78 72,-78 72,-78 72,-41.51 72,-41.51"/>
-<polygon fill="black" stroke="black" points="75.5,-41.51 72,-31.51 68.5,-41.51 75.5,-41.51"/>
+<title>t152_group_2&#45;&gt;c_0_139</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M387.8,-78C288.82,-78 75,-78 75,-78 75,-78 75,-41.51 75,-41.51"/>
+<polygon fill="black" stroke="black" points="78.5,-41.51 75,-31.51 71.5,-41.51 78.5,-41.51"/>
 </g>
 </g>
 </svg>

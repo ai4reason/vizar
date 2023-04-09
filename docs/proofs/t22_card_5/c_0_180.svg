@@ -14,65 +14,65 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="47,-60 47,-92 255,-92 255,-60 47,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="50,-60 50,-92 258,-92 258,-60 50,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="77,-8 77,-40 225,-40 225,-8 77,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="80,-8 80,-40 228,-40 228,-8 80,-8"/>
 </g>
-<!-- c_0_169 -->
+<!-- c_0_170 -->
 <g id="node1" class="node">
-<title>c_0_169</title>
-<g id="a_node1"><a xlink:href="c_0_169.html" xlink:title="{succ(X₁) = X₁ ∪ \{X₁\}}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="156,-120.5 156,-135.5 304,-135.5 304,-120.5 156,-120.5"/>
-<text text-anchor="middle" x="230" y="-124.3" font-family="Times,serif" font-size="14.00">succ(X₁) = X₁ ∪ {X₁}</text>
+<title>c_0_170</title>
+<g id="a_node1"><a xlink:href="c_0_170.html" xlink:title="{X₁ \{..\} X₁ = \{X₁\}}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="182.5,-120.5 182.5,-135.5 303.5,-135.5 303.5,-120.5 182.5,-120.5"/>
+<text text-anchor="middle" x="243" y="-124.3" font-family="Times,serif" font-size="14.00">X₁ {..} X₁ = {X₁}</text>
 </a>
 </g>
 </g>
 <!-- c_0_180 -->
 <g id="node3" class="node">
 <title>c_0_180</title>
-<g id="a_node3"><a xlink:href="c_0_180.html" xlink:title="{succ(X₁) = X₁ ∪ (X₁ \{..\} X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="55.5,-68.5 55.5,-83.5 246.5,-83.5 246.5,-68.5 55.5,-68.5"/>
-<text text-anchor="middle" x="151" y="-72.3" font-family="Times,serif" font-size="14.00">succ(X₁) = X₁ ∪ (X₁ {..} X₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_169&#45;&gt;c_0_180 -->
-<g id="edge1" class="edge">
-<title>c_0_169&#45;&gt;c_0_180</title>
-<path fill="none" stroke="black" d="M201.25,-120.33C201.25,-120.33 201.25,-93.7 201.25,-93.7"/>
-<polygon fill="black" stroke="black" points="204.75,-93.7 201.25,-83.7 197.75,-93.7 204.75,-93.7"/>
-</g>
-<!-- c_0_170 -->
-<g id="node2" class="node">
-<title>c_0_170</title>
-<g id="a_node2"><a xlink:href="c_0_170.html" xlink:title="{X₁ \{..\} X₁ = \{X₁\}}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-120.5 16.5,-135.5 137.5,-135.5 137.5,-120.5 16.5,-120.5"/>
-<text text-anchor="middle" x="77" y="-124.3" font-family="Times,serif" font-size="14.00">X₁ {..} X₁ = {X₁}</text>
+<g id="a_node3"><a xlink:href="c_0_180.html" xlink:title="{succ(X₁) = X₁ ∪ (X₁ \{..\} X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="58.5,-68.5 58.5,-83.5 249.5,-83.5 249.5,-68.5 58.5,-68.5"/>
+<text text-anchor="middle" x="154" y="-72.3" font-family="Times,serif" font-size="14.00">succ(X₁) = X₁ ∪ (X₁ {..} X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_170&#45;&gt;c_0_180 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_170&#45;&gt;c_0_180</title>
-<path fill="none" stroke="black" d="M96.5,-120.33C96.5,-120.33 96.5,-93.7 96.5,-93.7"/>
-<polygon fill="black" stroke="black" points="100,-93.7 96.5,-83.7 93,-93.7 100,-93.7"/>
+<path fill="none" stroke="black" d="M216,-120.33C216,-120.33 216,-93.7 216,-93.7"/>
+<polygon fill="black" stroke="black" points="219.5,-93.7 216,-83.7 212.5,-93.7 219.5,-93.7"/>
+</g>
+<!-- c_0_169 -->
+<g id="node2" class="node">
+<title>c_0_169</title>
+<g id="a_node2"><a xlink:href="c_0_169.html" xlink:title="{succ(X₁) = X₁ ∪ \{X₁\}}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-120.5 16,-135.5 164,-135.5 164,-120.5 16,-120.5"/>
+<text text-anchor="middle" x="90" y="-124.3" font-family="Times,serif" font-size="14.00">succ(X₁) = X₁ ∪ {X₁}</text>
+</a>
+</g>
+</g>
+<!-- c_0_169&#45;&gt;c_0_180 -->
+<g id="edge2" class="edge">
+<title>c_0_169&#45;&gt;c_0_180</title>
+<path fill="none" stroke="black" d="M111.25,-120.33C111.25,-120.33 111.25,-93.7 111.25,-93.7"/>
+<polygon fill="black" stroke="black" points="114.75,-93.7 111.25,-83.7 107.75,-93.7 114.75,-93.7"/>
 </g>
 <!-- c_0_189 -->
 <g id="node4" class="node">
 <title>c_0_189</title>
-<g id="a_node4"><a xlink:href="c_0_189.html" xlink:title="{1 = Ø ∪ (Ø \{..\} Ø)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="85,-16.5 85,-31.5 217,-31.5 217,-16.5 85,-16.5"/>
-<text text-anchor="middle" x="151" y="-20.3" font-family="Times,serif" font-size="14.00">1 = Ø ∪ (Ø {..} Ø)</text>
+<g id="a_node4"><a xlink:href="c_0_189.html" xlink:title="{1 = Ø ∪ (Ø \{..\} Ø)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="88,-16.5 88,-31.5 220,-31.5 220,-16.5 88,-16.5"/>
+<text text-anchor="middle" x="154" y="-20.3" font-family="Times,serif" font-size="14.00">1 = Ø ∪ (Ø {..} Ø)</text>
 </a>
 </g>
 </g>
 <!-- c_0_180&#45;&gt;c_0_189 -->
 <g id="edge3" class="edge">
 <title>c_0_180&#45;&gt;c_0_189</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M151,-68.33C151,-68.33 151,-41.7 151,-41.7"/>
-<polygon fill="black" stroke="black" points="154.5,-41.7 151,-31.7 147.5,-41.7 154.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M154,-68.33C154,-68.33 154,-41.7 154,-41.7"/>
+<polygon fill="black" stroke="black" points="157.5,-41.7 154,-31.7 150.5,-41.7 157.5,-41.7"/>
 </g>
 </g>
 </svg>

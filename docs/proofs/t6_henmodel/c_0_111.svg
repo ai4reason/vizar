@@ -14,16 +14,16 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="166,-90 166,-122 344,-122 344,-90 166,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="204,-90 204,-122 382,-122 382,-90 204,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="30,-8 30,-70 488,-70 488,-8 30,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="71,-8 71,-70 529,-70 529,-8 71,-8"/>
 </g>
 <!-- c_0_104 -->
 <g id="node1" class="node">
 <title>c_0_104</title>
-<g id="a_node1"><a xlink:href="c_0_104.html" xlink:title="{Consistent(sk₂,sk₁)|VERUM(sk₁) ∈ CQC&#45;WFF(sk₁)|⇊|⊥}" target="_parent">
+<g id="a_node1"><a xlink:href="c_0_104.html" xlink:title="{Consistent(sk₂,sk₁)|VERUM(sk₁) ∈ CQC&#45;WFF(sk₁)|⇊|⊥}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="372,-150.5 372,-210.5 582,-210.5 582,-150.5 372,-150.5"/>
 <text text-anchor="middle" x="477" y="-199.3" font-family="Times,serif" font-size="14.00">Consistent(sk₂,sk₁)</text>
 <polyline fill="none" stroke="#7f7542" points="372,-195.5 582,-195.5 "/>
@@ -38,100 +38,100 @@
 <!-- c_0_111 -->
 <g id="node4" class="node">
 <title>c_0_111</title>
-<g id="a_node4"><a xlink:href="c_0_111.html" xlink:title="{¬ (Consistent(sk₂,sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="174.5,-98.5 174.5,-113.5 335.5,-113.5 335.5,-98.5 174.5,-98.5"/>
-<text text-anchor="middle" x="255" y="-102.3" font-family="Times,serif" font-size="14.00">¬ (Consistent(sk₂,sk₁))</text>
+<g id="a_node4"><a xlink:href="c_0_111.html" xlink:title="{¬ (Consistent(sk₂,sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="212.5,-98.5 212.5,-113.5 373.5,-113.5 373.5,-98.5 212.5,-98.5"/>
+<text text-anchor="middle" x="293" y="-102.3" font-family="Times,serif" font-size="14.00">¬ (Consistent(sk₂,sk₁))</text>
 </a>
 </g>
 </g>
 <!-- c_0_104&#45;&gt;c_0_111 -->
 <g id="edge1" class="edge">
 <title>c_0_104&#45;&gt;c_0_111</title>
-<path fill="none" stroke="black" d="M426,-150.2C426,-129.57 426,-106 426,-106 426,-106 345.74,-106 345.74,-106"/>
-<polygon fill="black" stroke="black" points="345.74,-102.5 335.74,-106 345.74,-109.5 345.74,-102.5"/>
-</g>
-<!-- c_0_105 -->
-<g id="node2" class="node">
-<title>c_0_105</title>
-<g id="a_node2"><a xlink:href="c_0_105.html" xlink:title="{QC&#45;alphabet(X₁)|⇊|VERUM(X₁) ∈ CQC&#45;WFF(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="156,-158 156,-203 354,-203 354,-158 156,-158"/>
-<text text-anchor="middle" x="255" y="-191.8" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="156,-188 354,-188 "/>
-<text text-anchor="middle" x="255" y="-176.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="156,-173 354,-173 "/>
-<text text-anchor="middle" x="255" y="-161.8" font-family="Times,serif" font-size="14.00">VERUM(X₁) ∈ CQC&#45;WFF(X₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_105&#45;&gt;c_0_111 -->
-<g id="edge2" class="edge">
-<title>c_0_105&#45;&gt;c_0_111</title>
-<path fill="none" stroke="black" d="M255,-157.74C255,-157.74 255,-123.59 255,-123.59"/>
-<polygon fill="black" stroke="black" points="258.5,-123.59 255,-113.59 251.5,-123.59 258.5,-123.59"/>
+<path fill="none" stroke="black" d="M371.72,-153C366.13,-153 362.75,-153 362.75,-153 362.75,-153 362.75,-123.76 362.75,-123.76"/>
+<polygon fill="black" stroke="black" points="366.25,-123.76 362.75,-113.76 359.25,-123.76 366.25,-123.76"/>
 </g>
 <!-- c_0_80 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_80</title>
-<g id="a_node3"><a xlink:href="c_0_80.html" xlink:title="{QC&#45;alphabet(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-173 16.5,-188 137.5,-188 137.5,-173 16.5,-173"/>
-<text text-anchor="middle" x="77" y="-176.8" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(sk₁)</text>
+<g id="a_node2"><a xlink:href="c_0_80.html" xlink:title="{QC&#45;alphabet(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="232.5,-173 232.5,-188 353.5,-188 353.5,-173 232.5,-173"/>
+<text text-anchor="middle" x="293" y="-176.8" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_80&#45;&gt;c_0_111 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_80&#45;&gt;c_0_111</title>
-<path fill="none" stroke="black" d="M88,-172.74C88,-154.04 88,-108 88,-108 88,-108 164.44,-108 164.44,-108"/>
-<polygon fill="black" stroke="black" points="164.44,-111.5 174.44,-108 164.43,-104.5 164.44,-111.5"/>
+<path fill="none" stroke="black" d="M293,-172.81C293,-172.81 293,-123.76 293,-123.76"/>
+<polygon fill="black" stroke="black" points="296.5,-123.76 293,-113.76 289.5,-123.76 296.5,-123.76"/>
 </g>
-<!-- c_0_116 -->
-<g id="node5" class="node">
-<title>c_0_116</title>
-<g id="a_node5"><a xlink:href="c_0_116.html" xlink:title="{X₁ ∈ CQC&#45;WFF(sk₁)|⇊|sk₁ \|&#45; sk₂ \|&#45; X₁}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="344,-16.5 344,-61.5 480,-61.5 480,-16.5 344,-16.5"/>
-<text text-anchor="middle" x="412" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ CQC&#45;WFF(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="344,-46.5 480,-46.5 "/>
-<text text-anchor="middle" x="412" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="344,-31.5 480,-31.5 "/>
-<text text-anchor="middle" x="412" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ |&#45; sk₂ |&#45; X₁</text>
+<!-- c_0_105 -->
+<g id="node3" class="node">
+<title>c_0_105</title>
+<g id="a_node3"><a xlink:href="c_0_105.html" xlink:title="{QC&#45;alphabet(X₁)|⇊|VERUM(X₁) ∈ CQC&#45;WFF(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-158 16,-203 214,-203 214,-158 16,-158"/>
+<text text-anchor="middle" x="115" y="-191.8" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-188 214,-188 "/>
+<text text-anchor="middle" x="115" y="-176.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-173 214,-173 "/>
+<text text-anchor="middle" x="115" y="-161.8" font-family="Times,serif" font-size="14.00">VERUM(X₁) ∈ CQC&#45;WFF(X₁)</text>
 </a>
 </g>
 </g>
-<!-- c_0_111&#45;&gt;c_0_116 -->
-<g id="edge4" class="edge">
-<title>c_0_111&#45;&gt;c_0_116</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M330.75,-98.33C330.75,-83.86 330.75,-54 330.75,-54 330.75,-54 333.8,-54 333.8,-54"/>
-<polygon fill="black" stroke="black" points="333.8,-57.5 343.8,-54 333.8,-50.5 333.8,-57.5"/>
+<!-- c_0_105&#45;&gt;c_0_111 -->
+<g id="edge3" class="edge">
+<title>c_0_105&#45;&gt;c_0_111</title>
+<path fill="none" stroke="black" d="M214.02,-165C219.75,-165 223.25,-165 223.25,-165 223.25,-165 223.25,-123.71 223.25,-123.71"/>
+<polygon fill="black" stroke="black" points="226.75,-123.71 223.25,-113.71 219.75,-123.71 226.75,-123.71"/>
 </g>
 <!-- c_0_117 -->
-<g id="node6" class="node">
+<g id="node5" class="node">
 <title>c_0_117</title>
-<g id="a_node6"><a xlink:href="c_0_117.html" xlink:title="{sk₃ ∈ CQC&#45;WFF(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="184,-31.5 184,-46.5 326,-46.5 326,-31.5 184,-31.5"/>
-<text text-anchor="middle" x="255" y="-35.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ CQC&#45;WFF(sk₁)</text>
+<g id="a_node5"><a xlink:href="c_0_117.html" xlink:title="{sk₃ ∈ CQC&#45;WFF(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="379,-31.5 379,-46.5 521,-46.5 521,-31.5 379,-31.5"/>
+<text text-anchor="middle" x="450" y="-35.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ CQC&#45;WFF(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_111&#45;&gt;c_0_117 -->
-<g id="edge5" class="edge">
+<g id="edge4" class="edge">
 <title>c_0_111&#45;&gt;c_0_117</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M255,-98.31C255,-98.31 255,-56.6 255,-56.6"/>
-<polygon fill="black" stroke="black" points="258.5,-56.6 255,-46.6 251.5,-56.6 258.5,-56.6"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M367.25,-98.31C367.25,-80.72 367.25,-39 367.25,-39 367.25,-39 368.76,-39 368.76,-39"/>
+<polygon fill="black" stroke="black" points="368.76,-42.5 378.76,-39 368.76,-35.5 368.76,-42.5"/>
+</g>
+<!-- c_0_116 -->
+<g id="node6" class="node">
+<title>c_0_116</title>
+<g id="a_node6"><a xlink:href="c_0_116.html" xlink:title="{X₁ ∈ CQC&#45;WFF(sk₁)|⇊|sk₁ \|&#45; sk₂ \|&#45; X₁}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="225,-16.5 225,-61.5 361,-61.5 361,-16.5 225,-16.5"/>
+<text text-anchor="middle" x="293" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ CQC&#45;WFF(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="225,-46.5 361,-46.5 "/>
+<text text-anchor="middle" x="293" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="225,-31.5 361,-31.5 "/>
+<text text-anchor="middle" x="293" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ |&#45; sk₂ |&#45; X₁</text>
+</a>
+</g>
+</g>
+<!-- c_0_111&#45;&gt;c_0_116 -->
+<g id="edge5" class="edge">
+<title>c_0_111&#45;&gt;c_0_116</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M293,-98.31C293,-98.31 293,-71.76 293,-71.76"/>
+<polygon fill="black" stroke="black" points="296.5,-71.76 293,-61.76 289.5,-71.76 296.5,-71.76"/>
 </g>
 <!-- c_0_115 -->
 <g id="node7" class="node">
 <title>c_0_115</title>
-<g id="a_node7"><a xlink:href="c_0_115.html" xlink:title="{¬ (sk₁ \|&#45; sk₂ \|&#45; sk₃)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="38.5,-31.5 38.5,-46.5 165.5,-46.5 165.5,-31.5 38.5,-31.5"/>
-<text text-anchor="middle" x="102" y="-35.3" font-family="Times,serif" font-size="14.00">¬ (sk₁ |&#45; sk₂ |&#45; sk₃)</text>
+<g id="a_node7"><a xlink:href="c_0_115.html" xlink:title="{¬ (sk₁ \|&#45; sk₂ \|&#45; sk₃)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="79.5,-31.5 79.5,-46.5 206.5,-46.5 206.5,-31.5 79.5,-31.5"/>
+<text text-anchor="middle" x="143" y="-35.3" font-family="Times,serif" font-size="14.00">¬ (sk₁ |&#45; sk₂ |&#45; sk₃)</text>
 </a>
 </g>
 </g>
 <!-- c_0_111&#45;&gt;c_0_115 -->
 <g id="edge6" class="edge">
 <title>c_0_111&#45;&gt;c_0_115</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M174.25,-103C166.1,-103 160.75,-103 160.75,-103 160.75,-103 160.75,-56.85 160.75,-56.85"/>
-<polygon fill="black" stroke="black" points="164.25,-56.85 160.75,-46.85 157.25,-56.85 164.25,-56.85"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M218.75,-98.31C218.75,-80.72 218.75,-39 218.75,-39 218.75,-39 216.58,-39 216.58,-39"/>
+<polygon fill="black" stroke="black" points="216.58,-35.5 206.58,-39 216.58,-42.5 216.58,-35.5"/>
 </g>
 </g>
 </svg>

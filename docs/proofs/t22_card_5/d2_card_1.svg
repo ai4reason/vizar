@@ -19,47 +19,47 @@
 <!-- d2_card_1 -->
 <g id="node1" class="node">
 <title>d2_card_1</title>
-<g id="a_node1"><a xlink:href="d2_card_1.html" xlink:title="d2_card_1" target="_parent">
+<g id="a_node1"><a xlink:href="d2_card_1.html" xlink:title="d2_card_1" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="57.5,-98.5 57.5,-113.5 130.5,-113.5 130.5,-98.5 57.5,-98.5"/>
 <text text-anchor="middle" x="94" y="-102.3" font-family="Times,serif" font-size="14.00">d2_card_1</text>
 </a>
 </g>
 </g>
-<!-- c_0_93 -->
+<!-- c_0_67 -->
 <g id="node2" class="node">
-<title>c_0_93</title>
-<g id="a_node2"><a xlink:href="c_0_93.html" xlink:title="{\|X₁\| = \|κ₂\||⇊|κ₂ = \|X₁\|}" target="_parent">
+<title>c_0_67</title>
+<g id="a_node2"><a xlink:href="c_0_67.html" xlink:title="{κ₁ = \|X₂\||⇊|\|X₂\| = \|κ₁\|}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="103.5,-16.5 103.5,-61.5 172.5,-61.5 172.5,-16.5 103.5,-16.5"/>
-<text text-anchor="middle" x="138" y="-50.3" font-family="Times,serif" font-size="14.00">|X₁| = |κ₂|</text>
+<text text-anchor="middle" x="138" y="-50.3" font-family="Times,serif" font-size="14.00">κ₁ = |X₂|</text>
 <polyline fill="none" stroke="#7f7542" points="103.5,-46.5 172.5,-46.5 "/>
 <text text-anchor="middle" x="138" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="103.5,-31.5 172.5,-31.5 "/>
-<text text-anchor="middle" x="138" y="-20.3" font-family="Times,serif" font-size="14.00">κ₂ = |X₁|</text>
-</a>
-</g>
-</g>
-<!-- d2_card_1&#45;&gt;c_0_93 -->
-<g id="edge1" class="edge">
-<title>d2_card_1&#45;&gt;c_0_93</title>
-<path fill="none" stroke="black" d="M117,-98.31C117,-98.31 117,-71.76 117,-71.76"/>
-<polygon fill="black" stroke="black" points="120.5,-71.76 117,-61.76 113.5,-71.76 120.5,-71.76"/>
-</g>
-<!-- c_0_67 -->
-<g id="node3" class="node">
-<title>c_0_67</title>
-<g id="a_node3"><a xlink:href="c_0_67.html" xlink:title="{κ₁ = \|X₂\||⇊|\|X₂\| = \|κ₁\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-61.5 85.5,-61.5 85.5,-16.5 16.5,-16.5"/>
-<text text-anchor="middle" x="51" y="-50.3" font-family="Times,serif" font-size="14.00">κ₁ = |X₂|</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 85.5,-46.5 "/>
-<text text-anchor="middle" x="51" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 85.5,-31.5 "/>
-<text text-anchor="middle" x="51" y="-20.3" font-family="Times,serif" font-size="14.00">|X₂| = |κ₁|</text>
+<text text-anchor="middle" x="138" y="-20.3" font-family="Times,serif" font-size="14.00">|X₂| = |κ₁|</text>
 </a>
 </g>
 </g>
 <!-- d2_card_1&#45;&gt;c_0_67 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>d2_card_1&#45;&gt;c_0_67</title>
+<path fill="none" stroke="black" d="M117,-98.31C117,-98.31 117,-71.76 117,-71.76"/>
+<polygon fill="black" stroke="black" points="120.5,-71.76 117,-61.76 113.5,-71.76 120.5,-71.76"/>
+</g>
+<!-- c_0_93 -->
+<g id="node3" class="node">
+<title>c_0_93</title>
+<g id="a_node3"><a xlink:href="c_0_93.html" xlink:title="{\|X₁\| = \|κ₂\||⇊|κ₂ = \|X₁\|}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-61.5 85.5,-61.5 85.5,-16.5 16.5,-16.5"/>
+<text text-anchor="middle" x="51" y="-50.3" font-family="Times,serif" font-size="14.00">|X₁| = |κ₂|</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 85.5,-46.5 "/>
+<text text-anchor="middle" x="51" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 85.5,-31.5 "/>
+<text text-anchor="middle" x="51" y="-20.3" font-family="Times,serif" font-size="14.00">κ₂ = |X₁|</text>
+</a>
+</g>
+</g>
+<!-- d2_card_1&#45;&gt;c_0_93 -->
+<g id="edge2" class="edge">
+<title>d2_card_1&#45;&gt;c_0_93</title>
 <path fill="none" stroke="black" d="M71.5,-98.31C71.5,-98.31 71.5,-71.76 71.5,-71.76"/>
 <polygon fill="black" stroke="black" points="75,-71.76 71.5,-61.76 68,-71.76 75,-71.76"/>
 </g>

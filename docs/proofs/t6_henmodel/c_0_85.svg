@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="22,-172 22,-249 306,-249 306,-172 22,-172"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="19,-172 19,-249 303,-249 303,-172 19,-172"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
@@ -20,55 +20,55 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-100 549,-100 549,-8 8,-8"/>
 </g>
-<!-- c_0_79 -->
+<!-- c_0_80 -->
 <g id="node1" class="node">
-<title>c_0_79</title>
-<g id="a_node1"><a xlink:href="c_0_79.html" xlink:title="{CQC&#45;WFF(X₁) = Ø|QC&#45;alphabet(X₁)|⇊|⊥}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="170,-180.5 170,-240.5 298,-240.5 298,-180.5 170,-180.5"/>
-<text text-anchor="middle" x="234" y="-229.3" font-family="Times,serif" font-size="14.00">CQC&#45;WFF(X₁) = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="170,-225.5 298,-225.5 "/>
-<text text-anchor="middle" x="234" y="-214.3" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="170,-210.5 298,-210.5 "/>
-<text text-anchor="middle" x="234" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="170,-195.5 298,-195.5 "/>
-<text text-anchor="middle" x="234" y="-184.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<title>c_0_80</title>
+<g id="a_node1"><a xlink:href="c_0_80.html" xlink:title="{QC&#45;alphabet(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="173.5,-203 173.5,-218 294.5,-218 294.5,-203 173.5,-203"/>
+<text text-anchor="middle" x="234" y="-206.8" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_85 -->
 <g id="node3" class="node">
 <title>c_0_85</title>
-<g id="a_node3"><a xlink:href="c_0_85.html" xlink:title="{CQC&#45;WFF(sk₁) ≠ Ø}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_85.html" xlink:title="{CQC&#45;WFF(sk₁) ≠ Ø}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="121,-128.5 121,-143.5 255,-143.5 255,-128.5 121,-128.5"/>
 <text text-anchor="middle" x="188" y="-132.3" font-family="Times,serif" font-size="14.00">CQC&#45;WFF(sk₁) ≠ Ø</text>
 </a>
 </g>
 </g>
-<!-- c_0_79&#45;&gt;c_0_85 -->
+<!-- c_0_80&#45;&gt;c_0_85 -->
 <g id="edge1" class="edge">
-<title>c_0_79&#45;&gt;c_0_85</title>
-<path fill="none" stroke="black" d="M212.5,-180.2C212.5,-180.2 212.5,-153.59 212.5,-153.59"/>
-<polygon fill="black" stroke="black" points="216,-153.59 212.5,-143.59 209,-153.59 216,-153.59"/>
+<title>c_0_80&#45;&gt;c_0_85</title>
+<path fill="none" stroke="black" d="M214.25,-202.81C214.25,-202.81 214.25,-153.76 214.25,-153.76"/>
+<polygon fill="black" stroke="black" points="217.75,-153.76 214.25,-143.76 210.75,-153.76 217.75,-153.76"/>
 </g>
-<!-- c_0_80 -->
+<!-- c_0_79 -->
 <g id="node2" class="node">
-<title>c_0_80</title>
-<g id="a_node2"><a xlink:href="c_0_80.html" xlink:title="{QC&#45;alphabet(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="30.5,-203 30.5,-218 151.5,-218 151.5,-203 30.5,-203"/>
-<text text-anchor="middle" x="91" y="-206.8" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(sk₁)</text>
+<title>c_0_79</title>
+<g id="a_node2"><a xlink:href="c_0_79.html" xlink:title="{CQC&#45;WFF(X₁) = Ø|QC&#45;alphabet(X₁)|⇊|⊥}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="27,-180.5 27,-240.5 155,-240.5 155,-180.5 27,-180.5"/>
+<text text-anchor="middle" x="91" y="-229.3" font-family="Times,serif" font-size="14.00">CQC&#45;WFF(X₁) = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="27,-225.5 155,-225.5 "/>
+<text text-anchor="middle" x="91" y="-214.3" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="27,-210.5 155,-210.5 "/>
+<text text-anchor="middle" x="91" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="27,-195.5 155,-195.5 "/>
+<text text-anchor="middle" x="91" y="-184.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
-<!-- c_0_80&#45;&gt;c_0_85 -->
+<!-- c_0_79&#45;&gt;c_0_85 -->
 <g id="edge2" class="edge">
-<title>c_0_80&#45;&gt;c_0_85</title>
-<path fill="none" stroke="black" d="M136.25,-202.81C136.25,-202.81 136.25,-153.76 136.25,-153.76"/>
-<polygon fill="black" stroke="black" points="139.75,-153.76 136.25,-143.76 132.75,-153.76 139.75,-153.76"/>
+<title>c_0_79&#45;&gt;c_0_85</title>
+<path fill="none" stroke="black" d="M138,-180.2C138,-180.2 138,-153.59 138,-153.59"/>
+<polygon fill="black" stroke="black" points="141.5,-153.59 138,-143.59 134.5,-153.59 141.5,-153.59"/>
 </g>
 <!-- c_0_110 -->
 <g id="node4" class="node">
 <title>c_0_110</title>
-<g id="a_node4"><a xlink:href="c_0_110.html" xlink:title="{CQC&#45;WFF(sk₁) ∈ bool(QC&#45;WFF(sk₁))|⇊|Consistent(sk₂,sk₁)|sk₃ ∈ CQC&#45;WFF(sk₁)}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_110.html" xlink:title="{CQC&#45;WFF(sk₁) ∈ bool(QC&#45;WFF(sk₁))|⇊|Consistent(sk₂,sk₁)|sk₃ ∈ CQC&#45;WFF(sk₁)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="287.5,-24 287.5,-84 540.5,-84 540.5,-24 287.5,-24"/>
 <text text-anchor="middle" x="414" y="-72.8" font-family="Times,serif" font-size="14.00">CQC&#45;WFF(sk₁) ∈ bool(QC&#45;WFF(sk₁))</text>
 <polyline fill="none" stroke="#7f7542" points="287.5,-69 540.5,-69 "/>
@@ -83,13 +83,13 @@
 <!-- c_0_85&#45;&gt;c_0_110 -->
 <g id="edge3" class="edge">
 <title>c_0_85&#45;&gt;c_0_110</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M255.23,-136C275.63,-136 292.75,-136 292.75,-136 292.75,-136 292.75,-94.07 292.75,-94.07"/>
-<polygon fill="black" stroke="black" points="296.25,-94.07 292.75,-84.07 289.25,-94.07 296.25,-94.07"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M255.26,-136C274.81,-136 291,-136 291,-136 291,-136 291,-94.07 291,-94.07"/>
+<polygon fill="black" stroke="black" points="294.5,-94.07 291,-84.07 287.5,-94.07 294.5,-94.07"/>
 </g>
 <!-- c_0_90 -->
 <g id="node5" class="node">
 <title>c_0_90</title>
-<g id="a_node5"><a xlink:href="c_0_90.html" xlink:title="{CQC&#45;WFF(sk₁) ∈ bool(QC&#45;WFF(sk₁))|Consistent(sk₂,sk₁)|X₁ ∈ CQC&#45;WFF(sk₁)|⇊|sk₁ \|&#45; sk₂ \|&#45; X₁}" target="_parent">
+<g id="a_node5"><a xlink:href="c_0_90.html" xlink:title="{CQC&#45;WFF(sk₁) ∈ bool(QC&#45;WFF(sk₁))|Consistent(sk₂,sk₁)|X₁ ∈ CQC&#45;WFF(sk₁)|⇊|sk₁ \|&#45; sk₂ \|&#45; X₁}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-91.5 269.5,-91.5 269.5,-16.5 16.5,-16.5"/>
 <text text-anchor="middle" x="143" y="-80.3" font-family="Times,serif" font-size="14.00">CQC&#45;WFF(sk₁) ∈ bool(QC&#45;WFF(sk₁))</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-76.5 269.5,-76.5 "/>

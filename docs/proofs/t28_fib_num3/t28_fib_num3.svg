@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="75,-60 75,-92 189,-92 189,-60 75,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="153,-60 153,-92 267,-92 267,-60 153,-60"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,41 +19,41 @@
 <!-- t28_fib_num3 -->
 <g id="node1" class="node">
 <title>t28_fib_num3</title>
-<g id="a_node1"><a xlink:href="t28_fib_num3.html" xlink:title="t28_fib_num3" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="83.5,-68.5 83.5,-83.5 180.5,-83.5 180.5,-68.5 83.5,-68.5"/>
-<text text-anchor="middle" x="132" y="-72.3" font-family="Times,serif" font-size="14.00">t28_fib_num3</text>
+<g id="a_node1"><a xlink:href="t28_fib_num3.html" xlink:title="t28_fib_num3" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="161.5,-68.5 161.5,-83.5 258.5,-83.5 258.5,-68.5 161.5,-68.5"/>
+<text text-anchor="middle" x="210" y="-72.3" font-family="Times,serif" font-size="14.00">t28_fib_num3</text>
 </a>
 </g>
-</g>
-<!-- c_0_98 -->
-<g id="node2" class="node">
-<title>c_0_98</title>
-<g id="a_node2"><a xlink:href="c_0_98.html" xlink:title="{Fib(2 * sk₁) ≠ Fib(sk₁) * Lucas(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="88,-16.5 88,-31.5 332,-31.5 332,-16.5 88,-16.5"/>
-<text text-anchor="middle" x="210" y="-20.3" font-family="Times,serif" font-size="14.00">Fib(2 * sk₁) ≠ Fib(sk₁) * Lucas(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t28_fib_num3&#45;&gt;c_0_98 -->
-<g id="edge1" class="edge">
-<title>t28_fib_num3&#45;&gt;c_0_98</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M134.25,-68.33C134.25,-68.33 134.25,-41.7 134.25,-41.7"/>
-<polygon fill="black" stroke="black" points="137.75,-41.7 134.25,-31.7 130.75,-41.7 137.75,-41.7"/>
 </g>
 <!-- c_0_116 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_116</title>
-<g id="a_node3"><a xlink:href="c_0_116.html" xlink:title="{sk₁ ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 70,-31.5 70,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="43" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
+<g id="a_node2"><a xlink:href="c_0_116.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="278,-16.5 278,-31.5 332,-31.5 332,-16.5 278,-16.5"/>
+<text text-anchor="middle" x="305" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- t28_fib_num3&#45;&gt;c_0_116 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t28_fib_num3&#45;&gt;c_0_116</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M83.33,-76C62.56,-76 43,-76 43,-76 43,-76 43,-41.67 43,-41.67"/>
-<polygon fill="black" stroke="black" points="46.5,-41.67 43,-31.67 39.5,-41.67 46.5,-41.67"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M258.61,-76C281.99,-76 305,-76 305,-76 305,-76 305,-41.67 305,-41.67"/>
+<polygon fill="black" stroke="black" points="308.5,-41.67 305,-31.67 301.5,-41.67 308.5,-41.67"/>
+</g>
+<!-- c_0_98 -->
+<g id="node3" class="node">
+<title>c_0_98</title>
+<g id="a_node3"><a xlink:href="c_0_98.html" xlink:title="{Fib(2 * sk₁) ≠ Fib(sk₁) * Lucas(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 260,-31.5 260,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="138" y="-20.3" font-family="Times,serif" font-size="14.00">Fib(2 * sk₁) ≠ Fib(sk₁) * Lucas(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t28_fib_num3&#45;&gt;c_0_98 -->
+<g id="edge2" class="edge">
+<title>t28_fib_num3&#45;&gt;c_0_98</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M210,-68.33C210,-68.33 210,-41.7 210,-41.7"/>
+<polygon fill="black" stroke="black" points="213.5,-41.7 210,-31.7 206.5,-41.7 213.5,-41.7"/>
 </g>
 </g>
 </svg>

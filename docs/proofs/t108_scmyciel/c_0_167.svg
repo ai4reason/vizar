@@ -10,227 +10,227 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="573,-172 573,-249 1163,-249 1163,-172 573,-172"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="486,-172 486,-249 1076,-249 1076,-172 486,-172"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="817,-120 817,-152 983,-152 983,-120 817,-120"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="710,-120 710,-152 876,-152 876,-120 710,-120"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-100 1685,-100 1685,-8 8,-8"/>
 </g>
-<!-- c_0_154 -->
+<!-- c_0_164 -->
 <g id="node1" class="node">
-<title>c_0_154</title>
-<g id="a_node1"><a xlink:href="c_0_154.html" xlink:title="{finite(sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1085.5,-203 1085.5,-218 1154.5,-218 1154.5,-203 1085.5,-203"/>
-<text text-anchor="middle" x="1120" y="-206.8" font-family="Times,serif" font-size="14.00">finite(sk₂)</text>
+<title>c_0_164</title>
+<g id="a_node1"><a xlink:href="c_0_164.html" xlink:title="{finite(X₁)|finite&#45;membered(X₁)|⇊|order(X₁) = \|union(X₁)\|}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="908,-180.5 908,-240.5 1068,-240.5 1068,-180.5 908,-180.5"/>
+<text text-anchor="middle" x="988" y="-229.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="908,-225.5 1068,-225.5 "/>
+<text text-anchor="middle" x="988" y="-214.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="908,-210.5 1068,-210.5 "/>
+<text text-anchor="middle" x="988" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="908,-195.5 1068,-195.5 "/>
+<text text-anchor="middle" x="988" y="-184.3" font-family="Times,serif" font-size="14.00">order(X₁) = |union(X₁)|</text>
 </a>
 </g>
 </g>
 <!-- c_0_167 -->
 <g id="node5" class="node">
 <title>c_0_167</title>
-<g id="a_node5"><a xlink:href="c_0_167.html" xlink:title="{3 ∈ bool(\|union(sk₂)\|)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="825,-128.5 825,-143.5 975,-143.5 975,-128.5 825,-128.5"/>
-<text text-anchor="middle" x="900" y="-132.3" font-family="Times,serif" font-size="14.00">3 ∈ bool(|union(sk₂)|)</text>
-</a>
-</g>
-</g>
-<!-- c_0_154&#45;&gt;c_0_167 -->
-<g id="edge1" class="edge">
-<title>c_0_154&#45;&gt;c_0_167</title>
-<path fill="none" stroke="black" d="M1120,-202.96C1120,-184.77 1120,-140 1120,-140 1120,-140 985.1,-140 985.1,-140"/>
-<polygon fill="black" stroke="black" points="985.1,-136.5 975.1,-140 985.1,-143.5 985.1,-136.5"/>
-</g>
-<!-- c_0_164 -->
-<g id="node2" class="node">
-<title>c_0_164</title>
-<g id="a_node2"><a xlink:href="c_0_164.html" xlink:title="{finite(X₁)|finite&#45;membered(X₁)|⇊|order(X₁) = \|union(X₁)\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="907,-180.5 907,-240.5 1067,-240.5 1067,-180.5 907,-180.5"/>
-<text text-anchor="middle" x="987" y="-229.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="907,-225.5 1067,-225.5 "/>
-<text text-anchor="middle" x="987" y="-214.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="907,-210.5 1067,-210.5 "/>
-<text text-anchor="middle" x="987" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="907,-195.5 1067,-195.5 "/>
-<text text-anchor="middle" x="987" y="-184.3" font-family="Times,serif" font-size="14.00">order(X₁) = |union(X₁)|</text>
+<g id="a_node5"><a xlink:href="c_0_167.html" xlink:title="{3 ∈ bool(\|union(sk₂)\|)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="718,-128.5 718,-143.5 868,-143.5 868,-128.5 718,-128.5"/>
+<text text-anchor="middle" x="793" y="-132.3" font-family="Times,serif" font-size="14.00">3 ∈ bool(|union(sk₂)|)</text>
 </a>
 </g>
 </g>
 <!-- c_0_164&#45;&gt;c_0_167 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_164&#45;&gt;c_0_167</title>
-<path fill="none" stroke="black" d="M941,-180.2C941,-180.2 941,-153.59 941,-153.59"/>
-<polygon fill="black" stroke="black" points="944.5,-153.59 941,-143.59 937.5,-153.59 944.5,-153.59"/>
+<path fill="none" stroke="black" d="M917,-180.19C917,-161.08 917,-140 917,-140 917,-140 878.35,-140 878.35,-140"/>
+<polygon fill="black" stroke="black" points="878.35,-136.5 868.35,-140 878.35,-143.5 878.35,-136.5"/>
 </g>
-<!-- c_0_153 -->
-<g id="node3" class="node">
-<title>c_0_153</title>
-<g id="a_node3"><a xlink:href="c_0_153.html" xlink:title="{finite&#45;membered(sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="739,-203 739,-218 889,-218 889,-203 739,-203"/>
-<text text-anchor="middle" x="814" y="-206.8" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₂)</text>
+<!-- c_0_154 -->
+<g id="node2" class="node">
+<title>c_0_154</title>
+<g id="a_node2"><a xlink:href="c_0_154.html" xlink:title="{finite(sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="820.5,-203 820.5,-218 889.5,-218 889.5,-203 820.5,-203"/>
+<text text-anchor="middle" x="855" y="-206.8" font-family="Times,serif" font-size="14.00">finite(sk₂)</text>
 </a>
 </g>
 </g>
-<!-- c_0_153&#45;&gt;c_0_167 -->
-<g id="edge3" class="edge">
-<title>c_0_153&#45;&gt;c_0_167</title>
-<path fill="none" stroke="black" d="M857,-202.81C857,-202.81 857,-153.76 857,-153.76"/>
-<polygon fill="black" stroke="black" points="860.5,-153.76 857,-143.76 853.5,-153.76 860.5,-153.76"/>
+<!-- c_0_154&#45;&gt;c_0_167 -->
+<g id="edge2" class="edge">
+<title>c_0_154&#45;&gt;c_0_167</title>
+<path fill="none" stroke="black" d="M844.25,-202.81C844.25,-202.81 844.25,-153.76 844.25,-153.76"/>
+<polygon fill="black" stroke="black" points="847.75,-153.76 844.25,-143.76 840.75,-153.76 847.75,-153.76"/>
 </g>
 <!-- c_0_151 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_151</title>
-<g id="a_node4"><a xlink:href="c_0_151.html" xlink:title="{3 ∈ bool(order(sk₂))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="581,-203 581,-218 721,-218 721,-203 581,-203"/>
-<text text-anchor="middle" x="651" y="-206.8" font-family="Times,serif" font-size="14.00">3 ∈ bool(order(sk₂))</text>
+<g id="a_node3"><a xlink:href="c_0_151.html" xlink:title="{3 ∈ bool(order(sk₂))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="662,-203 662,-218 802,-218 802,-203 662,-203"/>
+<text text-anchor="middle" x="732" y="-206.8" font-family="Times,serif" font-size="14.00">3 ∈ bool(order(sk₂))</text>
 </a>
 </g>
 </g>
 <!-- c_0_151&#45;&gt;c_0_167 -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>c_0_151&#45;&gt;c_0_167</title>
-<path fill="none" stroke="black" d="M651,-202.96C651,-184.77 651,-140 651,-140 651,-140 814.95,-140 814.95,-140"/>
-<polygon fill="black" stroke="black" points="814.95,-143.5 824.95,-140 814.95,-136.5 814.95,-143.5"/>
+<path fill="none" stroke="black" d="M760,-202.81C760,-202.81 760,-153.76 760,-153.76"/>
+<polygon fill="black" stroke="black" points="763.5,-153.76 760,-143.76 756.5,-153.76 763.5,-153.76"/>
 </g>
-<!-- c_0_175 -->
-<g id="node6" class="node">
-<title>c_0_175</title>
-<g id="a_node6"><a xlink:href="c_0_175.html" xlink:title="{sk₃(union(sk₂),X₂) = sk₃(union(sk₂),X₁)|⇊|sk₃(union(sk₂),X₂) = union(sk₁)|sk₄(union(sk₂),X₁) = union(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1411,-24 1411,-84 1677,-84 1677,-24 1411,-24"/>
-<text text-anchor="middle" x="1544" y="-72.8" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₂) = sk₃(union(sk₂),X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1411,-69 1677,-69 "/>
-<text text-anchor="middle" x="1544" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="1411,-54 1677,-54 "/>
-<text text-anchor="middle" x="1544" y="-42.8" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₂) = union(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1411,-39 1677,-39 "/>
-<text text-anchor="middle" x="1544" y="-27.8" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
+<!-- c_0_153 -->
+<g id="node4" class="node">
+<title>c_0_153</title>
+<g id="a_node4"><a xlink:href="c_0_153.html" xlink:title="{finite&#45;membered(sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="494,-203 494,-218 644,-218 644,-203 494,-203"/>
+<text text-anchor="middle" x="569" y="-206.8" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₂)</text>
 </a>
 </g>
 </g>
-<!-- c_0_167&#45;&gt;c_0_175 -->
-<g id="edge5" class="edge">
-<title>c_0_167&#45;&gt;c_0_175</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M975.14,-136C1145.02,-136 1544,-136 1544,-136 1544,-136 1544,-94.07 1544,-94.07"/>
-<polygon fill="black" stroke="black" points="1547.5,-94.07 1544,-84.07 1540.5,-94.07 1547.5,-94.07"/>
-</g>
-<!-- c_0_170 -->
-<g id="node7" class="node">
-<title>c_0_170</title>
-<g id="a_node7"><a xlink:href="c_0_170.html" xlink:title="{X₂ ∈ union(sk₂)|⇊|X₂ = sk₄(union(sk₂),X₁)|sk₄(union(sk₂),X₁) = union(sk₁)|union(sk₁) = X₂}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1177.5,-16.5 1177.5,-91.5 1392.5,-91.5 1392.5,-16.5 1177.5,-16.5"/>
-<text text-anchor="middle" x="1285" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ ∈ union(sk₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1177.5,-76.5 1392.5,-76.5 "/>
-<text text-anchor="middle" x="1285" y="-65.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="1177.5,-61.5 1392.5,-61.5 "/>
-<text text-anchor="middle" x="1285" y="-50.3" font-family="Times,serif" font-size="14.00">X₂ = sk₄(union(sk₂),X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1177.5,-46.5 1392.5,-46.5 "/>
-<text text-anchor="middle" x="1285" y="-35.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="1177.5,-31.5 1392.5,-31.5 "/>
-<text text-anchor="middle" x="1285" y="-20.3" font-family="Times,serif" font-size="14.00">union(sk₁) = X₂</text>
-</a>
-</g>
-</g>
-<!-- c_0_167&#45;&gt;c_0_170 -->
-<g id="edge6" class="edge">
-<title>c_0_167&#45;&gt;c_0_170</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M937.5,-128.07C937.5,-114.44 937.5,-88 937.5,-88 937.5,-88 1167.43,-88 1167.43,-88"/>
-<polygon fill="black" stroke="black" points="1167.43,-91.5 1177.43,-88 1167.43,-84.5 1167.43,-91.5"/>
-</g>
-<!-- c_0_184 -->
-<g id="node8" class="node">
-<title>c_0_184</title>
-<g id="a_node8"><a xlink:href="c_0_184.html" xlink:title="{union(sk₁) ≠ X₁}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1051,-46.5 1051,-61.5 1159,-61.5 1159,-46.5 1051,-46.5"/>
-<text text-anchor="middle" x="1105" y="-50.3" font-family="Times,serif" font-size="14.00">union(sk₁) ≠ X₁</text>
-</a>
-</g>
-</g>
-<!-- c_0_167&#45;&gt;c_0_184 -->
-<g id="edge7" class="edge">
-<title>c_0_167&#45;&gt;c_0_184</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M975.31,-132C1016.41,-132 1059,-132 1059,-132 1059,-132 1059,-71.76 1059,-71.76"/>
-<polygon fill="black" stroke="black" points="1062.5,-71.76 1059,-61.76 1055.5,-71.76 1062.5,-71.76"/>
-</g>
-<!-- c_0_173 -->
-<g id="node9" class="node">
-<title>c_0_173</title>
-<g id="a_node9"><a xlink:href="c_0_173.html" xlink:title="{sk₃(union(sk₂),X₁) = sk₄(union(sk₂),X₂)|sk₃(union(sk₂),X₁) = union(sk₁)|sk₄(union(sk₂),X₂) = union(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="767,-31.5 767,-76.5 1033,-76.5 1033,-31.5 767,-31.5"/>
-<text text-anchor="middle" x="900" y="-65.3" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₁) = sk₄(union(sk₂),X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="767,-61.5 1033,-61.5 "/>
-<text text-anchor="middle" x="900" y="-50.3" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₁) = union(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="767,-46.5 1033,-46.5 "/>
-<text text-anchor="middle" x="900" y="-35.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₂) = union(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_167&#45;&gt;c_0_173 -->
-<g id="edge8" class="edge">
-<title>c_0_167&#45;&gt;c_0_173</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M900,-128.43C900,-128.43 900,-86.65 900,-86.65"/>
-<polygon fill="black" stroke="black" points="903.5,-86.65 900,-76.65 896.5,-86.65 903.5,-86.65"/>
-</g>
-<!-- c_0_177 -->
-<g id="node10" class="node">
-<title>c_0_177</title>
-<g id="a_node10"><a xlink:href="c_0_177.html" xlink:title="{sk₄(union(sk₂),X₁) = sk₄(union(sk₂),X₂)|sk₄(union(sk₂),X₁) = union(sk₁)|sk₄(union(sk₂),X₂) = union(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="483,-31.5 483,-76.5 749,-76.5 749,-31.5 483,-31.5"/>
-<text text-anchor="middle" x="616" y="-65.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = sk₄(union(sk₂),X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="483,-61.5 749,-61.5 "/>
-<text text-anchor="middle" x="616" y="-50.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="483,-46.5 749,-46.5 "/>
-<text text-anchor="middle" x="616" y="-35.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₂) = union(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_167&#45;&gt;c_0_177 -->
-<g id="edge9" class="edge">
-<title>c_0_167&#45;&gt;c_0_177</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M824.74,-132C784.85,-132 744,-132 744,-132 744,-132 744,-86.56 744,-86.56"/>
-<polygon fill="black" stroke="black" points="747.5,-86.56 744,-76.56 740.5,-86.56 747.5,-86.56"/>
-</g>
-<!-- c_0_180 -->
-<g id="node11" class="node">
-<title>c_0_180</title>
-<g id="a_node11"><a xlink:href="c_0_180.html" xlink:title="{sk₄(union(sk₂),X₂) = X₁|⇊|sk₄(union(sk₂),X₁) = union(sk₁)|sk₄(union(sk₂),X₂) = union(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="249.5,-24 249.5,-84 464.5,-84 464.5,-24 249.5,-24"/>
-<text text-anchor="middle" x="357" y="-72.8" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₂) = X₁</text>
-<polyline fill="none" stroke="#7f7542" points="249.5,-69 464.5,-69 "/>
-<text text-anchor="middle" x="357" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="249.5,-54 464.5,-54 "/>
-<text text-anchor="middle" x="357" y="-42.8" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="249.5,-39 464.5,-39 "/>
-<text text-anchor="middle" x="357" y="-27.8" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₂) = union(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_167&#45;&gt;c_0_180 -->
-<g id="edge10" class="edge">
-<title>c_0_167&#45;&gt;c_0_180</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M862.5,-128.21C862.5,-112.83 862.5,-80 862.5,-80 862.5,-80 474.51,-80 474.51,-80"/>
-<polygon fill="black" stroke="black" points="474.51,-76.5 464.51,-80 474.51,-83.5 474.51,-76.5"/>
+<!-- c_0_153&#45;&gt;c_0_167 -->
+<g id="edge4" class="edge">
+<title>c_0_153&#45;&gt;c_0_167</title>
+<path fill="none" stroke="black" d="M567.75,-202.96C567.75,-184.77 567.75,-140 567.75,-140 567.75,-140 708,-140 708,-140"/>
+<polygon fill="black" stroke="black" points="708,-143.5 718,-140 707.99,-136.5 708,-143.5"/>
 </g>
 <!-- c_0_182 -->
-<g id="node12" class="node">
+<g id="node6" class="node">
 <title>c_0_182</title>
-<g id="a_node12"><a xlink:href="c_0_182.html" xlink:title="{union(sk₁) = X₁|⇊|sk₃(union(sk₂),X₁) = union(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-31.5 16.5,-76.5 231.5,-76.5 231.5,-31.5 16.5,-31.5"/>
-<text text-anchor="middle" x="124" y="-65.3" font-family="Times,serif" font-size="14.00">union(sk₁) = X₁</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-61.5 231.5,-61.5 "/>
-<text text-anchor="middle" x="124" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 231.5,-46.5 "/>
-<text text-anchor="middle" x="124" y="-35.3" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₁) = union(sk₁)</text>
+<g id="a_node6"><a xlink:href="c_0_182.html" xlink:title="{union(sk₁) = X₁|⇊|sk₃(union(sk₂),X₁) = union(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1461.5,-31.5 1461.5,-76.5 1676.5,-76.5 1676.5,-31.5 1461.5,-31.5"/>
+<text text-anchor="middle" x="1569" y="-65.3" font-family="Times,serif" font-size="14.00">union(sk₁) = X₁</text>
+<polyline fill="none" stroke="#7f7542" points="1461.5,-61.5 1676.5,-61.5 "/>
+<text text-anchor="middle" x="1569" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="1461.5,-46.5 1676.5,-46.5 "/>
+<text text-anchor="middle" x="1569" y="-35.3" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₁) = union(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_167&#45;&gt;c_0_182 -->
-<g id="edge11" class="edge">
+<g id="edge5" class="edge">
 <title>c_0_167&#45;&gt;c_0_182</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M824.89,-136C630.14,-136 124,-136 124,-136 124,-136 124,-86.84 124,-86.84"/>
-<polygon fill="black" stroke="black" points="127.5,-86.84 124,-76.84 120.5,-86.84 127.5,-86.84"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M868.11,-137C1062.86,-137 1569,-137 1569,-137 1569,-137 1569,-86.68 1569,-86.68"/>
+<polygon fill="black" stroke="black" points="1572.5,-86.68 1569,-76.68 1565.5,-86.68 1572.5,-86.68"/>
+</g>
+<!-- c_0_180 -->
+<g id="node7" class="node">
+<title>c_0_180</title>
+<g id="a_node7"><a xlink:href="c_0_180.html" xlink:title="{sk₄(union(sk₂),X₂) = X₁|⇊|sk₄(union(sk₂),X₁) = union(sk₁)|sk₄(union(sk₂),X₂) = union(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1228.5,-24 1228.5,-84 1443.5,-84 1443.5,-24 1228.5,-24"/>
+<text text-anchor="middle" x="1336" y="-72.8" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₂) = X₁</text>
+<polyline fill="none" stroke="#7f7542" points="1228.5,-69 1443.5,-69 "/>
+<text text-anchor="middle" x="1336" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="1228.5,-54 1443.5,-54 "/>
+<text text-anchor="middle" x="1336" y="-42.8" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="1228.5,-39 1443.5,-39 "/>
+<text text-anchor="middle" x="1336" y="-27.8" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₂) = union(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_167&#45;&gt;c_0_180 -->
+<g id="edge6" class="edge">
+<title>c_0_167&#45;&gt;c_0_180</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M868.22,-134C1017.3,-134 1336,-134 1336,-134 1336,-134 1336,-94.24 1336,-94.24"/>
+<polygon fill="black" stroke="black" points="1339.5,-94.24 1336,-84.24 1332.5,-94.24 1339.5,-94.24"/>
+</g>
+<!-- c_0_175 -->
+<g id="node8" class="node">
+<title>c_0_175</title>
+<g id="a_node8"><a xlink:href="c_0_175.html" xlink:title="{sk₃(union(sk₂),X₂) = sk₃(union(sk₂),X₁)|⇊|sk₃(union(sk₂),X₂) = union(sk₁)|sk₄(union(sk₂),X₁) = union(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="944,-24 944,-84 1210,-84 1210,-24 944,-24"/>
+<text text-anchor="middle" x="1077" y="-72.8" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₂) = sk₃(union(sk₂),X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="944,-69 1210,-69 "/>
+<text text-anchor="middle" x="1077" y="-57.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="944,-54 1210,-54 "/>
+<text text-anchor="middle" x="1077" y="-42.8" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₂) = union(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="944,-39 1210,-39 "/>
+<text text-anchor="middle" x="1077" y="-27.8" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_167&#45;&gt;c_0_175 -->
+<g id="edge7" class="edge">
+<title>c_0_167&#45;&gt;c_0_175</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M868.1,-131C929.42,-131 1006,-131 1006,-131 1006,-131 1006,-94.43 1006,-94.43"/>
+<polygon fill="black" stroke="black" points="1009.5,-94.43 1006,-84.43 1002.5,-94.43 1009.5,-94.43"/>
+</g>
+<!-- c_0_177 -->
+<g id="node9" class="node">
+<title>c_0_177</title>
+<g id="a_node9"><a xlink:href="c_0_177.html" xlink:title="{sk₄(union(sk₂),X₁) = sk₄(union(sk₂),X₂)|sk₄(union(sk₂),X₁) = union(sk₁)|sk₄(union(sk₂),X₂) = union(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="660,-31.5 660,-76.5 926,-76.5 926,-31.5 660,-31.5"/>
+<text text-anchor="middle" x="793" y="-65.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = sk₄(union(sk₂),X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="660,-61.5 926,-61.5 "/>
+<text text-anchor="middle" x="793" y="-50.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="660,-46.5 926,-46.5 "/>
+<text text-anchor="middle" x="793" y="-35.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₂) = union(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_167&#45;&gt;c_0_177 -->
+<g id="edge8" class="edge">
+<title>c_0_167&#45;&gt;c_0_177</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M818,-128.43C818,-128.43 818,-86.65 818,-86.65"/>
+<polygon fill="black" stroke="black" points="821.5,-86.65 818,-76.65 814.5,-86.65 821.5,-86.65"/>
+</g>
+<!-- c_0_170 -->
+<g id="node10" class="node">
+<title>c_0_170</title>
+<g id="a_node10"><a xlink:href="c_0_170.html" xlink:title="{X₂ ∈ union(sk₂)|⇊|X₂ = sk₄(union(sk₂),X₁)|sk₄(union(sk₂),X₁) = union(sk₁)|union(sk₁) = X₂}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="426.5,-16.5 426.5,-91.5 641.5,-91.5 641.5,-16.5 426.5,-16.5"/>
+<text text-anchor="middle" x="534" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ ∈ union(sk₂)</text>
+<polyline fill="none" stroke="#7f7542" points="426.5,-76.5 641.5,-76.5 "/>
+<text text-anchor="middle" x="534" y="-65.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="426.5,-61.5 641.5,-61.5 "/>
+<text text-anchor="middle" x="534" y="-50.3" font-family="Times,serif" font-size="14.00">X₂ = sk₄(union(sk₂),X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="426.5,-46.5 641.5,-46.5 "/>
+<text text-anchor="middle" x="534" y="-35.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="426.5,-31.5 641.5,-31.5 "/>
+<text text-anchor="middle" x="534" y="-20.3" font-family="Times,serif" font-size="14.00">union(sk₁) = X₂</text>
+</a>
+</g>
+</g>
+<!-- c_0_167&#45;&gt;c_0_170 -->
+<g id="edge9" class="edge">
+<title>c_0_167&#45;&gt;c_0_170</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M768,-128.07C768,-114.44 768,-88 768,-88 768,-88 651.75,-88 651.75,-88"/>
+<polygon fill="black" stroke="black" points="651.75,-84.5 641.75,-88 651.75,-91.5 651.75,-84.5"/>
+</g>
+<!-- c_0_173 -->
+<g id="node11" class="node">
+<title>c_0_173</title>
+<g id="a_node11"><a xlink:href="c_0_173.html" xlink:title="{sk₃(union(sk₂),X₁) = sk₄(union(sk₂),X₂)|sk₃(union(sk₂),X₁) = union(sk₁)|sk₄(union(sk₂),X₂) = union(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="142,-31.5 142,-76.5 408,-76.5 408,-31.5 142,-31.5"/>
+<text text-anchor="middle" x="275" y="-65.3" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₁) = sk₄(union(sk₂),X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="142,-61.5 408,-61.5 "/>
+<text text-anchor="middle" x="275" y="-50.3" font-family="Times,serif" font-size="14.00">sk₃(union(sk₂),X₁) = union(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="142,-46.5 408,-46.5 "/>
+<text text-anchor="middle" x="275" y="-35.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₂) = union(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_167&#45;&gt;c_0_173 -->
+<g id="edge10" class="edge">
+<title>c_0_167&#45;&gt;c_0_173</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M717.96,-132C574.4,-132 275,-132 275,-132 275,-132 275,-86.56 275,-86.56"/>
+<polygon fill="black" stroke="black" points="278.5,-86.56 275,-76.56 271.5,-86.56 278.5,-86.56"/>
+</g>
+<!-- c_0_184 -->
+<g id="node12" class="node">
+<title>c_0_184</title>
+<g id="a_node12"><a xlink:href="c_0_184.html" xlink:title="{union(sk₁) ≠ X₁}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-46.5 16,-61.5 124,-61.5 124,-46.5 16,-46.5"/>
+<text text-anchor="middle" x="70" y="-50.3" font-family="Times,serif" font-size="14.00">union(sk₁) ≠ X₁</text>
+</a>
+</g>
+</g>
+<!-- c_0_167&#45;&gt;c_0_184 -->
+<g id="edge11" class="edge">
+<title>c_0_167&#45;&gt;c_0_184</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M717.67,-136C532.49,-136 70,-136 70,-136 70,-136 70,-71.57 70,-71.57"/>
+<polygon fill="black" stroke="black" points="73.5,-71.57 70,-61.57 66.5,-71.57 73.5,-71.57"/>
 </g>
 </g>
 </svg>

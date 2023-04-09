@@ -14,48 +14,48 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="278,-8 278,-40 308,-40 308,-8 278,-8"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="171,-8 171,-40 201,-40 201,-8 171,-8"/>
 </g>
-<!-- c_0_184 -->
+<!-- c_0_183 -->
 <g id="node1" class="node">
-<title>c_0_184</title>
-<g id="a_node1"><a xlink:href="c_0_184.html" xlink:title="{union(sk₁) ≠ X₁}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="356,-76 356,-91 464,-91 464,-76 356,-76"/>
-<text text-anchor="middle" x="410" y="-79.8" font-family="Times,serif" font-size="14.00">union(sk₁) ≠ X₁</text>
+<title>c_0_183</title>
+<g id="a_node1"><a xlink:href="c_0_183.html" xlink:title="{sk₄(union(sk₂),X₁) = union(sk₁)|sk₄(union(sk₂),sk₄(union(sk₂),X₁)) = union(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="142,-68.5 142,-98.5 464,-98.5 464,-68.5 142,-68.5"/>
+<text text-anchor="middle" x="303" y="-87.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
+<polyline fill="none" stroke="#7f7542" points="142,-83.5 464,-83.5 "/>
+<text text-anchor="middle" x="303" y="-72.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),sk₄(union(sk₂),X₁)) = union(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_185 -->
 <g id="node3" class="node">
 <title>c_0_185</title>
-<g id="a_node3"><a xlink:href="c_0_185.html" xlink:title="⊥" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="286,-16.5 286,-31.5 300,-31.5 300,-16.5 286,-16.5"/>
-<text text-anchor="middle" x="293" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
-</a>
-</g>
-</g>
-<!-- c_0_184&#45;&gt;c_0_185 -->
-<g id="edge1" class="edge">
-<title>c_0_184&#45;&gt;c_0_185</title>
-<path fill="none" stroke="black" d="M410,-75.72C410,-59.59 410,-24 410,-24 410,-24 310.32,-24 310.32,-24"/>
-<polygon fill="black" stroke="black" points="310.32,-20.5 300.32,-24 310.32,-27.5 310.32,-20.5"/>
-</g>
-<!-- c_0_183 -->
-<g id="node2" class="node">
-<title>c_0_183</title>
-<g id="a_node2"><a xlink:href="c_0_183.html" xlink:title="{sk₄(union(sk₂),X₁) = union(sk₁)|sk₄(union(sk₂),sk₄(union(sk₂),X₁)) = union(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-68.5 16,-98.5 338,-98.5 338,-68.5 16,-68.5"/>
-<text text-anchor="middle" x="177" y="-87.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),X₁) = union(sk₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-83.5 338,-83.5 "/>
-<text text-anchor="middle" x="177" y="-72.3" font-family="Times,serif" font-size="14.00">sk₄(union(sk₂),sk₄(union(sk₂),X₁)) = union(sk₁)</text>
+<g id="a_node3"><a xlink:href="c_0_185.html" xlink:title="⊥" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="179,-16.5 179,-31.5 193,-31.5 193,-16.5 179,-16.5"/>
+<text text-anchor="middle" x="186" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_183&#45;&gt;c_0_185 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_183&#45;&gt;c_0_185</title>
-<path fill="none" stroke="black" d="M293,-68.49C293,-68.49 293,-41.73 293,-41.73"/>
-<polygon fill="black" stroke="black" points="296.5,-41.73 293,-31.73 289.5,-41.73 296.5,-41.73"/>
+<path fill="none" stroke="black" d="M186,-68.49C186,-68.49 186,-41.73 186,-41.73"/>
+<polygon fill="black" stroke="black" points="189.5,-41.73 186,-31.73 182.5,-41.73 189.5,-41.73"/>
+</g>
+<!-- c_0_184 -->
+<g id="node2" class="node">
+<title>c_0_184</title>
+<g id="a_node2"><a xlink:href="c_0_184.html" xlink:title="{union(sk₁) ≠ X₁}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-76 16,-91 124,-91 124,-76 16,-76"/>
+<text text-anchor="middle" x="70" y="-79.8" font-family="Times,serif" font-size="14.00">union(sk₁) ≠ X₁</text>
+</a>
+</g>
+</g>
+<!-- c_0_184&#45;&gt;c_0_185 -->
+<g id="edge2" class="edge">
+<title>c_0_184&#45;&gt;c_0_185</title>
+<path fill="none" stroke="black" d="M70,-75.72C70,-59.59 70,-24 70,-24 70,-24 168.74,-24 168.74,-24"/>
+<polygon fill="black" stroke="black" points="168.74,-27.5 178.74,-24 168.74,-20.5 168.74,-27.5"/>
 </g>
 </g>
 </svg>

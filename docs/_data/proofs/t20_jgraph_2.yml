@@ -143,8 +143,8 @@ skolems:
   esk10_3:
     axiom: t10_jgraph_2
     related:
-    - esk10_3
     - esk9_3
+    - esk10_3
     symbol: "sk\u2081\u2080"
   esk1_0:
     axiom: t20_jgraph_2
@@ -180,8 +180,8 @@ skolems:
   esk9_3:
     axiom: t10_jgraph_2
     related:
-    - esk10_3
     - esk9_3
+    - esk10_3
     symbol: "sk\u2089"
 steps:
   c_0_101:
@@ -217,8 +217,8 @@ steps:
       v1_xboole_0: 1
       v5_pre_topc: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_106:
     counts:
       k1_zfmisc_1: 1
@@ -292,8 +292,8 @@ steps:
       v1_funct_2: 1
       v1_xboole_0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_117:
     counts:
       k1_zfmisc_1: 1
@@ -326,8 +326,8 @@ steps:
       u1_struct_0: 3
       v1_xboole_0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_121:
     counts:
       l1_pre_topc: 1
@@ -410,9 +410,9 @@ steps:
       v1_funct_2: 1
       v5_pre_topc: 1
     skolems:
+    - esk1_0
     - esk2_0
     - esk3_1
-    - esk1_0
   c_0_43:
     counts:
       k1_numbers: 1
@@ -430,8 +430,8 @@ steps:
       v1_funct_2: 1
       v5_pre_topc: 1
     skolems:
-    - esk3_1
     - esk1_0
+    - esk3_1
   c_0_46:
     counts:
       k2_funcop_1: 3
@@ -461,8 +461,8 @@ steps:
       v2_struct_0: 2
       v5_pre_topc: 1
     skolems:
-    - esk10_3
     - esk9_3
+    - esk10_3
   c_0_49:
     counts:
       k1_funct_1: 1
@@ -508,9 +508,9 @@ steps:
       v1_funct_2: 1
       v5_pre_topc: 1
     skolems:
+    - esk1_0
     - esk2_0
     - esk3_1
-    - esk1_0
   c_0_53:
     counts:
       k1_numbers: 2
@@ -523,8 +523,8 @@ steps:
       v1_funct_2: 1
       v5_pre_topc: 1
     skolems:
-    - esk3_1
     - esk1_0
+    - esk3_1
   c_0_54:
     counts:
       k1_zfmisc_1: 2
@@ -542,8 +542,8 @@ steps:
       v3_pre_topc: 1
       v5_pre_topc: 1
     skolems:
-    - esk10_3
     - esk9_3
+    - esk10_3
   c_0_55:
     counts:
       k1_zfmisc_1: 1
@@ -583,8 +583,8 @@ steps:
       v2_struct_0: 1
       v5_pre_topc: 1
     skolems:
-    - esk10_3
     - esk9_3
+    - esk10_3
   c_0_64:
     counts:
       k1_funct_1: 1
@@ -599,9 +599,9 @@ steps:
       v1_xboole_0: 1
       v5_pre_topc: 1
     skolems:
+    - esk1_0
     - esk2_0
     - esk3_1
-    - esk1_0
   c_0_65:
     counts:
       k1_zfmisc_1: 2
@@ -619,8 +619,8 @@ steps:
       v3_pre_topc: 1
       v5_pre_topc: 1
     skolems:
-    - esk10_3
     - esk9_3
+    - esk10_3
   c_0_66:
     counts:
       k2_funcop_1: 3
@@ -653,8 +653,8 @@ steps:
       v2_struct_0: 1
       v5_pre_topc: 1
     skolems:
-    - esk10_3
     - esk9_3
+    - esk10_3
   c_0_69:
     counts:
       m1_subset_1: 1
@@ -709,9 +709,9 @@ steps:
       v1_xboole_0: 1
       v5_pre_topc: 1
     skolems:
+    - esk1_0
     - esk2_0
     - esk3_1
-    - esk1_0
   c_0_82:
     counts:
       k1_zfmisc_1: 2
@@ -728,8 +728,8 @@ steps:
       v3_pre_topc: 1
       v5_pre_topc: 1
     skolems:
-    - esk10_3
     - esk9_3
+    - esk10_3
   c_0_83:
     counts:
       k1_zfmisc_1: 1
@@ -746,8 +746,8 @@ steps:
       v2_struct_0: 1
       v5_pre_topc: 1
     skolems:
-    - esk10_3
     - esk9_3
+    - esk10_3
   c_0_84:
     counts:
       k1_zfmisc_1: 1
@@ -814,9 +814,9 @@ steps:
       v1_xboole_0: 2
       v5_pre_topc: 1
     skolems:
+    - esk1_0
     - esk2_0
     - esk3_1
-    - esk1_0
   c_0_95:
     counts:
       k1_zfmisc_1: 2
@@ -834,8 +834,8 @@ steps:
       v3_pre_topc: 1
       v5_pre_topc: 1
     skolems:
-    - esk10_3
     - esk9_3
+    - esk10_3
   c_0_96:
     counts:
       k1_zfmisc_1: 1

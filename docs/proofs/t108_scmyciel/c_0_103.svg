@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="249,-142 249,-174 367,-174 367,-142 249,-142"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="295,-142 295,-174 413,-174 413,-142 295,-142"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="201,-90 201,-122 415,-122 415,-90 201,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="247,-90 247,-122 461,-122 461,-90 247,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,79 +23,79 @@
 <!-- t108_scmyciel -->
 <g id="node1" class="node">
 <title>t108_scmyciel</title>
-<g id="a_node1"><a xlink:href="t108_scmyciel.html" xlink:title="t108_scmyciel" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="257,-150.5 257,-165.5 359,-165.5 359,-150.5 257,-150.5"/>
-<text text-anchor="middle" x="308" y="-154.3" font-family="Times,serif" font-size="14.00">t108_scmyciel</text>
+<g id="a_node1"><a xlink:href="t108_scmyciel.html" xlink:title="t108_scmyciel" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="303,-150.5 303,-165.5 405,-165.5 405,-150.5 303,-150.5"/>
+<text text-anchor="middle" x="354" y="-154.3" font-family="Times,serif" font-size="14.00">t108_scmyciel</text>
 </a>
 </g>
 </g>
 <!-- c_0_103 -->
 <g id="node2" class="node">
 <title>c_0_103</title>
-<g id="a_node2"><a xlink:href="c_0_103.html" xlink:title="{sk₂ ∈ bool(Mycielskian(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="209,-98.5 209,-113.5 407,-113.5 407,-98.5 209,-98.5"/>
-<text text-anchor="middle" x="308" y="-102.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(Mycielskian(sk₁))</text>
+<g id="a_node2"><a xlink:href="c_0_103.html" xlink:title="{sk₂ ∈ bool(Mycielskian(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="255,-98.5 255,-113.5 453,-113.5 453,-98.5 255,-98.5"/>
+<text text-anchor="middle" x="354" y="-102.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(Mycielskian(sk₁))</text>
 </a>
 </g>
 </g>
 <!-- t108_scmyciel&#45;&gt;c_0_103 -->
 <g id="edge1" class="edge">
 <title>t108_scmyciel&#45;&gt;c_0_103</title>
-<path fill="none" stroke="black" d="M308,-150.33C308,-150.33 308,-123.7 308,-123.7"/>
-<polygon fill="black" stroke="black" points="311.5,-123.7 308,-113.7 304.5,-123.7 311.5,-123.7"/>
-</g>
-<!-- c_0_114 -->
-<g id="node3" class="node">
-<title>c_0_114</title>
-<g id="a_node3"><a xlink:href="c_0_114.html" xlink:title="{Mycielskian(sk₁) ≠ Ø}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="448.5,-31.5 448.5,-46.5 597.5,-46.5 597.5,-31.5 448.5,-31.5"/>
-<text text-anchor="middle" x="523" y="-35.3" font-family="Times,serif" font-size="14.00">Mycielskian(sk₁) ≠ Ø</text>
-</a>
-</g>
-</g>
-<!-- c_0_103&#45;&gt;c_0_114 -->
-<g id="edge2" class="edge">
-<title>c_0_103&#45;&gt;c_0_114</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M407,-106C463.43,-106 523,-106 523,-106 523,-106 523,-56.69 523,-56.69"/>
-<polygon fill="black" stroke="black" points="526.5,-56.69 523,-46.69 519.5,-56.69 526.5,-56.69"/>
-</g>
-<!-- c_0_121 -->
-<g id="node4" class="node">
-<title>c_0_121</title>
-<g id="a_node4"><a xlink:href="c_0_121.html" xlink:title="{finite&#45;membered(Mycielskian(sk₁))|⇊|finite&#45;membered(sk₂)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="185.5,-16.5 185.5,-61.5 430.5,-61.5 430.5,-16.5 185.5,-16.5"/>
-<text text-anchor="middle" x="308" y="-50.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(Mycielskian(sk₁))</text>
-<polyline fill="none" stroke="#7f7542" points="185.5,-46.5 430.5,-46.5 "/>
-<text text-anchor="middle" x="308" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="185.5,-31.5 430.5,-31.5 "/>
-<text text-anchor="middle" x="308" y="-20.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₂)</text>
-</a>
-</g>
-</g>
-<!-- c_0_103&#45;&gt;c_0_121 -->
-<g id="edge3" class="edge">
-<title>c_0_103&#45;&gt;c_0_121</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M308,-98.31C308,-98.31 308,-71.76 308,-71.76"/>
-<polygon fill="black" stroke="black" points="311.5,-71.76 308,-61.76 304.5,-71.76 311.5,-71.76"/>
+<path fill="none" stroke="black" d="M354,-150.33C354,-150.33 354,-123.7 354,-123.7"/>
+<polygon fill="black" stroke="black" points="357.5,-123.7 354,-113.7 350.5,-123.7 357.5,-123.7"/>
 </g>
 <!-- c_0_125 -->
-<g id="node5" class="node">
+<g id="node3" class="node">
 <title>c_0_125</title>
-<g id="a_node5"><a xlink:href="c_0_125.html" xlink:title="{X₁ ∈ sk₂|⇊|X₁ ∈ Mycielskian(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-61.5 167.5,-61.5 167.5,-16.5 16.5,-16.5"/>
-<text text-anchor="middle" x="92" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ sk₂</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 167.5,-46.5 "/>
-<text text-anchor="middle" x="92" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 167.5,-31.5 "/>
-<text text-anchor="middle" x="92" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ ∈ Mycielskian(sk₁)</text>
+<g id="a_node3"><a xlink:href="c_0_125.html" xlink:title="{X₁ ∈ sk₂|⇊|X₁ ∈ Mycielskian(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="446.5,-16.5 446.5,-61.5 597.5,-61.5 597.5,-16.5 446.5,-16.5"/>
+<text text-anchor="middle" x="522" y="-50.3" font-family="Times,serif" font-size="14.00">X₁ ∈ sk₂</text>
+<polyline fill="none" stroke="#7f7542" points="446.5,-46.5 597.5,-46.5 "/>
+<text text-anchor="middle" x="522" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="446.5,-31.5 597.5,-31.5 "/>
+<text text-anchor="middle" x="522" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ ∈ Mycielskian(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_103&#45;&gt;c_0_125 -->
-<g id="edge4" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_103&#45;&gt;c_0_125</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M208.85,-106C152.07,-106 92,-106 92,-106 92,-106 92,-71.68 92,-71.68"/>
-<polygon fill="black" stroke="black" points="95.5,-71.68 92,-61.68 88.5,-71.68 95.5,-71.68"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M437.5,-98.49C437.5,-83.65 437.5,-52 437.5,-52 437.5,-52 438.37,-52 438.37,-52"/>
+<polygon fill="black" stroke="black" points="436.22,-55.5 446.22,-52 436.22,-48.5 436.22,-55.5"/>
+</g>
+<!-- c_0_114 -->
+<g id="node4" class="node">
+<title>c_0_114</title>
+<g id="a_node4"><a xlink:href="c_0_114.html" xlink:title="{Mycielskian(sk₁) ≠ Ø}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="279.5,-31.5 279.5,-46.5 428.5,-46.5 428.5,-31.5 279.5,-31.5"/>
+<text text-anchor="middle" x="354" y="-35.3" font-family="Times,serif" font-size="14.00">Mycielskian(sk₁) ≠ Ø</text>
+</a>
+</g>
+</g>
+<!-- c_0_103&#45;&gt;c_0_114 -->
+<g id="edge3" class="edge">
+<title>c_0_103&#45;&gt;c_0_114</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M354,-98.31C354,-98.31 354,-56.6 354,-56.6"/>
+<polygon fill="black" stroke="black" points="357.5,-56.6 354,-46.6 350.5,-56.6 357.5,-56.6"/>
+</g>
+<!-- c_0_121 -->
+<g id="node5" class="node">
+<title>c_0_121</title>
+<g id="a_node5"><a xlink:href="c_0_121.html" xlink:title="{finite&#45;membered(Mycielskian(sk₁))|⇊|finite&#45;membered(sk₂)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-61.5 261.5,-61.5 261.5,-16.5 16.5,-16.5"/>
+<text text-anchor="middle" x="139" y="-50.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(Mycielskian(sk₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 261.5,-46.5 "/>
+<text text-anchor="middle" x="139" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 261.5,-31.5 "/>
+<text text-anchor="middle" x="139" y="-20.3" font-family="Times,serif" font-size="14.00">finite&#45;membered(sk₂)</text>
+</a>
+</g>
+</g>
+<!-- c_0_103&#45;&gt;c_0_121 -->
+<g id="edge4" class="edge">
+<title>c_0_103&#45;&gt;c_0_121</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M270.5,-98.34C270.5,-84.56 270.5,-57 270.5,-57 270.5,-57 269.64,-57 269.64,-57"/>
+<polygon fill="black" stroke="black" points="271.87,-53.5 261.87,-57 271.87,-60.5 271.87,-53.5"/>
 </g>
 </g>
 </svg>

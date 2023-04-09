@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="296,-60 296,-92 394,-92 394,-60 296,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="313,-60 313,-92 411,-92 411,-60 313,-60"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,86 +19,86 @@
 <!-- t8_conmetr -->
 <g id="node1" class="node">
 <title>t8_conmetr</title>
-<g id="a_node1"><a xlink:href="t8_conmetr.html" xlink:title="t8_conmetr" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="304,-68.5 304,-83.5 386,-83.5 386,-68.5 304,-68.5"/>
-<text text-anchor="middle" x="345" y="-72.3" font-family="Times,serif" font-size="14.00">t8_conmetr</text>
+<g id="a_node1"><a xlink:href="t8_conmetr.html" xlink:title="t8_conmetr" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="321,-68.5 321,-83.5 403,-83.5 403,-68.5 321,-68.5"/>
+<text text-anchor="middle" x="362" y="-72.3" font-family="Times,serif" font-size="14.00">t8_conmetr</text>
 </a>
 </g>
-</g>
-<!-- c_0_18 -->
-<g id="node2" class="node">
-<title>c_0_18</title>
-<g id="a_node2"><a xlink:href="c_0_18.html" xlink:title="{¬ (empty(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="615,-16.5 615,-31.5 719,-31.5 719,-16.5 615,-16.5"/>
-<text text-anchor="middle" x="667" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
-</a>
-</g>
-</g>
-<!-- t8_conmetr&#45;&gt;c_0_18 -->
-<g id="edge1" class="edge">
-<title>t8_conmetr&#45;&gt;c_0_18</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M386.11,-78C472.92,-78 667,-78 667,-78 667,-78 667,-41.51 667,-41.51"/>
-<polygon fill="black" stroke="black" points="670.5,-41.51 667,-31.51 663.5,-41.51 670.5,-41.51"/>
 </g>
 <!-- c_0_17 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_17</title>
-<g id="a_node3"><a xlink:href="c_0_17.html" xlink:title="{¬ (satisfying_des(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="437,-16.5 437,-31.5 597,-31.5 597,-16.5 437,-16.5"/>
-<text text-anchor="middle" x="517" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (satisfying_des(sk₁))</text>
+<g id="a_node2"><a xlink:href="c_0_17.html" xlink:title="{¬ (satisfying_des(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="559,-16.5 559,-31.5 719,-31.5 719,-16.5 559,-16.5"/>
+<text text-anchor="middle" x="639" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (satisfying_des(sk₁))</text>
 </a>
 </g>
 </g>
 <!-- t8_conmetr&#45;&gt;c_0_17 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t8_conmetr&#45;&gt;c_0_17</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M386.2,-73C437.08,-73 517,-73 517,-73 517,-73 517,-41.66 517,-41.66"/>
-<polygon fill="black" stroke="black" points="520.5,-41.66 517,-31.66 513.5,-41.66 520.5,-41.66"/>
-</g>
-<!-- c_0_61 -->
-<g id="node4" class="node">
-<title>c_0_61</title>
-<g id="a_node4"><a xlink:href="c_0_61.html" xlink:title="{translational(Af(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="271,-16.5 271,-31.5 419,-31.5 419,-16.5 271,-16.5"/>
-<text text-anchor="middle" x="345" y="-20.3" font-family="Times,serif" font-size="14.00">translational(Af(sk₁))</text>
-</a>
-</g>
-</g>
-<!-- t8_conmetr&#45;&gt;c_0_61 -->
-<g id="edge3" class="edge">
-<title>t8_conmetr&#45;&gt;c_0_61</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M345,-68.33C345,-68.33 345,-41.7 345,-41.7"/>
-<polygon fill="black" stroke="black" points="348.5,-41.7 345,-31.7 341.5,-41.7 348.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M403.17,-78C480.33,-78 639,-78 639,-78 639,-78 639,-41.51 639,-41.51"/>
+<polygon fill="black" stroke="black" points="642.5,-41.51 639,-31.51 635.5,-41.51 642.5,-41.51"/>
 </g>
 <!-- c_0_15 -->
-<g id="node5" class="node">
+<g id="node3" class="node">
 <title>c_0_15</title>
-<g id="a_node5"><a xlink:href="c_0_15.html" xlink:title="{ParOrtStr(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="149.5,-16.5 149.5,-31.5 252.5,-31.5 252.5,-16.5 149.5,-16.5"/>
-<text text-anchor="middle" x="201" y="-20.3" font-family="Times,serif" font-size="14.00">ParOrtStr(sk₁)</text>
+<g id="a_node3"><a xlink:href="c_0_15.html" xlink:title="{ParOrtStr(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="437.5,-16.5 437.5,-31.5 540.5,-31.5 540.5,-16.5 437.5,-16.5"/>
+<text text-anchor="middle" x="489" y="-20.3" font-family="Times,serif" font-size="14.00">ParOrtStr(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t8_conmetr&#45;&gt;c_0_15 -->
-<g id="edge4" class="edge">
+<g id="edge2" class="edge">
 <title>t8_conmetr&#45;&gt;c_0_15</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M303.74,-73C261.18,-73 201,-73 201,-73 201,-73 201,-41.66 201,-41.66"/>
-<polygon fill="black" stroke="black" points="204.5,-41.66 201,-31.66 197.5,-41.66 204.5,-41.66"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M403.23,-73C440.32,-73 489,-73 489,-73 489,-73 489,-41.66 489,-41.66"/>
+<polygon fill="black" stroke="black" points="492.5,-41.66 489,-31.66 485.5,-41.66 492.5,-41.66"/>
 </g>
 <!-- c_0_16 -->
-<g id="node6" class="node">
+<g id="node4" class="node">
 <title>c_0_16</title>
-<g id="a_node6"><a xlink:href="c_0_16.html" xlink:title="{OrtAfPl&#45;like(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-31.5 131.5,-31.5 131.5,-16.5 16.5,-16.5"/>
-<text text-anchor="middle" x="74" y="-20.3" font-family="Times,serif" font-size="14.00">OrtAfPl&#45;like(sk₁)</text>
+<g id="a_node4"><a xlink:href="c_0_16.html" xlink:title="{OrtAfPl&#45;like(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="304.5,-16.5 304.5,-31.5 419.5,-31.5 419.5,-16.5 304.5,-16.5"/>
+<text text-anchor="middle" x="362" y="-20.3" font-family="Times,serif" font-size="14.00">OrtAfPl&#45;like(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t8_conmetr&#45;&gt;c_0_16 -->
-<g id="edge5" class="edge">
+<g id="edge3" class="edge">
 <title>t8_conmetr&#45;&gt;c_0_16</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M303.84,-78C228.03,-78 74,-78 74,-78 74,-78 74,-41.51 74,-41.51"/>
-<polygon fill="black" stroke="black" points="77.5,-41.51 74,-31.51 70.5,-41.51 77.5,-41.51"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M362,-68.33C362,-68.33 362,-41.7 362,-41.7"/>
+<polygon fill="black" stroke="black" points="365.5,-41.7 362,-31.7 358.5,-41.7 365.5,-41.7"/>
+</g>
+<!-- c_0_18 -->
+<g id="node5" class="node">
+<title>c_0_18</title>
+<g id="a_node5"><a xlink:href="c_0_18.html" xlink:title="{¬ (empty(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="182,-16.5 182,-31.5 286,-31.5 286,-16.5 182,-16.5"/>
+<text text-anchor="middle" x="234" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
+</a>
+</g>
+</g>
+<!-- t8_conmetr&#45;&gt;c_0_18 -->
+<g id="edge4" class="edge">
+<title>t8_conmetr&#45;&gt;c_0_18</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M320.8,-73C283.38,-73 234,-73 234,-73 234,-73 234,-41.66 234,-41.66"/>
+<polygon fill="black" stroke="black" points="237.5,-41.66 234,-31.66 230.5,-41.66 237.5,-41.66"/>
+</g>
+<!-- c_0_61 -->
+<g id="node6" class="node">
+<title>c_0_61</title>
+<g id="a_node6"><a xlink:href="c_0_61.html" xlink:title="{translational(Af(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 164,-31.5 164,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="90" y="-20.3" font-family="Times,serif" font-size="14.00">translational(Af(sk₁))</text>
+</a>
+</g>
+</g>
+<!-- t8_conmetr&#45;&gt;c_0_61 -->
+<g id="edge5" class="edge">
+<title>t8_conmetr&#45;&gt;c_0_61</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M320.98,-78C245,-78 90,-78 90,-78 90,-78 90,-41.51 90,-41.51"/>
+<polygon fill="black" stroke="black" points="93.5,-41.51 90,-31.51 86.5,-41.51 93.5,-41.51"/>
 </g>
 </g>
 </svg>

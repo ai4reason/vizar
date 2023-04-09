@@ -14,81 +14,81 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="71,-60 71,-137 199,-137 199,-60 71,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="70,-60 70,-137 198,-137 198,-60 70,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="120,-8 120,-40 150,-40 150,-8 120,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="119,-8 119,-40 149,-40 149,-8 119,-8"/>
 </g>
-<!-- c_0_152 -->
+<!-- c_0_49 -->
 <g id="node1" class="node">
-<title>c_0_152</title>
-<g id="a_node1"><a xlink:href="c_0_152.html" xlink:title="{1&#45;sorted(X₁)|carrier(X₁) = Ø|⇊|empty(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="146.5,-165.5 146.5,-225.5 253.5,-225.5 253.5,-165.5 146.5,-165.5"/>
-<text text-anchor="middle" x="200" y="-214.3" font-family="Times,serif" font-size="14.00">1&#45;sorted(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="146.5,-210.5 253.5,-210.5 "/>
-<text text-anchor="middle" x="200" y="-199.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="146.5,-195.5 253.5,-195.5 "/>
-<text text-anchor="middle" x="200" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="146.5,-180.5 253.5,-180.5 "/>
-<text text-anchor="middle" x="200" y="-169.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<title>c_0_49</title>
+<g id="a_node1"><a xlink:href="c_0_49.html" xlink:title="{multMagma(X₁)|⇊|1&#45;sorted(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="142,-173 142,-218 254,-218 254,-173 142,-173"/>
+<text text-anchor="middle" x="198" y="-206.8" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="142,-203 254,-203 "/>
+<text text-anchor="middle" x="198" y="-191.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="142,-188 254,-188 "/>
+<text text-anchor="middle" x="198" y="-176.8" font-family="Times,serif" font-size="14.00">1&#45;sorted(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_154 -->
 <g id="node3" class="node">
 <title>c_0_154</title>
-<g id="a_node3"><a xlink:href="c_0_154.html" xlink:title="{carrier(X₁) = Ø|multMagma(X₁)|⇊|empty(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="79,-68.5 79,-128.5 191,-128.5 191,-68.5 79,-68.5"/>
-<text text-anchor="middle" x="135" y="-117.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="79,-113.5 191,-113.5 "/>
-<text text-anchor="middle" x="135" y="-102.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="79,-98.5 191,-98.5 "/>
-<text text-anchor="middle" x="135" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="79,-83.5 191,-83.5 "/>
-<text text-anchor="middle" x="135" y="-72.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_152&#45;&gt;c_0_154 -->
-<g id="edge1" class="edge">
-<title>c_0_152&#45;&gt;c_0_154</title>
-<path fill="none" stroke="black" d="M168.75,-165.34C168.75,-165.34 168.75,-138.64 168.75,-138.64"/>
-<polygon fill="black" stroke="black" points="172.25,-138.64 168.75,-128.64 165.25,-138.64 172.25,-138.64"/>
-</g>
-<!-- c_0_49 -->
-<g id="node2" class="node">
-<title>c_0_49</title>
-<g id="a_node2"><a xlink:href="c_0_49.html" xlink:title="{multMagma(X₁)|⇊|1&#45;sorted(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-173 16,-218 128,-218 128,-173 16,-173"/>
-<text text-anchor="middle" x="72" y="-206.8" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-203 128,-203 "/>
-<text text-anchor="middle" x="72" y="-191.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-188 128,-188 "/>
-<text text-anchor="middle" x="72" y="-176.8" font-family="Times,serif" font-size="14.00">1&#45;sorted(X₁)</text>
+<g id="a_node3"><a xlink:href="c_0_154.html" xlink:title="{carrier(X₁) = Ø|multMagma(X₁)|⇊|empty(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="78,-68.5 78,-128.5 190,-128.5 190,-68.5 78,-68.5"/>
+<text text-anchor="middle" x="134" y="-117.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="78,-113.5 190,-113.5 "/>
+<text text-anchor="middle" x="134" y="-102.3" font-family="Times,serif" font-size="14.00">multMagma(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="78,-98.5 190,-98.5 "/>
+<text text-anchor="middle" x="134" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="78,-83.5 190,-83.5 "/>
+<text text-anchor="middle" x="134" y="-72.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_49&#45;&gt;c_0_154 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_49&#45;&gt;c_0_154</title>
-<path fill="none" stroke="black" d="M103.5,-172.51C103.5,-172.51 103.5,-138.67 103.5,-138.67"/>
-<polygon fill="black" stroke="black" points="107,-138.67 103.5,-128.67 100,-138.67 107,-138.67"/>
+<path fill="none" stroke="black" d="M166,-172.51C166,-172.51 166,-138.67 166,-138.67"/>
+<polygon fill="black" stroke="black" points="169.5,-138.67 166,-128.67 162.5,-138.67 169.5,-138.67"/>
+</g>
+<!-- c_0_152 -->
+<g id="node2" class="node">
+<title>c_0_152</title>
+<g id="a_node2"><a xlink:href="c_0_152.html" xlink:title="{1&#45;sorted(X₁)|carrier(X₁) = Ø|⇊|empty(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-165.5 16.5,-225.5 123.5,-225.5 123.5,-165.5 16.5,-165.5"/>
+<text text-anchor="middle" x="70" y="-214.3" font-family="Times,serif" font-size="14.00">1&#45;sorted(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-210.5 123.5,-210.5 "/>
+<text text-anchor="middle" x="70" y="-199.3" font-family="Times,serif" font-size="14.00">carrier(X₁) = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-195.5 123.5,-195.5 "/>
+<text text-anchor="middle" x="70" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-180.5 123.5,-180.5 "/>
+<text text-anchor="middle" x="70" y="-169.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_152&#45;&gt;c_0_154 -->
+<g id="edge2" class="edge">
+<title>c_0_152&#45;&gt;c_0_154</title>
+<path fill="none" stroke="black" d="M100.75,-165.34C100.75,-165.34 100.75,-138.64 100.75,-138.64"/>
+<polygon fill="black" stroke="black" points="104.25,-138.64 100.75,-128.64 97.25,-138.64 104.25,-138.64"/>
 </g>
 <!-- c_0_156 -->
 <g id="node4" class="node">
 <title>c_0_156</title>
-<g id="a_node4"><a xlink:href="c_0_156.html" xlink:title="⊥" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="128,-16.5 128,-31.5 142,-31.5 142,-16.5 128,-16.5"/>
-<text text-anchor="middle" x="135" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node4"><a xlink:href="c_0_156.html" xlink:title="⊥" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="127,-16.5 127,-31.5 141,-31.5 141,-16.5 127,-16.5"/>
+<text text-anchor="middle" x="134" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_154&#45;&gt;c_0_156 -->
 <g id="edge3" class="edge">
 <title>c_0_154&#45;&gt;c_0_156</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M135,-68.2C135,-68.2 135,-41.59 135,-41.59"/>
-<polygon fill="black" stroke="black" points="138.5,-41.59 135,-31.59 131.5,-41.59 138.5,-41.59"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M134,-68.2C134,-68.2 134,-41.59 134,-41.59"/>
+<polygon fill="black" stroke="black" points="137.5,-41.59 134,-31.59 130.5,-41.59 137.5,-41.59"/>
 </g>
 </g>
 </svg>

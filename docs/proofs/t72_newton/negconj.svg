@@ -5,51 +5,51 @@
  -->
 <!-- Title: proof Pages: 1 -->
 <svg width="150pt" height="106pt"
- viewBox="0.00 0.00 149.50 106.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 150.00 106.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 102)">
 <title>proof</title>
 <!-- t72_newton -->
 <g id="node1" class="node">
 <title>t72_newton</title>
-<g id="a_node1"><a xlink:href="t72_newton.html" xlink:title="t72_newton" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="25,-82.5 25,-97.5 109,-97.5 109,-82.5 25,-82.5"/>
-<text text-anchor="middle" x="67" y="-86.3" font-family="Times,serif" font-size="14.00">t72_newton</text>
+<g id="a_node1"><a xlink:href="t72_newton.html" xlink:title="t72_newton" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="33,-82.5 33,-97.5 117,-97.5 117,-82.5 33,-82.5"/>
+<text text-anchor="middle" x="75" y="-86.3" font-family="Times,serif" font-size="14.00">t72_newton</text>
 </a>
 </g>
-</g>
-<!-- c_0_98 -->
-<g id="node2" class="node">
-<title>c_0_98</title>
-<g id="a_node2"><a xlink:href="c_0_98.html" xlink:title="{sk₁ ∈ ℕ}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="0,-15.5 0,-30.5 54,-30.5 54,-15.5 0,-15.5"/>
-<text text-anchor="middle" x="27" y="-19.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
-</a>
-</g>
-</g>
-<!-- t72_newton&#45;&gt;c_0_98 -->
-<g id="edge1" class="edge">
-<title>t72_newton&#45;&gt;c_0_98</title>
-<path fill="none" stroke="black" d="M39.5,-82.31C39.5,-82.31 39.5,-40.6 39.5,-40.6"/>
-<polygon fill="black" stroke="black" points="43,-40.6 39.5,-30.6 36,-40.6 43,-40.6"/>
 </g>
 <!-- c_0_76 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_76</title>
-<g id="a_node3"><a xlink:href="c_0_76.html" xlink:title="{prime(C₁)|⇊|C₁ ≤ sk₁}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="72.5,-0.5 72.5,-45.5 141.5,-45.5 141.5,-0.5 72.5,-0.5"/>
-<text text-anchor="middle" x="107" y="-34.3" font-family="Times,serif" font-size="14.00">prime(C₁)</text>
-<polyline fill="none" stroke="#7f7542" points="72.5,-30.5 141.5,-30.5 "/>
-<text text-anchor="middle" x="107" y="-19.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="72.5,-15.5 141.5,-15.5 "/>
-<text text-anchor="middle" x="107" y="-4.3" font-family="Times,serif" font-size="14.00">C₁ ≤ sk₁</text>
+<g id="a_node2"><a xlink:href="c_0_76.html" xlink:title="{prime(N₁)|⇊|N₁ ≤ sk₁}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="0,-0.5 0,-45.5 70,-45.5 70,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="35" y="-34.3" font-family="Times,serif" font-size="14.00">prime(N₁)</text>
+<polyline fill="none" stroke="#7f7542" points="0,-30.5 70,-30.5 "/>
+<text text-anchor="middle" x="35" y="-19.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="0,-15.5 70,-15.5 "/>
+<text text-anchor="middle" x="35" y="-4.3" font-family="Times,serif" font-size="14.00">N₁ ≤ sk₁</text>
 </a>
 </g>
 </g>
 <!-- t72_newton&#45;&gt;c_0_76 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t72_newton&#45;&gt;c_0_76</title>
-<path fill="none" stroke="black" d="M90.75,-82.31C90.75,-82.31 90.75,-55.76 90.75,-55.76"/>
-<polygon fill="black" stroke="black" points="94.25,-55.76 90.75,-45.76 87.25,-55.76 94.25,-55.76"/>
+<path fill="none" stroke="black" d="M51.5,-82.31C51.5,-82.31 51.5,-55.76 51.5,-55.76"/>
+<polygon fill="black" stroke="black" points="55,-55.76 51.5,-45.76 48,-55.76 55,-55.76"/>
+</g>
+<!-- c_0_98 -->
+<g id="node3" class="node">
+<title>c_0_98</title>
+<g id="a_node3"><a xlink:href="c_0_98.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="88,-15.5 88,-30.5 142,-30.5 142,-15.5 88,-15.5"/>
+<text text-anchor="middle" x="115" y="-19.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
+</a>
+</g>
+</g>
+<!-- t72_newton&#45;&gt;c_0_98 -->
+<g id="edge2" class="edge">
+<title>t72_newton&#45;&gt;c_0_98</title>
+<path fill="none" stroke="black" d="M102.5,-82.31C102.5,-82.31 102.5,-40.6 102.5,-40.6"/>
+<polygon fill="black" stroke="black" points="106,-40.6 102.5,-30.6 99,-40.6 106,-40.6"/>
 </g>
 </g>
 </svg>

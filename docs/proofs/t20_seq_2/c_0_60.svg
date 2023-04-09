@@ -20,59 +20,59 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="63,-8 63,-85 239,-85 239,-8 63,-8"/>
 </g>
-<!-- c_0_56 -->
+<!-- c_0_55 -->
 <g id="node1" class="node">
-<title>c_0_56</title>
-<g id="a_node1"><a xlink:href="c_0_56.html" xlink:title="{convergent(sk₃)|⇊|lim(sk₁) ≤ lim(sk₃)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="164,-173 164,-218 294,-218 294,-173 164,-173"/>
-<text text-anchor="middle" x="229" y="-206.8" font-family="Times,serif" font-size="14.00">convergent(sk₃)</text>
-<polyline fill="none" stroke="#7f7542" points="164,-203 294,-203 "/>
-<text text-anchor="middle" x="229" y="-191.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="164,-188 294,-188 "/>
-<text text-anchor="middle" x="229" y="-176.8" font-family="Times,serif" font-size="14.00">lim(sk₁) ≤ lim(sk₃)</text>
+<title>c_0_55</title>
+<g id="a_node1"><a xlink:href="c_0_55.html" xlink:title="{convergent(sk₃)|lim(sk₁) ≤ lim(sk₃)|⇊|⊥}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="164,-165.5 164,-225.5 294,-225.5 294,-165.5 164,-165.5"/>
+<text text-anchor="middle" x="229" y="-214.3" font-family="Times,serif" font-size="14.00">convergent(sk₃)</text>
+<polyline fill="none" stroke="#7f7542" points="164,-210.5 294,-210.5 "/>
+<text text-anchor="middle" x="229" y="-199.3" font-family="Times,serif" font-size="14.00">lim(sk₁) ≤ lim(sk₃)</text>
+<polyline fill="none" stroke="#7f7542" points="164,-195.5 294,-195.5 "/>
+<text text-anchor="middle" x="229" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="164,-180.5 294,-180.5 "/>
+<text text-anchor="middle" x="229" y="-169.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_60 -->
 <g id="node3" class="node">
 <title>c_0_60</title>
-<g id="a_node3"><a xlink:href="c_0_60.html" xlink:title="{¬ (convergent(sk₃))}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_60.html" xlink:title="{¬ (convergent(sk₃))}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="81.5,-113.5 81.5,-128.5 220.5,-128.5 220.5,-113.5 81.5,-113.5"/>
 <text text-anchor="middle" x="151" y="-117.3" font-family="Times,serif" font-size="14.00">¬ (convergent(sk₃))</text>
 </a>
 </g>
 </g>
-<!-- c_0_56&#45;&gt;c_0_60 -->
+<!-- c_0_55&#45;&gt;c_0_60 -->
 <g id="edge1" class="edge">
-<title>c_0_56&#45;&gt;c_0_60</title>
-<path fill="none" stroke="black" d="M192.25,-172.74C192.25,-172.74 192.25,-138.59 192.25,-138.59"/>
+<title>c_0_55&#45;&gt;c_0_60</title>
+<path fill="none" stroke="black" d="M192.25,-165.2C192.25,-165.2 192.25,-138.59 192.25,-138.59"/>
 <polygon fill="black" stroke="black" points="195.75,-138.59 192.25,-128.59 188.75,-138.59 195.75,-138.59"/>
 </g>
-<!-- c_0_55 -->
+<!-- c_0_56 -->
 <g id="node2" class="node">
-<title>c_0_55</title>
-<g id="a_node2"><a xlink:href="c_0_55.html" xlink:title="{convergent(sk₃)|lim(sk₁) ≤ lim(sk₃)|⇊|⊥}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-165.5 16,-225.5 146,-225.5 146,-165.5 16,-165.5"/>
-<text text-anchor="middle" x="81" y="-214.3" font-family="Times,serif" font-size="14.00">convergent(sk₃)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-210.5 146,-210.5 "/>
-<text text-anchor="middle" x="81" y="-199.3" font-family="Times,serif" font-size="14.00">lim(sk₁) ≤ lim(sk₃)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-195.5 146,-195.5 "/>
-<text text-anchor="middle" x="81" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-180.5 146,-180.5 "/>
-<text text-anchor="middle" x="81" y="-169.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<title>c_0_56</title>
+<g id="a_node2"><a xlink:href="c_0_56.html" xlink:title="{convergent(sk₃)|⇊|lim(sk₁) ≤ lim(sk₃)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-173 16,-218 146,-218 146,-173 16,-173"/>
+<text text-anchor="middle" x="81" y="-206.8" font-family="Times,serif" font-size="14.00">convergent(sk₃)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-203 146,-203 "/>
+<text text-anchor="middle" x="81" y="-191.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-188 146,-188 "/>
+<text text-anchor="middle" x="81" y="-176.8" font-family="Times,serif" font-size="14.00">lim(sk₁) ≤ lim(sk₃)</text>
 </a>
 </g>
 </g>
-<!-- c_0_55&#45;&gt;c_0_60 -->
+<!-- c_0_56&#45;&gt;c_0_60 -->
 <g id="edge2" class="edge">
-<title>c_0_55&#45;&gt;c_0_60</title>
-<path fill="none" stroke="black" d="M113.75,-165.2C113.75,-165.2 113.75,-138.59 113.75,-138.59"/>
+<title>c_0_56&#45;&gt;c_0_60</title>
+<path fill="none" stroke="black" d="M113.75,-172.74C113.75,-172.74 113.75,-138.59 113.75,-138.59"/>
 <polygon fill="black" stroke="black" points="117.25,-138.59 113.75,-128.59 110.25,-138.59 117.25,-138.59"/>
 </g>
 <!-- c_0_65 -->
 <g id="node4" class="node">
 <title>c_0_65</title>
-<g id="a_node4"><a xlink:href="c_0_65.html" xlink:title="{convergent(sk₃)|ext&#45;real&#45;membered(ℝ)|⇊|⊥}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_65.html" xlink:title="{convergent(sk₃)|ext&#45;real&#45;membered(ℝ)|⇊|⊥}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="71.5,-16.5 71.5,-76.5 230.5,-76.5 230.5,-16.5 71.5,-16.5"/>
 <text text-anchor="middle" x="151" y="-65.3" font-family="Times,serif" font-size="14.00">convergent(sk₃)</text>
 <polyline fill="none" stroke="#7f7542" points="71.5,-61.5 230.5,-61.5 "/>

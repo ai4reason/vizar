@@ -23,7 +23,7 @@
 <!-- cc2_int_1 -->
 <g id="node1" class="node">
 <title>cc2_int_1</title>
-<g id="a_node1"><a xlink:href="cc2_int_1.html" xlink:title="cc2_int_1" target="_parent">
+<g id="a_node1"><a xlink:href="cc2_int_1.html" xlink:title="cc2_int_1" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="126.5,-120.5 126.5,-135.5 193.5,-135.5 193.5,-120.5 126.5,-120.5"/>
 <text text-anchor="middle" x="160" y="-124.3" font-family="Times,serif" font-size="14.00">cc2_int_1</text>
 </a>
@@ -32,9 +32,9 @@
 <!-- c_0_56 -->
 <g id="node2" class="node">
 <title>c_0_56</title>
-<g id="a_node2"><a xlink:href="c_0_56.html" xlink:title="{integer(C₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="120.5,-68.5 120.5,-83.5 199.5,-83.5 199.5,-68.5 120.5,-68.5"/>
-<text text-anchor="middle" x="160" y="-72.3" font-family="Times,serif" font-size="14.00">integer(C₁)</text>
+<g id="a_node2"><a xlink:href="c_0_56.html" xlink:title="{integer(N₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="120,-68.5 120,-83.5 200,-83.5 200,-68.5 120,-68.5"/>
+<text text-anchor="middle" x="160" y="-72.3" font-family="Times,serif" font-size="14.00">integer(N₁)</text>
 </a>
 </g>
 </g>
@@ -44,25 +44,25 @@
 <path fill="none" stroke="black" d="M160,-120.33C160,-120.33 160,-93.7 160,-93.7"/>
 <polygon fill="black" stroke="black" points="163.5,-93.7 160,-83.7 156.5,-93.7 163.5,-93.7"/>
 </g>
-<!-- c_0_105 -->
+<!-- c_0_89 -->
 <g id="node3" class="node">
-<title>c_0_105</title>
-<g id="a_node3"><a xlink:href="c_0_105.html" xlink:title="{integer(sk₂)}" target="_parent">
+<title>c_0_89</title>
+<g id="a_node3"><a xlink:href="c_0_89.html" xlink:title="{integer(sk₃)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="220,-16.5 220,-31.5 304,-31.5 304,-16.5 220,-16.5"/>
-<text text-anchor="middle" x="262" y="-20.3" font-family="Times,serif" font-size="14.00">integer(sk₂)</text>
+<text text-anchor="middle" x="262" y="-20.3" font-family="Times,serif" font-size="14.00">integer(sk₃)</text>
 </a>
 </g>
 </g>
-<!-- c_0_56&#45;&gt;c_0_105 -->
+<!-- c_0_56&#45;&gt;c_0_89 -->
 <g id="edge2" class="edge">
-<title>c_0_56&#45;&gt;c_0_105</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M199.73,-76C228.37,-76 262,-76 262,-76 262,-76 262,-41.67 262,-41.67"/>
+<title>c_0_56&#45;&gt;c_0_89</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M200.02,-76C228.6,-76 262,-76 262,-76 262,-76 262,-41.67 262,-41.67"/>
 <polygon fill="black" stroke="black" points="265.5,-41.67 262,-31.67 258.5,-41.67 265.5,-41.67"/>
 </g>
 <!-- c_0_122 -->
 <g id="node4" class="node">
 <title>c_0_122</title>
-<g id="a_node4"><a xlink:href="c_0_122.html" xlink:title="{integer(sk₁)}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_122.html" xlink:title="{integer(sk₁)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="118,-16.5 118,-31.5 202,-31.5 202,-16.5 118,-16.5"/>
 <text text-anchor="middle" x="160" y="-20.3" font-family="Times,serif" font-size="14.00">integer(sk₁)</text>
 </a>
@@ -74,19 +74,19 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M160,-68.33C160,-68.33 160,-41.7 160,-41.7"/>
 <polygon fill="black" stroke="black" points="163.5,-41.7 160,-31.7 156.5,-41.7 163.5,-41.7"/>
 </g>
-<!-- c_0_89 -->
+<!-- c_0_105 -->
 <g id="node5" class="node">
-<title>c_0_89</title>
-<g id="a_node5"><a xlink:href="c_0_89.html" xlink:title="{integer(sk₃)}" target="_parent">
+<title>c_0_105</title>
+<g id="a_node5"><a xlink:href="c_0_105.html" xlink:title="{integer(sk₂)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 100,-31.5 100,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="58" y="-20.3" font-family="Times,serif" font-size="14.00">integer(sk₃)</text>
+<text text-anchor="middle" x="58" y="-20.3" font-family="Times,serif" font-size="14.00">integer(sk₂)</text>
 </a>
 </g>
 </g>
-<!-- c_0_56&#45;&gt;c_0_89 -->
+<!-- c_0_56&#45;&gt;c_0_105 -->
 <g id="edge4" class="edge">
-<title>c_0_56&#45;&gt;c_0_89</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M120.27,-76C91.63,-76 58,-76 58,-76 58,-76 58,-41.67 58,-41.67"/>
+<title>c_0_56&#45;&gt;c_0_105</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M119.98,-76C91.4,-76 58,-76 58,-76 58,-76 58,-41.67 58,-41.67"/>
 <polygon fill="black" stroke="black" points="61.5,-41.67 58,-31.67 54.5,-41.67 61.5,-41.67"/>
 </g>
 </g>

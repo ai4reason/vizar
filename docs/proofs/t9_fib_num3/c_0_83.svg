@@ -23,7 +23,7 @@
 <!-- fc3_int_1 -->
 <g id="node1" class="node">
 <title>fc3_int_1</title>
-<g id="a_node1"><a xlink:href="fc3_int_1.html" xlink:title="fc3_int_1" target="_parent">
+<g id="a_node1"><a xlink:href="fc3_int_1.html" xlink:title="fc3_int_1" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="69,-180.5 69,-195.5 133,-195.5 133,-180.5 69,-180.5"/>
 <text text-anchor="middle" x="101" y="-184.3" font-family="Times,serif" font-size="14.00">fc3_int_1</text>
 </a>
@@ -32,7 +32,7 @@
 <!-- c_0_83 -->
 <g id="node2" class="node">
 <title>c_0_83</title>
-<g id="a_node2"><a xlink:href="c_0_83.html" xlink:title="{integer(X₁)|⇊|integer(&#45;(X₁))}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_83.html" xlink:title="{integer(X₁)|⇊|integer(&#45;(X₁))}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="54.5,-98.5 54.5,-143.5 147.5,-143.5 147.5,-98.5 54.5,-98.5"/>
 <text text-anchor="middle" x="101" y="-132.3" font-family="Times,serif" font-size="14.00">integer(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="54.5,-128.5 147.5,-128.5 "/>
@@ -48,41 +48,41 @@
 <path fill="none" stroke="black" d="M101,-180.31C101,-180.31 101,-153.76 101,-153.76"/>
 <polygon fill="black" stroke="black" points="104.5,-153.76 101,-143.76 97.5,-153.76 104.5,-153.76"/>
 </g>
-<!-- c_0_112 -->
+<!-- c_0_167 -->
 <g id="node3" class="node">
-<title>c_0_112</title>
-<g id="a_node3"><a xlink:href="c_0_112.html" xlink:title="{integer(X₁)|⇊|&#45;(&#45;(X₁)) ∈ ℂ}" target="_parent">
+<title>c_0_167</title>
+<g id="a_node3"><a xlink:href="c_0_167.html" xlink:title="{integer(X₁)|⇊|&#45;(X₁) ∈ ℝ}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="112,-16.5 112,-61.5 190,-61.5 190,-16.5 112,-16.5"/>
 <text text-anchor="middle" x="151" y="-50.3" font-family="Times,serif" font-size="14.00">integer(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="112,-46.5 190,-46.5 "/>
 <text text-anchor="middle" x="151" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="112,-31.5 190,-31.5 "/>
-<text text-anchor="middle" x="151" y="-20.3" font-family="Times,serif" font-size="14.00">&#45;(&#45;(X₁)) ∈ ℂ</text>
+<text text-anchor="middle" x="151" y="-20.3" font-family="Times,serif" font-size="14.00">&#45;(X₁) ∈ ℝ</text>
 </a>
 </g>
 </g>
-<!-- c_0_83&#45;&gt;c_0_112 -->
+<!-- c_0_83&#45;&gt;c_0_167 -->
 <g id="edge2" class="edge">
-<title>c_0_83&#45;&gt;c_0_112</title>
+<title>c_0_83&#45;&gt;c_0_167</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M129.75,-98.16C129.75,-98.16 129.75,-71.72 129.75,-71.72"/>
 <polygon fill="black" stroke="black" points="133.25,-71.72 129.75,-61.72 126.25,-71.72 133.25,-71.72"/>
 </g>
-<!-- c_0_167 -->
+<!-- c_0_112 -->
 <g id="node4" class="node">
-<title>c_0_167</title>
-<g id="a_node4"><a xlink:href="c_0_167.html" xlink:title="{integer(X₁)|⇊|&#45;(X₁) ∈ ℝ}" target="_parent">
+<title>c_0_112</title>
+<g id="a_node4"><a xlink:href="c_0_112.html" xlink:title="{integer(X₁)|⇊|&#45;(&#45;(X₁)) ∈ ℂ}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-61.5 94,-61.5 94,-16.5 16,-16.5"/>
 <text text-anchor="middle" x="55" y="-50.3" font-family="Times,serif" font-size="14.00">integer(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-46.5 94,-46.5 "/>
 <text text-anchor="middle" x="55" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="16,-31.5 94,-31.5 "/>
-<text text-anchor="middle" x="55" y="-20.3" font-family="Times,serif" font-size="14.00">&#45;(X₁) ∈ ℝ</text>
+<text text-anchor="middle" x="55" y="-20.3" font-family="Times,serif" font-size="14.00">&#45;(&#45;(X₁)) ∈ ℂ</text>
 </a>
 </g>
 </g>
-<!-- c_0_83&#45;&gt;c_0_167 -->
+<!-- c_0_83&#45;&gt;c_0_112 -->
 <g id="edge3" class="edge">
-<title>c_0_83&#45;&gt;c_0_167</title>
+<title>c_0_83&#45;&gt;c_0_112</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M74.25,-98.16C74.25,-98.16 74.25,-71.72 74.25,-71.72"/>
 <polygon fill="black" stroke="black" points="77.75,-71.72 74.25,-61.72 70.75,-71.72 77.75,-71.72"/>
 </g>

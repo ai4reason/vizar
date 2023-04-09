@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="130,-352 130,-384 318,-384 318,-352 130,-352"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="222,-352 222,-384 410,-384 410,-352 222,-352"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="136,-255 136,-332 312,-332 312,-255 136,-255"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="228,-255 228,-332 404,-332 404,-255 228,-255"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,94 +23,94 @@
 <!-- redefinition_k8_finseq_1 -->
 <g id="node1" class="node">
 <title>redefinition_k8_finseq_1</title>
-<g id="a_node1"><a xlink:href="redefinition_k8_finseq_1.html" xlink:title="redefinition_k8_finseq_1" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="138,-360.5 138,-375.5 310,-375.5 310,-360.5 138,-360.5"/>
-<text text-anchor="middle" x="224" y="-364.3" font-family="Times,serif" font-size="14.00">redefinition_k8_finseq_1</text>
+<g id="a_node1"><a xlink:href="redefinition_k8_finseq_1.html" xlink:title="redefinition_k8_finseq_1" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="230,-360.5 230,-375.5 402,-375.5 402,-360.5 230,-360.5"/>
+<text text-anchor="middle" x="316" y="-364.3" font-family="Times,serif" font-size="14.00">redefinition_k8_finseq_1</text>
 </a>
 </g>
 </g>
 <!-- c_0_49 -->
 <g id="node2" class="node">
 <title>c_0_49</title>
-<g id="a_node2"><a xlink:href="c_0_49.html" xlink:title="{FinSequence(X₁,X₂)|FinSequence(X₃,X₂)|⇊|X₂ ^ X₁ ^ X₃ = X₁ ^ X₃}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="144,-263.5 144,-323.5 304,-323.5 304,-263.5 144,-263.5"/>
-<text text-anchor="middle" x="224" y="-312.3" font-family="Times,serif" font-size="14.00">FinSequence(X₁,X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="144,-308.5 304,-308.5 "/>
-<text text-anchor="middle" x="224" y="-297.3" font-family="Times,serif" font-size="14.00">FinSequence(X₃,X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="144,-293.5 304,-293.5 "/>
-<text text-anchor="middle" x="224" y="-282.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="144,-278.5 304,-278.5 "/>
-<text text-anchor="middle" x="224" y="-267.3" font-family="Times,serif" font-size="14.00">X₂ ^ X₁ ^ X₃ = X₁ ^ X₃</text>
+<g id="a_node2"><a xlink:href="c_0_49.html" xlink:title="{FinSequence(X₁,X₂)|FinSequence(X₃,X₂)|⇊|X₂ ^ X₁ ^ X₃ = X₁ ^ X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="236,-263.5 236,-323.5 396,-323.5 396,-263.5 236,-263.5"/>
+<text text-anchor="middle" x="316" y="-312.3" font-family="Times,serif" font-size="14.00">FinSequence(X₁,X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="236,-308.5 396,-308.5 "/>
+<text text-anchor="middle" x="316" y="-297.3" font-family="Times,serif" font-size="14.00">FinSequence(X₃,X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="236,-293.5 396,-293.5 "/>
+<text text-anchor="middle" x="316" y="-282.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="236,-278.5 396,-278.5 "/>
+<text text-anchor="middle" x="316" y="-267.3" font-family="Times,serif" font-size="14.00">X₂ ^ X₁ ^ X₃ = X₁ ^ X₃</text>
 </a>
 </g>
 </g>
 <!-- redefinition_k8_finseq_1&#45;&gt;c_0_49 -->
 <g id="edge1" class="edge">
 <title>redefinition_k8_finseq_1&#45;&gt;c_0_49</title>
-<path fill="none" stroke="black" d="M224,-360.31C224,-360.31 224,-333.51 224,-333.51"/>
-<polygon fill="black" stroke="black" points="227.5,-333.51 224,-323.51 220.5,-333.51 227.5,-333.51"/>
-</g>
-<!-- c_0_54 -->
-<g id="node3" class="node">
-<title>c_0_54</title>
-<g id="a_node3"><a xlink:href="c_0_54.html" xlink:title="{FinSequence(sk₄(X₁,X₆,X₁ &#39;not&#39; X₅),CQC&#45;WFF(X₁))|QC&#45;alphabet(X₁)|X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₄ ^ &amp;lt;X₅&amp;gt;|X₁ \|&#45; X₆ \|&#45; X₁ &#39;not&#39; X₅|X₂ ∈ bool(CQC&#45;WFF(X₁))|X₃ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₆ ∈ bool(CQC&#45;WFF(X₁))|proj₂(sk₄(X₁,X₆,X₁ &#39;not&#39; X₅) ^ X₄) ⊆ X₂|sk₄(X₁,X₆,X₁ &#39;not&#39; X₅) ^ X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|⇊|X₁ \|&#45; X₂ \|&#45; X₃}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="178.5,-16.5 178.5,-226.5 527.5,-226.5 527.5,-16.5 178.5,-16.5"/>
-<text text-anchor="middle" x="353" y="-215.3" font-family="Times,serif" font-size="14.00">FinSequence(sk₄(X₁,X₆,X₁ &#39;not&#39; X₅),CQC&#45;WFF(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-211.5 527.5,-211.5 "/>
-<text text-anchor="middle" x="353" y="-200.3" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-196.5 527.5,-196.5 "/>
-<text text-anchor="middle" x="353" y="-185.3" font-family="Times,serif" font-size="14.00">X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-181.5 527.5,-181.5 "/>
-<text text-anchor="middle" x="353" y="-170.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ X₄ ^ &lt;X₅&gt;</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-166.5 527.5,-166.5 "/>
-<text text-anchor="middle" x="353" y="-155.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; X₆ |&#45; X₁ &#39;not&#39; X₅</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-151.5 527.5,-151.5 "/>
-<text text-anchor="middle" x="353" y="-140.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(CQC&#45;WFF(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-136.5 527.5,-136.5 "/>
-<text text-anchor="middle" x="353" y="-125.3" font-family="Times,serif" font-size="14.00">X₃ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-121.5 527.5,-121.5 "/>
-<text text-anchor="middle" x="353" y="-110.3" font-family="Times,serif" font-size="14.00">X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-106.5 527.5,-106.5 "/>
-<text text-anchor="middle" x="353" y="-95.3" font-family="Times,serif" font-size="14.00">X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-91.5 527.5,-91.5 "/>
-<text text-anchor="middle" x="353" y="-80.3" font-family="Times,serif" font-size="14.00">X₆ ∈ bool(CQC&#45;WFF(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-76.5 527.5,-76.5 "/>
-<text text-anchor="middle" x="353" y="-65.3" font-family="Times,serif" font-size="14.00">proj₂(sk₄(X₁,X₆,X₁ &#39;not&#39; X₅) ^ X₄) ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-61.5 527.5,-61.5 "/>
-<text text-anchor="middle" x="353" y="-50.3" font-family="Times,serif" font-size="14.00">sk₄(X₁,X₆,X₁ &#39;not&#39; X₅) ^ X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-46.5 527.5,-46.5 "/>
-<text text-anchor="middle" x="353" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="178.5,-31.5 527.5,-31.5 "/>
-<text text-anchor="middle" x="353" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; X₂ |&#45; X₃</text>
-</a>
-</g>
-</g>
-<!-- c_0_49&#45;&gt;c_0_54 -->
-<g id="edge2" class="edge">
-<title>c_0_49&#45;&gt;c_0_54</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M241.25,-263.15C241.25,-263.15 241.25,-236.72 241.25,-236.72"/>
-<polygon fill="black" stroke="black" points="244.75,-236.72 241.25,-226.72 237.75,-236.72 244.75,-236.72"/>
+<path fill="none" stroke="black" d="M316,-360.31C316,-360.31 316,-333.51 316,-333.51"/>
+<polygon fill="black" stroke="black" points="319.5,-333.51 316,-323.51 312.5,-333.51 319.5,-333.51"/>
 </g>
 <!-- c_0_66 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_66</title>
-<g id="a_node4"><a xlink:href="c_0_66.html" xlink:title="{FinSequence(X₁,X₃)|FinSequence(X₂,X₃)|⇊|X₁ ^ X₂ ∈ fin&#45;seq(X₃)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-91.5 16,-151.5 160,-151.5 160,-91.5 16,-91.5"/>
-<text text-anchor="middle" x="88" y="-140.3" font-family="Times,serif" font-size="14.00">FinSequence(X₁,X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-136.5 160,-136.5 "/>
-<text text-anchor="middle" x="88" y="-125.3" font-family="Times,serif" font-size="14.00">FinSequence(X₂,X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-121.5 160,-121.5 "/>
-<text text-anchor="middle" x="88" y="-110.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-106.5 160,-106.5 "/>
-<text text-anchor="middle" x="88" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ ^ X₂ ∈ fin&#45;seq(X₃)</text>
+<g id="a_node3"><a xlink:href="c_0_66.html" xlink:title="{FinSequence(X₁,X₃)|FinSequence(X₂,X₃)|⇊|X₁ ^ X₂ ∈ fin&#45;seq(X₃)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="384,-91.5 384,-151.5 528,-151.5 528,-91.5 384,-91.5"/>
+<text text-anchor="middle" x="456" y="-140.3" font-family="Times,serif" font-size="14.00">FinSequence(X₁,X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="384,-136.5 528,-136.5 "/>
+<text text-anchor="middle" x="456" y="-125.3" font-family="Times,serif" font-size="14.00">FinSequence(X₂,X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="384,-121.5 528,-121.5 "/>
+<text text-anchor="middle" x="456" y="-110.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="384,-106.5 528,-106.5 "/>
+<text text-anchor="middle" x="456" y="-95.3" font-family="Times,serif" font-size="14.00">X₁ ^ X₂ ∈ fin&#45;seq(X₃)</text>
 </a>
 </g>
 </g>
 <!-- c_0_49&#45;&gt;c_0_66 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_49&#45;&gt;c_0_66</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M152,-263.15C152,-263.15 152,-161.55 152,-161.55"/>
-<polygon fill="black" stroke="black" points="155.5,-161.55 152,-151.55 148.5,-161.55 155.5,-161.55"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M390,-263.15C390,-263.15 390,-161.55 390,-161.55"/>
+<polygon fill="black" stroke="black" points="393.5,-161.55 390,-151.55 386.5,-161.55 393.5,-161.55"/>
+</g>
+<!-- c_0_54 -->
+<g id="node4" class="node">
+<title>c_0_54</title>
+<g id="a_node4"><a xlink:href="c_0_54.html" xlink:title="{FinSequence(sk₄(X₁,X₆,X₁ &#39;not&#39; X₅),CQC&#45;WFF(X₁))|QC&#45;alphabet(X₁)|X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₁ \|&#45; CQC&#45;WFF(X₁) ^ X₄ ^ &amp;lt;X₅&amp;gt;|X₁ \|&#45; X₆ \|&#45; X₁ &#39;not&#39; X₅|X₂ ∈ bool(CQC&#45;WFF(X₁))|X₃ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)|X₆ ∈ bool(CQC&#45;WFF(X₁))|proj₂(sk₄(X₁,X₆,X₁ &#39;not&#39; X₅) ^ X₄) ⊆ X₂|sk₄(X₁,X₆,X₁ &#39;not&#39; X₅) ^ X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))|⇊|X₁ \|&#45; X₂ \|&#45; X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-226.5 365.5,-226.5 365.5,-16.5 16.5,-16.5"/>
+<text text-anchor="middle" x="191" y="-215.3" font-family="Times,serif" font-size="14.00">FinSequence(sk₄(X₁,X₆,X₁ &#39;not&#39; X₅),CQC&#45;WFF(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-211.5 365.5,-211.5 "/>
+<text text-anchor="middle" x="191" y="-200.3" font-family="Times,serif" font-size="14.00">QC&#45;alphabet(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-196.5 365.5,-196.5 "/>
+<text text-anchor="middle" x="191" y="-185.3" font-family="Times,serif" font-size="14.00">X₁ &#39;not&#39; X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-181.5 365.5,-181.5 "/>
+<text text-anchor="middle" x="191" y="-170.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; CQC&#45;WFF(X₁) ^ X₄ ^ &lt;X₅&gt;</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-166.5 365.5,-166.5 "/>
+<text text-anchor="middle" x="191" y="-155.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; X₆ |&#45; X₁ &#39;not&#39; X₅</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-151.5 365.5,-151.5 "/>
+<text text-anchor="middle" x="191" y="-140.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(CQC&#45;WFF(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-136.5 365.5,-136.5 "/>
+<text text-anchor="middle" x="191" y="-125.3" font-family="Times,serif" font-size="14.00">X₃ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-121.5 365.5,-121.5 "/>
+<text text-anchor="middle" x="191" y="-110.3" font-family="Times,serif" font-size="14.00">X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-106.5 365.5,-106.5 "/>
+<text text-anchor="middle" x="191" y="-95.3" font-family="Times,serif" font-size="14.00">X₅ ∈ CQC&#45;WFF(X₁) ⊆ QC&#45;WFF(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-91.5 365.5,-91.5 "/>
+<text text-anchor="middle" x="191" y="-80.3" font-family="Times,serif" font-size="14.00">X₆ ∈ bool(CQC&#45;WFF(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-76.5 365.5,-76.5 "/>
+<text text-anchor="middle" x="191" y="-65.3" font-family="Times,serif" font-size="14.00">proj₂(sk₄(X₁,X₆,X₁ &#39;not&#39; X₅) ^ X₄) ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-61.5 365.5,-61.5 "/>
+<text text-anchor="middle" x="191" y="-50.3" font-family="Times,serif" font-size="14.00">sk₄(X₁,X₆,X₁ &#39;not&#39; X₅) ^ X₄ ∈ fin&#45;seq(CQC&#45;WFF(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 365.5,-46.5 "/>
+<text text-anchor="middle" x="191" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 365.5,-31.5 "/>
+<text text-anchor="middle" x="191" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ |&#45; X₂ |&#45; X₃</text>
+</a>
+</g>
+</g>
+<!-- c_0_49&#45;&gt;c_0_54 -->
+<g id="edge3" class="edge">
+<title>c_0_49&#45;&gt;c_0_54</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M300.75,-263.15C300.75,-263.15 300.75,-236.72 300.75,-236.72"/>
+<polygon fill="black" stroke="black" points="304.25,-236.72 300.75,-226.72 297.25,-236.72 304.25,-236.72"/>
 </g>
 </g>
 </svg>

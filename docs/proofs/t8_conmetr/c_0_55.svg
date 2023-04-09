@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="805,-247 805,-339 1371,-339 1371,-247 805,-247"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="819,-247 819,-339 1386,-339 1386,-247 819,-247"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
@@ -20,102 +20,102 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-175 2262,-175 2262,-8 8,-8"/>
 </g>
-<!-- c_0_20 -->
+<!-- c_0_43 -->
 <g id="node1" class="node">
-<title>c_0_20</title>
-<g id="a_node1"><a xlink:href="c_0_20.html" xlink:title="{ParOrtStr(X₂)|X₁ ∈ carrier(X₂)|⇊|X₁ ∈ carrier(Af(X₂))|empty(X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="1227.5,-255.5 1227.5,-330.5 1362.5,-330.5 1362.5,-255.5 1227.5,-255.5"/>
-<text text-anchor="middle" x="1295" y="-319.3" font-family="Times,serif" font-size="14.00">ParOrtStr(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1227.5,-315.5 1362.5,-315.5 "/>
-<text text-anchor="middle" x="1295" y="-304.3" font-family="Times,serif" font-size="14.00">X₁ ∈ carrier(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="1227.5,-300.5 1362.5,-300.5 "/>
-<text text-anchor="middle" x="1295" y="-289.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="1227.5,-285.5 1362.5,-285.5 "/>
-<text text-anchor="middle" x="1295" y="-274.3" font-family="Times,serif" font-size="14.00">X₁ ∈ carrier(Af(X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="1227.5,-270.5 1362.5,-270.5 "/>
-<text text-anchor="middle" x="1295" y="-259.3" font-family="Times,serif" font-size="14.00">empty(X₂)</text>
+<title>c_0_43</title>
+<g id="a_node1"><a xlink:href="c_0_43.html" xlink:title="{sk₃(sk₁) ∈ carrier(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1224.5,-285.5 1224.5,-300.5 1377.5,-300.5 1377.5,-285.5 1224.5,-285.5"/>
+<text text-anchor="middle" x="1301" y="-289.3" font-family="Times,serif" font-size="14.00">sk₃(sk₁) ∈ carrier(sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_55 -->
 <g id="node5" class="node">
 <title>c_0_55</title>
-<g id="a_node5"><a xlink:href="c_0_55.html" xlink:title="{sk₃(sk₁) ∈ carrier(Af(sk₁))}" target="_parent">
+<g id="a_node5"><a xlink:href="c_0_55.html" xlink:title="{sk₃(sk₁) ∈ carrier(Af(sk₁))}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="996,-203.5 996,-218.5 1174,-218.5 1174,-203.5 996,-203.5"/>
 <text text-anchor="middle" x="1085" y="-207.3" font-family="Times,serif" font-size="14.00">sk₃(sk₁) ∈ carrier(Af(sk₁))</text>
 </a>
 </g>
 </g>
-<!-- c_0_20&#45;&gt;c_0_55 -->
-<g id="edge1" class="edge">
-<title>c_0_20&#45;&gt;c_0_55</title>
-<path fill="none" stroke="black" d="M1227.45,-270C1190.23,-270 1151.5,-270 1151.5,-270 1151.5,-270 1151.5,-228.71 1151.5,-228.71"/>
-<polygon fill="black" stroke="black" points="1155,-228.71 1151.5,-218.71 1148,-228.71 1155,-228.71"/>
-</g>
-<!-- c_0_15 -->
-<g id="node2" class="node">
-<title>c_0_15</title>
-<g id="a_node2"><a xlink:href="c_0_15.html" xlink:title="{ParOrtStr(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1106.5,-285.5 1106.5,-300.5 1209.5,-300.5 1209.5,-285.5 1106.5,-285.5"/>
-<text text-anchor="middle" x="1158" y="-289.3" font-family="Times,serif" font-size="14.00">ParOrtStr(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_15&#45;&gt;c_0_55 -->
-<g id="edge2" class="edge">
-<title>c_0_15&#45;&gt;c_0_55</title>
-<path fill="none" stroke="black" d="M1129,-285.43C1129,-285.43 1129,-228.79 1129,-228.79"/>
-<polygon fill="black" stroke="black" points="1132.5,-228.79 1129,-218.79 1125.5,-228.79 1132.5,-228.79"/>
-</g>
-<!-- c_0_43 -->
-<g id="node3" class="node">
-<title>c_0_43</title>
-<g id="a_node3"><a xlink:href="c_0_43.html" xlink:title="{sk₃(sk₁) ∈ carrier(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="935.5,-285.5 935.5,-300.5 1088.5,-300.5 1088.5,-285.5 935.5,-285.5"/>
-<text text-anchor="middle" x="1012" y="-289.3" font-family="Times,serif" font-size="14.00">sk₃(sk₁) ∈ carrier(sk₁)</text>
-</a>
-</g>
-</g>
 <!-- c_0_43&#45;&gt;c_0_55 -->
-<g id="edge3" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_43&#45;&gt;c_0_55</title>
-<path fill="none" stroke="black" d="M1042.25,-285.43C1042.25,-285.43 1042.25,-228.79 1042.25,-228.79"/>
-<polygon fill="black" stroke="black" points="1045.75,-228.79 1042.25,-218.79 1038.75,-228.79 1045.75,-228.79"/>
+<path fill="none" stroke="black" d="M1328.5,-285.24C1328.5,-265.51 1328.5,-215 1328.5,-215 1328.5,-215 1184.29,-215 1184.29,-215"/>
+<polygon fill="black" stroke="black" points="1184.29,-211.5 1174.29,-215 1184.29,-218.5 1184.29,-211.5"/>
 </g>
 <!-- c_0_18 -->
-<g id="node4" class="node">
+<g id="node2" class="node">
 <title>c_0_18</title>
-<g id="a_node4"><a xlink:href="c_0_18.html" xlink:title="{¬ (empty(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="813,-285.5 813,-300.5 917,-300.5 917,-285.5 813,-285.5"/>
-<text text-anchor="middle" x="865" y="-289.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
+<g id="a_node2"><a xlink:href="c_0_18.html" xlink:title="{¬ (empty(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1102,-285.5 1102,-300.5 1206,-300.5 1206,-285.5 1102,-285.5"/>
+<text text-anchor="middle" x="1154" y="-289.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
 </a>
 </g>
 </g>
 <!-- c_0_18&#45;&gt;c_0_55 -->
-<g id="edge4" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_18&#45;&gt;c_0_55</title>
-<path fill="none" stroke="black" d="M865,-285.24C865,-265.51 865,-215 865,-215 865,-215 985.83,-215 985.83,-215"/>
-<polygon fill="black" stroke="black" points="985.83,-218.5 995.83,-215 985.83,-211.5 985.83,-218.5"/>
+<path fill="none" stroke="black" d="M1138,-285.43C1138,-285.43 1138,-228.79 1138,-228.79"/>
+<polygon fill="black" stroke="black" points="1141.5,-228.79 1138,-218.79 1134.5,-228.79 1141.5,-228.79"/>
 </g>
-<!-- c_0_88 -->
-<g id="node6" class="node">
-<title>c_0_88</title>
-<g id="a_node6"><a xlink:href="c_0_88.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // sk₄(sk₁) // sk₃(sk₁) // sk₅(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="1924.5,-84 1924.5,-99 2253.5,-99 2253.5,-84 1924.5,-84"/>
-<text text-anchor="middle" x="2089" y="-87.8" font-family="Times,serif" font-size="14.00">Af(sk₁) // sk₂(sk₁) // sk₄(sk₁) // sk₃(sk₁) // sk₅(sk₁)</text>
+<!-- c_0_20 -->
+<g id="node3" class="node">
+<title>c_0_20</title>
+<g id="a_node3"><a xlink:href="c_0_20.html" xlink:title="{ParOrtStr(X₂)|X₁ ∈ carrier(X₂)|⇊|X₁ ∈ carrier(Af(X₂))|empty(X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="948.5,-255.5 948.5,-330.5 1083.5,-330.5 1083.5,-255.5 948.5,-255.5"/>
+<text text-anchor="middle" x="1016" y="-319.3" font-family="Times,serif" font-size="14.00">ParOrtStr(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="948.5,-315.5 1083.5,-315.5 "/>
+<text text-anchor="middle" x="1016" y="-304.3" font-family="Times,serif" font-size="14.00">X₁ ∈ carrier(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="948.5,-300.5 1083.5,-300.5 "/>
+<text text-anchor="middle" x="1016" y="-289.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="948.5,-285.5 1083.5,-285.5 "/>
+<text text-anchor="middle" x="1016" y="-274.3" font-family="Times,serif" font-size="14.00">X₁ ∈ carrier(Af(X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="948.5,-270.5 1083.5,-270.5 "/>
+<text text-anchor="middle" x="1016" y="-259.3" font-family="Times,serif" font-size="14.00">empty(X₂)</text>
 </a>
 </g>
 </g>
-<!-- c_0_55&#45;&gt;c_0_88 -->
+<!-- c_0_20&#45;&gt;c_0_55 -->
+<g id="edge3" class="edge">
+<title>c_0_20&#45;&gt;c_0_55</title>
+<path fill="none" stroke="black" d="M1039.75,-255.36C1039.75,-255.36 1039.75,-228.72 1039.75,-228.72"/>
+<polygon fill="black" stroke="black" points="1043.25,-228.72 1039.75,-218.72 1036.25,-228.72 1043.25,-228.72"/>
+</g>
+<!-- c_0_15 -->
+<g id="node4" class="node">
+<title>c_0_15</title>
+<g id="a_node4"><a xlink:href="c_0_15.html" xlink:title="{ParOrtStr(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="827.5,-285.5 827.5,-300.5 930.5,-300.5 930.5,-285.5 827.5,-285.5"/>
+<text text-anchor="middle" x="879" y="-289.3" font-family="Times,serif" font-size="14.00">ParOrtStr(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_15&#45;&gt;c_0_55 -->
+<g id="edge4" class="edge">
+<title>c_0_15&#45;&gt;c_0_55</title>
+<path fill="none" stroke="black" d="M879,-285.24C879,-265.51 879,-215 879,-215 879,-215 985.84,-215 985.84,-215"/>
+<polygon fill="black" stroke="black" points="985.84,-218.5 995.84,-215 985.84,-211.5 985.84,-218.5"/>
+</g>
+<!-- c_0_89 -->
+<g id="node6" class="node">
+<title>c_0_89</title>
+<g id="a_node6"><a xlink:href="c_0_89.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₄(sk₁) // sk₅(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="1924.5,-84 1924.5,-99 2253.5,-99 2253.5,-84 1924.5,-84"/>
+<text text-anchor="middle" x="2089" y="-87.8" font-family="Times,serif" font-size="14.00">Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₄(sk₁) // sk₅(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_55&#45;&gt;c_0_89 -->
 <g id="edge5" class="edge">
-<title>c_0_55&#45;&gt;c_0_88</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1174.1,-213C1419.81,-213 2089,-213 2089,-213 2089,-213 2089,-109.1 2089,-109.1"/>
-<polygon fill="black" stroke="black" points="2092.5,-109.1 2089,-99.1 2085.5,-109.1 2092.5,-109.1"/>
+<title>c_0_55&#45;&gt;c_0_89</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1174.1,-211C1419.81,-211 2089,-211 2089,-211 2089,-211 2089,-109.34 2089,-109.34"/>
+<polygon fill="black" stroke="black" points="2092.5,-109.34 2089,-99.34 2085.5,-109.34 2092.5,-109.34"/>
 </g>
 <!-- c_0_79 -->
 <g id="node7" class="node">
 <title>c_0_79</title>
-<g id="a_node7"><a xlink:href="c_0_79.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // X₁ // sk₃(sk₁) // X₂|Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // X₁ // X₂|Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₆(sk₁) // sk₇(sk₁)|X₁ ∈ carrier(Af(sk₁))|X₂ ∈ carrier(Af(sk₁))|⇊|Af(sk₁) // X₁ // sk₆(sk₁) // X₂ // sk₇(sk₁)|LIN(Af(sk₁),sk₂(sk₁),sk₃(sk₁),X₁)|LIN(Af(sk₁),sk₂(sk₁),sk₃(sk₁),sk₆(sk₁))|trivial(Af(sk₁))}" target="_parent">
+<g id="a_node7"><a xlink:href="c_0_79.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // X₁ // sk₃(sk₁) // X₂|Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // X₁ // X₂|Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₆(sk₁) // sk₇(sk₁)|X₁ ∈ carrier(Af(sk₁))|X₂ ∈ carrier(Af(sk₁))|⇊|Af(sk₁) // X₁ // sk₆(sk₁) // X₂ // sk₇(sk₁)|LIN(Af(sk₁),sk₂(sk₁),sk₃(sk₁),X₁)|LIN(Af(sk₁),sk₂(sk₁),sk₃(sk₁),sk₆(sk₁))|trivial(Af(sk₁))}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="1577.5,-16.5 1577.5,-166.5 1906.5,-166.5 1906.5,-16.5 1577.5,-16.5"/>
 <text text-anchor="middle" x="1742" y="-155.3" font-family="Times,serif" font-size="14.00">Af(sk₁) // sk₂(sk₁) // X₁ // sk₃(sk₁) // X₂</text>
 <polyline fill="none" stroke="#7f7542" points="1577.5,-151.5 1906.5,-151.5 "/>
@@ -145,25 +145,25 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1114.67,-203.4C1114.67,-185.09 1114.67,-140 1114.67,-140 1114.67,-140 1567.18,-140 1567.18,-140"/>
 <polygon fill="black" stroke="black" points="1567.18,-143.5 1577.18,-140 1567.18,-136.5 1567.18,-143.5"/>
 </g>
-<!-- c_0_68 -->
+<!-- c_0_88 -->
 <g id="node8" class="node">
-<title>c_0_68</title>
-<g id="a_node8"><a xlink:href="c_0_68.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // sk₆(sk₁) // sk₃(sk₁) // sk₇(sk₁)}" target="_parent">
+<title>c_0_88</title>
+<g id="a_node8"><a xlink:href="c_0_88.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // sk₄(sk₁) // sk₃(sk₁) // sk₅(sk₁)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="1230.5,-84 1230.5,-99 1559.5,-99 1559.5,-84 1230.5,-84"/>
-<text text-anchor="middle" x="1395" y="-87.8" font-family="Times,serif" font-size="14.00">Af(sk₁) // sk₂(sk₁) // sk₆(sk₁) // sk₃(sk₁) // sk₇(sk₁)</text>
+<text text-anchor="middle" x="1395" y="-87.8" font-family="Times,serif" font-size="14.00">Af(sk₁) // sk₂(sk₁) // sk₄(sk₁) // sk₃(sk₁) // sk₅(sk₁)</text>
 </a>
 </g>
 </g>
-<!-- c_0_55&#45;&gt;c_0_68 -->
+<!-- c_0_55&#45;&gt;c_0_88 -->
 <g id="edge7" class="edge">
-<title>c_0_55&#45;&gt;c_0_68</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1174.08,-208C1231.88,-208 1296.5,-208 1296.5,-208 1296.5,-208 1296.5,-109.14 1296.5,-109.14"/>
-<polygon fill="black" stroke="black" points="1300,-109.14 1296.5,-99.14 1293,-109.14 1300,-109.14"/>
+<title>c_0_55&#45;&gt;c_0_88</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1174.28,-207C1225.41,-207 1279.5,-207 1279.5,-207 1279.5,-207 1279.5,-109.08 1279.5,-109.08"/>
+<polygon fill="black" stroke="black" points="1283,-109.08 1279.5,-99.08 1276,-109.08 1283,-109.08"/>
 </g>
 <!-- c_0_104 -->
 <g id="node9" class="node">
 <title>c_0_104</title>
-<g id="a_node9"><a xlink:href="c_0_104.html" xlink:title="{LIN(Af(sk₁),sk₂(sk₁),sk₃(sk₁),sk₄(sk₁))|LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₆(sk₁))|trivial(Af(sk₁))}" target="_parent">
+<g id="a_node9"><a xlink:href="c_0_104.html" xlink:title="{LIN(Af(sk₁),sk₂(sk₁),sk₃(sk₁),sk₄(sk₁))|LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₆(sk₁))|trivial(Af(sk₁))}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="957.5,-69 957.5,-114 1212.5,-114 1212.5,-69 957.5,-69"/>
 <text text-anchor="middle" x="1085" y="-102.8" font-family="Times,serif" font-size="14.00">LIN(Af(sk₁),sk₂(sk₁),sk₃(sk₁),sk₄(sk₁))</text>
 <polyline fill="none" stroke="#7f7542" points="957.5,-99 1212.5,-99 "/>
@@ -179,52 +179,52 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1055.33,-203.16C1055.33,-203.16 1055.33,-124.38 1055.33,-124.38"/>
 <polygon fill="black" stroke="black" points="1058.83,-124.38 1055.33,-114.38 1051.83,-124.38 1058.83,-124.38"/>
 </g>
-<!-- c_0_80 -->
-<g id="node10" class="node">
-<title>c_0_80</title>
-<g id="a_node10"><a xlink:href="c_0_80.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₆(sk₁) // sk₇(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="610.5,-84 610.5,-99 939.5,-99 939.5,-84 610.5,-84"/>
-<text text-anchor="middle" x="775" y="-87.8" font-family="Times,serif" font-size="14.00">Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₆(sk₁) // sk₇(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_55&#45;&gt;c_0_80 -->
-<g id="edge9" class="edge">
-<title>c_0_55&#45;&gt;c_0_80</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M995.88,-206C959.69,-206 926.25,-206 926.25,-206 926.25,-206 926.25,-109.01 926.25,-109.01"/>
-<polygon fill="black" stroke="black" points="929.75,-109.01 926.25,-99.01 922.75,-109.01 929.75,-109.01"/>
-</g>
 <!-- c_0_107 -->
-<g id="node11" class="node">
+<g id="node10" class="node">
 <title>c_0_107</title>
-<g id="a_node11"><a xlink:href="c_0_107.html" xlink:title="{LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₄(sk₁))|LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₆(sk₁))|trivial(Af(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="363.5,-69 363.5,-114 592.5,-114 592.5,-69 363.5,-69"/>
-<text text-anchor="middle" x="478" y="-102.8" font-family="Times,serif" font-size="14.00">LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₄(sk₁))</text>
-<polyline fill="none" stroke="#7f7542" points="363.5,-99 592.5,-99 "/>
-<text text-anchor="middle" x="478" y="-87.8" font-family="Times,serif" font-size="14.00">LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₆(sk₁))</text>
-<polyline fill="none" stroke="#7f7542" points="363.5,-84 592.5,-84 "/>
-<text text-anchor="middle" x="478" y="-72.8" font-family="Times,serif" font-size="14.00">trivial(Af(sk₁))</text>
+<g id="a_node10"><a xlink:href="c_0_107.html" xlink:title="{LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₄(sk₁))|LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₆(sk₁))|trivial(Af(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="710.5,-69 710.5,-114 939.5,-114 939.5,-69 710.5,-69"/>
+<text text-anchor="middle" x="825" y="-102.8" font-family="Times,serif" font-size="14.00">LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₄(sk₁))</text>
+<polyline fill="none" stroke="#7f7542" points="710.5,-99 939.5,-99 "/>
+<text text-anchor="middle" x="825" y="-87.8" font-family="Times,serif" font-size="14.00">LIN(sk₁,sk₂(sk₁),sk₃(sk₁),sk₆(sk₁))</text>
+<polyline fill="none" stroke="#7f7542" points="710.5,-84 939.5,-84 "/>
+<text text-anchor="middle" x="825" y="-72.8" font-family="Times,serif" font-size="14.00">trivial(Af(sk₁))</text>
 </a>
 </g>
 </g>
 <!-- c_0_55&#45;&gt;c_0_107 -->
-<g id="edge10" class="edge">
+<g id="edge9" class="edge">
 <title>c_0_55&#45;&gt;c_0_107</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M995.76,-209C827.04,-209 478,-209 478,-209 478,-209 478,-124.16 478,-124.16"/>
-<polygon fill="black" stroke="black" points="481.5,-124.16 478,-114.16 474.5,-124.16 481.5,-124.16"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M995.58,-206C963.46,-206 935,-206 935,-206 935,-206 935,-124.12 935,-124.12"/>
+<polygon fill="black" stroke="black" points="938.5,-124.12 935,-114.12 931.5,-124.12 938.5,-124.12"/>
 </g>
-<!-- c_0_89 -->
-<g id="node12" class="node">
-<title>c_0_89</title>
-<g id="a_node12"><a xlink:href="c_0_89.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₄(sk₁) // sk₅(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-84 16.5,-99 345.5,-99 345.5,-84 16.5,-84"/>
-<text text-anchor="middle" x="181" y="-87.8" font-family="Times,serif" font-size="14.00">Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₄(sk₁) // sk₅(sk₁)</text>
+<!-- c_0_68 -->
+<g id="node11" class="node">
+<title>c_0_68</title>
+<g id="a_node11"><a xlink:href="c_0_68.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // sk₆(sk₁) // sk₃(sk₁) // sk₇(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="363.5,-84 363.5,-99 692.5,-99 692.5,-84 363.5,-84"/>
+<text text-anchor="middle" x="528" y="-87.8" font-family="Times,serif" font-size="14.00">Af(sk₁) // sk₂(sk₁) // sk₆(sk₁) // sk₃(sk₁) // sk₇(sk₁)</text>
 </a>
 </g>
 </g>
-<!-- c_0_55&#45;&gt;c_0_89 -->
+<!-- c_0_55&#45;&gt;c_0_68 -->
+<g id="edge10" class="edge">
+<title>c_0_55&#45;&gt;c_0_68</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M995.82,-209C838.46,-209 528,-209 528,-209 528,-209 528,-109.21 528,-109.21"/>
+<polygon fill="black" stroke="black" points="531.5,-109.21 528,-99.21 524.5,-109.21 531.5,-109.21"/>
+</g>
+<!-- c_0_80 -->
+<g id="node12" class="node">
+<title>c_0_80</title>
+<g id="a_node12"><a xlink:href="c_0_80.html" xlink:title="{Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₆(sk₁) // sk₇(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-84 16.5,-99 345.5,-99 345.5,-84 16.5,-84"/>
+<text text-anchor="middle" x="181" y="-87.8" font-family="Times,serif" font-size="14.00">Af(sk₁) // sk₂(sk₁) // sk₃(sk₁) // sk₆(sk₁) // sk₇(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_55&#45;&gt;c_0_80 -->
 <g id="edge11" class="edge">
-<title>c_0_55&#45;&gt;c_0_89</title>
+<title>c_0_55&#45;&gt;c_0_80</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M995.85,-212C767.78,-212 181,-212 181,-212 181,-212 181,-109.04 181,-109.04"/>
 <polygon fill="black" stroke="black" points="184.5,-109.04 181,-99.04 177.5,-109.04 184.5,-109.04"/>
 </g>

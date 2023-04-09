@@ -14,95 +14,95 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="56,-120 56,-227 208,-227 208,-120 56,-120"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="58,-120 58,-227 210,-227 210,-120 58,-120"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="56,-8 56,-100 208,-100 208,-8 56,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="58,-8 58,-100 210,-100 210,-8 58,-8"/>
 </g>
-<!-- c_0_68 -->
+<!-- c_0_46 -->
 <g id="node1" class="node">
-<title>c_0_68</title>
-<g id="a_node1"><a xlink:href="c_0_68.html" xlink:title="{X₁ ⊆ X₂|finite(X₁)|ordinal(card(X₁))|⇊|card(X₁) ⊆ \|X₂\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="138,-255.5 138,-330.5 256,-330.5 256,-255.5 138,-255.5"/>
-<text text-anchor="middle" x="197" y="-319.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="138,-315.5 256,-315.5 "/>
-<text text-anchor="middle" x="197" y="-304.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="138,-300.5 256,-300.5 "/>
-<text text-anchor="middle" x="197" y="-289.3" font-family="Times,serif" font-size="14.00">ordinal(card(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="138,-285.5 256,-285.5 "/>
-<text text-anchor="middle" x="197" y="-274.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="138,-270.5 256,-270.5 "/>
-<text text-anchor="middle" x="197" y="-259.3" font-family="Times,serif" font-size="14.00">card(X₁) ⊆ |X₂|</text>
+<title>c_0_46</title>
+<g id="a_node1"><a xlink:href="c_0_46.html" xlink:title="{finite(X₁)|⇊|\|X₁\| = card(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="152.5,-270.5 152.5,-315.5 255.5,-315.5 255.5,-270.5 152.5,-270.5"/>
+<text text-anchor="middle" x="204" y="-304.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="152.5,-300.5 255.5,-300.5 "/>
+<text text-anchor="middle" x="204" y="-289.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="152.5,-285.5 255.5,-285.5 "/>
+<text text-anchor="middle" x="204" y="-274.3" font-family="Times,serif" font-size="14.00">|X₁| = card(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_99 -->
 <g id="node3" class="node">
 <title>c_0_99</title>
-<g id="a_node3"><a xlink:href="c_0_99.html" xlink:title="{X₁ ⊆ X₂|finite(X₁)|finite(X₂)|ordinal(card(X₁))|⇊|card(X₁) ⊆ card(X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="64,-128.5 64,-218.5 200,-218.5 200,-128.5 64,-128.5"/>
-<text text-anchor="middle" x="132" y="-207.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="64,-203.5 200,-203.5 "/>
-<text text-anchor="middle" x="132" y="-192.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="64,-188.5 200,-188.5 "/>
-<text text-anchor="middle" x="132" y="-177.3" font-family="Times,serif" font-size="14.00">finite(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="64,-173.5 200,-173.5 "/>
-<text text-anchor="middle" x="132" y="-162.3" font-family="Times,serif" font-size="14.00">ordinal(card(X₁))</text>
-<polyline fill="none" stroke="#7f7542" points="64,-158.5 200,-158.5 "/>
-<text text-anchor="middle" x="132" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="64,-143.5 200,-143.5 "/>
-<text text-anchor="middle" x="132" y="-132.3" font-family="Times,serif" font-size="14.00">card(X₁) ⊆ card(X₂)</text>
-</a>
-</g>
-</g>
-<!-- c_0_68&#45;&gt;c_0_99 -->
-<g id="edge1" class="edge">
-<title>c_0_68&#45;&gt;c_0_99</title>
-<path fill="none" stroke="black" d="M169,-255.19C169,-255.19 169,-228.59 169,-228.59"/>
-<polygon fill="black" stroke="black" points="172.5,-228.59 169,-218.59 165.5,-228.59 172.5,-228.59"/>
-</g>
-<!-- c_0_46 -->
-<g id="node2" class="node">
-<title>c_0_46</title>
-<g id="a_node2"><a xlink:href="c_0_46.html" xlink:title="{finite(X₁)|⇊|\|X₁\| = card(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-270.5 16.5,-315.5 119.5,-315.5 119.5,-270.5 16.5,-270.5"/>
-<text text-anchor="middle" x="68" y="-304.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-300.5 119.5,-300.5 "/>
-<text text-anchor="middle" x="68" y="-289.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-285.5 119.5,-285.5 "/>
-<text text-anchor="middle" x="68" y="-274.3" font-family="Times,serif" font-size="14.00">|X₁| = card(X₁)</text>
+<g id="a_node3"><a xlink:href="c_0_99.html" xlink:title="{X₁ ⊆ X₂|finite(X₁)|finite(X₂)|ordinal(card(X₁))|⇊|card(X₁) ⊆ card(X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="66,-128.5 66,-218.5 202,-218.5 202,-128.5 66,-128.5"/>
+<text text-anchor="middle" x="134" y="-207.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="66,-203.5 202,-203.5 "/>
+<text text-anchor="middle" x="134" y="-192.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="66,-188.5 202,-188.5 "/>
+<text text-anchor="middle" x="134" y="-177.3" font-family="Times,serif" font-size="14.00">finite(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="66,-173.5 202,-173.5 "/>
+<text text-anchor="middle" x="134" y="-162.3" font-family="Times,serif" font-size="14.00">ordinal(card(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="66,-158.5 202,-158.5 "/>
+<text text-anchor="middle" x="134" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="66,-143.5 202,-143.5 "/>
+<text text-anchor="middle" x="134" y="-132.3" font-family="Times,serif" font-size="14.00">card(X₁) ⊆ card(X₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_46&#45;&gt;c_0_99 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_46&#45;&gt;c_0_99</title>
-<path fill="none" stroke="black" d="M91.75,-270.24C91.75,-270.24 91.75,-228.94 91.75,-228.94"/>
-<polygon fill="black" stroke="black" points="95.25,-228.94 91.75,-218.94 88.25,-228.94 95.25,-228.94"/>
+<path fill="none" stroke="black" d="M177.25,-270.24C177.25,-270.24 177.25,-228.94 177.25,-228.94"/>
+<polygon fill="black" stroke="black" points="180.75,-228.94 177.25,-218.94 173.75,-228.94 180.75,-228.94"/>
+</g>
+<!-- c_0_68 -->
+<g id="node2" class="node">
+<title>c_0_68</title>
+<g id="a_node2"><a xlink:href="c_0_68.html" xlink:title="{X₁ ⊆ X₂|finite(X₁)|ordinal(card(X₁))|⇊|card(X₁) ⊆ \|X₂\|}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-255.5 16,-330.5 134,-330.5 134,-255.5 16,-255.5"/>
+<text text-anchor="middle" x="75" y="-319.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="16,-315.5 134,-315.5 "/>
+<text text-anchor="middle" x="75" y="-304.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-300.5 134,-300.5 "/>
+<text text-anchor="middle" x="75" y="-289.3" font-family="Times,serif" font-size="14.00">ordinal(card(X₁))</text>
+<polyline fill="none" stroke="#7f7542" points="16,-285.5 134,-285.5 "/>
+<text text-anchor="middle" x="75" y="-274.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-270.5 134,-270.5 "/>
+<text text-anchor="middle" x="75" y="-259.3" font-family="Times,serif" font-size="14.00">card(X₁) ⊆ |X₂|</text>
+</a>
+</g>
+</g>
+<!-- c_0_68&#45;&gt;c_0_99 -->
+<g id="edge2" class="edge">
+<title>c_0_68&#45;&gt;c_0_99</title>
+<path fill="none" stroke="black" d="M100,-255.19C100,-255.19 100,-228.59 100,-228.59"/>
+<polygon fill="black" stroke="black" points="103.5,-228.59 100,-218.59 96.5,-228.59 103.5,-228.59"/>
 </g>
 <!-- c_0_113 -->
 <g id="node4" class="node">
 <title>c_0_113</title>
-<g id="a_node4"><a xlink:href="c_0_113.html" xlink:title="{X₁ ⊆ X₂|finite(X₁)|finite(X₂)|⇊|card(X₁) ⊆ card(X₂)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="64,-16.5 64,-91.5 200,-91.5 200,-16.5 64,-16.5"/>
-<text text-anchor="middle" x="132" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="64,-76.5 200,-76.5 "/>
-<text text-anchor="middle" x="132" y="-65.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="64,-61.5 200,-61.5 "/>
-<text text-anchor="middle" x="132" y="-50.3" font-family="Times,serif" font-size="14.00">finite(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="64,-46.5 200,-46.5 "/>
-<text text-anchor="middle" x="132" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="64,-31.5 200,-31.5 "/>
-<text text-anchor="middle" x="132" y="-20.3" font-family="Times,serif" font-size="14.00">card(X₁) ⊆ card(X₂)</text>
+<g id="a_node4"><a xlink:href="c_0_113.html" xlink:title="{X₁ ⊆ X₂|finite(X₁)|finite(X₂)|⇊|card(X₁) ⊆ card(X₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="66,-16.5 66,-91.5 202,-91.5 202,-16.5 66,-16.5"/>
+<text text-anchor="middle" x="134" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="66,-76.5 202,-76.5 "/>
+<text text-anchor="middle" x="134" y="-65.3" font-family="Times,serif" font-size="14.00">finite(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="66,-61.5 202,-61.5 "/>
+<text text-anchor="middle" x="134" y="-50.3" font-family="Times,serif" font-size="14.00">finite(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="66,-46.5 202,-46.5 "/>
+<text text-anchor="middle" x="134" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="66,-31.5 202,-31.5 "/>
+<text text-anchor="middle" x="134" y="-20.3" font-family="Times,serif" font-size="14.00">card(X₁) ⊆ card(X₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_99&#45;&gt;c_0_113 -->
 <g id="edge3" class="edge">
 <title>c_0_99&#45;&gt;c_0_113</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M132,-128.32C132,-128.32 132,-101.83 132,-101.83"/>
-<polygon fill="black" stroke="black" points="135.5,-101.83 132,-91.83 128.5,-101.83 135.5,-101.83"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M134,-128.32C134,-128.32 134,-101.83 134,-101.83"/>
+<polygon fill="black" stroke="black" points="137.5,-101.83 134,-91.83 130.5,-101.83 137.5,-101.83"/>
 </g>
 </g>
 </svg>

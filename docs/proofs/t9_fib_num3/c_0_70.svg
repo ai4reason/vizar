@@ -10,84 +10,84 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-112 8,-144 820,-144 820,-112 8,-112"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="184,-112 184,-144 990,-144 990,-112 184,-112"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="339,-60 339,-92 941,-92 941,-60 339,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="57,-60 57,-92 659,-92 659,-60 57,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="290,-8 290,-40 990,-40 990,-8 290,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-40 708,-40 708,-8 8,-8"/>
 </g>
-<!-- c_0_62 -->
+<!-- c_0_65 -->
 <g id="node1" class="node">
-<title>c_0_62</title>
-<g id="a_node1"><a xlink:href="c_0_62.html" xlink:title="{N₁ + N₂ = N₂ + N₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="678.5,-120.5 678.5,-135.5 811.5,-135.5 811.5,-120.5 678.5,-120.5"/>
-<text text-anchor="middle" x="745" y="-124.3" font-family="Times,serif" font-size="14.00">N₁ + N₂ = N₂ + N₁</text>
+<title>c_0_65</title>
+<g id="a_node1"><a xlink:href="c_0_65.html" xlink:title="{to_power(tau,sk₁ + 2) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="396.5,-120.5 396.5,-135.5 981.5,-135.5 981.5,-120.5 396.5,-120.5"/>
+<text text-anchor="middle" x="689" y="-124.3" font-family="Times,serif" font-size="14.00">to_power(tau,sk₁ + 2) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))</text>
 </a>
 </g>
 </g>
 <!-- c_0_70 -->
 <g id="node4" class="node">
 <title>c_0_70</title>
-<g id="a_node4"><a xlink:href="c_0_70.html" xlink:title="{to_power(tau,2 + sk₁) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="347.5,-68.5 347.5,-83.5 932.5,-83.5 932.5,-68.5 347.5,-68.5"/>
-<text text-anchor="middle" x="640" y="-72.3" font-family="Times,serif" font-size="14.00">to_power(tau,2 + sk₁) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))</text>
+<g id="a_node4"><a xlink:href="c_0_70.html" xlink:title="{to_power(tau,2 + sk₁) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="65.5,-68.5 65.5,-83.5 650.5,-83.5 650.5,-68.5 65.5,-68.5"/>
+<text text-anchor="middle" x="358" y="-72.3" font-family="Times,serif" font-size="14.00">to_power(tau,2 + sk₁) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))</text>
 </a>
 </g>
 </g>
-<!-- c_0_62&#45;&gt;c_0_70 -->
+<!-- c_0_65&#45;&gt;c_0_70 -->
 <g id="edge1" class="edge">
-<title>c_0_62&#45;&gt;c_0_70</title>
-<path fill="none" stroke="black" d="M745,-120.33C745,-120.33 745,-93.7 745,-93.7"/>
-<polygon fill="black" stroke="black" points="748.5,-93.7 745,-83.7 741.5,-93.7 748.5,-93.7"/>
+<title>c_0_65&#45;&gt;c_0_70</title>
+<path fill="none" stroke="black" d="M523.5,-120.33C523.5,-120.33 523.5,-93.7 523.5,-93.7"/>
+<polygon fill="black" stroke="black" points="527,-93.7 523.5,-83.7 520,-93.7 527,-93.7"/>
 </g>
 <!-- c_0_71 -->
 <g id="node2" class="node">
 <title>c_0_71</title>
-<g id="a_node2"><a xlink:href="c_0_71.html" xlink:title="{2 ∈ ℂ}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="620,-120.5 620,-135.5 660,-135.5 660,-120.5 620,-120.5"/>
-<text text-anchor="middle" x="640" y="-124.3" font-family="Times,serif" font-size="14.00">2 ∈ ℂ</text>
+<g id="a_node2"><a xlink:href="c_0_71.html" xlink:title="{2 ∈ ℂ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="338,-120.5 338,-135.5 378,-135.5 378,-120.5 338,-120.5"/>
+<text text-anchor="middle" x="358" y="-124.3" font-family="Times,serif" font-size="14.00">2 ∈ ℂ</text>
 </a>
 </g>
 </g>
 <!-- c_0_71&#45;&gt;c_0_70 -->
 <g id="edge2" class="edge">
 <title>c_0_71&#45;&gt;c_0_70</title>
-<path fill="none" stroke="black" d="M640,-120.33C640,-120.33 640,-93.7 640,-93.7"/>
-<polygon fill="black" stroke="black" points="643.5,-93.7 640,-83.7 636.5,-93.7 643.5,-93.7"/>
+<path fill="none" stroke="black" d="M358,-120.33C358,-120.33 358,-93.7 358,-93.7"/>
+<polygon fill="black" stroke="black" points="361.5,-93.7 358,-83.7 354.5,-93.7 361.5,-93.7"/>
 </g>
-<!-- c_0_65 -->
+<!-- c_0_62 -->
 <g id="node3" class="node">
-<title>c_0_65</title>
-<g id="a_node3"><a xlink:href="c_0_65.html" xlink:title="{to_power(tau,sk₁ + 2) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-120.5 16.5,-135.5 601.5,-135.5 601.5,-120.5 16.5,-120.5"/>
-<text text-anchor="middle" x="309" y="-124.3" font-family="Times,serif" font-size="14.00">to_power(tau,sk₁ + 2) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))</text>
+<title>c_0_62</title>
+<g id="a_node3"><a xlink:href="c_0_62.html" xlink:title="{C₁ + C₂ = C₂ + C₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="192.5,-120.5 192.5,-135.5 319.5,-135.5 319.5,-120.5 192.5,-120.5"/>
+<text text-anchor="middle" x="256" y="-124.3" font-family="Times,serif" font-size="14.00">C₁ + C₂ = C₂ + C₁</text>
 </a>
 </g>
 </g>
-<!-- c_0_65&#45;&gt;c_0_70 -->
+<!-- c_0_62&#45;&gt;c_0_70 -->
 <g id="edge3" class="edge">
-<title>c_0_65&#45;&gt;c_0_70</title>
-<path fill="none" stroke="black" d="M474.5,-120.33C474.5,-120.33 474.5,-93.7 474.5,-93.7"/>
-<polygon fill="black" stroke="black" points="478,-93.7 474.5,-83.7 471,-93.7 478,-93.7"/>
+<title>c_0_62&#45;&gt;c_0_70</title>
+<path fill="none" stroke="black" d="M256,-120.33C256,-120.33 256,-93.7 256,-93.7"/>
+<polygon fill="black" stroke="black" points="259.5,-93.7 256,-83.7 252.5,-93.7 259.5,-93.7"/>
 </g>
 <!-- c_0_92 -->
 <g id="node5" class="node">
 <title>c_0_92</title>
-<g id="a_node5"><a xlink:href="c_0_92.html" xlink:title="{to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1)) ≠ to_power(tau,2) * to_power(tau,sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="298.5,-16.5 298.5,-31.5 981.5,-31.5 981.5,-16.5 298.5,-16.5"/>
-<text text-anchor="middle" x="640" y="-20.3" font-family="Times,serif" font-size="14.00">to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1)) ≠ to_power(tau,2) * to_power(tau,sk₁)</text>
+<g id="a_node5"><a xlink:href="c_0_92.html" xlink:title="{to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1)) ≠ to_power(tau,2) * to_power(tau,sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-31.5 699.5,-31.5 699.5,-16.5 16.5,-16.5"/>
+<text text-anchor="middle" x="358" y="-20.3" font-family="Times,serif" font-size="14.00">to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1)) ≠ to_power(tau,2) * to_power(tau,sk₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_70&#45;&gt;c_0_92 -->
 <g id="edge4" class="edge">
 <title>c_0_70&#45;&gt;c_0_92</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M640,-68.33C640,-68.33 640,-41.7 640,-41.7"/>
-<polygon fill="black" stroke="black" points="643.5,-41.7 640,-31.7 636.5,-41.7 643.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M358,-68.33C358,-68.33 358,-41.7 358,-41.7"/>
+<polygon fill="black" stroke="black" points="361.5,-41.7 358,-31.7 354.5,-41.7 361.5,-41.7"/>
 </g>
 </g>
 </svg>

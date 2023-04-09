@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="481,-202 481,-234 585,-234 585,-202 481,-202"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="381,-202 381,-234 485,-234 485,-202 381,-202"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="346,-105 346,-182 720,-182 720,-105 346,-105"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="246,-105 246,-182 620,-182 620,-105 246,-105"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,74 +23,74 @@
 <!-- t6_fib_num3 -->
 <g id="node1" class="node">
 <title>t6_fib_num3</title>
-<g id="a_node1"><a xlink:href="t6_fib_num3.html" xlink:title="t6_fib_num3" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="489,-210.5 489,-225.5 577,-225.5 577,-210.5 489,-210.5"/>
-<text text-anchor="middle" x="533" y="-214.3" font-family="Times,serif" font-size="14.00">t6_fib_num3</text>
+<g id="a_node1"><a xlink:href="t6_fib_num3.html" xlink:title="t6_fib_num3" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="389,-210.5 389,-225.5 477,-225.5 477,-210.5 389,-210.5"/>
+<text text-anchor="middle" x="433" y="-214.3" font-family="Times,serif" font-size="14.00">t6_fib_num3</text>
 </a>
 </g>
 </g>
 <!-- c_0_53 -->
 <g id="node2" class="node">
 <title>c_0_53</title>
-<g id="a_node2"><a xlink:href="c_0_53.html" xlink:title="{X₁ ∈ ℕ|⇊|R₂ = Ø|to_power(to_power(R₂,X₁),2) = to_power(R₂,2 * X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="354,-113.5 354,-173.5 712,-173.5 712,-113.5 354,-113.5"/>
-<text text-anchor="middle" x="533" y="-162.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ</text>
-<polyline fill="none" stroke="#7f7542" points="354,-158.5 712,-158.5 "/>
-<text text-anchor="middle" x="533" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="354,-143.5 712,-143.5 "/>
-<text text-anchor="middle" x="533" y="-132.3" font-family="Times,serif" font-size="14.00">R₂ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="354,-128.5 712,-128.5 "/>
-<text text-anchor="middle" x="533" y="-117.3" font-family="Times,serif" font-size="14.00">to_power(to_power(R₂,X₁),2) = to_power(R₂,2 * X₁)</text>
+<g id="a_node2"><a xlink:href="c_0_53.html" xlink:title="{X₁ ∈ ℕ|⇊|R₂ = Ø|to_power(to_power(R₂,X₁),2) = to_power(R₂,2 * X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="254,-113.5 254,-173.5 612,-173.5 612,-113.5 254,-113.5"/>
+<text text-anchor="middle" x="433" y="-162.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ</text>
+<polyline fill="none" stroke="#7f7542" points="254,-158.5 612,-158.5 "/>
+<text text-anchor="middle" x="433" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="254,-143.5 612,-143.5 "/>
+<text text-anchor="middle" x="433" y="-132.3" font-family="Times,serif" font-size="14.00">R₂ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="254,-128.5 612,-128.5 "/>
+<text text-anchor="middle" x="433" y="-117.3" font-family="Times,serif" font-size="14.00">to_power(to_power(R₂,X₁),2) = to_power(R₂,2 * X₁)</text>
 </a>
 </g>
 </g>
 <!-- t6_fib_num3&#45;&gt;c_0_53 -->
 <g id="edge1" class="edge">
 <title>t6_fib_num3&#45;&gt;c_0_53</title>
-<path fill="none" stroke="black" d="M533,-210.31C533,-210.31 533,-183.51 533,-183.51"/>
-<polygon fill="black" stroke="black" points="536.5,-183.51 533,-173.51 529.5,-183.51 536.5,-183.51"/>
-</g>
-<!-- c_0_71 -->
-<g id="node3" class="node">
-<title>c_0_71</title>
-<g id="a_node3"><a xlink:href="c_0_71.html" xlink:title="{X₂ ∈ ℕ|⇊|R₁ = Ø|to_power(R₁,X₂ * 2) = to_power(to_power(R₁,X₂),2)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="592,-16.5 592,-76.5 950,-76.5 950,-16.5 592,-16.5"/>
-<text text-anchor="middle" x="771" y="-65.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℕ</text>
-<polyline fill="none" stroke="#7f7542" points="592,-61.5 950,-61.5 "/>
-<text text-anchor="middle" x="771" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="592,-46.5 950,-46.5 "/>
-<text text-anchor="middle" x="771" y="-35.3" font-family="Times,serif" font-size="14.00">R₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="592,-31.5 950,-31.5 "/>
-<text text-anchor="middle" x="771" y="-20.3" font-family="Times,serif" font-size="14.00">to_power(R₁,X₂ * 2) = to_power(to_power(R₁,X₂),2)</text>
-</a>
-</g>
-</g>
-<!-- c_0_53&#45;&gt;c_0_71 -->
-<g id="edge2" class="edge">
-<title>c_0_53&#45;&gt;c_0_71</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M652,-113.34C652,-113.34 652,-86.64 652,-86.64"/>
-<polygon fill="black" stroke="black" points="655.5,-86.64 652,-76.64 648.5,-86.64 655.5,-86.64"/>
+<path fill="none" stroke="black" d="M433,-210.31C433,-210.31 433,-183.51 433,-183.51"/>
+<polygon fill="black" stroke="black" points="436.5,-183.51 433,-173.51 429.5,-183.51 436.5,-183.51"/>
 </g>
 <!-- c_0_62 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_62</title>
-<g id="a_node4"><a xlink:href="c_0_62.html" xlink:title="{X₁ ∈ ℕ|⇊|&#45;(to_power(tau,2 * X₁),to_power(to_power(tau_bar,X₁),2)) / sqrt(5) = Fib(2 * X₁)|tau_bar = Ø}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-76.5 573.5,-76.5 573.5,-16.5 16.5,-16.5"/>
-<text text-anchor="middle" x="295" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-61.5 573.5,-61.5 "/>
-<text text-anchor="middle" x="295" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-46.5 573.5,-46.5 "/>
-<text text-anchor="middle" x="295" y="-35.3" font-family="Times,serif" font-size="14.00">&#45;(to_power(tau,2 * X₁),to_power(to_power(tau_bar,X₁),2)) / sqrt(5) = Fib(2 * X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-31.5 573.5,-31.5 "/>
-<text text-anchor="middle" x="295" y="-20.3" font-family="Times,serif" font-size="14.00">tau_bar = Ø</text>
+<g id="a_node3"><a xlink:href="c_0_62.html" xlink:title="{X₁ ∈ ℕ|⇊|&#45;(to_power(tau,2 * X₁),to_power(to_power(tau_bar,X₁),2)) / sqrt(5) = Fib(2 * X₁)|tau_bar = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="392.5,-16.5 392.5,-76.5 949.5,-76.5 949.5,-16.5 392.5,-16.5"/>
+<text text-anchor="middle" x="671" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ</text>
+<polyline fill="none" stroke="#7f7542" points="392.5,-61.5 949.5,-61.5 "/>
+<text text-anchor="middle" x="671" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="392.5,-46.5 949.5,-46.5 "/>
+<text text-anchor="middle" x="671" y="-35.3" font-family="Times,serif" font-size="14.00">&#45;(to_power(tau,2 * X₁),to_power(to_power(tau_bar,X₁),2)) / sqrt(5) = Fib(2 * X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="392.5,-31.5 949.5,-31.5 "/>
+<text text-anchor="middle" x="671" y="-20.3" font-family="Times,serif" font-size="14.00">tau_bar = Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_53&#45;&gt;c_0_62 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_53&#45;&gt;c_0_62</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M463.75,-113.34C463.75,-113.34 463.75,-86.64 463.75,-86.64"/>
-<polygon fill="black" stroke="black" points="467.25,-86.64 463.75,-76.64 460.25,-86.64 467.25,-86.64"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M502.25,-113.34C502.25,-113.34 502.25,-86.64 502.25,-86.64"/>
+<polygon fill="black" stroke="black" points="505.75,-86.64 502.25,-76.64 498.75,-86.64 505.75,-86.64"/>
+</g>
+<!-- c_0_71 -->
+<g id="node4" class="node">
+<title>c_0_71</title>
+<g id="a_node4"><a xlink:href="c_0_71.html" xlink:title="{X₂ ∈ ℕ|⇊|R₁ = Ø|to_power(R₁,X₂ * 2) = to_power(to_power(R₁,X₂),2)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-76.5 374,-76.5 374,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="195" y="-65.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℕ</text>
+<polyline fill="none" stroke="#7f7542" points="16,-61.5 374,-61.5 "/>
+<text text-anchor="middle" x="195" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-46.5 374,-46.5 "/>
+<text text-anchor="middle" x="195" y="-35.3" font-family="Times,serif" font-size="14.00">R₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="16,-31.5 374,-31.5 "/>
+<text text-anchor="middle" x="195" y="-20.3" font-family="Times,serif" font-size="14.00">to_power(R₁,X₂ * 2) = to_power(to_power(R₁,X₂),2)</text>
+</a>
+</g>
+</g>
+<!-- c_0_53&#45;&gt;c_0_71 -->
+<g id="edge3" class="edge">
+<title>c_0_53&#45;&gt;c_0_71</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M314,-113.34C314,-113.34 314,-86.64 314,-86.64"/>
+<polygon fill="black" stroke="black" points="317.5,-86.64 314,-76.64 310.5,-86.64 317.5,-86.64"/>
 </g>
 </g>
 </svg>

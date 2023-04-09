@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="348,-60 348,-92 454,-92 454,-60 348,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="320,-60 320,-92 426,-92 426,-60 320,-60"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,16 +19,16 @@
 <!-- t16_convex1 -->
 <g id="node1" class="node">
 <title>t16_convex1</title>
-<g id="a_node1"><a xlink:href="t16_convex1.html" xlink:title="t16_convex1" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="356,-68.5 356,-83.5 446,-83.5 446,-68.5 356,-68.5"/>
-<text text-anchor="middle" x="401" y="-72.3" font-family="Times,serif" font-size="14.00">t16_convex1</text>
+<g id="a_node1"><a xlink:href="t16_convex1.html" xlink:title="t16_convex1" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="328,-68.5 328,-83.5 418,-83.5 418,-68.5 328,-68.5"/>
+<text text-anchor="middle" x="373" y="-72.3" font-family="Times,serif" font-size="14.00">t16_convex1</text>
 </a>
 </g>
 </g>
 <!-- c_0_128 -->
 <g id="node2" class="node">
 <title>c_0_128</title>
-<g id="a_node2"><a xlink:href="c_0_128.html" xlink:title="{Affine(sk₂,sk₁)}" target="_parent">
+<g id="a_node2"><a xlink:href="c_0_128.html" xlink:title="{Affine(sk₂,sk₁)}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="594.5,-16.5 594.5,-31.5 693.5,-31.5 693.5,-16.5 594.5,-16.5"/>
 <text text-anchor="middle" x="644" y="-20.3" font-family="Times,serif" font-size="14.00">Affine(sk₂,sk₁)</text>
 </a>
@@ -37,13 +37,13 @@
 <!-- t16_convex1&#45;&gt;c_0_128 -->
 <g id="edge1" class="edge">
 <title>t16_convex1&#45;&gt;c_0_128</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M446.14,-78C516.41,-78 644,-78 644,-78 644,-78 644,-41.51 644,-41.51"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M418.05,-78C495.11,-78 644,-78 644,-78 644,-78 644,-41.51 644,-41.51"/>
 <polygon fill="black" stroke="black" points="647.5,-41.51 644,-31.51 640.5,-41.51 647.5,-41.51"/>
 </g>
 <!-- c_0_131 -->
 <g id="node3" class="node">
 <title>c_0_131</title>
-<g id="a_node3"><a xlink:href="c_0_131.html" xlink:title="{¬ (empty(sk₁))}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_131.html" xlink:title="{¬ (empty(sk₁))}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="472,-16.5 472,-31.5 576,-31.5 576,-16.5 472,-16.5"/>
 <text text-anchor="middle" x="524" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (empty(sk₁))</text>
 </a>
@@ -52,53 +52,53 @@
 <!-- t16_convex1&#45;&gt;c_0_131 -->
 <g id="edge2" class="edge">
 <title>t16_convex1&#45;&gt;c_0_131</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M446.1,-73C481.21,-73 524,-73 524,-73 524,-73 524,-41.66 524,-41.66"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M418.3,-73C462.78,-73 524,-73 524,-73 524,-73 524,-41.66 524,-41.66"/>
 <polygon fill="black" stroke="black" points="527.5,-41.66 524,-31.66 520.5,-41.66 527.5,-41.66"/>
 </g>
-<!-- c_0_130 -->
-<g id="node4" class="node">
-<title>c_0_130</title>
-<g id="a_node4"><a xlink:href="c_0_130.html" xlink:title="{RLSStruct(sk₁)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="348,-16.5 348,-31.5 454,-31.5 454,-16.5 348,-16.5"/>
-<text text-anchor="middle" x="401" y="-20.3" font-family="Times,serif" font-size="14.00">RLSStruct(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t16_convex1&#45;&gt;c_0_130 -->
-<g id="edge3" class="edge">
-<title>t16_convex1&#45;&gt;c_0_130</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M401,-68.33C401,-68.33 401,-41.7 401,-41.7"/>
-<polygon fill="black" stroke="black" points="404.5,-41.7 401,-31.7 397.5,-41.7 404.5,-41.7"/>
-</g>
 <!-- c_0_129 -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>c_0_129</title>
-<g id="a_node5"><a xlink:href="c_0_129.html" xlink:title="{sk₂ ∈ bool(carrier(sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="168,-16.5 168,-31.5 330,-31.5 330,-16.5 168,-16.5"/>
-<text text-anchor="middle" x="249" y="-20.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(carrier(sk₁))</text>
+<g id="a_node4"><a xlink:href="c_0_129.html" xlink:title="{sk₂ ∈ bool(carrier(sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="292,-16.5 292,-31.5 454,-31.5 454,-16.5 292,-16.5"/>
+<text text-anchor="middle" x="373" y="-20.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ bool(carrier(sk₁))</text>
 </a>
 </g>
 </g>
 <!-- t16_convex1&#45;&gt;c_0_129 -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>t16_convex1&#45;&gt;c_0_129</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M355.81,-73C311,-73 249,-73 249,-73 249,-73 249,-41.66 249,-41.66"/>
-<polygon fill="black" stroke="black" points="252.5,-41.66 249,-31.66 245.5,-41.66 252.5,-41.66"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M373,-68.33C373,-68.33 373,-41.7 373,-41.7"/>
+<polygon fill="black" stroke="black" points="376.5,-41.7 373,-31.7 369.5,-41.7 376.5,-41.7"/>
 </g>
 <!-- c_0_126 -->
-<g id="node6" class="node">
+<g id="node5" class="node">
 <title>c_0_126</title>
-<g id="a_node6"><a xlink:href="c_0_126.html" xlink:title="{¬ (convex(sk₂,sk₁))}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 150,-31.5 150,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="83" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (convex(sk₂,sk₁))</text>
+<g id="a_node5"><a xlink:href="c_0_126.html" xlink:title="{¬ (convex(sk₂,sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="140,-16.5 140,-31.5 274,-31.5 274,-16.5 140,-16.5"/>
+<text text-anchor="middle" x="207" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (convex(sk₂,sk₁))</text>
 </a>
 </g>
 </g>
 <!-- t16_convex1&#45;&gt;c_0_126 -->
-<g id="edge5" class="edge">
+<g id="edge4" class="edge">
 <title>t16_convex1&#45;&gt;c_0_126</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M355.78,-78C267.98,-78 83,-78 83,-78 83,-78 83,-41.51 83,-41.51"/>
-<polygon fill="black" stroke="black" points="86.5,-41.51 83,-31.51 79.5,-41.51 86.5,-41.51"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M327.64,-73C278.49,-73 207,-73 207,-73 207,-73 207,-41.66 207,-41.66"/>
+<polygon fill="black" stroke="black" points="210.5,-41.66 207,-31.66 203.5,-41.66 210.5,-41.66"/>
+</g>
+<!-- c_0_130 -->
+<g id="node6" class="node">
+<title>c_0_130</title>
+<g id="a_node6"><a xlink:href="c_0_130.html" xlink:title="{RLSStruct(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 122,-31.5 122,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="69" y="-20.3" font-family="Times,serif" font-size="14.00">RLSStruct(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t16_convex1&#45;&gt;c_0_130 -->
+<g id="edge5" class="edge">
+<title>t16_convex1&#45;&gt;c_0_130</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M327.82,-78C243.13,-78 69,-78 69,-78 69,-78 69,-41.51 69,-41.51"/>
+<polygon fill="black" stroke="black" points="72.5,-41.51 69,-31.51 65.5,-41.51 72.5,-41.51"/>
 </g>
 </g>
 </svg>

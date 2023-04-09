@@ -14,178 +14,178 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="143,-285 143,-527 467,-527 467,-285 143,-285"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="198,-285 198,-527 522,-527 522,-285 198,-285"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="143,-8 143,-265 467,-265 467,-8 143,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="198,-8 198,-265 522,-265 522,-8 198,-8"/>
 </g>
-<!-- c_0_67 -->
+<!-- c_0_66 -->
 <g id="node1" class="node">
-<title>c_0_67</title>
-<g id="a_node1"><a xlink:href="c_0_67.html" xlink:title="{X₁ ∈ bool(X₂ × X₃)|⇊|relation(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="454.5,-645.5 454.5,-690.5 581.5,-690.5 581.5,-645.5 454.5,-645.5"/>
-<text text-anchor="middle" x="518" y="-679.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₂ × X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="454.5,-675.5 581.5,-675.5 "/>
-<text text-anchor="middle" x="518" y="-664.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="454.5,-660.5 581.5,-660.5 "/>
-<text text-anchor="middle" x="518" y="-649.3" font-family="Times,serif" font-size="14.00">relation(X₁)</text>
+<title>c_0_66</title>
+<g id="a_node1"><a xlink:href="c_0_66.html" xlink:title="{X₂ ∈ X₃|function(X₁ &#45;&#45;&amp;gt; X₂)|relation(X₁ &#45;&#45;&amp;gt; X₂)|⇊|(X₁ &#45;&#45;&amp;gt; X₂) .: X₁ ⊆ X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="442,-630.5 442,-705.5 582,-705.5 582,-630.5 442,-630.5"/>
+<text text-anchor="middle" x="512" y="-694.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₃</text>
+<polyline fill="none" stroke="#7f7542" points="442,-690.5 582,-690.5 "/>
+<text text-anchor="middle" x="512" y="-679.3" font-family="Times,serif" font-size="14.00">function(X₁ &#45;&#45;&gt; X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="442,-675.5 582,-675.5 "/>
+<text text-anchor="middle" x="512" y="-664.3" font-family="Times,serif" font-size="14.00">relation(X₁ &#45;&#45;&gt; X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="442,-660.5 582,-660.5 "/>
+<text text-anchor="middle" x="512" y="-649.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="442,-645.5 582,-645.5 "/>
+<text text-anchor="middle" x="512" y="-634.3" font-family="Times,serif" font-size="14.00">(X₁ &#45;&#45;&gt; X₂) .: X₁ ⊆ X₃</text>
 </a>
 </g>
 </g>
 <!-- c_0_82 -->
 <g id="node4" class="node">
 <title>c_0_82</title>
-<g id="a_node4"><a xlink:href="c_0_82.html" xlink:title="{TopSpace&#45;like(X₃)|TopSpace&#45;like(X₄)|TopStruct(X₃)|TopStruct(X₄)|X₁ &#45;&#45;&amp;gt; X₂ ∈ bool(carrier(X₃) × carrier(X₄))|X₁ ∈ bool(carrier(X₃))|X₂ ∈ sk₁₀(X₃,X₄,X₁ &#45;&#45;&amp;gt; X₂)|function(X₁ &#45;&#45;&amp;gt; X₂)|open(X₁,X₃)|quasi_total(X₁ &#45;&#45;&amp;gt; X₂,carrier(X₃),carrier(X₄))|sk₉(X₃,X₄,X₁ &#45;&#45;&amp;gt; X₂) ∈ X₁|⇊|continuous(X₁ &#45;&#45;&amp;gt; X₂,X₃,X₄)|empty(X₃)|empty(X₄)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="151.5,-293.5 151.5,-518.5 458.5,-518.5 458.5,-293.5 151.5,-293.5"/>
-<text text-anchor="middle" x="305" y="-507.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-503.5 458.5,-503.5 "/>
-<text text-anchor="middle" x="305" y="-492.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₄)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-488.5 458.5,-488.5 "/>
-<text text-anchor="middle" x="305" y="-477.3" font-family="Times,serif" font-size="14.00">TopStruct(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-473.5 458.5,-473.5 "/>
-<text text-anchor="middle" x="305" y="-462.3" font-family="Times,serif" font-size="14.00">TopStruct(X₄)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-458.5 458.5,-458.5 "/>
-<text text-anchor="middle" x="305" y="-447.3" font-family="Times,serif" font-size="14.00">X₁ &#45;&#45;&gt; X₂ ∈ bool(carrier(X₃) × carrier(X₄))</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-443.5 458.5,-443.5 "/>
-<text text-anchor="middle" x="305" y="-432.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(X₃))</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-428.5 458.5,-428.5 "/>
-<text text-anchor="middle" x="305" y="-417.3" font-family="Times,serif" font-size="14.00">X₂ ∈ sk₁₀(X₃,X₄,X₁ &#45;&#45;&gt; X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-413.5 458.5,-413.5 "/>
-<text text-anchor="middle" x="305" y="-402.3" font-family="Times,serif" font-size="14.00">function(X₁ &#45;&#45;&gt; X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-398.5 458.5,-398.5 "/>
-<text text-anchor="middle" x="305" y="-387.3" font-family="Times,serif" font-size="14.00">open(X₁,X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-383.5 458.5,-383.5 "/>
-<text text-anchor="middle" x="305" y="-372.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁ &#45;&#45;&gt; X₂,carrier(X₃),carrier(X₄))</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-368.5 458.5,-368.5 "/>
-<text text-anchor="middle" x="305" y="-357.3" font-family="Times,serif" font-size="14.00">sk₉(X₃,X₄,X₁ &#45;&#45;&gt; X₂) ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-353.5 458.5,-353.5 "/>
-<text text-anchor="middle" x="305" y="-342.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-338.5 458.5,-338.5 "/>
-<text text-anchor="middle" x="305" y="-327.3" font-family="Times,serif" font-size="14.00">continuous(X₁ &#45;&#45;&gt; X₂,X₃,X₄)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-323.5 458.5,-323.5 "/>
-<text text-anchor="middle" x="305" y="-312.3" font-family="Times,serif" font-size="14.00">empty(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-308.5 458.5,-308.5 "/>
-<text text-anchor="middle" x="305" y="-297.3" font-family="Times,serif" font-size="14.00">empty(X₄)</text>
-</a>
-</g>
-</g>
-<!-- c_0_67&#45;&gt;c_0_82 -->
-<g id="edge1" class="edge">
-<title>c_0_67&#45;&gt;c_0_82</title>
-<path fill="none" stroke="black" d="M454.46,-668C448.86,-668 445.25,-668 445.25,-668 445.25,-668 445.25,-528.63 445.25,-528.63"/>
-<polygon fill="black" stroke="black" points="448.75,-528.63 445.25,-518.63 441.75,-528.63 448.75,-528.63"/>
-</g>
-<!-- c_0_65 -->
-<g id="node2" class="node">
-<title>c_0_65</title>
-<g id="a_node2"><a xlink:href="c_0_65.html" xlink:title="{TopSpace&#45;like(X₂)|TopSpace&#45;like(X₃)|TopStruct(X₂)|TopStruct(X₃)|X₁ .: X₄ ⊆ sk₁₀(X₂,X₃,X₁)|X₁ ∈ bool(carrier(X₂) × carrier(X₃))|X₄ ∈ bool(carrier(X₂))|function(X₁)|open(X₄,X₂)|quasi_total(X₁,carrier(X₂),carrier(X₃))|sk₉(X₂,X₃,X₁) ∈ X₄|⇊|continuous(X₁,X₂,X₃)|empty(X₂)|empty(X₃)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="174,-555.5 174,-780.5 436,-780.5 436,-555.5 174,-555.5"/>
-<text text-anchor="middle" x="305" y="-769.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="174,-765.5 436,-765.5 "/>
-<text text-anchor="middle" x="305" y="-754.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="174,-750.5 436,-750.5 "/>
-<text text-anchor="middle" x="305" y="-739.3" font-family="Times,serif" font-size="14.00">TopStruct(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="174,-735.5 436,-735.5 "/>
-<text text-anchor="middle" x="305" y="-724.3" font-family="Times,serif" font-size="14.00">TopStruct(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="174,-720.5 436,-720.5 "/>
-<text text-anchor="middle" x="305" y="-709.3" font-family="Times,serif" font-size="14.00">X₁ .: X₄ ⊆ sk₁₀(X₂,X₃,X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="174,-705.5 436,-705.5 "/>
-<text text-anchor="middle" x="305" y="-694.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(X₂) × carrier(X₃))</text>
-<polyline fill="none" stroke="#7f7542" points="174,-690.5 436,-690.5 "/>
-<text text-anchor="middle" x="305" y="-679.3" font-family="Times,serif" font-size="14.00">X₄ ∈ bool(carrier(X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="174,-675.5 436,-675.5 "/>
-<text text-anchor="middle" x="305" y="-664.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="174,-660.5 436,-660.5 "/>
-<text text-anchor="middle" x="305" y="-649.3" font-family="Times,serif" font-size="14.00">open(X₄,X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="174,-645.5 436,-645.5 "/>
-<text text-anchor="middle" x="305" y="-634.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,carrier(X₂),carrier(X₃))</text>
-<polyline fill="none" stroke="#7f7542" points="174,-630.5 436,-630.5 "/>
-<text text-anchor="middle" x="305" y="-619.3" font-family="Times,serif" font-size="14.00">sk₉(X₂,X₃,X₁) ∈ X₄</text>
-<polyline fill="none" stroke="#7f7542" points="174,-615.5 436,-615.5 "/>
-<text text-anchor="middle" x="305" y="-604.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="174,-600.5 436,-600.5 "/>
-<text text-anchor="middle" x="305" y="-589.3" font-family="Times,serif" font-size="14.00">continuous(X₁,X₂,X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="174,-585.5 436,-585.5 "/>
-<text text-anchor="middle" x="305" y="-574.3" font-family="Times,serif" font-size="14.00">empty(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="174,-570.5 436,-570.5 "/>
-<text text-anchor="middle" x="305" y="-559.3" font-family="Times,serif" font-size="14.00">empty(X₃)</text>
-</a>
-</g>
-</g>
-<!-- c_0_65&#45;&gt;c_0_82 -->
-<g id="edge2" class="edge">
-<title>c_0_65&#45;&gt;c_0_82</title>
-<path fill="none" stroke="black" d="M305,-555.37C305,-555.37 305,-528.54 305,-528.54"/>
-<polygon fill="black" stroke="black" points="308.5,-528.54 305,-518.54 301.5,-528.54 308.5,-528.54"/>
-</g>
-<!-- c_0_66 -->
-<g id="node3" class="node">
-<title>c_0_66</title>
-<g id="a_node3"><a xlink:href="c_0_66.html" xlink:title="{X₂ ∈ X₃|function(X₁ &#45;&#45;&amp;gt; X₂)|relation(X₁ &#45;&#45;&amp;gt; X₂)|⇊|(X₁ &#45;&#45;&amp;gt; X₂) .: X₁ ⊆ X₃}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-630.5 16,-705.5 156,-705.5 156,-630.5 16,-630.5"/>
-<text text-anchor="middle" x="86" y="-694.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₃</text>
-<polyline fill="none" stroke="#7f7542" points="16,-690.5 156,-690.5 "/>
-<text text-anchor="middle" x="86" y="-679.3" font-family="Times,serif" font-size="14.00">function(X₁ &#45;&#45;&gt; X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-675.5 156,-675.5 "/>
-<text text-anchor="middle" x="86" y="-664.3" font-family="Times,serif" font-size="14.00">relation(X₁ &#45;&#45;&gt; X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-660.5 156,-660.5 "/>
-<text text-anchor="middle" x="86" y="-649.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-645.5 156,-645.5 "/>
-<text text-anchor="middle" x="86" y="-634.3" font-family="Times,serif" font-size="14.00">(X₁ &#45;&#45;&gt; X₂) .: X₁ ⊆ X₃</text>
+<g id="a_node4"><a xlink:href="c_0_82.html" xlink:title="{TopSpace&#45;like(X₃)|TopSpace&#45;like(X₄)|TopStruct(X₃)|TopStruct(X₄)|X₁ &#45;&#45;&amp;gt; X₂ ∈ bool(carrier(X₃) × carrier(X₄))|X₁ ∈ bool(carrier(X₃))|X₂ ∈ sk₁₀(X₃,X₄,X₁ &#45;&#45;&amp;gt; X₂)|function(X₁ &#45;&#45;&amp;gt; X₂)|open(X₁,X₃)|quasi_total(X₁ &#45;&#45;&amp;gt; X₂,carrier(X₃),carrier(X₄))|sk₉(X₃,X₄,X₁ &#45;&#45;&amp;gt; X₂) ∈ X₁|⇊|continuous(X₁ &#45;&#45;&amp;gt; X₂,X₃,X₄)|empty(X₃)|empty(X₄)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="206.5,-293.5 206.5,-518.5 513.5,-518.5 513.5,-293.5 206.5,-293.5"/>
+<text text-anchor="middle" x="360" y="-507.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-503.5 513.5,-503.5 "/>
+<text text-anchor="middle" x="360" y="-492.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₄)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-488.5 513.5,-488.5 "/>
+<text text-anchor="middle" x="360" y="-477.3" font-family="Times,serif" font-size="14.00">TopStruct(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-473.5 513.5,-473.5 "/>
+<text text-anchor="middle" x="360" y="-462.3" font-family="Times,serif" font-size="14.00">TopStruct(X₄)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-458.5 513.5,-458.5 "/>
+<text text-anchor="middle" x="360" y="-447.3" font-family="Times,serif" font-size="14.00">X₁ &#45;&#45;&gt; X₂ ∈ bool(carrier(X₃) × carrier(X₄))</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-443.5 513.5,-443.5 "/>
+<text text-anchor="middle" x="360" y="-432.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(X₃))</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-428.5 513.5,-428.5 "/>
+<text text-anchor="middle" x="360" y="-417.3" font-family="Times,serif" font-size="14.00">X₂ ∈ sk₁₀(X₃,X₄,X₁ &#45;&#45;&gt; X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-413.5 513.5,-413.5 "/>
+<text text-anchor="middle" x="360" y="-402.3" font-family="Times,serif" font-size="14.00">function(X₁ &#45;&#45;&gt; X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-398.5 513.5,-398.5 "/>
+<text text-anchor="middle" x="360" y="-387.3" font-family="Times,serif" font-size="14.00">open(X₁,X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-383.5 513.5,-383.5 "/>
+<text text-anchor="middle" x="360" y="-372.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁ &#45;&#45;&gt; X₂,carrier(X₃),carrier(X₄))</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-368.5 513.5,-368.5 "/>
+<text text-anchor="middle" x="360" y="-357.3" font-family="Times,serif" font-size="14.00">sk₉(X₃,X₄,X₁ &#45;&#45;&gt; X₂) ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-353.5 513.5,-353.5 "/>
+<text text-anchor="middle" x="360" y="-342.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-338.5 513.5,-338.5 "/>
+<text text-anchor="middle" x="360" y="-327.3" font-family="Times,serif" font-size="14.00">continuous(X₁ &#45;&#45;&gt; X₂,X₃,X₄)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-323.5 513.5,-323.5 "/>
+<text text-anchor="middle" x="360" y="-312.3" font-family="Times,serif" font-size="14.00">empty(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-308.5 513.5,-308.5 "/>
+<text text-anchor="middle" x="360" y="-297.3" font-family="Times,serif" font-size="14.00">empty(X₄)</text>
 </a>
 </g>
 </g>
 <!-- c_0_66&#45;&gt;c_0_82 -->
-<g id="edge3" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_66&#45;&gt;c_0_82</title>
-<path fill="none" stroke="black" d="M156.24,-668C161.61,-668 165,-668 165,-668 165,-668 165,-528.63 165,-528.63"/>
-<polygon fill="black" stroke="black" points="168.5,-528.63 165,-518.63 161.5,-528.63 168.5,-528.63"/>
+<path fill="none" stroke="black" d="M477.75,-630.46C477.75,-630.46 477.75,-528.59 477.75,-528.59"/>
+<polygon fill="black" stroke="black" points="481.25,-528.59 477.75,-518.59 474.25,-528.59 481.25,-528.59"/>
+</g>
+<!-- c_0_67 -->
+<g id="node2" class="node">
+<title>c_0_67</title>
+<g id="a_node2"><a xlink:href="c_0_67.html" xlink:title="{X₁ ∈ bool(X₂ × X₃)|⇊|relation(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="296.5,-645.5 296.5,-690.5 423.5,-690.5 423.5,-645.5 296.5,-645.5"/>
+<text text-anchor="middle" x="360" y="-679.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₂ × X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="296.5,-675.5 423.5,-675.5 "/>
+<text text-anchor="middle" x="360" y="-664.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="296.5,-660.5 423.5,-660.5 "/>
+<text text-anchor="middle" x="360" y="-649.3" font-family="Times,serif" font-size="14.00">relation(X₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_67&#45;&gt;c_0_82 -->
+<g id="edge2" class="edge">
+<title>c_0_67&#45;&gt;c_0_82</title>
+<path fill="none" stroke="black" d="M360,-645.21C360,-645.21 360,-528.64 360,-528.64"/>
+<polygon fill="black" stroke="black" points="363.5,-528.64 360,-518.64 356.5,-528.64 363.5,-528.64"/>
+</g>
+<!-- c_0_65 -->
+<g id="node3" class="node">
+<title>c_0_65</title>
+<g id="a_node3"><a xlink:href="c_0_65.html" xlink:title="{TopSpace&#45;like(X₂)|TopSpace&#45;like(X₃)|TopStruct(X₂)|TopStruct(X₃)|X₁ .: X₄ ⊆ sk₁₀(X₂,X₃,X₁)|X₁ ∈ bool(carrier(X₂) × carrier(X₃))|X₄ ∈ bool(carrier(X₂))|function(X₁)|open(X₄,X₂)|quasi_total(X₁,carrier(X₂),carrier(X₃))|sk₉(X₂,X₃,X₁) ∈ X₄|⇊|continuous(X₁,X₂,X₃)|empty(X₂)|empty(X₃)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-555.5 16,-780.5 278,-780.5 278,-555.5 16,-555.5"/>
+<text text-anchor="middle" x="147" y="-769.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-765.5 278,-765.5 "/>
+<text text-anchor="middle" x="147" y="-754.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-750.5 278,-750.5 "/>
+<text text-anchor="middle" x="147" y="-739.3" font-family="Times,serif" font-size="14.00">TopStruct(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-735.5 278,-735.5 "/>
+<text text-anchor="middle" x="147" y="-724.3" font-family="Times,serif" font-size="14.00">TopStruct(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-720.5 278,-720.5 "/>
+<text text-anchor="middle" x="147" y="-709.3" font-family="Times,serif" font-size="14.00">X₁ .: X₄ ⊆ sk₁₀(X₂,X₃,X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-705.5 278,-705.5 "/>
+<text text-anchor="middle" x="147" y="-694.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(X₂) × carrier(X₃))</text>
+<polyline fill="none" stroke="#7f7542" points="16,-690.5 278,-690.5 "/>
+<text text-anchor="middle" x="147" y="-679.3" font-family="Times,serif" font-size="14.00">X₄ ∈ bool(carrier(X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="16,-675.5 278,-675.5 "/>
+<text text-anchor="middle" x="147" y="-664.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-660.5 278,-660.5 "/>
+<text text-anchor="middle" x="147" y="-649.3" font-family="Times,serif" font-size="14.00">open(X₄,X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-645.5 278,-645.5 "/>
+<text text-anchor="middle" x="147" y="-634.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,carrier(X₂),carrier(X₃))</text>
+<polyline fill="none" stroke="#7f7542" points="16,-630.5 278,-630.5 "/>
+<text text-anchor="middle" x="147" y="-619.3" font-family="Times,serif" font-size="14.00">sk₉(X₂,X₃,X₁) ∈ X₄</text>
+<polyline fill="none" stroke="#7f7542" points="16,-615.5 278,-615.5 "/>
+<text text-anchor="middle" x="147" y="-604.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-600.5 278,-600.5 "/>
+<text text-anchor="middle" x="147" y="-589.3" font-family="Times,serif" font-size="14.00">continuous(X₁,X₂,X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-585.5 278,-585.5 "/>
+<text text-anchor="middle" x="147" y="-574.3" font-family="Times,serif" font-size="14.00">empty(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-570.5 278,-570.5 "/>
+<text text-anchor="middle" x="147" y="-559.3" font-family="Times,serif" font-size="14.00">empty(X₃)</text>
+</a>
+</g>
+</g>
+<!-- c_0_65&#45;&gt;c_0_82 -->
+<g id="edge3" class="edge">
+<title>c_0_65&#45;&gt;c_0_82</title>
+<path fill="none" stroke="black" d="M242.25,-555.37C242.25,-555.37 242.25,-528.54 242.25,-528.54"/>
+<polygon fill="black" stroke="black" points="245.75,-528.54 242.25,-518.54 238.75,-528.54 245.75,-528.54"/>
 </g>
 <!-- c_0_95 -->
 <g id="node5" class="node">
 <title>c_0_95</title>
-<g id="a_node5"><a xlink:href="c_0_95.html" xlink:title="{TopSpace&#45;like(X₃)|TopSpace&#45;like(X₄)|TopStruct(X₃)|TopStruct(X₄)|X₁ &#45;&#45;&amp;gt; X₂ ∈ bool(carrier(X₃) × carrier(X₄))|X₁ ∈ bool(carrier(X₃))|X₂ ∈ sk₁₀(X₃,X₄,X₁ &#45;&#45;&amp;gt; X₂)|function(X₁ &#45;&#45;&amp;gt; X₂)|open(X₁,X₃)|quasi_total(X₁ &#45;&#45;&amp;gt; X₂,carrier(X₃),carrier(X₄))|sk₉(X₃,X₄,X₁ &#45;&#45;&amp;gt; X₂) ∈ X₁|⇊|X₁ = Ø|continuous(X₁ &#45;&#45;&amp;gt; X₂,X₃,X₄)|empty(X₃)|empty(X₄)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="151.5,-16.5 151.5,-256.5 458.5,-256.5 458.5,-16.5 151.5,-16.5"/>
-<text text-anchor="middle" x="305" y="-245.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-241.5 458.5,-241.5 "/>
-<text text-anchor="middle" x="305" y="-230.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₄)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-226.5 458.5,-226.5 "/>
-<text text-anchor="middle" x="305" y="-215.3" font-family="Times,serif" font-size="14.00">TopStruct(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-211.5 458.5,-211.5 "/>
-<text text-anchor="middle" x="305" y="-200.3" font-family="Times,serif" font-size="14.00">TopStruct(X₄)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-196.5 458.5,-196.5 "/>
-<text text-anchor="middle" x="305" y="-185.3" font-family="Times,serif" font-size="14.00">X₁ &#45;&#45;&gt; X₂ ∈ bool(carrier(X₃) × carrier(X₄))</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-181.5 458.5,-181.5 "/>
-<text text-anchor="middle" x="305" y="-170.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(X₃))</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-166.5 458.5,-166.5 "/>
-<text text-anchor="middle" x="305" y="-155.3" font-family="Times,serif" font-size="14.00">X₂ ∈ sk₁₀(X₃,X₄,X₁ &#45;&#45;&gt; X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-151.5 458.5,-151.5 "/>
-<text text-anchor="middle" x="305" y="-140.3" font-family="Times,serif" font-size="14.00">function(X₁ &#45;&#45;&gt; X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-136.5 458.5,-136.5 "/>
-<text text-anchor="middle" x="305" y="-125.3" font-family="Times,serif" font-size="14.00">open(X₁,X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-121.5 458.5,-121.5 "/>
-<text text-anchor="middle" x="305" y="-110.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁ &#45;&#45;&gt; X₂,carrier(X₃),carrier(X₄))</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-106.5 458.5,-106.5 "/>
-<text text-anchor="middle" x="305" y="-95.3" font-family="Times,serif" font-size="14.00">sk₉(X₃,X₄,X₁ &#45;&#45;&gt; X₂) ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-91.5 458.5,-91.5 "/>
-<text text-anchor="middle" x="305" y="-80.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-76.5 458.5,-76.5 "/>
-<text text-anchor="middle" x="305" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-61.5 458.5,-61.5 "/>
-<text text-anchor="middle" x="305" y="-50.3" font-family="Times,serif" font-size="14.00">continuous(X₁ &#45;&#45;&gt; X₂,X₃,X₄)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-46.5 458.5,-46.5 "/>
-<text text-anchor="middle" x="305" y="-35.3" font-family="Times,serif" font-size="14.00">empty(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="151.5,-31.5 458.5,-31.5 "/>
-<text text-anchor="middle" x="305" y="-20.3" font-family="Times,serif" font-size="14.00">empty(X₄)</text>
+<g id="a_node5"><a xlink:href="c_0_95.html" xlink:title="{TopSpace&#45;like(X₃)|TopSpace&#45;like(X₄)|TopStruct(X₃)|TopStruct(X₄)|X₁ &#45;&#45;&amp;gt; X₂ ∈ bool(carrier(X₃) × carrier(X₄))|X₁ ∈ bool(carrier(X₃))|X₂ ∈ sk₁₀(X₃,X₄,X₁ &#45;&#45;&amp;gt; X₂)|function(X₁ &#45;&#45;&amp;gt; X₂)|open(X₁,X₃)|quasi_total(X₁ &#45;&#45;&amp;gt; X₂,carrier(X₃),carrier(X₄))|sk₉(X₃,X₄,X₁ &#45;&#45;&amp;gt; X₂) ∈ X₁|⇊|X₁ = Ø|continuous(X₁ &#45;&#45;&amp;gt; X₂,X₃,X₄)|empty(X₃)|empty(X₄)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="206.5,-16.5 206.5,-256.5 513.5,-256.5 513.5,-16.5 206.5,-16.5"/>
+<text text-anchor="middle" x="360" y="-245.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-241.5 513.5,-241.5 "/>
+<text text-anchor="middle" x="360" y="-230.3" font-family="Times,serif" font-size="14.00">TopSpace&#45;like(X₄)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-226.5 513.5,-226.5 "/>
+<text text-anchor="middle" x="360" y="-215.3" font-family="Times,serif" font-size="14.00">TopStruct(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-211.5 513.5,-211.5 "/>
+<text text-anchor="middle" x="360" y="-200.3" font-family="Times,serif" font-size="14.00">TopStruct(X₄)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-196.5 513.5,-196.5 "/>
+<text text-anchor="middle" x="360" y="-185.3" font-family="Times,serif" font-size="14.00">X₁ &#45;&#45;&gt; X₂ ∈ bool(carrier(X₃) × carrier(X₄))</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-181.5 513.5,-181.5 "/>
+<text text-anchor="middle" x="360" y="-170.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(carrier(X₃))</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-166.5 513.5,-166.5 "/>
+<text text-anchor="middle" x="360" y="-155.3" font-family="Times,serif" font-size="14.00">X₂ ∈ sk₁₀(X₃,X₄,X₁ &#45;&#45;&gt; X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-151.5 513.5,-151.5 "/>
+<text text-anchor="middle" x="360" y="-140.3" font-family="Times,serif" font-size="14.00">function(X₁ &#45;&#45;&gt; X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-136.5 513.5,-136.5 "/>
+<text text-anchor="middle" x="360" y="-125.3" font-family="Times,serif" font-size="14.00">open(X₁,X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-121.5 513.5,-121.5 "/>
+<text text-anchor="middle" x="360" y="-110.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁ &#45;&#45;&gt; X₂,carrier(X₃),carrier(X₄))</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-106.5 513.5,-106.5 "/>
+<text text-anchor="middle" x="360" y="-95.3" font-family="Times,serif" font-size="14.00">sk₉(X₃,X₄,X₁ &#45;&#45;&gt; X₂) ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-91.5 513.5,-91.5 "/>
+<text text-anchor="middle" x="360" y="-80.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-76.5 513.5,-76.5 "/>
+<text text-anchor="middle" x="360" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-61.5 513.5,-61.5 "/>
+<text text-anchor="middle" x="360" y="-50.3" font-family="Times,serif" font-size="14.00">continuous(X₁ &#45;&#45;&gt; X₂,X₃,X₄)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-46.5 513.5,-46.5 "/>
+<text text-anchor="middle" x="360" y="-35.3" font-family="Times,serif" font-size="14.00">empty(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="206.5,-31.5 513.5,-31.5 "/>
+<text text-anchor="middle" x="360" y="-20.3" font-family="Times,serif" font-size="14.00">empty(X₄)</text>
 </a>
 </g>
 </g>
 <!-- c_0_82&#45;&gt;c_0_95 -->
 <g id="edge4" class="edge">
 <title>c_0_82&#45;&gt;c_0_95</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M305,-293.27C305,-293.27 305,-266.6 305,-266.6"/>
-<polygon fill="black" stroke="black" points="308.5,-266.6 305,-256.6 301.5,-266.6 308.5,-266.6"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M360,-293.27C360,-293.27 360,-266.6 360,-266.6"/>
+<polygon fill="black" stroke="black" points="363.5,-266.6 360,-256.6 356.5,-266.6 363.5,-266.6"/>
 </g>
 </g>
 </svg>

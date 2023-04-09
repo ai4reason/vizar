@@ -117,22 +117,22 @@ skolems:
   esk1_0:
     axiom: t19_matroid0
     related:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t19_matroid0
     related:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t19_matroid0
     related:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
     symbol: "sk\u2083"
   esk4_2:
@@ -152,17 +152,17 @@ steps:
       k5_card_1: 1
       r1_matroid0: 1
     skolems:
+    - esk3_0
     - esk2_0
     - esk1_0
-    - esk3_0
   c_0_101:
     counts:
       k1_zfmisc_1: 1
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
   c_0_102:
     counts:
       v4_matroid0: 1
@@ -226,16 +226,16 @@ steps:
       k5_card_1: 1
       r1_matroid0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
   c_0_120:
     counts:
       v1_finset_1: 1
       v3_matroid0: 1
     skolems:
-    - esk1_0
     - esk3_0
+    - esk1_0
   c_0_121:
     counts:
       k1_zfmisc_1: 3
@@ -269,8 +269,8 @@ steps:
       v3_pre_topc: 1
       v4_matroid0: 1
     skolems:
-    - esk4_2
     - esk8_3
+    - esk4_2
   c_0_123:
     counts:
       k1_zfmisc_1: 3
@@ -301,10 +301,10 @@ steps:
       u1_struct_0: 1
       v3_pre_topc: 1
     skolems:
-    - esk2_0
-    - esk8_3
     - esk1_0
     - esk3_0
+    - esk2_0
+    - esk8_3
   c_0_126:
     counts:
       v1_finset_1: 1
@@ -333,8 +333,8 @@ steps:
       v3_pencil_1: 1
       v4_matroid0: 1
     skolems:
-    - esk4_2
     - esk8_3
+    - esk4_2
   c_0_130:
     counts:
       k1_zfmisc_1: 2
@@ -360,10 +360,10 @@ steps:
       v1_finset_1: 1
       v3_pre_topc: 1
     skolems:
-    - esk2_0
-    - esk8_3
     - esk1_0
     - esk3_0
+    - esk2_0
+    - esk8_3
   c_0_132:
     counts:
       k1_zfmisc_1: 2
@@ -378,9 +378,9 @@ steps:
       r1_matroid0: 1
       r1_tarski: 1
     skolems:
+    - esk3_0
     - esk2_0
     - esk1_0
-    - esk3_0
   c_0_136:
     counts:
       k1_zfmisc_1: 2
@@ -409,9 +409,9 @@ steps:
       v1_finset_1: 2
       v3_pre_topc: 1
     skolems:
-    - esk2_0
-    - esk8_3
     - esk1_0
+    - esk8_3
+    - esk2_0
     - esk3_0
   c_0_140:
     counts:
@@ -453,16 +453,16 @@ steps:
       v3_matroid0: 1
       v3_pre_topc: 1
     skolems:
-    - esk2_0
-    - esk8_3
     - esk1_0
+    - esk8_3
+    - esk2_0
     - esk3_0
   c_0_143:
     counts:
       r1_tarski: 1
     skolems:
-    - esk2_0
     - esk3_0
+    - esk2_0
   c_0_144:
     counts:
       k4_matroid0: 1
@@ -470,8 +470,8 @@ steps:
       r1_matroid0: 1
       r1_tarski: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
   c_0_145:
     counts:
@@ -493,8 +493,8 @@ steps:
       r1_matroid0: 1
       v3_matroid0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
   c_0_147:
     counts:
@@ -503,8 +503,8 @@ steps:
       r1_matroid0: 1
       r1_tarski: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
   c_0_148:
     counts:
@@ -525,8 +525,8 @@ steps:
     counts:
       r1_matroid0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
   c_0_150:
     counts:
@@ -534,24 +534,24 @@ steps:
       k5_card_1: 1
       r1_matroid0: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
   c_0_151:
     counts:
       k5_card_1: 2
     skolems:
-    - esk2_0
-    - esk4_2
     - esk1_0
     - esk3_0
+    - esk2_0
+    - esk4_2
   c_0_152:
     counts:
       k4_matroid0: 1
       k5_card_1: 1
     skolems:
-    - esk2_0
     - esk1_0
+    - esk2_0
     - esk3_0
   c_0_20:
     counts:
@@ -1067,16 +1067,16 @@ steps:
     counts:
       v3_pre_topc: 1
     skolems:
-    - esk1_0
     - esk3_0
+    - esk1_0
   c_0_92:
     counts:
       k1_zfmisc_1: 1
       m1_subset_1: 1
       u1_struct_0: 1
     skolems:
-    - esk1_0
     - esk3_0
+    - esk1_0
   c_0_93:
     counts:
       l1_pre_topc: 1

@@ -10,98 +10,98 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-157 8,-249 300,-249 300,-157 8,-157"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="15,-157 15,-249 307,-249 307,-157 15,-157"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="126,-60 126,-137 302,-137 302,-60 126,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="13,-60 13,-137 189,-137 189,-60 13,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="121,-8 121,-40 307,-40 307,-8 121,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-40 194,-40 194,-8 8,-8"/>
 </g>
-<!-- c_0_66 -->
+<!-- c_0_105 -->
 <g id="node1" class="node">
-<title>c_0_66</title>
-<g id="a_node1"><a xlink:href="c_0_66.html" xlink:title="{0 = 0}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="252,-195.5 252,-210.5 292,-210.5 292,-195.5 252,-195.5"/>
-<text text-anchor="middle" x="272" y="-199.3" font-family="Times,serif" font-size="14.00">0 = 0</text>
+<title>c_0_105</title>
+<g id="a_node1"><a xlink:href="c_0_105.html" xlink:title="{0 ≤ 0|R₁ \|^ N₂ ≤ 1|⇊|N₂ ≤ 0|R₁ \|^ (sk₆(R₁) + 1) ≤ 1}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="139,-165.5 139,-240.5 299,-240.5 299,-165.5 139,-165.5"/>
+<text text-anchor="middle" x="219" y="-229.3" font-family="Times,serif" font-size="14.00">0 ≤ 0</text>
+<polyline fill="none" stroke="#7f7542" points="139,-225.5 299,-225.5 "/>
+<text text-anchor="middle" x="219" y="-214.3" font-family="Times,serif" font-size="14.00">R₁ |^ N₂ ≤ 1</text>
+<polyline fill="none" stroke="#7f7542" points="139,-210.5 299,-210.5 "/>
+<text text-anchor="middle" x="219" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="139,-195.5 299,-195.5 "/>
+<text text-anchor="middle" x="219" y="-184.3" font-family="Times,serif" font-size="14.00">N₂ ≤ 0</text>
+<polyline fill="none" stroke="#7f7542" points="139,-180.5 299,-180.5 "/>
+<text text-anchor="middle" x="219" y="-169.3" font-family="Times,serif" font-size="14.00">R₁ |^ (sk₆(R₁) + 1) ≤ 1</text>
 </a>
 </g>
 </g>
 <!-- c_0_139 -->
 <g id="node4" class="node">
 <title>c_0_139</title>
-<g id="a_node4"><a xlink:href="c_0_139.html" xlink:title="{R₁ \|^ C₂ ≤ 1|⇊|C₂ ≤ 0|R₁ \|^ (sk₆(R₁) + 1) ≤ 1}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="134,-68.5 134,-128.5 294,-128.5 294,-68.5 134,-68.5"/>
-<text text-anchor="middle" x="214" y="-117.3" font-family="Times,serif" font-size="14.00">R₁ |^ C₂ ≤ 1</text>
-<polyline fill="none" stroke="#7f7542" points="134,-113.5 294,-113.5 "/>
-<text text-anchor="middle" x="214" y="-102.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="134,-98.5 294,-98.5 "/>
-<text text-anchor="middle" x="214" y="-87.3" font-family="Times,serif" font-size="14.00">C₂ ≤ 0</text>
-<polyline fill="none" stroke="#7f7542" points="134,-83.5 294,-83.5 "/>
-<text text-anchor="middle" x="214" y="-72.3" font-family="Times,serif" font-size="14.00">R₁ |^ (sk₆(R₁) + 1) ≤ 1</text>
+<g id="a_node4"><a xlink:href="c_0_139.html" xlink:title="{R₁ \|^ N₂ ≤ 1|⇊|N₂ ≤ 0|R₁ \|^ (sk₆(R₁) + 1) ≤ 1}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="21,-68.5 21,-128.5 181,-128.5 181,-68.5 21,-68.5"/>
+<text text-anchor="middle" x="101" y="-117.3" font-family="Times,serif" font-size="14.00">R₁ |^ N₂ ≤ 1</text>
+<polyline fill="none" stroke="#7f7542" points="21,-113.5 181,-113.5 "/>
+<text text-anchor="middle" x="101" y="-102.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="21,-98.5 181,-98.5 "/>
+<text text-anchor="middle" x="101" y="-87.3" font-family="Times,serif" font-size="14.00">N₂ ≤ 0</text>
+<polyline fill="none" stroke="#7f7542" points="21,-83.5 181,-83.5 "/>
+<text text-anchor="middle" x="101" y="-72.3" font-family="Times,serif" font-size="14.00">R₁ |^ (sk₆(R₁) + 1) ≤ 1</text>
 </a>
 </g>
 </g>
-<!-- c_0_66&#45;&gt;c_0_139 -->
+<!-- c_0_105&#45;&gt;c_0_139 -->
 <g id="edge1" class="edge">
-<title>c_0_66&#45;&gt;c_0_139</title>
-<path fill="none" stroke="black" d="M272,-195.48C272,-195.48 272,-138.79 272,-138.79"/>
-<polygon fill="black" stroke="black" points="275.5,-138.79 272,-128.79 268.5,-138.79 275.5,-138.79"/>
+<title>c_0_105&#45;&gt;c_0_139</title>
+<path fill="none" stroke="black" d="M160,-165.27C160,-165.27 160,-138.64 160,-138.64"/>
+<polygon fill="black" stroke="black" points="163.5,-138.64 160,-128.64 156.5,-138.64 163.5,-138.64"/>
 </g>
 <!-- c_0_106 -->
 <g id="node2" class="node">
 <title>c_0_106</title>
-<g id="a_node2"><a xlink:href="c_0_106.html" xlink:title="{0 ≤ 0}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="194,-195.5 194,-210.5 234,-210.5 234,-195.5 194,-195.5"/>
-<text text-anchor="middle" x="214" y="-199.3" font-family="Times,serif" font-size="14.00">0 ≤ 0</text>
+<g id="a_node2"><a xlink:href="c_0_106.html" xlink:title="{0 ≤ 0}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="81,-195.5 81,-210.5 121,-210.5 121,-195.5 81,-195.5"/>
+<text text-anchor="middle" x="101" y="-199.3" font-family="Times,serif" font-size="14.00">0 ≤ 0</text>
 </a>
 </g>
 </g>
 <!-- c_0_106&#45;&gt;c_0_139 -->
 <g id="edge2" class="edge">
 <title>c_0_106&#45;&gt;c_0_139</title>
-<path fill="none" stroke="black" d="M214,-195.48C214,-195.48 214,-138.79 214,-138.79"/>
-<polygon fill="black" stroke="black" points="217.5,-138.79 214,-128.79 210.5,-138.79 217.5,-138.79"/>
+<path fill="none" stroke="black" d="M101,-195.48C101,-195.48 101,-138.79 101,-138.79"/>
+<polygon fill="black" stroke="black" points="104.5,-138.79 101,-128.79 97.5,-138.79 104.5,-138.79"/>
 </g>
-<!-- c_0_105 -->
+<!-- c_0_66 -->
 <g id="node3" class="node">
-<title>c_0_105</title>
-<g id="a_node3"><a xlink:href="c_0_105.html" xlink:title="{0 ≤ 0|R₁ \|^ C₂ ≤ 1|⇊|C₂ ≤ 0|R₁ \|^ (sk₆(R₁) + 1) ≤ 1}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-165.5 16,-240.5 176,-240.5 176,-165.5 16,-165.5"/>
-<text text-anchor="middle" x="96" y="-229.3" font-family="Times,serif" font-size="14.00">0 ≤ 0</text>
-<polyline fill="none" stroke="#7f7542" points="16,-225.5 176,-225.5 "/>
-<text text-anchor="middle" x="96" y="-214.3" font-family="Times,serif" font-size="14.00">R₁ |^ C₂ ≤ 1</text>
-<polyline fill="none" stroke="#7f7542" points="16,-210.5 176,-210.5 "/>
-<text text-anchor="middle" x="96" y="-199.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-195.5 176,-195.5 "/>
-<text text-anchor="middle" x="96" y="-184.3" font-family="Times,serif" font-size="14.00">C₂ ≤ 0</text>
-<polyline fill="none" stroke="#7f7542" points="16,-180.5 176,-180.5 "/>
-<text text-anchor="middle" x="96" y="-169.3" font-family="Times,serif" font-size="14.00">R₁ |^ (sk₆(R₁) + 1) ≤ 1</text>
+<title>c_0_66</title>
+<g id="a_node3"><a xlink:href="c_0_66.html" xlink:title="{0 = 0}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="23,-195.5 23,-210.5 63,-210.5 63,-195.5 23,-195.5"/>
+<text text-anchor="middle" x="43" y="-199.3" font-family="Times,serif" font-size="14.00">0 = 0</text>
 </a>
 </g>
 </g>
-<!-- c_0_105&#45;&gt;c_0_139 -->
+<!-- c_0_66&#45;&gt;c_0_139 -->
 <g id="edge3" class="edge">
-<title>c_0_105&#45;&gt;c_0_139</title>
-<path fill="none" stroke="black" d="M155,-165.27C155,-165.27 155,-138.64 155,-138.64"/>
-<polygon fill="black" stroke="black" points="158.5,-138.64 155,-128.64 151.5,-138.64 158.5,-138.64"/>
+<title>c_0_66&#45;&gt;c_0_139</title>
+<path fill="none" stroke="black" d="M43,-195.48C43,-195.48 43,-138.79 43,-138.79"/>
+<polygon fill="black" stroke="black" points="46.5,-138.79 43,-128.79 39.5,-138.79 46.5,-138.79"/>
 </g>
 <!-- c_0_155 -->
 <g id="node5" class="node">
 <title>c_0_155</title>
-<g id="a_node5"><a xlink:href="c_0_155.html" xlink:title="{sk₁ \|^ (sk₆(sk₁) + 1) ≤ 1}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="129,-16.5 129,-31.5 299,-31.5 299,-16.5 129,-16.5"/>
-<text text-anchor="middle" x="214" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ |^ (sk₆(sk₁) + 1) ≤ 1</text>
+<g id="a_node5"><a xlink:href="c_0_155.html" xlink:title="{sk₁ \|^ (sk₆(sk₁) + 1) ≤ 1}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 186,-31.5 186,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="101" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ |^ (sk₆(sk₁) + 1) ≤ 1</text>
 </a>
 </g>
 </g>
 <!-- c_0_139&#45;&gt;c_0_155 -->
 <g id="edge4" class="edge">
 <title>c_0_139&#45;&gt;c_0_155</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M214,-68.2C214,-68.2 214,-41.59 214,-41.59"/>
-<polygon fill="black" stroke="black" points="217.5,-41.59 214,-31.59 210.5,-41.59 217.5,-41.59"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M101,-68.2C101,-68.2 101,-41.59 101,-41.59"/>
+<polygon fill="black" stroke="black" points="104.5,-41.59 101,-31.59 97.5,-41.59 104.5,-41.59"/>
 </g>
 </g>
 </svg>

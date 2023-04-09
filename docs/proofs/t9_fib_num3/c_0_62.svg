@@ -14,7 +14,7 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="130,-60 130,-92 280,-92 280,-60 130,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="133,-60 133,-92 277,-92 277,-60 133,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -23,7 +23,7 @@
 <!-- commutativity_k2_xcmplx_0 -->
 <g id="node1" class="node">
 <title>commutativity_k2_xcmplx_0</title>
-<g id="a_node1"><a xlink:href="commutativity_k2_xcmplx_0.html" xlink:title="commutativity_k2_xcmplx_0" target="_parent">
+<g id="a_node1"><a xlink:href="commutativity_k2_xcmplx_0.html" xlink:title="commutativity_k2_xcmplx_0" target="_vizar">
 <polygon fill="#69d2e7" stroke="#7f7542" points="104,-120.5 104,-135.5 306,-135.5 306,-120.5 104,-120.5"/>
 <text text-anchor="middle" x="205" y="-124.3" font-family="Times,serif" font-size="14.00">commutativity_k2_xcmplx_0</text>
 </a>
@@ -32,9 +32,9 @@
 <!-- c_0_62 -->
 <g id="node2" class="node">
 <title>c_0_62</title>
-<g id="a_node2"><a xlink:href="c_0_62.html" xlink:title="{N₁ + N₂ = N₂ + N₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="138.5,-68.5 138.5,-83.5 271.5,-83.5 271.5,-68.5 138.5,-68.5"/>
-<text text-anchor="middle" x="205" y="-72.3" font-family="Times,serif" font-size="14.00">N₁ + N₂ = N₂ + N₁</text>
+<g id="a_node2"><a xlink:href="c_0_62.html" xlink:title="{C₁ + C₂ = C₂ + C₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="141.5,-68.5 141.5,-83.5 268.5,-83.5 268.5,-68.5 141.5,-68.5"/>
+<text text-anchor="middle" x="205" y="-72.3" font-family="Times,serif" font-size="14.00">C₁ + C₂ = C₂ + C₁</text>
 </a>
 </g>
 </g>
@@ -47,7 +47,7 @@
 <!-- c_0_70 -->
 <g id="node3" class="node">
 <title>c_0_70</title>
-<g id="a_node3"><a xlink:href="c_0_70.html" xlink:title="{to_power(tau,2 + sk₁) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_70.html" xlink:title="{to_power(tau,2 + sk₁) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="48.5,-16.5 48.5,-31.5 633.5,-31.5 633.5,-16.5 48.5,-16.5"/>
 <text text-anchor="middle" x="341" y="-20.3" font-family="Times,serif" font-size="14.00">to_power(tau,2 + sk₁) ≠ to_power(tau,sk₁) + (to_power(tau,sk₁) * to_power(tau,1))</text>
 </a>
@@ -62,7 +62,7 @@
 <!-- c_0_175 -->
 <g id="node4" class="node">
 <title>c_0_175</title>
-<g id="a_node4"><a xlink:href="c_0_175.html" xlink:title="⊥" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_175.html" xlink:title="⊥" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 30,-31.5 30,-16.5 16,-16.5"/>
 <text text-anchor="middle" x="23" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
@@ -71,7 +71,7 @@
 <!-- c_0_62&#45;&gt;c_0_175 -->
 <g id="edge3" class="edge">
 <title>c_0_62&#45;&gt;c_0_175</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M138.26,-76C86.32,-76 23,-76 23,-76 23,-76 23,-41.67 23,-41.67"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M141.35,-76C88.86,-76 23,-76 23,-76 23,-76 23,-41.67 23,-41.67"/>
 <polygon fill="black" stroke="black" points="26.5,-41.67 23,-31.67 19.5,-41.67 26.5,-41.67"/>
 </g>
 </g>

@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="157,-150 157,-182 251,-182 251,-150 157,-150"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="227,-150 227,-182 321,-182 321,-150 227,-150"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -19,88 +19,88 @@
 <!-- d3_funct_1 -->
 <g id="node1" class="node">
 <title>d3_funct_1</title>
-<g id="a_node1"><a xlink:href="d3_funct_1.html" xlink:title="d3_funct_1" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="165,-158.5 165,-173.5 243,-173.5 243,-158.5 165,-158.5"/>
-<text text-anchor="middle" x="204" y="-162.3" font-family="Times,serif" font-size="14.00">d3_funct_1</text>
+<g id="a_node1"><a xlink:href="d3_funct_1.html" xlink:title="d3_funct_1" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="235,-158.5 235,-173.5 313,-173.5 313,-158.5 235,-158.5"/>
+<text text-anchor="middle" x="274" y="-162.3" font-family="Times,serif" font-size="14.00">d3_funct_1</text>
 </a>
 </g>
 </g>
-<!-- c_0_47 -->
+<!-- c_0_52 -->
 <g id="node2" class="node">
-<title>c_0_47</title>
-<g id="a_node2"><a xlink:href="c_0_47.html" xlink:title="{X₂ = proj₂(X₁)|X₃ ∈ X₂|function(X₁)|relation(X₁)|⇊|sk₂(X₁,X₂,X₃) ∈ proj₁(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="296.5,-24 296.5,-114 461.5,-114 461.5,-24 296.5,-24"/>
-<text text-anchor="middle" x="379" y="-102.8" font-family="Times,serif" font-size="14.00">X₂ = proj₂(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="296.5,-99 461.5,-99 "/>
-<text text-anchor="middle" x="379" y="-87.8" font-family="Times,serif" font-size="14.00">X₃ ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="296.5,-84 461.5,-84 "/>
-<text text-anchor="middle" x="379" y="-72.8" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="296.5,-69 461.5,-69 "/>
-<text text-anchor="middle" x="379" y="-57.8" font-family="Times,serif" font-size="14.00">relation(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="296.5,-54 461.5,-54 "/>
-<text text-anchor="middle" x="379" y="-42.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="296.5,-39 461.5,-39 "/>
-<text text-anchor="middle" x="379" y="-27.8" font-family="Times,serif" font-size="14.00">sk₂(X₁,X₂,X₃) ∈ proj₁(X₁)</text>
+<title>c_0_52</title>
+<g id="a_node2"><a xlink:href="c_0_52.html" xlink:title="{X₁ ∈ proj₁(X₂)|X₃ = X₂(X₁)|X₄ = proj₂(X₂)|function(X₂)|relation(X₂)|⇊|X₃ ∈ X₄}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="366,-16.5 366,-121.5 462,-121.5 462,-16.5 366,-16.5"/>
+<text text-anchor="middle" x="414" y="-110.3" font-family="Times,serif" font-size="14.00">X₁ ∈ proj₁(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="366,-106.5 462,-106.5 "/>
+<text text-anchor="middle" x="414" y="-95.3" font-family="Times,serif" font-size="14.00">X₃ = X₂(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="366,-91.5 462,-91.5 "/>
+<text text-anchor="middle" x="414" y="-80.3" font-family="Times,serif" font-size="14.00">X₄ = proj₂(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="366,-76.5 462,-76.5 "/>
+<text text-anchor="middle" x="414" y="-65.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="366,-61.5 462,-61.5 "/>
+<text text-anchor="middle" x="414" y="-50.3" font-family="Times,serif" font-size="14.00">relation(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="366,-46.5 462,-46.5 "/>
+<text text-anchor="middle" x="414" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="366,-31.5 462,-31.5 "/>
+<text text-anchor="middle" x="414" y="-20.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₄</text>
 </a>
 </g>
 </g>
-<!-- d3_funct_1&#45;&gt;c_0_47 -->
+<!-- d3_funct_1&#45;&gt;c_0_52 -->
 <g id="edge1" class="edge">
-<title>d3_funct_1&#45;&gt;c_0_47</title>
-<path fill="none" stroke="black" d="M243.27,-166C294.87,-166 379,-166 379,-166 379,-166 379,-124.09 379,-124.09"/>
-<polygon fill="black" stroke="black" points="382.5,-124.09 379,-114.09 375.5,-124.09 382.5,-124.09"/>
+<title>d3_funct_1&#45;&gt;c_0_52</title>
+<path fill="none" stroke="black" d="M287,-158.07C287,-144.44 287,-118 287,-118 287,-118 355.99,-118 355.99,-118"/>
+<polygon fill="black" stroke="black" points="355.99,-121.5 365.99,-118 355.99,-114.5 355.99,-121.5"/>
 </g>
 <!-- c_0_46 -->
 <g id="node3" class="node">
 <title>c_0_46</title>
-<g id="a_node3"><a xlink:href="c_0_46.html" xlink:title="{X₁ ∈ X₃|X₃ = proj₂(X₂)|function(X₂)|relation(X₂)|⇊|X₁ = X₂(sk₂(X₂,X₃,X₁))}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="130,-24 130,-114 278,-114 278,-24 130,-24"/>
-<text text-anchor="middle" x="204" y="-102.8" font-family="Times,serif" font-size="14.00">X₁ ∈ X₃</text>
-<polyline fill="none" stroke="#7f7542" points="130,-99 278,-99 "/>
-<text text-anchor="middle" x="204" y="-87.8" font-family="Times,serif" font-size="14.00">X₃ = proj₂(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="130,-84 278,-84 "/>
-<text text-anchor="middle" x="204" y="-72.8" font-family="Times,serif" font-size="14.00">function(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="130,-69 278,-69 "/>
-<text text-anchor="middle" x="204" y="-57.8" font-family="Times,serif" font-size="14.00">relation(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="130,-54 278,-54 "/>
-<text text-anchor="middle" x="204" y="-42.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="130,-39 278,-39 "/>
-<text text-anchor="middle" x="204" y="-27.8" font-family="Times,serif" font-size="14.00">X₁ = X₂(sk₂(X₂,X₃,X₁))</text>
+<g id="a_node3"><a xlink:href="c_0_46.html" xlink:title="{X₁ ∈ X₃|X₃ = proj₂(X₂)|function(X₂)|relation(X₂)|⇊|X₁ = X₂(sk₂(X₂,X₃,X₁))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="200,-24 200,-114 348,-114 348,-24 200,-24"/>
+<text text-anchor="middle" x="274" y="-102.8" font-family="Times,serif" font-size="14.00">X₁ ∈ X₃</text>
+<polyline fill="none" stroke="#7f7542" points="200,-99 348,-99 "/>
+<text text-anchor="middle" x="274" y="-87.8" font-family="Times,serif" font-size="14.00">X₃ = proj₂(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="200,-84 348,-84 "/>
+<text text-anchor="middle" x="274" y="-72.8" font-family="Times,serif" font-size="14.00">function(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="200,-69 348,-69 "/>
+<text text-anchor="middle" x="274" y="-57.8" font-family="Times,serif" font-size="14.00">relation(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="200,-54 348,-54 "/>
+<text text-anchor="middle" x="274" y="-42.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="200,-39 348,-39 "/>
+<text text-anchor="middle" x="274" y="-27.8" font-family="Times,serif" font-size="14.00">X₁ = X₂(sk₂(X₂,X₃,X₁))</text>
 </a>
 </g>
 </g>
 <!-- d3_funct_1&#45;&gt;c_0_46 -->
 <g id="edge2" class="edge">
 <title>d3_funct_1&#45;&gt;c_0_46</title>
-<path fill="none" stroke="black" d="M217,-158.39C217,-158.39 217,-124.41 217,-124.41"/>
-<polygon fill="black" stroke="black" points="220.5,-124.41 217,-114.41 213.5,-124.41 220.5,-124.41"/>
+<path fill="none" stroke="black" d="M261,-158.39C261,-158.39 261,-124.41 261,-124.41"/>
+<polygon fill="black" stroke="black" points="264.5,-124.41 261,-114.41 257.5,-124.41 264.5,-124.41"/>
 </g>
-<!-- c_0_52 -->
+<!-- c_0_47 -->
 <g id="node4" class="node">
-<title>c_0_52</title>
-<g id="a_node4"><a xlink:href="c_0_52.html" xlink:title="{X₁ ∈ proj₁(X₂)|X₃ = X₂(X₁)|X₄ = proj₂(X₂)|function(X₂)|relation(X₂)|⇊|X₃ ∈ X₄}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-121.5 112,-121.5 112,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="64" y="-110.3" font-family="Times,serif" font-size="14.00">X₁ ∈ proj₁(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-106.5 112,-106.5 "/>
-<text text-anchor="middle" x="64" y="-95.3" font-family="Times,serif" font-size="14.00">X₃ = X₂(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-91.5 112,-91.5 "/>
-<text text-anchor="middle" x="64" y="-80.3" font-family="Times,serif" font-size="14.00">X₄ = proj₂(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-76.5 112,-76.5 "/>
-<text text-anchor="middle" x="64" y="-65.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-61.5 112,-61.5 "/>
-<text text-anchor="middle" x="64" y="-50.3" font-family="Times,serif" font-size="14.00">relation(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-46.5 112,-46.5 "/>
-<text text-anchor="middle" x="64" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-31.5 112,-31.5 "/>
-<text text-anchor="middle" x="64" y="-20.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₄</text>
+<title>c_0_47</title>
+<g id="a_node4"><a xlink:href="c_0_47.html" xlink:title="{X₂ = proj₂(X₁)|X₃ ∈ X₂|function(X₁)|relation(X₁)|⇊|sk₂(X₁,X₂,X₃) ∈ proj₁(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-24 16.5,-114 181.5,-114 181.5,-24 16.5,-24"/>
+<text text-anchor="middle" x="99" y="-102.8" font-family="Times,serif" font-size="14.00">X₂ = proj₂(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-99 181.5,-99 "/>
+<text text-anchor="middle" x="99" y="-87.8" font-family="Times,serif" font-size="14.00">X₃ ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-84 181.5,-84 "/>
+<text text-anchor="middle" x="99" y="-72.8" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-69 181.5,-69 "/>
+<text text-anchor="middle" x="99" y="-57.8" font-family="Times,serif" font-size="14.00">relation(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-54 181.5,-54 "/>
+<text text-anchor="middle" x="99" y="-42.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-39 181.5,-39 "/>
+<text text-anchor="middle" x="99" y="-27.8" font-family="Times,serif" font-size="14.00">sk₂(X₁,X₂,X₃) ∈ proj₁(X₁)</text>
 </a>
 </g>
 </g>
-<!-- d3_funct_1&#45;&gt;c_0_52 -->
+<!-- d3_funct_1&#45;&gt;c_0_47 -->
 <g id="edge3" class="edge">
-<title>d3_funct_1&#45;&gt;c_0_52</title>
-<path fill="none" stroke="black" d="M191,-158.07C191,-144.44 191,-118 191,-118 191,-118 122.01,-118 122.01,-118"/>
-<polygon fill="black" stroke="black" points="122.01,-114.5 112.01,-118 122.01,-121.5 122.01,-114.5"/>
+<title>d3_funct_1&#45;&gt;c_0_47</title>
+<path fill="none" stroke="black" d="M234.73,-166C183.13,-166 99,-166 99,-166 99,-166 99,-124.09 99,-124.09"/>
+<polygon fill="black" stroke="black" points="102.5,-124.09 99,-114.09 95.5,-124.09 102.5,-124.09"/>
 </g>
 </g>
 </svg>

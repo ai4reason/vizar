@@ -14,148 +14,148 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="424,-330 424,-512 772,-512 772,-330 424,-330"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="385,-330 385,-512 733,-512 733,-330 385,-330"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="424,-8 424,-310 772,-310 772,-8 424,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="385,-8 385,-310 733,-310 733,-8 385,-8"/>
 </g>
-<!-- c_0_75 -->
+<!-- c_0_79 -->
 <g id="node1" class="node">
-<title>c_0_75</title>
-<g id="a_node1"><a xlink:href="c_0_75.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|eventually&#45;nonnegative(X₂)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|eventually&#45;nonnegative(max(X₁,X₂))}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="944.5,-585.5 944.5,-720.5 1197.5,-720.5 1197.5,-585.5 944.5,-585.5"/>
-<text text-anchor="middle" x="1071" y="-709.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="944.5,-705.5 1197.5,-705.5 "/>
-<text text-anchor="middle" x="1071" y="-694.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="944.5,-690.5 1197.5,-690.5 "/>
-<text text-anchor="middle" x="1071" y="-679.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="944.5,-675.5 1197.5,-675.5 "/>
-<text text-anchor="middle" x="1071" y="-664.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="944.5,-660.5 1197.5,-660.5 "/>
-<text text-anchor="middle" x="1071" y="-649.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="944.5,-645.5 1197.5,-645.5 "/>
-<text text-anchor="middle" x="1071" y="-634.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="944.5,-630.5 1197.5,-630.5 "/>
-<text text-anchor="middle" x="1071" y="-619.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="944.5,-615.5 1197.5,-615.5 "/>
-<text text-anchor="middle" x="1071" y="-604.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="944.5,-600.5 1197.5,-600.5 "/>
-<text text-anchor="middle" x="1071" y="-589.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(max(X₁,X₂))</text>
+<title>c_0_79</title>
+<g id="a_node1"><a xlink:href="c_0_79.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|eventually&#45;nonnegative(X₁)|eventually&#45;nonnegative(X₂)|eventually&#45;nonnegative(max(X₁,X₂))|function(X₁)|function(X₂)|function(max(X₁,X₂))|max(X₁,X₂) ∈ Big_Oh(X₁ + X₂)|max(X₁,X₂) ∈ bool(ℕ × ℝ)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|quasi_total(max(X₁,X₂),ℕ,ℝ)|⇊|Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="866.5,-540.5 866.5,-765.5 1197.5,-765.5 1197.5,-540.5 866.5,-540.5"/>
+<text text-anchor="middle" x="1032" y="-754.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-750.5 1197.5,-750.5 "/>
+<text text-anchor="middle" x="1032" y="-739.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-735.5 1197.5,-735.5 "/>
+<text text-anchor="middle" x="1032" y="-724.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-720.5 1197.5,-720.5 "/>
+<text text-anchor="middle" x="1032" y="-709.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-705.5 1197.5,-705.5 "/>
+<text text-anchor="middle" x="1032" y="-694.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(max(X₁,X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-690.5 1197.5,-690.5 "/>
+<text text-anchor="middle" x="1032" y="-679.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-675.5 1197.5,-675.5 "/>
+<text text-anchor="middle" x="1032" y="-664.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-660.5 1197.5,-660.5 "/>
+<text text-anchor="middle" x="1032" y="-649.3" font-family="Times,serif" font-size="14.00">function(max(X₁,X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-645.5 1197.5,-645.5 "/>
+<text text-anchor="middle" x="1032" y="-634.3" font-family="Times,serif" font-size="14.00">max(X₁,X₂) ∈ Big_Oh(X₁ + X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-630.5 1197.5,-630.5 "/>
+<text text-anchor="middle" x="1032" y="-619.3" font-family="Times,serif" font-size="14.00">max(X₁,X₂) ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-615.5 1197.5,-615.5 "/>
+<text text-anchor="middle" x="1032" y="-604.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-600.5 1197.5,-600.5 "/>
+<text text-anchor="middle" x="1032" y="-589.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-585.5 1197.5,-585.5 "/>
+<text text-anchor="middle" x="1032" y="-574.3" font-family="Times,serif" font-size="14.00">quasi_total(max(X₁,X₂),ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-570.5 1197.5,-570.5 "/>
+<text text-anchor="middle" x="1032" y="-559.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="866.5,-555.5 1197.5,-555.5 "/>
+<text text-anchor="middle" x="1032" y="-544.3" font-family="Times,serif" font-size="14.00">Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))</text>
 </a>
 </g>
 </g>
 <!-- c_0_86 -->
 <g id="node6" class="node">
 <title>c_0_86</title>
-<g id="a_node6"><a xlink:href="c_0_86.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|eventually&#45;nonnegative(X₁)|eventually&#45;nonnegative(X₂)|function(X₁)|function(X₂)|max(X₁,X₂) ∈ Big_Oh(X₁ + X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="432.5,-338.5 432.5,-503.5 763.5,-503.5 763.5,-338.5 432.5,-338.5"/>
-<text text-anchor="middle" x="598" y="-492.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-488.5 763.5,-488.5 "/>
-<text text-anchor="middle" x="598" y="-477.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-473.5 763.5,-473.5 "/>
-<text text-anchor="middle" x="598" y="-462.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-458.5 763.5,-458.5 "/>
-<text text-anchor="middle" x="598" y="-447.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-443.5 763.5,-443.5 "/>
-<text text-anchor="middle" x="598" y="-432.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-428.5 763.5,-428.5 "/>
-<text text-anchor="middle" x="598" y="-417.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-413.5 763.5,-413.5 "/>
-<text text-anchor="middle" x="598" y="-402.3" font-family="Times,serif" font-size="14.00">max(X₁,X₂) ∈ Big_Oh(X₁ + X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-398.5 763.5,-398.5 "/>
-<text text-anchor="middle" x="598" y="-387.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-383.5 763.5,-383.5 "/>
-<text text-anchor="middle" x="598" y="-372.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-368.5 763.5,-368.5 "/>
-<text text-anchor="middle" x="598" y="-357.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-353.5 763.5,-353.5 "/>
-<text text-anchor="middle" x="598" y="-342.3" font-family="Times,serif" font-size="14.00">Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))</text>
+<g id="a_node6"><a xlink:href="c_0_86.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|eventually&#45;nonnegative(X₁)|eventually&#45;nonnegative(X₂)|function(X₁)|function(X₂)|max(X₁,X₂) ∈ Big_Oh(X₁ + X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="393.5,-338.5 393.5,-503.5 724.5,-503.5 724.5,-338.5 393.5,-338.5"/>
+<text text-anchor="middle" x="559" y="-492.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-488.5 724.5,-488.5 "/>
+<text text-anchor="middle" x="559" y="-477.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-473.5 724.5,-473.5 "/>
+<text text-anchor="middle" x="559" y="-462.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-458.5 724.5,-458.5 "/>
+<text text-anchor="middle" x="559" y="-447.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-443.5 724.5,-443.5 "/>
+<text text-anchor="middle" x="559" y="-432.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-428.5 724.5,-428.5 "/>
+<text text-anchor="middle" x="559" y="-417.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-413.5 724.5,-413.5 "/>
+<text text-anchor="middle" x="559" y="-402.3" font-family="Times,serif" font-size="14.00">max(X₁,X₂) ∈ Big_Oh(X₁ + X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-398.5 724.5,-398.5 "/>
+<text text-anchor="middle" x="559" y="-387.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-383.5 724.5,-383.5 "/>
+<text text-anchor="middle" x="559" y="-372.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-368.5 724.5,-368.5 "/>
+<text text-anchor="middle" x="559" y="-357.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-353.5 724.5,-353.5 "/>
+<text text-anchor="middle" x="559" y="-342.3" font-family="Times,serif" font-size="14.00">Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))</text>
 </a>
 </g>
 </g>
-<!-- c_0_75&#45;&gt;c_0_86 -->
+<!-- c_0_79&#45;&gt;c_0_86 -->
 <g id="edge1" class="edge">
-<title>c_0_75&#45;&gt;c_0_86</title>
-<path fill="none" stroke="black" d="M1071,-585.37C1071,-508.33 1071,-393 1071,-393 1071,-393 773.76,-393 773.76,-393"/>
-<polygon fill="black" stroke="black" points="773.76,-389.5 763.76,-393 773.76,-396.5 773.76,-389.5"/>
+<title>c_0_79&#45;&gt;c_0_86</title>
+<path fill="none" stroke="black" d="M866.46,-562C790.69,-562 717.5,-562 717.5,-562 717.5,-562 717.5,-513.84 717.5,-513.84"/>
+<polygon fill="black" stroke="black" points="721,-513.84 717.5,-503.84 714,-513.84 721,-513.84"/>
 </g>
 <!-- c_0_73 -->
 <g id="node2" class="node">
 <title>c_0_73</title>
-<g id="a_node2"><a xlink:href="c_0_73.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|function(max(X₁,X₂))}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="781.5,-593 781.5,-713 926.5,-713 926.5,-593 781.5,-593"/>
-<text text-anchor="middle" x="854" y="-701.8" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="781.5,-698 926.5,-698 "/>
-<text text-anchor="middle" x="854" y="-686.8" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="781.5,-683 926.5,-683 "/>
-<text text-anchor="middle" x="854" y="-671.8" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="781.5,-668 926.5,-668 "/>
-<text text-anchor="middle" x="854" y="-656.8" font-family="Times,serif" font-size="14.00">function(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="781.5,-653 926.5,-653 "/>
-<text text-anchor="middle" x="854" y="-641.8" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="781.5,-638 926.5,-638 "/>
-<text text-anchor="middle" x="854" y="-626.8" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="781.5,-623 926.5,-623 "/>
-<text text-anchor="middle" x="854" y="-611.8" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="781.5,-608 926.5,-608 "/>
-<text text-anchor="middle" x="854" y="-596.8" font-family="Times,serif" font-size="14.00">function(max(X₁,X₂))</text>
+<g id="a_node2"><a xlink:href="c_0_73.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|function(max(X₁,X₂))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="703.5,-593 703.5,-713 848.5,-713 848.5,-593 703.5,-593"/>
+<text text-anchor="middle" x="776" y="-701.8" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="703.5,-698 848.5,-698 "/>
+<text text-anchor="middle" x="776" y="-686.8" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="703.5,-683 848.5,-683 "/>
+<text text-anchor="middle" x="776" y="-671.8" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="703.5,-668 848.5,-668 "/>
+<text text-anchor="middle" x="776" y="-656.8" font-family="Times,serif" font-size="14.00">function(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="703.5,-653 848.5,-653 "/>
+<text text-anchor="middle" x="776" y="-641.8" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="703.5,-638 848.5,-638 "/>
+<text text-anchor="middle" x="776" y="-626.8" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="703.5,-623 848.5,-623 "/>
+<text text-anchor="middle" x="776" y="-611.8" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="703.5,-608 848.5,-608 "/>
+<text text-anchor="middle" x="776" y="-596.8" font-family="Times,serif" font-size="14.00">function(max(X₁,X₂))</text>
 </a>
 </g>
 </g>
 <!-- c_0_73&#45;&gt;c_0_86 -->
 <g id="edge2" class="edge">
 <title>c_0_73&#45;&gt;c_0_86</title>
-<path fill="none" stroke="black" d="M854,-592.88C854,-532.39 854,-448 854,-448 854,-448 773.74,-448 773.74,-448"/>
-<polygon fill="black" stroke="black" points="773.74,-444.5 763.74,-448 773.74,-451.5 773.74,-444.5"/>
+<path fill="none" stroke="black" d="M710.5,-592.95C710.5,-592.95 710.5,-513.51 710.5,-513.51"/>
+<polygon fill="black" stroke="black" points="714,-513.51 710.5,-503.51 707,-513.51 714,-513.51"/>
 </g>
-<!-- c_0_79 -->
+<!-- c_0_75 -->
 <g id="node3" class="node">
-<title>c_0_79</title>
-<g id="a_node3"><a xlink:href="c_0_79.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|eventually&#45;nonnegative(X₁)|eventually&#45;nonnegative(X₂)|eventually&#45;nonnegative(max(X₁,X₂))|function(X₁)|function(X₂)|function(max(X₁,X₂))|max(X₁,X₂) ∈ Big_Oh(X₁ + X₂)|max(X₁,X₂) ∈ bool(ℕ × ℝ)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|quasi_total(max(X₁,X₂),ℕ,ℝ)|⇊|Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="432.5,-540.5 432.5,-765.5 763.5,-765.5 763.5,-540.5 432.5,-540.5"/>
-<text text-anchor="middle" x="598" y="-754.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-750.5 763.5,-750.5 "/>
-<text text-anchor="middle" x="598" y="-739.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-735.5 763.5,-735.5 "/>
-<text text-anchor="middle" x="598" y="-724.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-720.5 763.5,-720.5 "/>
-<text text-anchor="middle" x="598" y="-709.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-705.5 763.5,-705.5 "/>
-<text text-anchor="middle" x="598" y="-694.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(max(X₁,X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-690.5 763.5,-690.5 "/>
-<text text-anchor="middle" x="598" y="-679.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-675.5 763.5,-675.5 "/>
-<text text-anchor="middle" x="598" y="-664.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-660.5 763.5,-660.5 "/>
-<text text-anchor="middle" x="598" y="-649.3" font-family="Times,serif" font-size="14.00">function(max(X₁,X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-645.5 763.5,-645.5 "/>
-<text text-anchor="middle" x="598" y="-634.3" font-family="Times,serif" font-size="14.00">max(X₁,X₂) ∈ Big_Oh(X₁ + X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-630.5 763.5,-630.5 "/>
-<text text-anchor="middle" x="598" y="-619.3" font-family="Times,serif" font-size="14.00">max(X₁,X₂) ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-615.5 763.5,-615.5 "/>
-<text text-anchor="middle" x="598" y="-604.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-600.5 763.5,-600.5 "/>
-<text text-anchor="middle" x="598" y="-589.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-585.5 763.5,-585.5 "/>
-<text text-anchor="middle" x="598" y="-574.3" font-family="Times,serif" font-size="14.00">quasi_total(max(X₁,X₂),ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-570.5 763.5,-570.5 "/>
-<text text-anchor="middle" x="598" y="-559.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-555.5 763.5,-555.5 "/>
-<text text-anchor="middle" x="598" y="-544.3" font-family="Times,serif" font-size="14.00">Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))</text>
+<title>c_0_75</title>
+<g id="a_node3"><a xlink:href="c_0_75.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|eventually&#45;nonnegative(X₂)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|eventually&#45;nonnegative(max(X₁,X₂))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="432.5,-585.5 432.5,-720.5 685.5,-720.5 685.5,-585.5 432.5,-585.5"/>
+<text text-anchor="middle" x="559" y="-709.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="432.5,-705.5 685.5,-705.5 "/>
+<text text-anchor="middle" x="559" y="-694.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="432.5,-690.5 685.5,-690.5 "/>
+<text text-anchor="middle" x="559" y="-679.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="432.5,-675.5 685.5,-675.5 "/>
+<text text-anchor="middle" x="559" y="-664.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="432.5,-660.5 685.5,-660.5 "/>
+<text text-anchor="middle" x="559" y="-649.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="432.5,-645.5 685.5,-645.5 "/>
+<text text-anchor="middle" x="559" y="-634.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="432.5,-630.5 685.5,-630.5 "/>
+<text text-anchor="middle" x="559" y="-619.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="432.5,-615.5 685.5,-615.5 "/>
+<text text-anchor="middle" x="559" y="-604.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="432.5,-600.5 685.5,-600.5 "/>
+<text text-anchor="middle" x="559" y="-589.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(max(X₁,X₂))</text>
 </a>
 </g>
 </g>
-<!-- c_0_79&#45;&gt;c_0_86 -->
+<!-- c_0_75&#45;&gt;c_0_86 -->
 <g id="edge3" class="edge">
-<title>c_0_79&#45;&gt;c_0_86</title>
-<path fill="none" stroke="black" d="M598,-540.4C598,-540.4 598,-513.75 598,-513.75"/>
-<polygon fill="black" stroke="black" points="601.5,-513.75 598,-503.75 594.5,-513.75 601.5,-513.75"/>
+<title>c_0_75&#45;&gt;c_0_86</title>
+<path fill="none" stroke="black" d="M559,-585.27C559,-585.27 559,-513.62 559,-513.62"/>
+<polygon fill="black" stroke="black" points="562.5,-513.62 559,-503.62 555.5,-513.62 562.5,-513.62"/>
 </g>
 <!-- c_0_74 -->
 <g id="node4" class="node">
 <title>c_0_74</title>
-<g id="a_node4"><a xlink:href="c_0_74.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|quasi_total(max(X₁,X₂),ℕ,ℝ)}" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_74.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|quasi_total(max(X₁,X₂),ℕ,ℝ)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="216,-593 216,-713 414,-713 414,-593 216,-593"/>
 <text text-anchor="middle" x="315" y="-701.8" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
 <polyline fill="none" stroke="#7f7542" points="216,-698 414,-698 "/>
@@ -178,13 +178,13 @@
 <!-- c_0_74&#45;&gt;c_0_86 -->
 <g id="edge4" class="edge">
 <title>c_0_74&#45;&gt;c_0_86</title>
-<path fill="none" stroke="black" d="M315,-592.88C315,-532.39 315,-448 315,-448 315,-448 422.15,-448 422.15,-448"/>
-<polygon fill="black" stroke="black" points="422.15,-451.5 432.15,-448 422.15,-444.5 422.15,-451.5"/>
+<path fill="none" stroke="black" d="M403.75,-592.95C403.75,-592.95 403.75,-513.51 403.75,-513.51"/>
+<polygon fill="black" stroke="black" points="407.25,-513.51 403.75,-503.51 400.25,-513.51 407.25,-513.51"/>
 </g>
 <!-- c_0_76 -->
 <g id="node5" class="node">
 <title>c_0_76</title>
-<g id="a_node5"><a xlink:href="c_0_76.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|max(X₁,X₂) ∈ bool(ℕ × ℝ)}" target="_parent">
+<g id="a_node5"><a xlink:href="c_0_76.html" xlink:title="{X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|function(X₁)|function(X₂)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|⇊|max(X₁,X₂) ∈ bool(ℕ × ℝ)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-593 16.5,-713 197.5,-713 197.5,-593 16.5,-593"/>
 <text text-anchor="middle" x="107" y="-701.8" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-698 197.5,-698 "/>
@@ -207,59 +207,59 @@
 <!-- c_0_76&#45;&gt;c_0_86 -->
 <g id="edge5" class="edge">
 <title>c_0_76&#45;&gt;c_0_86</title>
-<path fill="none" stroke="black" d="M107,-592.7C107,-515.89 107,-393 107,-393 107,-393 422.45,-393 422.45,-393"/>
-<polygon fill="black" stroke="black" points="422.45,-396.5 432.45,-393 422.45,-389.5 422.45,-396.5"/>
+<path fill="none" stroke="black" d="M107,-592.95C107,-524.21 107,-421 107,-421 107,-421 383.26,-421 383.26,-421"/>
+<polygon fill="black" stroke="black" points="383.26,-424.5 393.26,-421 383.26,-417.5 383.26,-424.5"/>
 </g>
 <!-- c_0_89 -->
 <g id="node7" class="node">
 <title>c_0_89</title>
-<g id="a_node7"><a xlink:href="c_0_89.html" xlink:title="{Big_Oh(X₁ + X₂) = Big_Oh(max(X₁,X₂))|X₁ + X₂ ∈ bool(ℕ × ℝ)|X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|eventually&#45;nonnegative(X₁ + X₂)|eventually&#45;nonnegative(X₁)|eventually&#45;nonnegative(X₂)|eventually&#45;nonnegative(max(X₁,X₂))|function(X₁ + X₂)|function(X₁)|function(X₂)|function(max(X₁,X₂))|max(X₁,X₂) ∈ bool(ℕ × ℝ)|quasi_total(X₁ + X₂,ℕ,ℝ)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|quasi_total(max(X₁,X₂),ℕ,ℝ)|⇊|Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="432.5,-16.5 432.5,-301.5 763.5,-301.5 763.5,-16.5 432.5,-16.5"/>
-<text text-anchor="middle" x="598" y="-290.3" font-family="Times,serif" font-size="14.00">Big_Oh(X₁ + X₂) = Big_Oh(max(X₁,X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-286.5 763.5,-286.5 "/>
-<text text-anchor="middle" x="598" y="-275.3" font-family="Times,serif" font-size="14.00">X₁ + X₂ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-271.5 763.5,-271.5 "/>
-<text text-anchor="middle" x="598" y="-260.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-256.5 763.5,-256.5 "/>
-<text text-anchor="middle" x="598" y="-245.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-241.5 763.5,-241.5 "/>
-<text text-anchor="middle" x="598" y="-230.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₁ + X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-226.5 763.5,-226.5 "/>
-<text text-anchor="middle" x="598" y="-215.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-211.5 763.5,-211.5 "/>
-<text text-anchor="middle" x="598" y="-200.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-196.5 763.5,-196.5 "/>
-<text text-anchor="middle" x="598" y="-185.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(max(X₁,X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-181.5 763.5,-181.5 "/>
-<text text-anchor="middle" x="598" y="-170.3" font-family="Times,serif" font-size="14.00">function(X₁ + X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-166.5 763.5,-166.5 "/>
-<text text-anchor="middle" x="598" y="-155.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-151.5 763.5,-151.5 "/>
-<text text-anchor="middle" x="598" y="-140.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-136.5 763.5,-136.5 "/>
-<text text-anchor="middle" x="598" y="-125.3" font-family="Times,serif" font-size="14.00">function(max(X₁,X₂))</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-121.5 763.5,-121.5 "/>
-<text text-anchor="middle" x="598" y="-110.3" font-family="Times,serif" font-size="14.00">max(X₁,X₂) ∈ bool(ℕ × ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-106.5 763.5,-106.5 "/>
-<text text-anchor="middle" x="598" y="-95.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁ + X₂,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-91.5 763.5,-91.5 "/>
-<text text-anchor="middle" x="598" y="-80.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-76.5 763.5,-76.5 "/>
-<text text-anchor="middle" x="598" y="-65.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-61.5 763.5,-61.5 "/>
-<text text-anchor="middle" x="598" y="-50.3" font-family="Times,serif" font-size="14.00">quasi_total(max(X₁,X₂),ℕ,ℝ)</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-46.5 763.5,-46.5 "/>
-<text text-anchor="middle" x="598" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="432.5,-31.5 763.5,-31.5 "/>
-<text text-anchor="middle" x="598" y="-20.3" font-family="Times,serif" font-size="14.00">Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))</text>
+<g id="a_node7"><a xlink:href="c_0_89.html" xlink:title="{Big_Oh(X₁ + X₂) = Big_Oh(max(X₁,X₂))|X₁ + X₂ ∈ bool(ℕ × ℝ)|X₁ ∈ bool(ℕ × ℝ)|X₂ ∈ bool(ℕ × ℝ)|eventually&#45;nonnegative(X₁ + X₂)|eventually&#45;nonnegative(X₁)|eventually&#45;nonnegative(X₂)|eventually&#45;nonnegative(max(X₁,X₂))|function(X₁ + X₂)|function(X₁)|function(X₂)|function(max(X₁,X₂))|max(X₁,X₂) ∈ bool(ℕ × ℝ)|quasi_total(X₁ + X₂,ℕ,ℝ)|quasi_total(X₁,ℕ,ℝ)|quasi_total(X₂,ℕ,ℝ)|quasi_total(max(X₁,X₂),ℕ,ℝ)|⇊|Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="393.5,-16.5 393.5,-301.5 724.5,-301.5 724.5,-16.5 393.5,-16.5"/>
+<text text-anchor="middle" x="559" y="-290.3" font-family="Times,serif" font-size="14.00">Big_Oh(X₁ + X₂) = Big_Oh(max(X₁,X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-286.5 724.5,-286.5 "/>
+<text text-anchor="middle" x="559" y="-275.3" font-family="Times,serif" font-size="14.00">X₁ + X₂ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-271.5 724.5,-271.5 "/>
+<text text-anchor="middle" x="559" y="-260.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-256.5 724.5,-256.5 "/>
+<text text-anchor="middle" x="559" y="-245.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-241.5 724.5,-241.5 "/>
+<text text-anchor="middle" x="559" y="-230.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₁ + X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-226.5 724.5,-226.5 "/>
+<text text-anchor="middle" x="559" y="-215.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-211.5 724.5,-211.5 "/>
+<text text-anchor="middle" x="559" y="-200.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-196.5 724.5,-196.5 "/>
+<text text-anchor="middle" x="559" y="-185.3" font-family="Times,serif" font-size="14.00">eventually&#45;nonnegative(max(X₁,X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-181.5 724.5,-181.5 "/>
+<text text-anchor="middle" x="559" y="-170.3" font-family="Times,serif" font-size="14.00">function(X₁ + X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-166.5 724.5,-166.5 "/>
+<text text-anchor="middle" x="559" y="-155.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-151.5 724.5,-151.5 "/>
+<text text-anchor="middle" x="559" y="-140.3" font-family="Times,serif" font-size="14.00">function(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-136.5 724.5,-136.5 "/>
+<text text-anchor="middle" x="559" y="-125.3" font-family="Times,serif" font-size="14.00">function(max(X₁,X₂))</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-121.5 724.5,-121.5 "/>
+<text text-anchor="middle" x="559" y="-110.3" font-family="Times,serif" font-size="14.00">max(X₁,X₂) ∈ bool(ℕ × ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-106.5 724.5,-106.5 "/>
+<text text-anchor="middle" x="559" y="-95.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁ + X₂,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-91.5 724.5,-91.5 "/>
+<text text-anchor="middle" x="559" y="-80.3" font-family="Times,serif" font-size="14.00">quasi_total(X₁,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-76.5 724.5,-76.5 "/>
+<text text-anchor="middle" x="559" y="-65.3" font-family="Times,serif" font-size="14.00">quasi_total(X₂,ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-61.5 724.5,-61.5 "/>
+<text text-anchor="middle" x="559" y="-50.3" font-family="Times,serif" font-size="14.00">quasi_total(max(X₁,X₂),ℕ,ℝ)</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-46.5 724.5,-46.5 "/>
+<text text-anchor="middle" x="559" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="393.5,-31.5 724.5,-31.5 "/>
+<text text-anchor="middle" x="559" y="-20.3" font-family="Times,serif" font-size="14.00">Big_Omega(X₁ + X₂) = Big_Omega(max(X₁,X₂))</text>
 </a>
 </g>
 </g>
 <!-- c_0_86&#45;&gt;c_0_89 -->
 <g id="edge6" class="edge">
 <title>c_0_86&#45;&gt;c_0_89</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M598,-338.46C598,-338.46 598,-311.54 598,-311.54"/>
-<polygon fill="black" stroke="black" points="601.5,-311.54 598,-301.54 594.5,-311.54 601.5,-311.54"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M559,-338.46C559,-338.46 559,-311.54 559,-311.54"/>
+<polygon fill="black" stroke="black" points="562.5,-311.54 559,-301.54 555.5,-311.54 562.5,-311.54"/>
 </g>
 </g>
 </svg>

@@ -43,62 +43,62 @@ skolems:
   esk1_0:
     axiom: t10_xregular
     related:
-    - esk5_0
-    - esk4_0
-    - esk6_0
-    - esk1_0
     - esk3_0
+    - esk4_0
     - esk2_0
+    - esk1_0
+    - esk6_0
+    - esk5_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t10_xregular
     related:
-    - esk5_0
-    - esk4_0
-    - esk6_0
-    - esk1_0
     - esk3_0
+    - esk4_0
     - esk2_0
+    - esk1_0
+    - esk6_0
+    - esk5_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t10_xregular
     related:
-    - esk5_0
-    - esk4_0
-    - esk6_0
-    - esk1_0
     - esk3_0
+    - esk4_0
     - esk2_0
+    - esk1_0
+    - esk6_0
+    - esk5_0
     symbol: "sk\u2083"
   esk4_0:
     axiom: t10_xregular
     related:
-    - esk5_0
-    - esk4_0
-    - esk6_0
-    - esk1_0
     - esk3_0
+    - esk4_0
     - esk2_0
+    - esk1_0
+    - esk6_0
+    - esk5_0
     symbol: "sk\u2084"
   esk5_0:
     axiom: t10_xregular
     related:
-    - esk5_0
-    - esk4_0
-    - esk6_0
-    - esk1_0
     - esk3_0
+    - esk4_0
     - esk2_0
+    - esk1_0
+    - esk6_0
+    - esk5_0
     symbol: "sk\u2085"
   esk6_0:
     axiom: t10_xregular
     related:
-    - esk5_0
-    - esk4_0
-    - esk6_0
-    - esk1_0
     - esk3_0
+    - esk4_0
     - esk2_0
+    - esk1_0
+    - esk6_0
+    - esk5_0
     symbol: "sk\u2086"
 steps:
   c_0_12:
@@ -124,8 +124,8 @@ steps:
     counts:
       r2_hidden: 1
     skolems:
-    - esk5_0
     - esk6_0
+    - esk5_0
   c_0_18:
     counts:
       k1_tarski: 2
@@ -151,8 +151,8 @@ steps:
       r2_hidden: 4
       v1_xboole_0: 1
     skolems:
-    - esk5_0
     - esk6_0
+    - esk5_0
   c_0_24:
     counts:
       r2_hidden: 1
@@ -191,8 +191,8 @@ steps:
       r2_hidden: 2
       v1_xboole_0: 1
     skolems:
-    - esk3_0
     - esk6_0
+    - esk3_0
   c_0_36:
     counts:
       k1_tarski: 1
@@ -210,8 +210,8 @@ steps:
       r2_hidden: 1
       v1_xboole_0: 1
     skolems:
-    - esk2_0
     - esk6_0
+    - esk2_0
   c_0_39:
     counts:
       k1_tarski: 1
@@ -223,15 +223,15 @@ steps:
       r1_xboole_0: 1
       r2_hidden: 1
     skolems:
-    - esk2_0
     - esk6_0
+    - esk2_0
   c_0_42:
     counts:
       k1_tarski: 1
       r2_hidden: 3
     skolems:
-    - esk2_0
     - esk6_0
+    - esk2_0
   c_0_43:
     counts:
       k1_tarski: 1
@@ -241,20 +241,20 @@ steps:
     counts:
       r2_hidden: 1
     skolems:
-    - esk1_0
     - esk2_0
+    - esk1_0
   c_0_45:
     counts:
       r2_hidden: 1
     skolems:
-    - esk1_0
     - esk6_0
+    - esk1_0
   c_0_46:
     counts:
       r2_hidden: 2
     skolems:
-    - esk2_0
     - esk6_0
+    - esk2_0
   c_0_7:
     counts:
       k1_tarski: 1

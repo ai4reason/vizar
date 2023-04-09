@@ -20,53 +20,53 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="76,-8 76,-40 106,-40 106,-8 76,-8"/>
 </g>
-<!-- t8_card_4 -->
+<!-- c_0_123 -->
 <g id="node1" class="node">
-<title>t8_card_4</title>
-<g id="a_node1"><a xlink:href="t8_card_4.html" xlink:title="t8_card_4" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="110,-135.5 110,-150.5 180,-150.5 180,-135.5 110,-135.5"/>
-<text text-anchor="middle" x="145" y="-139.3" font-family="Times,serif" font-size="14.00">t8_card_4</text>
+<title>c_0_123</title>
+<g id="a_node1"><a xlink:href="c_0_123.html" xlink:title="{\|X₁\| = \|X₂\||⇊|\|X₁\| = \|X₂\|}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="110,-120.5 110,-165.5 180,-165.5 180,-120.5 110,-120.5"/>
+<text text-anchor="middle" x="145" y="-154.3" font-family="Times,serif" font-size="14.00">|X₁| = |X₂|</text>
+<polyline fill="none" stroke="#7f7542" points="110,-150.5 180,-150.5 "/>
+<text text-anchor="middle" x="145" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="110,-135.5 180,-135.5 "/>
+<text text-anchor="middle" x="145" y="-124.3" font-family="Times,serif" font-size="14.00">|X₁| = |X₂|</text>
 </a>
 </g>
 </g>
 <!-- c_0_122 -->
 <g id="node3" class="node">
 <title>c_0_122</title>
-<g id="a_node3"><a xlink:href="c_0_122.html" xlink:title="{\|1&#45;tuples(sk₁)\| ≠ \|sk₁\|}" target="_parent">
+<g id="a_node3"><a xlink:href="c_0_122.html" xlink:title="{\|1&#45;tuples(sk₁)\| ≠ \|sk₁\|}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="16,-68.5 16,-83.5 166,-83.5 166,-68.5 16,-68.5"/>
 <text text-anchor="middle" x="91" y="-72.3" font-family="Times,serif" font-size="14.00">|1&#45;tuples(sk₁)| ≠ |sk₁|</text>
 </a>
 </g>
 </g>
-<!-- t8_card_4&#45;&gt;c_0_122 -->
+<!-- c_0_123&#45;&gt;c_0_122 -->
 <g id="edge1" class="edge">
-<title>t8_card_4&#45;&gt;c_0_122</title>
-<path fill="none" stroke="black" d="M138,-135.31C138,-135.31 138,-93.6 138,-93.6"/>
-<polygon fill="black" stroke="black" points="141.5,-93.6 138,-83.6 134.5,-93.6 141.5,-93.6"/>
+<title>c_0_123&#45;&gt;c_0_122</title>
+<path fill="none" stroke="black" d="M138,-120.32C138,-120.32 138,-93.59 138,-93.59"/>
+<polygon fill="black" stroke="black" points="141.5,-93.59 138,-83.59 134.5,-93.59 141.5,-93.59"/>
 </g>
-<!-- c_0_123 -->
+<!-- t8_card_4 -->
 <g id="node2" class="node">
-<title>c_0_123</title>
-<g id="a_node2"><a xlink:href="c_0_123.html" xlink:title="{\|X₁\| = \|X₂\||⇊|\|X₁\| = \|X₂\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="22,-120.5 22,-165.5 92,-165.5 92,-120.5 22,-120.5"/>
-<text text-anchor="middle" x="57" y="-154.3" font-family="Times,serif" font-size="14.00">|X₁| = |X₂|</text>
-<polyline fill="none" stroke="#7f7542" points="22,-150.5 92,-150.5 "/>
-<text text-anchor="middle" x="57" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="22,-135.5 92,-135.5 "/>
-<text text-anchor="middle" x="57" y="-124.3" font-family="Times,serif" font-size="14.00">|X₁| = |X₂|</text>
+<title>t8_card_4</title>
+<g id="a_node2"><a xlink:href="t8_card_4.html" xlink:title="t8_card_4" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="22,-135.5 22,-150.5 92,-150.5 92,-135.5 22,-135.5"/>
+<text text-anchor="middle" x="57" y="-139.3" font-family="Times,serif" font-size="14.00">t8_card_4</text>
 </a>
 </g>
 </g>
-<!-- c_0_123&#45;&gt;c_0_122 -->
+<!-- t8_card_4&#45;&gt;c_0_122 -->
 <g id="edge2" class="edge">
-<title>c_0_123&#45;&gt;c_0_122</title>
-<path fill="none" stroke="black" d="M57,-120.32C57,-120.32 57,-93.59 57,-93.59"/>
-<polygon fill="black" stroke="black" points="60.5,-93.59 57,-83.59 53.5,-93.59 60.5,-93.59"/>
+<title>t8_card_4&#45;&gt;c_0_122</title>
+<path fill="none" stroke="black" d="M57,-135.31C57,-135.31 57,-93.6 57,-93.6"/>
+<polygon fill="black" stroke="black" points="60.5,-93.6 57,-83.6 53.5,-93.6 60.5,-93.6"/>
 </g>
 <!-- c_0_130 -->
 <g id="node4" class="node">
 <title>c_0_130</title>
-<g id="a_node4"><a xlink:href="c_0_130.html" xlink:title="⊥" target="_parent">
+<g id="a_node4"><a xlink:href="c_0_130.html" xlink:title="⊥" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="84,-16.5 84,-31.5 98,-31.5 98,-16.5 84,-16.5"/>
 <text text-anchor="middle" x="91" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>

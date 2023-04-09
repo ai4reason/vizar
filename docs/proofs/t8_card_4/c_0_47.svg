@@ -10,73 +10,73 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="35,-247 35,-309 197,-309 197,-247 35,-247"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="28,-247 28,-309 190,-309 190,-247 28,-247"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="32,-120 32,-227 214,-227 214,-120 32,-120"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="36,-120 36,-227 218,-227 218,-120 36,-120"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-100 357,-100 357,-8 8,-8"/>
 </g>
-<!-- d3_funct_1 -->
+<!-- c_0_65 -->
 <g id="node1" class="node">
-<title>d3_funct_1</title>
-<g id="a_node1"><a xlink:href="d3_funct_1.html" xlink:title="d3_funct_1" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="111,-270.5 111,-285.5 189,-285.5 189,-270.5 111,-270.5"/>
-<text text-anchor="middle" x="150" y="-274.3" font-family="Times,serif" font-size="14.00">d3_funct_1</text>
+<title>c_0_65</title>
+<g id="a_node1"><a xlink:href="c_0_65.html" xlink:title="{X₁ ∈ X₂|⇊|X₁ ∈ X₂}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="132,-255.5 132,-300.5 182,-300.5 182,-255.5 132,-255.5"/>
+<text text-anchor="middle" x="157" y="-289.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="132,-285.5 182,-285.5 "/>
+<text text-anchor="middle" x="157" y="-274.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="132,-270.5 182,-270.5 "/>
+<text text-anchor="middle" x="157" y="-259.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
 </a>
 </g>
 </g>
 <!-- c_0_47 -->
 <g id="node3" class="node">
 <title>c_0_47</title>
-<g id="a_node3"><a xlink:href="c_0_47.html" xlink:title="{X₂ = proj₂(X₁)|X₃ ∈ X₂|function(X₁)|relation(X₁)|⇊|sk₂(X₁,X₂,X₃) ∈ proj₁(X₁)}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="40.5,-128.5 40.5,-218.5 205.5,-218.5 205.5,-128.5 40.5,-128.5"/>
-<text text-anchor="middle" x="123" y="-207.3" font-family="Times,serif" font-size="14.00">X₂ = proj₂(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="40.5,-203.5 205.5,-203.5 "/>
-<text text-anchor="middle" x="123" y="-192.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="40.5,-188.5 205.5,-188.5 "/>
-<text text-anchor="middle" x="123" y="-177.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="40.5,-173.5 205.5,-173.5 "/>
-<text text-anchor="middle" x="123" y="-162.3" font-family="Times,serif" font-size="14.00">relation(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="40.5,-158.5 205.5,-158.5 "/>
-<text text-anchor="middle" x="123" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="40.5,-143.5 205.5,-143.5 "/>
-<text text-anchor="middle" x="123" y="-132.3" font-family="Times,serif" font-size="14.00">sk₂(X₁,X₂,X₃) ∈ proj₁(X₁)</text>
-</a>
-</g>
-</g>
-<!-- d3_funct_1&#45;&gt;c_0_47 -->
-<g id="edge1" class="edge">
-<title>d3_funct_1&#45;&gt;c_0_47</title>
-<path fill="none" stroke="black" d="M150,-270.48C150,-270.48 150,-228.54 150,-228.54"/>
-<polygon fill="black" stroke="black" points="153.5,-228.54 150,-218.54 146.5,-228.54 153.5,-228.54"/>
-</g>
-<!-- c_0_65 -->
-<g id="node2" class="node">
-<title>c_0_65</title>
-<g id="a_node2"><a xlink:href="c_0_65.html" xlink:title="{X₁ ∈ X₂|⇊|X₁ ∈ X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="43,-255.5 43,-300.5 93,-300.5 93,-255.5 43,-255.5"/>
-<text text-anchor="middle" x="68" y="-289.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="43,-285.5 93,-285.5 "/>
-<text text-anchor="middle" x="68" y="-274.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="43,-270.5 93,-270.5 "/>
-<text text-anchor="middle" x="68" y="-259.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+<g id="a_node3"><a xlink:href="c_0_47.html" xlink:title="{X₂ = proj₂(X₁)|X₃ ∈ X₂|function(X₁)|relation(X₁)|⇊|sk₂(X₁,X₂,X₃) ∈ proj₁(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="44.5,-128.5 44.5,-218.5 209.5,-218.5 209.5,-128.5 44.5,-128.5"/>
+<text text-anchor="middle" x="127" y="-207.3" font-family="Times,serif" font-size="14.00">X₂ = proj₂(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="44.5,-203.5 209.5,-203.5 "/>
+<text text-anchor="middle" x="127" y="-192.3" font-family="Times,serif" font-size="14.00">X₃ ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="44.5,-188.5 209.5,-188.5 "/>
+<text text-anchor="middle" x="127" y="-177.3" font-family="Times,serif" font-size="14.00">function(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="44.5,-173.5 209.5,-173.5 "/>
+<text text-anchor="middle" x="127" y="-162.3" font-family="Times,serif" font-size="14.00">relation(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="44.5,-158.5 209.5,-158.5 "/>
+<text text-anchor="middle" x="127" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="44.5,-143.5 209.5,-143.5 "/>
+<text text-anchor="middle" x="127" y="-132.3" font-family="Times,serif" font-size="14.00">sk₂(X₁,X₂,X₃) ∈ proj₁(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_65&#45;&gt;c_0_47 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_65&#45;&gt;c_0_47</title>
-<path fill="none" stroke="black" d="M68,-255.33C68,-255.33 68,-228.89 68,-228.89"/>
-<polygon fill="black" stroke="black" points="71.5,-228.89 68,-218.89 64.5,-228.89 71.5,-228.89"/>
+<path fill="none" stroke="black" d="M157,-255.33C157,-255.33 157,-228.89 157,-228.89"/>
+<polygon fill="black" stroke="black" points="160.5,-228.89 157,-218.89 153.5,-228.89 160.5,-228.89"/>
 </g>
-<!-- c_0_81 -->
+<!-- d3_funct_1 -->
+<g id="node2" class="node">
+<title>d3_funct_1</title>
+<g id="a_node2"><a xlink:href="d3_funct_1.html" xlink:title="d3_funct_1" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="36,-270.5 36,-285.5 114,-285.5 114,-270.5 36,-270.5"/>
+<text text-anchor="middle" x="75" y="-274.3" font-family="Times,serif" font-size="14.00">d3_funct_1</text>
+</a>
+</g>
+</g>
+<!-- d3_funct_1&#45;&gt;c_0_47 -->
+<g id="edge2" class="edge">
+<title>d3_funct_1&#45;&gt;c_0_47</title>
+<path fill="none" stroke="black" d="M79.25,-270.48C79.25,-270.48 79.25,-228.54 79.25,-228.54"/>
+<polygon fill="black" stroke="black" points="82.75,-228.54 79.25,-218.54 75.75,-228.54 82.75,-228.54"/>
+</g>
+<!-- c_0_64 -->
 <g id="node4" class="node">
-<title>c_0_81</title>
-<g id="a_node4"><a xlink:href="c_0_81.html" xlink:title="{X₂ = proj₂(sk₁₀(X₁))|X₃ ∈ X₂|⇊|X₁ = Ø|sk₂(sk₁₀(X₁),X₂,X₃) ∈ X₁}" target="_parent">
+<title>c_0_64</title>
+<g id="a_node4"><a xlink:href="c_0_64.html" xlink:title="{X₂ = proj₂(sk₁₀(X₁))|X₃ ∈ X₂|⇊|X₁ = Ø|sk₂(sk₁₀(X₁),X₂,X₃) ∈ X₁}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="191.5,-16.5 191.5,-91.5 348.5,-91.5 348.5,-16.5 191.5,-16.5"/>
 <text text-anchor="middle" x="270" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ = proj₂(sk₁₀(X₁))</text>
 <polyline fill="none" stroke="#7f7542" points="191.5,-76.5 348.5,-76.5 "/>
@@ -90,16 +90,16 @@
 </a>
 </g>
 </g>
-<!-- c_0_47&#45;&gt;c_0_81 -->
+<!-- c_0_47&#45;&gt;c_0_64 -->
 <g id="edge3" class="edge">
-<title>c_0_47&#45;&gt;c_0_81</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M198.5,-128.32C198.5,-128.32 198.5,-101.83 198.5,-101.83"/>
-<polygon fill="black" stroke="black" points="202,-101.83 198.5,-91.83 195,-101.83 202,-101.83"/>
+<title>c_0_47&#45;&gt;c_0_64</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M200.5,-128.32C200.5,-128.32 200.5,-101.83 200.5,-101.83"/>
+<polygon fill="black" stroke="black" points="204,-101.83 200.5,-91.83 197,-101.83 204,-101.83"/>
 </g>
-<!-- c_0_64 -->
+<!-- c_0_81 -->
 <g id="node5" class="node">
-<title>c_0_64</title>
-<g id="a_node5"><a xlink:href="c_0_64.html" xlink:title="{X₂ = proj₂(sk₁₀(X₁))|X₃ ∈ X₂|⇊|X₁ = Ø|sk₂(sk₁₀(X₁),X₂,X₃) ∈ X₁}" target="_parent">
+<title>c_0_81</title>
+<g id="a_node5"><a xlink:href="c_0_81.html" xlink:title="{X₂ = proj₂(sk₁₀(X₁))|X₃ ∈ X₂|⇊|X₁ = Ø|sk₂(sk₁₀(X₁),X₂,X₃) ∈ X₁}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-91.5 173.5,-91.5 173.5,-16.5 16.5,-16.5"/>
 <text text-anchor="middle" x="95" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ = proj₂(sk₁₀(X₁))</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-76.5 173.5,-76.5 "/>
@@ -113,11 +113,11 @@
 </a>
 </g>
 </g>
-<!-- c_0_47&#45;&gt;c_0_64 -->
+<!-- c_0_47&#45;&gt;c_0_81 -->
 <g id="edge4" class="edge">
-<title>c_0_47&#45;&gt;c_0_64</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M107,-128.32C107,-128.32 107,-101.83 107,-101.83"/>
-<polygon fill="black" stroke="black" points="110.5,-101.83 107,-91.83 103.5,-101.83 110.5,-101.83"/>
+<title>c_0_47&#45;&gt;c_0_81</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M109,-128.32C109,-128.32 109,-101.83 109,-101.83"/>
+<polygon fill="black" stroke="black" points="112.5,-101.83 109,-91.83 105.5,-101.83 112.5,-101.83"/>
 </g>
 </g>
 </svg>
