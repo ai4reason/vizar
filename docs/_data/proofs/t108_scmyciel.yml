@@ -1,0 +1,1558 @@
+axioms:
+  cc1_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 ordinal(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#CC1
+  cc1_nat_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 ( ordinal(X\u2081\
+      )\n        \u2227 (X\u2081 \u2208 \u2115) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#CC1
+  cc1_subset_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 = \xD8)\n     \u21D2 (\u2200X\u2082\
+      )\n          ( (X\u2082 \u2208 bool(X\u2081))\n         \u21D2 (X\u2082 = \xD8\
+      ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#CC1
+  cc2_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( -at_most_dimensional(X\u2082,X\u2081)\n         \u21D2\
+      \ finite-membered(X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#CC2
+  cc4_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( SimpleGraph-like(X\u2081)\n     \u21D2 ( \xAC\
+      \ (X\u2081 = \xD8)\n        \u2227 subset-closed(X\u2081)\n        \u2227 -at_most_dimensional(X\u2081\
+      ,1) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#CC4
+  cc5_ordinal1:
+    fof: "    (\u2200X\u2081)\n      ( ordinal(X\u2081)\n     \u21D2 (\u2200X\u2082\
+      )\n          ( (X\u2082 \u2208 X\u2081)\n         \u21D2 ordinal(X\u2082) )\
+      \ ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#CC5
+  cc8_finset_1:
+    fof: "    (\u2200X\u2081)\n      ( finite-membered(X\u2081)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 bool(X\u2081))\n         \u21D2 finite-membered(X\u2082\
+      ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finset_1.html#CC8
+  commutativity_k2_tarski:
+    fof: "    (\u2200X\u2081,X\u2082) (X\u2081 \\{..\\} X\u2082) = (X\u2082 \\{..\\\
+      } X\u2081) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K2
+  d5_tarski:
+    fof: "    (\u2200X\u2081,X\u2082) (X\u2081 [..] X\u2082) = ((X\u2081 \\{..\\}\
+      \ X\u2082) \\{..\\} \\{X\u2081\\}) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#D5
+  d6_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( ( finite(X\u2081)\n        \u2227 finite-membered(X\u2081\
+      ) )\n     \u21D2 order(X\u2081) = card(union(X\u2081)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#D6
+  dt_k12_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( SimpleGraph-like(X\u2081)\n     \u21D2 SimpleGraph-like(Mycielskian(X\u2081\
+      )) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#K12
+  dt_k1_card_1:
+    fof: "    (\u2200X\u2081) (|X\u2081| \u2208 Card) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+  dt_k2_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( ( finite(X\u2081)\n        \u2227 finite-membered(X\u2081\
+      ) )\n     \u21D2 (order(X\u2081) \u2208 \u2115) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#K2
+  dt_k8_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( ( SimpleGraph-like(X\u2081)\n        \u2227\
+      \ ( with_finite_clique# X\u2081) )\n     \u21D2 (( clique# X\u2081) \u2208 \u2115\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#K8
+  fc1_nat_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2115)\n       \
+      \ \u2227 (X\u2082 \u2208 \u2115) )\n     \u21D2 ((X\u2081 + X\u2082) \u2208\
+      \ \u2115) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#FC1
+  fc34_finset_1:
+    fof: "    (\u2200X\u2081)\n      ( ( finite(X\u2081)\n        \u2227 finite-membered(X\u2081\
+      ) )\n     \u21D2 finite(union(X\u2081)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finset_1.html#FC34
+  fc6_ordinal1:
+    fof: "    ( \xAC (\u03C9 = \xD8)\n    \u2227 ordinal(\u03C9) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#FC6
+  redefinition_k1_nat_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2115)\n       \
+      \ \u2227 (X\u2082 \u2208 \u2115) )\n     \u21D2 (X\u2081 + X\u2082) = (X\u2081\
+      \ + X\u2082) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#K1
+  redefinition_k5_card_1:
+    fof: "    (\u2200X\u2081)\n      ( finite(X\u2081)\n     \u21D2 card(X\u2081)\
+      \ = |X\u2081| ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K5
+  redefinition_k5_numbers:
+    fof: "    \u2115 = \u03C9 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+  redefinition_r1_ordinal1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( ordinal(X\u2081)\n        \u2227\
+      \ ordinal(X\u2082) )\n     \u21D2 ( (X\u2081 c= X\u2082)\n      \u2261 (X\u2081\
+      \ \u2286 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#R1
+  rqLessOrEqual__r1_xxreal_0__r2_r1:
+    fof: "    \xAC (2 \u2264 1) "
+    url: null
+  rqRealAdd__k2_xcmplx_0__r1_r1_r2:
+    fof: '    (1 + 1) = 2 '
+    url: null
+  rqRealAdd__k2_xcmplx_0__r2_r1_r3:
+    fof: '    (2 + 1) = 3 '
+    url: null
+  spc0_boole:
+    fof: "    (0 = \xD8) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#SPC0
+  spc1_numerals:
+    fof: "    ( positive(1)\n    \u2227 (1 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+      \ (1 \u2208 \u2115)\n    \u2227 (1 \u2208 \u211D) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC1
+  spc3_numerals:
+    fof: "    ( positive(3)\n    \u2227 (3 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+      \ (3 \u2208 \u2115)\n    \u2227 (3 \u2208 \u211D) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC3
+  t108_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( ( SimpleGraph-like(X\u2081)\n        \u2227\
+      \ ( with_finite_clique# X\u2081) )\n     \u21D2 ( ( clique# X\u2081) = 1\n \
+      \      \u21D2 (\u2200X\u2082)\n            ( ( finite(X\u2082)\n           \
+      \   \u2227 SimpleGraph-like(X\u2082)\n              \u2227 clique(X\u2082)\n\
+      \              \u2227 (X\u2082 \u2208 bool(Mycielskian(X\u2081))) )\n      \
+      \     \u21D2 (order(X\u2082) \u2264 2) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#T108
+  t12_scmyciel:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( ((X\u2082 \\{..\\} X\u2083\
+      ) \u2208 X\u2081)\n     \u21D2 ( X\u2082 = X\u2083\n        \u2228 ((X\u2082\
+      \ \\{..\\} X\u2083) \u2208 PairsOf(X\u2081)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#T12
+  t13_nat_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u2115)\n         \u21D2 ( \xAC ((X\u2082\
+      \ + 1) \u2264 X\u2081)\n          \u2261 (X\u2081 \u2264 X\u2082) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#T13
+  t2_subset:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2208 X\u2082)\n     \u21D2\
+      \ ( (X\u2082 = \xD8)\n        \u2228 (X\u2081 \u2208 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T2
+  t39_nat_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u2115)\n         \u21D2 ( (X\u2081 \u2264\
+      \ X\u2082)\n          \u2261 (X\u2081 c= X\u2082) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#T39
+  t3_subset:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2208 bool(X\u2082))\n  \
+      \  \u2261 (X\u2081 \u2286 X\u2082) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T3
+  t4_subset:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( ( (X\u2081 \u2208 X\u2082)\n\
+      \        \u2227 (X\u2082 \u2208 bool(X\u2083)) )\n     \u21D2 (X\u2081 \u2208\
+      \ X\u2083) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T4
+  t53_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( ( SimpleGraph-like(X\u2081)\n        \u2227\
+      \ clique(X\u2081) )\n     \u21D2 (\u2200X\u2082,X\u2083)\n          ( ( (X\u2082\
+      \ \u2208 union(X\u2081))\n            \u2227 (X\u2083 \u2208 union(X\u2081))\
+      \ )\n         \u21D2 ((X\u2082 \\{..\\} X\u2083) \u2208 X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#T53
+  t57_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( ( SimpleGraph-like(X\u2081)\n        \u2227\
+      \ ( with_finite_clique# X\u2081) )\n     \u21D2 ( PairsOf(X\u2081) != \xD8\n\
+      \       \u21D2 (2 \u2264 ( clique# X\u2081)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#T57
+  t5_scmyciel:
+    fof: "    (\u2200X\u2081,X\u2082)\n      \xAC ( (3 c= |X\u2081|)\n        \u2227\
+      \ (\u2200X\u2083,X\u2084)\n            \xAC ( (X\u2083 \u2208 X\u2081)\n   \
+      \           \u2227 (X\u2084 \u2208 X\u2081)\n              \u2227 X\u2083 !=\
+      \ X\u2082\n              \u2227 X\u2084 != X\u2082\n              \u2227 X\u2083\
+      \ != X\u2084 ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#T5
+  t6_boole:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 = \xD8)\n     \u21D2 X\u2081 = \xD8\
+      \ ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#T6
+  t6_zfmisc_1:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083,X\u2084)\n      \xAC ( (X\u2081 \\{..\\\
+      } X\u2082) = (X\u2083 \\{..\\} X\u2084)\n        \u2227 X\u2081 != X\u2083\n\
+      \        \u2227 X\u2081 != X\u2084 ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#T6
+  t7_boole:
+    fof: "    (\u2200X\u2081,X\u2082)\n      \xAC ( (X\u2081 \u2208 X\u2082)\n   \
+      \     \u2227 (X\u2082 = \xD8) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#T7
+  t90_scmyciel:
+    fof: "    (\u2200X\u2081)\n      ( SimpleGraph-like(X\u2081)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 PairsOf(Mycielskian(X\u2081)))\n     \
+      \   \u2261 \xAC ( \xAC (X\u2082 \u2208 PairsOf(X\u2081))\n              \u2227\
+      \ (\u2200X\u2083)\n                  ( (X\u2083 \u2208 union(X\u2081))\n   \
+      \              \u21D2 (\u2200X\u2084)\n                      ( (X\u2084 \u2208\
+      \ union(X\u2081))\n                     \u21D2 \xAC ( X\u2082 = (X\u2083 \\\
+      {..\\} (X\u2084 [..] union(X\u2081)))\n                          \u2227 ((X\u2083\
+      \ \\{..\\} X\u2084) \u2208 PairsOf(X\u2081)) ) ) )\n              \u2227 (\u2200\
+      X\u2083)\n                  ( (X\u2083 \u2208 union(X\u2081))\n            \
+      \     \u21D2 \xAC ( X\u2082 = (union(X\u2081) \\{..\\} (X\u2083 [..] union(X\u2081\
+      )))\n                      \u2227 (X\u2083 \u2208 union(X\u2081)) ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#T90
+conjecture: t108_scmyciel
+final: c_0_185
+skolems:
+  esk1_0:
+    axiom: t108_scmyciel
+    related:
+    - esk1_0
+    - esk2_0
+    symbol: "sk\u2081"
+  esk2_0:
+    axiom: t108_scmyciel
+    related:
+    - esk1_0
+    - esk2_0
+    symbol: "sk\u2082"
+  esk3_2:
+    axiom: t5_scmyciel
+    related:
+    - esk4_2
+    - esk3_2
+    symbol: "sk\u2083"
+  esk4_2:
+    axiom: t5_scmyciel
+    related:
+    - esk4_2
+    - esk3_2
+    symbol: "sk\u2084"
+  esk5_2:
+    axiom: t90_scmyciel
+    related:
+    - esk7_2
+    - esk6_2
+    - esk5_2
+    symbol: "sk\u2085"
+  esk6_2:
+    axiom: t90_scmyciel
+    related:
+    - esk7_2
+    - esk6_2
+    - esk5_2
+    symbol: "sk\u2086"
+  esk7_2:
+    axiom: t90_scmyciel
+    related:
+    - esk7_2
+    - esk6_2
+    - esk5_2
+    symbol: "sk\u2087"
+steps:
+  c_0_100:
+    counts:
+      k1_scmyciel: 1
+      k2_tarski: 2
+      r2_hidden: 2
+    skolems: []
+  c_0_102:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      v1_xboole_0: 2
+    skolems: []
+  c_0_103:
+    counts:
+      k12_scmyciel: 1
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_104:
+    counts:
+      v1_xboole_0: 1
+    skolems:
+    - esk2_0
+  c_0_106:
+    counts:
+      k1_zfmisc_1: 1
+      k2_xcmplx_0: 2
+      m1_subset_1: 1
+      np__1: 2
+      r1_xxreal_0: 1
+      v7_ordinal1: 3
+    skolems: []
+  c_0_107:
+    counts:
+      k2_xcmplx_0: 1
+      v7_ordinal1: 3
+    skolems: []
+  c_0_108:
+    counts:
+      np__1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_109:
+    counts:
+      k2_xcmplx_0: 1
+      np__1: 2
+      np__2: 1
+    skolems: []
+  c_0_110:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      v5_finset_1: 2
+    skolems: []
+  c_0_111:
+    counts:
+      np__1: 1
+      v4_scmyciel: 1
+      v5_finset_1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_112:
+    counts:
+      k12_scmyciel: 1
+      k2_tarski: 2
+      k3_tarski: 2
+      np__0: 1
+      r2_hidden: 2
+    skolems:
+    - esk1_0
+  c_0_113:
+    counts:
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_114:
+    counts:
+      k12_scmyciel: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk1_0
+  c_0_115:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+    skolems: []
+  c_0_119:
+    counts:
+      k2_xcmplx_0: 1
+      np__1: 1
+      np__2: 1
+      np__3: 1
+    skolems: []
+  c_0_120:
+    counts:
+      np__2: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_121:
+    counts:
+      k12_scmyciel: 1
+      v5_finset_1: 2
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_124:
+    counts:
+      k12_scmyciel: 1
+      k2_tarski: 2
+      k3_tarski: 2
+      m1_subset_1: 1
+      np__0: 1
+      r2_hidden: 1
+    skolems:
+    - esk1_0
+  c_0_125:
+    counts:
+      k12_scmyciel: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_126:
+    counts:
+      k2_tarski: 1
+      k3_tarski: 2
+      r2_hidden: 3
+      v4_scmyciel: 1
+      v5_scmyciel: 1
+    skolems: []
+  c_0_127:
+    counts:
+      v5_scmyciel: 1
+    skolems:
+    - esk2_0
+  c_0_131:
+    counts:
+      k4_ordinal1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_132:
+    counts:
+      k4_ordinal1: 1
+      k5_numbers: 1
+    skolems: []
+  c_0_133:
+    counts:
+      k2_scmyciel: 1
+      np__2: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk2_0
+  c_0_134:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      np__2: 1
+      np__3: 1
+      r1_xxreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_136:
+    counts:
+      k12_scmyciel: 1
+      v4_scmyciel: 1
+      v5_finset_1: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_137:
+    counts:
+      k12_scmyciel: 1
+      v4_scmyciel: 2
+    skolems: []
+  c_0_141:
+    counts:
+      k2_tarski: 2
+      k3_tarski: 2
+      np__0: 1
+      r2_hidden: 2
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_142:
+    counts:
+      k2_tarski: 1
+      k3_tarski: 2
+      r2_hidden: 3
+    skolems:
+    - esk2_0
+  c_0_144:
+    counts:
+      r1_ordinal1: 1
+      r1_tarski: 1
+      v3_ordinal1: 2
+    skolems: []
+  c_0_145:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_146:
+    counts:
+      v1_card_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_147:
+    counts:
+      k1_card_1: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_148:
+    counts:
+      m1_subset_1: 1
+      v3_ordinal1: 2
+    skolems: []
+  c_0_149:
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__3: 1
+    skolems: []
+  c_0_150:
+    counts:
+      k5_numbers: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_151:
+    counts:
+      k1_zfmisc_1: 1
+      k2_scmyciel: 2
+      m1_subset_1: 1
+      np__3: 1
+      v7_ordinal1: 1
+    skolems:
+    - esk2_0
+  c_0_152:
+    counts:
+      k2_scmyciel: 1
+      v1_finset_1: 1
+      v5_finset_1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_153:
+    counts:
+      v5_finset_1: 1
+    skolems:
+    - esk2_0
+  c_0_154:
+    counts:
+      v1_finset_1: 1
+    skolems:
+    - esk2_0
+  c_0_155:
+    counts:
+      k1_card_1: 1
+      k5_card_1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_156:
+    counts:
+      k2_scmyciel: 1
+      k3_tarski: 1
+      k5_card_1: 1
+      v1_finset_1: 1
+      v5_finset_1: 1
+    skolems: []
+  c_0_157:
+    counts:
+      k3_tarski: 1
+      v1_finset_1: 2
+      v5_finset_1: 1
+    skolems: []
+  c_0_158:
+    counts:
+      k2_tarski: 1
+      k3_tarski: 4
+      np__0: 1
+      r2_hidden: 3
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_159:
+    counts:
+      k1_card_1: 1
+      np__3: 1
+      r1_ordinal1: 1
+      r2_hidden: 1
+    skolems:
+    - esk4_2
+  c_0_160:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r1_ordinal1: 1
+      v3_ordinal1: 2
+    skolems: []
+  c_0_161:
+    counts:
+      k1_card_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_162:
+    counts:
+      np__3: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_164:
+    counts:
+      k1_card_1: 1
+      k2_scmyciel: 1
+      k3_tarski: 1
+      v1_finset_1: 1
+      v5_finset_1: 1
+    skolems: []
+  c_0_165:
+    counts:
+      k3_tarski: 4
+      r2_hidden: 2
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_166:
+    counts:
+      k1_card_1: 1
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      np__3: 1
+      r2_hidden: 1
+    skolems:
+    - esk4_2
+  c_0_167:
+    counts:
+      k1_card_1: 1
+      k1_zfmisc_1: 1
+      k3_tarski: 1
+      m1_subset_1: 1
+      np__3: 1
+    skolems:
+    - esk2_0
+  c_0_168:
+    counts:
+      k1_card_1: 1
+      np__3: 1
+      r1_ordinal1: 1
+      r2_hidden: 1
+    skolems:
+    - esk3_2
+  c_0_169:
+    counts:
+      k1_card_1: 1
+      np__3: 1
+      r1_ordinal1: 1
+    skolems:
+    - esk4_2
+    - esk3_2
+  c_0_170:
+    counts:
+      k3_tarski: 5
+      r2_hidden: 1
+    skolems:
+    - esk4_2
+    - esk2_0
+    - esk1_0
+  c_0_171:
+    counts:
+      k1_card_1: 1
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      np__3: 1
+      r2_hidden: 1
+    skolems:
+    - esk3_2
+  c_0_172:
+    counts:
+      k1_card_1: 1
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      np__3: 1
+    skolems:
+    - esk4_2
+    - esk3_2
+  c_0_173:
+    counts:
+      k3_tarski: 6
+    skolems:
+    - esk4_2
+    - esk2_0
+    - esk3_2
+    - esk1_0
+  c_0_174:
+    counts:
+      k1_card_1: 1
+      np__3: 1
+      r1_ordinal1: 1
+    skolems:
+    - esk4_2
+  c_0_175:
+    counts:
+      k3_tarski: 6
+    skolems:
+    - esk4_2
+    - esk2_0
+    - esk3_2
+    - esk1_0
+  c_0_176:
+    counts:
+      k1_card_1: 1
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      np__3: 1
+    skolems:
+    - esk4_2
+  c_0_177:
+    counts:
+      k3_tarski: 6
+    skolems:
+    - esk4_2
+    - esk2_0
+    - esk1_0
+  c_0_178:
+    counts:
+      k1_card_1: 1
+      np__3: 1
+      r1_ordinal1: 1
+    skolems:
+    - esk3_2
+  c_0_179:
+    counts:
+      k3_tarski: 4
+    skolems:
+    - esk4_2
+    - esk2_0
+    - esk3_2
+    - esk1_0
+  c_0_180:
+    counts:
+      k3_tarski: 5
+    skolems:
+    - esk4_2
+    - esk2_0
+    - esk1_0
+  c_0_181:
+    counts:
+      k1_card_1: 1
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      np__3: 1
+    skolems:
+    - esk3_2
+  c_0_182:
+    counts:
+      k3_tarski: 3
+    skolems:
+    - esk2_0
+    - esk3_2
+    - esk1_0
+  c_0_183:
+    counts:
+      k3_tarski: 5
+    skolems:
+    - esk4_2
+    - esk2_0
+    - esk1_0
+  c_0_184:
+    counts:
+      k3_tarski: 1
+    skolems:
+    - esk1_0
+  c_0_43:
+    counts:
+      k12_scmyciel: 1
+      k1_scmyciel: 3
+      k2_tarski: 2
+      k3_tarski: 2
+      k4_tarski: 1
+      r2_hidden: 3
+      v4_scmyciel: 1
+    skolems:
+    - esk7_2
+    - esk6_2
+    - esk5_2
+  c_0_44:
+    counts:
+      k1_tarski: 1
+      k2_tarski: 2
+      k4_tarski: 1
+    skolems: []
+  c_0_48:
+    counts:
+      k12_scmyciel: 1
+      k1_scmyciel: 3
+      k1_tarski: 1
+      k2_tarski: 4
+      k3_tarski: 2
+      r2_hidden: 3
+      v4_scmyciel: 1
+    skolems:
+    - esk7_2
+    - esk6_2
+    - esk5_2
+  c_0_49:
+    counts:
+      k2_tarski: 2
+    skolems: []
+  c_0_54:
+    counts:
+      k2_tarski: 2
+    skolems: []
+  c_0_55:
+    counts:
+      k12_scmyciel: 1
+      k1_scmyciel: 3
+      k1_tarski: 1
+      k2_tarski: 4
+      k3_tarski: 2
+      r2_hidden: 3
+      v4_scmyciel: 1
+    skolems:
+    - esk7_2
+    - esk6_2
+    - esk5_2
+  c_0_56:
+    counts:
+      k1_scmyciel: 1
+      k1_xboole_0: 1
+      k8_scmyciel: 1
+      np__2: 1
+      r1_xxreal_0: 1
+      v4_scmyciel: 1
+      v6_scmyciel: 1
+    skolems: []
+  c_0_57:
+    counts:
+      k8_scmyciel: 1
+      np__1: 1
+    skolems:
+    - esk1_0
+  c_0_58:
+    counts:
+      v6_scmyciel: 1
+    skolems:
+    - esk1_0
+  c_0_59:
+    counts:
+      v4_scmyciel: 1
+    skolems:
+    - esk1_0
+  c_0_60:
+    counts:
+      np__1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+    skolems: []
+  c_0_61:
+    counts:
+      k1_xboole_0: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_62:
+    counts:
+      np__0: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_65:
+    counts:
+      k12_scmyciel: 1
+      k1_scmyciel: 3
+      k2_tarski: 2
+      k3_tarski: 2
+      r2_hidden: 3
+      v4_scmyciel: 1
+    skolems:
+    - esk6_2
+    - esk5_2
+  c_0_66:
+    counts:
+      k1_scmyciel: 1
+      k1_xboole_0: 1
+    skolems:
+    - esk1_0
+  c_0_67:
+    counts:
+      k1_xboole_0: 1
+      np__0: 1
+    skolems: []
+  c_0_68:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_69:
+    counts:
+      r1_ordinal1: 1
+      r1_tarski: 1
+      v3_ordinal1: 2
+    skolems: []
+  c_0_75:
+    counts:
+      k12_scmyciel: 1
+      k1_scmyciel: 3
+      k2_tarski: 5
+      k3_tarski: 2
+      r2_hidden: 3
+      v4_scmyciel: 1
+    skolems:
+    - esk6_2
+    - esk5_2
+  c_0_76:
+    counts:
+      k1_scmyciel: 1
+      np__0: 1
+    skolems:
+    - esk1_0
+  c_0_78:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r1_ordinal1: 1
+      v3_ordinal1: 2
+    skolems: []
+  c_0_79:
+    counts:
+      r1_ordinal1: 1
+      r1_xxreal_0: 1
+      v7_ordinal1: 2
+    skolems: []
+  c_0_80:
+    counts:
+      v3_ordinal1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_81:
+    counts:
+      k1_nat_1: 1
+      np__1: 1
+      r1_xxreal_0: 2
+      v7_ordinal1: 2
+    skolems: []
+  c_0_82:
+    counts:
+      k1_nat_1: 1
+      k2_xcmplx_0: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_83:
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__1: 1
+    skolems: []
+  c_0_86:
+    counts:
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_87:
+    counts:
+      k12_scmyciel: 1
+      k1_scmyciel: 1
+      k2_tarski: 5
+      k3_tarski: 2
+      np__0: 2
+      r2_hidden: 3
+    skolems:
+    - esk6_2
+    - esk5_2
+    - esk1_0
+  c_0_90:
+    counts:
+      v1_xboole_0: 1
+      v4_scmyciel: 1
+    skolems: []
+  c_0_91:
+    counts:
+      v4_scmyciel: 1
+    skolems:
+    - esk2_0
+  c_0_92:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r1_xxreal_0: 1
+      v7_ordinal1: 2
+    skolems: []
+  c_0_95:
+    counts:
+      k8_scmyciel: 1
+      v4_scmyciel: 1
+      v6_scmyciel: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_97:
+    counts:
+      v3_scmyciel: 1
+      v5_finset_1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_98:
+    counts:
+      np__1: 1
+      v3_scmyciel: 1
+      v4_scmyciel: 1
+    skolems: []
+  c_0_99:
+    counts:
+      k12_scmyciel: 1
+      k1_scmyciel: 1
+      k2_tarski: 2
+      k3_tarski: 2
+      np__0: 1
+      r2_hidden: 2
+    skolems:
+    - esk1_0
+symbols:
+  k12_scmyciel:
+    arity: 1
+    count: 15
+    mizar: Mycielskian
+    neg: 12
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#K12
+    vizar: Mycielskian(x)
+  k1_card_1:
+    arity: 1
+    count: 15
+    mizar: card
+    neg: 10
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+    vizar: '|x|'
+  k1_nat_1:
+    arity: 2
+    count: 2
+    mizar: +
+    neg: 0
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#K1
+    vizar: x + y
+  k1_scmyciel:
+    arity: 1
+    count: 21
+    mizar: PairsOf
+    neg: 7
+    pos: 14
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#K1
+    vizar: PairsOf(x)
+  k1_tarski:
+    arity: 1
+    count: 3
+    mizar: '{..}'
+    neg: 0
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K1
+    vizar: '{x}'
+  k1_xboole_0:
+    arity: 0
+    count: 4
+    mizar: '{}'
+    neg: 0
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K1
+    vizar: "\xD8"
+  k1_zfmisc_1:
+    arity: 1
+    count: 20
+    mizar: bool
+    neg: 10
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
+    vizar: bool(x)
+  k2_scmyciel:
+    arity: 1
+    count: 7
+    mizar: order
+    neg: 2
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#K2
+    vizar: order(x)
+  k2_tarski:
+    arity: 2
+    count: 41
+    mizar: '{..}'
+    neg: 10
+    pos: 31
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K2
+    vizar: x {..} y
+  k2_xcmplx_0:
+    arity: 2
+    count: 8
+    mizar: +
+    neg: 1
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K2
+    vizar: x + y
+  k3_tarski:
+    arity: 1
+    count: 77
+    mizar: union
+    neg: 14
+    pos: 63
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K3
+    vizar: union(x)
+  k4_ordinal1:
+    arity: 0
+    count: 2
+    mizar: omega
+    neg: 0
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#K4
+    vizar: "\u03C9"
+  k4_tarski:
+    arity: 2
+    count: 2
+    mizar: '[..]'
+    neg: 0
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K4
+    vizar: x [..] y
+  k5_card_1:
+    arity: 1
+    count: 2
+    mizar: card
+    neg: 0
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K5
+    vizar: card(x)
+  k5_numbers:
+    arity: 0
+    count: 5
+    mizar: NAT
+    neg: 1
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+    vizar: "\u2115"
+  k8_scmyciel:
+    arity: 1
+    count: 3
+    mizar: clique#
+    neg: 0
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#K8
+    vizar: clique#
+  m1_subset_1:
+    arity: 2
+    count: 28
+    mizar: Element
+    neg: 14
+    pos: 14
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  np__0:
+    arity: 0
+    count: 10
+    mizar: '0'
+    neg: 0
+    pos: 10
+    url: null
+    vizar: '0'
+  np__1:
+    arity: 0
+    count: 14
+    mizar: '1'
+    neg: 3
+    pos: 11
+    url: null
+    vizar: '1'
+  np__2:
+    arity: 0
+    count: 7
+    mizar: '2'
+    neg: 2
+    pos: 5
+    url: null
+    vizar: '2'
+  np__3:
+    arity: 0
+    count: 17
+    mizar: '3'
+    neg: 10
+    pos: 7
+    url: null
+    vizar: '3'
+  r1_ordinal1:
+    arity: 2
+    count: 10
+    mizar: c=
+    neg: 7
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#R1
+    vizar: x c= y
+  r1_tarski:
+    arity: 2
+    count: 4
+    mizar: c=
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1
+    vizar: "x \u2286 y"
+  r1_xxreal_0:
+    arity: 2
+    count: 12
+    mizar: '&lt;='
+    neg: 4
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#R1
+    vizar: "x \u2264 y"
+  r2_hidden:
+    arity: 2
+    count: 47
+    mizar: in
+    neg: 22
+    pos: 25
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2
+    vizar: "x \u2208 y"
+  v1_card_1:
+    arity: 1
+    count: 2
+    mizar: cardinal
+    neg: 1
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#V1
+    vizar: "x \u2208 Card"
+  v1_finset_1:
+    arity: 1
+    count: 7
+    mizar: finite
+    neg: 5
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finset_1.html#V1
+    vizar: finite(x)
+  v1_xboole_0:
+    arity: 1
+    count: 9
+    mizar: empty
+    neg: 6
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1
+    vizar: "x = \xD8"
+  v3_ordinal1:
+    arity: 1
+    count: 16
+    mizar: ordinal
+    neg: 9
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V3
+    vizar: ordinal(x)
+  v3_scmyciel:
+    arity: 2
+    count: 2
+    mizar: -at_most_dimensional
+    neg: 1
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#V3
+    vizar: -at_most_dimensional(x,y)
+  v4_scmyciel:
+    arity: 1
+    count: 17
+    mizar: SimpleGraph-like
+    neg: 14
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#V4
+    vizar: SimpleGraph-like(x)
+  v5_finset_1:
+    arity: 1
+    count: 13
+    mizar: finite-membered
+    neg: 6
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finset_1.html#V5
+    vizar: finite-membered(x)
+  v5_scmyciel:
+    arity: 1
+    count: 2
+    mizar: clique
+    neg: 1
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#V5
+    vizar: clique(x)
+  v6_scmyciel:
+    arity: 1
+    count: 3
+    mizar: with_finite_clique#
+    neg: 2
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#V6
+    vizar: with_finite_clique#
+  v7_ordinal1:
+    arity: 1
+    count: 26
+    mizar: natural
+    neg: 21
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V7
+    vizar: "x \u2208 \u2115"
+tptp:
+  c_0_100: "cnf(c_0_100,plain,\n    ( X1 = X2\n    | r2_hidden(k2_tarski(X1,X2),k1_scmyciel(X3))\n\
+    \    | ~ r2_hidden(k2_tarski(X1,X2),X3) ))."
+  c_0_102: "cnf(c_0_102,plain,\n    ( v1_xboole_0(X2)\n    | ~ v1_xboole_0(X1)\n \
+    \   | ~ m1_subset_1(X2,k1_zfmisc_1(X1)) ))."
+  c_0_103: "cnf(c_0_103,negated_conjecture,\n    ( m1_subset_1(esk2_0,k1_zfmisc_1(k12_scmyciel(esk1_0)))\
+    \ ))."
+  c_0_104: "cnf(c_0_104,negated_conjecture,\n    ( ~ v1_xboole_0(esk2_0) ))."
+  c_0_106: "cnf(c_0_106,plain,\n    ( r1_xxreal_0(X1,X2)\n    | m1_subset_1(k2_xcmplx_0(X2,np__1),k1_zfmisc_1(X1))\n\
+    \    | ~ v7_ordinal1(k2_xcmplx_0(X2,np__1))\n    | ~ v7_ordinal1(X1)\n    | ~\
+    \ v7_ordinal1(X2) ))."
+  c_0_107: "cnf(c_0_107,plain,\n    ( v7_ordinal1(k2_xcmplx_0(X1,X2))\n    | ~ v7_ordinal1(X1)\n\
+    \    | ~ v7_ordinal1(X2) ))."
+  c_0_108: "cnf(c_0_108,negated_conjecture,\n    ( v7_ordinal1(np__1) ))."
+  c_0_109: "cnf(c_0_109,plain,\n    ( k2_xcmplx_0(np__1,np__1) = np__2 ))."
+  c_0_110: "cnf(c_0_110,plain,\n    ( v5_finset_1(X2)\n    | ~ v5_finset_1(X1)\n \
+    \   | ~ m1_subset_1(X2,k1_zfmisc_1(X1)) ))."
+  c_0_111: "cnf(c_0_111,plain,\n    ( v5_finset_1(X1)\n    | ~ v7_ordinal1(np__1)\n\
+    \    | ~ v4_scmyciel(X1) ))."
+  c_0_112: "cnf(c_0_112,negated_conjecture,\n    ( k3_tarski(esk1_0) = X1\n    | k3_tarski(esk1_0)\
+    \ = X2\n    | X2 = X1\n    | r2_hidden(k2_tarski(X2,X1),np__0)\n    | ~ r2_hidden(k2_tarski(X2,X1),k12_scmyciel(esk1_0))\
+    \ ))."
+  c_0_113: "cnf(c_0_113,plain,\n    ( v1_xboole_0(X2)\n    | r2_hidden(X1,X2)\n  \
+    \  | ~ m1_subset_1(X1,X2) ))."
+  c_0_114: "cnf(c_0_114,negated_conjecture,\n    ( ~ v1_xboole_0(k12_scmyciel(esk1_0))\
+    \ ))."
+  c_0_115: "cnf(c_0_115,plain,\n    ( m1_subset_1(X1,X3)\n    | ~ r2_hidden(X1,X2)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(X3)) ))."
+  c_0_119: "cnf(c_0_119,plain,\n    ( k2_xcmplx_0(np__2,np__1) = np__3 ))."
+  c_0_120: "cnf(c_0_120,plain,\n    ( v7_ordinal1(np__2) ))."
+  c_0_121: "cnf(c_0_121,negated_conjecture,\n    ( v5_finset_1(esk2_0)\n    | ~ v5_finset_1(k12_scmyciel(esk1_0))\
+    \ ))."
+  c_0_124: "cnf(c_0_124,negated_conjecture,\n    ( k3_tarski(esk1_0) = X1\n    | k3_tarski(esk1_0)\
+    \ = X2\n    | X1 = X2\n    | r2_hidden(k2_tarski(X1,X2),np__0)\n    | ~ m1_subset_1(k2_tarski(X1,X2),k12_scmyciel(esk1_0))\
+    \ ))."
+  c_0_125: "cnf(c_0_125,negated_conjecture,\n    ( m1_subset_1(X1,k12_scmyciel(esk1_0))\n\
+    \    | ~ r2_hidden(X1,esk2_0) ))."
+  c_0_126: "cnf(c_0_126,plain,\n    ( r2_hidden(k2_tarski(X2,X3),X1)\n    | ~ v4_scmyciel(X1)\n\
+    \    | ~ v5_scmyciel(X1)\n    | ~ r2_hidden(X2,k3_tarski(X1))\n    | ~ r2_hidden(X3,k3_tarski(X1))\
+    \ ))."
+  c_0_127: "cnf(c_0_127,negated_conjecture,\n    ( v5_scmyciel(esk2_0) ))."
+  c_0_131: "cnf(c_0_131,plain,\n    ( v3_ordinal1(k4_ordinal1) ))."
+  c_0_132: "cnf(c_0_132,plain,\n    ( k5_numbers = k4_ordinal1 ))."
+  c_0_133: "cnf(c_0_133,negated_conjecture,\n    ( ~ r1_xxreal_0(k2_scmyciel(esk2_0),np__2)\
+    \ ))."
+  c_0_134: "cnf(c_0_134,plain,\n    ( r1_xxreal_0(X1,np__2)\n    | m1_subset_1(np__3,k1_zfmisc_1(X1))\n\
+    \    | ~ v7_ordinal1(X1) ))."
+  c_0_136: "cnf(c_0_136,negated_conjecture,\n    ( v5_finset_1(esk2_0)\n    | ~ v4_scmyciel(k12_scmyciel(esk1_0))\
+    \ ))."
+  c_0_137: "cnf(c_0_137,plain,\n    ( v4_scmyciel(k12_scmyciel(X1))\n    | ~ v4_scmyciel(X1)\
+    \ ))."
+  c_0_141: "cnf(c_0_141,negated_conjecture,\n    ( k3_tarski(esk1_0) = X1\n    | k3_tarski(esk1_0)\
+    \ = X2\n    | X2 = X1\n    | r2_hidden(k2_tarski(X2,X1),np__0)\n    | ~ r2_hidden(k2_tarski(X2,X1),esk2_0)\
+    \ ))."
+  c_0_142: "cnf(c_0_142,negated_conjecture,\n    ( r2_hidden(k2_tarski(X1,X2),esk2_0)\n\
+    \    | ~ r2_hidden(X2,k3_tarski(esk2_0))\n    | ~ r2_hidden(X1,k3_tarski(esk2_0))\
+    \ ))."
+  c_0_144: "cnf(c_0_144,plain,\n    ( r1_ordinal1(X1,X2)\n    | ~ r1_tarski(X1,X2)\n\
+    \    | ~ v3_ordinal1(X1)\n    | ~ v3_ordinal1(X2) ))."
+  c_0_145: "cnf(c_0_145,plain,\n    ( r1_tarski(X1,X2)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X2))\
+    \ ))."
+  c_0_146: "cnf(c_0_146,plain,\n    ( v3_ordinal1(X1)\n    | ~ v1_card_1(X1) ))."
+  c_0_147: "cnf(c_0_147,plain,\n    ( v1_card_1(k1_card_1(X1)) ))."
+  c_0_148: "cnf(c_0_148,plain,\n    ( v3_ordinal1(X2)\n    | ~ v3_ordinal1(X1)\n \
+    \   | ~ m1_subset_1(X2,X1) ))."
+  c_0_149: "cnf(c_0_149,plain,\n    ( m1_subset_1(np__3,k5_numbers) ))."
+  c_0_150: "cnf(c_0_150,plain,\n    ( v3_ordinal1(k5_numbers) ))."
+  c_0_151: "cnf(c_0_151,negated_conjecture,\n    ( m1_subset_1(np__3,k1_zfmisc_1(k2_scmyciel(esk2_0)))\n\
+    \    | ~ v7_ordinal1(k2_scmyciel(esk2_0)) ))."
+  c_0_152: "cnf(c_0_152,plain,\n    ( v7_ordinal1(k2_scmyciel(X1))\n    | ~ v1_finset_1(X1)\n\
+    \    | ~ v5_finset_1(X1) ))."
+  c_0_153: "cnf(c_0_153,negated_conjecture,\n    ( v5_finset_1(esk2_0) ))."
+  c_0_154: "cnf(c_0_154,negated_conjecture,\n    ( v1_finset_1(esk2_0) ))."
+  c_0_155: "cnf(c_0_155,plain,\n    ( k5_card_1(X1) = k1_card_1(X1)\n    | ~ v1_finset_1(X1)\
+    \ ))."
+  c_0_156: "cnf(c_0_156,plain,\n    ( k2_scmyciel(X1) = k5_card_1(k3_tarski(X1))\n\
+    \    | ~ v1_finset_1(X1)\n    | ~ v5_finset_1(X1) ))."
+  c_0_157: "cnf(c_0_157,plain,\n    ( v1_finset_1(k3_tarski(X1))\n    | ~ v1_finset_1(X1)\n\
+    \    | ~ v5_finset_1(X1) ))."
+  c_0_158: "cnf(c_0_158,negated_conjecture,\n    ( k3_tarski(esk1_0) = X1\n    | k3_tarski(esk1_0)\
+    \ = X2\n    | X1 = X2\n    | r2_hidden(k2_tarski(X1,X2),np__0)\n    | ~ r2_hidden(X2,k3_tarski(esk2_0))\n\
+    \    | ~ r2_hidden(X1,k3_tarski(esk2_0)) ))."
+  c_0_159: "cnf(c_0_159,plain,\n    ( r2_hidden(esk4_2(X1,X2),X1)\n    | ~ r1_ordinal1(np__3,k1_card_1(X1))\
+    \ ))."
+  c_0_160: "cnf(c_0_160,plain,\n    ( r1_ordinal1(X1,X2)\n    | ~ v3_ordinal1(X2)\n\
+    \    | ~ v3_ordinal1(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X2)) ))."
+  c_0_161: "cnf(c_0_161,plain,\n    ( v3_ordinal1(k1_card_1(X1)) ))."
+  c_0_162: "cnf(c_0_162,plain,\n    ( v3_ordinal1(np__3) ))."
+  c_0_164: "cnf(c_0_164,plain,\n    ( k2_scmyciel(X1) = k1_card_1(k3_tarski(X1))\n\
+    \    | ~ v5_finset_1(X1)\n    | ~ v1_finset_1(X1) ))."
+  c_0_165: "cnf(c_0_165,negated_conjecture,\n    ( k3_tarski(esk1_0) = X1\n    | k3_tarski(esk1_0)\
+    \ = X2\n    | X2 = X1\n    | ~ r2_hidden(X1,k3_tarski(esk2_0))\n    | ~ r2_hidden(X2,k3_tarski(esk2_0))\
+    \ ))."
+  c_0_166: "cnf(c_0_166,plain,\n    ( r2_hidden(esk4_2(X1,X2),X1)\n    | ~ m1_subset_1(np__3,k1_zfmisc_1(k1_card_1(X1)))\
+    \ ))."
+  c_0_167: "cnf(c_0_167,negated_conjecture,\n    ( m1_subset_1(np__3,k1_zfmisc_1(k1_card_1(k3_tarski(esk2_0))))\
+    \ ))."
+  c_0_168: "cnf(c_0_168,plain,\n    ( r2_hidden(esk3_2(X1,X2),X1)\n    | ~ r1_ordinal1(np__3,k1_card_1(X1))\
+    \ ))."
+  c_0_169: "cnf(c_0_169,plain,\n    ( esk3_2(X1,X2) != esk4_2(X1,X2)\n    | ~ r1_ordinal1(np__3,k1_card_1(X1))\
+    \ ))."
+  c_0_170: "cnf(c_0_170,negated_conjecture,\n    ( esk4_2(k3_tarski(esk2_0),X1) =\
+    \ k3_tarski(esk1_0)\n    | X2 = esk4_2(k3_tarski(esk2_0),X1)\n    | k3_tarski(esk1_0)\
+    \ = X2\n    | ~ r2_hidden(X2,k3_tarski(esk2_0)) ))."
+  c_0_171: "cnf(c_0_171,plain,\n    ( r2_hidden(esk3_2(X1,X2),X1)\n    | ~ m1_subset_1(np__3,k1_zfmisc_1(k1_card_1(X1)))\
+    \ ))."
+  c_0_172: "cnf(c_0_172,plain,\n    ( esk4_2(X1,X2) != esk3_2(X1,X2)\n    | ~ m1_subset_1(np__3,k1_zfmisc_1(k1_card_1(X1)))\
+    \ ))."
+  c_0_173: "cnf(c_0_173,negated_conjecture,\n    ( esk3_2(k3_tarski(esk2_0),X1) =\
+    \ esk4_2(k3_tarski(esk2_0),X2)\n    | esk3_2(k3_tarski(esk2_0),X1) = k3_tarski(esk1_0)\n\
+    \    | esk4_2(k3_tarski(esk2_0),X2) = k3_tarski(esk1_0) ))."
+  c_0_174: "cnf(c_0_174,plain,\n    ( esk4_2(X1,X2) != X2\n    | ~ r1_ordinal1(np__3,k1_card_1(X1))\
+    \ ))."
+  c_0_175: "cnf(c_0_175,negated_conjecture,\n    ( esk4_2(k3_tarski(esk2_0),X1) =\
+    \ k3_tarski(esk1_0)\n    | esk3_2(k3_tarski(esk2_0),X2) = k3_tarski(esk1_0)\n\
+    \    | esk3_2(k3_tarski(esk2_0),X2) != esk3_2(k3_tarski(esk2_0),X1) ))."
+  c_0_176: "cnf(c_0_176,plain,\n    ( esk4_2(X1,X2) != X2\n    | ~ m1_subset_1(np__3,k1_zfmisc_1(k1_card_1(X1)))\
+    \ ))."
+  c_0_177: "cnf(c_0_177,negated_conjecture,\n    ( esk4_2(k3_tarski(esk2_0),X1) =\
+    \ esk4_2(k3_tarski(esk2_0),X2)\n    | esk4_2(k3_tarski(esk2_0),X1) = k3_tarski(esk1_0)\n\
+    \    | esk4_2(k3_tarski(esk2_0),X2) = k3_tarski(esk1_0) ))."
+  c_0_178: "cnf(c_0_178,plain,\n    ( esk3_2(X1,X2) != X2\n    | ~ r1_ordinal1(np__3,k1_card_1(X1))\
+    \ ))."
+  c_0_179: "cnf(c_0_179,negated_conjecture,\n    ( esk3_2(k3_tarski(esk2_0),X1) =\
+    \ k3_tarski(esk1_0)\n    | esk4_2(k3_tarski(esk2_0),X1) = k3_tarski(esk1_0) ))."
+  c_0_180: "cnf(c_0_180,negated_conjecture,\n    ( esk4_2(k3_tarski(esk2_0),X1) =\
+    \ k3_tarski(esk1_0)\n    | esk4_2(k3_tarski(esk2_0),X2) = k3_tarski(esk1_0)\n\
+    \    | esk4_2(k3_tarski(esk2_0),X2) != X1 ))."
+  c_0_181: "cnf(c_0_181,plain,\n    ( esk3_2(X1,X2) != X2\n    | ~ m1_subset_1(np__3,k1_zfmisc_1(k1_card_1(X1)))\
+    \ ))."
+  c_0_182: "cnf(c_0_182,negated_conjecture,\n    ( esk3_2(k3_tarski(esk2_0),X1) =\
+    \ k3_tarski(esk1_0)\n    | k3_tarski(esk1_0) != X1 ))."
+  c_0_183: "cnf(c_0_183,negated_conjecture,\n    ( esk4_2(k3_tarski(esk2_0),esk4_2(k3_tarski(esk2_0),X1))\
+    \ = k3_tarski(esk1_0)\n    | esk4_2(k3_tarski(esk2_0),X1) = k3_tarski(esk1_0)\
+    \ ))."
+  c_0_184: "cnf(c_0_184,negated_conjecture,\n    ( k3_tarski(esk1_0) != X1 ))."
+  c_0_185: "cnf(c_0_185,negated_conjecture,\n    ( $false ))."
+  c_0_43: "cnf(c_0_43,plain,\n    ( X1 = k2_tarski(k3_tarski(X2),k4_tarski(esk7_2(X2,X1),k3_tarski(X2)))\n\
+    \    | r2_hidden(k2_tarski(esk5_2(X2,X1),esk6_2(X2,X1)),k1_scmyciel(X2))\n   \
+    \ | r2_hidden(X1,k1_scmyciel(X2))\n    | ~ r2_hidden(X1,k1_scmyciel(k12_scmyciel(X2)))\n\
+    \    | ~ v4_scmyciel(X2) ))."
+  c_0_44: "cnf(c_0_44,plain,\n    ( k4_tarski(X1,X2) = k2_tarski(k2_tarski(X1,X2),k1_tarski(X1))\
+    \ ))."
+  c_0_48: "cnf(c_0_48,plain,\n    ( X1 = k2_tarski(k3_tarski(X2),k2_tarski(k2_tarski(esk7_2(X2,X1),k3_tarski(X2)),k1_tarski(esk7_2(X2,X1))))\n\
+    \    | r2_hidden(X1,k1_scmyciel(X2))\n    | r2_hidden(k2_tarski(esk5_2(X2,X1),esk6_2(X2,X1)),k1_scmyciel(X2))\n\
+    \    | ~ v4_scmyciel(X2)\n    | ~ r2_hidden(X1,k1_scmyciel(k12_scmyciel(X2)))\
+    \ ))."
+  c_0_49: "cnf(c_0_49,plain,\n    ( k2_tarski(X1,X2) = k2_tarski(X2,X1) ))."
+  c_0_54: "cnf(c_0_54,plain,\n    ( X1 = X3\n    | X1 = X4\n    | k2_tarski(X1,X2)\
+    \ != k2_tarski(X3,X4) ))."
+  c_0_55: "cnf(c_0_55,plain,\n    ( k2_tarski(k3_tarski(X1),k2_tarski(k1_tarski(esk7_2(X1,X2)),k2_tarski(k3_tarski(X1),esk7_2(X1,X2))))\
+    \ = X2\n    | r2_hidden(k2_tarski(esk6_2(X1,X2),esk5_2(X1,X2)),k1_scmyciel(X1))\n\
+    \    | r2_hidden(X2,k1_scmyciel(X1))\n    | ~ r2_hidden(X2,k1_scmyciel(k12_scmyciel(X1)))\n\
+    \    | ~ v4_scmyciel(X1) ))."
+  c_0_56: "cnf(c_0_56,plain,\n    ( k1_scmyciel(X1) = k1_xboole_0\n    | r1_xxreal_0(np__2,k8_scmyciel(X1))\n\
+    \    | ~ v4_scmyciel(X1)\n    | ~ v6_scmyciel(X1) ))."
+  c_0_57: "cnf(c_0_57,negated_conjecture,\n    ( k8_scmyciel(esk1_0) = np__1 ))."
+  c_0_58: "cnf(c_0_58,negated_conjecture,\n    ( v6_scmyciel(esk1_0) ))."
+  c_0_59: "cnf(c_0_59,negated_conjecture,\n    ( v4_scmyciel(esk1_0) ))."
+  c_0_60: "cnf(c_0_60,plain,\n    ( ~ r1_xxreal_0(np__2,np__1) ))."
+  c_0_61: "cnf(c_0_61,plain,\n    ( X1 = k1_xboole_0\n    | ~ v1_xboole_0(X1) ))."
+  c_0_62: "cnf(c_0_62,plain,\n    ( v1_xboole_0(np__0) ))."
+  c_0_65: "cnf(c_0_65,plain,\n    ( k3_tarski(X1) = X2\n    | k3_tarski(X1) = X3\n\
+    \    | r2_hidden(k2_tarski(esk6_2(X1,X4),esk5_2(X1,X4)),k1_scmyciel(X1))\n   \
+    \ | r2_hidden(X4,k1_scmyciel(X1))\n    | X4 != k2_tarski(X3,X2)\n    | ~ r2_hidden(X4,k1_scmyciel(k12_scmyciel(X1)))\n\
+    \    | ~ v4_scmyciel(X1) ))."
+  c_0_66: "cnf(c_0_66,negated_conjecture,\n    ( k1_scmyciel(esk1_0) = k1_xboole_0\
+    \ ))."
+  c_0_67: "cnf(c_0_67,plain,\n    ( k1_xboole_0 = np__0 ))."
+  c_0_68: "cnf(c_0_68,plain,\n    ( m1_subset_1(X1,k1_zfmisc_1(X2))\n    | ~ r1_tarski(X1,X2)\
+    \ ))."
+  c_0_69: "cnf(c_0_69,plain,\n    ( r1_tarski(X1,X2)\n    | ~ r1_ordinal1(X1,X2)\n\
+    \    | ~ v3_ordinal1(X1)\n    | ~ v3_ordinal1(X2) ))."
+  c_0_75: "cnf(c_0_75,plain,\n    ( k3_tarski(X1) = X2\n    | k3_tarski(X1) = X3\n\
+    \    | r2_hidden(k2_tarski(esk6_2(X1,k2_tarski(X2,X3)),esk5_2(X1,k2_tarski(X2,X3))),k1_scmyciel(X1))\n\
+    \    | r2_hidden(k2_tarski(X2,X3),k1_scmyciel(X1))\n    | ~ r2_hidden(k2_tarski(X2,X3),k1_scmyciel(k12_scmyciel(X1)))\n\
+    \    | ~ v4_scmyciel(X1) ))."
+  c_0_76: "cnf(c_0_76,negated_conjecture,\n    ( k1_scmyciel(esk1_0) = np__0 ))."
+  c_0_78: "cnf(c_0_78,plain,\n    ( m1_subset_1(X1,k1_zfmisc_1(X2))\n    | ~ r1_ordinal1(X1,X2)\n\
+    \    | ~ v3_ordinal1(X2)\n    | ~ v3_ordinal1(X1) ))."
+  c_0_79: "cnf(c_0_79,plain,\n    ( r1_ordinal1(X1,X2)\n    | ~ r1_xxreal_0(X1,X2)\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ v7_ordinal1(X1) ))."
+  c_0_80: "cnf(c_0_80,plain,\n    ( v3_ordinal1(X1)\n    | ~ v7_ordinal1(X1) ))."
+  c_0_81: "cnf(c_0_81,plain,\n    ( r1_xxreal_0(k1_nat_1(X1,np__1),X2)\n    | r1_xxreal_0(X2,X1)\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ v7_ordinal1(X2) ))."
+  c_0_82: "cnf(c_0_82,plain,\n    ( k1_nat_1(X1,X2) = k2_xcmplx_0(X1,X2)\n    | ~\
+    \ v7_ordinal1(X1)\n    | ~ m1_subset_1(X2,k5_numbers) ))."
+  c_0_83: "cnf(c_0_83,plain,\n    ( m1_subset_1(np__1,k5_numbers) ))."
+  c_0_86: "cnf(c_0_86,plain,\n    ( ~ r2_hidden(X1,X2)\n    | ~ v1_xboole_0(X2) ))."
+  c_0_87: "cnf(c_0_87,negated_conjecture,\n    ( k3_tarski(esk1_0) = X1\n    | k3_tarski(esk1_0)\
+    \ = X2\n    | r2_hidden(k2_tarski(esk6_2(esk1_0,k2_tarski(X2,X1)),esk5_2(esk1_0,k2_tarski(X2,X1))),np__0)\n\
+    \    | r2_hidden(k2_tarski(X2,X1),np__0)\n    | ~ r2_hidden(k2_tarski(X2,X1),k1_scmyciel(k12_scmyciel(esk1_0)))\
+    \ ))."
+  c_0_90: "cnf(c_0_90,plain,\n    ( ~ v1_xboole_0(X1)\n    | ~ v4_scmyciel(X1) ))."
+  c_0_91: "cnf(c_0_91,negated_conjecture,\n    ( v4_scmyciel(esk2_0) ))."
+  c_0_92: "cnf(c_0_92,plain,\n    ( m1_subset_1(X1,k1_zfmisc_1(X2))\n    | ~ v7_ordinal1(X2)\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ r1_xxreal_0(X1,X2) ))."
+  c_0_95: "cnf(c_0_95,plain,\n    ( v7_ordinal1(k8_scmyciel(X1))\n    | ~ v4_scmyciel(X1)\n\
+    \    | ~ v6_scmyciel(X1) ))."
+  c_0_97: "cnf(c_0_97,plain,\n    ( v5_finset_1(X2)\n    | ~ v7_ordinal1(X1)\n   \
+    \ | ~ v3_scmyciel(X2,X1) ))."
+  c_0_98: "cnf(c_0_98,plain,\n    ( v3_scmyciel(X1,np__1)\n    | ~ v4_scmyciel(X1)\
+    \ ))."
+  c_0_99: "cnf(c_0_99,negated_conjecture,\n    ( k3_tarski(esk1_0) = X1\n    | k3_tarski(esk1_0)\
+    \ = X2\n    | r2_hidden(k2_tarski(X1,X2),np__0)\n    | ~ r2_hidden(k2_tarski(X1,X2),k1_scmyciel(k12_scmyciel(esk1_0)))\
+    \ ))."
+  cc1_card_1: "fof(cc1_card_1,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ v3_ordinal1(X1) ) ))."
+  cc1_nat_1: "fof(cc1_nat_1,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n     =>\
+    \ ( v3_ordinal1(X1)\n        & v7_ordinal1(X1) ) ) ))."
+  cc1_subset_1: "fof(cc1_subset_1,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,k1_zfmisc_1(X1))\n         => v1_xboole_0(X2)\
+    \ ) ) ))."
+  cc2_scmyciel: "fof(cc2_scmyciel,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n\
+    \     => ! [X2] :\n          ( v3_scmyciel(X2,X1)\n         => v5_finset_1(X2)\
+    \ ) ) ))."
+  cc4_scmyciel: "fof(cc4_scmyciel,axiom,(\n    ! [X1] :\n      ( v4_scmyciel(X1)\n\
+    \     => ( ~ v1_xboole_0(X1)\n        & v1_classes1(X1)\n        & v3_scmyciel(X1,np__1)\
+    \ ) ) ))."
+  cc5_ordinal1: "fof(cc5_ordinal1,axiom,(\n    ! [X1] :\n      ( v3_ordinal1(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,X1)\n         => v3_ordinal1(X2)\
+    \ ) ) ))."
+  cc8_finset_1: "fof(cc8_finset_1,axiom,(\n    ! [X1] :\n      ( v5_finset_1(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,k1_zfmisc_1(X1))\n         => v5_finset_1(X2)\
+    \ ) ) ))."
+  commutativity_k2_tarski: "fof(commutativity_k2_tarski,axiom,(\n    ! [X1,X2] : k2_tarski(X1,X2)\
+    \ = k2_tarski(X2,X1) ))."
+  d5_tarski: "fof(d5_tarski,axiom,(\n    ! [X1,X2] : k4_tarski(X1,X2) = k2_tarski(k2_tarski(X1,X2),k1_tarski(X1))\
+    \ ))."
+  d6_scmyciel: "fof(d6_scmyciel,axiom,(\n    ! [X1] :\n      ( ( v1_finset_1(X1)\n\
+    \        & v5_finset_1(X1) )\n     => k2_scmyciel(X1) = k5_card_1(k3_tarski(X1))\
+    \ ) ))."
+  dt_k12_scmyciel: "fof(dt_k12_scmyciel,axiom,(\n    ! [X1] :\n      ( v4_scmyciel(X1)\n\
+    \     => v4_scmyciel(k12_scmyciel(X1)) ) ))."
+  dt_k1_card_1: "fof(dt_k1_card_1,axiom,(\n    ! [X1] : v1_card_1(k1_card_1(X1)) ))."
+  dt_k2_scmyciel: "fof(dt_k2_scmyciel,axiom,(\n    ! [X1] :\n      ( ( v1_finset_1(X1)\n\
+    \        & v5_finset_1(X1) )\n     => v7_ordinal1(k2_scmyciel(X1)) ) ))."
+  dt_k8_scmyciel: "fof(dt_k8_scmyciel,axiom,(\n    ! [X1] :\n      ( ( v4_scmyciel(X1)\n\
+    \        & v6_scmyciel(X1) )\n     => v7_ordinal1(k8_scmyciel(X1)) ) ))."
+  fc1_nat_1: "fof(fc1_nat_1,axiom,(\n    ! [X1,X2] :\n      ( ( v7_ordinal1(X1)\n\
+    \        & v7_ordinal1(X2) )\n     => v7_ordinal1(k2_xcmplx_0(X1,X2)) ) ))."
+  fc34_finset_1: "fof(fc34_finset_1,axiom,(\n    ! [X1] :\n      ( ( v1_finset_1(X1)\n\
+    \        & v5_finset_1(X1) )\n     => v1_finset_1(k3_tarski(X1)) ) ))."
+  fc6_ordinal1: "fof(fc6_ordinal1,axiom,\n    ( ~ v1_xboole_0(k4_ordinal1)\n    &\
+    \ v3_ordinal1(k4_ordinal1) ))."
+  redefinition_k1_nat_1: "fof(redefinition_k1_nat_1,axiom,(\n    ! [X1,X2] :\n   \
+    \   ( ( v7_ordinal1(X1)\n        & m1_subset_1(X2,k5_numbers) )\n     => k1_nat_1(X1,X2)\
+    \ = k2_xcmplx_0(X1,X2) ) ))."
+  redefinition_k5_card_1: "fof(redefinition_k5_card_1,axiom,(\n    ! [X1] :\n    \
+    \  ( v1_finset_1(X1)\n     => k5_card_1(X1) = k1_card_1(X1) ) ))."
+  redefinition_k5_numbers: "fof(redefinition_k5_numbers,axiom,(\n    k5_numbers =\
+    \ k4_ordinal1 ))."
+  redefinition_r1_ordinal1: "fof(redefinition_r1_ordinal1,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( v3_ordinal1(X1)\n        & v3_ordinal1(X2) )\n     => ( r1_ordinal1(X1,X2)\n\
+    \      <=> r1_tarski(X1,X2) ) ) ))."
+  rqLessOrEqual__r1_xxreal_0__r2_r1: "fof(rqLessOrEqual__r1_xxreal_0__r2_r1,axiom,(\n\
+    \    ~ r1_xxreal_0(np__2,np__1) ))."
+  rqRealAdd__k2_xcmplx_0__r1_r1_r2: "fof(rqRealAdd__k2_xcmplx_0__r1_r1_r2,axiom,(\n\
+    \    k2_xcmplx_0(np__1,np__1) = np__2 ))."
+  rqRealAdd__k2_xcmplx_0__r2_r1_r3: "fof(rqRealAdd__k2_xcmplx_0__r2_r1_r3,axiom,(\n\
+    \    k2_xcmplx_0(np__2,np__1) = np__3 ))."
+  spc0_boole: "fof(spc0_boole,axiom,(\n    v1_xboole_0(np__0) ))."
+  spc1_numerals: "fof(spc1_numerals,axiom,\n    ( v2_xxreal_0(np__1)\n    & m2_subset_1(np__1,k1_numbers,k5_numbers)\n\
+    \    & m1_subset_1(np__1,k5_numbers)\n    & m1_subset_1(np__1,k1_numbers) ))."
+  spc3_numerals: "fof(spc3_numerals,axiom,\n    ( v2_xxreal_0(np__3)\n    & m2_subset_1(np__3,k1_numbers,k5_numbers)\n\
+    \    & m1_subset_1(np__3,k5_numbers)\n    & m1_subset_1(np__3,k1_numbers) ))."
+  t108_scmyciel: "fof(t108_scmyciel,conjecture,(\n    ! [X1] :\n      ( ( v4_scmyciel(X1)\n\
+    \        & v6_scmyciel(X1) )\n     => ( k8_scmyciel(X1) = np__1\n       => ! [X2]\
+    \ :\n            ( ( v1_finset_1(X2)\n              & v4_scmyciel(X2)\n      \
+    \        & v5_scmyciel(X2)\n              & m1_subset_1(X2,k1_zfmisc_1(k12_scmyciel(X1)))\
+    \ )\n           => r1_xxreal_0(k2_scmyciel(X2),np__2) ) ) ) ))."
+  t12_scmyciel: "fof(t12_scmyciel,axiom,(\n    ! [X1,X2,X3] :\n      ( r2_hidden(k2_tarski(X2,X3),X1)\n\
+    \     => ( X2 = X3\n        | r2_hidden(k2_tarski(X2,X3),k1_scmyciel(X1)) ) )\
+    \ ))."
+  t13_nat_1: "fof(t13_nat_1,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n     =>\
+    \ ! [X2] :\n          ( v7_ordinal1(X2)\n         => ( ~ r1_xxreal_0(k1_nat_1(X2,np__1),X1)\n\
+    \          <=> r1_xxreal_0(X1,X2) ) ) ) ))."
+  t2_subset: "fof(t2_subset,axiom,(\n    ! [X1,X2] :\n      ( m1_subset_1(X1,X2)\n\
+    \     => ( v1_xboole_0(X2)\n        | r2_hidden(X1,X2) ) ) ))."
+  t39_nat_1: "fof(t39_nat_1,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n     =>\
+    \ ! [X2] :\n          ( v7_ordinal1(X2)\n         => ( r1_xxreal_0(X1,X2)\n  \
+    \        <=> r1_ordinal1(X1,X2) ) ) ) ))."
+  t3_subset: "fof(t3_subset,axiom,(\n    ! [X1,X2] :\n      ( m1_subset_1(X1,k1_zfmisc_1(X2))\n\
+    \    <=> r1_tarski(X1,X2) ) ))."
+  t4_subset: "fof(t4_subset,axiom,(\n    ! [X1,X2,X3] :\n      ( ( r2_hidden(X1,X2)\n\
+    \        & m1_subset_1(X2,k1_zfmisc_1(X3)) )\n     => m1_subset_1(X1,X3) ) ))."
+  t53_scmyciel: "fof(t53_scmyciel,axiom,(\n    ! [X1] :\n      ( ( v4_scmyciel(X1)\n\
+    \        & v5_scmyciel(X1) )\n     => ! [X2,X3] :\n          ( ( r2_hidden(X2,k3_tarski(X1))\n\
+    \            & r2_hidden(X3,k3_tarski(X1)) )\n         => r2_hidden(k2_tarski(X2,X3),X1)\
+    \ ) ) ))."
+  t57_scmyciel: "fof(t57_scmyciel,axiom,(\n    ! [X1] :\n      ( ( v4_scmyciel(X1)\n\
+    \        & v6_scmyciel(X1) )\n     => ( k1_scmyciel(X1) != k1_xboole_0\n     \
+    \  => r1_xxreal_0(np__2,k8_scmyciel(X1)) ) ) ))."
+  t5_scmyciel: "fof(t5_scmyciel,axiom,(\n    ! [X1,X2] :\n      ~ ( r1_ordinal1(np__3,k1_card_1(X1))\n\
+    \        & ! [X3,X4] :\n            ~ ( r2_hidden(X3,X1)\n              & r2_hidden(X4,X1)\n\
+    \              & X3 != X2\n              & X4 != X2\n              & X3 != X4\
+    \ ) ) ))."
+  t6_boole: "fof(t6_boole,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n     =>\
+    \ X1 = k1_xboole_0 ) ))."
+  t6_zfmisc_1: "fof(t6_zfmisc_1,axiom,(\n    ! [X1,X2,X3,X4] :\n      ~ ( k2_tarski(X1,X2)\
+    \ = k2_tarski(X3,X4)\n        & X1 != X3\n        & X1 != X4 ) ))."
+  t7_boole: "fof(t7_boole,axiom,(\n    ! [X1,X2] :\n      ~ ( r2_hidden(X1,X2)\n \
+    \       & v1_xboole_0(X2) ) ))."
+  t90_scmyciel: "fof(t90_scmyciel,axiom,(\n    ! [X1] :\n      ( v4_scmyciel(X1)\n\
+    \     => ! [X2] :\n          ( r2_hidden(X2,k1_scmyciel(k12_scmyciel(X1)))\n \
+    \       <=> ~ ( ~ r2_hidden(X2,k1_scmyciel(X1))\n              & ! [X3] :\n  \
+    \                ( m1_subset_1(X3,k3_tarski(X1))\n                 => ! [X4] :\n\
+    \                      ( m1_subset_1(X4,k3_tarski(X1))\n                     =>\
+    \ ~ ( X2 = k2_tarski(X3,k4_tarski(X4,k3_tarski(X1)))\n                       \
+    \   & r2_hidden(k2_tarski(X3,X4),k1_scmyciel(X1)) ) ) )\n              & ! [X3]\
+    \ :\n                  ( m1_subset_1(X3,k3_tarski(X1))\n                 => ~\
+    \ ( X2 = k2_tarski(k3_tarski(X1),k4_tarski(X3,k3_tarski(X1)))\n              \
+    \        & r2_hidden(X3,k3_tarski(X1)) ) ) ) ) ) ))."
+

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>VizAR for MizAR | at Czech Institute of Informatics, Robotics and Cybernetics</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="VizAR for MizAR" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="at Czech Institute of Informatics, Robotics and Cybernetics" />
+<meta property="og:description" content="at Czech Institute of Informatics, Robotics and Cybernetics" />
+<link rel="canonical" href="ai4reason.github.io/vizar/proofs/t55_fdiff_11/" />
+<meta property="og:url" content="ai4reason.github.io/vizar/proofs/t55_fdiff_11/" />
+<meta property="og:site_name" content="VizAR for MizAR" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="VizAR for MizAR" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"at Czech Institute of Informatics, Robotics and Cybernetics","headline":"VizAR for MizAR","url":"ai4reason.github.io/vizar/proofs/t55_fdiff_11/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/vizar/assets/css/style.css">
+  <link rel="stylesheet" href="/vizar/assets/css/mizar.css"><link type="application/atom+xml" rel="alternate" href="ai4reason.github.io/vizar/feed.xml" title="VizAR for MizAR" />
+
+<link rel="shortcut icon" type="image/x-icon" href="/vizar/favicon.ico">
+
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/vizar/">VizAR for MizAR</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/vizar/intro.html">Introduction</a><a class="page-link" href="/vizar/proofs/">Proofs</a><a class="page-link" href="/vizar/feedback.html">Feedback</a><a class="page-link" href="/vizar/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+
+<h1>ATP proof of <b>t55_fdiff_11</b></h1>
+
+<h2>Mizar statement</h2>
+<p>
+<div class="mizar">
+<div><span class="kw">theorem </span><a name="T55"><span class="comment"><font color="firebrick">:: FDIFF_11:55</font></span><br /></a><div class="add"> for <font color="Olive" title="b1">Z</font> being   <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rcomp_1.html#V3" title="RCOMP_1:attr.3">open</a>  <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#NM2" title="SUBSET_1:NM.2">Subset</a> of <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K1" title="NUMBERS:func.1">REAL</a>  st <font color="Olive" title="b1">Z</font> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1" title="TARSKI:pred.1">c=</a>  <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/relset_1.html#K1" title="RELSET_1:func.1">dom</a> <span class="p1">(<span class="default"><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos.html#K24" title="SIN_COS:func.24">exp_R</a> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/partfun1.html#K1" title="PARTFUN1:func.1">*</a> <span class="p2">(<span class="default"><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#K1" title="SIN_COS9:func.1">arctan</a> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#K3" title="VALUED_1:func.3">+</a> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#K2" title="SIN_COS9:func.2">arccot</a></span>)</span></span>)</span> &amp; <font color="Olive" title="b1">Z</font> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1" title="TARSKI:pred.1">c=</a> <span class="p1"><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rcomp_1.html#K2" title="RCOMP_1:func.2">].</a><span class="default"><span class="p2">(<span class="default"><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/real_1.html#K1" title="REAL_1:func.1">-</a> 1</span>)</span>,1</span><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rcomp_1.html#K2" title="RCOMP_1:func.2">.[</a></span> holds <br />( <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos.html#K24" title="SIN_COS:func.24">exp_R</a> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/partfun1.html#K1" title="PARTFUN1:func.1">*</a> <span class="p1">(<span class="default"><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#K1" title="SIN_COS9:func.1">arctan</a> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#K3" title="VALUED_1:func.3">+</a> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#K2" title="SIN_COS9:func.2">arccot</a></span>)</span> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_1.html#R2" title="FDIFF_1:pred.2">is_differentiable_on</a> <font color="Olive" title="b1">Z</font> &amp; (  for <font color="Olive" title="b2">x</font> being   <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/real_1.html#NM1" title="REAL_1:NM.1">Real</a>  st <font color="Olive" title="b2">x</font> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2" title="HIDDEN:pred.2">in</a> <font color="Olive" title="b1">Z</font> holds <br /><span class="p1">(<span class="default"><span class="p2">(<span class="default"><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos.html#K24" title="SIN_COS:func.24">exp_R</a> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/partfun1.html#K1" title="PARTFUN1:func.1">*</a> <span class="p3">(<span class="default"><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#K1" title="SIN_COS9:func.1">arctan</a> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#K3" title="VALUED_1:func.3">+</a> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#K2" title="SIN_COS9:func.2">arccot</a></span>)</span></span>)</span> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_1.html#K2" title="FDIFF_1:func.2">`|</a> <font color="Olive" title="b1">Z</font></span>)</span> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_1.html#K1" title="SEQ_1:func.1">.</a> <font color="Olive" title="b2">x</font> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R1" title="HIDDEN:pred.1">=</a>  <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K6" title="NUMBERS:func.6">0</a>  ) )</div></div>
+</div>
+
+
+</p>
+
+<p>
+See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_11.html#T55" target="_mizar">Mizar proof.</a>
+</p>
+
+<h2>ATP proof views</h2>
+
+<ul>
+   <li>VizAR proof navigator: 
+      <a href="c_0_162.html">Last inference step</a></li>
+  <li><a href="conj.svg" target="_svg">Conjecture-centered view</a></li>
+  <li><a href="full.svg" target="_svg">Full proof view</a> 
+      (alternative <a href="full-neato.svg" target="_svg">neato layout</a>)</li>
+</ul>
+
+<h2>First-order conjecture</h2>
+<pre>
+      (∀X₁)
+      ( ( open(X₁)
+        ∧ (X₁ ∈ bool(ℝ)) )
+     ⇒ ( ( (X₁ ⊆ dom(ℝ,ℝ * ℝ * ℝ * ℝ * (ℝ + ℝ + ℝ + arctan + arccot) * exp_R))
+          ∧ (X₁ ⊆ (-(1) ]....[ 1)) )
+       ⇒ ( is_differentiable_on(ℝ * ℝ * ℝ * ℝ * (ℝ + ℝ + ℝ + arctan + arccot) * exp_R,X₁)
+          ∧ (∀X₂)
+              ( (X₂ ∈ ℝ)
+             ⇒ ( (X₂ ∈ X₁)
+               ⇒ (((ℝ * ℝ * ℝ * ℝ * (ℝ + ℝ + ℝ + arctan + arccot) * exp_R) `| X₁) . X₂) = 0 ) ) ) ) ) 
+</pre>
+
+<h2>Clausified negated conjecture</h2>
+
+<object type="image/svg+xml" data="/vizar/proofs/t55_fdiff_11/negconj.svg">
+   <img src="/vizar/proofs/t55_fdiff_11/negconj.svg" />
+</object>
+
+
+
+
+<h2>Proof Skolem symbols</h2>
+
+<table>
+   <tr>
+      <th>symbol</th>
+      <th>origin</th>
+   </tr>
+
+
+
+   
+   <tr>
+      <td>
+         
+         
+            sk₁<br/>
+            
+         
+            sk₂<br/>
+            
+         
+      </td>
+      <td>
+         <object type="image/svg+xml" data="/vizar/proofs/t55_fdiff_11/t55_fdiff_11.svg">
+            <img src="/vizar/proofs/t55_fdiff_11/t55_fdiff_11.svg" />
+         </object>
+      </td>
+   </tr>
+   
+
+   
+
+   
+   <tr>
+      <td>
+         
+         
+            sk₄<br/>
+            
+         
+      </td>
+      <td>
+         <object type="image/svg+xml" data="/vizar/proofs/t55_fdiff_11/rc4_xreal_0.svg">
+            <img src="/vizar/proofs/t55_fdiff_11/rc4_xreal_0.svg" />
+         </object>
+      </td>
+   </tr>
+   
+
+   
+   <tr>
+      <td>
+         
+         
+            sk₅<br/>
+            
+         
+      </td>
+      <td>
+         <object type="image/svg+xml" data="/vizar/proofs/t55_fdiff_11/t9_fdiff_1.svg">
+            <img src="/vizar/proofs/t55_fdiff_11/t9_fdiff_1.svg" />
+         </object>
+      </td>
+   </tr>
+   
+
+
+</table>
+
+
+<h2>Proof Mizar symbols</h2>
+
+<table>
+   <tr>
+      <th>ATP symbol</th>
+      <th>Mizar symbol</th>
+      <th>VizAR syntax</th>
+      <th>arity</th>
+      <th>count</th>
+   </tr>
+
+
+
+   <tr>
+      <td>k1_fdiff_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_1.html#K1" target="_mizar">diff</a></td>
+      
+      <td>diff(x,y)</td>
+      <td>2</td>
+      <td>17</td>
+   </tr>
+
+   <tr>
+      <td>k1_numbers</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K1" target="_mizar">REAL</a></td>
+      
+      <td>ℝ</td>
+      <td>0</td>
+      <td>627</td>
+   </tr>
+
+   <tr>
+      <td>k1_partfun1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/partfun1.html#K1" target="_mizar">*</a></td>
+      
+      <td>*</td>
+      <td>6</td>
+      <td>45</td>
+   </tr>
+
+   <tr>
+      <td>k1_real_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/real_1.html#K1" target="_mizar">-</a></td>
+      
+      <td>-(x)</td>
+      <td>1</td>
+      <td>4</td>
+   </tr>
+
+   <tr>
+      <td>k1_relset_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/relset_1.html#K1" target="_mizar">dom</a></td>
+      
+      <td>dom(x,y)</td>
+      <td>2</td>
+      <td>9</td>
+   </tr>
+
+   <tr>
+      <td>k1_seq_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_1.html#K1" target="_mizar">.</a></td>
+      
+      <td>x . y</td>
+      <td>2</td>
+      <td>35</td>
+   </tr>
+
+   <tr>
+      <td>k1_sin_cos9</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#K1" target="_mizar">arctan</a></td>
+      
+      <td>arctan</td>
+      <td>0</td>
+      <td>103</td>
+   </tr>
+
+   <tr>
+      <td>k1_xboole_0</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K1" target="_mizar">{}</a></td>
+      
+      <td>Ø</td>
+      <td>0</td>
+      <td>3</td>
+   </tr>
+
+   <tr>
+      <td>k1_zfmisc_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1" target="_mizar">bool</a></td>
+      
+      <td>bool(x)</td>
+      <td>1</td>
+      <td>84</td>
+   </tr>
+
+   <tr>
+      <td>k24_sin_cos</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos.html#K24" target="_mizar">exp_R</a></td>
+      
+      <td>exp_R</td>
+      <td>0</td>
+      <td>48</td>
+   </tr>
+
+   <tr>
+      <td>k2_fdiff_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_1.html#K2" target="_mizar">`|</a></td>
+      
+      <td>x `| y</td>
+      <td>2</td>
+      <td>8</td>
+   </tr>
+
+   <tr>
+      <td>k2_rcomp_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rcomp_1.html#K2" target="_mizar">]....[</a></td>
+      
+      <td>x ]....[ y</td>
+      <td>2</td>
+      <td>4</td>
+   </tr>
+
+   <tr>
+      <td>k2_sin_cos9</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#K2" target="_mizar">arccot</a></td>
+      
+      <td>arccot</td>
+      <td>0</td>
+      <td>103</td>
+   </tr>
+
+   <tr>
+      <td>k2_zfmisc_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K2" target="_mizar">[:..:]</a></td>
+      
+      <td>x × y</td>
+      <td>2</td>
+      <td>67</td>
+   </tr>
+
+   <tr>
+      <td>k3_valued_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#K3" target="_mizar">+</a></td>
+      
+      <td>+</td>
+      <td>5</td>
+      <td>104</td>
+   </tr>
+
+   <tr>
+      <td>k3_xcmplx_0</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K3" target="_mizar">*</a></td>
+      
+      <td>x * y</td>
+      <td>2</td>
+      <td>9</td>
+   </tr>
+
+   <tr>
+      <td>k4_ordinal1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#K4" target="_mizar">omega</a></td>
+      
+      <td>ω</td>
+      <td>0</td>
+      <td>2</td>
+   </tr>
+
+   <tr>
+      <td>k5_numbers</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5" target="_mizar">NAT</a></td>
+      
+      <td>ℕ</td>
+      <td>0</td>
+      <td>4</td>
+   </tr>
+
+   <tr>
+      <td>k6_numbers</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K6" target="_mizar">0</a></td>
+      
+      <td>0</td>
+      <td>0</td>
+      <td>25</td>
+   </tr>
+
+   <tr>
+      <td>k8_real_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/real_1.html#K8" target="_mizar">*</a></td>
+      
+      <td>x * y</td>
+      <td>2</td>
+      <td>8</td>
+   </tr>
+
+   <tr>
+      <td>m1_subset_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1" target="_mizar">Element</a></td>
+      
+      <td>x ∈ y</td>
+      <td>2</td>
+      <td>108</td>
+   </tr>
+
+   <tr>
+      <td>np__1</td>
+      
+        <td>1</td>
+      
+      <td>1</td>
+      <td>0</td>
+      <td>10</td>
+   </tr>
+
+   <tr>
+      <td>r1_fdiff_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_1.html#R1" target="_mizar">is_differentiable_in</a></td>
+      
+      <td>is_differentiable_in(x,y)</td>
+      <td>2</td>
+      <td>26</td>
+   </tr>
+
+   <tr>
+      <td>r1_tarski</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1" target="_mizar">c=</a></td>
+      
+      <td>x ⊆ y</td>
+      <td>2</td>
+      <td>13</td>
+   </tr>
+
+   <tr>
+      <td>r2_fdiff_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_1.html#R2" target="_mizar">is_differentiable_on</a></td>
+      
+      <td>is_differentiable_on(x,y)</td>
+      <td>2</td>
+      <td>22</td>
+   </tr>
+
+   <tr>
+      <td>r2_hidden</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2" target="_mizar">in</a></td>
+      
+      <td>x ∈ y</td>
+      <td>2</td>
+      <td>23</td>
+   </tr>
+
+   <tr>
+      <td>v1_funct_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#V1" target="_mizar">Function-like</a></td>
+      
+      <td>function(x)</td>
+      <td>1</td>
+      <td>71</td>
+   </tr>
+
+   <tr>
+      <td>v1_relat_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/relat_1.html#V1" target="_mizar">Relation-like</a></td>
+      
+      <td>relation(x)</td>
+      <td>1</td>
+      <td>3</td>
+   </tr>
+
+   <tr>
+      <td>v1_xboole_0</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1" target="_mizar">empty</a></td>
+      
+      <td>x = Ø</td>
+      <td>1</td>
+      <td>3</td>
+   </tr>
+
+   <tr>
+      <td>v1_xcmplx_0</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#V1" target="_mizar">complex</a></td>
+      
+      <td>x ∈ ℂ</td>
+      <td>1</td>
+      <td>11</td>
+   </tr>
+
+   <tr>
+      <td>v1_xreal_0</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#V1" target="_mizar">real</a></td>
+      
+      <td>x ∈ ℝ</td>
+      <td>1</td>
+      <td>27</td>
+   </tr>
+
+   <tr>
+      <td>v3_membered</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V3" target="_mizar">real-membered</a></td>
+      
+      <td>x ⊆ ℝ</td>
+      <td>1</td>
+      <td>12</td>
+   </tr>
+
+   <tr>
+      <td>v3_rcomp_1</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rcomp_1.html#V3" target="_mizar">open</a></td>
+      
+      <td>open(x)</td>
+      <td>1</td>
+      <td>14</td>
+   </tr>
+
+   <tr>
+      <td>v3_valued_0</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_0.html#V3" target="_mizar">real-valued</a></td>
+      
+      <td>real-valued(x)</td>
+      <td>1</td>
+      <td>15</td>
+   </tr>
+
+</table>
+
+
+<h2>Raw TPTP conjecture</h2>
+
+<pre>
+fof(t55_fdiff_11,conjecture,(
+    ! [X1] :
+      ( ( v3_rcomp_1(X1)
+        & m1_subset_1(X1,k1_zfmisc_1(k1_numbers)) )
+     => ( ( r1_tarski(X1,k1_relset_1(k1_numbers,k1_partfun1(k1_numbers,k1_numbers,k1_numbers,k1_numbers,k3_valued_1(k1_numbers,k1_numbers,k1_numbers,k1_sin_cos9,k2_sin_cos9),k24_sin_cos)))
+          & r1_tarski(X1,k2_rcomp_1(k1_real_1(np__1),np__1)) )
+       => ( r2_fdiff_1(k1_partfun1(k1_numbers,k1_numbers,k1_numbers,k1_numbers,k3_valued_1(k1_numbers,k1_numbers,k1_numbers,k1_sin_cos9,k2_sin_cos9),k24_sin_cos),X1)
+          & ! [X2] :
+              ( m1_subset_1(X2,k1_numbers)
+             => ( r2_hidden(X2,X1)
+               => k1_seq_1(k2_fdiff_1(k1_partfun1(k1_numbers,k1_numbers,k1_numbers,k1_numbers,k3_valued_1(k1_numbers,k1_numbers,k1_numbers,k1_sin_cos9,k2_sin_cos9),k24_sin_cos),X1),X2) = k6_numbers ) ) ) ) ) )).
+</pre>
+
+
+      </div>
+    </main>
+
+
+  </body>
+
+</html>

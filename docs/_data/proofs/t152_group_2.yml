@@ -1,0 +1,1596 @@
+axioms:
+  cc1_subset_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 = \xD8)\n     \u21D2 (\u2200X\u2082\
+      )\n          ( (X\u2082 \u2208 bool(X\u2081))\n         \u21D2 (X\u2082 = \xD8\
+      ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#CC1
+  d10_xboole_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( X\u2081 = X\u2082\n    \u2261 ( (X\u2081\
+      \ \u2286 X\u2082)\n        \u2227 (X\u2082 \u2286 X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#D10
+  d16_struct_0:
+    fof: "    (\u2200X\u2081)\n      ( 1-sorted(X\u2081)\n     \u21D2 card(X\u2081\
+      ) = |carrier(X\u2081)| ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#D16
+  d17_group_2:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 Group-like(X\u2081\
+      )\n        \u2227 associative(X\u2081)\n        \u2227 multMagma(X\u2081) )\n\
+      \     \u21D2 (\u2200X\u2082)\n          ( Subgroup(X\u2082,X\u2081)\n      \
+      \   \u21D2 Index(X\u2081,X\u2082) = |Left_Cosets(X\u2081,X\u2082)| ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#D17
+  d3_funct_1:
+    fof: "    (\u2200X\u2081)\n      ( ( relation(X\u2081)\n        \u2227 function(X\u2081\
+      ) )\n     \u21D2 (\u2200X\u2082)\n          ( X\u2082 = proj\u2082(X\u2081)\n\
+      \        \u2261 (\u2200X\u2083)\n              ( (X\u2083 \u2208 X\u2082)\n\
+      \            \u2261 (\u2203X\u2084)\n                  ( (X\u2084 \u2208 proj\u2081\
+      (X\u2081))\n                  \u2227 X\u2083 = (X\u2081(X\u2084)) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#D3
+  d3_tarski:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2286 X\u2082)\n    \u2261\
+      \ (\u2200X\u2083)\n          ( (X\u2083 \u2208 X\u2081)\n         \u21D2 (X\u2083\
+      \ \u2208 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#D3
+  d4_funct_1:
+    fof: "    (\u2200X\u2081)\n      ( ( relation(X\u2081)\n        \u2227 function(X\u2081\
+      ) )\n     \u21D2 ( function(X\u2081)\n      \u2261 (\u2200X\u2082,X\u2083)\n\
+      \            ( ( (X\u2082 \u2208 proj\u2081(X\u2081))\n              \u2227\
+      \ (X\u2083 \u2208 proj\u2081(X\u2081))\n              \u2227 (X\u2081(X\u2082\
+      )) = (X\u2081(X\u2083)) )\n           \u21D2 X\u2082 = X\u2083 ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#D4
+  d4_wellord2:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (|X\u2081| = |X\u2082|)\n    \u2261\
+      \ (\u2203X\u2083)\n          ( relation(X\u2083)\n          \u2227 function(X\u2083\
+      )\n          \u2227 function(X\u2083)\n          \u2227 proj\u2081(X\u2083)\
+      \ = X\u2081\n          \u2227 proj\u2082(X\u2083) = X\u2082 ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/wellord2.html#D4
+  dt_k6_domain_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( \xAC (X\u2081 = \xD8)\n        \u2227\
+      \ (X\u2082 \u2208 X\u2081) )\n     \u21D2 ((X\u2081 \\{..\\} X\u2082) \u2208\
+      \ bool(X\u2081)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/domain_1.html#K6
+  dt_k6_group_2:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 Group-like(X\u2081\
+      )\n        \u2227 associative(X\u2081)\n        \u2227 multMagma(X\u2081) )\n\
+      \     \u21D2 ( strict( (1). X\u2081)\n        \u2227 Subgroup( (1). X\u2081\
+      ,X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#K6
+  dt_l3_algstr_0:
+    fof: "    (\u2200X\u2081)\n      ( multMagma(X\u2081)\n     \u21D2 1-sorted(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#L3
+  dt_m2_subset_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( \xAC (X\u2081 = \xD8)\n        \u2227\
+      \ \xAC (X\u2082 = \xD8)\n        \u2227 (X\u2082 \u2208 bool(X\u2081)) )\n \
+      \    \u21D2 (\u2200X\u2083)\n          ( (X\u2083 \u2208 X\u2082 \u2286 X\u2081\
+      )\n         \u21D2 (X\u2083 \u2208 X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M2
+  existence_m1_subset_1:
+    fof: "    (\u2200X\u2081)\n    (\u2203X\u2082) (X\u2082 \u2208 X\u2081) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+  existence_m2_subset_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( \xAC (X\u2081 = \xD8)\n        \u2227\
+      \ \xAC (X\u2082 = \xD8)\n        \u2227 (X\u2082 \u2208 bool(X\u2081)) )\n \
+      \    \u21D2 (\u2203X\u2083) (X\u2083 \u2208 X\u2082 \u2286 X\u2081) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M2
+  fc1_struct_0:
+    fof: "    (\u2200X\u2081)\n      ( ( empty(X\u2081)\n        \u2227 1-sorted(X\u2081\
+      ) )\n     \u21D2 (carrier(X\u2081) = \xD8) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#FC1
+  fc2_struct_0:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 1-sorted(X\u2081\
+      ) )\n     \u21D2 \xAC (carrier(X\u2081) = \xD8) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#FC2
+  fc2_xboole_0:
+    fof: "    (\u2200X\u2081) \xAC (\\{X\u2081\\} = \xD8) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#FC2
+  fraenkel_a_1_0_group_2:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( \xAC empty(X\u2082)\n        \u2227\
+      \ Group-like(X\u2082)\n        \u2227 associative(X\u2082)\n        \u2227 multMagma(X\u2082\
+      ) )\n     \u21D2 ( (X\u2081 \u2208 a_1_0_group_2(X\u2082))\n      \u2261 (\u2203\
+      X\u2083)\n            ( (X\u2083 \u2208 carrier(X\u2082))\n            \u2227\
+      \ X\u2081 = (carrier(X\u2082) \\{..\\} X\u2083) ) ) ) "
+    url: null
+  redefinition_k6_domain_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( \xAC (X\u2081 = \xD8)\n        \u2227\
+      \ (X\u2082 \u2208 X\u2081) )\n     \u21D2 (X\u2081 \\{..\\} X\u2082) = \\{X\u2082\
+      \\} ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/domain_1.html#K6
+  redefinition_m2_subset_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( \xAC (X\u2081 = \xD8)\n        \u2227\
+      \ \xAC (X\u2082 = \xD8)\n        \u2227 (X\u2082 \u2208 bool(X\u2081)) )\n \
+      \    \u21D2 (\u2200X\u2083)\n          ( (X\u2083 \u2208 X\u2082 \u2286 X\u2081\
+      )\n        \u2261 (X\u2083 \u2208 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M2
+  s3_funct_1__e1_149__group_2:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 Group-like(X\u2081\
+      )\n        \u2227 associative(X\u2081)\n        \u2227 multMagma(X\u2081) )\n\
+      \     \u21D2 (\u2203X\u2082)\n          ( relation(X\u2082)\n          \u2227\
+      \ function(X\u2082)\n          \u2227 proj\u2081(X\u2082) = carrier(X\u2081\
+      )\n          \u2227 (\u2200X\u2083)\n              ( (X\u2083 \u2208 carrier(X\u2081\
+      ))\n             \u21D2 (X\u2082(X\u2083)) = \\{X\u2083\\} ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1__e1_149__group_2.html#S3
+  t138_group_2:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 Group-like(X\u2081\
+      )\n        \u2227 associative(X\u2081)\n        \u2227 multMagma(X\u2081) )\n\
+      \     \u21D2 Left_Cosets(X\u2081, (1). X\u2081) = a_1_0_group_2(X\u2081) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#T138
+  t152_group_2:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 Group-like(X\u2081\
+      )\n        \u2227 associative(X\u2081)\n        \u2227 multMagma(X\u2081) )\n\
+      \     \u21D2 Index(X\u2081, (1). X\u2081) = card(X\u2081) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#T152
+  t1_subset:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2208 X\u2082)\n     \u21D2\
+      \ (X\u2081 \u2208 X\u2082) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T1
+  t2_subset:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2208 X\u2082)\n     \u21D2\
+      \ ( (X\u2082 = \xD8)\n        \u2228 (X\u2081 \u2208 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T2
+  t3_subset:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2208 bool(X\u2082))\n  \
+      \  \u2261 (X\u2081 \u2286 X\u2082) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T3
+  t3_zfmisc_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (\\{X\u2081\\} \u2286 \\{X\u2082\\\
+      })\n     \u21D2 X\u2081 = X\u2082 ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#T3
+  t5_card_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (|X\u2081| = |X\u2082|)\n    \u2261\
+      \ |X\u2081| = |X\u2082| ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#T5
+conjecture: t152_group_2
+final: c_0_156
+skolems:
+  esk11_1:
+    axiom: existence_m1_subset_1
+    related:
+    - esk11_1
+    symbol: "sk\u2081\u2081"
+  esk12_2:
+    axiom: existence_m2_subset_1
+    related:
+    - esk12_2
+    symbol: "sk\u2081\u2082"
+  esk1_0:
+    axiom: t152_group_2
+    related:
+    - esk1_0
+    symbol: "sk\u2081"
+  esk2_1:
+    axiom: s3_funct_1__e1_149__group_2
+    related:
+    - esk2_1
+    symbol: "sk\u2082"
+  esk3_2:
+    axiom: fraenkel_a_1_0_group_2
+    related:
+    - esk3_2
+    symbol: "sk\u2083"
+  esk4_2:
+    axiom: d3_tarski
+    related:
+    - esk4_2
+    symbol: "sk\u2084"
+  esk6_1:
+    axiom: d4_funct_1
+    related:
+    - esk7_1
+    - esk6_1
+    symbol: "sk\u2086"
+  esk7_1:
+    axiom: d4_funct_1
+    related:
+    - esk7_1
+    - esk6_1
+    symbol: "sk\u2087"
+  esk8_3:
+    axiom: d3_funct_1
+    related:
+    - esk8_3
+    symbol: "sk\u2088"
+steps:
+  c_0_101:
+    counts:
+      k10_xtuple_0: 1
+      k9_xtuple_0: 1
+      r2_wellord2: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v2_funct_1: 1
+    skolems: []
+  c_0_102:
+    counts:
+      a_1_0_group_2: 2
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk4_2
+    - esk2_1
+  c_0_103:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_105:
+    counts:
+      k1_funct_1: 2
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v2_funct_1: 1
+    skolems:
+    - esk6_1
+    - esk7_1
+  c_0_106:
+    counts:
+      k9_xtuple_0: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v2_funct_1: 1
+    skolems:
+    - esk7_1
+  c_0_107:
+    counts:
+      k9_xtuple_0: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v2_funct_1: 1
+    skolems:
+    - esk6_1
+  c_0_109:
+    counts:
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r2_wellord2: 1
+      u1_struct_0: 1
+      v2_funct_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_111:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_112:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_113:
+    counts:
+      m1_subset_1: 1
+    skolems:
+    - esk11_1
+  c_0_114:
+    counts:
+      k1_funct_1: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v2_funct_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk6_1
+    - esk7_1
+    - esk2_1
+  c_0_115:
+    counts:
+      l3_algstr_0: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v2_funct_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk7_1
+    - esk2_1
+  c_0_116:
+    counts:
+      l3_algstr_0: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v2_funct_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk6_1
+    - esk2_1
+  c_0_121:
+    counts:
+      k1_card_1: 2
+      r2_wellord2: 1
+    skolems: []
+  c_0_122:
+    counts:
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r2_wellord2: 1
+      u1_struct_0: 1
+      v2_funct_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_123:
+    counts:
+      r1_tarski: 2
+    skolems: []
+  c_0_124:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_125:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 2
+      l3_algstr_0: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk4_2
+    - esk2_1
+  c_0_126:
+    counts:
+      k1_tarski: 1
+    skolems:
+    - esk11_1
+  c_0_127:
+    counts:
+      k1_tarski: 2
+      l3_algstr_0: 1
+      v2_funct_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk6_1
+    - esk7_1
+    - esk2_1
+  c_0_129:
+    counts:
+      k15_group_2: 1
+      k17_group_2: 1
+      k1_card_1: 1
+      l3_algstr_0: 1
+      m1_group_2: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems: []
+  c_0_130:
+    counts:
+      a_1_0_group_2: 1
+      k15_group_2: 1
+      k6_group_2: 1
+      l3_algstr_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems: []
+  c_0_131:
+    counts:
+      k6_group_2: 1
+      l3_algstr_0: 1
+      m1_group_2: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems: []
+  c_0_133:
+    counts:
+      a_1_0_group_2: 2
+      k10_xtuple_0: 2
+      l3_algstr_0: 1
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_134:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r1_tarski: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_135:
+    counts:
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v2_funct_1: 1
+    skolems:
+    - esk6_1
+    - esk7_1
+  c_0_136:
+    counts:
+      l3_algstr_0: 1
+      v2_funct_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk6_1
+    - esk7_1
+    - esk2_1
+  c_0_137:
+    counts:
+      k17_group_2: 1
+      k6_group_2: 1
+      k7_struct_0: 1
+    skolems:
+    - esk1_0
+  c_0_138:
+    counts:
+      a_1_0_group_2: 1
+      k17_group_2: 1
+      k1_card_1: 1
+      k6_group_2: 1
+      l3_algstr_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems: []
+  c_0_139:
+    counts:
+      l3_algstr_0: 1
+    skolems:
+    - esk1_0
+  c_0_140:
+    counts:
+      v3_group_1: 1
+    skolems:
+    - esk1_0
+  c_0_141:
+    counts:
+      v2_group_1: 1
+    skolems:
+    - esk1_0
+  c_0_142:
+    counts:
+      v2_struct_0: 1
+    skolems:
+    - esk1_0
+  c_0_143:
+    counts:
+      k10_xtuple_0: 1
+      k1_card_1: 2
+      l3_algstr_0: 1
+      u1_struct_0: 1
+      v2_funct_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_144:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_146:
+    counts:
+      a_1_0_group_2: 1
+      k1_card_1: 1
+      k7_struct_0: 1
+    skolems:
+    - esk1_0
+  c_0_147:
+    counts:
+      a_1_0_group_2: 1
+      k1_card_1: 2
+      l3_algstr_0: 1
+      u1_struct_0: 2
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems: []
+  c_0_150:
+    counts:
+      k1_card_1: 1
+      k7_struct_0: 1
+      u1_struct_0: 2
+      v1_xboole_0: 1
+    skolems:
+    - esk1_0
+  c_0_151:
+    counts:
+      k1_card_1: 1
+      k7_struct_0: 1
+      l1_struct_0: 1
+      u1_struct_0: 1
+    skolems: []
+  c_0_152:
+    counts:
+      l1_struct_0: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_153:
+    counts:
+      l1_struct_0: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk1_0
+  c_0_154:
+    counts:
+      l3_algstr_0: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_155:
+    counts:
+      u1_struct_0: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk1_0
+  c_0_38:
+    counts:
+      k1_tarski: 2
+      r1_tarski: 1
+    skolems: []
+  c_0_39:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_40:
+    counts:
+      k1_zfmisc_1: 1
+      k6_domain_1: 1
+      m1_subset_1: 2
+      v1_xboole_0: 1
+    skolems: []
+  c_0_41:
+    counts:
+      k1_tarski: 1
+      k6_domain_1: 1
+      m1_subset_1: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_48:
+    counts:
+      l1_struct_0: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_49:
+    counts:
+      l1_struct_0: 1
+      l3_algstr_0: 1
+    skolems: []
+  c_0_50:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_xboole_0: 2
+    skolems: []
+  c_0_51:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      v1_xboole_0: 2
+    skolems: []
+  c_0_52:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      m2_subset_1: 1
+      v1_xboole_0: 2
+    skolems:
+    - esk12_2
+  c_0_53:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_xboole_0: 2
+    skolems: []
+  c_0_54:
+    counts:
+      k1_tarski: 2
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+    skolems: []
+  c_0_55:
+    counts:
+      k1_tarski: 1
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      v1_xboole_0: 1
+    skolems: []
+  c_0_56:
+    counts:
+      k1_tarski: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_57:
+    counts:
+      m1_subset_1: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_58:
+    counts:
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems:
+    - esk4_2
+  c_0_59:
+    counts:
+      k10_xtuple_0: 1
+      k1_funct_1: 1
+      k9_xtuple_0: 1
+      r2_hidden: 2
+      v1_funct_1: 1
+      v1_relat_1: 1
+    skolems: []
+  c_0_60:
+    counts:
+      k9_xtuple_0: 1
+      l3_algstr_0: 1
+      u1_struct_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_61:
+    counts:
+      l3_algstr_0: 1
+      v1_relat_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_62:
+    counts:
+      l3_algstr_0: 1
+      v1_funct_1: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_63:
+    counts:
+      a_1_0_group_2: 1
+      k6_domain_1: 1
+      l3_algstr_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      u1_struct_0: 2
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems: []
+  c_0_64:
+    counts:
+      l3_algstr_0: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_65:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_66:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      m2_subset_1: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk12_2
+  c_0_67:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_68:
+    counts:
+      k1_tarski: 1
+      m1_subset_1: 1
+    skolems: []
+  c_0_70:
+    counts:
+      k10_xtuple_0: 1
+      k1_funct_1: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      u1_struct_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_71:
+    counts:
+      k1_funct_1: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_73:
+    counts:
+      a_1_0_group_2: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      u1_struct_0: 2
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems: []
+  c_0_74:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      v1_xboole_0: 1
+    skolems:
+    - esk12_2
+  c_0_75:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      v1_xboole_0: 1
+    skolems:
+    - esk12_2
+  c_0_76:
+    counts:
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems:
+    - esk4_2
+  c_0_77:
+    counts:
+      k1_tarski: 2
+      r1_tarski: 1
+    skolems:
+    - esk4_2
+  c_0_78:
+    counts:
+      k10_xtuple_0: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      u1_struct_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_79:
+    counts:
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_80:
+    counts:
+      a_1_0_group_2: 1
+      k1_tarski: 1
+      k1_zfmisc_1: 1
+      l3_algstr_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      u1_struct_0: 2
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk12_2
+  c_0_81:
+    counts:
+      k1_tarski: 2
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+    skolems:
+    - esk12_2
+  c_0_82:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_83:
+    counts:
+      k1_tarski: 1
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_84:
+    counts:
+      k10_xtuple_0: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      u1_struct_0: 2
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_85:
+    counts:
+      a_1_0_group_2: 1
+      l3_algstr_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk3_2
+  c_0_86:
+    counts:
+      a_1_0_group_2: 1
+      k6_domain_1: 1
+      l3_algstr_0: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk3_2
+  c_0_87:
+    counts:
+      a_1_0_group_2: 1
+      k1_tarski: 2
+      k1_zfmisc_1: 1
+      l3_algstr_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems: []
+  c_0_88:
+    counts:
+      k1_tarski: 1
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_89:
+    counts:
+      k10_xtuple_0: 1
+      k9_xtuple_0: 1
+      r2_hidden: 2
+      v1_funct_1: 1
+      v1_relat_1: 1
+    skolems:
+    - esk8_3
+  c_0_90:
+    counts:
+      k10_xtuple_0: 1
+      k1_funct_1: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+    skolems:
+    - esk8_3
+  c_0_91:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk3_2
+    - esk2_1
+  c_0_92:
+    counts:
+      a_1_0_group_2: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk3_2
+  c_0_93:
+    counts:
+      a_1_0_group_2: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      u1_struct_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems: []
+  c_0_94:
+    counts:
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      u1_struct_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk8_3
+    - esk2_1
+  c_0_95:
+    counts:
+      k10_xtuple_0: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      u1_struct_0: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk8_3
+    - esk2_1
+  c_0_97:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_group_1: 1
+      v3_group_1: 1
+    skolems:
+    - esk2_1
+  c_0_98:
+    counts:
+      a_1_0_group_2: 1
+      k10_xtuple_0: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      r2_hidden: 2
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk8_3
+    - esk2_1
+  c_0_99:
+    counts:
+      k10_xtuple_0: 1
+      k1_tarski: 1
+      l3_algstr_0: 1
+      r2_hidden: 1
+      v2_group_1: 1
+      v2_struct_0: 1
+      v3_group_1: 1
+    skolems:
+    - esk8_3
+    - esk2_1
+symbols:
+  a_1_0_group_2:
+    arity: 1
+    count: 26
+    mizar: a_1_0_group_2
+    neg: 7
+    pos: 19
+    url: null
+    vizar: a_1_0_group_2(x)
+  k10_xtuple_0:
+    arity: 1
+    count: 28
+    mizar: proj2
+    neg: 19
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xtuple_0.html#K10
+    vizar: "proj\u2082(x)"
+  k15_group_2:
+    arity: 2
+    count: 2
+    mizar: Left_Cosets
+    neg: 0
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#K15
+    vizar: Left_Cosets(x,y)
+  k17_group_2:
+    arity: 2
+    count: 3
+    mizar: Index
+    neg: 1
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#K17
+    vizar: Index(x,y)
+  k1_card_1:
+    arity: 1
+    count: 13
+    mizar: card
+    neg: 2
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+    vizar: '|x|'
+  k1_funct_1:
+    arity: 2
+    count: 7
+    mizar: .
+    neg: 2
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#K1
+    vizar: x(y)
+  k1_tarski:
+    arity: 1
+    count: 31
+    mizar: '{..}'
+    neg: 16
+    pos: 15
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K1
+    vizar: '{x}'
+  k1_zfmisc_1:
+    arity: 1
+    count: 18
+    mizar: bool
+    neg: 14
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
+    vizar: bool(x)
+  k6_domain_1:
+    arity: 2
+    count: 4
+    mizar: '{..}'
+    neg: 1
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/domain_1.html#K6
+    vizar: x {..} y
+  k6_group_2:
+    arity: 1
+    count: 4
+    mizar: (1).
+    neg: 1
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#K6
+    vizar: (1).
+  k7_struct_0:
+    arity: 1
+    count: 4
+    mizar: card
+    neg: 3
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#K7
+    vizar: card(x)
+  k9_xtuple_0:
+    arity: 1
+    count: 6
+    mizar: proj1
+    neg: 2
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xtuple_0.html#K9
+    vizar: "proj\u2081(x)"
+  l1_struct_0:
+    arity: 1
+    count: 5
+    mizar: 1-sorted
+    neg: 4
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#L1
+    vizar: 1-sorted(x)
+  l3_algstr_0:
+    arity: 1
+    count: 49
+    mizar: multMagma
+    neg: 48
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#L3
+    vizar: multMagma(x)
+  m1_group_2:
+    arity: 2
+    count: 2
+    mizar: Subgroup
+    neg: 1
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#M1
+    vizar: Subgroup(x,y)
+  m1_subset_1:
+    arity: 2
+    count: 36
+    mizar: Element
+    neg: 22
+    pos: 14
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  m2_subset_1:
+    arity: 3
+    count: 6
+    mizar: Element
+    neg: 4
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M2
+    vizar: "x \u2208 z \u2286 y"
+  r1_tarski:
+    arity: 2
+    count: 16
+    mizar: c=
+    neg: 5
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1
+    vizar: "x \u2286 y"
+  r2_hidden:
+    arity: 2
+    count: 48
+    mizar: in
+    neg: 24
+    pos: 24
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2
+    vizar: "x \u2208 y"
+  r2_wellord2:
+    arity: 2
+    count: 4
+    mizar: are_equipotent
+    neg: 1
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/wellord2.html#R2
+    vizar: '|x| = |y|'
+  u1_struct_0:
+    arity: 1
+    count: 44
+    mizar: carrier
+    neg: 19
+    pos: 25
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#U1
+    vizar: carrier(x)
+  v1_funct_1:
+    arity: 1
+    count: 9
+    mizar: Function-like
+    neg: 8
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#V1
+    vizar: function(x)
+  v1_relat_1:
+    arity: 1
+    count: 9
+    mizar: Relation-like
+    neg: 8
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/relat_1.html#V1
+    vizar: relation(x)
+  v1_xboole_0:
+    arity: 1
+    count: 37
+    mizar: empty
+    neg: 4
+    pos: 33
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1
+    vizar: "x = \xD8"
+  v2_funct_1:
+    arity: 1
+    count: 15
+    mizar: one-to-one
+    neg: 5
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#V2
+    vizar: function(x)
+  v2_group_1:
+    arity: 1
+    count: 46
+    mizar: Group-like
+    neg: 45
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_1.html#V2
+    vizar: Group-like(x)
+  v2_struct_0:
+    arity: 1
+    count: 36
+    mizar: empty
+    neg: 3
+    pos: 33
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#V2
+    vizar: empty(x)
+  v3_group_1:
+    arity: 1
+    count: 46
+    mizar: associative
+    neg: 45
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_1.html#V3
+    vizar: associative(x)
+tptp:
+  c_0_101: "cnf(c_0_101,plain,\n    ( r2_wellord2(X2,X3)\n    | ~ v1_relat_1(X1)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v2_funct_1(X1)\n    | k9_xtuple_0(X1) != X2\n\
+    \    | k10_xtuple_0(X1) != X3 ))."
+  c_0_102: "cnf(c_0_102,plain,\n    ( v1_xboole_0(u1_struct_0(X1))\n    | r1_tarski(a_1_0_group_2(X1),X2)\n\
+    \    | r2_hidden(esk4_2(a_1_0_group_2(X1),X2),X3)\n    | X3 != k10_xtuple_0(esk2_1(X1))\n\
+    \    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_103: "cnf(c_0_103,plain,\n    ( r2_hidden(X1,a_1_0_group_2(X2))\n    | v2_struct_0(X2)\n\
+    \    | X3 != k10_xtuple_0(esk2_1(X2))\n    | ~ r2_hidden(X1,X3)\n    | ~ l3_algstr_0(X2)\n\
+    \    | ~ v3_group_1(X2)\n    | ~ v2_group_1(X2) ))."
+  c_0_105: "cnf(c_0_105,plain,\n    ( k1_funct_1(X1,esk6_1(X1)) = k1_funct_1(X1,esk7_1(X1))\n\
+    \    | v2_funct_1(X1)\n    | ~ v1_relat_1(X1)\n    | ~ v1_funct_1(X1) ))."
+  c_0_106: "cnf(c_0_106,plain,\n    ( r2_hidden(esk7_1(X1),k9_xtuple_0(X1))\n    |\
+    \ v2_funct_1(X1)\n    | ~ v1_relat_1(X1)\n    | ~ v1_funct_1(X1) ))."
+  c_0_107: "cnf(c_0_107,plain,\n    ( r2_hidden(esk6_1(X1),k9_xtuple_0(X1))\n    |\
+    \ v2_funct_1(X1)\n    | ~ v1_relat_1(X1)\n    | ~ v1_funct_1(X1) ))."
+  c_0_109: "cnf(c_0_109,plain,\n    ( r2_wellord2(X1,X2)\n    | v2_struct_0(X3)\n\
+    \    | k10_xtuple_0(esk2_1(X3)) != X2\n    | u1_struct_0(X3) != X1\n    | ~ v2_funct_1(esk2_1(X3))\n\
+    \    | ~ l3_algstr_0(X3)\n    | ~ v3_group_1(X3)\n    | ~ v2_group_1(X3) ))."
+  c_0_111: "cnf(c_0_111,plain,\n    ( v1_xboole_0(u1_struct_0(X1))\n    | r1_tarski(a_1_0_group_2(X1),X2)\n\
+    \    | X2 != k10_xtuple_0(esk2_1(X1))\n    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n\
+    \    | ~ v2_group_1(X1) ))."
+  c_0_112: "cnf(c_0_112,plain,\n    ( r2_hidden(X1,a_1_0_group_2(X2))\n    | v2_struct_0(X2)\n\
+    \    | ~ r2_hidden(X1,k10_xtuple_0(esk2_1(X2)))\n    | ~ l3_algstr_0(X2)\n   \
+    \ | ~ v3_group_1(X2)\n    | ~ v2_group_1(X2) ))."
+  c_0_113: "cnf(c_0_113,plain,\n    ( m1_subset_1(esk11_1(X1),X1) ))."
+  c_0_114: "cnf(c_0_114,plain,\n    ( k1_funct_1(esk2_1(X1),esk6_1(esk2_1(X1))) =\
+    \ k1_tarski(esk7_1(esk2_1(X1)))\n    | v2_funct_1(esk2_1(X1))\n    | v2_struct_0(X1)\n\
+    \    | ~ r2_hidden(esk7_1(esk2_1(X1)),u1_struct_0(X1))\n    | ~ l3_algstr_0(X1)\n\
+    \    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_115: "cnf(c_0_115,plain,\n    ( v2_funct_1(esk2_1(X1))\n    | r2_hidden(esk7_1(esk2_1(X1)),u1_struct_0(X1))\n\
+    \    | v2_struct_0(X1)\n    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    |\
+    \ ~ v2_group_1(X1) ))."
+  c_0_116: "cnf(c_0_116,plain,\n    ( v2_funct_1(esk2_1(X1))\n    | r2_hidden(esk6_1(esk2_1(X1)),u1_struct_0(X1))\n\
+    \    | v2_struct_0(X1)\n    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    |\
+    \ ~ v2_group_1(X1) ))."
+  c_0_121: "cnf(c_0_121,plain,\n    ( k1_card_1(X1) = k1_card_1(X2)\n    | ~ r2_wellord2(X1,X2)\
+    \ ))."
+  c_0_122: "cnf(c_0_122,plain,\n    ( r2_wellord2(X1,k10_xtuple_0(esk2_1(X2)))\n \
+    \   | v2_struct_0(X2)\n    | u1_struct_0(X2) != X1\n    | ~ v2_funct_1(esk2_1(X2))\n\
+    \    | ~ l3_algstr_0(X2)\n    | ~ v3_group_1(X2)\n    | ~ v2_group_1(X2) ))."
+  c_0_123: "cnf(c_0_123,plain,\n    ( X1 = X2\n    | ~ r1_tarski(X1,X2)\n    | ~ r1_tarski(X2,X1)\
+    \ ))."
+  c_0_124: "cnf(c_0_124,plain,\n    ( v1_xboole_0(u1_struct_0(X1))\n    | r1_tarski(a_1_0_group_2(X1),k10_xtuple_0(esk2_1(X1)))\n\
+    \    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_125: "cnf(c_0_125,plain,\n    ( r1_tarski(k10_xtuple_0(esk2_1(X1)),X2)\n   \
+    \ | r2_hidden(esk4_2(k10_xtuple_0(esk2_1(X1)),X2),a_1_0_group_2(X1))\n    | v2_struct_0(X1)\n\
+    \    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_126: "cnf(c_0_126,plain,\n    ( esk11_1(k1_tarski(X1)) = X1 ))."
+  c_0_127: "cnf(c_0_127,plain,\n    ( k1_tarski(esk7_1(esk2_1(X1))) = k1_tarski(esk6_1(esk2_1(X1)))\n\
+    \    | v2_funct_1(esk2_1(X1))\n    | v2_struct_0(X1)\n    | ~ l3_algstr_0(X1)\n\
+    \    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_129: "cnf(c_0_129,plain,\n    ( v2_struct_0(X1)\n    | k17_group_2(X1,X2) =\
+    \ k1_card_1(k15_group_2(X1,X2))\n    | ~ v2_group_1(X1)\n    | ~ v3_group_1(X1)\n\
+    \    | ~ l3_algstr_0(X1)\n    | ~ m1_group_2(X2,X1) ))."
+  c_0_130: "cnf(c_0_130,plain,\n    ( v2_struct_0(X1)\n    | k15_group_2(X1,k6_group_2(X1))\
+    \ = a_1_0_group_2(X1)\n    | ~ v2_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~\
+    \ l3_algstr_0(X1) ))."
+  c_0_131: "cnf(c_0_131,plain,\n    ( m1_group_2(k6_group_2(X1),X1)\n    | v2_struct_0(X1)\n\
+    \    | ~ v2_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~ l3_algstr_0(X1) ))."
+  c_0_133: "cnf(c_0_133,plain,\n    ( k10_xtuple_0(esk2_1(X1)) = a_1_0_group_2(X1)\n\
+    \    | v1_xboole_0(u1_struct_0(X1))\n    | ~ r1_tarski(k10_xtuple_0(esk2_1(X1)),a_1_0_group_2(X1))\n\
+    \    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_134: "cnf(c_0_134,plain,\n    ( r1_tarski(k10_xtuple_0(esk2_1(X1)),a_1_0_group_2(X1))\n\
+    \    | v2_struct_0(X1)\n    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    |\
+    \ ~ v2_group_1(X1) ))."
+  c_0_135: "cnf(c_0_135,plain,\n    ( v2_funct_1(X1)\n    | esk6_1(X1) != esk7_1(X1)\n\
+    \    | ~ v1_relat_1(X1)\n    | ~ v1_funct_1(X1) ))."
+  c_0_136: "cnf(c_0_136,plain,\n    ( esk7_1(esk2_1(X1)) = esk6_1(esk2_1(X1))\n  \
+    \  | v2_funct_1(esk2_1(X1))\n    | v2_struct_0(X1)\n    | ~ l3_algstr_0(X1)\n\
+    \    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_137: "cnf(c_0_137,negated_conjecture,\n    ( k17_group_2(esk1_0,k6_group_2(esk1_0))\
+    \ != k7_struct_0(esk1_0) ))."
+  c_0_138: "cnf(c_0_138,plain,\n    ( k17_group_2(X1,k6_group_2(X1)) = k1_card_1(a_1_0_group_2(X1))\n\
+    \    | v2_struct_0(X1)\n    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    |\
+    \ ~ v2_group_1(X1) ))."
+  c_0_139: "cnf(c_0_139,negated_conjecture,\n    ( l3_algstr_0(esk1_0) ))."
+  c_0_140: "cnf(c_0_140,negated_conjecture,\n    ( v3_group_1(esk1_0) ))."
+  c_0_141: "cnf(c_0_141,negated_conjecture,\n    ( v2_group_1(esk1_0) ))."
+  c_0_142: "cnf(c_0_142,negated_conjecture,\n    ( ~ v2_struct_0(esk1_0) ))."
+  c_0_143: "cnf(c_0_143,plain,\n    ( k1_card_1(k10_xtuple_0(esk2_1(X1))) = k1_card_1(u1_struct_0(X1))\n\
+    \    | v2_struct_0(X1)\n    | ~ v2_funct_1(esk2_1(X1))\n    | ~ l3_algstr_0(X1)\n\
+    \    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_144: "cnf(c_0_144,plain,\n    ( k10_xtuple_0(esk2_1(X1)) = a_1_0_group_2(X1)\n\
+    \    | v1_xboole_0(u1_struct_0(X1))\n    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n\
+    \    | ~ v2_group_1(X1) ))."
+  c_0_146: "cnf(c_0_146,negated_conjecture,\n    ( k1_card_1(a_1_0_group_2(esk1_0))\
+    \ != k7_struct_0(esk1_0) ))."
+  c_0_147: "cnf(c_0_147,plain,\n    ( k1_card_1(a_1_0_group_2(X1)) = k1_card_1(u1_struct_0(X1))\n\
+    \    | v1_xboole_0(u1_struct_0(X1))\n    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n\
+    \    | ~ v2_group_1(X1) ))."
+  c_0_150: "cnf(c_0_150,negated_conjecture,\n    ( v1_xboole_0(u1_struct_0(esk1_0))\n\
+    \    | k7_struct_0(esk1_0) != k1_card_1(u1_struct_0(esk1_0)) ))."
+  c_0_151: "cnf(c_0_151,plain,\n    ( k7_struct_0(X1) = k1_card_1(u1_struct_0(X1))\n\
+    \    | ~ l1_struct_0(X1) ))."
+  c_0_152: "cnf(c_0_152,plain,\n    ( v2_struct_0(X1)\n    | ~ l1_struct_0(X1)\n \
+    \   | ~ v1_xboole_0(u1_struct_0(X1)) ))."
+  c_0_153: "cnf(c_0_153,negated_conjecture,\n    ( v1_xboole_0(u1_struct_0(esk1_0))\n\
+    \    | ~ l1_struct_0(esk1_0) ))."
+  c_0_154: "cnf(c_0_154,plain,\n    ( v2_struct_0(X1)\n    | ~ v1_xboole_0(u1_struct_0(X1))\n\
+    \    | ~ l3_algstr_0(X1) ))."
+  c_0_155: "cnf(c_0_155,negated_conjecture,\n    ( v1_xboole_0(u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_156: "cnf(c_0_156,negated_conjecture,\n    ( $false ))."
+  c_0_38: "cnf(c_0_38,plain,\n    ( X1 = X2\n    | ~ r1_tarski(k1_tarski(X1),k1_tarski(X2))\
+    \ ))."
+  c_0_39: "cnf(c_0_39,plain,\n    ( r1_tarski(X1,X2)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X2))\
+    \ ))."
+  c_0_40: "cnf(c_0_40,plain,\n    ( v1_xboole_0(X1)\n    | m1_subset_1(k6_domain_1(X1,X2),k1_zfmisc_1(X1))\n\
+    \    | ~ m1_subset_1(X2,X1) ))."
+  c_0_41: "cnf(c_0_41,plain,\n    ( v1_xboole_0(X1)\n    | k6_domain_1(X1,X2) = k1_tarski(X2)\n\
+    \    | ~ m1_subset_1(X2,X1) ))."
+  c_0_48: "cnf(c_0_48,plain,\n    ( v1_xboole_0(u1_struct_0(X1))\n    | ~ v2_struct_0(X1)\n\
+    \    | ~ l1_struct_0(X1) ))."
+  c_0_49: "cnf(c_0_49,plain,\n    ( l1_struct_0(X1)\n    | ~ l3_algstr_0(X1) ))."
+  c_0_50: "cnf(c_0_50,plain,\n    ( v1_xboole_0(X1)\n    | v1_xboole_0(X2)\n    |\
+    \ m1_subset_1(X3,X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(X1))\n    | ~ m2_subset_1(X3,X1,X2)\
+    \ ))."
+  c_0_51: "cnf(c_0_51,plain,\n    ( v1_xboole_0(X2)\n    | ~ v1_xboole_0(X1)\n   \
+    \ | ~ m1_subset_1(X2,k1_zfmisc_1(X1)) ))."
+  c_0_52: "cnf(c_0_52,plain,\n    ( v1_xboole_0(X1)\n    | v1_xboole_0(X2)\n    |\
+    \ m2_subset_1(esk12_2(X1,X2),X1,X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(X1)) ))."
+  c_0_53: "cnf(c_0_53,plain,\n    ( m1_subset_1(X1,X3)\n    | v1_xboole_0(X2)\n  \
+    \  | v1_xboole_0(X3)\n    | ~ m2_subset_1(X1,X2,X3)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(X2))\
+    \ ))."
+  c_0_54: "cnf(c_0_54,plain,\n    ( X1 = X2\n    | ~ m1_subset_1(k1_tarski(X1),k1_zfmisc_1(k1_tarski(X2)))\
+    \ ))."
+  c_0_55: "cnf(c_0_55,plain,\n    ( v1_xboole_0(X1)\n    | m1_subset_1(k1_tarski(X2),k1_zfmisc_1(X1))\n\
+    \    | ~ m1_subset_1(X2,X1) ))."
+  c_0_56: "cnf(c_0_56,plain,\n    ( ~ v1_xboole_0(k1_tarski(X1)) ))."
+  c_0_57: "cnf(c_0_57,plain,\n    ( m1_subset_1(X1,X2)\n    | ~ r2_hidden(X1,X2) ))."
+  c_0_58: "cnf(c_0_58,plain,\n    ( r2_hidden(esk4_2(X1,X2),X1)\n    | r1_tarski(X1,X2)\
+    \ ))."
+  c_0_59: "cnf(c_0_59,plain,\n    ( r2_hidden(X3,X4)\n    | ~ r2_hidden(X1,k9_xtuple_0(X2))\n\
+    \    | X3 != k1_funct_1(X2,X1)\n    | X4 != k10_xtuple_0(X2)\n    | ~ v1_relat_1(X2)\n\
+    \    | ~ v1_funct_1(X2) ))."
+  c_0_60: "cnf(c_0_60,plain,\n    ( k9_xtuple_0(esk2_1(X1)) = u1_struct_0(X1)\n  \
+    \  | v2_struct_0(X1)\n    | ~ v2_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~\
+    \ l3_algstr_0(X1) ))."
+  c_0_61: "cnf(c_0_61,plain,\n    ( v1_relat_1(esk2_1(X1))\n    | v2_struct_0(X1)\n\
+    \    | ~ v2_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~ l3_algstr_0(X1) ))."
+  c_0_62: "cnf(c_0_62,plain,\n    ( v1_funct_1(esk2_1(X1))\n    | v2_struct_0(X1)\n\
+    \    | ~ v2_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~ l3_algstr_0(X1) ))."
+  c_0_63: "cnf(c_0_63,plain,\n    ( r2_hidden(X3,a_1_0_group_2(X2))\n    | v2_struct_0(X2)\n\
+    \    | ~ m1_subset_1(X1,u1_struct_0(X2))\n    | X3 != k6_domain_1(u1_struct_0(X2),X1)\n\
+    \    | ~ v2_group_1(X2)\n    | ~ v3_group_1(X2)\n    | ~ l3_algstr_0(X2) ))."
+  c_0_64: "cnf(c_0_64,plain,\n    ( v1_xboole_0(u1_struct_0(X1))\n    | ~ l3_algstr_0(X1)\n\
+    \    | ~ v2_struct_0(X1) ))."
+  c_0_65: "cnf(c_0_65,plain,\n    ( v1_xboole_0(X1)\n    | m1_subset_1(X2,X3)\n  \
+    \  | ~ m2_subset_1(X2,X3,X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X3)) ))."
+  c_0_66: "cnf(c_0_66,plain,\n    ( m2_subset_1(esk12_2(X1,X2),X1,X2)\n    | v1_xboole_0(X2)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(X1)) ))."
+  c_0_67: "cnf(c_0_67,plain,\n    ( v1_xboole_0(X1)\n    | m1_subset_1(X2,X1)\n  \
+    \  | ~ m2_subset_1(X2,X3,X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X3)) ))."
+  c_0_68: "cnf(c_0_68,plain,\n    ( X1 = X2\n    | ~ m1_subset_1(X1,k1_tarski(X2))\
+    \ ))."
+  c_0_70: "cnf(c_0_70,plain,\n    ( r2_hidden(X1,X2)\n    | v2_struct_0(X3)\n    |\
+    \ X1 != k1_funct_1(esk2_1(X3),X4)\n    | X2 != k10_xtuple_0(esk2_1(X3))\n    |\
+    \ ~ r2_hidden(X4,u1_struct_0(X3))\n    | ~ l3_algstr_0(X3)\n    | ~ v3_group_1(X3)\n\
+    \    | ~ v2_group_1(X3) ))."
+  c_0_71: "cnf(c_0_71,plain,\n    ( k1_funct_1(esk2_1(X2),X1) = k1_tarski(X1)\n  \
+    \  | v2_struct_0(X2)\n    | ~ r2_hidden(X1,u1_struct_0(X2))\n    | ~ v2_group_1(X2)\n\
+    \    | ~ v3_group_1(X2)\n    | ~ l3_algstr_0(X2) ))."
+  c_0_73: "cnf(c_0_73,plain,\n    ( v1_xboole_0(u1_struct_0(X1))\n    | r2_hidden(X2,a_1_0_group_2(X1))\n\
+    \    | X2 != k1_tarski(X3)\n    | ~ m1_subset_1(X3,u1_struct_0(X1))\n    | ~ l3_algstr_0(X1)\n\
+    \    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_74: "cnf(c_0_74,plain,\n    ( v1_xboole_0(X1)\n    | m1_subset_1(esk12_2(X2,X1),X2)\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(X2)) ))."
+  c_0_75: "cnf(c_0_75,plain,\n    ( v1_xboole_0(X1)\n    | m1_subset_1(esk12_2(X2,X1),X1)\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(X2)) ))."
+  c_0_76: "cnf(c_0_76,plain,\n    ( r1_tarski(X1,X2)\n    | ~ r2_hidden(esk4_2(X1,X2),X2)\
+    \ ))."
+  c_0_77: "cnf(c_0_77,plain,\n    ( esk4_2(k1_tarski(X1),X2) = X1\n    | r1_tarski(k1_tarski(X1),X2)\
+    \ ))."
+  c_0_78: "cnf(c_0_78,plain,\n    ( r2_hidden(X1,X2)\n    | v2_struct_0(X3)\n    |\
+    \ X2 != k10_xtuple_0(esk2_1(X3))\n    | X1 != k1_tarski(X4)\n    | ~ r2_hidden(X4,u1_struct_0(X3))\n\
+    \    | ~ l3_algstr_0(X3)\n    | ~ v3_group_1(X3)\n    | ~ v2_group_1(X3) ))."
+  c_0_79: "cnf(c_0_79,plain,\n    ( v1_xboole_0(X2)\n    | r2_hidden(X1,X2)\n    |\
+    \ ~ m1_subset_1(X1,X2) ))."
+  c_0_80: "cnf(c_0_80,plain,\n    ( v1_xboole_0(X1)\n    | r2_hidden(X2,a_1_0_group_2(X3))\n\
+    \    | X2 != k1_tarski(esk12_2(u1_struct_0(X3),X1))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3)))\n\
+    \    | ~ l3_algstr_0(X3)\n    | ~ v3_group_1(X3)\n    | ~ v2_group_1(X3) ))."
+  c_0_81: "cnf(c_0_81,plain,\n    ( esk12_2(X1,k1_tarski(X2)) = X2\n    | ~ m1_subset_1(k1_tarski(X2),k1_zfmisc_1(X1))\
+    \ ))."
+  c_0_82: "cnf(c_0_82,plain,\n    ( m1_subset_1(X1,k1_zfmisc_1(X2))\n    | ~ r1_tarski(X1,X2)\
+    \ ))."
+  c_0_83: "cnf(c_0_83,plain,\n    ( r1_tarski(k1_tarski(X1),X2)\n    | ~ r2_hidden(X1,X2)\
+    \ ))."
+  c_0_84: "cnf(c_0_84,plain,\n    ( v1_xboole_0(u1_struct_0(X1))\n    | r2_hidden(X2,X3)\n\
+    \    | X3 != k10_xtuple_0(esk2_1(X1))\n    | X2 != k1_tarski(X4)\n    | ~ m1_subset_1(X4,u1_struct_0(X1))\n\
+    \    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_85: "cnf(c_0_85,plain,\n    ( m1_subset_1(esk3_2(X1,X2),u1_struct_0(X2))\n \
+    \   | v2_struct_0(X2)\n    | ~ r2_hidden(X1,a_1_0_group_2(X2))\n    | ~ v2_group_1(X2)\n\
+    \    | ~ v3_group_1(X2)\n    | ~ l3_algstr_0(X2) ))."
+  c_0_86: "cnf(c_0_86,plain,\n    ( X1 = k6_domain_1(u1_struct_0(X2),esk3_2(X1,X2))\n\
+    \    | v2_struct_0(X2)\n    | ~ r2_hidden(X1,a_1_0_group_2(X2))\n    | ~ v2_group_1(X2)\n\
+    \    | ~ v3_group_1(X2)\n    | ~ l3_algstr_0(X2) ))."
+  c_0_87: "cnf(c_0_87,plain,\n    ( r2_hidden(X1,a_1_0_group_2(X2))\n    | X1 != k1_tarski(X3)\n\
+    \    | ~ m1_subset_1(k1_tarski(X3),k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ l3_algstr_0(X2)\n\
+    \    | ~ v3_group_1(X2)\n    | ~ v2_group_1(X2) ))."
+  c_0_88: "cnf(c_0_88,plain,\n    ( m1_subset_1(k1_tarski(X1),k1_zfmisc_1(X2))\n \
+    \   | ~ r2_hidden(X1,X2) ))."
+  c_0_89: "cnf(c_0_89,plain,\n    ( r2_hidden(esk8_3(X1,X2,X3),k9_xtuple_0(X1))\n\
+    \    | ~ r2_hidden(X3,X2)\n    | X2 != k10_xtuple_0(X1)\n    | ~ v1_relat_1(X1)\n\
+    \    | ~ v1_funct_1(X1) ))."
+  c_0_90: "cnf(c_0_90,plain,\n    ( X1 = k1_funct_1(X2,esk8_3(X2,X3,X1))\n    | ~\
+    \ r2_hidden(X1,X3)\n    | X3 != k10_xtuple_0(X2)\n    | ~ v1_relat_1(X2)\n   \
+    \ | ~ v1_funct_1(X2) ))."
+  c_0_91: "cnf(c_0_91,plain,\n    ( v1_xboole_0(u1_struct_0(X1))\n    | r2_hidden(X2,X3)\n\
+    \    | X2 != k1_tarski(esk3_2(X4,X1))\n    | X3 != k10_xtuple_0(esk2_1(X1))\n\
+    \    | ~ r2_hidden(X4,a_1_0_group_2(X1))\n    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n\
+    \    | ~ v2_group_1(X1) ))."
+  c_0_92: "cnf(c_0_92,plain,\n    ( k1_tarski(esk3_2(X1,X2)) = X1\n    | v1_xboole_0(u1_struct_0(X2))\n\
+    \    | ~ r2_hidden(X1,a_1_0_group_2(X2))\n    | ~ l3_algstr_0(X2)\n    | ~ v3_group_1(X2)\n\
+    \    | ~ v2_group_1(X2) ))."
+  c_0_93: "cnf(c_0_93,plain,\n    ( r2_hidden(X1,a_1_0_group_2(X2))\n    | X1 != k1_tarski(X3)\n\
+    \    | ~ r2_hidden(X3,u1_struct_0(X2))\n    | ~ l3_algstr_0(X2)\n    | ~ v3_group_1(X2)\n\
+    \    | ~ v2_group_1(X2) ))."
+  c_0_94: "cnf(c_0_94,plain,\n    ( r2_hidden(esk8_3(esk2_1(X1),X2,X3),u1_struct_0(X1))\n\
+    \    | v2_struct_0(X1)\n    | X2 != k10_xtuple_0(esk2_1(X1))\n    | ~ r2_hidden(X3,X2)\n\
+    \    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_95: "cnf(c_0_95,plain,\n    ( k1_tarski(esk8_3(esk2_1(X1),X2,X3)) = X3\n   \
+    \ | v2_struct_0(X1)\n    | X2 != k10_xtuple_0(esk2_1(X1))\n    | ~ r2_hidden(esk8_3(esk2_1(X1),X2,X3),u1_struct_0(X1))\n\
+    \    | ~ r2_hidden(X3,X2)\n    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n \
+    \   | ~ v2_group_1(X1) ))."
+  c_0_97: "cnf(c_0_97,plain,\n    ( v1_xboole_0(u1_struct_0(X1))\n    | r2_hidden(X2,X3)\n\
+    \    | X3 != k10_xtuple_0(esk2_1(X1))\n    | ~ r2_hidden(X2,a_1_0_group_2(X1))\n\
+    \    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  c_0_98: "cnf(c_0_98,plain,\n    ( r2_hidden(X1,a_1_0_group_2(X2))\n    | v2_struct_0(X2)\n\
+    \    | X1 != k1_tarski(esk8_3(esk2_1(X2),X3,X4))\n    | X3 != k10_xtuple_0(esk2_1(X2))\n\
+    \    | ~ r2_hidden(X4,X3)\n    | ~ l3_algstr_0(X2)\n    | ~ v3_group_1(X2)\n \
+    \   | ~ v2_group_1(X2) ))."
+  c_0_99: "cnf(c_0_99,plain,\n    ( k1_tarski(esk8_3(esk2_1(X1),X2,X3)) = X3\n   \
+    \ | v2_struct_0(X1)\n    | X2 != k10_xtuple_0(esk2_1(X1))\n    | ~ r2_hidden(X3,X2)\n\
+    \    | ~ l3_algstr_0(X1)\n    | ~ v3_group_1(X1)\n    | ~ v2_group_1(X1) ))."
+  cc1_subset_1: "fof(cc1_subset_1,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,k1_zfmisc_1(X1))\n         => v1_xboole_0(X2)\
+    \ ) ) ))."
+  d10_xboole_0: "fof(d10_xboole_0,axiom,(\n    ! [X1,X2] :\n      ( X1 = X2\n    <=>\
+    \ ( r1_tarski(X1,X2)\n        & r1_tarski(X2,X1) ) ) ))."
+  d16_struct_0: "fof(d16_struct_0,axiom,(\n    ! [X1] :\n      ( l1_struct_0(X1)\n\
+    \     => k7_struct_0(X1) = k1_card_1(u1_struct_0(X1)) ) ))."
+  d17_group_2: "fof(d17_group_2,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & v2_group_1(X1)\n        & v3_group_1(X1)\n        & l3_algstr_0(X1)\
+    \ )\n     => ! [X2] :\n          ( m1_group_2(X2,X1)\n         => k17_group_2(X1,X2)\
+    \ = k1_card_1(k15_group_2(X1,X2)) ) ) ))."
+  d3_funct_1: "fof(d3_funct_1,axiom,(\n    ! [X1] :\n      ( ( v1_relat_1(X1)\n  \
+    \      & v1_funct_1(X1) )\n     => ! [X2] :\n          ( X2 = k10_xtuple_0(X1)\n\
+    \        <=> ! [X3] :\n              ( r2_hidden(X3,X2)\n            <=> ? [X4]\
+    \ :\n                  ( r2_hidden(X4,k9_xtuple_0(X1))\n                  & X3\
+    \ = k1_funct_1(X1,X4) ) ) ) ) ))."
+  d3_tarski: "fof(d3_tarski,axiom,(\n    ! [X1,X2] :\n      ( r1_tarski(X1,X2)\n \
+    \   <=> ! [X3] :\n          ( r2_hidden(X3,X1)\n         => r2_hidden(X3,X2) )\
+    \ ) ))."
+  d4_funct_1: "fof(d4_funct_1,axiom,(\n    ! [X1] :\n      ( ( v1_relat_1(X1)\n  \
+    \      & v1_funct_1(X1) )\n     => ( v2_funct_1(X1)\n      <=> ! [X2,X3] :\n \
+    \           ( ( r2_hidden(X2,k9_xtuple_0(X1))\n              & r2_hidden(X3,k9_xtuple_0(X1))\n\
+    \              & k1_funct_1(X1,X2) = k1_funct_1(X1,X3) )\n           => X2 = X3\
+    \ ) ) ) ))."
+  d4_wellord2: "fof(d4_wellord2,axiom,(\n    ! [X1,X2] :\n      ( r2_wellord2(X1,X2)\n\
+    \    <=> ? [X3] :\n          ( v1_relat_1(X3)\n          & v1_funct_1(X3)\n  \
+    \        & v2_funct_1(X3)\n          & k9_xtuple_0(X3) = X1\n          & k10_xtuple_0(X3)\
+    \ = X2 ) ) ))."
+  dt_k6_domain_1: "fof(dt_k6_domain_1,axiom,(\n    ! [X1,X2] :\n      ( ( ~ v1_xboole_0(X1)\n\
+    \        & m1_subset_1(X2,X1) )\n     => m1_subset_1(k6_domain_1(X1,X2),k1_zfmisc_1(X1))\
+    \ ) ))."
+  dt_k6_group_2: "fof(dt_k6_group_2,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & v2_group_1(X1)\n        & v3_group_1(X1)\n        & l3_algstr_0(X1)\
+    \ )\n     => ( v15_algstr_0(k6_group_2(X1))\n        & m1_group_2(k6_group_2(X1),X1)\
+    \ ) ) ))."
+  dt_l3_algstr_0: "fof(dt_l3_algstr_0,axiom,(\n    ! [X1] :\n      ( l3_algstr_0(X1)\n\
+    \     => l1_struct_0(X1) ) ))."
+  dt_m2_subset_1: "fof(dt_m2_subset_1,axiom,(\n    ! [X1,X2] :\n      ( ( ~ v1_xboole_0(X1)\n\
+    \        & ~ v1_xboole_0(X2)\n        & m1_subset_1(X2,k1_zfmisc_1(X1)) )\n  \
+    \   => ! [X3] :\n          ( m2_subset_1(X3,X1,X2)\n         => m1_subset_1(X3,X1)\
+    \ ) ) ))."
+  existence_m1_subset_1: "fof(existence_m1_subset_1,axiom,(\n    ! [X1] :\n    ? [X2]\
+    \ : m1_subset_1(X2,X1) ))."
+  existence_m2_subset_1: "fof(existence_m2_subset_1,axiom,(\n    ! [X1,X2] :\n   \
+    \   ( ( ~ v1_xboole_0(X1)\n        & ~ v1_xboole_0(X2)\n        & m1_subset_1(X2,k1_zfmisc_1(X1))\
+    \ )\n     => ? [X3] : m2_subset_1(X3,X1,X2) ) ))."
+  fc1_struct_0: "fof(fc1_struct_0,axiom,(\n    ! [X1] :\n      ( ( v2_struct_0(X1)\n\
+    \        & l1_struct_0(X1) )\n     => v1_xboole_0(u1_struct_0(X1)) ) ))."
+  fc2_struct_0: "fof(fc2_struct_0,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & l1_struct_0(X1) )\n     => ~ v1_xboole_0(u1_struct_0(X1)) ) ))."
+  fc2_xboole_0: "fof(fc2_xboole_0,axiom,(\n    ! [X1] : ~ v1_xboole_0(k1_tarski(X1))\
+    \ ))."
+  fraenkel_a_1_0_group_2: "fof(fraenkel_a_1_0_group_2,axiom,(\n    ! [X1,X2] :\n \
+    \     ( ( ~ v2_struct_0(X2)\n        & v2_group_1(X2)\n        & v3_group_1(X2)\n\
+    \        & l3_algstr_0(X2) )\n     => ( r2_hidden(X1,a_1_0_group_2(X2))\n    \
+    \  <=> ? [X3] :\n            ( m1_subset_1(X3,u1_struct_0(X2))\n            &\
+    \ X1 = k6_domain_1(u1_struct_0(X2),X3) ) ) ) ))."
+  redefinition_k6_domain_1: "fof(redefinition_k6_domain_1,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( ~ v1_xboole_0(X1)\n        & m1_subset_1(X2,X1) )\n     => k6_domain_1(X1,X2)\
+    \ = k1_tarski(X2) ) ))."
+  redefinition_m2_subset_1: "fof(redefinition_m2_subset_1,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( ~ v1_xboole_0(X1)\n        & ~ v1_xboole_0(X2)\n        & m1_subset_1(X2,k1_zfmisc_1(X1))\
+    \ )\n     => ! [X3] :\n          ( m2_subset_1(X3,X1,X2)\n        <=> m1_subset_1(X3,X2)\
+    \ ) ) ))."
+  s3_funct_1__e1_149__group_2: "fof(s3_funct_1__e1_149__group_2,axiom,(\n    ! [X1]\
+    \ :\n      ( ( ~ v2_struct_0(X1)\n        & v2_group_1(X1)\n        & v3_group_1(X1)\n\
+    \        & l3_algstr_0(X1) )\n     => ? [X2] :\n          ( v1_relat_1(X2)\n \
+    \         & v1_funct_1(X2)\n          & k9_xtuple_0(X2) = u1_struct_0(X1)\n  \
+    \        & ! [X3] :\n              ( r2_hidden(X3,u1_struct_0(X1))\n         \
+    \    => k1_funct_1(X2,X3) = k1_tarski(X3) ) ) ) ))."
+  t138_group_2: "fof(t138_group_2,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & v2_group_1(X1)\n        & v3_group_1(X1)\n        & l3_algstr_0(X1)\
+    \ )\n     => k15_group_2(X1,k6_group_2(X1)) = a_1_0_group_2(X1) ) ))."
+  t152_group_2: "fof(t152_group_2,conjecture,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & v2_group_1(X1)\n        & v3_group_1(X1)\n        & l3_algstr_0(X1)\
+    \ )\n     => k17_group_2(X1,k6_group_2(X1)) = k7_struct_0(X1) ) ))."
+  t1_subset: "fof(t1_subset,axiom,(\n    ! [X1,X2] :\n      ( r2_hidden(X1,X2)\n \
+    \    => m1_subset_1(X1,X2) ) ))."
+  t2_subset: "fof(t2_subset,axiom,(\n    ! [X1,X2] :\n      ( m1_subset_1(X1,X2)\n\
+    \     => ( v1_xboole_0(X2)\n        | r2_hidden(X1,X2) ) ) ))."
+  t3_subset: "fof(t3_subset,axiom,(\n    ! [X1,X2] :\n      ( m1_subset_1(X1,k1_zfmisc_1(X2))\n\
+    \    <=> r1_tarski(X1,X2) ) ))."
+  t3_zfmisc_1: "fof(t3_zfmisc_1,axiom,(\n    ! [X1,X2] :\n      ( r1_tarski(k1_tarski(X1),k1_tarski(X2))\n\
+    \     => X1 = X2 ) ))."
+  t5_card_1: "fof(t5_card_1,axiom,(\n    ! [X1,X2] :\n      ( r2_wellord2(X1,X2)\n\
+    \    <=> k1_card_1(X1) = k1_card_1(X2) ) ))."
+

@@ -14,11 +14,11 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="16,-90 16,-167 200,-167 200,-90 16,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="31,-90 31,-167 185,-167 185,-90 31,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="16,-8 16,-70 200,-70 200,-8 16,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="31,-8 31,-70 185,-70 185,-8 31,-8"/>
 </g>
 <!-- s3_funct_1__e1_7__card_4 -->
 <g id="node1" class="node">
@@ -32,15 +32,15 @@
 <!-- c_0_31 -->
 <g id="node2" class="node">
 <title>c_0_31</title>
-<g id="a_node2"><a xlink:href="c_0_31.html" xlink:title="{in(X₁,X₂)|⇊|X₂ = Ø|sk₈₃(X₂) . X₁ = &#160;&amp;lt;*..*&amp;gt; X₁}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="24,-98.5 24,-158.5 192,-158.5 192,-98.5 24,-98.5"/>
-<text text-anchor="middle" x="108" y="-147.3" font-family="Times,serif" font-size="14.00">in(X₁,X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="24,-143.5 192,-143.5 "/>
+<g id="a_node2"><a xlink:href="c_0_31.html" xlink:title="{X₁ ∈ X₂|⇊|X₂ = Ø|sk₁₀(X₂)(X₁) = &amp;lt;X₁&amp;gt;}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="39,-98.5 39,-158.5 177,-158.5 177,-98.5 39,-98.5"/>
+<text text-anchor="middle" x="108" y="-147.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="39,-143.5 177,-143.5 "/>
 <text text-anchor="middle" x="108" y="-132.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="24,-128.5 192,-128.5 "/>
+<polyline fill="none" stroke="#7f7542" points="39,-128.5 177,-128.5 "/>
 <text text-anchor="middle" x="108" y="-117.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="24,-113.5 192,-113.5 "/>
-<text text-anchor="middle" x="108" y="-102.3" font-family="Times,serif" font-size="14.00">sk₈₃(X₂) . X₁ = &lt;*..*&gt; X₁</text>
+<polyline fill="none" stroke="#7f7542" points="39,-113.5 177,-113.5 "/>
+<text text-anchor="middle" x="108" y="-102.3" font-family="Times,serif" font-size="14.00">sk₁₀(X₂)(X₁) = &lt;X₁&gt;</text>
 </a>
 </g>
 </g>
@@ -53,13 +53,13 @@
 <!-- c_0_45 -->
 <g id="node3" class="node">
 <title>c_0_45</title>
-<g id="a_node3"><a xlink:href="c_0_45.html" xlink:title="{in(X₂,X₁)|⇊|sk₈₃(X₁) . X₂ = &#160;&amp;lt;*..*&amp;gt; X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="24,-16.5 24,-61.5 192,-61.5 192,-16.5 24,-16.5"/>
-<text text-anchor="middle" x="108" y="-50.3" font-family="Times,serif" font-size="14.00">in(X₂,X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="24,-46.5 192,-46.5 "/>
+<g id="a_node3"><a xlink:href="c_0_45.html" xlink:title="{X₂ ∈ X₁|⇊|sk₁₀(X₁)(X₂) = &amp;lt;X₂&amp;gt;}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="39,-16.5 39,-61.5 177,-61.5 177,-16.5 39,-16.5"/>
+<text text-anchor="middle" x="108" y="-50.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="39,-46.5 177,-46.5 "/>
 <text text-anchor="middle" x="108" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="24,-31.5 192,-31.5 "/>
-<text text-anchor="middle" x="108" y="-20.3" font-family="Times,serif" font-size="14.00">sk₈₃(X₁) . X₂ = &lt;*..*&gt; X₂</text>
+<polyline fill="none" stroke="#7f7542" points="39,-31.5 177,-31.5 "/>
+<text text-anchor="middle" x="108" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁₀(X₁)(X₂) = &lt;X₂&gt;</text>
 </a>
 </g>
 </g>

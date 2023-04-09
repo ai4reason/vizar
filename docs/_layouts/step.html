@@ -61,8 +61,6 @@ layout: default
 {% for sym in symbols %}
    {% assign name = sym[0] %}
    {% assign symbol = proof.symbols[name] %}
-   {% assign prefix = symbol.mizar | slice: 0, 2 %}
-   {% if sym[0] != symbol.mizar and prefix != "sk" %}
    <tr>
       <td>{{sym[0]}}</td>
       {% if symbol.url %}
@@ -74,7 +72,6 @@ layout: default
       <td>{{symbol.arity}}</td>
       <td>{{sym[1]}}</td>
    </tr>
-   {% endif %}
 {% endfor %}
 </table>
 {% endif %}

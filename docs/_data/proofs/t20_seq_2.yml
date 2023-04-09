@@ -1,0 +1,719 @@
+axioms:
+  cc13_membered:
+    fof: "    (\u2200X\u2081)\n      ( ext-real-membered(X\u2081)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 X\u2081)\n         \u21D2 (X\u2082 \u2208\
+      \ \U0001D53C) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#CC13
+  cc4_membered:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2286 \u211D)\n     \u21D2 ext-real-membered(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#CC4
+  dt_k2_seq_2:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n\
+      \     \u21D2 (lim(X\u2081) \u2208 \u211D) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_2.html#K2
+  fc3_membered:
+    fof: "    (\u211D \u2286 \u211D) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#FC3
+  t18_seq_2:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n\
+      \     \u21D2 (\u2200X\u2082)\n          ( ( function(X\u2082)\n            \u2227\
+      \ quasi_total(X\u2082,\u2115,\u211D)\n            \u2227 (X\u2082 \u2208 bool(\u2115\
+      \ \xD7 \u211D)) )\n         \u21D2 ( ( convergent(X\u2081)\n              \u2227\
+      \ convergent(X\u2082)\n              \u2227 (\u2200X\u2083)\n              \
+      \    ( (X\u2083 \u2208 \u2115 \u2286 \u211D)\n                 \u21D2 ((X\u2081\
+      \ . X\u2083) \u2264 (X\u2082 . X\u2083)) ) )\n           \u21D2 (lim(X\u2081\
+      ) \u2264 lim(X\u2082)) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_2.html#T18
+  t19_seq_2:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n\
+      \     \u21D2 (\u2200X\u2082)\n          ( ( function(X\u2082)\n            \u2227\
+      \ quasi_total(X\u2082,\u2115,\u211D)\n            \u2227 (X\u2082 \u2208 bool(\u2115\
+      \ \xD7 \u211D)) )\n         \u21D2 (\u2200X\u2083)\n              ( ( function(X\u2083\
+      )\n                \u2227 quasi_total(X\u2083,\u2115,\u211D)\n             \
+      \   \u2227 (X\u2083 \u2208 bool(\u2115 \xD7 \u211D)) )\n             \u21D2\
+      \ ( ( convergent(X\u2081)\n                  \u2227 convergent(X\u2082)\n  \
+      \                \u2227 (\u2200X\u2084)\n                      ( (X\u2084 \u2208\
+      \ \u2115 \u2286 \u211D)\n                     \u21D2 ( ((X\u2081 . X\u2084)\
+      \ \u2264 (X\u2083 . X\u2084))\n                        \u2227 ((X\u2083 . X\u2084\
+      ) \u2264 (X\u2082 . X\u2084)) ) )\n                  \u2227 lim(X\u2081) = lim(X\u2082\
+      ) )\n               \u21D2 convergent(X\u2083) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_2.html#T19
+  t1_xxreal_0:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \U0001D53C)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \U0001D53C)\n         \u21D2 ( ( (X\u2081\
+      \ \u2264 X\u2082)\n              \u2227 (X\u2082 \u2264 X\u2081) )\n       \
+      \    \u21D2 X\u2081 = X\u2082 ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#T1
+  t20_seq_2:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n\
+      \     \u21D2 (\u2200X\u2082)\n          ( ( function(X\u2082)\n            \u2227\
+      \ quasi_total(X\u2082,\u2115,\u211D)\n            \u2227 (X\u2082 \u2208 bool(\u2115\
+      \ \xD7 \u211D)) )\n         \u21D2 (\u2200X\u2083)\n              ( ( function(X\u2083\
+      )\n                \u2227 quasi_total(X\u2083,\u2115,\u211D)\n             \
+      \   \u2227 (X\u2083 \u2208 bool(\u2115 \xD7 \u211D)) )\n             \u21D2\
+      \ ( ( convergent(X\u2081)\n                  \u2227 convergent(X\u2082)\n  \
+      \                \u2227 (\u2200X\u2084)\n                      ( (X\u2084 \u2208\
+      \ \u2115 \u2286 \u211D)\n                     \u21D2 ( ((X\u2081 . X\u2084)\
+      \ \u2264 (X\u2083 . X\u2084))\n                        \u2227 ((X\u2083 . X\u2084\
+      ) \u2264 (X\u2082 . X\u2084)) ) )\n                  \u2227 lim(X\u2081) = lim(X\u2082\
+      ) )\n               \u21D2 lim(X\u2083) = lim(X\u2081) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_2.html#T20
+conjecture: t20_seq_2
+final: c_0_79
+skolems:
+  esk1_0:
+    axiom: t20_seq_2
+    related:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+    symbol: "sk\u2081"
+  esk2_0:
+    axiom: t20_seq_2
+    related:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+    symbol: "sk\u2082"
+  esk3_0:
+    axiom: t20_seq_2
+    related:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+    symbol: "sk\u2083"
+  esk4_3:
+    axiom: t19_seq_2
+    related:
+    - esk4_3
+    symbol: "sk\u2084"
+  esk5_2:
+    axiom: t18_seq_2
+    related:
+    - esk5_2
+    symbol: "sk\u2085"
+steps:
+  c_0_11:
+    counts:
+      k1_numbers: 4
+      k1_seq_1: 2
+      k1_zfmisc_1: 2
+      k2_seq_2: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 4
+      m1_subset_1: 2
+      r1_xxreal_0: 2
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_comseq_2: 2
+    skolems:
+    - esk5_2
+  c_0_12:
+    counts:
+      k1_numbers: 1
+      k1_seq_1: 2
+      k5_numbers: 1
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk2_0
+    - esk3_0
+  c_0_13:
+    counts:
+      k2_seq_2: 2
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_14:
+    counts:
+      v2_comseq_2: 1
+    skolems:
+    - esk2_0
+  c_0_15:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems:
+    - esk2_0
+  c_0_16:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems:
+    - esk3_0
+  c_0_17:
+    counts:
+      k1_numbers: 1
+      k5_numbers: 1
+      v1_funct_2: 1
+    skolems:
+    - esk2_0
+  c_0_18:
+    counts:
+      k1_numbers: 1
+      k5_numbers: 1
+      v1_funct_2: 1
+    skolems:
+    - esk3_0
+  c_0_19:
+    counts:
+      v1_funct_1: 1
+    skolems:
+    - esk2_0
+  c_0_20:
+    counts:
+      v1_funct_1: 1
+    skolems:
+    - esk3_0
+  c_0_24:
+    counts:
+      k2_seq_2: 2
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_32:
+    counts:
+      k1_numbers: 5
+      k1_zfmisc_1: 2
+      k2_seq_2: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 5
+      m1_subset_1: 2
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_comseq_2: 2
+    skolems:
+    - esk5_2
+  c_0_33:
+    counts:
+      k1_numbers: 1
+      k1_seq_1: 2
+      k5_numbers: 1
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_34:
+    counts:
+      v2_comseq_2: 1
+    skolems:
+    - esk1_0
+  c_0_35:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems:
+    - esk1_0
+  c_0_36:
+    counts:
+      k1_numbers: 1
+      k5_numbers: 1
+      v1_funct_2: 1
+    skolems:
+    - esk1_0
+  c_0_37:
+    counts:
+      v1_funct_1: 1
+    skolems:
+    - esk1_0
+  c_0_38:
+    counts:
+      r1_xxreal_0: 2
+      v1_xxreal_0: 2
+    skolems: []
+  c_0_39:
+    counts:
+      k1_numbers: 1
+      k2_seq_2: 2
+      k5_numbers: 1
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+      v2_comseq_2: 1
+    skolems:
+    - esk5_2
+    - esk1_0
+    - esk2_0
+    - esk3_0
+  c_0_41:
+    counts:
+      k2_seq_2: 2
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_50:
+    counts:
+      k2_seq_2: 2
+      r1_xxreal_0: 1
+      v2_comseq_2: 1
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_52:
+    counts:
+      k1_numbers: 1
+      k2_seq_2: 2
+      k5_numbers: 1
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+      v2_comseq_2: 1
+    skolems:
+    - esk5_2
+    - esk1_0
+    - esk3_0
+  c_0_53:
+    counts:
+      m1_subset_1: 1
+      v1_xxreal_0: 1
+      v2_membered: 1
+    skolems: []
+  c_0_54:
+    counts:
+      k1_numbers: 3
+      k1_zfmisc_1: 1
+      k2_seq_2: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      m1_subset_1: 2
+      v1_funct_1: 1
+      v1_funct_2: 1
+    skolems: []
+  c_0_55:
+    counts:
+      k2_seq_2: 4
+      r1_xxreal_0: 1
+      v1_xxreal_0: 2
+      v2_comseq_2: 1
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_56:
+    counts:
+      k2_seq_2: 2
+      r1_xxreal_0: 1
+      v2_comseq_2: 1
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_60:
+    counts:
+      k2_seq_2: 2
+      v1_xxreal_0: 2
+      v2_comseq_2: 1
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_61:
+    counts:
+      k1_numbers: 3
+      k1_zfmisc_1: 1
+      k2_seq_2: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      m1_subset_1: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v1_xxreal_0: 1
+      v2_membered: 1
+    skolems: []
+  c_0_62:
+    counts:
+      k1_numbers: 1
+      k2_seq_2: 1
+      m1_subset_1: 1
+    skolems:
+    - esk1_0
+  c_0_64:
+    counts:
+      k1_numbers: 6
+      k1_seq_1: 4
+      k1_zfmisc_1: 3
+      k2_seq_2: 2
+      k2_zfmisc_1: 3
+      k5_numbers: 6
+      m1_subset_1: 3
+      r1_xxreal_0: 2
+      v1_funct_1: 3
+      v1_funct_2: 3
+      v2_comseq_2: 3
+    skolems:
+    - esk4_3
+  c_0_65:
+    counts:
+      k1_numbers: 1
+      k2_seq_2: 1
+      v1_xxreal_0: 1
+      v2_comseq_2: 1
+      v2_membered: 1
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_66:
+    counts:
+      k1_numbers: 1
+      k2_seq_2: 1
+      v1_xxreal_0: 1
+      v2_membered: 1
+    skolems:
+    - esk1_0
+  c_0_67:
+    counts:
+      v2_membered: 1
+      v3_membered: 1
+    skolems: []
+  c_0_68:
+    counts:
+      k1_numbers: 1
+      v3_membered: 1
+    skolems: []
+  c_0_73:
+    counts:
+      k1_numbers: 3
+      k1_seq_1: 2
+      k1_zfmisc_1: 1
+      k2_seq_2: 2
+      k2_zfmisc_1: 1
+      k5_numbers: 3
+      m1_subset_1: 1
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_comseq_2: 2
+    skolems:
+    - esk4_3
+    - esk1_0
+    - esk2_0
+    - esk3_0
+  c_0_74:
+    counts:
+      v2_comseq_2: 1
+    skolems:
+    - esk3_0
+  c_0_75:
+    counts:
+      k1_numbers: 3
+      k1_seq_1: 2
+      k1_zfmisc_1: 1
+      k2_seq_2: 2
+      k2_zfmisc_1: 1
+      k5_numbers: 3
+      m1_subset_1: 1
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_comseq_2: 1
+    skolems:
+    - esk4_3
+    - esk1_0
+    - esk2_0
+    - esk3_0
+  c_0_76:
+    counts:
+      k1_numbers: 7
+      k1_zfmisc_1: 3
+      k2_seq_2: 2
+      k2_zfmisc_1: 3
+      k5_numbers: 7
+      m1_subset_1: 3
+      m2_subset_1: 1
+      v1_funct_1: 3
+      v1_funct_2: 3
+      v2_comseq_2: 3
+    skolems:
+    - esk4_3
+  c_0_77:
+    counts:
+      k1_numbers: 1
+      k5_numbers: 1
+      m2_subset_1: 1
+    skolems:
+    - esk4_3
+    - esk1_0
+    - esk2_0
+    - esk3_0
+symbols:
+  k1_numbers:
+    arity: 0
+    count: 84
+    mizar: REAL
+    neg: 63
+    pos: 21
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K1
+    vizar: "\u211D"
+  k1_seq_1:
+    arity: 2
+    count: 24
+    mizar: .
+    neg: 16
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_1.html#K1
+    vizar: x . y
+  k1_zfmisc_1:
+    arity: 1
+    count: 31
+    mizar: bool
+    neg: 25
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
+    vizar: bool(x)
+  k2_seq_2:
+    arity: 1
+    count: 48
+    mizar: lim
+    neg: 23
+    pos: 25
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_2.html#K2
+    vizar: lim(x)
+  k2_zfmisc_1:
+    arity: 2
+    count: 31
+    mizar: '[:..:]'
+    neg: 25
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K2
+    vizar: "x \xD7 y"
+  k5_numbers:
+    arity: 0
+    count: 75
+    mizar: NAT
+    neg: 59
+    pos: 16
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+    vizar: "\u2115"
+  m1_subset_1:
+    arity: 2
+    count: 36
+    mizar: Element
+    neg: 27
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  m2_subset_1:
+    arity: 3
+    count: 13
+    mizar: Element
+    neg: 9
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M2
+    vizar: "x \u2208 z \u2286 y"
+  r1_xxreal_0:
+    arity: 2
+    count: 25
+    mizar: '&lt;='
+    neg: 13
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#R1
+    vizar: "x \u2264 y"
+  v1_funct_1:
+    arity: 1
+    count: 31
+    mizar: Function-like
+    neg: 25
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#V1
+    vizar: function(x)
+  v1_funct_2:
+    arity: 3
+    count: 31
+    mizar: quasi_total
+    neg: 25
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_2.html#V1
+    vizar: quasi_total(x,y,z)
+  v1_xxreal_0:
+    arity: 1
+    count: 13
+    mizar: ext-real
+    neg: 9
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#V1
+    vizar: "x \u2208 \U0001D53C"
+  v2_comseq_2:
+    arity: 1
+    count: 36
+    mizar: convergent
+    neg: 27
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/comseq_2.html#V2
+    vizar: convergent(x)
+  v2_membered:
+    arity: 1
+    count: 8
+    mizar: ext-real-membered
+    neg: 6
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V2
+    vizar: ext-real-membered(x)
+  v3_membered:
+    arity: 1
+    count: 4
+    mizar: real-membered
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V3
+    vizar: "x \u2286 \u211D"
+tptp:
+  c_0_11: "cnf(c_0_11,plain,\n    ( r1_xxreal_0(k2_seq_2(X1),k2_seq_2(X2))\n    |\
+    \ ~ r1_xxreal_0(k1_seq_1(X1,esk5_2(X1,X2)),k1_seq_1(X2,esk5_2(X1,X2)))\n    |\
+    \ ~ v2_comseq_2(X2)\n    | ~ v2_comseq_2(X1)\n    | ~ v1_funct_1(X2)\n    | ~\
+    \ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ))."
+  c_0_12: "cnf(c_0_12,negated_conjecture,\n    ( r1_xxreal_0(k1_seq_1(esk3_0,X1),k1_seq_1(esk2_0,X1))\n\
+    \    | ~ m2_subset_1(X1,k1_numbers,k5_numbers) ))."
+  c_0_13: "cnf(c_0_13,negated_conjecture,\n    ( k2_seq_2(esk1_0) = k2_seq_2(esk2_0)\
+    \ ))."
+  c_0_14: "cnf(c_0_14,negated_conjecture,\n    ( v2_comseq_2(esk2_0) ))."
+  c_0_15: "cnf(c_0_15,negated_conjecture,\n    ( m1_subset_1(esk2_0,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_16: "cnf(c_0_16,negated_conjecture,\n    ( m1_subset_1(esk3_0,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_17: "cnf(c_0_17,negated_conjecture,\n    ( v1_funct_2(esk2_0,k5_numbers,k1_numbers)\
+    \ ))."
+  c_0_18: "cnf(c_0_18,negated_conjecture,\n    ( v1_funct_2(esk3_0,k5_numbers,k1_numbers)\
+    \ ))."
+  c_0_19: "cnf(c_0_19,negated_conjecture,\n    ( v1_funct_1(esk2_0) ))."
+  c_0_20: "cnf(c_0_20,negated_conjecture,\n    ( v1_funct_1(esk3_0) ))."
+  c_0_24: "cnf(c_0_24,negated_conjecture,\n    ( k2_seq_2(esk2_0) = k2_seq_2(esk1_0)\
+    \ ))."
+  c_0_32: "cnf(c_0_32,plain,\n    ( m2_subset_1(esk5_2(X1,X2),k1_numbers,k5_numbers)\n\
+    \    | r1_xxreal_0(k2_seq_2(X1),k2_seq_2(X2))\n    | ~ v2_comseq_2(X2)\n    |\
+    \ ~ v2_comseq_2(X1)\n    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_33: "cnf(c_0_33,negated_conjecture,\n    ( r1_xxreal_0(k1_seq_1(esk1_0,X1),k1_seq_1(esk3_0,X1))\n\
+    \    | ~ m2_subset_1(X1,k1_numbers,k5_numbers) ))."
+  c_0_34: "cnf(c_0_34,negated_conjecture,\n    ( v2_comseq_2(esk1_0) ))."
+  c_0_35: "cnf(c_0_35,negated_conjecture,\n    ( m1_subset_1(esk1_0,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_36: "cnf(c_0_36,negated_conjecture,\n    ( v1_funct_2(esk1_0,k5_numbers,k1_numbers)\
+    \ ))."
+  c_0_37: "cnf(c_0_37,negated_conjecture,\n    ( v1_funct_1(esk1_0) ))."
+  c_0_38: "cnf(c_0_38,plain,\n    ( X1 = X2\n    | ~ v1_xxreal_0(X1)\n    | ~ v1_xxreal_0(X2)\n\
+    \    | ~ r1_xxreal_0(X1,X2)\n    | ~ r1_xxreal_0(X2,X1) ))."
+  c_0_39: "cnf(c_0_39,negated_conjecture,\n    ( r1_xxreal_0(k2_seq_2(esk3_0),k2_seq_2(esk1_0))\n\
+    \    | ~ v2_comseq_2(esk3_0)\n    | ~ m2_subset_1(esk5_2(esk3_0,esk2_0),k1_numbers,k5_numbers)\
+    \ ))."
+  c_0_41: "cnf(c_0_41,negated_conjecture,\n    ( k2_seq_2(esk3_0) != k2_seq_2(esk1_0)\
+    \ ))."
+  c_0_50: "cnf(c_0_50,negated_conjecture,\n    ( r1_xxreal_0(k2_seq_2(esk3_0),k2_seq_2(esk1_0))\n\
+    \    | ~ v2_comseq_2(esk3_0) ))."
+  c_0_52: "cnf(c_0_52,negated_conjecture,\n    ( r1_xxreal_0(k2_seq_2(esk1_0),k2_seq_2(esk3_0))\n\
+    \    | ~ v2_comseq_2(esk3_0)\n    | ~ m2_subset_1(esk5_2(esk1_0,esk3_0),k1_numbers,k5_numbers)\
+    \ ))."
+  c_0_53: "cnf(c_0_53,plain,\n    ( v1_xxreal_0(X2)\n    | ~ v2_membered(X1)\n   \
+    \ | ~ m1_subset_1(X2,X1) ))."
+  c_0_54: "cnf(c_0_54,plain,\n    ( m1_subset_1(k2_seq_2(X1),k1_numbers)\n    | ~\
+    \ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_55: "cnf(c_0_55,negated_conjecture,\n    ( ~ v1_xxreal_0(k2_seq_2(esk3_0))\n\
+    \    | ~ v1_xxreal_0(k2_seq_2(esk1_0))\n    | ~ r1_xxreal_0(k2_seq_2(esk1_0),k2_seq_2(esk3_0))\n\
+    \    | ~ v2_comseq_2(esk3_0) ))."
+  c_0_56: "cnf(c_0_56,negated_conjecture,\n    ( r1_xxreal_0(k2_seq_2(esk1_0),k2_seq_2(esk3_0))\n\
+    \    | ~ v2_comseq_2(esk3_0) ))."
+  c_0_60: "cnf(c_0_60,negated_conjecture,\n    ( ~ v1_xxreal_0(k2_seq_2(esk3_0))\n\
+    \    | ~ v1_xxreal_0(k2_seq_2(esk1_0))\n    | ~ v2_comseq_2(esk3_0) ))."
+  c_0_61: "cnf(c_0_61,plain,\n    ( v1_xxreal_0(k2_seq_2(X1))\n    | ~ v2_membered(k1_numbers)\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X1) ))."
+  c_0_62: "cnf(c_0_62,negated_conjecture,\n    ( m1_subset_1(k2_seq_2(esk1_0),k1_numbers)\
+    \ ))."
+  c_0_64: "cnf(c_0_64,plain,\n    ( v2_comseq_2(X3)\n    | ~ r1_xxreal_0(k1_seq_1(X1,esk4_3(X1,X2,X3)),k1_seq_1(X3,esk4_3(X1,X2,X3)))\n\
+    \    | ~ r1_xxreal_0(k1_seq_1(X3,esk4_3(X1,X2,X3)),k1_seq_1(X2,esk4_3(X1,X2,X3)))\n\
+    \    | k2_seq_2(X1) != k2_seq_2(X2)\n    | ~ v2_comseq_2(X2)\n    | ~ v2_comseq_2(X1)\n\
+    \    | ~ v1_funct_1(X3)\n    | ~ v1_funct_2(X3,k5_numbers,k1_numbers)\n    | ~\
+    \ m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~ v1_funct_1(X2)\n\
+    \    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ))."
+  c_0_65: "cnf(c_0_65,negated_conjecture,\n    ( ~ v1_xxreal_0(k2_seq_2(esk1_0))\n\
+    \    | ~ v2_comseq_2(esk3_0)\n    | ~ v2_membered(k1_numbers) ))."
+  c_0_66: "cnf(c_0_66,negated_conjecture,\n    ( v1_xxreal_0(k2_seq_2(esk1_0))\n \
+    \   | ~ v2_membered(k1_numbers) ))."
+  c_0_67: "cnf(c_0_67,plain,\n    ( v2_membered(X1)\n    | ~ v3_membered(X1) ))."
+  c_0_68: "cnf(c_0_68,plain,\n    ( v3_membered(k1_numbers) ))."
+  c_0_73: "cnf(c_0_73,negated_conjecture,\n    ( v2_comseq_2(esk3_0)\n    | k2_seq_2(X1)\
+    \ != k2_seq_2(esk1_0)\n    | ~ r1_xxreal_0(k1_seq_1(X1,esk4_3(X1,esk2_0,esk3_0)),k1_seq_1(esk3_0,esk4_3(X1,esk2_0,esk3_0)))\n\
+    \    | ~ v2_comseq_2(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X1)\n    | ~\
+    \ m2_subset_1(esk4_3(X1,esk2_0,esk3_0),k1_numbers,k5_numbers) ))."
+  c_0_74: "cnf(c_0_74,negated_conjecture,\n    ( ~ v2_comseq_2(esk3_0) ))."
+  c_0_75: "cnf(c_0_75,negated_conjecture,\n    ( k2_seq_2(X1) != k2_seq_2(esk1_0)\n\
+    \    | ~ r1_xxreal_0(k1_seq_1(X1,esk4_3(X1,esk2_0,esk3_0)),k1_seq_1(esk3_0,esk4_3(X1,esk2_0,esk3_0)))\n\
+    \    | ~ m2_subset_1(esk4_3(X1,esk2_0,esk3_0),k1_numbers,k5_numbers)\n    | ~\
+    \ v2_comseq_2(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X1) ))."
+  c_0_76: "cnf(c_0_76,plain,\n    ( m2_subset_1(esk4_3(X1,X2,X3),k1_numbers,k5_numbers)\n\
+    \    | v2_comseq_2(X3)\n    | k2_seq_2(X1) != k2_seq_2(X2)\n    | ~ v2_comseq_2(X2)\n\
+    \    | ~ v2_comseq_2(X1)\n    | ~ v1_funct_1(X3)\n    | ~ v1_funct_2(X3,k5_numbers,k1_numbers)\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ))."
+  c_0_77: "cnf(c_0_77,negated_conjecture,\n    ( ~ m2_subset_1(esk4_3(esk1_0,esk2_0,esk3_0),k1_numbers,k5_numbers)\
+    \ ))."
+  c_0_79: "cnf(c_0_79,negated_conjecture,\n    ( $false ))."
+  cc13_membered: "fof(cc13_membered,axiom,(\n    ! [X1] :\n      ( v2_membered(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,X1)\n         => v1_xxreal_0(X2)\
+    \ ) ) ))."
+  cc4_membered: "fof(cc4_membered,axiom,(\n    ! [X1] :\n      ( v3_membered(X1)\n\
+    \     => v2_membered(X1) ) ))."
+  dt_k2_seq_2: "fof(dt_k2_seq_2,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n     => m1_subset_1(k2_seq_2(X1),k1_numbers) ) ))."
+  fc3_membered: "fof(fc3_membered,axiom,(\n    v3_membered(k1_numbers) ))."
+  t18_seq_2: "fof(t18_seq_2,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n    \
+    \    & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n     => ! [X2] :\n          ( ( v1_funct_1(X2)\n            & v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \            & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n         => ( ( v2_comseq_2(X1)\n              & v2_comseq_2(X2)\n      \
+    \        & ! [X3] :\n                  ( m2_subset_1(X3,k1_numbers,k5_numbers)\n\
+    \                 => r1_xxreal_0(k1_seq_1(X1,X3),k1_seq_1(X2,X3)) ) )\n      \
+    \     => r1_xxreal_0(k2_seq_2(X1),k2_seq_2(X2)) ) ) ) ))."
+  t19_seq_2: "fof(t19_seq_2,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n    \
+    \    & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n     => ! [X2] :\n          ( ( v1_funct_1(X2)\n            & v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \            & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n         => ! [X3] :\n              ( ( v1_funct_1(X3)\n                &\
+    \ v1_funct_2(X3,k5_numbers,k1_numbers)\n                & m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n             => ( ( v2_comseq_2(X1)\n                  & v2_comseq_2(X2)\n\
+    \                  & ! [X4] :\n                      ( m2_subset_1(X4,k1_numbers,k5_numbers)\n\
+    \                     => ( r1_xxreal_0(k1_seq_1(X1,X4),k1_seq_1(X3,X4))\n    \
+    \                    & r1_xxreal_0(k1_seq_1(X3,X4),k1_seq_1(X2,X4)) ) )\n    \
+    \              & k2_seq_2(X1) = k2_seq_2(X2) )\n               => v2_comseq_2(X3)\
+    \ ) ) ) ) ))."
+  t1_xxreal_0: "fof(t1_xxreal_0,axiom,(\n    ! [X1] :\n      ( v1_xxreal_0(X1)\n \
+    \    => ! [X2] :\n          ( v1_xxreal_0(X2)\n         => ( ( r1_xxreal_0(X1,X2)\n\
+    \              & r1_xxreal_0(X2,X1) )\n           => X1 = X2 ) ) ) ))."
+  t20_seq_2: "fof(t20_seq_2,conjecture,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n     => ! [X2] :\n          ( ( v1_funct_1(X2)\n            & v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \            & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n         => ! [X3] :\n              ( ( v1_funct_1(X3)\n                &\
+    \ v1_funct_2(X3,k5_numbers,k1_numbers)\n                & m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n             => ( ( v2_comseq_2(X1)\n                  & v2_comseq_2(X2)\n\
+    \                  & ! [X4] :\n                      ( m2_subset_1(X4,k1_numbers,k5_numbers)\n\
+    \                     => ( r1_xxreal_0(k1_seq_1(X1,X4),k1_seq_1(X3,X4))\n    \
+    \                    & r1_xxreal_0(k1_seq_1(X3,X4),k1_seq_1(X2,X4)) ) )\n    \
+    \              & k2_seq_2(X1) = k2_seq_2(X2) )\n               => k2_seq_2(X3)\
+    \ = k2_seq_2(X1) ) ) ) ) ))."
+

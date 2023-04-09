@@ -1,0 +1,1140 @@
+axioms:
+  cc1_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 ordinal(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#CC1
+  cc3_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (X\u2081\
+      \ \u2208 Card) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#CC3
+  cc4_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u03C9)\n     \u21D2 finite(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#CC4
+  cc6_card_1:
+    fof: "    (\u2200X\u2081)\n      ( ( ordinal(X\u2081)\n        \u2227 finite(X\u2081\
+      ) )\n     \u21D2 (X\u2081 \u2208 \u2115) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#CC6
+  cc6_ordinal1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 ordinal(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#CC6
+  d11_ordinal1:
+    fof: "    (\u2200X\u2081)\n      ( X\u2081 = \u03C9\n    \u2261 ( (\xD8 \u2208\
+      \ X\u2081)\n        \u2227 limit_ordinal(X\u2081)\n        \u2227 ordinal(X\u2081\
+      )\n        \u2227 (\u2200X\u2082)\n            ( ordinal(X\u2082)\n        \
+      \   \u21D2 ( ( (\xD8 \u2208 X\u2082)\n                \u2227 limit_ordinal(X\u2082\
+      ) )\n             \u21D2 (X\u2081 \u2286 X\u2082) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#D11
+  d1_card_5:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 Card)\n         \u21D2 ( X\u2082 = cf(X\u2081\
+      )\n          \u2261 ( is_cofinal_with(X\u2081,X\u2082)\n              \u2227\
+      \ (\u2200X\u2083)\n                  ( (X\u2083 \u2208 Card)\n             \
+      \    \u21D2 ( is_cofinal_with(X\u2081,X\u2083)\n                   \u21D2 (X\u2082\
+      \ c= X\u2083) ) ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_5.html#D1
+  d1_ordinal1:
+    fof: "    (\u2200X\u2081) succ(X\u2081) = (X\u2081 \u222A \\{X\u2081\\}) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#D1
+  d2_card_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2082 \u2208 Card)\n     \u21D2\
+      \ ( X\u2082 = |X\u2081|\n      \u2261 (|X\u2081| = |X\u2082|) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#D2
+  dt_k1_card_1:
+    fof: "    (\u2200X\u2081) (|X\u2081| \u2208 Card) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+  dt_k1_card_5:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 (cf(X\u2081\
+      ) \u2208 Card) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_5.html#K1
+  dt_k5_card_1:
+    fof: "    (\u2200X\u2081)\n      ( finite(X\u2081)\n     \u21D2 (card(X\u2081\
+      ) \u2208 \u03C9) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K5
+  fc1_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 = \xD8)\n     \u21D2 ( (|X\u2081|\
+      \ = \xD8)\n        \u2227 (|X\u2081| \u2208 Card) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#FC1
+  fc1_xboole_0:
+    fof: "    (\xD8 = \xD8) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#FC1
+  fc4_card_1:
+    fof: "    (\u03C9 \u2208 Card) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#FC4
+  fc6_ordinal1:
+    fof: "    ( \xAC (\u03C9 = \xD8)\n    \u2227 ordinal(\u03C9) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#FC6
+  l47_ordinal2:
+    fof: "    1 = succ(\xD8) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal2.html#L47
+  l86_card_2:
+    fof: "    limit_ordinal(\u03C9) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#L86
+  projectivity_k1_card_1:
+    fof: "    (\u2200X\u2081) ||X\u2081|| = |X\u2081| "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+  rc4_ordinal1:
+    fof: "    (\u2203X\u2081) (X\u2081 \u2208 \u2115) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#RC4
+  redefinition_k5_card_1:
+    fof: "    (\u2200X\u2081)\n      ( finite(X\u2081)\n     \u21D2 card(X\u2081)\
+      \ = |X\u2081| ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K5
+  redefinition_k5_numbers:
+    fof: "    \u2115 = \u03C9 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+  redefinition_r1_ordinal1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( ordinal(X\u2081)\n        \u2227\
+      \ ordinal(X\u2082) )\n     \u21D2 ( (X\u2081 c= X\u2082)\n      \u2261 (X\u2081\
+      \ \u2286 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#R1
+  reflexivity_r2_ordinal2:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( ordinal(X\u2081)\n        \u2227\
+      \ ordinal(X\u2082) )\n     \u21D2 is_cofinal_with(X\u2081,X\u2081) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal2.html#R2
+  spc1_numerals:
+    fof: "    ( positive(1)\n    \u2227 (1 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+      \ (1 \u2208 \u2115)\n    \u2227 (1 \u2208 \u211D) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC1
+  symmetry_r2_wellord2:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (|X\u2081| = |X\u2082|)\n     \u21D2\
+      \ (|X\u2082| = |X\u2081|) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/wellord2.html#R2
+  t22_card_5:
+    fof: "    cf(\u03C9) = \u03C9 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_5.html#T22
+  t29_enumset1:
+    fof: "    (\u2200X\u2081) (X\u2081 \\{..\\} X\u2081) = \\{X\u2081\\} "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/enumset1.html#T29
+  t2_subset:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2208 X\u2082)\n     \u21D2\
+      \ ( (X\u2082 = \xD8)\n        \u2228 (X\u2081 \u2208 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T2
+  t38_ordinal4:
+    fof: "    (\u2200X\u2081)\n      ( ordinal(X\u2081)\n     \u21D2 (\u2200X\u2082\
+      )\n          ( ordinal(X\u2082)\n         \u21D2 ( is_cofinal_with(X\u2081,X\u2082\
+      )\n           \u21D2 ( limit_ordinal(X\u2081)\n            \u2261 limit_ordinal(X\u2082\
+      ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal4.html#T38
+  t3_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 Card)\n         \u21D2 ( (X\u2081 \u2208\
+      \ X\u2082)\n          \u2261 ( (X\u2081 c= X\u2082)\n              \u2227 X\u2081\
+      \ != X\u2082 ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#T3
+  t4_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 Card)\n         \u21D2 ( (X\u2081 \u2208\
+      \ X\u2082)\n          \u2261 \xAC (X\u2082 c= X\u2081) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#T4
+  t50_ordinal2:
+    fof: "    (\u2200X\u2081)\n      ( ordinal(X\u2081)\n     \u21D2 ( is_cofinal_with(X\u2081\
+      ,\xD8)\n       \u21D2 X\u2081 = \xD8 ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal2.html#T50
+  t6_boole:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 = \xD8)\n     \u21D2 X\u2081 = \xD8\
+      \ ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#T6
+  t7_xboole_1:
+    fof: "    (\u2200X\u2081,X\u2082) (X\u2081 \u2286 (X\u2081 \u222A X\u2082)) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_1.html#T7
+  t85_card_3:
+    fof: "    (\u2200X\u2081)\n      ( ordinal(X\u2081)\n     \u21D2 ( \xAC finite(X\u2081\
+      )\n      \u2261 (\u03C9 c= X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_3.html#T85
+  t87_card_3:
+    fof: "    (\u2200X\u2081)\n      ( \xAC ( \xAC finite(X\u2081)\n          \u2227\
+      \ (\u2200X\u2082)\n              \xAC ( (X\u2082 \u2286 X\u2081)\n         \
+      \       \u2227 |X\u2082| = \u03C9 ) )\n      \u2227 \xAC ( (\u2203X\u2082)\n\
+      \              ( (X\u2082 \u2286 X\u2081)\n              \u2227 |X\u2082| =\
+      \ \u03C9 )\n          \u2227 finite(X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_3.html#T87
+  t8_ordinal3:
+    fof: "    (\u2200X\u2081)\n      ( ordinal(X\u2081)\n     \u21D2 ( X\u2081 !=\
+      \ \xD8\n       \u21D2 (\xD8 \u2208 X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal3.html#T8
+conjecture: t22_card_5
+final: c_0_236
+skolems:
+  esk38_0:
+    axiom: rc4_ordinal1
+    related:
+    - esk38_0
+    symbol: "sk\u2083\u2088"
+steps:
+  c_0_106:
+    counts:
+      k1_card_1: 1
+      k5_card_1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_108:
+    counts:
+      r2_wellord2: 2
+    skolems: []
+  c_0_111:
+    counts:
+      v1_card_1: 1
+      v1_finset_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_114:
+    counts:
+      k1_xboole_0: 2
+      r2_hidden: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_116:
+    counts:
+      k1_card_5: 1
+      r2_ordinal2: 1
+      v1_card_1: 2
+    skolems: []
+  c_0_120:
+    counts:
+      k1_card_1: 1
+      r2_wellord2: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_121:
+    counts:
+      k1_card_1: 1
+      r2_wellord2: 1
+    skolems: []
+  c_0_123:
+    counts:
+      k1_card_5: 3
+      k4_ordinal1: 4
+      r2_hidden: 1
+      v1_card_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_124:
+    counts:
+      k1_xboole_0: 1
+      k4_ordinal1: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      v3_ordinal1: 1
+      v4_ordinal1: 1
+    skolems: []
+  c_0_126:
+    counts:
+      r2_ordinal2: 1
+      v3_ordinal1: 2
+      v4_ordinal1: 2
+    skolems: []
+  c_0_128:
+    counts:
+      k4_ordinal1: 1
+      k5_card_1: 2
+      r1_ordinal1: 1
+      v1_card_1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_130:
+    counts:
+      k1_card_1: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_131:
+    counts:
+      k1_card_5: 2
+      k4_ordinal1: 3
+      r2_hidden: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_136:
+    counts:
+      k1_card_5: 2
+      r2_ordinal2: 1
+      v1_card_1: 2
+    skolems: []
+  c_0_137:
+    counts:
+      k1_card_1: 1
+      k4_ordinal1: 1
+      r1_ordinal1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_138:
+    counts:
+      k1_card_1: 1
+      k1_card_5: 3
+      k4_ordinal1: 4
+      r2_hidden: 1
+    skolems: []
+  c_0_139:
+    counts:
+      r1_ordinal1: 1
+      r1_tarski: 1
+      v3_ordinal1: 2
+    skolems: []
+  c_0_140:
+    counts:
+      k4_ordinal1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_141:
+    counts:
+      k1_xboole_0: 1
+      k4_ordinal1: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      v3_ordinal1: 1
+      v4_ordinal1: 1
+    skolems: []
+  c_0_142:
+    counts:
+      k1_card_5: 2
+      k1_xboole_0: 2
+      r2_hidden: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_143:
+    counts:
+      r2_ordinal2: 1
+      v3_ordinal1: 2
+      v4_ordinal1: 2
+    skolems: []
+  c_0_145:
+    counts:
+      k4_ordinal1: 1
+      v4_ordinal1: 1
+    skolems: []
+  c_0_146:
+    counts:
+      k1_card_5: 3
+      k4_ordinal1: 5
+      r1_ordinal1: 1
+      r2_hidden: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_150:
+    counts:
+      k1_card_5: 2
+      k1_xboole_0: 2
+      k4_ordinal1: 2
+      r2_hidden: 1
+    skolems: []
+  c_0_151:
+    counts:
+      k1_card_5: 2
+      v1_card_1: 1
+      v3_ordinal1: 2
+      v4_ordinal1: 2
+    skolems: []
+  c_0_153:
+    counts:
+      k1_card_5: 2
+      k4_ordinal1: 4
+      r1_ordinal1: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_156:
+    counts:
+      k1_card_5: 4
+      k1_xboole_0: 1
+      k4_ordinal1: 5
+      r1_tarski: 1
+      v3_ordinal1: 1
+      v4_ordinal1: 1
+    skolems: []
+  c_0_157:
+    counts:
+      k1_card_5: 1
+      v1_card_1: 1
+      v4_ordinal1: 2
+    skolems: []
+  c_0_163:
+    counts:
+      k1_card_5: 3
+      k4_ordinal1: 5
+      r1_tarski: 1
+      r2_hidden: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_164:
+    counts:
+      k1_card_5: 2
+      k4_ordinal1: 3
+      r2_hidden: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_165:
+    counts:
+      k1_card_5: 3
+      k1_xboole_0: 1
+      k4_ordinal1: 4
+      r1_tarski: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_166:
+    counts:
+      k1_card_1: 1
+      k4_ordinal1: 1
+      r1_tarski: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_167:
+    counts:
+      k2_xboole_0: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_169:
+    counts:
+      k1_ordinal1: 1
+      k1_tarski: 1
+      k2_xboole_0: 1
+    skolems: []
+  c_0_170:
+    counts:
+      k1_tarski: 1
+      k2_tarski: 1
+    skolems: []
+  c_0_173:
+    counts:
+      k1_card_5: 2
+      k4_ordinal1: 4
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_174:
+    counts:
+      k1_card_5: 2
+      k1_xboole_0: 1
+      k4_ordinal1: 3
+      r1_tarski: 1
+    skolems: []
+  c_0_175:
+    counts:
+      k1_card_5: 1
+      r1_ordinal1: 1
+      r2_ordinal2: 1
+      v1_card_1: 3
+    skolems: []
+  c_0_178:
+    counts:
+      k4_ordinal1: 1
+      m1_subset_1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_179:
+    counts:
+      k1_ordinal1: 1
+      k1_xboole_0: 1
+      np__1: 1
+    skolems: []
+  c_0_180:
+    counts:
+      k1_ordinal1: 1
+      k2_tarski: 1
+      k2_xboole_0: 1
+    skolems: []
+  c_0_181:
+    counts:
+      k4_ordinal1: 1
+      k5_numbers: 1
+    skolems: []
+  c_0_182:
+    counts:
+      k1_xboole_0: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_183:
+    counts:
+      k1_card_1: 1
+      v1_xboole_0: 2
+    skolems: []
+  c_0_184:
+    counts:
+      k1_card_5: 2
+      k1_xboole_0: 1
+      k4_ordinal1: 3
+      r2_hidden: 1
+    skolems: []
+  c_0_189:
+    counts:
+      k1_xboole_0: 3
+      k2_tarski: 1
+      k2_xboole_0: 1
+      np__1: 1
+    skolems: []
+  c_0_190:
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__1: 1
+    skolems: []
+  c_0_194:
+    counts:
+      k1_xboole_0: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_198:
+    counts:
+      k1_card_5: 3
+      k1_xboole_0: 1
+      k4_ordinal1: 4
+      r1_ordinal1: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_199:
+    counts:
+      k1_card_5: 2
+      r1_ordinal1: 1
+      r2_ordinal2: 1
+      v1_card_1: 3
+    skolems: []
+  c_0_200:
+    counts:
+      k1_card_1: 1
+      k2_xboole_0: 1
+      k4_ordinal1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_202:
+    counts:
+      k1_xboole_0: 3
+      k2_tarski: 1
+      k2_xboole_0: 1
+      np__1: 1
+    skolems: []
+  c_0_209:
+    counts:
+      v3_ordinal1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_210:
+    counts:
+      v7_ordinal1: 1
+    skolems:
+    - esk38_0
+  c_0_211:
+    counts:
+      k1_xboole_0: 2
+      r2_ordinal2: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_214:
+    counts:
+      k1_card_1: 1
+      k2_xboole_0: 1
+      k4_ordinal1: 2
+      m1_subset_1: 1
+    skolems: []
+  c_0_216:
+    counts:
+      k4_ordinal1: 1
+      m1_subset_1: 1
+      np__1: 1
+    skolems: []
+  c_0_219:
+    counts:
+      r2_ordinal2: 1
+      v3_ordinal1: 2
+    skolems: []
+  c_0_223:
+    counts:
+      k1_card_5: 1
+      k1_xboole_0: 1
+      k4_ordinal1: 3
+      r2_ordinal2: 1
+    skolems: []
+  c_0_224:
+    counts:
+      k1_card_1: 1
+      k1_xboole_0: 1
+      k4_ordinal1: 1
+    skolems: []
+  c_0_225:
+    counts:
+      k1_card_1: 1
+      k1_xboole_0: 2
+    skolems: []
+  c_0_230:
+    counts:
+      k1_xboole_0: 1
+      k4_ordinal1: 3
+      r2_ordinal2: 2
+    skolems: []
+  c_0_231:
+    counts:
+      k1_xboole_0: 1
+      k4_ordinal1: 1
+    skolems: []
+  c_0_233:
+    counts:
+      v3_ordinal1: 1
+    skolems:
+    - esk38_0
+  c_0_234:
+    counts:
+      k4_ordinal1: 2
+      r2_ordinal2: 1
+    skolems: []
+  c_0_235:
+    counts:
+      r2_ordinal2: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_41:
+    counts:
+      v1_card_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_42:
+    counts:
+      k1_card_5: 1
+      v1_card_1: 2
+    skolems: []
+  c_0_43:
+    counts:
+      k4_ordinal1: 1
+      r1_ordinal1: 1
+      v1_finset_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_52:
+    counts:
+      k4_ordinal1: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_55:
+    counts:
+      k1_card_1: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_58:
+    counts:
+      r1_ordinal1: 1
+      r2_hidden: 1
+      v1_card_1: 2
+    skolems: []
+  c_0_60:
+    counts:
+      k1_card_5: 1
+      v1_card_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_62:
+    counts:
+      k1_card_5: 1
+      k4_ordinal1: 2
+    skolems: []
+  c_0_67:
+    counts:
+      k1_card_1: 1
+      r2_wellord2: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_69:
+    counts:
+      v1_card_1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_70:
+    counts:
+      v1_finset_1: 1
+      v3_ordinal1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_72:
+    counts:
+      k1_card_5: 2
+      k4_ordinal1: 1
+      r1_ordinal1: 1
+      v1_card_1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_76:
+    counts:
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_77:
+    counts:
+      k4_ordinal1: 1
+      k5_card_1: 1
+      m1_subset_1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_78:
+    counts:
+      k4_ordinal1: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_79:
+    counts:
+      r2_wellord2: 2
+    skolems: []
+  c_0_86:
+    counts:
+      k1_card_5: 2
+      k4_ordinal1: 3
+      r1_ordinal1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_88:
+    counts:
+      r1_ordinal1: 1
+      r2_hidden: 1
+      v1_card_1: 2
+    skolems: []
+  c_0_93:
+    counts:
+      k1_card_1: 1
+      r2_wellord2: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_95:
+    counts:
+      k1_card_1: 1
+      r2_wellord2: 1
+    skolems: []
+  c_0_96:
+    counts:
+      k1_card_1: 3
+    skolems: []
+  c_0_99:
+    counts:
+      k1_card_5: 3
+      k4_ordinal1: 4
+      r2_hidden: 1
+      v1_card_1: 1
+      v1_finset_1: 1
+    skolems: []
+symbols:
+  k1_card_1:
+    arity: 1
+    count: 37
+    mizar: card
+    neg: 9
+    pos: 28
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+    vizar: '|x|'
+  k1_card_5:
+    arity: 1
+    count: 70
+    mizar: cf
+    neg: 24
+    pos: 46
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_5.html#K1
+    vizar: cf(x)
+  k1_ordinal1:
+    arity: 1
+    count: 3
+    mizar: succ
+    neg: 0
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#K1
+    vizar: succ(x)
+  k1_tarski:
+    arity: 1
+    count: 2
+    mizar: '{..}'
+    neg: 0
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K1
+    vizar: '{x}'
+  k1_xboole_0:
+    arity: 0
+    count: 49
+    mizar: '{}'
+    neg: 9
+    pos: 40
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K1
+    vizar: "\xD8"
+  k2_tarski:
+    arity: 2
+    count: 5
+    mizar: '{..}'
+    neg: 0
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K2
+    vizar: x {..} y
+  k2_xboole_0:
+    arity: 2
+    count: 10
+    mizar: \/
+    neg: 2
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K2
+    vizar: "x \u222A y"
+  k4_ordinal1:
+    arity: 0
+    count: 121
+    mizar: omega
+    neg: 50
+    pos: 71
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#K4
+    vizar: "\u03C9"
+  k5_card_1:
+    arity: 1
+    count: 9
+    mizar: card
+    neg: 2
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K5
+    vizar: card(x)
+  k5_numbers:
+    arity: 0
+    count: 5
+    mizar: NAT
+    neg: 0
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+    vizar: "\u2115"
+  m1_subset_1:
+    arity: 2
+    count: 13
+    mizar: Element
+    neg: 7
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  np__1:
+    arity: 0
+    count: 7
+    mizar: '1'
+    neg: 0
+    pos: 7
+    url: null
+    vizar: '1'
+  r1_ordinal1:
+    arity: 2
+    count: 24
+    mizar: c=
+    neg: 12
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#R1
+    vizar: x c= y
+  r1_tarski:
+    arity: 2
+    count: 18
+    mizar: c=
+    neg: 8
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1
+    vizar: "x \u2286 y"
+  r2_hidden:
+    arity: 2
+    count: 30
+    mizar: in
+    neg: 7
+    pos: 23
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2
+    vizar: "x \u2208 y"
+  r2_ordinal2:
+    arity: 2
+    count: 22
+    mizar: is_cofinal_with
+    neg: 13
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal2.html#R2
+    vizar: is_cofinal_with(x,y)
+  r2_wellord2:
+    arity: 2
+    count: 14
+    mizar: are_equipotent
+    neg: 6
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/wellord2.html#R2
+    vizar: '|x| = |y|'
+  v1_card_1:
+    arity: 1
+    count: 65
+    mizar: cardinal
+    neg: 50
+    pos: 15
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#V1
+    vizar: "x \u2208 Card"
+  v1_finset_1:
+    arity: 1
+    count: 28
+    mizar: finite
+    neg: 18
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finset_1.html#V1
+    vizar: finite(x)
+  v1_xboole_0:
+    arity: 1
+    count: 19
+    mizar: empty
+    neg: 10
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1
+    vizar: "x = \xD8"
+  v3_ordinal1:
+    arity: 1
+    count: 54
+    mizar: ordinal
+    neg: 42
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V3
+    vizar: ordinal(x)
+  v4_ordinal1:
+    arity: 1
+    count: 18
+    mizar: limit_ordinal
+    neg: 10
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V4
+    vizar: limit_ordinal(x)
+  v7_ordinal1:
+    arity: 1
+    count: 12
+    mizar: natural
+    neg: 6
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V7
+    vizar: "x \u2208 \u2115"
+tptp:
+  c_0_106: "cnf(c_0_106,plain,\n    ( k5_card_1(X1) = k1_card_1(X1)\n    | ~ v1_finset_1(X1)\
+    \ ))."
+  c_0_108: "cnf(c_0_108,plain,\n    ( r2_wellord2(X1,X2)\n    | ~ r2_wellord2(X2,X1)\
+    \ ))."
+  c_0_111: "cnf(c_0_111,plain,\n    ( v1_card_1(X1)\n    | ~ v1_finset_1(X1)\n   \
+    \ | ~ v3_ordinal1(X1) ))."
+  c_0_114: "cnf(c_0_114,plain,\n    ( X1 = k1_xboole_0\n    | r2_hidden(k1_xboole_0,X1)\n\
+    \    | ~ v3_ordinal1(X1) ))."
+  c_0_116: "cnf(c_0_116,plain,\n    ( r2_ordinal2(X1,X2)\n    | X2 != k1_card_5(X1)\n\
+    \    | ~ v1_card_1(X2)\n    | ~ v1_card_1(X1) ))."
+  c_0_120: "cnf(c_0_120,plain,\n    ( X1 = k1_card_1(X2)\n    | ~ r2_wellord2(X2,X1)\n\
+    \    | ~ v1_card_1(X1) ))."
+  c_0_121: "cnf(c_0_121,plain,\n    ( r2_wellord2(k1_card_1(X1),X1) ))."
+  c_0_123: "cnf(c_0_123,plain,\n    ( v1_card_1(k1_card_5(k4_ordinal1))\n    | r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1))\n\
+    \    | ~ v3_ordinal1(k1_card_5(k4_ordinal1)) ))."
+  c_0_124: "cnf(c_0_124,plain,\n    ( r1_tarski(X2,X1)\n    | ~ v3_ordinal1(X1)\n\
+    \    | ~ r2_hidden(k1_xboole_0,X1)\n    | ~ v4_ordinal1(X1)\n    | X2 != k4_ordinal1\
+    \ ))."
+  c_0_126: "cnf(c_0_126,plain,\n    ( v4_ordinal1(X2)\n    | ~ v4_ordinal1(X1)\n \
+    \   | ~ r2_ordinal2(X1,X2)\n    | ~ v3_ordinal1(X2)\n    | ~ v3_ordinal1(X1) ))."
+  c_0_128: "cnf(c_0_128,plain,\n    ( ~ v1_card_1(k5_card_1(X1))\n    | ~ r1_ordinal1(k4_ordinal1,k5_card_1(X1))\n\
+    \    | ~ v1_finset_1(X1) ))."
+  c_0_130: "cnf(c_0_130,plain,\n    ( k1_card_1(X1) = X1\n    | ~ v1_card_1(X1) ))."
+  c_0_131: "cnf(c_0_131,plain,\n    ( r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1))\n\
+    \    | v1_card_1(k1_card_5(k4_ordinal1)) ))."
+  c_0_136: "cnf(c_0_136,plain,\n    ( r2_ordinal2(X1,k1_card_5(X1))\n    | ~ v1_card_1(k1_card_5(X1))\n\
+    \    | ~ v1_card_1(X1) ))."
+  c_0_137: "cnf(c_0_137,plain,\n    ( ~ v1_finset_1(X1)\n    | ~ r1_ordinal1(k4_ordinal1,k1_card_1(X1))\
+    \ ))."
+  c_0_138: "cnf(c_0_138,plain,\n    ( k1_card_1(k1_card_5(k4_ordinal1)) = k1_card_5(k4_ordinal1)\n\
+    \    | r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1)) ))."
+  c_0_139: "cnf(c_0_139,plain,\n    ( r1_ordinal1(X1,X2)\n    | ~ r1_tarski(X1,X2)\n\
+    \    | ~ v3_ordinal1(X1)\n    | ~ v3_ordinal1(X2) ))."
+  c_0_140: "cnf(c_0_140,plain,\n    ( v3_ordinal1(k4_ordinal1) ))."
+  c_0_141: "cnf(c_0_141,plain,\n    ( r1_tarski(k4_ordinal1,X1)\n    | ~ v4_ordinal1(X1)\n\
+    \    | ~ r2_hidden(k1_xboole_0,X1)\n    | ~ v3_ordinal1(X1) ))."
+  c_0_142: "cnf(c_0_142,plain,\n    ( k1_card_5(X1) = k1_xboole_0\n    | r2_hidden(k1_xboole_0,k1_card_5(X1))\n\
+    \    | ~ v1_card_1(X1) ))."
+  c_0_143: "cnf(c_0_143,plain,\n    ( v4_ordinal1(X1)\n    | ~ v4_ordinal1(X2)\n \
+    \   | ~ r2_ordinal2(X2,X1)\n    | ~ v3_ordinal1(X1)\n    | ~ v3_ordinal1(X2) ))."
+  c_0_145: "cnf(c_0_145,plain,\n    ( v4_ordinal1(k4_ordinal1) ))."
+  c_0_146: "cnf(c_0_146,plain,\n    ( r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1))\n\
+    \    | ~ v1_finset_1(k1_card_5(k4_ordinal1))\n    | ~ r1_ordinal1(k4_ordinal1,k1_card_5(k4_ordinal1))\
+    \ ))."
+  c_0_150: "cnf(c_0_150,plain,\n    ( k1_card_5(k4_ordinal1) = k1_xboole_0\n    |\
+    \ r2_hidden(k1_xboole_0,k1_card_5(k4_ordinal1)) ))."
+  c_0_151: "cnf(c_0_151,plain,\n    ( v4_ordinal1(k1_card_5(X1))\n    | ~ v4_ordinal1(X1)\n\
+    \    | ~ v3_ordinal1(k1_card_5(X1))\n    | ~ v3_ordinal1(X1)\n    | ~ v1_card_1(X1)\
+    \ ))."
+  c_0_153: "cnf(c_0_153,plain,\n    ( r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1))\n\
+    \    | ~ r1_ordinal1(k4_ordinal1,k1_card_5(k4_ordinal1)) ))."
+  c_0_156: "cnf(c_0_156,plain,\n    ( r1_tarski(k4_ordinal1,k1_card_5(k4_ordinal1))\n\
+    \    | k1_card_5(k4_ordinal1) = k1_xboole_0\n    | ~ v4_ordinal1(k1_card_5(k4_ordinal1))\n\
+    \    | ~ v3_ordinal1(k1_card_5(k4_ordinal1)) ))."
+  c_0_157: "cnf(c_0_157,plain,\n    ( v4_ordinal1(k1_card_5(X1))\n    | ~ v4_ordinal1(X1)\n\
+    \    | ~ v1_card_1(X1) ))."
+  c_0_163: "cnf(c_0_163,plain,\n    ( r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1))\n\
+    \    | ~ r1_tarski(k4_ordinal1,k1_card_5(k4_ordinal1))\n    | ~ v3_ordinal1(k1_card_5(k4_ordinal1))\
+    \ ))."
+  c_0_164: "cnf(c_0_164,plain,\n    ( v3_ordinal1(k1_card_5(k4_ordinal1))\n    | r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1))\
+    \ ))."
+  c_0_165: "cnf(c_0_165,plain,\n    ( k1_card_5(k4_ordinal1) = k1_xboole_0\n    |\
+    \ r1_tarski(k4_ordinal1,k1_card_5(k4_ordinal1))\n    | ~ v3_ordinal1(k1_card_5(k4_ordinal1))\
+    \ ))."
+  c_0_166: "cnf(c_0_166,plain,\n    ( ~ r1_tarski(X1,X2)\n    | k1_card_1(X1) != k4_ordinal1\n\
+    \    | ~ v1_finset_1(X2) ))."
+  c_0_167: "cnf(c_0_167,plain,\n    ( r1_tarski(X1,k2_xboole_0(X1,X2)) ))."
+  c_0_169: "cnf(c_0_169,plain,\n    ( k1_ordinal1(X1) = k2_xboole_0(X1,k1_tarski(X1))\
+    \ ))."
+  c_0_170: "cnf(c_0_170,plain,\n    ( k2_tarski(X1,X1) = k1_tarski(X1) ))."
+  c_0_173: "cnf(c_0_173,plain,\n    ( r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1))\n\
+    \    | ~ r1_tarski(k4_ordinal1,k1_card_5(k4_ordinal1)) ))."
+  c_0_174: "cnf(c_0_174,plain,\n    ( k1_card_5(k4_ordinal1) = k1_xboole_0\n    |\
+    \ r1_tarski(k4_ordinal1,k1_card_5(k4_ordinal1)) ))."
+  c_0_175: "cnf(c_0_175,plain,\n    ( r1_ordinal1(X3,X1)\n    | ~ v1_card_1(X1)\n\
+    \    | ~ r2_ordinal2(X2,X1)\n    | X3 != k1_card_5(X2)\n    | ~ v1_card_1(X3)\n\
+    \    | ~ v1_card_1(X2) ))."
+  c_0_178: "cnf(c_0_178,plain,\n    ( v1_finset_1(X1)\n    | ~ m1_subset_1(X1,k4_ordinal1)\
+    \ ))."
+  c_0_179: "cnf(c_0_179,plain,\n    ( np__1 = k1_ordinal1(k1_xboole_0) ))."
+  c_0_180: "cnf(c_0_180,plain,\n    ( k1_ordinal1(X1) = k2_xboole_0(X1,k2_tarski(X1,X1))\
+    \ ))."
+  c_0_181: "cnf(c_0_181,plain,\n    ( k5_numbers = k4_ordinal1 ))."
+  c_0_182: "cnf(c_0_182,plain,\n    ( X1 = k1_xboole_0\n    | ~ v1_xboole_0(X1) ))."
+  c_0_183: "cnf(c_0_183,plain,\n    ( v1_xboole_0(k1_card_1(X1))\n    | ~ v1_xboole_0(X1)\
+    \ ))."
+  c_0_184: "cnf(c_0_184,plain,\n    ( r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1))\n\
+    \    | k1_card_5(k4_ordinal1) = k1_xboole_0 ))."
+  c_0_189: "cnf(c_0_189,plain,\n    ( np__1 = k2_xboole_0(k1_xboole_0,k2_tarski(k1_xboole_0,k1_xboole_0))\
+    \ ))."
+  c_0_190: "cnf(c_0_190,plain,\n    ( m1_subset_1(np__1,k5_numbers) ))."
+  c_0_194: "cnf(c_0_194,plain,\n    ( v1_xboole_0(k1_xboole_0) ))."
+  c_0_198: "cnf(c_0_198,plain,\n    ( k1_card_5(k4_ordinal1) = k1_xboole_0\n    |\
+    \ ~ v1_card_1(k1_card_5(k4_ordinal1))\n    | ~ r1_ordinal1(k1_card_5(k4_ordinal1),k4_ordinal1)\
+    \ ))."
+  c_0_199: "cnf(c_0_199,plain,\n    ( r1_ordinal1(k1_card_5(X1),X2)\n    | ~ r2_ordinal2(X1,X2)\n\
+    \    | ~ v1_card_1(k1_card_5(X1))\n    | ~ v1_card_1(X1)\n    | ~ v1_card_1(X2)\
+    \ ))."
+  c_0_200: "cnf(c_0_200,plain,\n    ( k1_card_1(X1) != k4_ordinal1\n    | ~ v1_finset_1(k2_xboole_0(X1,X2))\
+    \ ))."
+  c_0_202: "cnf(c_0_202,plain,\n    ( k2_xboole_0(k1_xboole_0,k2_tarski(k1_xboole_0,k1_xboole_0))\
+    \ = np__1 ))."
+  c_0_209: "cnf(c_0_209,plain,\n    ( v3_ordinal1(X1)\n    | ~ v7_ordinal1(X1) ))."
+  c_0_210: "cnf(c_0_210,plain,\n    ( v7_ordinal1(esk38_0) ))."
+  c_0_211: "cnf(c_0_211,plain,\n    ( X1 = k1_xboole_0\n    | ~ v3_ordinal1(X1)\n\
+    \    | ~ r2_ordinal2(X1,k1_xboole_0) ))."
+  c_0_214: "cnf(c_0_214,plain,\n    ( k1_card_1(X1) != k4_ordinal1\n    | ~ m1_subset_1(k2_xboole_0(X1,X2),k4_ordinal1)\
+    \ ))."
+  c_0_216: "cnf(c_0_216,plain,\n    ( m1_subset_1(np__1,k4_ordinal1) ))."
+  c_0_219: "cnf(c_0_219,plain,\n    ( r2_ordinal2(X1,X1)\n    | ~ v3_ordinal1(X1)\n\
+    \    | ~ v3_ordinal1(X2) ))."
+  c_0_223: "cnf(c_0_223,plain,\n    ( k1_card_5(k4_ordinal1) = k1_xboole_0\n    |\
+    \ ~ r2_ordinal2(k4_ordinal1,k4_ordinal1) ))."
+  c_0_224: "cnf(c_0_224,plain,\n    ( k1_card_1(k1_xboole_0) != k4_ordinal1 ))."
+  c_0_225: "cnf(c_0_225,plain,\n    ( k1_card_1(k1_xboole_0) = k1_xboole_0 ))."
+  c_0_230: "cnf(c_0_230,plain,\n    ( r2_ordinal2(k4_ordinal1,k1_xboole_0)\n    |\
+    \ ~ r2_ordinal2(k4_ordinal1,k4_ordinal1) ))."
+  c_0_231: "cnf(c_0_231,plain,\n    ( k1_xboole_0 != k4_ordinal1 ))."
+  c_0_233: "cnf(c_0_233,plain,\n    ( v3_ordinal1(esk38_0) ))."
+  c_0_234: "cnf(c_0_234,plain,\n    ( ~ r2_ordinal2(k4_ordinal1,k4_ordinal1) ))."
+  c_0_235: "cnf(c_0_235,plain,\n    ( r2_ordinal2(X1,X1)\n    | ~ v3_ordinal1(X1)\
+    \ ))."
+  c_0_236: "cnf(c_0_236,plain,\n    ( $false ))."
+  c_0_41: "cnf(c_0_41,plain,\n    ( v3_ordinal1(X1)\n    | ~ v1_card_1(X1) ))."
+  c_0_42: "cnf(c_0_42,plain,\n    ( v1_card_1(k1_card_5(X1))\n    | ~ v1_card_1(X1)\
+    \ ))."
+  c_0_43: "cnf(c_0_43,plain,\n    ( v1_finset_1(X1)\n    | r1_ordinal1(k4_ordinal1,X1)\n\
+    \    | ~ v3_ordinal1(X1) ))."
+  c_0_52: "cnf(c_0_52,plain,\n    ( v1_card_1(k4_ordinal1) ))."
+  c_0_55: "cnf(c_0_55,plain,\n    ( v1_card_1(k1_card_1(X1)) ))."
+  c_0_58: "cnf(c_0_58,plain,\n    ( X1 = X2\n    | r2_hidden(X1,X2)\n    | ~ r1_ordinal1(X1,X2)\n\
+    \    | ~ v1_card_1(X2)\n    | ~ v1_card_1(X1) ))."
+  c_0_60: "cnf(c_0_60,plain,\n    ( v3_ordinal1(k1_card_5(X1))\n    | ~ v1_card_1(X1)\
+    \ ))."
+  c_0_62: "cnf(c_0_62,negated_conjecture,\n    ( k1_card_5(k4_ordinal1) != k4_ordinal1\
+    \ ))."
+  c_0_67: "cnf(c_0_67,plain,\n    ( r2_wellord2(X2,X1)\n    | X1 != k1_card_1(X2)\n\
+    \    | ~ v1_card_1(X1) ))."
+  c_0_69: "cnf(c_0_69,plain,\n    ( v1_card_1(X1)\n    | ~ v7_ordinal1(X1) ))."
+  c_0_70: "cnf(c_0_70,plain,\n    ( v7_ordinal1(X1)\n    | ~ v3_ordinal1(X1)\n   \
+    \ | ~ v1_finset_1(X1) ))."
+  c_0_72: "cnf(c_0_72,plain,\n    ( v1_finset_1(k1_card_5(X1))\n    | r1_ordinal1(k4_ordinal1,k1_card_5(X1))\n\
+    \    | ~ v1_card_1(X1) ))."
+  c_0_76: "cnf(c_0_76,plain,\n    ( v1_xboole_0(X2)\n    | r2_hidden(X1,X2)\n    |\
+    \ ~ m1_subset_1(X1,X2) ))."
+  c_0_77: "cnf(c_0_77,plain,\n    ( m1_subset_1(k5_card_1(X1),k4_ordinal1)\n    |\
+    \ ~ v1_finset_1(X1) ))."
+  c_0_78: "cnf(c_0_78,plain,\n    ( ~ v1_xboole_0(k4_ordinal1) ))."
+  c_0_79: "cnf(c_0_79,plain,\n    ( r2_wellord2(X2,X1)\n    | ~ r2_wellord2(X1,X2)\
+    \ ))."
+  c_0_86: "cnf(c_0_86,plain,\n    ( v1_finset_1(k1_card_5(k4_ordinal1))\n    | r1_ordinal1(k4_ordinal1,k1_card_5(k4_ordinal1))\
+    \ ))."
+  c_0_88: "cnf(c_0_88,plain,\n    ( ~ r2_hidden(X1,X2)\n    | ~ r1_ordinal1(X2,X1)\n\
+    \    | ~ v1_card_1(X2)\n    | ~ v1_card_1(X1) ))."
+  c_0_93: "cnf(c_0_93,plain,\n    ( X2 = k1_card_1(X1)\n    | ~ r2_wellord2(X1,X2)\n\
+    \    | ~ v1_card_1(X2) ))."
+  c_0_95: "cnf(c_0_95,plain,\n    ( r2_wellord2(X1,k1_card_1(X1)) ))."
+  c_0_96: "cnf(c_0_96,plain,\n    ( k1_card_1(k1_card_1(X1)) = k1_card_1(X1) ))."
+  c_0_99: "cnf(c_0_99,plain,\n    ( r2_hidden(k4_ordinal1,k1_card_5(k4_ordinal1))\n\
+    \    | v1_finset_1(k1_card_5(k4_ordinal1))\n    | ~ v1_card_1(k1_card_5(k4_ordinal1))\
+    \ ))."
+  cc1_card_1: "fof(cc1_card_1,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ v3_ordinal1(X1) ) ))."
+  cc3_card_1: "fof(cc3_card_1,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n   \
+    \  => v1_card_1(X1) ) ))."
+  cc4_card_1: "fof(cc4_card_1,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,k4_ordinal1)\n\
+    \     => v1_finset_1(X1) ) ))."
+  cc6_card_1: "fof(cc6_card_1,axiom,(\n    ! [X1] :\n      ( ( v3_ordinal1(X1)\n \
+    \       & v1_finset_1(X1) )\n     => v7_ordinal1(X1) ) ))."
+  cc6_ordinal1: "fof(cc6_ordinal1,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n\
+    \     => v3_ordinal1(X1) ) ))."
+  d11_ordinal1: "fof(d11_ordinal1,axiom,(\n    ! [X1] :\n      ( X1 = k4_ordinal1\n\
+    \    <=> ( r2_hidden(k1_xboole_0,X1)\n        & v4_ordinal1(X1)\n        & v3_ordinal1(X1)\n\
+    \        & ! [X2] :\n            ( v3_ordinal1(X2)\n           => ( ( r2_hidden(k1_xboole_0,X2)\n\
+    \                & v4_ordinal1(X2) )\n             => r1_tarski(X1,X2) ) ) ) )\
+    \ ))."
+  d1_card_5: "fof(d1_card_5,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ ! [X2] :\n          ( v1_card_1(X2)\n         => ( X2 = k1_card_5(X1)\n    \
+    \      <=> ( r2_ordinal2(X1,X2)\n              & ! [X3] :\n                  (\
+    \ v1_card_1(X3)\n                 => ( r2_ordinal2(X1,X3)\n                  \
+    \ => r1_ordinal1(X2,X3) ) ) ) ) ) ) ))."
+  d1_ordinal1: "fof(d1_ordinal1,axiom,(\n    ! [X1] : k1_ordinal1(X1) = k2_xboole_0(X1,k1_tarski(X1))\
+    \ ))."
+  d2_card_1: "fof(d2_card_1,axiom,(\n    ! [X1,X2] :\n      ( v1_card_1(X2)\n    \
+    \ => ( X2 = k1_card_1(X1)\n      <=> r2_wellord2(X1,X2) ) ) ))."
+  dt_k1_card_1: "fof(dt_k1_card_1,axiom,(\n    ! [X1] : v1_card_1(k1_card_1(X1)) ))."
+  dt_k1_card_5: "fof(dt_k1_card_5,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n \
+    \    => v1_card_1(k1_card_5(X1)) ) ))."
+  dt_k5_card_1: "fof(dt_k5_card_1,axiom,(\n    ! [X1] :\n      ( v1_finset_1(X1)\n\
+    \     => m1_subset_1(k5_card_1(X1),k4_ordinal1) ) ))."
+  fc1_card_1: "fof(fc1_card_1,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n   \
+    \  => ( v1_xboole_0(k1_card_1(X1))\n        & v1_card_1(k1_card_1(X1)) ) ) ))."
+  fc1_xboole_0: "fof(fc1_xboole_0,axiom,(\n    v1_xboole_0(k1_xboole_0) ))."
+  fc4_card_1: "fof(fc4_card_1,axiom,(\n    v1_card_1(k4_ordinal1) ))."
+  fc6_ordinal1: "fof(fc6_ordinal1,axiom,\n    ( ~ v1_xboole_0(k4_ordinal1)\n    &\
+    \ v3_ordinal1(k4_ordinal1) ))."
+  l47_ordinal2: "fof(l47_ordinal2,axiom,(\n    np__1 = k1_ordinal1(k1_xboole_0) ))."
+  l86_card_2: "fof(l86_card_2,axiom,(\n    v4_ordinal1(k4_ordinal1) ))."
+  projectivity_k1_card_1: "fof(projectivity_k1_card_1,axiom,(\n    ! [X1] : k1_card_1(k1_card_1(X1))\
+    \ = k1_card_1(X1) ))."
+  rc4_ordinal1: "fof(rc4_ordinal1,axiom,(\n    ? [X1] : v7_ordinal1(X1) ))."
+  redefinition_k5_card_1: "fof(redefinition_k5_card_1,axiom,(\n    ! [X1] :\n    \
+    \  ( v1_finset_1(X1)\n     => k5_card_1(X1) = k1_card_1(X1) ) ))."
+  redefinition_k5_numbers: "fof(redefinition_k5_numbers,axiom,(\n    k5_numbers =\
+    \ k4_ordinal1 ))."
+  redefinition_r1_ordinal1: "fof(redefinition_r1_ordinal1,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( v3_ordinal1(X1)\n        & v3_ordinal1(X2) )\n     => ( r1_ordinal1(X1,X2)\n\
+    \      <=> r1_tarski(X1,X2) ) ) ))."
+  reflexivity_r2_ordinal2: "fof(reflexivity_r2_ordinal2,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( v3_ordinal1(X1)\n        & v3_ordinal1(X2) )\n     => r2_ordinal2(X1,X1)\
+    \ ) ))."
+  spc1_numerals: "fof(spc1_numerals,axiom,\n    ( v2_xxreal_0(np__1)\n    & m2_subset_1(np__1,k1_numbers,k5_numbers)\n\
+    \    & m1_subset_1(np__1,k5_numbers)\n    & m1_subset_1(np__1,k1_numbers) ))."
+  symmetry_r2_wellord2: "fof(symmetry_r2_wellord2,axiom,(\n    ! [X1,X2] :\n     \
+    \ ( r2_wellord2(X1,X2)\n     => r2_wellord2(X2,X1) ) ))."
+  t22_card_5: "fof(t22_card_5,conjecture,(\n    k1_card_5(k4_ordinal1) = k4_ordinal1\
+    \ ))."
+  t29_enumset1: "fof(t29_enumset1,axiom,(\n    ! [X1] : k2_tarski(X1,X1) = k1_tarski(X1)\
+    \ ))."
+  t2_subset: "fof(t2_subset,axiom,(\n    ! [X1,X2] :\n      ( m1_subset_1(X1,X2)\n\
+    \     => ( v1_xboole_0(X2)\n        | r2_hidden(X1,X2) ) ) ))."
+  t38_ordinal4: "fof(t38_ordinal4,axiom,(\n    ! [X1] :\n      ( v3_ordinal1(X1)\n\
+    \     => ! [X2] :\n          ( v3_ordinal1(X2)\n         => ( r2_ordinal2(X1,X2)\n\
+    \           => ( v4_ordinal1(X1)\n            <=> v4_ordinal1(X2) ) ) ) ) ))."
+  t3_card_1: "fof(t3_card_1,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ ! [X2] :\n          ( v1_card_1(X2)\n         => ( r2_hidden(X1,X2)\n      \
+    \    <=> ( r1_ordinal1(X1,X2)\n              & X1 != X2 ) ) ) ) ))."
+  t4_card_1: "fof(t4_card_1,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ ! [X2] :\n          ( v1_card_1(X2)\n         => ( r2_hidden(X1,X2)\n      \
+    \    <=> ~ r1_ordinal1(X2,X1) ) ) ) ))."
+  t50_ordinal2: "fof(t50_ordinal2,axiom,(\n    ! [X1] :\n      ( v3_ordinal1(X1)\n\
+    \     => ( r2_ordinal2(X1,k1_xboole_0)\n       => X1 = k1_xboole_0 ) ) ))."
+  t6_boole: "fof(t6_boole,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n     =>\
+    \ X1 = k1_xboole_0 ) ))."
+  t7_xboole_1: "fof(t7_xboole_1,axiom,(\n    ! [X1,X2] : r1_tarski(X1,k2_xboole_0(X1,X2))\
+    \ ))."
+  t85_card_3: "fof(t85_card_3,axiom,(\n    ! [X1] :\n      ( v3_ordinal1(X1)\n   \
+    \  => ( ~ v1_finset_1(X1)\n      <=> r1_ordinal1(k4_ordinal1,X1) ) ) ))."
+  t87_card_3: "fof(t87_card_3,axiom,(\n    ! [X1] :\n      ( ~ ( ~ v1_finset_1(X1)\n\
+    \          & ! [X2] :\n              ~ ( r1_tarski(X2,X1)\n                & k1_card_1(X2)\
+    \ = k4_ordinal1 ) )\n      & ~ ( ? [X2] :\n              ( r1_tarski(X2,X1)\n\
+    \              & k1_card_1(X2) = k4_ordinal1 )\n          & v1_finset_1(X1) )\
+    \ ) ))."
+  t8_ordinal3: "fof(t8_ordinal3,axiom,(\n    ! [X1] :\n      ( v3_ordinal1(X1)\n \
+    \    => ( X1 != k1_xboole_0\n       => r2_hidden(k1_xboole_0,X1) ) ) ))."
+

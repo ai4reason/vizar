@@ -1,0 +1,1699 @@
+axioms:
+  cc1_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 ordinal(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#CC1
+  cc2_matroid0:
+    fof: "    (\u2200X\u2081)\n      ( TopStruct(X\u2081)\n     \u21D2 ( finite-degree(X\u2081\
+      )\n       \u21D2 finite-membered(X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#CC2
+  cc6_matroid0:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC void(X\u2081)\n        \u2227 finite-membered(X\u2081\
+      )\n        \u2227 TopStruct(X\u2081) )\n     \u21D2 (\u2200X\u2082)\n      \
+      \    ( (X\u2082 \u2208 bool(carrier(X\u2081)))\n         \u21D2 ( open(X\u2082\
+      ,X\u2081)\n           \u21D2 ( finite(X\u2082)\n              \u2227 open(X\u2082\
+      ,X\u2081) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#CC6
+  d10_matroid0:
+    fof: "    (\u2200X\u2081)\n      ( TopStruct(X\u2081)\n     \u21D2 (\u2200X\u2082\
+      )\n          ( (X\u2082 \u2208 bool(carrier(X\u2081)))\n         \u21D2 (\u2200\
+      X\u2083)\n              ( (X\u2083 \u2208 bool(carrier(X\u2081)))\n        \
+      \     \u21D2 ( is_maximal_independent_in(X\u2081,X\u2082,X\u2083)\n        \
+      \      \u2261 ( open(X\u2082,X\u2081)\n                  \u2227 (X\u2082 \u2286\
+      \ X\u2083)\n                  \u2227 (\u2200X\u2084)\n                     \
+      \ ( (X\u2084 \u2208 bool(carrier(X\u2081)))\n                     \u21D2 ( (\
+      \ open(X\u2084,X\u2081)\n                          \u2227 (X\u2084 \u2286 X\u2083\
+      )\n                          \u2227 (X\u2082 \u2286 X\u2084) )\n           \
+      \            \u21D2 X\u2082 = X\u2084 ) ) ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#D10
+  d10_xboole_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( X\u2081 = X\u2082\n    \u2261 ( (X\u2081\
+      \ \u2286 X\u2082)\n        \u2227 (X\u2082 \u2286 X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#D10
+  d11_matroid0:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 \xAC\
+      \ void(X\u2081)\n        \u2227 subset-closed(X\u2081)\n        \u2227 with_exchange_property(X\u2081\
+      )\n        \u2227 finite-degree(X\u2081)\n        \u2227 TopStruct(X\u2081)\
+      \ )\n     \u21D2 (\u2200X\u2082)\n          ( (X\u2082 \u2208 bool(carrier(X\u2081\
+      )))\n         \u21D2 Rnk(X\u2081,X\u2082) = union(a_2_3_matroid0(X\u2081,X\u2082\
+      )) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#D11
+  dt_k1_card_1:
+    fof: "    (\u2200X\u2081) (|X\u2081| \u2208 Card) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+  fraenkel_a_2_3_matroid0:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( ( \xAC empty(X\u2082)\n   \
+      \     \u2227 \xAC void(X\u2082)\n        \u2227 subset-closed(X\u2082)\n   \
+      \     \u2227 with_exchange_property(X\u2082)\n        \u2227 finite-degree(X\u2082\
+      )\n        \u2227 TopStruct(X\u2082)\n        \u2227 (X\u2083 \u2208 bool(carrier(X\u2082\
+      ))) )\n     \u21D2 ( (X\u2081 \u2208 a_2_3_matroid0(X\u2082,X\u2083))\n    \
+      \  \u2261 (\u2203X\u2084)\n            ( open(X\u2084,X\u2082)\n           \
+      \ \u2227 (X\u2084 \u2208 bool(carrier(X\u2082)))\n            \u2227 X\u2081\
+      \ = card(X\u2084)\n            \u2227 (X\u2084 \u2286 X\u2083) ) ) ) "
+    url: null
+  redefinition_k5_card_1:
+    fof: "    (\u2200X\u2081)\n      ( finite(X\u2081)\n     \u21D2 card(X\u2081)\
+      \ = |X\u2081| ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K5
+  redefinition_r1_ordinal1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( ordinal(X\u2081)\n        \u2227\
+      \ ordinal(X\u2082) )\n     \u21D2 ( (X\u2081 c= X\u2082)\n      \u2261 (X\u2081\
+      \ \u2286 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#R1
+  t11_card_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2286 X\u2082)\n     \u21D2\
+      \ (|X\u2081| c= |X\u2082|) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#T11
+  t16_matroid0:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 \xAC\
+      \ void(X\u2081)\n        \u2227 subset-closed(X\u2081)\n        \u2227 finite-degree(X\u2081\
+      )\n        \u2227 TopStruct(X\u2081) )\n     \u21D2 ( ( \xAC empty(X\u2081)\n\
+      \          \u2227 \xAC void(X\u2081)\n          \u2227 subset-closed(X\u2081\
+      )\n          \u2227 with_exchange_property(X\u2081)\n          \u2227 TopStruct(X\u2081\
+      ) )\n      \u2261 (\u2200X\u2082)\n            ( (X\u2082 \u2208 bool(carrier(X\u2081\
+      )))\n           \u21D2 (\u2200X\u2083)\n                ( ( open(X\u2083,X\u2081\
+      )\n                  \u2227 (X\u2083 \u2208 bool(carrier(X\u2081))) )\n    \
+      \           \u21D2 (\u2200X\u2084)\n                    ( ( open(X\u2084,X\u2081\
+      )\n                      \u2227 (X\u2084 \u2208 bool(carrier(X\u2081))) )\n\
+      \                   \u21D2 ( ( is_maximal_independent_in(X\u2081,X\u2083,X\u2082\
+      )\n                        \u2227 is_maximal_independent_in(X\u2081,X\u2084\
+      ,X\u2082) )\n                     \u21D2 card(X\u2083) = card(X\u2084) ) ) )\
+      \ ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#T16
+  t18_matroid0:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 \xAC\
+      \ void(X\u2081)\n        \u2227 subset-closed(X\u2081)\n        \u2227 with_exchange_property(X\u2081\
+      )\n        \u2227 finite-degree(X\u2081)\n        \u2227 TopStruct(X\u2081)\
+      \ )\n     \u21D2 (\u2200X\u2082)\n          ( (X\u2082 \u2208 bool(carrier(X\u2081\
+      )))\n         \u21D2 (\u2203X\u2083)\n              ( open(X\u2083,X\u2081)\n\
+      \              \u2227 (X\u2083 \u2208 bool(carrier(X\u2081)))\n            \
+      \  \u2227 (X\u2083 \u2286 X\u2082)\n              \u2227 card(X\u2083) = Rnk(X\u2081\
+      ,X\u2082) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#T18
+  t19_matroid0:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 \xAC\
+      \ void(X\u2081)\n        \u2227 subset-closed(X\u2081)\n        \u2227 with_exchange_property(X\u2081\
+      )\n        \u2227 finite-degree(X\u2081)\n        \u2227 TopStruct(X\u2081)\
+      \ )\n     \u21D2 (\u2200X\u2082)\n          ( (X\u2082 \u2208 bool(carrier(X\u2081\
+      )))\n         \u21D2 (\u2200X\u2083)\n              ( ( open(X\u2083,X\u2081\
+      )\n                \u2227 (X\u2083 \u2208 bool(carrier(X\u2081))) )\n      \
+      \       \u21D2 ( is_maximal_independent_in(X\u2081,X\u2083,X\u2082)\n      \
+      \        \u2261 ( (X\u2083 \u2286 X\u2082)\n                  \u2227 card(X\u2083\
+      ) = Rnk(X\u2081,X\u2082) ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#T19
+  t1_card_fin:
+    fof: "    (\u2200X\u2081)\n      ( finite(X\u2081)\n     \u21D2 (\u2200X\u2082\
+      )\n          ( finite(X\u2082)\n         \u21D2 ( ( (X\u2081 \u2286 X\u2082\
+      )\n              \u2227 card(X\u2081) = card(X\u2082) )\n           \u21D2 X\u2081\
+      \ = X\u2082 ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fin.html#T1
+  t74_zfmisc_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2208 X\u2082)\n     \u21D2\
+      \ (X\u2081 \u2286 union(X\u2082)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#T74
+conjecture: t19_matroid0
+final: c_0_153
+skolems:
+  esk1_0:
+    axiom: t19_matroid0
+    related:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+    symbol: "sk\u2081"
+  esk2_0:
+    axiom: t19_matroid0
+    related:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+    symbol: "sk\u2082"
+  esk3_0:
+    axiom: t19_matroid0
+    related:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+    symbol: "sk\u2083"
+  esk4_2:
+    axiom: t18_matroid0
+    related:
+    - esk4_2
+    symbol: "sk\u2084"
+  esk8_3:
+    axiom: d10_matroid0
+    related:
+    - esk8_3
+    symbol: "sk\u2088"
+steps:
+  c_0_100:
+    counts:
+      k4_matroid0: 1
+      k5_card_1: 1
+      r1_matroid0: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+  c_0_101:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_102:
+    counts:
+      v4_matroid0: 1
+    skolems:
+    - esk1_0
+  c_0_103:
+    counts:
+      v2_matroid0: 1
+    skolems:
+    - esk1_0
+  c_0_104:
+    counts:
+      v1_matroid0: 1
+    skolems:
+    - esk1_0
+  c_0_105:
+    counts:
+      v2_struct_0: 1
+    skolems:
+    - esk1_0
+  c_0_111:
+    counts:
+      k1_zfmisc_1: 2
+      k5_card_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v1_finset_1: 2
+      v3_pre_topc: 1
+    skolems:
+    - esk8_3
+  c_0_112:
+    counts:
+      k1_zfmisc_1: 1
+      k4_matroid0: 1
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      r1_matroid0: 1
+      u1_struct_0: 1
+      v1_finset_1: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+    - esk8_3
+  c_0_113:
+    counts:
+      k5_card_1: 2
+      r1_tarski: 2
+      v1_finset_1: 2
+    skolems: []
+  c_0_114:
+    counts:
+      k4_matroid0: 1
+      k5_card_1: 1
+      r1_matroid0: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+  c_0_120:
+    counts:
+      v1_finset_1: 1
+      v3_matroid0: 1
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_121:
+    counts:
+      k1_zfmisc_1: 3
+      k5_card_1: 2
+      l1_pre_topc: 2
+      m1_subset_1: 3
+      r1_matroid0: 2
+      u1_struct_0: 3
+      v1_matroid0: 2
+      v2_matroid0: 1
+      v2_struct_0: 2
+      v3_pencil_1: 2
+      v3_pre_topc: 2
+      v4_matroid0: 1
+    skolems: []
+  c_0_122:
+    counts:
+      k1_zfmisc_1: 2
+      k4_matroid0: 1
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v1_finset_1: 2
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+    - esk8_3
+  c_0_123:
+    counts:
+      k1_zfmisc_1: 3
+      l1_pre_topc: 1
+      m1_subset_1: 3
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 3
+      v1_finset_1: 1
+      v3_matroid0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+    skolems:
+    - esk8_3
+  c_0_124:
+    counts:
+      k5_card_1: 4
+      r1_tarski: 2
+      v1_finset_1: 2
+    skolems: []
+  c_0_125:
+    counts:
+      k1_zfmisc_1: 1
+      k5_card_1: 2
+      m1_subset_1: 1
+      r1_matroid0: 2
+      r1_tarski: 2
+      u1_struct_0: 1
+      v3_pre_topc: 1
+    skolems:
+    - esk2_0
+    - esk8_3
+    - esk1_0
+    - esk3_0
+  c_0_126:
+    counts:
+      v1_finset_1: 1
+    skolems:
+    - esk3_0
+  c_0_128:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      u1_struct_0: 2
+      v3_pre_topc: 1
+    skolems: []
+  c_0_129:
+    counts:
+      k1_zfmisc_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      r1_matroid0: 1
+      u1_struct_0: 1
+      v1_finset_1: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+    - esk8_3
+  c_0_130:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v1_finset_1: 1
+      v3_matroid0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+    skolems:
+    - esk8_3
+  c_0_131:
+    counts:
+      k1_zfmisc_1: 1
+      k5_card_1: 2
+      m1_subset_1: 1
+      r1_matroid0: 2
+      r1_tarski: 2
+      u1_struct_0: 1
+      v1_finset_1: 1
+      v3_pre_topc: 1
+    skolems:
+    - esk2_0
+    - esk8_3
+    - esk1_0
+    - esk3_0
+  c_0_132:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+    skolems: []
+  c_0_133:
+    counts:
+      r1_matroid0: 1
+      r1_tarski: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+  c_0_136:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_matroid0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_137:
+    counts:
+      k1_zfmisc_1: 1
+      k5_card_1: 2
+      m1_subset_1: 1
+      r1_matroid0: 2
+      r1_tarski: 2
+      u1_struct_0: 1
+      v1_finset_1: 2
+      v3_pre_topc: 1
+    skolems:
+    - esk2_0
+    - esk8_3
+    - esk1_0
+    - esk3_0
+  c_0_140:
+    counts:
+      k1_zfmisc_1: 3
+      k5_card_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 3
+      r1_matroid0: 2
+      u1_struct_0: 3
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems: []
+  c_0_141:
+    counts:
+      k1_zfmisc_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      r1_matroid0: 1
+      u1_struct_0: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_142:
+    counts:
+      k1_zfmisc_1: 1
+      k5_card_1: 2
+      m1_subset_1: 1
+      r1_matroid0: 2
+      r1_tarski: 2
+      u1_struct_0: 1
+      v1_finset_1: 1
+      v3_matroid0: 1
+      v3_pre_topc: 1
+    skolems:
+    - esk2_0
+    - esk8_3
+    - esk1_0
+    - esk3_0
+  c_0_143:
+    counts:
+      r1_tarski: 1
+    skolems:
+    - esk2_0
+    - esk3_0
+  c_0_144:
+    counts:
+      k4_matroid0: 1
+      k5_card_1: 1
+      r1_matroid0: 1
+      r1_tarski: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+  c_0_145:
+    counts:
+      k1_zfmisc_1: 3
+      k5_card_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 3
+      r1_matroid0: 1
+      u1_struct_0: 3
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_146:
+    counts:
+      r1_matroid0: 1
+      v3_matroid0: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+  c_0_147:
+    counts:
+      k4_matroid0: 1
+      k5_card_1: 1
+      r1_matroid0: 1
+      r1_tarski: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+  c_0_148:
+    counts:
+      k1_zfmisc_1: 2
+      k5_card_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      u1_struct_0: 2
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_149:
+    counts:
+      r1_matroid0: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+  c_0_150:
+    counts:
+      k4_matroid0: 1
+      k5_card_1: 1
+      r1_matroid0: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+  c_0_151:
+    counts:
+      k5_card_1: 2
+    skolems:
+    - esk2_0
+    - esk4_2
+    - esk1_0
+    - esk3_0
+  c_0_152:
+    counts:
+      k4_matroid0: 1
+      k5_card_1: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+    - esk3_0
+  c_0_20:
+    counts:
+      a_2_3_matroid0: 1
+      k1_zfmisc_1: 2
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_tarski: 1
+      r2_hidden: 1
+      u1_struct_0: 2
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems: []
+  c_0_21:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 2
+      u1_struct_0: 2
+      v3_pre_topc: 1
+    skolems:
+    - esk8_3
+  c_0_24:
+    counts:
+      v1_card_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_25:
+    counts:
+      k1_card_1: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_30:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v3_pre_topc: 2
+    skolems:
+    - esk8_3
+  c_0_32:
+    counts:
+      k1_card_1: 2
+      r1_ordinal1: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_33:
+    counts:
+      k1_card_1: 1
+      k5_card_1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_36:
+    counts:
+      k1_zfmisc_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_finset_1: 1
+      v3_matroid0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+    skolems: []
+  c_0_37:
+    counts:
+      k1_zfmisc_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_41:
+    counts:
+      a_2_3_matroid0: 1
+      k1_zfmisc_1: 4
+      k5_card_1: 1
+      l1_pre_topc: 2
+      m1_subset_1: 4
+      r1_matroid0: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      u1_struct_0: 4
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 2
+      v4_matroid0: 1
+    skolems:
+    - esk8_3
+  c_0_43:
+    counts:
+      k1_zfmisc_1: 3
+      l1_pre_topc: 1
+      m1_subset_1: 3
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 3
+      v3_pre_topc: 1
+    skolems:
+    - esk8_3
+  c_0_44:
+    counts:
+      r1_ordinal1: 1
+      r1_tarski: 1
+      v3_ordinal1: 2
+    skolems: []
+  c_0_46:
+    counts:
+      k1_card_1: 1
+      k5_card_1: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_47:
+    counts:
+      k1_card_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_48:
+    counts:
+      k1_zfmisc_1: 1
+      k4_matroid0: 1
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_51:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      u1_struct_0: 2
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_52:
+    counts:
+      l1_pre_topc: 1
+      v3_matroid0: 1
+      v4_matroid0: 1
+    skolems: []
+  c_0_53:
+    counts:
+      k3_tarski: 1
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_54:
+    counts:
+      a_2_3_matroid0: 1
+      k1_zfmisc_1: 1
+      k3_tarski: 1
+      k4_matroid0: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems: []
+  c_0_55:
+    counts:
+      a_2_3_matroid0: 1
+      k1_zfmisc_1: 3
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 3
+      r1_matroid0: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      u1_struct_0: 3
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk8_3
+  c_0_58:
+    counts:
+      k1_card_1: 1
+      k5_card_1: 1
+      r1_ordinal1: 1
+      r1_tarski: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_59:
+    counts:
+      k5_card_1: 1
+      v1_finset_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_61:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      u1_struct_0: 2
+      v1_finset_1: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_matroid0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_66:
+    counts:
+      a_2_3_matroid0: 1
+      k1_zfmisc_1: 1
+      k3_tarski: 1
+      k4_matroid0: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems: []
+  c_0_67:
+    counts:
+      a_2_3_matroid0: 1
+      k1_zfmisc_1: 2
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      u1_struct_0: 2
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk8_3
+  c_0_68:
+    counts:
+      k1_card_1: 1
+      k5_card_1: 2
+      r1_tarski: 2
+      v1_finset_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_69:
+    counts:
+      k1_zfmisc_1: 1
+      k4_matroid0: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_finset_1: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_ordinal1: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_70:
+    counts:
+      k1_zfmisc_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_finset_1: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_71:
+    counts:
+      r1_tarski: 2
+    skolems: []
+  c_0_72:
+    counts:
+      a_2_3_matroid0: 1
+      k1_zfmisc_1: 1
+      k4_matroid0: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      u1_struct_0: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems: []
+  c_0_73:
+    counts:
+      a_2_3_matroid0: 1
+      k1_zfmisc_1: 2
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      u1_struct_0: 2
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk8_3
+  c_0_74:
+    counts:
+      k1_card_1: 1
+      k1_zfmisc_1: 1
+      k4_matroid0: 2
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      r1_tarski: 2
+      u1_struct_0: 1
+      v1_finset_1: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_ordinal1: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_75:
+    counts:
+      k1_zfmisc_1: 1
+      k4_matroid0: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_ordinal1: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems: []
+  c_0_78:
+    counts:
+      k1_zfmisc_1: 2
+      k4_matroid0: 1
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 2
+      u1_struct_0: 2
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk8_3
+  c_0_79:
+    counts:
+      k1_card_1: 1
+      k1_zfmisc_1: 1
+      k4_matroid0: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      r1_tarski: 2
+      u1_struct_0: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_81:
+    counts:
+      k5_card_1: 2
+      r1_tarski: 1
+      v1_finset_1: 2
+    skolems: []
+  c_0_82:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 2
+      u1_struct_0: 2
+      v3_pre_topc: 1
+    skolems:
+    - esk8_3
+  c_0_83:
+    counts:
+      k1_zfmisc_1: 2
+      k4_matroid0: 2
+      k5_card_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 2
+      u1_struct_0: 2
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk8_3
+  c_0_84:
+    counts:
+      k1_zfmisc_1: 1
+      k4_matroid0: 1
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      r1_tarski: 2
+      u1_struct_0: 1
+      v1_finset_1: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_88:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v3_pre_topc: 1
+    skolems:
+    - esk8_3
+  c_0_89:
+    counts:
+      k1_zfmisc_1: 2
+      k4_matroid0: 1
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 2
+      u1_struct_0: 2
+      v1_finset_1: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+    - esk8_3
+  c_0_90:
+    counts:
+      k1_zfmisc_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+  c_0_91:
+    counts:
+      v3_pre_topc: 1
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_92:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk1_0
+    - esk3_0
+  c_0_93:
+    counts:
+      l1_pre_topc: 1
+    skolems:
+    - esk1_0
+  c_0_94:
+    counts:
+      v3_pencil_1: 1
+    skolems:
+    - esk1_0
+  c_0_95:
+    counts:
+      k1_zfmisc_1: 2
+      k5_card_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v1_finset_1: 2
+      v3_pre_topc: 1
+    skolems:
+    - esk8_3
+  c_0_96:
+    counts:
+      k1_zfmisc_1: 2
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v3_pre_topc: 1
+    skolems:
+    - esk8_3
+  c_0_97:
+    counts:
+      k1_zfmisc_1: 2
+      k4_matroid0: 1
+      k5_card_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 2
+      r1_matroid0: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v1_finset_1: 1
+      v1_matroid0: 1
+      v2_matroid0: 1
+      v2_struct_0: 1
+      v3_pencil_1: 1
+      v3_pre_topc: 1
+      v4_matroid0: 1
+    skolems:
+    - esk4_2
+    - esk8_3
+  c_0_99:
+    counts:
+      k5_card_1: 3
+      r1_tarski: 2
+      v1_finset_1: 2
+      v3_ordinal1: 1
+    skolems: []
+symbols:
+  a_2_3_matroid0:
+    arity: 2
+    count: 9
+    mizar: a_2_3_matroid0
+    neg: 1
+    pos: 8
+    url: null
+    vizar: a_2_3_matroid0(x,y)
+  k1_card_1:
+    arity: 1
+    count: 13
+    mizar: card
+    neg: 0
+    pos: 13
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+    vizar: '|x|'
+  k1_zfmisc_1:
+    arity: 1
+    count: 117
+    mizar: bool
+    neg: 109
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
+    vizar: bool(x)
+  k3_tarski:
+    arity: 1
+    count: 4
+    mizar: union
+    neg: 0
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K3
+    vizar: union(x)
+  k4_matroid0:
+    arity: 2
+    count: 24
+    mizar: Rnk
+    neg: 7
+    pos: 17
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#K4
+    vizar: Rnk(x,y)
+  k5_card_1:
+    arity: 1
+    count: 67
+    mizar: card
+    neg: 27
+    pos: 40
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K5
+    vizar: card(x)
+  l1_pre_topc:
+    arity: 1
+    count: 65
+    mizar: TopStruct
+    neg: 63
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_topc.html#L1
+    vizar: TopStruct(x)
+  m1_subset_1:
+    arity: 2
+    count: 117
+    mizar: Element
+    neg: 109
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  r1_matroid0:
+    arity: 3
+    count: 58
+    mizar: is_maximal_independent_in
+    neg: 17
+    pos: 41
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#R1
+    vizar: is_maximal_independent_in(x,y,z)
+  r1_ordinal1:
+    arity: 2
+    count: 5
+    mizar: c=
+    neg: 2
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#R1
+    vizar: x c= y
+  r1_tarski:
+    arity: 2
+    count: 78
+    mizar: c=
+    neg: 54
+    pos: 24
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1
+    vizar: "x \u2286 y"
+  r2_hidden:
+    arity: 2
+    count: 9
+    mizar: in
+    neg: 3
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2
+    vizar: "x \u2208 y"
+  u1_struct_0:
+    arity: 1
+    count: 117
+    mizar: carrier
+    neg: 109
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#U1
+    vizar: carrier(x)
+  v1_card_1:
+    arity: 1
+    count: 4
+    mizar: cardinal
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#V1
+    vizar: "x \u2208 Card"
+  v1_finset_1:
+    arity: 1
+    count: 40
+    mizar: finite
+    neg: 32
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finset_1.html#V1
+    vizar: finite(x)
+  v1_matroid0:
+    arity: 1
+    count: 42
+    mizar: subset-closed
+    neg: 40
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#V1
+    vizar: subset-closed(x)
+  v2_matroid0:
+    arity: 1
+    count: 41
+    mizar: with_exchange_property
+    neg: 39
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#V2
+    vizar: with_exchange_property(x)
+  v2_struct_0:
+    arity: 1
+    count: 42
+    mizar: empty
+    neg: 2
+    pos: 40
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#V2
+    vizar: empty(x)
+  v3_matroid0:
+    arity: 1
+    count: 11
+    mizar: finite-membered
+    neg: 9
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#V3
+    vizar: finite-membered(x)
+  v3_ordinal1:
+    arity: 1
+    count: 13
+    mizar: ordinal
+    neg: 7
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V3
+    vizar: ordinal(x)
+  v3_pencil_1:
+    arity: 1
+    count: 46
+    mizar: void
+    neg: 2
+    pos: 44
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pencil_1.html#V3
+    vizar: void(x)
+  v3_pre_topc:
+    arity: 2
+    count: 47
+    mizar: open
+    neg: 39
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_topc.html#V3
+    vizar: open(x,y)
+  v4_matroid0:
+    arity: 1
+    count: 43
+    mizar: finite-degree
+    neg: 41
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#V4
+    vizar: finite-degree(x)
+tptp:
+  c_0_100: "cnf(c_0_100,negated_conjecture,\n    ( k5_card_1(esk3_0) = k4_matroid0(esk1_0,esk2_0)\n\
+    \    | r1_matroid0(esk1_0,esk3_0,esk2_0) ))."
+  c_0_101: "cnf(c_0_101,negated_conjecture,\n    ( m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(esk1_0)))\
+    \ ))."
+  c_0_102: "cnf(c_0_102,negated_conjecture,\n    ( v4_matroid0(esk1_0) ))."
+  c_0_103: "cnf(c_0_103,negated_conjecture,\n    ( v2_matroid0(esk1_0) ))."
+  c_0_104: "cnf(c_0_104,negated_conjecture,\n    ( v1_matroid0(esk1_0) ))."
+  c_0_105: "cnf(c_0_105,negated_conjecture,\n    ( ~ v2_struct_0(esk1_0) ))."
+  c_0_111: "cnf(c_0_111,plain,\n    ( r1_matroid0(X1,X2,X3)\n    | k5_card_1(esk8_3(X1,X2,X3))\
+    \ != k5_card_1(X2)\n    | ~ v1_finset_1(esk8_3(X1,X2,X3))\n    | ~ v1_finset_1(X2)\n\
+    \    | ~ r1_tarski(X2,X3)\n    | ~ v3_pre_topc(X2,X1)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\
+    \ ))."
+  c_0_112: "cnf(c_0_112,plain,\n    ( k5_card_1(esk8_3(X1,esk4_2(X1,X2),X2)) = k4_matroid0(X1,X2)\n\
+    \    | r1_matroid0(X1,esk4_2(X1,X2),X2)\n    | v3_pencil_1(X1)\n    | v2_struct_0(X1)\n\
+    \    | ~ v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n \
+    \   | ~ v1_matroid0(X1) ))."
+  c_0_113: "cnf(c_0_113,plain,\n    ( r1_tarski(k5_card_1(X1),k5_card_1(X2))\n   \
+    \ | ~ v1_finset_1(X1)\n    | ~ v1_finset_1(X2)\n    | ~ r1_tarski(X1,X2) ))."
+  c_0_114: "cnf(c_0_114,negated_conjecture,\n    ( k4_matroid0(esk1_0,esk2_0) = k5_card_1(esk3_0)\n\
+    \    | r1_matroid0(esk1_0,esk3_0,esk2_0) ))."
+  c_0_120: "cnf(c_0_120,negated_conjecture,\n    ( v1_finset_1(esk3_0)\n    | ~ v3_matroid0(esk1_0)\
+    \ ))."
+  c_0_121: "cnf(c_0_121,plain,\n    ( v2_struct_0(X1)\n    | v3_pencil_1(X1)\n   \
+    \ | k5_card_1(X3) = k5_card_1(X4)\n    | v2_struct_0(X1)\n    | v3_pencil_1(X1)\n\
+    \    | ~ v1_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ l1_pre_topc(X1)\n \
+    \   | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ v3_pre_topc(X3,X1)\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ v3_pre_topc(X4,X1)\n\
+    \    | ~ m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ r1_matroid0(X1,X3,X2)\n\
+    \    | ~ r1_matroid0(X1,X4,X2)\n    | ~ v1_matroid0(X1)\n    | ~ v4_matroid0(X1)\n\
+    \    | ~ l1_pre_topc(X1) ))."
+  c_0_122: "cnf(c_0_122,plain,\n    ( r1_matroid0(X1,esk4_2(X1,X2),X2)\n    | v3_pencil_1(X1)\n\
+    \    | v2_struct_0(X1)\n    | k5_card_1(esk4_2(X1,X2)) != k4_matroid0(X1,X2)\n\
+    \    | ~ v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))\n    | ~ v1_finset_1(esk4_2(X1,X2))\n\
+    \    | ~ r1_tarski(esk4_2(X1,X2),X2)\n    | ~ v3_pre_topc(esk4_2(X1,X2),X1)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n \
+    \   | ~ v1_matroid0(X1) ))."
+  c_0_123: "cnf(c_0_123,plain,\n    ( v1_finset_1(esk8_3(X1,X2,X3))\n    | v3_pencil_1(X1)\n\
+    \    | r1_matroid0(X1,X2,X3)\n    | ~ v3_matroid0(X1)\n    | ~ m1_subset_1(esk8_3(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ r1_tarski(X2,X3)\n    | ~ v3_pre_topc(X2,X1)\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\
+    \ ))."
+  c_0_124: "cnf(c_0_124,plain,\n    ( k5_card_1(X1) = k5_card_1(X2)\n    | ~ r1_tarski(k5_card_1(X1),k5_card_1(X2))\n\
+    \    | ~ v1_finset_1(X2)\n    | ~ v1_finset_1(X1)\n    | ~ r1_tarski(X2,X1) ))."
+  c_0_125: "cnf(c_0_125,negated_conjecture,\n    ( r1_tarski(k5_card_1(esk8_3(esk1_0,X1,esk2_0)),k5_card_1(esk3_0))\n\
+    \    | r1_matroid0(esk1_0,X1,esk2_0)\n    | r1_matroid0(esk1_0,esk3_0,esk2_0)\n\
+    \    | ~ r1_tarski(X1,esk2_0)\n    | ~ v3_pre_topc(X1,esk1_0)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))\
+    \ ))."
+  c_0_126: "cnf(c_0_126,negated_conjecture,\n    ( v1_finset_1(esk3_0) ))."
+  c_0_128: "cnf(c_0_128,plain,\n    ( v3_pre_topc(X1,X2)\n    | ~ r1_matroid0(X2,X1,X3)\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ l1_pre_topc(X2) ))."
+  c_0_129: "cnf(c_0_129,plain,\n    ( r1_matroid0(X1,esk4_2(X1,X2),X2)\n    | v3_pencil_1(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))\n   \
+    \ | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1) ))."
+  c_0_130: "cnf(c_0_130,plain,\n    ( v1_finset_1(esk8_3(X1,X2,X3))\n    | r1_matroid0(X1,X2,X3)\n\
+    \    | v3_pencil_1(X1)\n    | ~ v3_matroid0(X1)\n    | ~ r1_tarski(X2,X3)\n  \
+    \  | ~ v3_pre_topc(X2,X1)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\
+    \ ))."
+  c_0_131: "cnf(c_0_131,negated_conjecture,\n    ( k5_card_1(esk8_3(esk1_0,X1,esk2_0))\
+    \ = k5_card_1(esk3_0)\n    | r1_matroid0(esk1_0,esk3_0,esk2_0)\n    | r1_matroid0(esk1_0,X1,esk2_0)\n\
+    \    | ~ v1_finset_1(esk8_3(esk1_0,X1,esk2_0))\n    | ~ r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0))\n\
+    \    | ~ r1_tarski(X1,esk2_0)\n    | ~ v3_pre_topc(X1,esk1_0)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))\
+    \ ))."
+  c_0_132: "cnf(c_0_132,plain,\n    ( r1_tarski(X1,X2)\n    | ~ r1_matroid0(X3,X1,X2)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3)))\n\
+    \    | ~ l1_pre_topc(X3) ))."
+  c_0_133: "cnf(c_0_133,negated_conjecture,\n    ( r1_tarski(esk3_0,esk2_0)\n    |\
+    \ r1_matroid0(esk1_0,esk3_0,esk2_0) ))."
+  c_0_136: "cnf(c_0_136,plain,\n    ( r1_matroid0(X1,esk4_2(X1,X2),X2)\n    | v3_pencil_1(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n \
+    \   | ~ v1_matroid0(X1)\n    | ~ v3_matroid0(X1)\n    | ~ r1_tarski(esk4_2(X1,X2),X2)\n\
+    \    | ~ v3_pre_topc(esk4_2(X1,X2),X1)\n    | ~ m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))\
+    \ ))."
+  c_0_137: "cnf(c_0_137,negated_conjecture,\n    ( r1_matroid0(esk1_0,X1,esk2_0)\n\
+    \    | r1_matroid0(esk1_0,esk3_0,esk2_0)\n    | k5_card_1(esk3_0) != k5_card_1(X1)\n\
+    \    | ~ v1_finset_1(esk8_3(esk1_0,X1,esk2_0))\n    | ~ v1_finset_1(X1)\n    |\
+    \ ~ r1_tarski(X1,esk2_0)\n    | ~ v3_pre_topc(X1,esk1_0)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))\n\
+    \    | ~ r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0)) ))."
+  c_0_140: "cnf(c_0_140,plain,\n    ( k5_card_1(X1) = k5_card_1(X2)\n    | v3_pencil_1(X3)\n\
+    \    | v2_struct_0(X3)\n    | ~ r1_matroid0(X3,X2,X4)\n    | ~ r1_matroid0(X3,X1,X4)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3)))\n\
+    \    | ~ m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X3)))\n    | ~ l1_pre_topc(X3)\n\
+    \    | ~ v4_matroid0(X3)\n    | ~ v2_matroid0(X3)\n    | ~ v1_matroid0(X3) ))."
+  c_0_141: "cnf(c_0_141,plain,\n    ( r1_matroid0(X1,esk4_2(X1,X2),X2)\n    | v3_pencil_1(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n \
+    \   | ~ v1_matroid0(X1) ))."
+  c_0_142: "cnf(c_0_142,negated_conjecture,\n    ( r1_matroid0(esk1_0,esk3_0,esk2_0)\n\
+    \    | r1_matroid0(esk1_0,X1,esk2_0)\n    | k5_card_1(esk3_0) != k5_card_1(X1)\n\
+    \    | ~ v1_finset_1(X1)\n    | ~ r1_tarski(esk3_0,esk8_3(esk1_0,X1,esk2_0))\n\
+    \    | ~ r1_tarski(X1,esk2_0)\n    | ~ v3_pre_topc(X1,esk1_0)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(esk1_0)))\n\
+    \    | ~ v3_matroid0(esk1_0) ))."
+  c_0_143: "cnf(c_0_143,negated_conjecture,\n    ( r1_tarski(esk3_0,esk2_0) ))."
+  c_0_144: "cnf(c_0_144,negated_conjecture,\n    ( ~ r1_matroid0(esk1_0,esk3_0,esk2_0)\n\
+    \    | ~ r1_tarski(esk3_0,esk2_0)\n    | k5_card_1(esk3_0) != k4_matroid0(esk1_0,esk2_0)\
+    \ ))."
+  c_0_145: "cnf(c_0_145,plain,\n    ( k5_card_1(X1) = k5_card_1(esk4_2(X2,X3))\n \
+    \   | v3_pencil_1(X2)\n    | v2_struct_0(X2)\n    | ~ r1_matroid0(X2,X1,X3)\n\
+    \    | ~ m1_subset_1(esk4_2(X2,X3),k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ l1_pre_topc(X2)\n\
+    \    | ~ v4_matroid0(X2)\n    | ~ v2_matroid0(X2)\n    | ~ v1_matroid0(X2) ))."
+  c_0_146: "cnf(c_0_146,negated_conjecture,\n    ( r1_matroid0(esk1_0,esk3_0,esk2_0)\n\
+    \    | ~ v3_matroid0(esk1_0) ))."
+  c_0_147: "cnf(c_0_147,negated_conjecture,\n    ( k4_matroid0(esk1_0,esk2_0) != k5_card_1(esk3_0)\n\
+    \    | ~ r1_tarski(esk3_0,esk2_0)\n    | ~ r1_matroid0(esk1_0,esk3_0,esk2_0) ))."
+  c_0_148: "cnf(c_0_148,plain,\n    ( k5_card_1(X1) = k5_card_1(esk4_2(X2,X3))\n \
+    \   | v3_pencil_1(X2)\n    | v2_struct_0(X2)\n    | ~ r1_matroid0(X2,X1,X3)\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ l1_pre_topc(X2)\n    | ~ v4_matroid0(X2)\n    | ~ v2_matroid0(X2)\n \
+    \   | ~ v1_matroid0(X2) ))."
+  c_0_149: "cnf(c_0_149,negated_conjecture,\n    ( r1_matroid0(esk1_0,esk3_0,esk2_0)\
+    \ ))."
+  c_0_150: "cnf(c_0_150,negated_conjecture,\n    ( k4_matroid0(esk1_0,esk2_0) != k5_card_1(esk3_0)\n\
+    \    | ~ r1_matroid0(esk1_0,esk3_0,esk2_0) ))."
+  c_0_151: "cnf(c_0_151,negated_conjecture,\n    ( k5_card_1(esk4_2(esk1_0,esk2_0))\
+    \ = k5_card_1(esk3_0) ))."
+  c_0_152: "cnf(c_0_152,negated_conjecture,\n    ( k4_matroid0(esk1_0,esk2_0) != k5_card_1(esk3_0)\
+    \ ))."
+  c_0_153: "cnf(c_0_153,negated_conjecture,\n    ( $false ))."
+  c_0_20: "cnf(c_0_20,plain,\n    ( r2_hidden(X3,a_2_3_matroid0(X2,X4))\n    | v2_struct_0(X2)\n\
+    \    | v3_pencil_1(X2)\n    | ~ v3_pre_topc(X1,X2)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | X3 != k5_card_1(X1)\n    | ~ r1_tarski(X1,X4)\n    | ~ v1_matroid0(X2)\n\
+    \    | ~ v2_matroid0(X2)\n    | ~ v4_matroid0(X2)\n    | ~ l1_pre_topc(X2)\n \
+    \   | ~ m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2))) ))."
+  c_0_21: "cnf(c_0_21,plain,\n    ( r1_tarski(esk8_3(X1,X2,X3),X3)\n    | r1_matroid0(X1,X2,X3)\n\
+    \    | ~ v3_pre_topc(X2,X1)\n    | ~ r1_tarski(X2,X3)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\
+    \ ))."
+  c_0_24: "cnf(c_0_24,plain,\n    ( v3_ordinal1(X1)\n    | ~ v1_card_1(X1) ))."
+  c_0_25: "cnf(c_0_25,plain,\n    ( v1_card_1(k1_card_1(X1)) ))."
+  c_0_30: "cnf(c_0_30,plain,\n    ( v3_pre_topc(esk8_3(X1,X2,X3),X1)\n    | r1_matroid0(X1,X2,X3)\n\
+    \    | ~ v3_pre_topc(X2,X1)\n    | ~ r1_tarski(X2,X3)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\
+    \ ))."
+  c_0_32: "cnf(c_0_32,plain,\n    ( r1_ordinal1(k1_card_1(X1),k1_card_1(X2))\n   \
+    \ | ~ r1_tarski(X1,X2) ))."
+  c_0_33: "cnf(c_0_33,plain,\n    ( k5_card_1(X1) = k1_card_1(X1)\n    | ~ v1_finset_1(X1)\
+    \ ))."
+  c_0_36: "cnf(c_0_36,plain,\n    ( v1_finset_1(X1)\n    | v3_pencil_1(X2)\n    |\
+    \ ~ v3_pre_topc(X1,X2)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ v3_matroid0(X2)\n    | ~ l1_pre_topc(X2) ))."
+  c_0_37: "cnf(c_0_37,plain,\n    ( v3_pre_topc(esk4_2(X1,X2),X1)\n    | v2_struct_0(X1)\n\
+    \    | v3_pencil_1(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ v1_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v4_matroid0(X1)\n \
+    \   | ~ l1_pre_topc(X1) ))."
+  c_0_41: "cnf(c_0_41,plain,\n    ( r2_hidden(X1,a_2_3_matroid0(X2,X3))\n    | v3_pencil_1(X2)\n\
+    \    | v2_struct_0(X2)\n    | r1_matroid0(X4,X5,X3)\n    | X1 != k5_card_1(esk8_3(X4,X5,X3))\n\
+    \    | ~ v3_pre_topc(esk8_3(X4,X5,X3),X2)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ m1_subset_1(esk8_3(X4,X5,X3),k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ l1_pre_topc(X2)\n\
+    \    | ~ v4_matroid0(X2)\n    | ~ v2_matroid0(X2)\n    | ~ v1_matroid0(X2)\n \
+    \   | ~ r1_tarski(X5,X3)\n    | ~ v3_pre_topc(X5,X4)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X4)))\n\
+    \    | ~ m1_subset_1(X5,k1_zfmisc_1(u1_struct_0(X4)))\n    | ~ l1_pre_topc(X4)\
+    \ ))."
+  c_0_43: "cnf(c_0_43,plain,\n    ( m1_subset_1(esk8_3(X1,X2,X3),k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | r1_matroid0(X1,X2,X3)\n    | ~ v3_pre_topc(X2,X1)\n    | ~ r1_tarski(X2,X3)\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1) ))."
+  c_0_44: "cnf(c_0_44,plain,\n    ( r1_tarski(X1,X2)\n    | ~ r1_ordinal1(X1,X2)\n\
+    \    | ~ v3_ordinal1(X1)\n    | ~ v3_ordinal1(X2) ))."
+  c_0_46: "cnf(c_0_46,plain,\n    ( k1_card_1(X1) = k5_card_1(X1)\n    | ~ v1_finset_1(X1)\
+    \ ))."
+  c_0_47: "cnf(c_0_47,plain,\n    ( v3_ordinal1(k1_card_1(X1)) ))."
+  c_0_48: "cnf(c_0_48,plain,\n    ( k5_card_1(esk4_2(X1,X2)) = k4_matroid0(X1,X2)\n\
+    \    | v2_struct_0(X1)\n    | v3_pencil_1(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ v1_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v4_matroid0(X1)\n \
+    \   | ~ l1_pre_topc(X1) ))."
+  c_0_51: "cnf(c_0_51,plain,\n    ( m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | v2_struct_0(X1)\n    | v3_pencil_1(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ v1_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v4_matroid0(X1)\n \
+    \   | ~ l1_pre_topc(X1) ))."
+  c_0_52: "cnf(c_0_52,plain,\n    ( v3_matroid0(X1)\n    | ~ l1_pre_topc(X1)\n   \
+    \ | ~ v4_matroid0(X1) ))."
+  c_0_53: "cnf(c_0_53,plain,\n    ( r1_tarski(X1,k3_tarski(X2))\n    | ~ r2_hidden(X1,X2)\
+    \ ))."
+  c_0_54: "cnf(c_0_54,plain,\n    ( v2_struct_0(X1)\n    | v3_pencil_1(X1)\n    |\
+    \ k4_matroid0(X1,X2) = k3_tarski(a_2_3_matroid0(X1,X2))\n    | ~ v1_matroid0(X1)\n\
+    \    | ~ v2_matroid0(X1)\n    | ~ v4_matroid0(X1)\n    | ~ l1_pre_topc(X1)\n \
+    \   | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))) ))."
+  c_0_55: "cnf(c_0_55,plain,\n    ( r2_hidden(X1,a_2_3_matroid0(X2,X3))\n    | r1_matroid0(X2,X4,X3)\n\
+    \    | v3_pencil_1(X2)\n    | v2_struct_0(X2)\n    | X1 != k5_card_1(esk8_3(X2,X4,X3))\n\
+    \    | ~ r1_tarski(X4,X3)\n    | ~ v3_pre_topc(X4,X2)\n    | ~ m1_subset_1(esk8_3(X2,X4,X3),k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ l1_pre_topc(X2)\n    | ~ v4_matroid0(X2)\n    | ~ v2_matroid0(X2)\n \
+    \   | ~ v1_matroid0(X2) ))."
+  c_0_58: "cnf(c_0_58,plain,\n    ( r1_ordinal1(k5_card_1(X1),k1_card_1(X2))\n   \
+    \ | ~ r1_tarski(X1,X2)\n    | ~ v1_finset_1(X1) ))."
+  c_0_59: "cnf(c_0_59,plain,\n    ( v3_ordinal1(k5_card_1(X1))\n    | ~ v1_finset_1(X1)\
+    \ ))."
+  c_0_61: "cnf(c_0_61,plain,\n    ( v1_finset_1(esk4_2(X1,X2))\n    | v3_pencil_1(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ v3_matroid0(X1)\n    | ~ m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1) ))."
+  c_0_66: "cnf(c_0_66,plain,\n    ( k3_tarski(a_2_3_matroid0(X1,X2)) = k4_matroid0(X1,X2)\n\
+    \    | v2_struct_0(X1)\n    | v3_pencil_1(X1)\n    | ~ v1_matroid0(X1)\n    |\
+    \ ~ v2_matroid0(X1)\n    | ~ v4_matroid0(X1)\n    | ~ l1_pre_topc(X1)\n    | ~\
+    \ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))) ))."
+  c_0_67: "cnf(c_0_67,plain,\n    ( r2_hidden(X1,a_2_3_matroid0(X2,X3))\n    | r1_matroid0(X2,X4,X3)\n\
+    \    | v3_pencil_1(X2)\n    | v2_struct_0(X2)\n    | X1 != k5_card_1(esk8_3(X2,X4,X3))\n\
+    \    | ~ r1_tarski(X4,X3)\n    | ~ v3_pre_topc(X4,X2)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ l1_pre_topc(X2)\n\
+    \    | ~ v4_matroid0(X2)\n    | ~ v2_matroid0(X2)\n    | ~ v1_matroid0(X2) ))."
+  c_0_68: "cnf(c_0_68,plain,\n    ( r1_tarski(k5_card_1(X1),k1_card_1(X2))\n    |\
+    \ ~ v3_ordinal1(k5_card_1(X1))\n    | ~ v1_finset_1(X1)\n    | ~ r1_tarski(X1,X2)\
+    \ ))."
+  c_0_69: "cnf(c_0_69,plain,\n    ( v3_ordinal1(k4_matroid0(X1,X2))\n    | v3_pencil_1(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ v1_finset_1(esk4_2(X1,X2))\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n \
+    \   | ~ v1_matroid0(X1) ))."
+  c_0_70: "cnf(c_0_70,plain,\n    ( v1_finset_1(esk4_2(X1,X2))\n    | v3_pencil_1(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n \
+    \   | ~ v1_matroid0(X1) ))."
+  c_0_71: "cnf(c_0_71,plain,\n    ( X1 = X2\n    | ~ r1_tarski(X1,X2)\n    | ~ r1_tarski(X2,X1)\
+    \ ))."
+  c_0_72: "cnf(c_0_72,plain,\n    ( r1_tarski(X1,k4_matroid0(X2,X3))\n    | v3_pencil_1(X2)\n\
+    \    | v2_struct_0(X2)\n    | ~ r2_hidden(X1,a_2_3_matroid0(X2,X3))\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ l1_pre_topc(X2)\n    | ~ v4_matroid0(X2)\n    | ~ v2_matroid0(X2)\n \
+    \   | ~ v1_matroid0(X2) ))."
+  c_0_73: "cnf(c_0_73,plain,\n    ( r2_hidden(k5_card_1(esk8_3(X1,X2,X3)),a_2_3_matroid0(X1,X3))\n\
+    \    | r1_matroid0(X1,X2,X3)\n    | v3_pencil_1(X1)\n    | v2_struct_0(X1)\n \
+    \   | ~ r1_tarski(X2,X3)\n    | ~ v3_pre_topc(X2,X1)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1) ))."
+  c_0_74: "cnf(c_0_74,plain,\n    ( r1_tarski(k4_matroid0(X1,X2),k1_card_1(X3))\n\
+    \    | v3_pencil_1(X1)\n    | v2_struct_0(X1)\n    | ~ v3_ordinal1(k4_matroid0(X1,X2))\n\
+    \    | ~ v1_finset_1(esk4_2(X1,X2))\n    | ~ r1_tarski(esk4_2(X1,X2),X3)\n   \
+    \ | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1) ))."
+  c_0_75: "cnf(c_0_75,plain,\n    ( v3_ordinal1(k4_matroid0(X1,X2))\n    | v3_pencil_1(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n \
+    \   | ~ v1_matroid0(X1) ))."
+  c_0_78: "cnf(c_0_78,plain,\n    ( r1_tarski(k5_card_1(esk8_3(X1,X2,X3)),k4_matroid0(X1,X3))\n\
+    \    | v3_pencil_1(X1)\n    | v2_struct_0(X1)\n    | r1_matroid0(X1,X2,X3)\n \
+    \   | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1)\n \
+    \   | ~ r1_tarski(X2,X3)\n    | ~ v3_pre_topc(X2,X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\
+    \ ))."
+  c_0_79: "cnf(c_0_79,plain,\n    ( r1_tarski(k4_matroid0(X1,X2),k1_card_1(X3))\n\
+    \    | v3_pencil_1(X1)\n    | v2_struct_0(X1)\n    | ~ r1_tarski(esk4_2(X1,X2),X3)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1) ))."
+  c_0_81: "cnf(c_0_81,plain,\n    ( X1 = X2\n    | ~ v1_finset_1(X1)\n    | ~ v1_finset_1(X2)\n\
+    \    | ~ r1_tarski(X1,X2)\n    | k5_card_1(X1) != k5_card_1(X2) ))."
+  c_0_82: "cnf(c_0_82,plain,\n    ( r1_tarski(X1,esk8_3(X2,X1,X3))\n    | r1_matroid0(X2,X1,X3)\n\
+    \    | ~ v3_pre_topc(X1,X2)\n    | ~ r1_tarski(X1,X3)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ l1_pre_topc(X2)\
+    \ ))."
+  c_0_83: "cnf(c_0_83,plain,\n    ( k5_card_1(esk8_3(X1,X3,X2)) = k4_matroid0(X1,X2)\n\
+    \    | r1_matroid0(X1,X3,X2)\n    | v3_pencil_1(X1)\n    | v2_struct_0(X1)\n \
+    \   | ~ r1_tarski(k4_matroid0(X1,X2),k5_card_1(esk8_3(X1,X3,X2)))\n    | ~ r1_tarski(X3,X2)\n\
+    \    | ~ v3_pre_topc(X3,X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1) ))."
+  c_0_84: "cnf(c_0_84,plain,\n    ( r1_tarski(k4_matroid0(X1,X2),k5_card_1(X3))\n\
+    \    | v3_pencil_1(X1)\n    | v2_struct_0(X1)\n    | ~ r1_tarski(esk4_2(X1,X2),X3)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1)\n \
+    \   | ~ v1_finset_1(X3) ))."
+  c_0_88: "cnf(c_0_88,plain,\n    ( r1_matroid0(X2,X1,X3)\n    | X1 != esk8_3(X2,X1,X3)\n\
+    \    | ~ v3_pre_topc(X1,X2)\n    | ~ r1_tarski(X1,X3)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ l1_pre_topc(X2)\
+    \ ))."
+  c_0_89: "cnf(c_0_89,plain,\n    ( k5_card_1(esk8_3(X1,X2,X3)) = k4_matroid0(X1,X3)\n\
+    \    | r1_matroid0(X1,X2,X3)\n    | v3_pencil_1(X1)\n    | v2_struct_0(X1)\n \
+    \   | ~ r1_tarski(X2,X3)\n    | ~ v3_pre_topc(X2,X1)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1)\n \
+    \   | ~ v1_finset_1(esk8_3(X1,X2,X3))\n    | ~ r1_tarski(esk4_2(X1,X3),esk8_3(X1,X2,X3))\
+    \ ))."
+  c_0_90: "cnf(c_0_90,plain,\n    ( r1_tarski(esk4_2(X1,X2),X2)\n    | v2_struct_0(X1)\n\
+    \    | v3_pencil_1(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ v1_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v4_matroid0(X1)\n \
+    \   | ~ l1_pre_topc(X1) ))."
+  c_0_91: "cnf(c_0_91,negated_conjecture,\n    ( v3_pre_topc(esk3_0,esk1_0) ))."
+  c_0_92: "cnf(c_0_92,negated_conjecture,\n    ( m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(esk1_0)))\
+    \ ))."
+  c_0_93: "cnf(c_0_93,negated_conjecture,\n    ( l1_pre_topc(esk1_0) ))."
+  c_0_94: "cnf(c_0_94,negated_conjecture,\n    ( ~ v3_pencil_1(esk1_0) ))."
+  c_0_95: "cnf(c_0_95,plain,\n    ( esk8_3(X2,X1,X3) = X1\n    | r1_matroid0(X2,X1,X3)\n\
+    \    | k5_card_1(esk8_3(X2,X1,X3)) != k5_card_1(X1)\n    | ~ v1_finset_1(esk8_3(X2,X1,X3))\n\
+    \    | ~ v1_finset_1(X1)\n    | ~ r1_tarski(X1,X3)\n    | ~ v3_pre_topc(X1,X2)\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \    | ~ l1_pre_topc(X2) ))."
+  c_0_96: "cnf(c_0_96,plain,\n    ( r1_matroid0(X2,X1,X3)\n    | esk8_3(X2,X1,X3)\
+    \ != X1\n    | ~ l1_pre_topc(X2)\n    | ~ v3_pre_topc(X1,X2)\n    | ~ r1_tarski(X1,X3)\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))\
+    \ ))."
+  c_0_97: "cnf(c_0_97,plain,\n    ( k5_card_1(esk8_3(X1,esk4_2(X1,X2),X2)) = k4_matroid0(X1,X2)\n\
+    \    | r1_matroid0(X1,esk4_2(X1,X2),X2)\n    | v3_pencil_1(X1)\n    | v2_struct_0(X1)\n\
+    \    | ~ v1_finset_1(esk8_3(X1,esk4_2(X1,X2),X2))\n    | ~ r1_tarski(esk4_2(X1,X2),X2)\n\
+    \    | ~ v3_pre_topc(esk4_2(X1,X2),X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \    | ~ m1_subset_1(esk4_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(X1)\n\
+    \    | ~ v4_matroid0(X1)\n    | ~ v2_matroid0(X1)\n    | ~ v1_matroid0(X1) ))."
+  c_0_99: "cnf(c_0_99,plain,\n    ( r1_tarski(k5_card_1(X1),k5_card_1(X2))\n    |\
+    \ ~ v3_ordinal1(k5_card_1(X1))\n    | ~ v1_finset_1(X1)\n    | ~ r1_tarski(X1,X2)\n\
+    \    | ~ v1_finset_1(X2) ))."
+  cc1_card_1: "fof(cc1_card_1,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ v3_ordinal1(X1) ) ))."
+  cc2_matroid0: "fof(cc2_matroid0,axiom,(\n    ! [X1] :\n      ( l1_pre_topc(X1)\n\
+    \     => ( v4_matroid0(X1)\n       => v3_matroid0(X1) ) ) ))."
+  cc6_matroid0: "fof(cc6_matroid0,axiom,(\n    ! [X1] :\n      ( ( ~ v3_pencil_1(X1)\n\
+    \        & v3_matroid0(X1)\n        & l1_pre_topc(X1) )\n     => ! [X2] :\n  \
+    \        ( m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n         => ( v3_pre_topc(X2,X1)\n\
+    \           => ( v1_finset_1(X2)\n              & v3_pre_topc(X2,X1) ) ) ) ) ))."
+  d10_matroid0: "fof(d10_matroid0,axiom,(\n    ! [X1] :\n      ( l1_pre_topc(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \         => ! [X3] :\n              ( m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \             => ( r1_matroid0(X1,X2,X3)\n              <=> ( v3_pre_topc(X2,X1)\n\
+    \                  & r1_tarski(X2,X3)\n                  & ! [X4] :\n        \
+    \              ( m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))\n              \
+    \       => ( ( v3_pre_topc(X4,X1)\n                          & r1_tarski(X4,X3)\n\
+    \                          & r1_tarski(X2,X4) )\n                       => X2\
+    \ = X4 ) ) ) ) ) ) ) ))."
+  d10_xboole_0: "fof(d10_xboole_0,axiom,(\n    ! [X1,X2] :\n      ( X1 = X2\n    <=>\
+    \ ( r1_tarski(X1,X2)\n        & r1_tarski(X2,X1) ) ) ))."
+  d11_matroid0: "fof(d11_matroid0,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & ~ v3_pencil_1(X1)\n        & v1_matroid0(X1)\n        & v2_matroid0(X1)\n\
+    \        & v4_matroid0(X1)\n        & l1_pre_topc(X1) )\n     => ! [X2] :\n  \
+    \        ( m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n         => k4_matroid0(X1,X2)\
+    \ = k3_tarski(a_2_3_matroid0(X1,X2)) ) ) ))."
+  dt_k1_card_1: "fof(dt_k1_card_1,axiom,(\n    ! [X1] : v1_card_1(k1_card_1(X1)) ))."
+  fraenkel_a_2_3_matroid0: "fof(fraenkel_a_2_3_matroid0,axiom,(\n    ! [X1,X2,X3]\
+    \ :\n      ( ( ~ v2_struct_0(X2)\n        & ~ v3_pencil_1(X2)\n        & v1_matroid0(X2)\n\
+    \        & v2_matroid0(X2)\n        & v4_matroid0(X2)\n        & l1_pre_topc(X2)\n\
+    \        & m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2))) )\n     => ( r2_hidden(X1,a_2_3_matroid0(X2,X3))\n\
+    \      <=> ? [X4] :\n            ( v3_pre_topc(X4,X2)\n            & m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))\n\
+    \            & X1 = k5_card_1(X4)\n            & r1_tarski(X4,X3) ) ) ) ))."
+  redefinition_k5_card_1: "fof(redefinition_k5_card_1,axiom,(\n    ! [X1] :\n    \
+    \  ( v1_finset_1(X1)\n     => k5_card_1(X1) = k1_card_1(X1) ) ))."
+  redefinition_r1_ordinal1: "fof(redefinition_r1_ordinal1,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( v3_ordinal1(X1)\n        & v3_ordinal1(X2) )\n     => ( r1_ordinal1(X1,X2)\n\
+    \      <=> r1_tarski(X1,X2) ) ) ))."
+  t11_card_1: "fof(t11_card_1,axiom,(\n    ! [X1,X2] :\n      ( r1_tarski(X1,X2)\n\
+    \     => r1_ordinal1(k1_card_1(X1),k1_card_1(X2)) ) ))."
+  t16_matroid0: "fof(t16_matroid0,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & ~ v3_pencil_1(X1)\n        & v1_matroid0(X1)\n        & v4_matroid0(X1)\n\
+    \        & l1_pre_topc(X1) )\n     => ( ( ~ v2_struct_0(X1)\n          & ~ v3_pencil_1(X1)\n\
+    \          & v1_matroid0(X1)\n          & v2_matroid0(X1)\n          & l1_pre_topc(X1)\
+    \ )\n      <=> ! [X2] :\n            ( m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \           => ! [X3] :\n                ( ( v3_pre_topc(X3,X1)\n            \
+    \      & m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1))) )\n               => ! [X4]\
+    \ :\n                    ( ( v3_pre_topc(X4,X1)\n                      & m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))\
+    \ )\n                   => ( ( r1_matroid0(X1,X3,X2)\n                       \
+    \ & r1_matroid0(X1,X4,X2) )\n                     => k5_card_1(X3) = k5_card_1(X4)\
+    \ ) ) ) ) ) ) ))."
+  t18_matroid0: "fof(t18_matroid0,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & ~ v3_pencil_1(X1)\n        & v1_matroid0(X1)\n        & v2_matroid0(X1)\n\
+    \        & v4_matroid0(X1)\n        & l1_pre_topc(X1) )\n     => ! [X2] :\n  \
+    \        ( m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n         => ? [X3] :\n\
+    \              ( v3_pre_topc(X3,X1)\n              & m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\n\
+    \              & r1_tarski(X3,X2)\n              & k5_card_1(X3) = k4_matroid0(X1,X2)\
+    \ ) ) ) ))."
+  t19_matroid0: "fof(t19_matroid0,conjecture,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & ~ v3_pencil_1(X1)\n        & v1_matroid0(X1)\n        & v2_matroid0(X1)\n\
+    \        & v4_matroid0(X1)\n        & l1_pre_topc(X1) )\n     => ! [X2] :\n  \
+    \        ( m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n         => ! [X3] :\n\
+    \              ( ( v3_pre_topc(X3,X1)\n                & m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))\
+    \ )\n             => ( r1_matroid0(X1,X3,X2)\n              <=> ( r1_tarski(X3,X2)\n\
+    \                  & k5_card_1(X3) = k4_matroid0(X1,X2) ) ) ) ) ) ))."
+  t1_card_fin: "fof(t1_card_fin,axiom,(\n    ! [X1] :\n      ( v1_finset_1(X1)\n \
+    \    => ! [X2] :\n          ( v1_finset_1(X2)\n         => ( ( r1_tarski(X1,X2)\n\
+    \              & k5_card_1(X1) = k5_card_1(X2) )\n           => X1 = X2 ) ) )\
+    \ ))."
+  t74_zfmisc_1: "fof(t74_zfmisc_1,axiom,(\n    ! [X1,X2] :\n      ( r2_hidden(X1,X2)\n\
+    \     => r1_tarski(X1,k3_tarski(X2)) ) ))."
+

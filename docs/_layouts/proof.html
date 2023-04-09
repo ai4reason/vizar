@@ -83,9 +83,6 @@ See also the <a href="{{proof.axioms[proof.conjecture].url}}" target="_mizar">Mi
 
 {% assign symbols = site.data.proofs[page.proof].symbols | sort %}
 {% for sym in symbols %}
-
-   {% assign prefix = sym[1].mizar | slice: 0, 2 %}
-   {% if sym[0] != sym[1].mizar and prefix != "sk" %}
    <tr>
       <td>{{sym[0]}}</td>
       {% if sym[1].url %}
@@ -97,7 +94,6 @@ See also the <a href="{{proof.axioms[proof.conjecture].url}}" target="_mizar">Mi
       <td>{{sym[1].arity}}</td>
       <td>{{sym[1].count}}</td>
    </tr>
-   {% endif %}
 {% endfor %}
 </table>
 

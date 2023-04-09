@@ -1,0 +1,996 @@
+axioms:
+  cc1_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 ordinal(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#CC1
+  cc1_finset_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 = \xD8)\n     \u21D2 finite(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finset_1.html#CC1
+  commutativity_k3_xboole_0:
+    fof: "    (\u2200X\u2081,X\u2082) (X\u2081 \u2229 X\u2082) = (X\u2082 \u2229 X\u2081\
+      ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K3
+  d10_card_fil:
+    fof: "    (\u2200X\u2081)\n      ( \xAC finite(X\u2081)\n     \u21D2 Frechet_Filter(X\u2081\
+      ) = a_1_2_card_fil(X\u2081) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fil.html#D10
+  d10_xboole_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( X\u2081 = X\u2082\n    \u2261 ( (X\u2081\
+      \ \u2286 X\u2082)\n        \u2227 (X\u2082 \u2286 X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#D10
+  d5_card_fil:
+    fof: "    (\u2200X\u2081)\n      ( \xAC (X\u2081 = \xD8)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( Filter(X\u2082,X\u2081)\n         \u21D2 ( uniform(X\u2082\
+      ,X\u2081)\n          \u2261 (\u2200X\u2083)\n                ( (X\u2083 \u2208\
+      \ bool(X\u2081))\n               \u21D2 ( (X\u2083 \u2208 X\u2082)\n       \
+      \          \u21D2 |X\u2083| = |X\u2081| ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fil.html#D5
+  dt_k1_card_1:
+    fof: "    (\u2200X\u2081) (|X\u2081| \u2208 Card) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+  dt_k6_subset_1:
+    fof: "    (\u2200X\u2081,X\u2082) ((X\u2081 \\ X\u2082) \u2208 bool(X\u2081)) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#K6
+  dt_m1_card_fil:
+    fof: "    (\u2200X\u2081)\n      ( \xAC (X\u2081 = \xD8)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( Filter(X\u2082,X\u2081)\n         \u21D2 ( \xAC (X\u2082\
+      \ = \xD8)\n            \u2227 (X\u2082 \u2208 bool(bool(X\u2081))) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fil.html#M1
+  fraenkel_a_1_2_card_fil:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( \xAC finite(X\u2082)\n     \u21D2 (\
+      \ (X\u2081 \u2208 a_1_2_card_fil(X\u2082))\n      \u2261 (\u2203X\u2083)\n \
+      \           ( (X\u2083 \u2208 bool(X\u2082))\n            \u2227 X\u2081 = X\u2083\
+      \n            \u2227 (|(X\u2082 \\ X\u2083)| \u2208 |X\u2082|) ) ) ) "
+    url: null
+  redefinition_k6_subset_1:
+    fof: "    (\u2200X\u2081,X\u2082) (X\u2081 \\ X\u2082) = (X\u2081 \\ X\u2082) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#K6
+  redefinition_k9_subset_1:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( (X\u2083 \u2208 bool(X\u2081\
+      ))\n     \u21D2 (X\u2081 /\\ X\u2082 /\\ X\u2083) = (X\u2082 \u2229 X\u2083\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#K9
+  redefinition_r1_ordinal1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( ordinal(X\u2081)\n        \u2227\
+      \ ordinal(X\u2082) )\n     \u21D2 ( (X\u2081 c= X\u2082)\n      \u2261 (X\u2081\
+      \ \u2286 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#R1
+  t11_card_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2286 X\u2082)\n     \u21D2\
+      \ (|X\u2081| c= |X\u2082|) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#T11
+  t20_card_fil:
+    fof: "    (\u2200X\u2081)\n      ( \xAC finite(X\u2081)\n     \u21D2 (\u2200X\u2082\
+      )\n          ( Filter(X\u2082,X\u2081)\n         \u21D2 ( (Frechet_Filter(X\u2081\
+      ) \u2286 X\u2082)\n           \u21D2 uniform(X\u2082,X\u2081) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fil.html#T20
+  t28_xboole_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2286 X\u2082)\n     \u21D2\
+      \ (X\u2081 \u2229 X\u2082) = X\u2081 ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_1.html#T28
+  t2_boole:
+    fof: "    (\u2200X\u2081) (X\u2081 \u2229 \xD8) = \xD8 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#T2
+  t2_subset:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2208 X\u2082)\n     \u21D2\
+      \ ( (X\u2082 = \xD8)\n        \u2228 (X\u2081 \u2208 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T2
+  t3_boole:
+    fof: "    (\u2200X\u2081) (X\u2081 \\ \xD8) = X\u2081 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#T3
+  t3_subset:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2208 bool(X\u2082))\n  \
+      \  \u2261 (X\u2081 \u2286 X\u2082) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T3
+  t48_xboole_1:
+    fof: "    (\u2200X\u2081,X\u2082) (X\u2081 \\ (X\u2081 \\ X\u2082)) = (X\u2081\
+      \ \u2229 X\u2082) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_1.html#T48
+  t4_card_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 Card)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 Card)\n         \u21D2 ( (X\u2081 \u2208\
+      \ X\u2082)\n          \u2261 \xAC (X\u2082 c= X\u2081) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#T4
+  t4_subset:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( ( (X\u2081 \u2208 X\u2082)\n\
+      \        \u2227 (X\u2082 \u2208 bool(X\u2083)) )\n     \u21D2 (X\u2081 \u2208\
+      \ X\u2083) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T4
+  t6_card_fil:
+    fof: "    (\u2200X\u2081)\n      ( \xAC (X\u2081 = \xD8)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 bool(X\u2081))\n         \u21D2 (\u2200\
+      X\u2083)\n              ( Filter(X\u2083,X\u2081)\n             \u21D2 \xAC\
+      \ ( (X\u2082 \u2208 X\u2083)\n                  \u2227 ((X\u2081 \\ X\u2082\
+      ) \u2208 X\u2083) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fil.html#T6
+  t7_boole:
+    fof: "    (\u2200X\u2081,X\u2082)\n      \xAC ( (X\u2081 \u2208 X\u2082)\n   \
+      \     \u2227 (X\u2082 = \xD8) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#T7
+conjecture: t20_card_fil
+final: c_0_153
+skolems:
+  esk1_0:
+    axiom: t20_card_fil
+    related:
+    - esk1_0
+    - esk2_0
+    symbol: "sk\u2081"
+  esk2_0:
+    axiom: t20_card_fil
+    related:
+    - esk1_0
+    - esk2_0
+    symbol: "sk\u2082"
+  esk3_2:
+    axiom: d5_card_fil
+    related:
+    - esk3_2
+    symbol: "sk\u2083"
+steps:
+  c_0_100:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+    skolems: []
+  c_0_101:
+    counts:
+      k1_xboole_0: 1
+      k4_xboole_0: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_102:
+    counts:
+      a_1_2_card_fil: 1
+      r1_tarski: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_103:
+    counts:
+      a_1_2_card_fil: 1
+      k1_card_1: 2
+      k1_zfmisc_1: 1
+      k4_xboole_0: 1
+      k9_subset_1: 2
+      m1_subset_1: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_104:
+    counts:
+      k1_zfmisc_1: 1
+      k6_subset_1: 1
+      m1_card_fil: 1
+      m1_subset_1: 1
+      r2_hidden: 2
+      v1_xboole_0: 1
+    skolems: []
+  c_0_107:
+    counts:
+      a_1_2_card_fil: 1
+      k1_xboole_0: 1
+      k4_xboole_0: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_108:
+    counts:
+      a_1_2_card_fil: 1
+      k1_card_1: 2
+      k1_zfmisc_1: 2
+      k4_xboole_0: 1
+      k9_subset_1: 2
+      m1_subset_1: 2
+      r2_hidden: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_109:
+    counts:
+      k1_zfmisc_1: 2
+      k9_subset_1: 1
+      m1_subset_1: 2
+    skolems: []
+  c_0_113:
+    counts:
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_115:
+    counts:
+      k4_xboole_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_116:
+    counts:
+      a_1_2_card_fil: 2
+      k4_xboole_0: 2
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_117:
+    counts:
+      a_1_2_card_fil: 1
+      k1_card_1: 2
+      k1_zfmisc_1: 1
+      k4_xboole_0: 1
+      k9_subset_1: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_118:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+    skolems: []
+  c_0_119:
+    counts:
+      k1_zfmisc_1: 2
+      m1_card_fil: 1
+      m1_subset_1: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_120:
+    counts:
+      m1_card_fil: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_121:
+    counts:
+      v1_finset_1: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_124:
+    counts:
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_125:
+    counts:
+      a_1_2_card_fil: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_126:
+    counts:
+      a_1_2_card_fil: 1
+      k1_card_1: 2
+      k4_xboole_0: 1
+      k9_subset_1: 1
+      r2_hidden: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_127:
+    counts:
+      k1_zfmisc_1: 1
+      k4_xboole_0: 2
+      k9_subset_1: 1
+      m1_subset_1: 1
+    skolems: []
+  c_0_128:
+    counts:
+      k1_xboole_0: 1
+      k1_zfmisc_1: 1
+      k4_xboole_0: 1
+      m1_subset_1: 1
+    skolems: []
+  c_0_132:
+    counts:
+      k1_zfmisc_1: 1
+      k4_xboole_0: 1
+      m1_card_fil: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+      v1_xboole_0: 2
+    skolems: []
+  c_0_134:
+    counts:
+      k1_card_1: 2
+      k4_xboole_0: 1
+      k9_subset_1: 1
+      m1_subset_1: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_135:
+    counts:
+      k1_zfmisc_1: 2
+      k9_subset_1: 1
+      m1_subset_1: 2
+    skolems: []
+  c_0_136:
+    counts:
+      k1_zfmisc_1: 2
+      m1_subset_1: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_137:
+    counts:
+      v1_xboole_0: 1
+    skolems:
+    - esk1_0
+  c_0_139:
+    counts:
+      k1_zfmisc_1: 1
+      k4_xboole_0: 1
+      m1_card_fil: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_140:
+    counts:
+      k1_card_1: 2
+      k1_zfmisc_1: 1
+      k4_xboole_0: 1
+      m1_subset_1: 2
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_141:
+    counts:
+      k1_zfmisc_1: 2
+      m1_subset_1: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_142:
+    counts:
+      k1_card_1: 2
+      m1_card_fil: 1
+      v1_card_fil: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk3_2
+  c_0_143:
+    counts:
+      k1_card_1: 2
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_144:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_146:
+    counts:
+      k1_card_1: 2
+      r2_hidden: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_147:
+    counts:
+      m1_card_fil: 1
+      r2_hidden: 1
+      v1_card_fil: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk3_2
+  c_0_148:
+    counts:
+      v1_card_fil: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_149:
+    counts:
+      k1_card_1: 2
+      m1_card_fil: 1
+      r2_hidden: 1
+      v1_card_fil: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk1_0
+    - esk3_2
+    - esk2_0
+  c_0_152:
+    counts:
+      k1_card_1: 2
+      m1_card_fil: 1
+      v1_card_fil: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_27:
+    counts:
+      r1_ordinal1: 1
+      r1_tarski: 1
+      v3_ordinal1: 2
+    skolems: []
+  c_0_28:
+    counts:
+      r1_ordinal1: 1
+      r2_hidden: 1
+      v1_card_1: 2
+    skolems: []
+  c_0_41:
+    counts:
+      v1_card_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_42:
+    counts:
+      k1_card_1: 2
+      r1_ordinal1: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_43:
+    counts:
+      k1_card_1: 1
+      v1_card_1: 1
+    skolems: []
+  c_0_44:
+    counts:
+      k3_xboole_0: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_45:
+    counts:
+      k3_xboole_0: 1
+      k4_xboole_0: 2
+    skolems: []
+  c_0_46:
+    counts:
+      k3_xboole_0: 2
+    skolems: []
+  c_0_47:
+    counts:
+      k1_xboole_0: 2
+      k3_xboole_0: 1
+    skolems: []
+  c_0_49:
+    counts:
+      a_1_2_card_fil: 1
+      k1_card_1: 2
+      k1_zfmisc_1: 1
+      k6_subset_1: 1
+      m1_subset_1: 1
+      r2_hidden: 2
+      v1_finset_1: 1
+    skolems: []
+  c_0_50:
+    counts:
+      k4_xboole_0: 1
+      k6_subset_1: 1
+    skolems: []
+  c_0_51:
+    counts:
+      r1_tarski: 2
+    skolems: []
+  c_0_52:
+    counts:
+      r1_tarski: 1
+      r2_hidden: 1
+      v1_card_1: 2
+      v3_ordinal1: 2
+    skolems: []
+  c_0_56:
+    counts:
+      k4_xboole_0: 2
+      r1_tarski: 1
+    skolems: []
+  c_0_57:
+    counts:
+      k4_xboole_0: 4
+    skolems: []
+  c_0_58:
+    counts:
+      k1_xboole_0: 2
+      k4_xboole_0: 2
+    skolems: []
+  c_0_59:
+    counts:
+      k1_xboole_0: 1
+      k4_xboole_0: 1
+    skolems: []
+  c_0_62:
+    counts:
+      a_1_2_card_fil: 1
+      k1_card_1: 2
+      k1_zfmisc_1: 1
+      k4_xboole_0: 1
+      m1_subset_1: 1
+      r2_hidden: 2
+      v1_finset_1: 1
+    skolems: []
+  c_0_64:
+    counts:
+      r1_tarski: 1
+      r2_hidden: 1
+      v1_card_1: 2
+    skolems: []
+  c_0_65:
+    counts:
+      k1_card_1: 4
+      r1_tarski: 2
+      v3_ordinal1: 2
+    skolems: []
+  c_0_66:
+    counts:
+      k1_card_1: 1
+      v3_ordinal1: 1
+    skolems: []
+  c_0_73:
+    counts:
+      k1_zfmisc_1: 1
+      k6_subset_1: 1
+      m1_subset_1: 1
+    skolems: []
+  c_0_77:
+    counts:
+      r1_tarski: 1
+      r2_hidden: 1
+      v1_card_1: 2
+    skolems: []
+  c_0_78:
+    counts:
+      k1_card_1: 2
+      r1_tarski: 2
+    skolems: []
+  c_0_79:
+    counts:
+      k1_zfmisc_1: 1
+      k3_xboole_0: 1
+      k9_subset_1: 1
+      m1_subset_1: 1
+    skolems: []
+  c_0_80:
+    counts:
+      k4_xboole_0: 2
+      r1_tarski: 1
+    skolems: []
+  c_0_81:
+    counts:
+      k1_xboole_0: 1
+      k4_xboole_0: 1
+    skolems: []
+  c_0_82:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      r1_tarski: 1
+    skolems: []
+  c_0_84:
+    counts:
+      k4_card_fil: 1
+      r1_tarski: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_85:
+    counts:
+      a_1_2_card_fil: 1
+      k4_card_fil: 1
+      v1_finset_1: 1
+    skolems: []
+  c_0_86:
+    counts:
+      v1_finset_1: 1
+    skolems:
+    - esk1_0
+  c_0_87:
+    counts:
+      a_1_2_card_fil: 1
+      k1_card_1: 2
+      k1_zfmisc_1: 1
+      k4_xboole_0: 1
+      m1_subset_1: 1
+      r2_hidden: 2
+      v1_finset_1: 1
+    skolems: []
+  c_0_88:
+    counts:
+      k1_card_1: 4
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_89:
+    counts:
+      k1_zfmisc_1: 1
+      k4_xboole_0: 2
+      k9_subset_1: 1
+      m1_subset_1: 1
+    skolems: []
+  c_0_91:
+    counts:
+      k1_xboole_0: 1
+      k4_xboole_0: 2
+      r1_tarski: 2
+    skolems: []
+  c_0_97:
+    counts:
+      a_1_2_card_fil: 1
+      k1_card_1: 2
+      k1_zfmisc_1: 1
+      k4_xboole_0: 2
+      m1_subset_1: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      v1_finset_1: 1
+    skolems: []
+symbols:
+  a_1_2_card_fil:
+    arity: 1
+    count: 16
+    mizar: a_1_2_card_fil
+    neg: 1
+    pos: 15
+    url: null
+    vizar: a_1_2_card_fil(x)
+  k1_card_1:
+    arity: 1
+    count: 51
+    mizar: card
+    neg: 18
+    pos: 33
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#K1
+    vizar: '|x|'
+  k1_xboole_0:
+    arity: 0
+    count: 13
+    mizar: '{}'
+    neg: 0
+    pos: 13
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K1
+    vizar: "\xD8"
+  k1_zfmisc_1:
+    arity: 1
+    count: 42
+    mizar: bool
+    neg: 28
+    pos: 14
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
+    vizar: bool(x)
+  k3_xboole_0:
+    arity: 2
+    count: 6
+    mizar: /\
+    neg: 0
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K3
+    vizar: "x \u2229 y"
+  k4_card_fil:
+    arity: 1
+    count: 4
+    mizar: Frechet_Filter
+    neg: 0
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fil.html#K4
+    vizar: Frechet_Filter(x)
+  k4_xboole_0:
+    arity: 2
+    count: 55
+    mizar: \
+    neg: 10
+    pos: 45
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K4
+    vizar: x \ y
+  k6_subset_1:
+    arity: 2
+    count: 4
+    mizar: \
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#K6
+    vizar: x \ y
+  k9_subset_1:
+    arity: 3
+    count: 13
+    mizar: /\
+    neg: 2
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#K9
+    vizar: /\
+  m1_card_fil:
+    arity: 2
+    count: 15
+    mizar: Filter
+    neg: 13
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fil.html#M1
+    vizar: Filter(x,y)
+  m1_subset_1:
+    arity: 2
+    count: 48
+    mizar: Element
+    neg: 32
+    pos: 16
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  r1_ordinal1:
+    arity: 2
+    count: 6
+    mizar: c=
+    neg: 2
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#R1
+    vizar: x c= y
+  r1_tarski:
+    arity: 2
+    count: 30
+    mizar: c=
+    neg: 19
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1
+    vizar: "x \u2286 y"
+  r2_hidden:
+    arity: 2
+    count: 41
+    mizar: in
+    neg: 22
+    pos: 19
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2
+    vizar: "x \u2208 y"
+  v1_card_1:
+    arity: 1
+    count: 14
+    mizar: cardinal
+    neg: 12
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#V1
+    vizar: "x \u2208 Card"
+  v1_card_fil:
+    arity: 2
+    count: 8
+    mizar: uniform
+    neg: 2
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fil.html#V1
+    vizar: uniform(x,y)
+  v1_finset_1:
+    arity: 1
+    count: 15
+    mizar: finite
+    neg: 2
+    pos: 13
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finset_1.html#V1
+    vizar: finite(x)
+  v1_xboole_0:
+    arity: 1
+    count: 22
+    mizar: empty
+    neg: 5
+    pos: 17
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1
+    vizar: "x = \xD8"
+  v3_ordinal1:
+    arity: 1
+    count: 11
+    mizar: ordinal
+    neg: 8
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V3
+    vizar: ordinal(x)
+tptp:
+  c_0_100: "cnf(c_0_100,plain,\n    ( m1_subset_1(X1,X3)\n    | ~ r2_hidden(X1,X2)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(X3)) ))."
+  c_0_101: "cnf(c_0_101,plain,\n    ( k4_xboole_0(X1,X2) = k1_xboole_0\n    | ~ r1_tarski(X1,X2)\
+    \ ))."
+  c_0_102: "cnf(c_0_102,negated_conjecture,\n    ( r1_tarski(a_1_2_card_fil(esk1_0),esk2_0)\
+    \ ))."
+  c_0_103: "cnf(c_0_103,plain,\n    ( k1_card_1(k9_subset_1(X3,X1,X2)) = k1_card_1(X1)\n\
+    \    | r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))\n    | v1_finset_1(X1)\n\
+    \    | ~ r1_tarski(k9_subset_1(X3,X1,X2),X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(X3))\
+    \ ))."
+  c_0_104: "cnf(c_0_104,plain,\n    ( v1_xboole_0(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(X1))\n\
+    \    | ~ m1_card_fil(X3,X1)\n    | ~ r2_hidden(X2,X3)\n    | ~ r2_hidden(k6_subset_1(X1,X2),X3)\
+    \ ))."
+  c_0_107: "cnf(c_0_107,negated_conjecture,\n    ( k4_xboole_0(a_1_2_card_fil(esk1_0),esk2_0)\
+    \ = k1_xboole_0 ))."
+  c_0_108: "cnf(c_0_108,plain,\n    ( k1_card_1(k9_subset_1(X1,X2,X3)) = k1_card_1(X2)\n\
+    \    | r2_hidden(k4_xboole_0(X2,X3),a_1_2_card_fil(X2))\n    | v1_finset_1(X2)\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(X1))\n    | ~ m1_subset_1(k9_subset_1(X1,X2,X3),k1_zfmisc_1(X2))\
+    \ ))."
+  c_0_109: "cnf(c_0_109,plain,\n    ( m1_subset_1(k9_subset_1(X3,X1,X2),k1_zfmisc_1(X1))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(X3)) ))."
+  c_0_113: "cnf(c_0_113,plain,\n    ( v1_xboole_0(X2)\n    | r2_hidden(X1,X2)\n  \
+    \  | ~ m1_subset_1(X1,X2) ))."
+  c_0_115: "cnf(c_0_115,plain,\n    ( m1_subset_1(X1,X2)\n    | ~ r2_hidden(X1,k4_xboole_0(X2,X3))\
+    \ ))."
+  c_0_116: "cnf(c_0_116,negated_conjecture,\n    ( k4_xboole_0(esk2_0,k4_xboole_0(esk2_0,a_1_2_card_fil(esk1_0)))\
+    \ = a_1_2_card_fil(esk1_0) ))."
+  c_0_117: "cnf(c_0_117,plain,\n    ( k1_card_1(k9_subset_1(X1,X2,X3)) = k1_card_1(X2)\n\
+    \    | r2_hidden(k4_xboole_0(X2,X3),a_1_2_card_fil(X2))\n    | v1_finset_1(X2)\n\
+    \    | ~ m1_subset_1(X3,k1_zfmisc_1(X1)) ))."
+  c_0_118: "cnf(c_0_118,plain,\n    ( m1_subset_1(X1,k1_zfmisc_1(X1)) ))."
+  c_0_119: "cnf(c_0_119,plain,\n    ( m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(X2)))\n\
+    \    | v1_xboole_0(X2)\n    | ~ m1_card_fil(X1,X2) ))."
+  c_0_120: "cnf(c_0_120,negated_conjecture,\n    ( m1_card_fil(esk2_0,esk1_0) ))."
+  c_0_121: "cnf(c_0_121,plain,\n    ( v1_finset_1(X1)\n    | ~ v1_xboole_0(X1) ))."
+  c_0_124: "cnf(c_0_124,plain,\n    ( ~ r2_hidden(X1,X2)\n    | ~ v1_xboole_0(X2)\
+    \ ))."
+  c_0_125: "cnf(c_0_125,negated_conjecture,\n    ( m1_subset_1(X1,esk2_0)\n    | ~\
+    \ r2_hidden(X1,a_1_2_card_fil(esk1_0)) ))."
+  c_0_126: "cnf(c_0_126,plain,\n    ( k1_card_1(k9_subset_1(X1,X2,X1)) = k1_card_1(X2)\n\
+    \    | r2_hidden(k4_xboole_0(X2,X1),a_1_2_card_fil(X2))\n    | v1_finset_1(X2)\
+    \ ))."
+  c_0_127: "cnf(c_0_127,plain,\n    ( k4_xboole_0(X1,k4_xboole_0(X1,X2)) = k9_subset_1(X3,X2,X1)\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(X3)) ))."
+  c_0_128: "cnf(c_0_128,plain,\n    ( k4_xboole_0(X1,X2) = k1_xboole_0\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X2))\
+    \ ))."
+  c_0_132: "cnf(c_0_132,plain,\n    ( v1_xboole_0(X1)\n    | v1_xboole_0(X3)\n   \
+    \ | ~ m1_subset_1(X2,k1_zfmisc_1(X1))\n    | ~ r2_hidden(X2,X3)\n    | ~ m1_card_fil(X3,X1)\n\
+    \    | ~ m1_subset_1(k4_xboole_0(X1,X2),X3) ))."
+  c_0_134: "cnf(c_0_134,negated_conjecture,\n    ( m1_subset_1(k4_xboole_0(esk1_0,X1),esk2_0)\n\
+    \    | k1_card_1(k9_subset_1(X1,esk1_0,X1)) = k1_card_1(esk1_0) ))."
+  c_0_135: "cnf(c_0_135,plain,\n    ( k9_subset_1(X3,X2,X1) = X1\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X3))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(X2)) ))."
+  c_0_136: "cnf(c_0_136,negated_conjecture,\n    ( m1_subset_1(esk2_0,k1_zfmisc_1(k1_zfmisc_1(esk1_0)))\n\
+    \    | v1_xboole_0(esk1_0) ))."
+  c_0_137: "cnf(c_0_137,negated_conjecture,\n    ( ~ v1_xboole_0(esk1_0) ))."
+  c_0_139: "cnf(c_0_139,plain,\n    ( v1_xboole_0(X1)\n    | ~ m1_subset_1(k4_xboole_0(X1,X2),X3)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(X1))\n    | ~ r2_hidden(X2,X3)\n    | ~ m1_card_fil(X3,X1)\
+    \ ))."
+  c_0_140: "cnf(c_0_140,negated_conjecture,\n    ( k1_card_1(X1) = k1_card_1(esk1_0)\n\
+    \    | m1_subset_1(k4_xboole_0(esk1_0,X1),esk2_0)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(esk1_0))\
+    \ ))."
+  c_0_141: "cnf(c_0_141,negated_conjecture,\n    ( m1_subset_1(esk2_0,k1_zfmisc_1(k1_zfmisc_1(esk1_0)))\
+    \ ))."
+  c_0_142: "cnf(c_0_142,plain,\n    ( v1_card_fil(X2,X1)\n    | v1_xboole_0(X1)\n\
+    \    | k1_card_1(esk3_2(X1,X2)) != k1_card_1(X1)\n    | ~ m1_card_fil(X2,X1) ))."
+  c_0_143: "cnf(c_0_143,negated_conjecture,\n    ( k1_card_1(X1) = k1_card_1(esk1_0)\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(esk1_0))\n    | ~ r2_hidden(X1,esk2_0) ))."
+  c_0_144: "cnf(c_0_144,negated_conjecture,\n    ( m1_subset_1(X1,k1_zfmisc_1(esk1_0))\n\
+    \    | ~ r2_hidden(X1,esk2_0) ))."
+  c_0_146: "cnf(c_0_146,negated_conjecture,\n    ( k1_card_1(X1) = k1_card_1(esk1_0)\n\
+    \    | ~ r2_hidden(X1,esk2_0) ))."
+  c_0_147: "cnf(c_0_147,plain,\n    ( r2_hidden(esk3_2(X1,X2),X2)\n    | v1_card_fil(X2,X1)\n\
+    \    | v1_xboole_0(X1)\n    | ~ m1_card_fil(X2,X1) ))."
+  c_0_148: "cnf(c_0_148,negated_conjecture,\n    ( ~ v1_card_fil(esk2_0,esk1_0) ))."
+  c_0_149: "cnf(c_0_149,negated_conjecture,\n    ( v1_xboole_0(X1)\n    | v1_card_fil(X2,X1)\n\
+    \    | k1_card_1(esk1_0) != k1_card_1(X1)\n    | ~ m1_card_fil(X2,X1)\n    | ~\
+    \ r2_hidden(esk3_2(X1,X2),esk2_0) ))."
+  c_0_152: "cnf(c_0_152,negated_conjecture,\n    ( v1_xboole_0(X1)\n    | v1_card_fil(esk2_0,X1)\n\
+    \    | k1_card_1(esk1_0) != k1_card_1(X1)\n    | ~ m1_card_fil(esk2_0,X1) ))."
+  c_0_153: "cnf(c_0_153,negated_conjecture,\n    ( $false ))."
+  c_0_27: "cnf(c_0_27,plain,\n    ( r1_tarski(X1,X2)\n    | ~ r1_ordinal1(X1,X2)\n\
+    \    | ~ v3_ordinal1(X1)\n    | ~ v3_ordinal1(X2) ))."
+  c_0_28: "cnf(c_0_28,plain,\n    ( r1_ordinal1(X1,X2)\n    | r2_hidden(X2,X1)\n \
+    \   | ~ v1_card_1(X1)\n    | ~ v1_card_1(X2) ))."
+  c_0_41: "cnf(c_0_41,plain,\n    ( v3_ordinal1(X1)\n    | ~ v1_card_1(X1) ))."
+  c_0_42: "cnf(c_0_42,plain,\n    ( r1_ordinal1(k1_card_1(X1),k1_card_1(X2))\n   \
+    \ | ~ r1_tarski(X1,X2) ))."
+  c_0_43: "cnf(c_0_43,plain,\n    ( v1_card_1(k1_card_1(X1)) ))."
+  c_0_44: "cnf(c_0_44,plain,\n    ( k3_xboole_0(X1,X2) = X1\n    | ~ r1_tarski(X1,X2)\
+    \ ))."
+  c_0_45: "cnf(c_0_45,plain,\n    ( k4_xboole_0(X1,k4_xboole_0(X1,X2)) = k3_xboole_0(X1,X2)\
+    \ ))."
+  c_0_46: "cnf(c_0_46,plain,\n    ( k3_xboole_0(X1,X2) = k3_xboole_0(X2,X1) ))."
+  c_0_47: "cnf(c_0_47,plain,\n    ( k3_xboole_0(X1,k1_xboole_0) = k1_xboole_0 ))."
+  c_0_49: "cnf(c_0_49,plain,\n    ( r2_hidden(X3,a_1_2_card_fil(X2))\n    | v1_finset_1(X2)\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(X2))\n    | X3 != X1\n    | ~ r2_hidden(k1_card_1(k6_subset_1(X2,X1)),k1_card_1(X2))\
+    \ ))."
+  c_0_50: "cnf(c_0_50,plain,\n    ( k6_subset_1(X1,X2) = k4_xboole_0(X1,X2) ))."
+  c_0_51: "cnf(c_0_51,plain,\n    ( X1 = X2\n    | ~ r1_tarski(X1,X2)\n    | ~ r1_tarski(X2,X1)\
+    \ ))."
+  c_0_52: "cnf(c_0_52,plain,\n    ( r1_tarski(X1,X2)\n    | r2_hidden(X2,X1)\n   \
+    \ | ~ v3_ordinal1(X2)\n    | ~ v3_ordinal1(X1)\n    | ~ v1_card_1(X2)\n    | ~\
+    \ v1_card_1(X1) ))."
+  c_0_56: "cnf(c_0_56,plain,\n    ( k4_xboole_0(X1,k4_xboole_0(X1,X2)) = X1\n    |\
+    \ ~ r1_tarski(X1,X2) ))."
+  c_0_57: "cnf(c_0_57,plain,\n    ( k4_xboole_0(X1,k4_xboole_0(X1,X2)) = k4_xboole_0(X2,k4_xboole_0(X2,X1))\
+    \ ))."
+  c_0_58: "cnf(c_0_58,plain,\n    ( k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0)) =\
+    \ k1_xboole_0 ))."
+  c_0_59: "cnf(c_0_59,plain,\n    ( k4_xboole_0(X1,k1_xboole_0) = X1 ))."
+  c_0_62: "cnf(c_0_62,plain,\n    ( v1_finset_1(X2)\n    | r2_hidden(X3,a_1_2_card_fil(X2))\n\
+    \    | X1 != X3\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X2))\n    | ~ r2_hidden(k1_card_1(k4_xboole_0(X2,X1)),k1_card_1(X2))\
+    \ ))."
+  c_0_64: "cnf(c_0_64,plain,\n    ( r2_hidden(X1,X2)\n    | r1_tarski(X2,X1)\n   \
+    \ | ~ v1_card_1(X1)\n    | ~ v1_card_1(X2) ))."
+  c_0_65: "cnf(c_0_65,plain,\n    ( r1_tarski(k1_card_1(X1),k1_card_1(X2))\n    |\
+    \ ~ v3_ordinal1(k1_card_1(X2))\n    | ~ v3_ordinal1(k1_card_1(X1))\n    | ~ r1_tarski(X1,X2)\
+    \ ))."
+  c_0_66: "cnf(c_0_66,plain,\n    ( v3_ordinal1(k1_card_1(X1)) ))."
+  c_0_73: "cnf(c_0_73,plain,\n    ( m1_subset_1(k6_subset_1(X1,X2),k1_zfmisc_1(X1))\
+    \ ))."
+  c_0_77: "cnf(c_0_77,plain,\n    ( X1 = X2\n    | r2_hidden(X1,X2)\n    | ~ r1_tarski(X1,X2)\n\
+    \    | ~ v1_card_1(X1)\n    | ~ v1_card_1(X2) ))."
+  c_0_78: "cnf(c_0_78,plain,\n    ( r1_tarski(k1_card_1(X1),k1_card_1(X2))\n    |\
+    \ ~ r1_tarski(X1,X2) ))."
+  c_0_79: "cnf(c_0_79,plain,\n    ( k9_subset_1(X2,X3,X1) = k3_xboole_0(X3,X1)\n \
+    \   | ~ m1_subset_1(X1,k1_zfmisc_1(X2)) ))."
+  c_0_80: "cnf(c_0_80,plain,\n    ( k4_xboole_0(X2,k4_xboole_0(X2,X1)) = X1\n    |\
+    \ ~ r1_tarski(X1,X2) ))."
+  c_0_81: "cnf(c_0_81,plain,\n    ( k4_xboole_0(X1,X1) = k1_xboole_0 ))."
+  c_0_82: "cnf(c_0_82,plain,\n    ( r1_tarski(X1,X2)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X2))\
+    \ ))."
+  c_0_84: "cnf(c_0_84,negated_conjecture,\n    ( r1_tarski(k4_card_fil(esk1_0),esk2_0)\
+    \ ))."
+  c_0_85: "cnf(c_0_85,plain,\n    ( v1_finset_1(X1)\n    | k4_card_fil(X1) = a_1_2_card_fil(X1)\
+    \ ))."
+  c_0_86: "cnf(c_0_86,negated_conjecture,\n    ( ~ v1_finset_1(esk1_0) ))."
+  c_0_87: "cnf(c_0_87,plain,\n    ( r2_hidden(X1,a_1_2_card_fil(X2))\n    | v1_finset_1(X2)\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(X2))\n    | ~ r2_hidden(k1_card_1(k4_xboole_0(X2,X1)),k1_card_1(X2))\
+    \ ))."
+  c_0_88: "cnf(c_0_88,plain,\n    ( k1_card_1(X1) = k1_card_1(X2)\n    | r2_hidden(k1_card_1(X1),k1_card_1(X2))\n\
+    \    | ~ r1_tarski(X1,X2) ))."
+  c_0_89: "cnf(c_0_89,plain,\n    ( k9_subset_1(X2,X3,X1) = k4_xboole_0(X3,k4_xboole_0(X3,X1))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(X2)) ))."
+  c_0_91: "cnf(c_0_91,plain,\n    ( k4_xboole_0(X1,X2) = k1_xboole_0\n    | ~ r1_tarski(k4_xboole_0(X1,X2),X1)\n\
+    \    | ~ r1_tarski(X1,X2) ))."
+  c_0_97: "cnf(c_0_97,plain,\n    ( r2_hidden(X1,a_1_2_card_fil(X2))\n    | v1_finset_1(X2)\n\
+    \    | k1_card_1(k4_xboole_0(X2,X1)) = k1_card_1(X2)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X2))\n\
+    \    | ~ r1_tarski(k4_xboole_0(X2,X1),X2) ))."
+  cc1_card_1: "fof(cc1_card_1,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ v3_ordinal1(X1) ) ))."
+  cc1_finset_1: "fof(cc1_finset_1,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n\
+    \     => v1_finset_1(X1) ) ))."
+  commutativity_k3_xboole_0: "fof(commutativity_k3_xboole_0,axiom,(\n    ! [X1,X2]\
+    \ : k3_xboole_0(X1,X2) = k3_xboole_0(X2,X1) ))."
+  d10_card_fil: "fof(d10_card_fil,axiom,(\n    ! [X1] :\n      ( ~ v1_finset_1(X1)\n\
+    \     => k4_card_fil(X1) = a_1_2_card_fil(X1) ) ))."
+  d10_xboole_0: "fof(d10_xboole_0,axiom,(\n    ! [X1,X2] :\n      ( X1 = X2\n    <=>\
+    \ ( r1_tarski(X1,X2)\n        & r1_tarski(X2,X1) ) ) ))."
+  d5_card_fil: "fof(d5_card_fil,axiom,(\n    ! [X1] :\n      ( ~ v1_xboole_0(X1)\n\
+    \     => ! [X2] :\n          ( m1_card_fil(X2,X1)\n         => ( v1_card_fil(X2,X1)\n\
+    \          <=> ! [X3] :\n                ( m1_subset_1(X3,k1_zfmisc_1(X1))\n \
+    \              => ( r2_hidden(X3,X2)\n                 => k1_card_1(X3) = k1_card_1(X1)\
+    \ ) ) ) ) ) ))."
+  dt_k1_card_1: "fof(dt_k1_card_1,axiom,(\n    ! [X1] : v1_card_1(k1_card_1(X1)) ))."
+  dt_k6_subset_1: "fof(dt_k6_subset_1,axiom,(\n    ! [X1,X2] : m1_subset_1(k6_subset_1(X1,X2),k1_zfmisc_1(X1))\
+    \ ))."
+  dt_m1_card_fil: "fof(dt_m1_card_fil,axiom,(\n    ! [X1] :\n      ( ~ v1_xboole_0(X1)\n\
+    \     => ! [X2] :\n          ( m1_card_fil(X2,X1)\n         => ( ~ v1_xboole_0(X2)\n\
+    \            & m1_subset_1(X2,k1_zfmisc_1(k1_zfmisc_1(X1))) ) ) ) ))."
+  fraenkel_a_1_2_card_fil: "fof(fraenkel_a_1_2_card_fil,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ~ v1_finset_1(X2)\n     => ( r2_hidden(X1,a_1_2_card_fil(X2))\n     \
+    \ <=> ? [X3] :\n            ( m1_subset_1(X3,k1_zfmisc_1(X2))\n            & X1\
+    \ = X3\n            & r2_hidden(k1_card_1(k6_subset_1(X2,X3)),k1_card_1(X2)) )\
+    \ ) ) ))."
+  redefinition_k6_subset_1: "fof(redefinition_k6_subset_1,axiom,(\n    ! [X1,X2] :\
+    \ k6_subset_1(X1,X2) = k4_xboole_0(X1,X2) ))."
+  redefinition_k9_subset_1: "fof(redefinition_k9_subset_1,axiom,(\n    ! [X1,X2,X3]\
+    \ :\n      ( m1_subset_1(X3,k1_zfmisc_1(X1))\n     => k9_subset_1(X1,X2,X3) =\
+    \ k3_xboole_0(X2,X3) ) ))."
+  redefinition_r1_ordinal1: "fof(redefinition_r1_ordinal1,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( v3_ordinal1(X1)\n        & v3_ordinal1(X2) )\n     => ( r1_ordinal1(X1,X2)\n\
+    \      <=> r1_tarski(X1,X2) ) ) ))."
+  t11_card_1: "fof(t11_card_1,axiom,(\n    ! [X1,X2] :\n      ( r1_tarski(X1,X2)\n\
+    \     => r1_ordinal1(k1_card_1(X1),k1_card_1(X2)) ) ))."
+  t20_card_fil: "fof(t20_card_fil,conjecture,(\n    ! [X1] :\n      ( ~ v1_finset_1(X1)\n\
+    \     => ! [X2] :\n          ( m1_card_fil(X2,X1)\n         => ( r1_tarski(k4_card_fil(X1),X2)\n\
+    \           => v1_card_fil(X2,X1) ) ) ) ))."
+  t28_xboole_1: "fof(t28_xboole_1,axiom,(\n    ! [X1,X2] :\n      ( r1_tarski(X1,X2)\n\
+    \     => k3_xboole_0(X1,X2) = X1 ) ))."
+  t2_boole: "fof(t2_boole,axiom,(\n    ! [X1] : k3_xboole_0(X1,k1_xboole_0) = k1_xboole_0\
+    \ ))."
+  t2_subset: "fof(t2_subset,axiom,(\n    ! [X1,X2] :\n      ( m1_subset_1(X1,X2)\n\
+    \     => ( v1_xboole_0(X2)\n        | r2_hidden(X1,X2) ) ) ))."
+  t3_boole: "fof(t3_boole,axiom,(\n    ! [X1] : k4_xboole_0(X1,k1_xboole_0) = X1 ))."
+  t3_subset: "fof(t3_subset,axiom,(\n    ! [X1,X2] :\n      ( m1_subset_1(X1,k1_zfmisc_1(X2))\n\
+    \    <=> r1_tarski(X1,X2) ) ))."
+  t48_xboole_1: "fof(t48_xboole_1,axiom,(\n    ! [X1,X2] : k4_xboole_0(X1,k4_xboole_0(X1,X2))\
+    \ = k3_xboole_0(X1,X2) ))."
+  t4_card_1: "fof(t4_card_1,axiom,(\n    ! [X1] :\n      ( v1_card_1(X1)\n     =>\
+    \ ! [X2] :\n          ( v1_card_1(X2)\n         => ( r2_hidden(X1,X2)\n      \
+    \    <=> ~ r1_ordinal1(X2,X1) ) ) ) ))."
+  t4_subset: "fof(t4_subset,axiom,(\n    ! [X1,X2,X3] :\n      ( ( r2_hidden(X1,X2)\n\
+    \        & m1_subset_1(X2,k1_zfmisc_1(X3)) )\n     => m1_subset_1(X1,X3) ) ))."
+  t6_card_fil: "fof(t6_card_fil,axiom,(\n    ! [X1] :\n      ( ~ v1_xboole_0(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,k1_zfmisc_1(X1))\n         => !\
+    \ [X3] :\n              ( m1_card_fil(X3,X1)\n             => ~ ( r2_hidden(X2,X3)\n\
+    \                  & r2_hidden(k6_subset_1(X1,X2),X3) ) ) ) ) ))."
+  t7_boole: "fof(t7_boole,axiom,(\n    ! [X1,X2] :\n      ~ ( r2_hidden(X1,X2)\n \
+    \       & v1_xboole_0(X2) ) ))."
+

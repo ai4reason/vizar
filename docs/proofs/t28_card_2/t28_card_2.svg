@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="315,-60 315,-92 411,-92 411,-60 315,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="203,-60 203,-92 299,-92 299,-60 203,-60"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -20,70 +20,70 @@
 <g id="node1" class="node">
 <title>t28_card_2</title>
 <g id="a_node1"><a xlink:href="t28_card_2.html" xlink:title="t28_card_2" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="323.5,-68.5 323.5,-83.5 402.5,-83.5 402.5,-68.5 323.5,-68.5"/>
-<text text-anchor="middle" x="363" y="-72.3" font-family="Times,serif" font-size="14.00">t28_card_2</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="211.5,-68.5 211.5,-83.5 290.5,-83.5 290.5,-68.5 211.5,-68.5"/>
+<text text-anchor="middle" x="251" y="-72.3" font-family="Times,serif" font-size="14.00">t28_card_2</text>
 </a>
 </g>
-</g>
-<!-- c_0_47 -->
-<g id="node2" class="node">
-<title>c_0_47</title>
-<g id="a_node2"><a xlink:href="c_0_47.html" xlink:title="{sk₂ ∈ Card}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="522,-16.5 522,-31.5 598,-31.5 598,-16.5 522,-16.5"/>
-<text text-anchor="middle" x="560" y="-20.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ Card</text>
-</a>
-</g>
-</g>
-<!-- t28_card_2&#45;&gt;c_0_47 -->
-<g id="edge1" class="edge">
-<title>t28_card_2&#45;&gt;c_0_47</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M402.87,-78C460.43,-78 560,-78 560,-78 560,-78 560,-41.51 560,-41.51"/>
-<polygon fill="black" stroke="black" points="563.5,-41.51 560,-31.51 556.5,-41.51 563.5,-41.51"/>
 </g>
 <!-- c_0_48 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_48</title>
-<g id="a_node3"><a xlink:href="c_0_48.html" xlink:title="{sk₁ ∈ Card}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="428,-16.5 428,-31.5 504,-31.5 504,-16.5 428,-16.5"/>
-<text text-anchor="middle" x="466" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ Card</text>
+<g id="a_node2"><a xlink:href="c_0_48.html" xlink:title="{sk₁ ∈ Card}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="522,-16.5 522,-31.5 598,-31.5 598,-16.5 522,-16.5"/>
+<text text-anchor="middle" x="560" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ Card</text>
 </a>
 </g>
 </g>
 <!-- t28_card_2&#45;&gt;c_0_48 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t28_card_2&#45;&gt;c_0_48</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M402.53,-73C431.57,-73 466,-73 466,-73 466,-73 466,-41.66 466,-41.66"/>
-<polygon fill="black" stroke="black" points="469.5,-41.66 466,-31.66 462.5,-41.66 469.5,-41.66"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M290.76,-76C374.22,-76 560,-76 560,-76 560,-76 560,-41.67 560,-41.67"/>
+<polygon fill="black" stroke="black" points="563.5,-41.67 560,-31.67 556.5,-41.67 563.5,-41.67"/>
 </g>
 <!-- c_0_45 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_45</title>
-<g id="a_node4"><a xlink:href="c_0_45.html" xlink:title="{sk₁ ^ (sk₂ + sk₃) ≠ (sk₁ ^ sk₂) * (sk₁ ^ sk₃)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="110,-16.5 110,-31.5 410,-31.5 410,-16.5 110,-16.5"/>
-<text text-anchor="middle" x="260" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ^ (sk₂ + sk₃) ≠ (sk₁ ^ sk₂) * (sk₁ ^ sk₃)</text>
+<g id="a_node3"><a xlink:href="c_0_45.html" xlink:title="{sk₁ ^ (sk₂ + sk₃) ≠ (sk₁ ^ sk₂) * (sk₁ ^ sk₃)}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="204,-16.5 204,-31.5 504,-31.5 504,-16.5 204,-16.5"/>
+<text text-anchor="middle" x="354" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁ ^ (sk₂ + sk₃) ≠ (sk₁ ^ sk₂) * (sk₁ ^ sk₃)</text>
 </a>
 </g>
 </g>
 <!-- t28_card_2&#45;&gt;c_0_45 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>t28_card_2&#45;&gt;c_0_45</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M363,-68.33C363,-68.33 363,-41.7 363,-41.7"/>
-<polygon fill="black" stroke="black" points="366.5,-41.7 363,-31.7 359.5,-41.7 366.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M251,-68.33C251,-68.33 251,-41.7 251,-41.7"/>
+<polygon fill="black" stroke="black" points="254.5,-41.7 251,-31.7 247.5,-41.7 254.5,-41.7"/>
 </g>
 <!-- c_0_40 -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>c_0_40</title>
-<g id="a_node5"><a xlink:href="c_0_40.html" xlink:title="{sk₃ ∈ Card}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 92,-31.5 92,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="54" y="-20.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ Card</text>
+<g id="a_node4"><a xlink:href="c_0_40.html" xlink:title="{sk₃ ∈ Card}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="110,-16.5 110,-31.5 186,-31.5 186,-16.5 110,-16.5"/>
+<text text-anchor="middle" x="148" y="-20.3" font-family="Times,serif" font-size="14.00">sk₃ ∈ Card</text>
 </a>
 </g>
 </g>
 <!-- t28_card_2&#45;&gt;c_0_40 -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>t28_card_2&#45;&gt;c_0_40</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M323.24,-76C239.78,-76 54,-76 54,-76 54,-76 54,-41.67 54,-41.67"/>
-<polygon fill="black" stroke="black" points="57.5,-41.67 54,-31.67 50.5,-41.67 57.5,-41.67"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M211.47,-73C182.43,-73 148,-73 148,-73 148,-73 148,-41.66 148,-41.66"/>
+<polygon fill="black" stroke="black" points="151.5,-41.66 148,-31.66 144.5,-41.66 151.5,-41.66"/>
+</g>
+<!-- c_0_47 -->
+<g id="node5" class="node">
+<title>c_0_47</title>
+<g id="a_node5"><a xlink:href="c_0_47.html" xlink:title="{sk₂ ∈ Card}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 92,-31.5 92,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="54" y="-20.3" font-family="Times,serif" font-size="14.00">sk₂ ∈ Card</text>
+</a>
+</g>
+</g>
+<!-- t28_card_2&#45;&gt;c_0_47 -->
+<g id="edge4" class="edge">
+<title>t28_card_2&#45;&gt;c_0_47</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M211.13,-78C153.57,-78 54,-78 54,-78 54,-78 54,-41.51 54,-41.51"/>
+<polygon fill="black" stroke="black" points="57.5,-41.51 54,-31.51 50.5,-41.51 57.5,-41.51"/>
 </g>
 </g>
 </svg>

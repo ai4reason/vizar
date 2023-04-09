@@ -142,7 +142,7 @@ cnf(c_0_128, plain, (v7_ordinal1(X2)|~v6_membered(X1)|~m1_subset_1(X2,X1)), infe
 cnf(c_0_129, plain, (m1_subset_1(k1_nat_1(X1,X2),k5_numbers)|~v7_ordinal1(X1)|~m1_subset_1(X2,k5_numbers)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_115, c_0_116]), c_0_117])]), c_0_118])).
 cnf(c_0_130, plain, (v6_membered(k5_numbers)), inference(rw,[status(thm)],[c_0_119, c_0_106])).
 fof(c_0_131, plain, ![X138, X139]:(~v1_xxreal_0(X138)|~v1_xxreal_0(X139)|r1_xxreal_0(X138,X138)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[reflexivity_r1_xxreal_0])])).
-fof(c_0_132, plain, (((v1_xcmplx_0(esk17_0)&v1_xxreal_0(esk17_0))&v3_xxreal_0(esk17_0))&v1_xreal_0(esk17_0)), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[rc3_xreal_0])])).
+fof(c_0_132, plain, (((v1_xcmplx_0(esk3_0)&v1_xxreal_0(esk3_0))&v3_xxreal_0(esk3_0))&v1_xreal_0(esk3_0)), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[rc3_xreal_0])])).
 cnf(c_0_133, plain, (k1_nat_1(X1,X2)=k1_nat_1(X2,X1)|~v7_ordinal1(X1)|~m1_subset_1(X2,k5_numbers)), inference(split_conjunct,[status(thm)],[c_0_120])).
 cnf(c_0_134, plain, (m1_subset_1(k5_card_1(X1),k5_numbers)|~v1_finset_1(X1)), inference(rw,[status(thm)],[c_0_121, c_0_106])).
 cnf(c_0_135, plain, (k1_card_1(k6_glib_000(X1))=X2|~r1_xxreal_0(X2,k15_glib_000(X1))|~r1_xxreal_0(k15_glib_000(X1),X2)|~v7_ordinal1(X2)|~v2_glib_000(X1)|~v1_glib_000(X1)|~v1_finset_1(X1)|~v1_funct_1(X1)|~v4_relat_1(X1,k5_numbers)|~v1_relat_1(X1)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_122, c_0_123]), c_0_61])).
@@ -152,7 +152,7 @@ cnf(c_0_138, plain, (k1_nat_1(esk2_2(k16_lexbfs(X1),k15_glib_000(X1)),np__1)=esk
 cnf(c_0_139, plain, (v7_ordinal1(k1_nat_1(X1,X2))|~v7_ordinal1(X1)|~m1_subset_1(X2,k5_numbers)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_128, c_0_129]), c_0_130])])).
 cnf(c_0_140, plain, (m1_subset_1(np__1,k5_numbers)), inference(split_conjunct,[status(thm)],[spc1_numerals])).
 cnf(c_0_141, plain, (r1_xxreal_0(X1,X1)|~v1_xxreal_0(X1)|~v1_xxreal_0(X2)), inference(split_conjunct,[status(thm)],[c_0_131])).
-cnf(c_0_142, plain, (v1_xxreal_0(esk17_0)), inference(split_conjunct,[status(thm)],[c_0_132])).
+cnf(c_0_142, plain, (v1_xxreal_0(esk3_0)), inference(split_conjunct,[status(thm)],[c_0_132])).
 fof(c_0_143, plain, ![X229]:(~v1_xreal_0(X229)|v1_xxreal_0(X229)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc4_xreal_0])])).
 cnf(c_0_144, plain, (m1_subset_1(k1_nat_1(X1,X2),k5_numbers)|~v7_ordinal1(X2)|~m1_subset_1(X1,k5_numbers)), inference(spm,[status(thm)],[c_0_129, c_0_133])).
 cnf(c_0_145, plain, (m1_subset_1(k1_card_1(X1),k5_numbers)|~v1_finset_1(X1)), inference(spm,[status(thm)],[c_0_134, c_0_91])).

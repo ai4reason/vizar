@@ -1,10 +1,10 @@
 m1_hidden set
 r1_hidden =
 r1_hidden &lt;&gt;
-r2_hidden in
+r2_hidden ∈
 k1_tarski \{###1\}
 k2_tarski \{..\}
-r1_tarski c=
+r1_tarski ⊆
 k3_tarski union
 k4_tarski [..]
 r2_tarski are_equipotent
@@ -40,8 +40,8 @@ k7_xtuple_0 `1_4
 k8_xtuple_0 `2_4
 k5_xtuple_0 `3_4
 k2_xtuple_0 `4_4
-k9_xtuple_0 proj1
-k10_xtuple_0 proj2
+k9_xtuple_0 proj₁
+k10_xtuple_0 proj₂
 k11_xtuple_0 proj1_3
 k12_xtuple_0 proj2_3
 k10_xtuple_0 proj3_3
@@ -90,7 +90,7 @@ v2_setfam_1 with_non-empty_element
 m1_setfam_1 Cover
 v3_setfam_1 with_proper_subsets
 k9_setfam_1 bool
-v1_relat_1 Relation-like
+v1_relat_1 relation
 k1_relat_1 field
 k2_relat_1 ~
 k3_relat_1 (#)
@@ -106,9 +106,9 @@ k9_relat_1 Im
 k10_relat_1 Coim
 v4_relat_1 -defined
 v5_relat_1 -valued
-v1_funct_1 Function-like
-k1_funct_1 .
-v2_funct_1 one-to-one
+v1_funct_1 function
+k1_funct_1 ###1(###2)
+v2_funct_1 function
 k2_funct_1 "
 v3_funct_1 constant
 k3_funct_1 the_value_of
@@ -433,7 +433,7 @@ k4_card_1 succ
 k5_card_1 card
 k6_card_1 Segm
 k7_card_1 Segm
-v3_card_1 -element
+v3_card_1 \|###1\|=###2
 k1_funct_5 curry
 k2_funct_5 uncurry
 k3_funct_5 curry'
@@ -555,7 +555,7 @@ k3_arytm_0 opp
 k4_arytm_0 inv
 k5_arytm_0 [*..*]
 k1_xcmplx_0 &lt;i&gt;
-v1_xcmplx_0 complex
+v1_xcmplx_0 ###1 ∈ ℂ
 k2_xcmplx_0 +
 k3_xcmplx_0 *
 k4_xcmplx_0 -
@@ -822,15 +822,15 @@ v1_finseq_1 FinSequence-like
 k3_finseq_1 len
 k4_finseq_1 dom
 m1_finseq_1 FinSequence
-m2_finseq_1 FinSequence
-k5_finseq_1 &lt;*..*&gt;
+m2_finseq_1 ###1 ∈ fin-seq(###2)
+k5_finseq_1 &lt;###1&gt;
 k6_finseq_1 &lt;*&gt;
 k7_finseq_1 ^
 k8_finseq_1 ^
-k9_finseq_1 &lt;*..*&gt;
+k9_finseq_1 &lt;###1&gt;
 k10_finseq_1 &lt;*..*&gt;
 k11_finseq_1 &lt;*..*&gt;
-k12_finseq_1 &lt;*..*&gt;
+k12_finseq_1 &lt;###2&gt;
 k13_finseq_1 *
 v2_finseq_1 FinSubsequence-like
 k14_finseq_1 Sgm
@@ -916,7 +916,7 @@ k2_finseq_2 \|-&gt;
 m1_finseq_2 FinSequenceSet
 m2_finseq_2 ∈
 k3_finseq_2 *
-k4_finseq_2 -tuples_on
+k4_finseq_2 ###1-tuples(###2)
 k5_finseq_2 \|-&gt;
 k6_finseq_2 #
 k7_finseq_2 *--&gt;
@@ -12367,3 +12367,4 @@ k11_ratfunc1 NF
 k12_ratfunc1 degree
 k12_ratfunc1 deg
 k13_ratfunc1 eval
+a_1_0_finseq_2 \{&lt;x&gt;: x ∈ ###1\}

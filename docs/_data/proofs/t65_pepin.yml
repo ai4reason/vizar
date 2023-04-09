@@ -1,0 +1,1237 @@
+axioms:
+  cc1_xreal_0:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (X\u2081\
+      \ \u2208 \u211D) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#CC1
+  cc2_nat_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 \xAC negative(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#CC2
+  cc2_xreal_0:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (X\u2081\
+      \ \u2208 \u211D) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#CC2
+  cc3_nat_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 ( (X\u2081\
+      \ \u2208 \u2115)\n        \u2227 \xAC negative(X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#CC3
+  cc3_xreal_0:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (X\u2081\
+      \ \u2208 \u2102) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#CC3
+  cc4_xreal_0:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (X\u2081\
+      \ \u2208 \U0001D53C) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#CC4
+  cc7_ordinal1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 = \xD8)\n     \u21D2 (X\u2081 \u2208\
+      \ \u2115) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#CC7
+  commutativity_k3_xcmplx_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2102)\n       \
+      \ \u2227 (X\u2082 \u2208 \u2102) )\n     \u21D2 (X\u2081 * X\u2082) = (X\u2082\
+      \ * X\u2081) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K3
+  connectedness_r1_xxreal_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \U0001D53C)\n   \
+      \     \u2227 (X\u2082 \u2208 \U0001D53C) )\n     \u21D2 ( (X\u2081 \u2264 X\u2082\
+      )\n        \u2228 (X\u2082 \u2264 X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#R1
+  fc16_xreal_0:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC negative(X\u2081)\n        \u2227 (X\u2081\
+      \ \u2208 \u211D) )\n     \u21D2 ( (-(X\u2081) \u2208 \u2102)\n        \u2227\
+      \ \xAC positive(-(X\u2081)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#FC16
+  fc2_newton:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u211D)\n       \
+      \ \u2227 (X\u2082 \u2208 \u2115) )\n     \u21D2 ((X\u2081 |^ X\u2082) \u2208\
+      \ \u211D) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#FC2
+  fc3_xreal_0:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 ( (-(X\u2081\
+      ) \u2208 \u2102)\n        \u2227 (-(X\u2081) \u2208 \u211D) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#FC3
+  fc6_xreal_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u211D)\n       \
+      \ \u2227 (X\u2082 \u2208 \u211D) )\n     \u21D2 ((X\u2081 * X\u2082) \u2208\
+      \ \u211D) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#FC6
+  redefinition_k1_nat_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2115)\n       \
+      \ \u2227 (X\u2082 \u2208 \u2115) )\n     \u21D2 (X\u2081 + X\u2082) = (X\u2081\
+      \ + X\u2082) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#K1
+  redefinition_k6_numbers:
+    fof: "    0 = \xD8 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K6
+  rqLessOrEqual__r1_xxreal_0__r0_r0:
+    fof: "    (0 \u2264 0) "
+    url: null
+  rqLessOrEqual__r1_xxreal_0__r0_r1:
+    fof: "    (0 \u2264 1) "
+    url: null
+  rqRealAdd__k2_xcmplx_0__r0_r1_r1:
+    fof: '    (0 + 1) = 1 '
+    url: null
+  rqRealMult__k3_xcmplx_0__r1_r1_r1:
+    fof: '    (1 * 1) = 1 '
+    url: null
+  rqRealNeg__k4_xcmplx_0__r0_r0:
+    fof: '    -(0) = 0 '
+    url: null
+  rqRealNeg__k4_xcmplx_0__rm1_r1:
+    fof: '    -(-(1)) = 1 '
+    url: null
+  s2_nat_1__e5_114__pepin:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 ( ( \xAC\
+      \ ( \xAC (0 \u2264 0)\n              \u2227 ((X\u2081 |^ 0) \u2264 1) )\n  \
+      \        \u2227 (\u2200X\u2082)\n              ( (X\u2082 \u2208 \u2115)\n \
+      \            \u21D2 ( \xAC ( \xAC (X\u2082 \u2264 0)\n                    \u2227\
+      \ ((X\u2081 |^ X\u2082) \u2264 1) )\n               \u21D2 \xAC ( \xAC ((X\u2082\
+      \ + 1) \u2264 0)\n                    \u2227 ((X\u2081 |^ (X\u2082 + 1)) \u2264\
+      \ 1) ) ) ) )\n       \u21D2 (\u2200X\u2082)\n            ( (X\u2082 \u2208 \u2115\
+      )\n           \u21D2 \xAC ( \xAC (X\u2082 \u2264 0)\n                \u2227\
+      \ ((X\u2081 |^ X\u2082) \u2264 1) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1__e5_114__pepin.html#S2
+  spc0_boole:
+    fof: "    (0 = \xD8) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#SPC0
+  spc0_numerals:
+    fof: "    ( (0 \u2208 \u2115 \u2286 \u211D)\n    \u2227 (0 \u2208 \u2115)\n  \
+      \  \u2227 (0 \u2208 \u211D) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC0
+  spc1_numerals:
+    fof: "    ( positive(1)\n    \u2227 (1 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+      \ (1 \u2208 \u2115)\n    \u2227 (1 \u2208 \u211D) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC1
+  t2_xxreal_0:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \U0001D53C)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \U0001D53C)\n         \u21D2 (\u2200X\u2083\
+      )\n              ( (X\u2083 \u2208 \U0001D53C)\n             \u21D2 ( ( (X\u2081\
+      \ \u2264 X\u2082)\n                  \u2227 (X\u2082 \u2264 X\u2083) )\n   \
+      \            \u21D2 (X\u2081 \u2264 X\u2083) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#T2
+  t3_arithm:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2102)\n     \u21D2 (1 * X\u2081\
+      ) = X\u2081 ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/arithm.html#T3
+  t4_real:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u211D)\n         \u21D2 \xAC ( (X\u2081\
+      \ \u2264 X\u2082)\n              \u2227 \xAC positive(X\u2082)\n           \
+      \   \u2227 positive(X\u2081) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/real.html#T4
+  t5_newton:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2102)\n     \u21D2 (X\u2081\
+      \ |^ 1) = X\u2081 ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#T5
+  t64_xreal_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u211D)\n         \u21D2 (\u2200X\u2083\
+      )\n              ( (X\u2083 \u2208 \u211D)\n             \u21D2 ( ( (X\u2081\
+      \ \u2264 X\u2082)\n                  \u2227 (0 \u2264 X\u2083) )\n         \
+      \      \u21D2 ((X\u2081 * X\u2083) \u2264 (X\u2082 * X\u2083)) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_1.html#T64
+  t65_pepin:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u2115)\n         \u21D2 \xAC ( \xAC (X\u2082\
+      \ \u2264 0)\n              \u2227 \xAC (X\u2081 \u2264 1)\n              \u2227\
+      \ ((X\u2081 |^ X\u2082) \u2264 1) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pepin.html#T65
+  t6_boole:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 = \xD8)\n     \u21D2 X\u2081 = \xD8\
+      \ ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#T6
+  t6_newton:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u2102)\n         \u21D2 (X\u2082 |^ (X\u2081\
+      \ + 1)) = ((X\u2082 |^ X\u2081) * X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#T6
+  t6_real:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u211D)\n         \u21D2 ( (X\u2081 \u2264\
+      \ X\u2082)\n           \u21D2 ( (X\u2081 = \xD8)\n              \u2228 positive(X\u2082\
+      )\n              \u2228 negative(X\u2081) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/real.html#T6
+conjecture: t65_pepin
+final: c_0_206
+skolems:
+  esk1_0:
+    axiom: t65_pepin
+    related:
+    - esk2_0
+    - esk1_0
+    symbol: "sk\u2081"
+  esk2_0:
+    axiom: t65_pepin
+    related:
+    - esk2_0
+    - esk1_0
+    symbol: "sk\u2082"
+  esk6_1:
+    axiom: s2_nat_1__e5_114__pepin
+    related:
+    - esk6_1
+    symbol: "sk\u2086"
+steps:
+  c_0_100:
+    counts:
+      v1_xreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_101:
+    counts:
+      k4_xcmplx_0: 1
+      v1_xreal_0: 1
+      v2_xxreal_0: 1
+      v3_xxreal_0: 1
+    skolems: []
+  c_0_102:
+    counts:
+      k4_xcmplx_0: 1
+      np__0: 2
+    skolems: []
+  c_0_103:
+    counts:
+      k1_numbers: 1
+      m1_subset_1: 1
+      np__0: 1
+    skolems: []
+  c_0_105:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 2
+      k6_numbers: 3
+      np__1: 3
+      r1_xxreal_0: 4
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems:
+    - esk6_1
+  c_0_106:
+    counts:
+      np__0: 2
+      r1_xxreal_0: 1
+    skolems: []
+  c_0_107:
+    counts:
+      k6_numbers: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk2_0
+  c_0_108:
+    counts:
+      k3_xcmplx_0: 2
+      np__0: 1
+      r1_xxreal_0: 3
+      v1_xreal_0: 3
+    skolems: []
+  c_0_110:
+    counts:
+      k1_newton: 1
+      v1_xreal_0: 2
+      v7_ordinal1: 1
+    skolems: []
+  c_0_112:
+    counts:
+      r1_xxreal_0: 2
+      v1_xreal_0: 2
+    skolems: []
+  c_0_114:
+    counts:
+      np__1: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_119:
+    counts:
+      np__1: 3
+      r1_xxreal_0: 3
+      v1_xcmplx_0: 1
+      v1_xreal_0: 2
+      v1_xxreal_0: 2
+    skolems: []
+  c_0_122:
+    counts:
+      k1_newton: 1
+      np__1: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_123:
+    counts:
+      v7_ordinal1: 1
+    skolems:
+    - esk2_0
+  c_0_125:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 3
+      k3_xcmplx_0: 1
+      np__0: 1
+      np__1: 1
+      r1_xxreal_0: 3
+      v1_xcmplx_0: 1
+      v1_xreal_0: 3
+      v7_ordinal1: 1
+    skolems: []
+  c_0_127:
+    counts:
+      r1_xxreal_0: 1
+      v1_xreal_0: 2
+      v2_xxreal_0: 2
+    skolems: []
+  c_0_128:
+    counts:
+      r1_xxreal_0: 2
+      v1_xreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_130:
+    counts:
+      np__1: 1
+      v2_xxreal_0: 1
+    skolems: []
+  c_0_131:
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      v3_xxreal_0: 1
+    skolems: []
+  c_0_132:
+    counts:
+      np__0: 3
+      v1_xreal_0: 1
+      v2_xxreal_0: 1
+      v3_xxreal_0: 1
+    skolems: []
+  c_0_134:
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__0: 1
+    skolems: []
+  c_0_135:
+    counts:
+      k1_newton: 1
+      k6_numbers: 3
+      np__1: 1
+      r1_xxreal_0: 3
+      v1_xreal_0: 1
+      v7_ordinal1: 2
+    skolems:
+    - esk6_1
+  c_0_137:
+    counts:
+      k1_newton: 2
+      k6_numbers: 4
+      np__1: 2
+      r1_xxreal_0: 5
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems:
+    - esk6_1
+  c_0_138:
+    counts:
+      np__1: 3
+      r1_xxreal_0: 3
+      v1_xreal_0: 2
+      v1_xxreal_0: 1
+    skolems: []
+  c_0_139:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 2
+      np__0: 1
+      np__1: 3
+      r1_xxreal_0: 3
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems:
+    - esk6_1
+  c_0_143:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 2
+      k3_xcmplx_0: 1
+      np__0: 1
+      np__1: 1
+      r1_xxreal_0: 3
+      v1_xreal_0: 2
+      v7_ordinal1: 1
+    skolems: []
+  c_0_145:
+    counts:
+      np__1: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_151:
+    counts:
+      k3_xcmplx_0: 1
+      v1_xreal_0: 3
+    skolems: []
+  c_0_153:
+    counts:
+      np__1: 2
+      r1_xxreal_0: 2
+      v1_xreal_0: 1
+    skolems: []
+  c_0_155:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 1
+      np__1: 2
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_156:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 2
+      np__0: 1
+      np__1: 2
+      r1_xxreal_0: 3
+      v1_xcmplx_0: 1
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_157:
+    counts:
+      np__0: 2
+      r1_xxreal_0: 2
+    skolems:
+    - esk1_0
+  c_0_158:
+    counts:
+      v2_xxreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_159:
+    counts:
+      np__0: 1
+      v2_xxreal_0: 1
+    skolems: []
+  c_0_160:
+    counts:
+      k1_newton: 1
+      np__0: 1
+      np__1: 1
+      r1_xxreal_0: 2
+      v1_xreal_0: 1
+      v7_ordinal1: 2
+    skolems:
+    - esk6_1
+  c_0_162:
+    counts:
+      k1_newton: 2
+      np__0: 2
+      np__1: 2
+      r1_xxreal_0: 4
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems:
+    - esk6_1
+  c_0_163:
+    counts:
+      k1_newton: 2
+      np__1: 2
+      r1_xxreal_0: 2
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_164:
+    counts:
+      k1_nat_1: 2
+      k1_newton: 2
+      np__1: 3
+      r1_xxreal_0: 2
+      v1_xreal_0: 2
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_165:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 2
+      np__0: 1
+      np__1: 2
+      r1_xxreal_0: 3
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_166:
+    counts:
+      np__0: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_167:
+    counts:
+      v7_ordinal1: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_168:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 2
+      np__1: 1
+      v1_xcmplx_0: 1
+      v1_xreal_0: 3
+      v7_ordinal1: 1
+    skolems: []
+  c_0_171:
+    counts:
+      k1_newton: 2
+      np__0: 2
+      np__1: 2
+      r1_xxreal_0: 4
+      v1_xreal_0: 1
+      v7_ordinal1: 2
+    skolems:
+    - esk6_1
+  c_0_172:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 2
+      np__1: 2
+      r1_xxreal_0: 1
+      v1_xreal_0: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_173:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 1
+      np__1: 1
+      v1_xreal_0: 2
+      v7_ordinal1: 1
+    skolems: []
+  c_0_174:
+    counts:
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_176:
+    counts:
+      r1_xxreal_0: 1
+      v1_xboole_0: 1
+      v1_xreal_0: 2
+      v2_xxreal_0: 1
+      v3_xxreal_0: 1
+    skolems: []
+  c_0_180:
+    counts:
+      v3_xxreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_182:
+    counts:
+      np__0: 1
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_183:
+    counts:
+      v1_xreal_0: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_185:
+    counts:
+      v1_xboole_0: 1
+      v3_xxreal_0: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_188:
+    counts:
+      v1_xboole_0: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_190:
+    counts:
+      v1_xboole_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_191:
+    counts:
+      np__0: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_192:
+    counts:
+      k1_nat_1: 1
+      k2_xcmplx_0: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_193:
+    counts:
+      k2_xcmplx_0: 1
+      np__0: 1
+      np__1: 2
+    skolems: []
+  c_0_194:
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__1: 1
+    skolems: []
+  c_0_197:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 1
+      np__0: 1
+      np__1: 2
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_201:
+    counts:
+      np__0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_202:
+    counts:
+      k1_newton: 1
+      np__1: 1
+      v1_xcmplx_0: 1
+    skolems: []
+  c_0_203:
+    counts:
+      k1_newton: 1
+      np__1: 2
+      r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_37:
+    counts:
+      k1_xboole_0: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_38:
+    counts:
+      k1_xboole_0: 1
+      k6_numbers: 1
+    skolems: []
+  c_0_41:
+    counts:
+      k4_xcmplx_0: 1
+      v1_xcmplx_0: 1
+      v1_xreal_0: 1
+    skolems: []
+  c_0_42:
+    counts:
+      k4_xcmplx_0: 2
+      np__1: 2
+    skolems: []
+  c_0_43:
+    counts:
+      k1_numbers: 1
+      m1_subset_1: 1
+      v1_xreal_0: 1
+    skolems: []
+  c_0_44:
+    counts:
+      k1_numbers: 1
+      m1_subset_1: 1
+      np__1: 1
+    skolems: []
+  c_0_47:
+    counts:
+      k1_xboole_0: 1
+      k6_numbers: 1
+    skolems: []
+  c_0_48:
+    counts:
+      np__0: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_49:
+    counts:
+      k3_xcmplx_0: 1
+      np__1: 1
+      v1_xcmplx_0: 1
+    skolems: []
+  c_0_50:
+    counts:
+      k3_xcmplx_0: 2
+      v1_xcmplx_0: 2
+    skolems: []
+  c_0_53:
+    counts:
+      k4_xcmplx_0: 1
+      v1_xreal_0: 2
+    skolems: []
+  c_0_56:
+    counts:
+      k3_xcmplx_0: 2
+      k6_numbers: 1
+      r1_xxreal_0: 3
+      v1_xreal_0: 3
+    skolems: []
+  c_0_57:
+    counts:
+      k6_numbers: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_61:
+    counts:
+      k4_xcmplx_0: 1
+      np__1: 2
+      v1_xcmplx_0: 1
+      v1_xreal_0: 1
+    skolems: []
+  c_0_66:
+    counts:
+      k6_numbers: 1
+      np__0: 1
+    skolems: []
+  c_0_67:
+    counts:
+      k3_xcmplx_0: 1
+      np__1: 3
+    skolems: []
+  c_0_68:
+    counts:
+      np__0: 1
+      np__1: 1
+      r1_xxreal_0: 1
+    skolems: []
+  c_0_69:
+    counts:
+      k3_xcmplx_0: 1
+      np__1: 2
+      v1_xcmplx_0: 2
+    skolems: []
+  c_0_72:
+    counts:
+      r1_xxreal_0: 3
+      v1_xxreal_0: 3
+    skolems: []
+  c_0_73:
+    counts:
+      k3_xcmplx_0: 2
+      np__0: 1
+      r1_xxreal_0: 3
+      v1_xreal_0: 3
+    skolems: []
+  c_0_77:
+    counts:
+      v1_xcmplx_0: 1
+      v1_xreal_0: 1
+    skolems: []
+  c_0_81:
+    counts:
+      k3_xcmplx_0: 1
+      np__1: 3
+      r1_xxreal_0: 2
+      v1_xreal_0: 1
+    skolems: []
+  c_0_82:
+    counts:
+      k3_xcmplx_0: 1
+      np__1: 1
+      r1_xxreal_0: 2
+      v1_xcmplx_0: 1
+      v1_xreal_0: 2
+    skolems: []
+  c_0_84:
+    counts:
+      r1_xxreal_0: 2
+      v1_xxreal_0: 2
+    skolems: []
+  c_0_85:
+    counts:
+      v1_xreal_0: 1
+      v1_xxreal_0: 1
+    skolems: []
+  c_0_87:
+    counts:
+      k3_xcmplx_0: 2
+      np__1: 5
+      r1_xxreal_0: 3
+      v1_xreal_0: 1
+      v1_xxreal_0: 3
+    skolems: []
+  c_0_88:
+    counts:
+      k3_xcmplx_0: 1
+      np__1: 1
+      r1_xxreal_0: 2
+      v1_xreal_0: 2
+    skolems: []
+  c_0_94:
+    counts:
+      k3_xcmplx_0: 1
+      np__1: 4
+      r1_xxreal_0: 3
+      v1_xreal_0: 2
+      v1_xxreal_0: 3
+    skolems: []
+  c_0_96:
+    counts:
+      k3_xcmplx_0: 2
+      np__0: 1
+      r1_xxreal_0: 3
+      v1_xcmplx_0: 2
+      v1_xreal_0: 3
+    skolems: []
+  c_0_97:
+    counts:
+      k1_nat_1: 1
+      k1_newton: 2
+      k3_xcmplx_0: 1
+      np__1: 1
+      v1_xcmplx_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_99:
+    counts:
+      r1_xxreal_0: 2
+      v1_xreal_0: 1
+      v1_xxreal_0: 1
+    skolems: []
+symbols:
+  k1_nat_1:
+    arity: 2
+    count: 18
+    mizar: +
+    neg: 3
+    pos: 15
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#K1
+    vizar: x + y
+  k1_newton:
+    arity: 2
+    count: 51
+    mizar: '|^'
+    neg: 25
+    pos: 26
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#K1
+    vizar: x |^ y
+  k1_numbers:
+    arity: 0
+    count: 6
+    mizar: REAL
+    neg: 2
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K1
+    vizar: "\u211D"
+  k1_xboole_0:
+    arity: 0
+    count: 4
+    mizar: '{}'
+    neg: 0
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K1
+    vizar: "\xD8"
+  k2_xcmplx_0:
+    arity: 2
+    count: 4
+    mizar: +
+    neg: 0
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K2
+    vizar: x + y
+  k3_xcmplx_0:
+    arity: 2
+    count: 33
+    mizar: '*'
+    neg: 4
+    pos: 29
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K3
+    vizar: x * y
+  k4_xcmplx_0:
+    arity: 1
+    count: 13
+    mizar: '-'
+    neg: 3
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K4
+    vizar: -(x)
+  k5_numbers:
+    arity: 0
+    count: 8
+    mizar: NAT
+    neg: 4
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+    vizar: "\u2115"
+  k6_numbers:
+    arity: 0
+    count: 28
+    mizar: '0'
+    neg: 16
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K6
+    vizar: '0'
+  m1_subset_1:
+    arity: 2
+    count: 14
+    mizar: Element
+    neg: 6
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  np__0:
+    arity: 0
+    count: 50
+    mizar: '0'
+    neg: 12
+    pos: 38
+    url: null
+    vizar: '0'
+  np__1:
+    arity: 0
+    count: 112
+    mizar: '1'
+    neg: 41
+    pos: 71
+    url: null
+    vizar: '1'
+  r1_xxreal_0:
+    arity: 2
+    count: 139
+    mizar: '&lt;='
+    neg: 69
+    pos: 70
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#R1
+    vizar: "x \u2264 y"
+  v1_xboole_0:
+    arity: 1
+    count: 12
+    mizar: empty
+    neg: 6
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1
+    vizar: "x = \xD8"
+  v1_xcmplx_0:
+    arity: 1
+    count: 27
+    mizar: complex
+    neg: 21
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#V1
+    vizar: "x \u2208 \u2102"
+  v1_xreal_0:
+    arity: 1
+    count: 104
+    mizar: real
+    neg: 87
+    pos: 17
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#V1
+    vizar: "x \u2208 \u211D"
+  v1_xxreal_0:
+    arity: 1
+    count: 24
+    mizar: ext-real
+    neg: 22
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#V1
+    vizar: "x \u2208 \U0001D53C"
+  v2_xxreal_0:
+    arity: 1
+    count: 14
+    mizar: positive
+    neg: 7
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#V2
+    vizar: positive(x)
+  v3_xxreal_0:
+    arity: 1
+    count: 11
+    mizar: negative
+    neg: 4
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#V3
+    vizar: negative(x)
+  v7_ordinal1:
+    arity: 1
+    count: 38
+    mizar: natural
+    neg: 29
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V7
+    vizar: "x \u2208 \u2115"
+tptp:
+  c_0_100: "cnf(c_0_100,negated_conjecture,\n    ( v1_xreal_0(esk1_0) ))."
+  c_0_101: "cnf(c_0_101,plain,\n    ( v3_xxreal_0(X1)\n    | ~ v2_xxreal_0(k4_xcmplx_0(X1))\n\
+    \    | ~ v1_xreal_0(X1) ))."
+  c_0_102: "cnf(c_0_102,plain,\n    ( k4_xcmplx_0(np__0) = np__0 ))."
+  c_0_103: "cnf(c_0_103,plain,\n    ( m1_subset_1(np__0,k1_numbers) ))."
+  c_0_105: "cnf(c_0_105,plain,\n    ( r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)\n\
+    \    | r1_xxreal_0(X2,k6_numbers)\n    | ~ r1_xxreal_0(k6_numbers,k6_numbers)\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ r1_xxreal_0(k1_newton(X1,X2),np__1)\n    | ~\
+    \ v1_xreal_0(X1) ))."
+  c_0_106: "cnf(c_0_106,plain,\n    ( r1_xxreal_0(np__0,np__0) ))."
+  c_0_107: "cnf(c_0_107,negated_conjecture,\n    ( ~ r1_xxreal_0(esk2_0,k6_numbers)\
+    \ ))."
+  c_0_108: "cnf(c_0_108,plain,\n    ( r1_xxreal_0(k3_xcmplx_0(X1,X2),k3_xcmplx_0(X3,X1))\n\
+    \    | ~ r1_xxreal_0(np__0,X1)\n    | ~ r1_xxreal_0(X2,X3)\n    | ~ v1_xreal_0(X1)\n\
+    \    | ~ v1_xreal_0(X3)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_110: "cnf(c_0_110,plain,\n    ( v1_xreal_0(k1_newton(X1,X2))\n    | ~ v1_xreal_0(X1)\n\
+    \    | ~ v7_ordinal1(X2) ))."
+  c_0_112: "cnf(c_0_112,plain,\n    ( r1_xxreal_0(X1,X2)\n    | r1_xxreal_0(X2,X1)\n\
+    \    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_114: "cnf(c_0_114,negated_conjecture,\n    ( ~ r1_xxreal_0(esk1_0,np__1) ))."
+  c_0_119: "cnf(c_0_119,plain,\n    ( r1_xxreal_0(X1,np__1)\n    | ~ v1_xxreal_0(X2)\n\
+    \    | ~ v1_xxreal_0(np__1)\n    | ~ r1_xxreal_0(X2,np__1)\n    | ~ r1_xxreal_0(X1,X2)\n\
+    \    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X1)\n    | ~ v1_xcmplx_0(X2) ))."
+  c_0_122: "cnf(c_0_122,negated_conjecture,\n    ( r1_xxreal_0(k1_newton(esk1_0,esk2_0),np__1)\
+    \ ))."
+  c_0_123: "cnf(c_0_123,negated_conjecture,\n    ( v7_ordinal1(esk2_0) ))."
+  c_0_125: "cnf(c_0_125,plain,\n    ( r1_xxreal_0(k3_xcmplx_0(X1,X2),k1_newton(X1,k1_nat_1(X3,np__1)))\n\
+    \    | ~ r1_xxreal_0(np__0,X1)\n    | ~ r1_xxreal_0(X2,k1_newton(X1,X3))\n   \
+    \ | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(k1_newton(X1,X3))\n    | ~ v1_xreal_0(X2)\n\
+    \    | ~ v1_xcmplx_0(X1)\n    | ~ v7_ordinal1(X3) ))."
+  c_0_127: "cnf(c_0_127,plain,\n    ( v2_xxreal_0(X2)\n    | ~ v1_xreal_0(X1)\n  \
+    \  | ~ v1_xreal_0(X2)\n    | ~ r1_xxreal_0(X1,X2)\n    | ~ v2_xxreal_0(X1) ))."
+  c_0_128: "cnf(c_0_128,negated_conjecture,\n    ( r1_xxreal_0(X1,esk1_0)\n    | r1_xxreal_0(esk1_0,X1)\n\
+    \    | ~ v1_xreal_0(X1) ))."
+  c_0_130: "cnf(c_0_130,plain,\n    ( v2_xxreal_0(np__1) ))."
+  c_0_131: "cnf(c_0_131,plain,\n    ( ~ m1_subset_1(X1,k5_numbers)\n    | ~ v3_xxreal_0(X1)\
+    \ ))."
+  c_0_132: "cnf(c_0_132,plain,\n    ( v3_xxreal_0(np__0)\n    | ~ v2_xxreal_0(np__0)\n\
+    \    | ~ v1_xreal_0(np__0) ))."
+  c_0_134: "cnf(c_0_134,plain,\n    ( m1_subset_1(np__0,k5_numbers) ))."
+  c_0_135: "cnf(c_0_135,plain,\n    ( v7_ordinal1(esk6_1(X1))\n    | r1_xxreal_0(X2,k6_numbers)\n\
+    \    | ~ r1_xxreal_0(k6_numbers,k6_numbers)\n    | ~ v7_ordinal1(X2)\n    | ~\
+    \ r1_xxreal_0(k1_newton(X1,X2),np__1)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_137: "cnf(c_0_137,plain,\n    ( r1_xxreal_0(esk6_1(X1),k6_numbers)\n    | r1_xxreal_0(X2,k6_numbers)\n\
+    \    | ~ r1_xxreal_0(k1_newton(X1,esk6_1(X1)),np__1)\n    | ~ r1_xxreal_0(k6_numbers,k6_numbers)\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ r1_xxreal_0(k1_newton(X1,X2),np__1)\n    | ~\
+    \ v1_xreal_0(X1) ))."
+  c_0_138: "cnf(c_0_138,plain,\n    ( r1_xxreal_0(X1,np__1)\n    | ~ v1_xxreal_0(np__1)\n\
+    \    | ~ r1_xxreal_0(X2,np__1)\n    | ~ r1_xxreal_0(X1,X2)\n    | ~ v1_xreal_0(X2)\n\
+    \    | ~ v1_xreal_0(X1) ))."
+  c_0_139: "cnf(c_0_139,plain,\n    ( r1_xxreal_0(k1_newton(X1,k1_nat_1(esk6_1(X1),np__1)),np__1)\n\
+    \    | r1_xxreal_0(X2,np__0)\n    | ~ r1_xxreal_0(k1_newton(X1,X2),np__1)\n  \
+    \  | ~ v7_ordinal1(X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_143: "cnf(c_0_143,plain,\n    ( r1_xxreal_0(k3_xcmplx_0(X1,X2),k1_newton(X1,k1_nat_1(X3,np__1)))\n\
+    \    | ~ r1_xxreal_0(X2,k1_newton(X1,X3))\n    | ~ r1_xxreal_0(np__0,X1)\n   \
+    \ | ~ v7_ordinal1(X3)\n    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_145: "cnf(c_0_145,negated_conjecture,\n    ( r1_xxreal_0(np__1,esk1_0) ))."
+  c_0_151: "cnf(c_0_151,plain,\n    ( v1_xreal_0(k3_xcmplx_0(X1,X2))\n    | ~ v1_xreal_0(X1)\n\
+    \    | ~ v1_xreal_0(X2) ))."
+  c_0_153: "cnf(c_0_153,plain,\n    ( r1_xxreal_0(X1,np__1)\n    | r1_xxreal_0(np__1,X1)\n\
+    \    | ~ v1_xreal_0(X1) ))."
+  c_0_155: "cnf(c_0_155,negated_conjecture,\n    ( r1_xxreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)),np__1)\
+    \ ))."
+  c_0_156: "cnf(c_0_156,plain,\n    ( r1_xxreal_0(X1,k1_newton(X1,k1_nat_1(X2,np__1)))\n\
+    \    | ~ r1_xxreal_0(np__1,k1_newton(X1,X2))\n    | ~ r1_xxreal_0(np__0,X1)\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ v1_xreal_0(X1)\n    | ~ v1_xcmplx_0(X1) ))."
+  c_0_157: "cnf(c_0_157,negated_conjecture,\n    ( r1_xxreal_0(esk1_0,np__0)\n   \
+    \ | r1_xxreal_0(np__0,esk1_0) ))."
+  c_0_158: "cnf(c_0_158,negated_conjecture,\n    ( v2_xxreal_0(esk1_0) ))."
+  c_0_159: "cnf(c_0_159,plain,\n    ( ~ v2_xxreal_0(np__0) ))."
+  c_0_160: "cnf(c_0_160,plain,\n    ( r1_xxreal_0(X1,np__0)\n    | v7_ordinal1(esk6_1(X2))\n\
+    \    | ~ r1_xxreal_0(k1_newton(X2,X1),np__1)\n    | ~ v7_ordinal1(X1)\n    | ~\
+    \ v1_xreal_0(X2) ))."
+  c_0_162: "cnf(c_0_162,plain,\n    ( r1_xxreal_0(esk6_1(X1),np__0)\n    | r1_xxreal_0(X2,np__0)\n\
+    \    | ~ r1_xxreal_0(k1_newton(X1,esk6_1(X1)),np__1)\n    | ~ r1_xxreal_0(k1_newton(X1,X2),np__1)\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_163: "cnf(c_0_163,plain,\n    ( r1_xxreal_0(np__1,k1_newton(X1,X2))\n    | r1_xxreal_0(k1_newton(X1,X2),np__1)\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_164: "cnf(c_0_164,negated_conjecture,\n    ( r1_xxreal_0(X1,np__1)\n    | ~\
+    \ r1_xxreal_0(X1,k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))\n    | ~ v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))\n\
+    \    | ~ v1_xreal_0(X1) ))."
+  c_0_165: "cnf(c_0_165,plain,\n    ( r1_xxreal_0(X1,k1_newton(X1,k1_nat_1(X2,np__1)))\n\
+    \    | ~ r1_xxreal_0(np__1,k1_newton(X1,X2))\n    | ~ r1_xxreal_0(np__0,X1)\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_166: "cnf(c_0_166,negated_conjecture,\n    ( r1_xxreal_0(np__0,esk1_0) ))."
+  c_0_167: "cnf(c_0_167,negated_conjecture,\n    ( v7_ordinal1(esk6_1(esk1_0)) ))."
+  c_0_168: "cnf(c_0_168,plain,\n    ( v1_xreal_0(k1_newton(X1,k1_nat_1(X2,np__1)))\n\
+    \    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(k1_newton(X1,X2))\n    | ~ v1_xcmplx_0(X1)\n\
+    \    | ~ v7_ordinal1(X2) ))."
+  c_0_171: "cnf(c_0_171,plain,\n    ( r1_xxreal_0(esk6_1(X1),np__0)\n    | r1_xxreal_0(X2,np__0)\n\
+    \    | r1_xxreal_0(np__1,k1_newton(X1,esk6_1(X1)))\n    | ~ r1_xxreal_0(k1_newton(X1,X2),np__1)\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ v1_xreal_0(X1)\n    | ~ v7_ordinal1(esk6_1(X1))\
+    \ ))."
+  c_0_172: "cnf(c_0_172,negated_conjecture,\n    ( ~ v1_xreal_0(k1_newton(esk1_0,k1_nat_1(esk6_1(esk1_0),np__1)))\n\
+    \    | ~ r1_xxreal_0(np__1,k1_newton(esk1_0,esk6_1(esk1_0))) ))."
+  c_0_173: "cnf(c_0_173,plain,\n    ( v1_xreal_0(k1_newton(X1,k1_nat_1(X2,np__1)))\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_174: "cnf(c_0_174,plain,\n    ( v1_xreal_0(X1)\n    | ~ v7_ordinal1(X1) ))."
+  c_0_176: "cnf(c_0_176,plain,\n    ( v1_xboole_0(X1)\n    | v2_xxreal_0(X2)\n   \
+    \ | v3_xxreal_0(X1)\n    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(X2)\n    | ~ r1_xxreal_0(X1,X2)\
+    \ ))."
+  c_0_180: "cnf(c_0_180,plain,\n    ( ~ v3_xxreal_0(X1)\n    | ~ v7_ordinal1(X1) ))."
+  c_0_182: "cnf(c_0_182,negated_conjecture,\n    ( r1_xxreal_0(esk6_1(esk1_0),np__0)\
+    \ ))."
+  c_0_183: "cnf(c_0_183,negated_conjecture,\n    ( v1_xreal_0(esk6_1(esk1_0)) ))."
+  c_0_185: "cnf(c_0_185,negated_conjecture,\n    ( v3_xxreal_0(esk6_1(esk1_0))\n \
+    \   | v1_xboole_0(esk6_1(esk1_0)) ))."
+  c_0_188: "cnf(c_0_188,negated_conjecture,\n    ( v1_xboole_0(esk6_1(esk1_0)) ))."
+  c_0_190: "cnf(c_0_190,plain,\n    ( v7_ordinal1(X1)\n    | ~ v1_xboole_0(X1) ))."
+  c_0_191: "cnf(c_0_191,negated_conjecture,\n    ( esk6_1(esk1_0) = np__0 ))."
+  c_0_192: "cnf(c_0_192,plain,\n    ( k1_nat_1(X1,X2) = k2_xcmplx_0(X1,X2)\n    |\
+    \ ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(X2,k5_numbers) ))."
+  c_0_193: "cnf(c_0_193,plain,\n    ( k2_xcmplx_0(np__0,np__1) = np__1 ))."
+  c_0_194: "cnf(c_0_194,plain,\n    ( m1_subset_1(np__1,k5_numbers) ))."
+  c_0_197: "cnf(c_0_197,negated_conjecture,\n    ( r1_xxreal_0(k1_newton(esk1_0,k1_nat_1(np__0,np__1)),np__1)\
+    \ ))."
+  c_0_201: "cnf(c_0_201,plain,\n    ( v7_ordinal1(np__0) ))."
+  c_0_202: "cnf(c_0_202,plain,\n    ( k1_newton(X1,np__1) = X1\n    | ~ v1_xcmplx_0(X1)\
+    \ ))."
+  c_0_203: "cnf(c_0_203,negated_conjecture,\n    ( r1_xxreal_0(k1_newton(esk1_0,np__1),np__1)\
+    \ ))."
+  c_0_206: "cnf(c_0_206,negated_conjecture,\n    ( $false ))."
+  c_0_37: "cnf(c_0_37,plain,\n    ( X1 = k1_xboole_0\n    | ~ v1_xboole_0(X1) ))."
+  c_0_38: "cnf(c_0_38,plain,\n    ( k6_numbers = k1_xboole_0 ))."
+  c_0_41: "cnf(c_0_41,plain,\n    ( v1_xcmplx_0(k4_xcmplx_0(X1))\n    | ~ v1_xreal_0(X1)\
+    \ ))."
+  c_0_42: "cnf(c_0_42,plain,\n    ( k4_xcmplx_0(k4_xcmplx_0(np__1)) = np__1 ))."
+  c_0_43: "cnf(c_0_43,plain,\n    ( v1_xreal_0(X1)\n    | ~ m1_subset_1(X1,k1_numbers)\
+    \ ))."
+  c_0_44: "cnf(c_0_44,plain,\n    ( m1_subset_1(np__1,k1_numbers) ))."
+  c_0_47: "cnf(c_0_47,plain,\n    ( k1_xboole_0 = k6_numbers ))."
+  c_0_48: "cnf(c_0_48,plain,\n    ( v1_xboole_0(np__0) ))."
+  c_0_49: "cnf(c_0_49,plain,\n    ( k3_xcmplx_0(np__1,X1) = X1\n    | ~ v1_xcmplx_0(X1)\
+    \ ))."
+  c_0_50: "cnf(c_0_50,plain,\n    ( k3_xcmplx_0(X1,X2) = k3_xcmplx_0(X2,X1)\n    |\
+    \ ~ v1_xcmplx_0(X1)\n    | ~ v1_xcmplx_0(X2) ))."
+  c_0_53: "cnf(c_0_53,plain,\n    ( v1_xreal_0(k4_xcmplx_0(X1))\n    | ~ v1_xreal_0(X1)\
+    \ ))."
+  c_0_56: "cnf(c_0_56,plain,\n    ( r1_xxreal_0(k3_xcmplx_0(X1,X3),k3_xcmplx_0(X2,X3))\n\
+    \    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X3)\n    |\
+    \ ~ r1_xxreal_0(X1,X2)\n    | ~ r1_xxreal_0(k6_numbers,X3) ))."
+  c_0_57: "cnf(c_0_57,plain,\n    ( X1 = k6_numbers\n    | ~ v1_xboole_0(X1) ))."
+  c_0_61: "cnf(c_0_61,plain,\n    ( v1_xcmplx_0(np__1)\n    | ~ v1_xreal_0(k4_xcmplx_0(np__1))\
+    \ ))."
+  c_0_66: "cnf(c_0_66,plain,\n    ( k6_numbers = np__0 ))."
+  c_0_67: "cnf(c_0_67,plain,\n    ( k3_xcmplx_0(np__1,np__1) = np__1 ))."
+  c_0_68: "cnf(c_0_68,plain,\n    ( r1_xxreal_0(np__0,np__1) ))."
+  c_0_69: "cnf(c_0_69,plain,\n    ( k3_xcmplx_0(X1,np__1) = X1\n    | ~ v1_xcmplx_0(X1)\n\
+    \    | ~ v1_xcmplx_0(np__1) ))."
+  c_0_72: "cnf(c_0_72,plain,\n    ( r1_xxreal_0(X1,X3)\n    | ~ v1_xxreal_0(X1)\n\
+    \    | ~ v1_xxreal_0(X2)\n    | ~ v1_xxreal_0(X3)\n    | ~ r1_xxreal_0(X1,X2)\n\
+    \    | ~ r1_xxreal_0(X2,X3) ))."
+  c_0_73: "cnf(c_0_73,plain,\n    ( r1_xxreal_0(k3_xcmplx_0(X1,X2),k3_xcmplx_0(X3,X2))\n\
+    \    | ~ r1_xxreal_0(np__0,X2)\n    | ~ r1_xxreal_0(X1,X3)\n    | ~ v1_xreal_0(X2)\n\
+    \    | ~ v1_xreal_0(X3)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_77: "cnf(c_0_77,plain,\n    ( v1_xcmplx_0(X1)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_81: "cnf(c_0_81,plain,\n    ( r1_xxreal_0(k3_xcmplx_0(X1,np__1),np__1)\n   \
+    \ | ~ r1_xxreal_0(X1,np__1)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_82: "cnf(c_0_82,plain,\n    ( r1_xxreal_0(X1,k3_xcmplx_0(X2,np__1))\n    | ~\
+    \ r1_xxreal_0(X1,X2)\n    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X1)\n    | ~\
+    \ v1_xcmplx_0(X1) ))."
+  c_0_84: "cnf(c_0_84,plain,\n    ( r1_xxreal_0(X1,X2)\n    | r1_xxreal_0(X2,X1)\n\
+    \    | ~ v1_xxreal_0(X1)\n    | ~ v1_xxreal_0(X2) ))."
+  c_0_85: "cnf(c_0_85,plain,\n    ( v1_xxreal_0(X1)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_87: "cnf(c_0_87,plain,\n    ( r1_xxreal_0(X1,np__1)\n    | ~ v1_xxreal_0(np__1)\n\
+    \    | ~ v1_xxreal_0(k3_xcmplx_0(X2,np__1))\n    | ~ v1_xxreal_0(X1)\n    | ~\
+    \ r1_xxreal_0(X1,k3_xcmplx_0(X2,np__1))\n    | ~ r1_xxreal_0(X2,np__1)\n    |\
+    \ ~ v1_xreal_0(X2) ))."
+  c_0_88: "cnf(c_0_88,plain,\n    ( r1_xxreal_0(X1,k3_xcmplx_0(X2,np__1))\n    | ~\
+    \ r1_xxreal_0(X1,X2)\n    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_94: "cnf(c_0_94,plain,\n    ( r1_xxreal_0(X1,np__1)\n    | ~ v1_xxreal_0(k3_xcmplx_0(X2,np__1))\n\
+    \    | ~ v1_xxreal_0(np__1)\n    | ~ v1_xxreal_0(X1)\n    | ~ r1_xxreal_0(X2,np__1)\n\
+    \    | ~ v1_xreal_0(X2)\n    | ~ r1_xxreal_0(X1,X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_96: "cnf(c_0_96,plain,\n    ( r1_xxreal_0(k3_xcmplx_0(X2,X1),k3_xcmplx_0(X3,X2))\n\
+    \    | ~ r1_xxreal_0(np__0,X2)\n    | ~ r1_xxreal_0(X1,X3)\n    | ~ v1_xreal_0(X2)\n\
+    \    | ~ v1_xreal_0(X3)\n    | ~ v1_xreal_0(X1)\n    | ~ v1_xcmplx_0(X2)\n   \
+    \ | ~ v1_xcmplx_0(X1) ))."
+  c_0_97: "cnf(c_0_97,plain,\n    ( k1_newton(X2,k1_nat_1(X1,np__1)) = k3_xcmplx_0(k1_newton(X2,X1),X2)\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ v1_xcmplx_0(X2) ))."
+  c_0_99: "cnf(c_0_99,plain,\n    ( r1_xxreal_0(X1,X2)\n    | r1_xxreal_0(X2,X1)\n\
+    \    | ~ v1_xxreal_0(X1)\n    | ~ v1_xreal_0(X2) ))."
+  cc1_xreal_0: "fof(cc1_xreal_0,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,k1_numbers)\n\
+    \     => v1_xreal_0(X1) ) ))."
+  cc2_nat_1: "fof(cc2_nat_1,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,k5_numbers)\n\
+    \     => ~ v3_xxreal_0(X1) ) ))."
+  cc2_xreal_0: "fof(cc2_xreal_0,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n \
+    \    => v1_xreal_0(X1) ) ))."
+  cc3_nat_1: "fof(cc3_nat_1,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n     =>\
+    \ ( v7_ordinal1(X1)\n        & ~ v3_xxreal_0(X1) ) ) ))."
+  cc3_xreal_0: "fof(cc3_xreal_0,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n  \
+    \   => v1_xcmplx_0(X1) ) ))."
+  cc4_xreal_0: "fof(cc4_xreal_0,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n  \
+    \   => v1_xxreal_0(X1) ) ))."
+  cc7_ordinal1: "fof(cc7_ordinal1,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n\
+    \     => v7_ordinal1(X1) ) ))."
+  commutativity_k3_xcmplx_0: "fof(commutativity_k3_xcmplx_0,axiom,(\n    ! [X1,X2]\
+    \ :\n      ( ( v1_xcmplx_0(X1)\n        & v1_xcmplx_0(X2) )\n     => k3_xcmplx_0(X1,X2)\
+    \ = k3_xcmplx_0(X2,X1) ) ))."
+  connectedness_r1_xxreal_0: "fof(connectedness_r1_xxreal_0,axiom,(\n    ! [X1,X2]\
+    \ :\n      ( ( v1_xxreal_0(X1)\n        & v1_xxreal_0(X2) )\n     => ( r1_xxreal_0(X1,X2)\n\
+    \        | r1_xxreal_0(X2,X1) ) ) ))."
+  fc16_xreal_0: "fof(fc16_xreal_0,axiom,(\n    ! [X1] :\n      ( ( ~ v3_xxreal_0(X1)\n\
+    \        & v1_xreal_0(X1) )\n     => ( v1_xcmplx_0(k4_xcmplx_0(X1))\n        &\
+    \ ~ v2_xxreal_0(k4_xcmplx_0(X1)) ) ) ))."
+  fc2_newton: "fof(fc2_newton,axiom,(\n    ! [X1,X2] :\n      ( ( v1_xreal_0(X1)\n\
+    \        & v7_ordinal1(X2) )\n     => v1_xreal_0(k1_newton(X1,X2)) ) ))."
+  fc3_xreal_0: "fof(fc3_xreal_0,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n  \
+    \   => ( v1_xcmplx_0(k4_xcmplx_0(X1))\n        & v1_xreal_0(k4_xcmplx_0(X1)) )\
+    \ ) ))."
+  fc6_xreal_0: "fof(fc6_xreal_0,axiom,(\n    ! [X1,X2] :\n      ( ( v1_xreal_0(X1)\n\
+    \        & v1_xreal_0(X2) )\n     => v1_xreal_0(k3_xcmplx_0(X1,X2)) ) ))."
+  redefinition_k1_nat_1: "fof(redefinition_k1_nat_1,axiom,(\n    ! [X1,X2] :\n   \
+    \   ( ( v7_ordinal1(X1)\n        & m1_subset_1(X2,k5_numbers) )\n     => k1_nat_1(X1,X2)\
+    \ = k2_xcmplx_0(X1,X2) ) ))."
+  redefinition_k6_numbers: "fof(redefinition_k6_numbers,axiom,(\n    k6_numbers =\
+    \ k1_xboole_0 ))."
+  rqLessOrEqual__r1_xxreal_0__r0_r0: "fof(rqLessOrEqual__r1_xxreal_0__r0_r0,axiom,(\n\
+    \    r1_xxreal_0(np__0,np__0) ))."
+  rqLessOrEqual__r1_xxreal_0__r0_r1: "fof(rqLessOrEqual__r1_xxreal_0__r0_r1,axiom,(\n\
+    \    r1_xxreal_0(np__0,np__1) ))."
+  rqRealAdd__k2_xcmplx_0__r0_r1_r1: "fof(rqRealAdd__k2_xcmplx_0__r0_r1_r1,axiom,(\n\
+    \    k2_xcmplx_0(np__0,np__1) = np__1 ))."
+  rqRealMult__k3_xcmplx_0__r1_r1_r1: "fof(rqRealMult__k3_xcmplx_0__r1_r1_r1,axiom,(\n\
+    \    k3_xcmplx_0(np__1,np__1) = np__1 ))."
+  rqRealNeg__k4_xcmplx_0__r0_r0: "fof(rqRealNeg__k4_xcmplx_0__r0_r0,axiom,(\n    k4_xcmplx_0(np__0)\
+    \ = np__0 ))."
+  rqRealNeg__k4_xcmplx_0__rm1_r1: "fof(rqRealNeg__k4_xcmplx_0__rm1_r1,axiom,(\n  \
+    \  k4_xcmplx_0(k4_xcmplx_0(np__1)) = np__1 ))."
+  s2_nat_1__e5_114__pepin: "fof(s2_nat_1__e5_114__pepin,axiom,(\n    ! [X1] :\n  \
+    \    ( v1_xreal_0(X1)\n     => ( ( ~ ( ~ r1_xxreal_0(k6_numbers,k6_numbers)\n\
+    \              & r1_xxreal_0(k1_newton(X1,k6_numbers),np__1) )\n          & !\
+    \ [X2] :\n              ( v7_ordinal1(X2)\n             => ( ~ ( ~ r1_xxreal_0(X2,k6_numbers)\n\
+    \                    & r1_xxreal_0(k1_newton(X1,X2),np__1) )\n               =>\
+    \ ~ ( ~ r1_xxreal_0(k1_nat_1(X2,np__1),k6_numbers)\n                    & r1_xxreal_0(k1_newton(X1,k1_nat_1(X2,np__1)),np__1)\
+    \ ) ) ) )\n       => ! [X2] :\n            ( v7_ordinal1(X2)\n           => ~\
+    \ ( ~ r1_xxreal_0(X2,k6_numbers)\n                & r1_xxreal_0(k1_newton(X1,X2),np__1)\
+    \ ) ) ) ) ))."
+  spc0_boole: "fof(spc0_boole,axiom,(\n    v1_xboole_0(np__0) ))."
+  spc0_numerals: "fof(spc0_numerals,axiom,\n    ( m2_subset_1(np__0,k1_numbers,k5_numbers)\n\
+    \    & m1_subset_1(np__0,k5_numbers)\n    & m1_subset_1(np__0,k1_numbers) ))."
+  spc1_numerals: "fof(spc1_numerals,axiom,\n    ( v2_xxreal_0(np__1)\n    & m2_subset_1(np__1,k1_numbers,k5_numbers)\n\
+    \    & m1_subset_1(np__1,k5_numbers)\n    & m1_subset_1(np__1,k1_numbers) ))."
+  t2_xxreal_0: "fof(t2_xxreal_0,axiom,(\n    ! [X1] :\n      ( v1_xxreal_0(X1)\n \
+    \    => ! [X2] :\n          ( v1_xxreal_0(X2)\n         => ! [X3] :\n        \
+    \      ( v1_xxreal_0(X3)\n             => ( ( r1_xxreal_0(X1,X2)\n           \
+    \       & r1_xxreal_0(X2,X3) )\n               => r1_xxreal_0(X1,X3) ) ) ) ) ))."
+  t3_arithm: "fof(t3_arithm,axiom,(\n    ! [X1] :\n      ( v1_xcmplx_0(X1)\n     =>\
+    \ k3_xcmplx_0(np__1,X1) = X1 ) ))."
+  t4_real: "fof(t4_real,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n     => ! [X2]\
+    \ :\n          ( v1_xreal_0(X2)\n         => ~ ( r1_xxreal_0(X1,X2)\n        \
+    \      & ~ v2_xxreal_0(X2)\n              & v2_xxreal_0(X1) ) ) ) ))."
+  t5_newton: "fof(t5_newton,axiom,(\n    ! [X1] :\n      ( v1_xcmplx_0(X1)\n     =>\
+    \ k1_newton(X1,np__1) = X1 ) ))."
+  t64_xreal_1: "fof(t64_xreal_1,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n  \
+    \   => ! [X2] :\n          ( v1_xreal_0(X2)\n         => ! [X3] :\n          \
+    \    ( v1_xreal_0(X3)\n             => ( ( r1_xxreal_0(X1,X2)\n              \
+    \    & r1_xxreal_0(k6_numbers,X3) )\n               => r1_xxreal_0(k3_xcmplx_0(X1,X3),k3_xcmplx_0(X2,X3))\
+    \ ) ) ) ) ))."
+  t65_pepin: "fof(t65_pepin,conjecture,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n \
+    \    => ! [X2] :\n          ( v7_ordinal1(X2)\n         => ~ ( ~ r1_xxreal_0(X2,k6_numbers)\n\
+    \              & ~ r1_xxreal_0(X1,np__1)\n              & r1_xxreal_0(k1_newton(X1,X2),np__1)\
+    \ ) ) ) ))."
+  t6_boole: "fof(t6_boole,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n     =>\
+    \ X1 = k1_xboole_0 ) ))."
+  t6_newton: "fof(t6_newton,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n     =>\
+    \ ! [X2] :\n          ( v1_xcmplx_0(X2)\n         => k1_newton(X2,k1_nat_1(X1,np__1))\
+    \ = k3_xcmplx_0(k1_newton(X2,X1),X2) ) ) ))."
+  t6_real: "fof(t6_real,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n     => ! [X2]\
+    \ :\n          ( v1_xreal_0(X2)\n         => ( r1_xxreal_0(X1,X2)\n          \
+    \ => ( v1_xboole_0(X1)\n              | v2_xxreal_0(X2)\n              | v3_xxreal_0(X1)\
+    \ ) ) ) ) ))."
+

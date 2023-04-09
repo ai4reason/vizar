@@ -116,20 +116,26 @@ def clause_parse(clause):
    lits = map(literal_parse, lits)
    return list(lits)
 
+def ignored(sym):
+   if SKOLEM.match(sym):
+      return True
+   return sym in ["=", "$false"]
+
 def term_symbols(term, stats, sign):
    ret = {}
    if type(term) is str:
-      if term[0].islower():
+      if term[0].islower() and not ignored(term):
          if term not in stats: 
             stats[term] = dict(arity=0, count=0, pos=0, neg=0)
          stats[term]["count"] += 1
          stats[term][sign] += 1
    else:
       head = term[0]
-      if head not in stats:
-         stats[head] = dict(arity=len(term)-1, count=0, pos=0, neg=0)
-      stats[head]["count"] += 1
-      stats[head][sign] += 1
+      if not ignored(head):
+         if head not in stats:
+            stats[head] = dict(arity=len(term)-1, count=0, pos=0, neg=0)
+         stats[head]["count"] += 1
+         stats[head][sign] += 1
       for subterm in term[1:]:
          term_symbols(subterm, stats, sign)
 

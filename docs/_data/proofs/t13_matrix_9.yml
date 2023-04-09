@@ -1,0 +1,914 @@
+axioms:
+  dt_k6_matrix_2:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083,X\u2084,X\u2085)\n      ( ( \xAC (X\u2081\
+      \ = \xD8)\n        \u2227 (X\u2082 \u2208 X\u2081)\n        \u2227 (X\u2083\
+      \ \u2208 X\u2081)\n        \u2227 (X\u2084 \u2208 X\u2081)\n        \u2227 (X\u2085\
+      \ \u2208 X\u2081) )\n     \u21D2 Matrix(X\u2081 ][ X\u2082 ][ X\u2083 ][ X\u2084\
+      \ ][ X\u2085,X\u2081,2,2) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_2.html#K6
+  dt_l2_algstr_0:
+    fof: "    (\u2200X\u2081)\n      ( addLoopStr(X\u2081)\n     \u21D2 ( ZeroStr(X\u2081\
+      )\n        \u2227 addMagma(X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#L2
+  dt_l2_struct_0:
+    fof: "    (\u2200X\u2081)\n      ( ZeroStr(X\u2081)\n     \u21D2 1-sorted(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#L2
+  dt_l6_algstr_0:
+    fof: "    (\u2200X\u2081)\n      ( doubleLoopStr(X\u2081)\n     \u21D2 ( addLoopStr(X\u2081\
+      )\n        \u2227 multLoopStr_0(X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#L6
+  fc2_struct_0:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 1-sorted(X\u2081\
+      ) )\n     \u21D2 \xAC (carrier(X\u2081) = \xD8) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#FC2
+  t12_matrix_7:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 \xAC\
+      \ degenerated(X\u2081)\n        \u2227 right_complementable(X\u2081)\n     \
+      \   \u2227 almost_left_invertible(X\u2081)\n        \u2227 associative(X\u2081\
+      )\n        \u2227 commutative(X\u2081)\n        \u2227 Abelian(X\u2081)\n  \
+      \      \u2227 add-associative(X\u2081)\n        \u2227 right_zeroed(X\u2081\
+      )\n        \u2227 well-unital(X\u2081)\n        \u2227 distributive(X\u2081\
+      )\n        \u2227 doubleLoopStr(X\u2081) )\n     \u21D2 (\u2200X\u2082)\n  \
+      \        ( Matrix(X\u2082,carrier(X\u2081),2,2)\n         \u21D2 Det(2,X\u2081\
+      ,X\u2082) = -(X\u2081,X\u2081 * (carrier(X\u2081) * X\u2082 * 1 * 1) * (carrier(X\u2081\
+      ) * X\u2082 * 2 * 2),X\u2081 * (carrier(X\u2081) * X\u2082 * 1 * 2) * (carrier(X\u2081\
+      ) * X\u2082 * 2 * 1)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_7.html#T12
+  t13_matrix_9:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 \xAC\
+      \ degenerated(X\u2081)\n        \u2227 right_complementable(X\u2081)\n     \
+      \   \u2227 almost_left_invertible(X\u2081)\n        \u2227 associative(X\u2081\
+      )\n        \u2227 commutative(X\u2081)\n        \u2227 Abelian(X\u2081)\n  \
+      \      \u2227 add-associative(X\u2081)\n        \u2227 right_zeroed(X\u2081\
+      )\n        \u2227 well-unital(X\u2081)\n        \u2227 distributive(X\u2081\
+      )\n        \u2227 doubleLoopStr(X\u2081) )\n     \u21D2 (\u2200X\u2082)\n  \
+      \        ( (X\u2082 \u2208 carrier(X\u2081))\n         \u21D2 (\u2200X\u2083\
+      )\n              ( (X\u2083 \u2208 carrier(X\u2081))\n             \u21D2 (\u2200\
+      X\u2084)\n                  ( (X\u2084 \u2208 carrier(X\u2081))\n          \
+      \       \u21D2 (\u2200X\u2085)\n                      ( (X\u2085 \u2208 carrier(X\u2081\
+      ))\n                     \u21D2 Det(2,X\u2081,carrier(X\u2081) ][ X\u2082 ][\
+      \ X\u2083 ][ X\u2084 ][ X\u2085) = -(X\u2081,X\u2081 * X\u2082 * X\u2085,X\u2081\
+      \ * X\u2083 * X\u2084) ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_9.html#T13
+  t6_matrix_2:
+    fof: "    (\u2200X\u2081)\n      ( \xAC (X\u2081 = \xD8)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 X\u2081)\n         \u21D2 (\u2200X\u2083\
+      )\n              ( (X\u2083 \u2208 X\u2081)\n             \u21D2 (\u2200X\u2084\
+      )\n                  ( (X\u2084 \u2208 X\u2081)\n                 \u21D2 (\u2200\
+      X\u2085)\n                      ( (X\u2085 \u2208 X\u2081)\n               \
+      \      \u21D2 ( (X\u2081 * (X\u2081 ][ X\u2082 ][ X\u2083 ][ X\u2084 ][ X\u2085\
+      ) * 1 * 1) = X\u2082\n                        \u2227 (X\u2081 * (X\u2081 ][\
+      \ X\u2082 ][ X\u2083 ][ X\u2084 ][ X\u2085) * 1 * 2) = X\u2083\n           \
+      \             \u2227 (X\u2081 * (X\u2081 ][ X\u2082 ][ X\u2083 ][ X\u2084 ][\
+      \ X\u2085) * 2 * 1) = X\u2084\n                        \u2227 (X\u2081 * (X\u2081\
+      \ ][ X\u2082 ][ X\u2083 ][ X\u2084 ][ X\u2085) * 2 * 2) = X\u2085 ) ) ) ) )\
+      \ ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_2.html#T6
+conjecture: t13_matrix_9
+final: c_0_82
+skolems:
+  esk1_0:
+    axiom: t13_matrix_9
+    related:
+    - esk1_0
+    - esk4_0
+    - esk3_0
+    - esk5_0
+    - esk2_0
+    symbol: "sk\u2081"
+  esk2_0:
+    axiom: t13_matrix_9
+    related:
+    - esk1_0
+    - esk4_0
+    - esk3_0
+    - esk5_0
+    - esk2_0
+    symbol: "sk\u2082"
+  esk3_0:
+    axiom: t13_matrix_9
+    related:
+    - esk1_0
+    - esk4_0
+    - esk3_0
+    - esk5_0
+    - esk2_0
+    symbol: "sk\u2083"
+  esk4_0:
+    axiom: t13_matrix_9
+    related:
+    - esk1_0
+    - esk4_0
+    - esk3_0
+    - esk5_0
+    - esk2_0
+    symbol: "sk\u2084"
+  esk5_0:
+    axiom: t13_matrix_9
+    related:
+    - esk1_0
+    - esk4_0
+    - esk3_0
+    - esk5_0
+    - esk2_0
+    symbol: "sk\u2085"
+steps:
+  c_0_11:
+    counts:
+      l1_struct_0: 1
+      l2_struct_0: 1
+    skolems: []
+  c_0_12:
+    counts:
+      l2_algstr_0: 1
+      l2_struct_0: 1
+    skolems: []
+  c_0_15:
+    counts:
+      l1_struct_0: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_19:
+    counts:
+      k12_matrix_3: 1
+      k3_matrix_1: 4
+      k5_algstr_0: 1
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_matrix_1: 1
+      np__1: 4
+      np__2: 7
+      u1_struct_0: 5
+      v13_algstr_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+  c_0_20:
+    counts:
+      k3_matrix_1: 1
+      k6_matrix_2: 1
+      m1_subset_1: 4
+      np__1: 1
+      np__2: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_23:
+    counts:
+      l1_struct_0: 1
+      l2_algstr_0: 1
+    skolems: []
+  c_0_24:
+    counts:
+      l2_algstr_0: 1
+      l6_algstr_0: 1
+    skolems: []
+  c_0_25:
+    counts:
+      k12_matrix_3: 1
+      k3_matrix_1: 4
+      k5_algstr_0: 1
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_matrix_1: 1
+      np__1: 4
+      np__2: 7
+      u1_struct_0: 5
+      v13_algstr_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+  c_0_27:
+    counts:
+      k6_matrix_2: 1
+      m1_matrix_1: 1
+      m1_subset_1: 4
+      np__2: 2
+      v1_xboole_0: 1
+    skolems: []
+  c_0_28:
+    counts:
+      l2_algstr_0: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_30:
+    counts:
+      k12_matrix_3: 1
+      k3_matrix_1: 3
+      k5_algstr_0: 1
+      k6_matrix_2: 5
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_matrix_1: 1
+      m1_subset_1: 4
+      np__1: 3
+      np__2: 6
+      u1_struct_0: 14
+      v13_algstr_0: 1
+      v1_xboole_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+  c_0_32:
+    counts:
+      l6_algstr_0: 1
+      u1_struct_0: 1
+      v1_xboole_0: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_33:
+    counts:
+      k3_matrix_1: 1
+      k6_matrix_2: 1
+      m1_subset_1: 4
+      np__1: 2
+      v1_xboole_0: 1
+    skolems: []
+  c_0_34:
+    counts:
+      k12_matrix_3: 1
+      k3_matrix_1: 3
+      k5_algstr_0: 1
+      k6_matrix_2: 4
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_subset_1: 4
+      np__1: 3
+      np__2: 4
+      u1_struct_0: 11
+      v13_algstr_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+  c_0_36:
+    counts:
+      k12_matrix_3: 1
+      k3_matrix_1: 2
+      k5_algstr_0: 1
+      k6_matrix_2: 3
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_subset_1: 4
+      np__1: 1
+      np__2: 4
+      u1_struct_0: 10
+      v13_algstr_0: 1
+      v1_xboole_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+  c_0_37:
+    counts:
+      k3_matrix_1: 1
+      k6_matrix_2: 1
+      m1_subset_1: 4
+      np__1: 1
+      np__2: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_38:
+    counts:
+      k12_matrix_3: 1
+      k3_matrix_1: 2
+      k5_algstr_0: 1
+      k6_matrix_2: 3
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_subset_1: 4
+      np__1: 1
+      np__2: 4
+      u1_struct_0: 9
+      v13_algstr_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+  c_0_41:
+    counts:
+      k12_matrix_3: 1
+      k3_matrix_1: 1
+      k5_algstr_0: 1
+      k6_matrix_2: 2
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_subset_1: 4
+      np__2: 3
+      u1_struct_0: 8
+      v13_algstr_0: 1
+      v1_xboole_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+  c_0_42:
+    counts:
+      k3_matrix_1: 1
+      k6_matrix_2: 1
+      m1_subset_1: 4
+      np__2: 2
+      v1_xboole_0: 1
+    skolems: []
+  c_0_44:
+    counts:
+      k12_matrix_3: 1
+      k3_matrix_1: 1
+      k5_algstr_0: 1
+      k6_matrix_2: 2
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_subset_1: 4
+      np__2: 3
+      u1_struct_0: 7
+      v13_algstr_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+  c_0_46:
+    counts:
+      k12_matrix_3: 1
+      k5_algstr_0: 1
+      k6_matrix_2: 1
+      k8_group_1: 2
+      np__2: 1
+      u1_struct_0: 1
+    skolems:
+    - esk5_0
+    - esk3_0
+    - esk1_0
+    - esk4_0
+    - esk2_0
+  c_0_47:
+    counts:
+      k12_matrix_3: 1
+      k5_algstr_0: 1
+      k6_matrix_2: 1
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_subset_1: 4
+      np__2: 1
+      u1_struct_0: 6
+      v13_algstr_0: 1
+      v1_xboole_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+  c_0_48:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk1_0
+    - esk5_0
+  c_0_49:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk1_0
+    - esk4_0
+  c_0_50:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk3_0
+    - esk1_0
+  c_0_51:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_52:
+    counts:
+      l6_algstr_0: 1
+    skolems:
+    - esk1_0
+  c_0_53:
+    counts:
+      v5_vectsp_1: 1
+    skolems:
+    - esk1_0
+  c_0_54:
+    counts:
+      v4_vectsp_1: 1
+    skolems:
+    - esk1_0
+  c_0_55:
+    counts:
+      v4_rlvect_1: 1
+    skolems:
+    - esk1_0
+  c_0_56:
+    counts:
+      v3_rlvect_1: 1
+    skolems:
+    - esk1_0
+  c_0_57:
+    counts:
+      v2_rlvect_1: 1
+    skolems:
+    - esk1_0
+  c_0_58:
+    counts:
+      v5_group_1: 1
+    skolems:
+    - esk1_0
+  c_0_59:
+    counts:
+      v3_group_1: 1
+    skolems:
+    - esk1_0
+  c_0_60:
+    counts:
+      v33_algstr_0: 1
+    skolems:
+    - esk1_0
+  c_0_61:
+    counts:
+      v13_algstr_0: 1
+    skolems:
+    - esk1_0
+  c_0_62:
+    counts:
+      v6_struct_0: 1
+    skolems:
+    - esk1_0
+  c_0_63:
+    counts:
+      v2_struct_0: 1
+    skolems:
+    - esk1_0
+  c_0_65:
+    counts:
+      k12_matrix_3: 1
+      k5_algstr_0: 1
+      k6_matrix_2: 1
+      k8_group_1: 2
+      l6_algstr_0: 1
+      m1_subset_1: 4
+      np__2: 1
+      u1_struct_0: 5
+      v13_algstr_0: 1
+      v2_rlvect_1: 1
+      v2_struct_0: 1
+      v33_algstr_0: 1
+      v3_group_1: 1
+      v3_rlvect_1: 1
+      v4_rlvect_1: 1
+      v4_vectsp_1: 1
+      v5_group_1: 1
+      v5_vectsp_1: 1
+      v6_struct_0: 1
+    skolems: []
+symbols:
+  k12_matrix_3:
+    arity: 3
+    count: 12
+    mizar: Det
+    neg: 2
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_3.html#K12
+    vizar: Det(x,y,z)
+  k3_matrix_1:
+    arity: 4
+    count: 28
+    mizar: '*'
+    neg: 0
+    pos: 28
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_1.html#K3
+    vizar: '*'
+  k5_algstr_0:
+    arity: 3
+    count: 12
+    mizar: '-'
+    neg: 2
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#K5
+    vizar: -(x,y,z)
+  k6_matrix_2:
+    arity: 5
+    count: 33
+    mizar: ']['
+    neg: 3
+    pos: 30
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_2.html#K6
+    vizar: ']['
+  k8_group_1:
+    arity: 3
+    count: 24
+    mizar: '*'
+    neg: 4
+    pos: 20
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_1.html#K8
+    vizar: '*'
+  l1_struct_0:
+    arity: 1
+    count: 5
+    mizar: 1-sorted
+    neg: 2
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#L1
+    vizar: 1-sorted(x)
+  l2_algstr_0:
+    arity: 1
+    count: 6
+    mizar: addLoopStr
+    neg: 4
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#L2
+    vizar: addLoopStr(x)
+  l2_struct_0:
+    arity: 1
+    count: 4
+    mizar: ZeroStr
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#L2
+    vizar: ZeroStr(x)
+  l6_algstr_0:
+    arity: 1
+    count: 15
+    mizar: doubleLoopStr
+    neg: 13
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#L6
+    vizar: doubleLoopStr(x)
+  m1_matrix_1:
+    arity: 4
+    count: 5
+    mizar: Matrix
+    neg: 3
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_1.html#M1
+    vizar: Matrix(x,y,z,u)
+  m1_subset_1:
+    arity: 2
+    count: 80
+    mizar: Element
+    neg: 72
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  np__1:
+    arity: 0
+    count: 24
+    mizar: '1'
+    neg: 0
+    pos: 24
+    url: null
+    vizar: '1'
+  np__2:
+    arity: 0
+    count: 54
+    mizar: '2'
+    neg: 8
+    pos: 46
+    url: null
+    vizar: '2'
+  u1_struct_0:
+    arity: 1
+    count: 94
+    mizar: carrier
+    neg: 42
+    pos: 52
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#U1
+    vizar: carrier(x)
+  v13_algstr_0:
+    arity: 1
+    count: 12
+    mizar: right_complementable
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#V13
+    vizar: right_complementable(x)
+  v1_xboole_0:
+    arity: 1
+    count: 18
+    mizar: empty
+    neg: 4
+    pos: 14
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1
+    vizar: "x = \xD8"
+  v2_rlvect_1:
+    arity: 1
+    count: 12
+    mizar: Abelian
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rlvect_1.html#V2
+    vizar: Abelian(x)
+  v2_struct_0:
+    arity: 1
+    count: 16
+    mizar: empty
+    neg: 2
+    pos: 14
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#V2
+    vizar: empty(x)
+  v33_algstr_0:
+    arity: 1
+    count: 12
+    mizar: almost_left_invertible
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#V33
+    vizar: almost_left_invertible(x)
+  v3_group_1:
+    arity: 1
+    count: 12
+    mizar: associative
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_1.html#V3
+    vizar: associative(x)
+  v3_rlvect_1:
+    arity: 1
+    count: 12
+    mizar: add-associative
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rlvect_1.html#V3
+    vizar: add-associative(x)
+  v4_rlvect_1:
+    arity: 1
+    count: 12
+    mizar: right_zeroed
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rlvect_1.html#V4
+    vizar: right_zeroed(x)
+  v4_vectsp_1:
+    arity: 1
+    count: 12
+    mizar: well-unital
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/vectsp_1.html#V4
+    vizar: well-unital(x)
+  v5_group_1:
+    arity: 1
+    count: 12
+    mizar: commutative
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_1.html#V5
+    vizar: commutative(x)
+  v5_vectsp_1:
+    arity: 1
+    count: 12
+    mizar: distributive
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/vectsp_1.html#V5
+    vizar: distributive(x)
+  v6_struct_0:
+    arity: 1
+    count: 12
+    mizar: degenerated
+    neg: 2
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#V6
+    vizar: degenerated(x)
+tptp:
+  c_0_11: "cnf(c_0_11,plain,\n    ( l1_struct_0(X1)\n    | ~ l2_struct_0(X1) ))."
+  c_0_12: "cnf(c_0_12,plain,\n    ( l2_struct_0(X1)\n    | ~ l2_algstr_0(X1) ))."
+  c_0_15: "cnf(c_0_15,plain,\n    ( v2_struct_0(X1)\n    | ~ l1_struct_0(X1)\n   \
+    \ | ~ v1_xboole_0(u1_struct_0(X1)) ))."
+  c_0_19: "cnf(c_0_19,plain,\n    ( v2_struct_0(X1)\n    | v6_struct_0(X1)\n    |\
+    \ k12_matrix_3(np__2,X1,X2) = k5_algstr_0(X1,k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),X2,np__1,np__1),k3_matrix_1(u1_struct_0(X1),X2,np__2,np__2)),k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),X2,np__1,np__2),k3_matrix_1(u1_struct_0(X1),X2,np__2,np__1)))\n\
+    \    | ~ v13_algstr_0(X1)\n    | ~ v33_algstr_0(X1)\n    | ~ v3_group_1(X1)\n\
+    \    | ~ v5_group_1(X1)\n    | ~ v2_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n  \
+    \  | ~ v4_rlvect_1(X1)\n    | ~ v4_vectsp_1(X1)\n    | ~ v5_vectsp_1(X1)\n   \
+    \ | ~ l6_algstr_0(X1)\n    | ~ m1_matrix_1(X2,u1_struct_0(X1),np__2,np__2) ))."
+  c_0_20: "cnf(c_0_20,plain,\n    ( k3_matrix_1(X1,k6_matrix_2(X1,X2,X3,X4,X5),np__2,np__1)\
+    \ = X4\n    | v1_xboole_0(X1)\n    | ~ m1_subset_1(X5,X1)\n    | ~ m1_subset_1(X4,X1)\n\
+    \    | ~ m1_subset_1(X3,X1)\n    | ~ m1_subset_1(X2,X1) ))."
+  c_0_23: "cnf(c_0_23,plain,\n    ( l1_struct_0(X1)\n    | ~ l2_algstr_0(X1) ))."
+  c_0_24: "cnf(c_0_24,plain,\n    ( l2_algstr_0(X1)\n    | ~ l6_algstr_0(X1) ))."
+  c_0_25: "cnf(c_0_25,plain,\n    ( k5_algstr_0(X1,k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),X2,np__1,np__1),k3_matrix_1(u1_struct_0(X1),X2,np__2,np__2)),k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),X2,np__1,np__2),k3_matrix_1(u1_struct_0(X1),X2,np__2,np__1)))\
+    \ = k12_matrix_3(np__2,X1,X2)\n    | v2_struct_0(X1)\n    | v6_struct_0(X1)\n\
+    \    | ~ v13_algstr_0(X1)\n    | ~ v33_algstr_0(X1)\n    | ~ v3_group_1(X1)\n\
+    \    | ~ v5_group_1(X1)\n    | ~ v2_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n  \
+    \  | ~ v4_rlvect_1(X1)\n    | ~ v4_vectsp_1(X1)\n    | ~ v5_vectsp_1(X1)\n   \
+    \ | ~ l6_algstr_0(X1)\n    | ~ m1_matrix_1(X2,u1_struct_0(X1),np__2,np__2) ))."
+  c_0_27: "cnf(c_0_27,plain,\n    ( v1_xboole_0(X1)\n    | m1_matrix_1(k6_matrix_2(X1,X2,X3,X4,X5),X1,np__2,np__2)\n\
+    \    | ~ m1_subset_1(X2,X1)\n    | ~ m1_subset_1(X3,X1)\n    | ~ m1_subset_1(X4,X1)\n\
+    \    | ~ m1_subset_1(X5,X1) ))."
+  c_0_28: "cnf(c_0_28,plain,\n    ( v2_struct_0(X1)\n    | ~ v1_xboole_0(u1_struct_0(X1))\n\
+    \    | ~ l2_algstr_0(X1) ))."
+  c_0_30: "cnf(c_0_30,plain,\n    ( k5_algstr_0(X1,k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__1,np__1),k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__2,np__2)),k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__1,np__2),X4))\
+    \ = k12_matrix_3(np__2,X1,k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5))\n    | v6_struct_0(X1)\n\
+    \    | v2_struct_0(X1)\n    | v1_xboole_0(u1_struct_0(X1))\n    | ~ m1_matrix_1(k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),u1_struct_0(X1),np__2,np__2)\n\
+    \    | ~ l6_algstr_0(X1)\n    | ~ v5_vectsp_1(X1)\n    | ~ v4_vectsp_1(X1)\n \
+    \   | ~ v4_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n    | ~ v2_rlvect_1(X1)\n  \
+    \  | ~ v5_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~ v33_algstr_0(X1)\n    |\
+    \ ~ v13_algstr_0(X1)\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n    | ~ m1_subset_1(X4,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X3,u1_struct_0(X1))\n    | ~ m1_subset_1(X2,u1_struct_0(X1))\
+    \ ))."
+  c_0_32: "cnf(c_0_32,plain,\n    ( v2_struct_0(X1)\n    | ~ v1_xboole_0(u1_struct_0(X1))\n\
+    \    | ~ l6_algstr_0(X1) ))."
+  c_0_33: "cnf(c_0_33,plain,\n    ( k3_matrix_1(X1,k6_matrix_2(X1,X2,X3,X4,X5),np__1,np__1)\
+    \ = X2\n    | v1_xboole_0(X1)\n    | ~ m1_subset_1(X5,X1)\n    | ~ m1_subset_1(X4,X1)\n\
+    \    | ~ m1_subset_1(X3,X1)\n    | ~ m1_subset_1(X2,X1) ))."
+  c_0_34: "cnf(c_0_34,plain,\n    ( k5_algstr_0(X1,k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__1,np__1),k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__2,np__2)),k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__1,np__2),X4))\
+    \ = k12_matrix_3(np__2,X1,k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5))\n    | v6_struct_0(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n    | ~ m1_subset_1(X4,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X3,u1_struct_0(X1))\n    | ~ m1_subset_1(X2,u1_struct_0(X1))\n\
+    \    | ~ l6_algstr_0(X1)\n    | ~ v5_vectsp_1(X1)\n    | ~ v4_vectsp_1(X1)\n \
+    \   | ~ v4_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n    | ~ v2_rlvect_1(X1)\n  \
+    \  | ~ v5_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~ v33_algstr_0(X1)\n    |\
+    \ ~ v13_algstr_0(X1) ))."
+  c_0_36: "cnf(c_0_36,plain,\n    ( k5_algstr_0(X1,k8_group_1(X1,X2,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__2,np__2)),k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__1,np__2),X4))\
+    \ = k12_matrix_3(np__2,X1,k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5))\n    | v6_struct_0(X1)\n\
+    \    | v2_struct_0(X1)\n    | v1_xboole_0(u1_struct_0(X1))\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(X1))\n    | ~ m1_subset_1(X3,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(X1))\n    | ~ l6_algstr_0(X1)\n    | ~ v5_vectsp_1(X1)\n\
+    \    | ~ v4_vectsp_1(X1)\n    | ~ v4_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n \
+    \   | ~ v2_rlvect_1(X1)\n    | ~ v5_group_1(X1)\n    | ~ v3_group_1(X1)\n    |\
+    \ ~ v33_algstr_0(X1)\n    | ~ v13_algstr_0(X1) ))."
+  c_0_37: "cnf(c_0_37,plain,\n    ( k3_matrix_1(X1,k6_matrix_2(X1,X2,X3,X4,X5),np__1,np__2)\
+    \ = X3\n    | v1_xboole_0(X1)\n    | ~ m1_subset_1(X5,X1)\n    | ~ m1_subset_1(X4,X1)\n\
+    \    | ~ m1_subset_1(X3,X1)\n    | ~ m1_subset_1(X2,X1) ))."
+  c_0_38: "cnf(c_0_38,plain,\n    ( k5_algstr_0(X1,k8_group_1(X1,X2,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__2,np__2)),k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__1,np__2),X4))\
+    \ = k12_matrix_3(np__2,X1,k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5))\n    | v6_struct_0(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n    | ~ m1_subset_1(X4,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X3,u1_struct_0(X1))\n    | ~ m1_subset_1(X2,u1_struct_0(X1))\n\
+    \    | ~ l6_algstr_0(X1)\n    | ~ v5_vectsp_1(X1)\n    | ~ v4_vectsp_1(X1)\n \
+    \   | ~ v4_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n    | ~ v2_rlvect_1(X1)\n  \
+    \  | ~ v5_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~ v33_algstr_0(X1)\n    |\
+    \ ~ v13_algstr_0(X1) ))."
+  c_0_41: "cnf(c_0_41,plain,\n    ( k5_algstr_0(X1,k8_group_1(X1,X2,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__2,np__2)),k8_group_1(X1,X3,X4))\
+    \ = k12_matrix_3(np__2,X1,k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5))\n    | v6_struct_0(X1)\n\
+    \    | v2_struct_0(X1)\n    | v1_xboole_0(u1_struct_0(X1))\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(X1))\n    | ~ m1_subset_1(X3,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(X1))\n    | ~ l6_algstr_0(X1)\n    | ~ v5_vectsp_1(X1)\n\
+    \    | ~ v4_vectsp_1(X1)\n    | ~ v4_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n \
+    \   | ~ v2_rlvect_1(X1)\n    | ~ v5_group_1(X1)\n    | ~ v3_group_1(X1)\n    |\
+    \ ~ v33_algstr_0(X1)\n    | ~ v13_algstr_0(X1) ))."
+  c_0_42: "cnf(c_0_42,plain,\n    ( k3_matrix_1(X1,k6_matrix_2(X1,X2,X3,X4,X5),np__2,np__2)\
+    \ = X5\n    | v1_xboole_0(X1)\n    | ~ m1_subset_1(X5,X1)\n    | ~ m1_subset_1(X4,X1)\n\
+    \    | ~ m1_subset_1(X3,X1)\n    | ~ m1_subset_1(X2,X1) ))."
+  c_0_44: "cnf(c_0_44,plain,\n    ( k5_algstr_0(X1,k8_group_1(X1,X2,k3_matrix_1(u1_struct_0(X1),k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5),np__2,np__2)),k8_group_1(X1,X3,X4))\
+    \ = k12_matrix_3(np__2,X1,k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5))\n    | v6_struct_0(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n    | ~ m1_subset_1(X4,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X3,u1_struct_0(X1))\n    | ~ m1_subset_1(X2,u1_struct_0(X1))\n\
+    \    | ~ l6_algstr_0(X1)\n    | ~ v5_vectsp_1(X1)\n    | ~ v4_vectsp_1(X1)\n \
+    \   | ~ v4_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n    | ~ v2_rlvect_1(X1)\n  \
+    \  | ~ v5_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~ v33_algstr_0(X1)\n    |\
+    \ ~ v13_algstr_0(X1) ))."
+  c_0_46: "cnf(c_0_46,negated_conjecture,\n    ( k12_matrix_3(np__2,esk1_0,k6_matrix_2(u1_struct_0(esk1_0),esk2_0,esk3_0,esk4_0,esk5_0))\
+    \ != k5_algstr_0(esk1_0,k8_group_1(esk1_0,esk2_0,esk5_0),k8_group_1(esk1_0,esk3_0,esk4_0))\
+    \ ))."
+  c_0_47: "cnf(c_0_47,plain,\n    ( k5_algstr_0(X1,k8_group_1(X1,X2,X5),k8_group_1(X1,X3,X4))\
+    \ = k12_matrix_3(np__2,X1,k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5))\n    | v6_struct_0(X1)\n\
+    \    | v2_struct_0(X1)\n    | v1_xboole_0(u1_struct_0(X1))\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(X1))\n    | ~ m1_subset_1(X3,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(X1))\n    | ~ l6_algstr_0(X1)\n    | ~ v5_vectsp_1(X1)\n\
+    \    | ~ v4_vectsp_1(X1)\n    | ~ v4_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n \
+    \   | ~ v2_rlvect_1(X1)\n    | ~ v5_group_1(X1)\n    | ~ v3_group_1(X1)\n    |\
+    \ ~ v33_algstr_0(X1)\n    | ~ v13_algstr_0(X1) ))."
+  c_0_48: "cnf(c_0_48,negated_conjecture,\n    ( m1_subset_1(esk5_0,u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_49: "cnf(c_0_49,negated_conjecture,\n    ( m1_subset_1(esk4_0,u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_50: "cnf(c_0_50,negated_conjecture,\n    ( m1_subset_1(esk3_0,u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_51: "cnf(c_0_51,negated_conjecture,\n    ( m1_subset_1(esk2_0,u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_52: "cnf(c_0_52,negated_conjecture,\n    ( l6_algstr_0(esk1_0) ))."
+  c_0_53: "cnf(c_0_53,negated_conjecture,\n    ( v5_vectsp_1(esk1_0) ))."
+  c_0_54: "cnf(c_0_54,negated_conjecture,\n    ( v4_vectsp_1(esk1_0) ))."
+  c_0_55: "cnf(c_0_55,negated_conjecture,\n    ( v4_rlvect_1(esk1_0) ))."
+  c_0_56: "cnf(c_0_56,negated_conjecture,\n    ( v3_rlvect_1(esk1_0) ))."
+  c_0_57: "cnf(c_0_57,negated_conjecture,\n    ( v2_rlvect_1(esk1_0) ))."
+  c_0_58: "cnf(c_0_58,negated_conjecture,\n    ( v5_group_1(esk1_0) ))."
+  c_0_59: "cnf(c_0_59,negated_conjecture,\n    ( v3_group_1(esk1_0) ))."
+  c_0_60: "cnf(c_0_60,negated_conjecture,\n    ( v33_algstr_0(esk1_0) ))."
+  c_0_61: "cnf(c_0_61,negated_conjecture,\n    ( v13_algstr_0(esk1_0) ))."
+  c_0_62: "cnf(c_0_62,negated_conjecture,\n    ( ~ v6_struct_0(esk1_0) ))."
+  c_0_63: "cnf(c_0_63,negated_conjecture,\n    ( ~ v2_struct_0(esk1_0) ))."
+  c_0_65: "cnf(c_0_65,plain,\n    ( k5_algstr_0(X1,k8_group_1(X1,X2,X3),k8_group_1(X1,X4,X5))\
+    \ = k12_matrix_3(np__2,X1,k6_matrix_2(u1_struct_0(X1),X2,X4,X5,X3))\n    | v6_struct_0(X1)\n\
+    \    | v2_struct_0(X1)\n    | ~ m1_subset_1(X3,u1_struct_0(X1))\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(X1))\n    | ~ m1_subset_1(X2,u1_struct_0(X1))\n\
+    \    | ~ l6_algstr_0(X1)\n    | ~ v5_vectsp_1(X1)\n    | ~ v4_vectsp_1(X1)\n \
+    \   | ~ v4_rlvect_1(X1)\n    | ~ v3_rlvect_1(X1)\n    | ~ v2_rlvect_1(X1)\n  \
+    \  | ~ v5_group_1(X1)\n    | ~ v3_group_1(X1)\n    | ~ v33_algstr_0(X1)\n    |\
+    \ ~ v13_algstr_0(X1) ))."
+  c_0_82: "cnf(c_0_82,negated_conjecture,\n    ( $false ))."
+  dt_k6_matrix_2: "fof(dt_k6_matrix_2,axiom,(\n    ! [X1,X2,X3,X4,X5] :\n      ( (\
+    \ ~ v1_xboole_0(X1)\n        & m1_subset_1(X2,X1)\n        & m1_subset_1(X3,X1)\n\
+    \        & m1_subset_1(X4,X1)\n        & m1_subset_1(X5,X1) )\n     => m1_matrix_1(k6_matrix_2(X1,X2,X3,X4,X5),X1,np__2,np__2)\
+    \ ) ))."
+  dt_l2_algstr_0: "fof(dt_l2_algstr_0,axiom,(\n    ! [X1] :\n      ( l2_algstr_0(X1)\n\
+    \     => ( l2_struct_0(X1)\n        & l1_algstr_0(X1) ) ) ))."
+  dt_l2_struct_0: "fof(dt_l2_struct_0,axiom,(\n    ! [X1] :\n      ( l2_struct_0(X1)\n\
+    \     => l1_struct_0(X1) ) ))."
+  dt_l6_algstr_0: "fof(dt_l6_algstr_0,axiom,(\n    ! [X1] :\n      ( l6_algstr_0(X1)\n\
+    \     => ( l2_algstr_0(X1)\n        & l5_algstr_0(X1) ) ) ))."
+  fc2_struct_0: "fof(fc2_struct_0,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & l1_struct_0(X1) )\n     => ~ v1_xboole_0(u1_struct_0(X1)) ) ))."
+  t12_matrix_7: "fof(t12_matrix_7,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & ~ v6_struct_0(X1)\n        & v13_algstr_0(X1)\n        & v33_algstr_0(X1)\n\
+    \        & v3_group_1(X1)\n        & v5_group_1(X1)\n        & v2_rlvect_1(X1)\n\
+    \        & v3_rlvect_1(X1)\n        & v4_rlvect_1(X1)\n        & v4_vectsp_1(X1)\n\
+    \        & v5_vectsp_1(X1)\n        & l6_algstr_0(X1) )\n     => ! [X2] :\n  \
+    \        ( m1_matrix_1(X2,u1_struct_0(X1),np__2,np__2)\n         => k12_matrix_3(np__2,X1,X2)\
+    \ = k5_algstr_0(X1,k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),X2,np__1,np__1),k3_matrix_1(u1_struct_0(X1),X2,np__2,np__2)),k8_group_1(X1,k3_matrix_1(u1_struct_0(X1),X2,np__1,np__2),k3_matrix_1(u1_struct_0(X1),X2,np__2,np__1)))\
+    \ ) ) ))."
+  t13_matrix_9: "fof(t13_matrix_9,conjecture,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & ~ v6_struct_0(X1)\n        & v13_algstr_0(X1)\n        & v33_algstr_0(X1)\n\
+    \        & v3_group_1(X1)\n        & v5_group_1(X1)\n        & v2_rlvect_1(X1)\n\
+    \        & v3_rlvect_1(X1)\n        & v4_rlvect_1(X1)\n        & v4_vectsp_1(X1)\n\
+    \        & v5_vectsp_1(X1)\n        & l6_algstr_0(X1) )\n     => ! [X2] :\n  \
+    \        ( m1_subset_1(X2,u1_struct_0(X1))\n         => ! [X3] :\n           \
+    \   ( m1_subset_1(X3,u1_struct_0(X1))\n             => ! [X4] :\n            \
+    \      ( m1_subset_1(X4,u1_struct_0(X1))\n                 => ! [X5] :\n     \
+    \                 ( m1_subset_1(X5,u1_struct_0(X1))\n                     => k12_matrix_3(np__2,X1,k6_matrix_2(u1_struct_0(X1),X2,X3,X4,X5))\
+    \ = k5_algstr_0(X1,k8_group_1(X1,X2,X5),k8_group_1(X1,X3,X4)) ) ) ) ) ) ))."
+  t6_matrix_2: "fof(t6_matrix_2,axiom,(\n    ! [X1] :\n      ( ~ v1_xboole_0(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,X1)\n         => ! [X3] :\n    \
+    \          ( m1_subset_1(X3,X1)\n             => ! [X4] :\n                  (\
+    \ m1_subset_1(X4,X1)\n                 => ! [X5] :\n                      ( m1_subset_1(X5,X1)\n\
+    \                     => ( k3_matrix_1(X1,k6_matrix_2(X1,X2,X3,X4,X5),np__1,np__1)\
+    \ = X2\n                        & k3_matrix_1(X1,k6_matrix_2(X1,X2,X3,X4,X5),np__1,np__2)\
+    \ = X3\n                        & k3_matrix_1(X1,k6_matrix_2(X1,X2,X3,X4,X5),np__2,np__1)\
+    \ = X4\n                        & k3_matrix_1(X1,k6_matrix_2(X1,X2,X3,X4,X5),np__2,np__2)\
+    \ = X5 ) ) ) ) ) ) ))."
+

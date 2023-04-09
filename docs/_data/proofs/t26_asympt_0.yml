@@ -1,0 +1,1123 @@
+axioms:
+  d10_xboole_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( X\u2081 = X\u2082\n    \u2261 ( (X\u2081\
+      \ \u2286 X\u2082)\n        \u2227 (X\u2082 \u2286 X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#D10
+  d3_tarski:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2286 X\u2082)\n    \u2261\
+      \ (\u2200X\u2083)\n          ( (X\u2083 \u2208 X\u2081)\n         \u21D2 (X\u2083\
+      \ \u2208 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#D3
+  dt_k1_asympt_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( function(X\u2081)\n        \u2227\
+      \ quasi_total(X\u2081,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2081\
+      )\n        \u2227 (X\u2081 \u2208 bool(\u2115 \xD7 \u211D))\n        \u2227\
+      \ function(X\u2082)\n        \u2227 quasi_total(X\u2082,\u2115,\u211D)\n   \
+      \     \u2227 eventually-nonnegative(X\u2082)\n        \u2227 (X\u2082 \u2208\
+      \ bool(\u2115 \xD7 \u211D)) )\n     \u21D2 ( function(X\u2081 + X\u2082)\n \
+      \       \u2227 quasi_total(X\u2081 + X\u2082,\u2115,\u211D)\n        \u2227\
+      \ eventually-nonnegative(X\u2081 + X\u2082)\n        \u2227 ((X\u2081 + X\u2082\
+      ) \u2208 bool(\u2115 \xD7 \u211D)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#K1
+  dt_k5_asympt_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( function(X\u2081)\n        \u2227\
+      \ quasi_total(X\u2081,\u2115,\u211D)\n        \u2227 (X\u2081 \u2208 bool(\u2115\
+      \ \xD7 \u211D))\n        \u2227 function(X\u2082)\n        \u2227 quasi_total(X\u2082\
+      ,\u2115,\u211D)\n        \u2227 (X\u2082 \u2208 bool(\u2115 \xD7 \u211D)) )\n\
+      \     \u21D2 ( function(max(X\u2081,X\u2082))\n        \u2227 quasi_total(max(X\u2081\
+      ,X\u2082),\u2115,\u211D)\n        \u2227 (max(X\u2081,X\u2082) \u2208 bool(\u2115\
+      \ \xD7 \u211D)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#K5
+  fc1_asympt_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( function(X\u2081)\n        \u2227\
+      \ quasi_total(X\u2081,\u2115,\u211D)\n        \u2227 (X\u2081 \u2208 bool(\u2115\
+      \ \xD7 \u211D))\n        \u2227 function(X\u2082)\n        \u2227 quasi_total(X\u2082\
+      ,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2082)\n        \u2227\
+      \ (X\u2082 \u2208 bool(\u2115 \xD7 \u211D)) )\n     \u21D2 ( function(max(X\u2081\
+      ,X\u2082))\n        \u2227 quasi_total(max(X\u2081,X\u2082),\u2115,\u211D)\n\
+      \        \u2227 eventually-nonnegative(max(X\u2081,X\u2082)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#FC1
+  l23_asympt_0:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2081)\n        \u2227\
+      \ (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n     \u21D2 (\u2200X\u2082)\n\
+      \          ( ( function(X\u2082)\n            \u2227 quasi_total(X\u2082,\u2115\
+      ,\u211D)\n            \u2227 eventually-nonnegative(X\u2082)\n            \u2227\
+      \ (X\u2082 \u2208 bool(\u2115 \xD7 \u211D)) )\n         \u21D2 ( ( (X\u2081\
+      \ \u2208 Big_Oh(X\u2082))\n              \u2227 (X\u2082 \u2208 Big_Oh(X\u2081\
+      )) )\n          \u2261 Big_Oh(X\u2081) = Big_Oh(X\u2082) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#L23
+  t10_asympt_0:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2081)\n        \u2227\
+      \ (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n     \u21D2 (X\u2081 \u2208 Big_Oh(X\u2081\
+      )) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T10
+  t18_asympt_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( function(X\u2082)\n        \u2227\
+      \ quasi_total(X\u2082,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2082\
+      )\n        \u2227 (X\u2082 \u2208 bool(\u2115 \xD7 \u211D)) )\n     \u21D2 (\
+      \ (X\u2081 \u2208 Big_Omega(X\u2082))\n       \u21D2 ( function(X\u2081)\n \
+      \         \u2227 quasi_total(X\u2081,\u2115,\u211D)\n          \u2227 eventually-nonnegative(X\u2081\
+      )\n          \u2227 (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T18
+  t19_asympt_0:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2081)\n        \u2227\
+      \ (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n     \u21D2 (\u2200X\u2082)\n\
+      \          ( ( function(X\u2082)\n            \u2227 quasi_total(X\u2082,\u2115\
+      ,\u211D)\n            \u2227 eventually-nonnegative(X\u2082)\n            \u2227\
+      \ (X\u2082 \u2208 bool(\u2115 \xD7 \u211D)) )\n         \u21D2 ( (X\u2081 \u2208\
+      \ Big_Omega(X\u2082))\n          \u2261 (X\u2082 \u2208 Big_Oh(X\u2081)) ) )\
+      \ ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T19
+  t21_asympt_0:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2081)\n        \u2227\
+      \ (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n     \u21D2 (\u2200X\u2082)\n\
+      \          ( ( function(X\u2082)\n            \u2227 quasi_total(X\u2082,\u2115\
+      ,\u211D)\n            \u2227 eventually-nonnegative(X\u2082)\n            \u2227\
+      \ (X\u2082 \u2208 bool(\u2115 \xD7 \u211D)) )\n         \u21D2 (\u2200X\u2083\
+      )\n              ( ( function(X\u2083)\n                \u2227 quasi_total(X\u2083\
+      ,\u2115,\u211D)\n                \u2227 eventually-nonnegative(X\u2083)\n  \
+      \              \u2227 (X\u2083 \u2208 bool(\u2115 \xD7 \u211D)) )\n        \
+      \     \u21D2 ( ( (X\u2081 \u2208 Big_Omega(X\u2082))\n                  \u2227\
+      \ (X\u2082 \u2208 Big_Omega(X\u2083)) )\n               \u21D2 (X\u2081 \u2208\
+      \ Big_Omega(X\u2083)) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T21
+  t26_asympt_0:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2081)\n        \u2227\
+      \ (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n     \u21D2 (\u2200X\u2082)\n\
+      \          ( ( function(X\u2082)\n            \u2227 quasi_total(X\u2082,\u2115\
+      ,\u211D)\n            \u2227 eventually-nonnegative(X\u2082)\n            \u2227\
+      \ (X\u2082 \u2208 bool(\u2115 \xD7 \u211D)) )\n         \u21D2 Big_Omega(X\u2081\
+      \ + X\u2082) = Big_Omega(max(X\u2081,X\u2082)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T26
+  t6_asympt_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( function(X\u2082)\n        \u2227\
+      \ quasi_total(X\u2082,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2082\
+      )\n        \u2227 (X\u2082 \u2208 bool(\u2115 \xD7 \u211D)) )\n     \u21D2 (\
+      \ (X\u2081 \u2208 Big_Oh(X\u2082))\n       \u21D2 ( function(X\u2081)\n    \
+      \      \u2227 quasi_total(X\u2081,\u2115,\u211D)\n          \u2227 eventually-nonnegative(X\u2081\
+      )\n          \u2227 (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T6
+  t9_asympt_0:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 eventually-nonnegative(X\u2081)\n        \u2227\
+      \ (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n     \u21D2 (\u2200X\u2082)\n\
+      \          ( ( function(X\u2082)\n            \u2227 quasi_total(X\u2082,\u2115\
+      ,\u211D)\n            \u2227 eventually-nonnegative(X\u2082)\n            \u2227\
+      \ (X\u2082 \u2208 bool(\u2115 \xD7 \u211D)) )\n         \u21D2 Big_Oh(X\u2081\
+      \ + X\u2082) = Big_Oh(max(X\u2081,X\u2082)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T9
+conjecture: t26_asympt_0
+final: c_0_108
+skolems:
+  esk1_0:
+    axiom: t26_asympt_0
+    related:
+    - esk1_0
+    - esk2_0
+    symbol: "sk\u2081"
+  esk2_0:
+    axiom: t26_asympt_0
+    related:
+    - esk1_0
+    - esk2_0
+    symbol: "sk\u2082"
+  esk9_2:
+    axiom: d3_tarski
+    related:
+    - esk9_2
+    symbol: "sk\u2089"
+steps:
+  c_0_17:
+    counts:
+      k1_numbers: 6
+      k1_zfmisc_1: 3
+      k2_zfmisc_1: 3
+      k5_numbers: 6
+      k7_asympt_0: 3
+      m1_subset_1: 3
+      r2_hidden: 3
+      v1_funct_1: 3
+      v1_funct_2: 3
+      v2_asympt_0: 3
+    skolems: []
+  c_0_18:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k7_asympt_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_funct_1: 2
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_19:
+    counts:
+      k1_numbers: 3
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 3
+      k7_asympt_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_funct_2: 2
+      v2_asympt_0: 1
+    skolems: []
+  c_0_20:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k7_asympt_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 2
+    skolems: []
+  c_0_21:
+    counts:
+      k1_numbers: 3
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 3
+      k7_asympt_0: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_22:
+    counts:
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 4
+      k6_asympt_0: 1
+      k7_asympt_0: 1
+      m1_subset_1: 2
+      r2_hidden: 2
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_23:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k6_asympt_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_funct_1: 2
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_24:
+    counts:
+      k1_numbers: 3
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 3
+      k6_asympt_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_funct_2: 2
+      v2_asympt_0: 1
+    skolems: []
+  c_0_25:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k6_asympt_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 2
+    skolems: []
+  c_0_26:
+    counts:
+      k1_numbers: 3
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 3
+      k6_asympt_0: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_37:
+    counts:
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 4
+      k7_asympt_0: 3
+      m1_subset_1: 2
+      r2_hidden: 3
+      v1_funct_1: 1
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_38:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k6_asympt_0: 1
+      k7_asympt_0: 1
+      m1_subset_1: 1
+      r2_hidden: 2
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_40:
+    counts:
+      k1_numbers: 6
+      k1_zfmisc_1: 3
+      k2_zfmisc_1: 3
+      k5_numbers: 6
+      k6_asympt_0: 1
+      k7_asympt_0: 2
+      m1_subset_1: 3
+      r2_hidden: 3
+      v1_funct_1: 2
+      v1_funct_2: 3
+      v2_asympt_0: 3
+    skolems: []
+  c_0_41:
+    counts:
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems:
+    - esk9_2
+  c_0_43:
+    counts:
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems:
+    - esk9_2
+  c_0_44:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k6_asympt_0: 1
+      k7_asympt_0: 2
+      m1_subset_1: 1
+      r2_hidden: 3
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_46:
+    counts:
+      r1_tarski: 2
+    skolems: []
+  c_0_48:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k6_asympt_0: 1
+      k7_asympt_0: 3
+      m1_subset_1: 1
+      r1_tarski: 1
+      r2_hidden: 2
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems:
+    - esk9_2
+  c_0_52:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k6_asympt_0: 1
+      k7_asympt_0: 2
+      m1_subset_1: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_53:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k6_asympt_0: 1
+      m1_subset_1: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_54:
+    counts:
+      k1_asympt_0: 1
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_asympt_0: 1
+      k5_numbers: 4
+      k6_asympt_0: 2
+      m1_subset_1: 2
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_56:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k6_asympt_0: 1
+      k7_asympt_0: 4
+      m1_subset_1: 1
+      r1_tarski: 1
+      r2_hidden: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_59:
+    counts:
+      k1_asympt_0: 1
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 4
+      m1_subset_1: 2
+      v1_funct_1: 3
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_60:
+    counts:
+      k1_asympt_0: 1
+      k1_numbers: 5
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 5
+      m1_subset_1: 2
+      v1_funct_1: 2
+      v1_funct_2: 3
+      v2_asympt_0: 2
+    skolems: []
+  c_0_61:
+    counts:
+      k1_asympt_0: 1
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 4
+      m1_subset_1: 2
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 3
+    skolems: []
+  c_0_62:
+    counts:
+      k1_asympt_0: 1
+      k1_numbers: 5
+      k1_zfmisc_1: 3
+      k2_zfmisc_1: 3
+      k5_numbers: 5
+      m1_subset_1: 3
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_63:
+    counts:
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 4
+      k6_asympt_0: 2
+      k7_asympt_0: 2
+      m1_subset_1: 2
+      r2_hidden: 2
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_64:
+    counts:
+      k1_asympt_0: 5
+      k1_numbers: 6
+      k1_zfmisc_1: 3
+      k2_zfmisc_1: 3
+      k5_asympt_0: 1
+      k5_numbers: 6
+      k6_asympt_0: 1
+      m1_subset_1: 3
+      r2_hidden: 1
+      v1_funct_1: 3
+      v1_funct_2: 3
+      v2_asympt_0: 3
+    skolems: []
+  c_0_71:
+    counts:
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 2
+      k6_asympt_0: 2
+      k7_asympt_0: 2
+      m1_subset_1: 1
+      r2_hidden: 2
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v2_asympt_0: 1
+    skolems: []
+  c_0_72:
+    counts:
+      k1_asympt_0: 1
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_asympt_0: 1
+      k5_numbers: 4
+      k6_asympt_0: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_73:
+    counts:
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_asympt_0: 1
+      k5_numbers: 4
+      m1_subset_1: 2
+      v1_funct_1: 3
+      v1_funct_2: 2
+    skolems: []
+  c_0_74:
+    counts:
+      k1_numbers: 5
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_asympt_0: 1
+      k5_numbers: 5
+      m1_subset_1: 2
+      v1_funct_1: 2
+      v1_funct_2: 3
+    skolems: []
+  c_0_75:
+    counts:
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_asympt_0: 1
+      k5_numbers: 4
+      m1_subset_1: 2
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_76:
+    counts:
+      k1_numbers: 5
+      k1_zfmisc_1: 3
+      k2_zfmisc_1: 3
+      k5_asympt_0: 1
+      k5_numbers: 5
+      m1_subset_1: 3
+      v1_funct_1: 2
+      v1_funct_2: 2
+    skolems: []
+  c_0_79:
+    counts:
+      k1_asympt_0: 2
+      k1_numbers: 6
+      k1_zfmisc_1: 3
+      k2_zfmisc_1: 3
+      k5_asympt_0: 6
+      k5_numbers: 6
+      k6_asympt_0: 1
+      k7_asympt_0: 2
+      m1_subset_1: 3
+      r2_hidden: 1
+      v1_funct_1: 3
+      v1_funct_2: 3
+      v2_asympt_0: 3
+    skolems: []
+  c_0_84:
+    counts:
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 4
+      k6_asympt_0: 3
+      m1_subset_1: 2
+      r2_hidden: 1
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_86:
+    counts:
+      k1_asympt_0: 2
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_asympt_0: 2
+      k5_numbers: 4
+      k6_asympt_0: 1
+      k7_asympt_0: 2
+      m1_subset_1: 2
+      r2_hidden: 1
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_87:
+    counts:
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_numbers: 4
+      k6_asympt_0: 3
+      m1_subset_1: 2
+      r2_hidden: 1
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+  c_0_88:
+    counts:
+      k1_asympt_0: 1
+      k5_asympt_0: 1
+      k7_asympt_0: 2
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_89:
+    counts:
+      k1_asympt_0: 6
+      k1_numbers: 8
+      k1_zfmisc_1: 4
+      k2_zfmisc_1: 4
+      k5_asympt_0: 6
+      k5_numbers: 8
+      k6_asympt_0: 2
+      k7_asympt_0: 2
+      m1_subset_1: 4
+      v1_funct_1: 4
+      v1_funct_2: 4
+      v2_asympt_0: 4
+    skolems: []
+  c_0_90:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems:
+    - esk2_0
+  c_0_91:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems:
+    - esk1_0
+  c_0_92:
+    counts:
+      v2_asympt_0: 1
+    skolems:
+    - esk2_0
+  c_0_93:
+    counts:
+      v2_asympt_0: 1
+    skolems:
+    - esk1_0
+  c_0_94:
+    counts:
+      k1_numbers: 1
+      k5_numbers: 1
+      v1_funct_2: 1
+    skolems:
+    - esk2_0
+  c_0_95:
+    counts:
+      k1_numbers: 1
+      k5_numbers: 1
+      v1_funct_2: 1
+    skolems:
+    - esk1_0
+  c_0_96:
+    counts:
+      v1_funct_1: 1
+    skolems:
+    - esk2_0
+  c_0_97:
+    counts:
+      v1_funct_1: 1
+    skolems:
+    - esk1_0
+  c_0_99:
+    counts:
+      k1_asympt_0: 1
+      k1_numbers: 4
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k5_asympt_0: 1
+      k5_numbers: 4
+      k7_asympt_0: 2
+      m1_subset_1: 2
+      v1_funct_1: 2
+      v1_funct_2: 2
+      v2_asympt_0: 2
+    skolems: []
+symbols:
+  k1_asympt_0:
+    arity: 2
+    count: 29
+    mizar: +
+    neg: 13
+    pos: 16
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#K1
+    vizar: x + y
+  k1_numbers:
+    arity: 0
+    count: 218
+    mizar: REAL
+    neg: 194
+    pos: 24
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K1
+    vizar: "\u211D"
+  k1_zfmisc_1:
+    arity: 1
+    count: 109
+    mizar: bool
+    neg: 97
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
+    vizar: bool(x)
+  k2_zfmisc_1:
+    arity: 2
+    count: 109
+    mizar: '[:..:]'
+    neg: 97
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K2
+    vizar: "x \xD7 y"
+  k5_asympt_0:
+    arity: 2
+    count: 29
+    mizar: max
+    neg: 13
+    pos: 16
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#K5
+    vizar: max(x,y)
+  k5_numbers:
+    arity: 0
+    count: 218
+    mizar: NAT
+    neg: 194
+    pos: 24
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+    vizar: "\u2115"
+  k6_asympt_0:
+    arity: 1
+    count: 38
+    mizar: Big_Oh
+    neg: 28
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#K6
+    vizar: Big_Oh(x)
+  k7_asympt_0:
+    arity: 1
+    count: 49
+    mizar: Big_Omega
+    neg: 22
+    pos: 27
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#K7
+    vizar: Big_Omega(x)
+  m1_subset_1:
+    arity: 2
+    count: 109
+    mizar: Element
+    neg: 97
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  r1_tarski:
+    arity: 2
+    count: 11
+    mizar: c=
+    neg: 5
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1
+    vizar: "x \u2286 y"
+  r2_hidden:
+    arity: 2
+    count: 57
+    mizar: in
+    neg: 40
+    pos: 17
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2
+    vizar: "x \u2208 y"
+  v1_funct_1:
+    arity: 1
+    count: 107
+    mizar: Function-like
+    neg: 95
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#V1
+    vizar: function(x)
+  v1_funct_2:
+    arity: 3
+    count: 109
+    mizar: quasi_total
+    neg: 97
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_2.html#V1
+    vizar: quasi_total(x,y,z)
+  v2_asympt_0:
+    arity: 1
+    count: 95
+    mizar: eventually-nonnegative
+    neg: 83
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#V2
+    vizar: eventually-nonnegative(x)
+tptp:
+  c_0_108: "cnf(c_0_108,negated_conjecture,\n    ( $false ))."
+  c_0_17: "cnf(c_0_17,plain,\n    ( r2_hidden(X1,k7_asympt_0(X3))\n    | ~ v1_funct_1(X1)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v2_asympt_0(X1)\n    |\
+    \ ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~ v1_funct_1(X2)\n\
+    \    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~ v2_asympt_0(X2)\n    |\
+    \ ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~ v1_funct_1(X3)\n\
+    \    | ~ v1_funct_2(X3,k5_numbers,k1_numbers)\n    | ~ v2_asympt_0(X3)\n    |\
+    \ ~ m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~ r2_hidden(X1,k7_asympt_0(X2))\n\
+    \    | ~ r2_hidden(X2,k7_asympt_0(X3)) ))."
+  c_0_18: "cnf(c_0_18,plain,\n    ( v1_funct_1(X1)\n    | ~ r2_hidden(X1,k7_asympt_0(X2))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_19: "cnf(c_0_19,plain,\n    ( v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ r2_hidden(X1,k7_asympt_0(X2))\n    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_20: "cnf(c_0_20,plain,\n    ( v2_asympt_0(X1)\n    | ~ r2_hidden(X1,k7_asympt_0(X2))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_21: "cnf(c_0_21,plain,\n    ( m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ r2_hidden(X1,k7_asympt_0(X2))\n    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_22: "cnf(c_0_22,plain,\n    ( r2_hidden(X2,k7_asympt_0(X1))\n    | ~ r2_hidden(X1,k6_asympt_0(X2))\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_23: "cnf(c_0_23,plain,\n    ( v1_funct_1(X1)\n    | ~ r2_hidden(X1,k6_asympt_0(X2))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_24: "cnf(c_0_24,plain,\n    ( v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ r2_hidden(X1,k6_asympt_0(X2))\n    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_25: "cnf(c_0_25,plain,\n    ( v2_asympt_0(X1)\n    | ~ r2_hidden(X1,k6_asympt_0(X2))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_26: "cnf(c_0_26,plain,\n    ( m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ r2_hidden(X1,k6_asympt_0(X2))\n    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_37: "cnf(c_0_37,plain,\n    ( r2_hidden(X1,k7_asympt_0(X2))\n    | ~ r2_hidden(X3,k7_asympt_0(X2))\n\
+    \    | ~ r2_hidden(X1,k7_asympt_0(X3))\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ v2_asympt_0(X2)\n    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X2) ))."
+  c_0_38: "cnf(c_0_38,plain,\n    ( r2_hidden(X1,k7_asympt_0(X2))\n    | ~ r2_hidden(X2,k6_asympt_0(X1))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X1)\
+    \ ))."
+  c_0_40: "cnf(c_0_40,plain,\n    ( r2_hidden(X1,k7_asympt_0(X2))\n    | ~ r2_hidden(X1,k7_asympt_0(X3))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X2)\n    | ~\
+    \ r2_hidden(X2,k6_asympt_0(X3))\n    | ~ m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(X3)\n    | ~ v1_funct_2(X3,k5_numbers,k1_numbers)\n    |\
+    \ ~ v1_funct_1(X3) ))."
+  c_0_41: "cnf(c_0_41,plain,\n    ( r2_hidden(esk9_2(X1,X2),X1)\n    | r1_tarski(X1,X2)\
+    \ ))."
+  c_0_43: "cnf(c_0_43,plain,\n    ( r1_tarski(X1,X2)\n    | ~ r2_hidden(esk9_2(X1,X2),X2)\
+    \ ))."
+  c_0_44: "cnf(c_0_44,plain,\n    ( r2_hidden(X1,k7_asympt_0(X2))\n    | ~ r2_hidden(X1,k7_asympt_0(X3))\n\
+    \    | ~ r2_hidden(X2,k6_asympt_0(X3))\n    | ~ m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(X3)\n    | ~ v1_funct_2(X3,k5_numbers,k1_numbers)\n    |\
+    \ ~ v1_funct_1(X3) ))."
+  c_0_46: "cnf(c_0_46,plain,\n    ( X1 = X2\n    | ~ r1_tarski(X1,X2)\n    | ~ r1_tarski(X2,X1)\
+    \ ))."
+  c_0_48: "cnf(c_0_48,plain,\n    ( r2_hidden(esk9_2(k7_asympt_0(X1),X2),k7_asympt_0(X3))\n\
+    \    | r1_tarski(k7_asympt_0(X1),X2)\n    | ~ r2_hidden(X3,k6_asympt_0(X1))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X1)\
+    \ ))."
+  c_0_52: "cnf(c_0_52,plain,\n    ( r1_tarski(k7_asympt_0(X1),k7_asympt_0(X2))\n \
+    \   | ~ r2_hidden(X2,k6_asympt_0(X1))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    |\
+    \ ~ v1_funct_1(X1) ))."
+  c_0_53: "cnf(c_0_53,plain,\n    ( r2_hidden(X1,k6_asympt_0(X1))\n    | ~ v1_funct_1(X1)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v2_asympt_0(X1)\n    |\
+    \ ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ))."
+  c_0_54: "cnf(c_0_54,plain,\n    ( k6_asympt_0(k1_asympt_0(X1,X2)) = k6_asympt_0(k5_asympt_0(X1,X2))\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_56: "cnf(c_0_56,plain,\n    ( k7_asympt_0(X1) = k7_asympt_0(X2)\n    | ~ r1_tarski(k7_asympt_0(X1),k7_asympt_0(X2))\n\
+    \    | ~ r2_hidden(X1,k6_asympt_0(X2))\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    |\
+    \ ~ v1_funct_1(X2) ))."
+  c_0_59: "cnf(c_0_59,plain,\n    ( v1_funct_1(k1_asympt_0(X1,X2))\n    | ~ v1_funct_1(X1)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v2_asympt_0(X1)\n    |\
+    \ ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~ v1_funct_1(X2)\n\
+    \    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~ v2_asympt_0(X2)\n    |\
+    \ ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ))."
+  c_0_60: "cnf(c_0_60,plain,\n    ( v1_funct_2(k1_asympt_0(X1,X2),k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_61: "cnf(c_0_61,plain,\n    ( v2_asympt_0(k1_asympt_0(X1,X2))\n    | ~ v1_funct_1(X1)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v2_asympt_0(X1)\n    |\
+    \ ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~ v1_funct_1(X2)\n\
+    \    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~ v2_asympt_0(X2)\n    |\
+    \ ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ))."
+  c_0_62: "cnf(c_0_62,plain,\n    ( m1_subset_1(k1_asympt_0(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_63: "cnf(c_0_63,plain,\n    ( k7_asympt_0(X1) = k7_asympt_0(X2)\n    | ~ r2_hidden(X1,k6_asympt_0(X2))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ v2_asympt_0(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X2)\n\
+    \    | ~ r2_hidden(X2,k6_asympt_0(X1))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    |\
+    \ ~ v1_funct_1(X1) ))."
+  c_0_64: "cnf(c_0_64,plain,\n    ( r2_hidden(k1_asympt_0(X1,X2),k6_asympt_0(k5_asympt_0(X1,X2)))\n\
+    \    | ~ m1_subset_1(k1_asympt_0(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(k1_asympt_0(X1,X2))\n    | ~ v1_funct_2(k1_asympt_0(X1,X2),k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_1(k1_asympt_0(X1,X2))\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ v2_asympt_0(X2)\n    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X2)\n    | ~\
+    \ v1_funct_1(X1) ))."
+  c_0_71: "cnf(c_0_71,plain,\n    ( k7_asympt_0(X1) = k7_asympt_0(X2)\n    | ~ r2_hidden(X1,k6_asympt_0(X2))\n\
+    \    | ~ r2_hidden(X2,k6_asympt_0(X1))\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    |\
+    \ ~ v1_funct_1(X2) ))."
+  c_0_72: "cnf(c_0_72,plain,\n    ( r2_hidden(k1_asympt_0(X1,X2),k6_asympt_0(k5_asympt_0(X1,X2)))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X2)\n    | ~\
+    \ v1_funct_1(X1) ))."
+  c_0_73: "cnf(c_0_73,plain,\n    ( v1_funct_1(k5_asympt_0(X1,X2))\n    | ~ v1_funct_1(X1)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ))."
+  c_0_74: "cnf(c_0_74,plain,\n    ( v1_funct_2(k5_asympt_0(X1,X2),k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~ v1_funct_1(X2)\n\
+    \    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_75: "cnf(c_0_75,plain,\n    ( v2_asympt_0(k5_asympt_0(X1,X2))\n    | ~ v1_funct_1(X1)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_76: "cnf(c_0_76,plain,\n    ( m1_subset_1(k5_asympt_0(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~ v1_funct_1(X2)\n\
+    \    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_79: "cnf(c_0_79,plain,\n    ( k7_asympt_0(k1_asympt_0(X1,X2)) = k7_asympt_0(k5_asympt_0(X1,X2))\n\
+    \    | ~ r2_hidden(k5_asympt_0(X1,X2),k6_asympt_0(k1_asympt_0(X1,X2)))\n    |\
+    \ ~ m1_subset_1(k5_asympt_0(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(k5_asympt_0(X1,X2))\n    | ~ v1_funct_2(k5_asympt_0(X1,X2),k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_1(k5_asympt_0(X1,X2))\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ v2_asympt_0(X2)\n    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X2)\n    | ~\
+    \ v1_funct_1(X1) ))."
+  c_0_84: "cnf(c_0_84,plain,\n    ( r2_hidden(X1,k6_asympt_0(X2))\n    | k6_asympt_0(X2)\
+    \ != k6_asympt_0(X1)\n    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n\
+    \    | ~ v2_asympt_0(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_86: "cnf(c_0_86,plain,\n    ( k7_asympt_0(k1_asympt_0(X1,X2)) = k7_asympt_0(k5_asympt_0(X1,X2))\n\
+    \    | ~ r2_hidden(k5_asympt_0(X1,X2),k6_asympt_0(k1_asympt_0(X1,X2)))\n    |\
+    \ ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(X2)\n    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X2)\n    | ~\
+    \ v1_funct_1(X1) ))."
+  c_0_87: "cnf(c_0_87,plain,\n    ( r2_hidden(X1,k6_asympt_0(X2))\n    | k6_asympt_0(X1)\
+    \ != k6_asympt_0(X2)\n    | ~ v1_funct_1(X2)\n    | ~ v1_funct_1(X1)\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ))."
+  c_0_88: "cnf(c_0_88,negated_conjecture,\n    ( k7_asympt_0(k1_asympt_0(esk1_0,esk2_0))\
+    \ != k7_asympt_0(k5_asympt_0(esk1_0,esk2_0)) ))."
+  c_0_89: "cnf(c_0_89,plain,\n    ( k7_asympt_0(k1_asympt_0(X1,X2)) = k7_asympt_0(k5_asympt_0(X1,X2))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X2)\n    | ~\
+    \ v1_funct_1(X1)\n    | k6_asympt_0(k1_asympt_0(X1,X2)) != k6_asympt_0(k5_asympt_0(X1,X2))\n\
+    \    | ~ m1_subset_1(k1_asympt_0(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ m1_subset_1(k5_asympt_0(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v2_asympt_0(k1_asympt_0(X1,X2))\n    | ~ v2_asympt_0(k5_asympt_0(X1,X2))\n\
+    \    | ~ v1_funct_2(k1_asympt_0(X1,X2),k5_numbers,k1_numbers)\n    | ~ v1_funct_2(k5_asympt_0(X1,X2),k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_1(k1_asympt_0(X1,X2))\n    | ~ v1_funct_1(k5_asympt_0(X1,X2))\
+    \ ))."
+  c_0_90: "cnf(c_0_90,negated_conjecture,\n    ( m1_subset_1(esk2_0,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_91: "cnf(c_0_91,negated_conjecture,\n    ( m1_subset_1(esk1_0,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_92: "cnf(c_0_92,negated_conjecture,\n    ( v2_asympt_0(esk2_0) ))."
+  c_0_93: "cnf(c_0_93,negated_conjecture,\n    ( v2_asympt_0(esk1_0) ))."
+  c_0_94: "cnf(c_0_94,negated_conjecture,\n    ( v1_funct_2(esk2_0,k5_numbers,k1_numbers)\
+    \ ))."
+  c_0_95: "cnf(c_0_95,negated_conjecture,\n    ( v1_funct_2(esk1_0,k5_numbers,k1_numbers)\
+    \ ))."
+  c_0_96: "cnf(c_0_96,negated_conjecture,\n    ( v1_funct_1(esk2_0) ))."
+  c_0_97: "cnf(c_0_97,negated_conjecture,\n    ( v1_funct_1(esk1_0) ))."
+  c_0_99: "cnf(c_0_99,plain,\n    ( k7_asympt_0(k1_asympt_0(X1,X2)) = k7_asympt_0(k5_asympt_0(X1,X2))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n   \
+    \ | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n    | ~\
+    \ v2_asympt_0(X2)\n    | ~ v2_asympt_0(X1)\n    | ~ v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X2)\n    | ~\
+    \ v1_funct_1(X1) ))."
+  d10_xboole_0: "fof(d10_xboole_0,axiom,(\n    ! [X1,X2] :\n      ( X1 = X2\n    <=>\
+    \ ( r1_tarski(X1,X2)\n        & r1_tarski(X2,X1) ) ) ))."
+  d3_tarski: "fof(d3_tarski,axiom,(\n    ! [X1,X2] :\n      ( r1_tarski(X1,X2)\n \
+    \   <=> ! [X3] :\n          ( r2_hidden(X3,X1)\n         => r2_hidden(X3,X2) )\
+    \ ) ))."
+  dt_k1_asympt_0: "fof(dt_k1_asympt_0,axiom,(\n    ! [X1,X2] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & v2_asympt_0(X1)\n \
+    \       & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n  \
+    \      & v1_funct_1(X2)\n        & v1_funct_2(X2,k5_numbers,k1_numbers)\n    \
+    \    & v2_asympt_0(X2)\n        & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n     => ( v1_funct_1(k1_asympt_0(X1,X2))\n        & v1_funct_2(k1_asympt_0(X1,X2),k5_numbers,k1_numbers)\n\
+    \        & v2_asympt_0(k1_asympt_0(X1,X2))\n        & m1_subset_1(k1_asympt_0(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ) ) ))."
+  dt_k5_asympt_0: "fof(dt_k5_asympt_0,axiom,(\n    ! [X1,X2] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \        & v1_funct_1(X2)\n        & v1_funct_2(X2,k5_numbers,k1_numbers)\n  \
+    \      & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) )\n \
+    \    => ( v1_funct_1(k5_asympt_0(X1,X2))\n        & v1_funct_2(k5_asympt_0(X1,X2),k5_numbers,k1_numbers)\n\
+    \        & m1_subset_1(k5_asympt_0(X1,X2),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ) ) ))."
+  fc1_asympt_0: "fof(fc1_asympt_0,axiom,(\n    ! [X1,X2] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \        & v1_funct_1(X2)\n        & v1_funct_2(X2,k5_numbers,k1_numbers)\n  \
+    \      & v2_asympt_0(X2)\n        & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n     => ( v1_funct_1(k5_asympt_0(X1,X2))\n        & v1_funct_2(k5_asympt_0(X1,X2),k5_numbers,k1_numbers)\n\
+    \        & v2_asympt_0(k5_asympt_0(X1,X2)) ) ) ))."
+  l23_asympt_0: "fof(l23_asympt_0,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & v2_asympt_0(X1)\n \
+    \       & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) )\n\
+    \     => ! [X2] :\n          ( ( v1_funct_1(X2)\n            & v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \            & v2_asympt_0(X2)\n            & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n         => ( ( r2_hidden(X1,k6_asympt_0(X2))\n              & r2_hidden(X2,k6_asympt_0(X1))\
+    \ )\n          <=> k6_asympt_0(X1) = k6_asympt_0(X2) ) ) ) ))."
+  t10_asympt_0: "fof(t10_asympt_0,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & v2_asympt_0(X1)\n \
+    \       & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) )\n\
+    \     => r2_hidden(X1,k6_asympt_0(X1)) ) ))."
+  t18_asympt_0: "fof(t18_asympt_0,axiom,(\n    ! [X1,X2] :\n      ( ( v1_funct_1(X2)\n\
+    \        & v1_funct_2(X2,k5_numbers,k1_numbers)\n        & v2_asympt_0(X2)\n \
+    \       & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) )\n\
+    \     => ( r2_hidden(X1,k7_asympt_0(X2))\n       => ( v1_funct_1(X1)\n       \
+    \   & v1_funct_2(X1,k5_numbers,k1_numbers)\n          & v2_asympt_0(X1)\n    \
+    \      & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ) ) )\
+    \ ))."
+  t19_asympt_0: "fof(t19_asympt_0,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & v2_asympt_0(X1)\n \
+    \       & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) )\n\
+    \     => ! [X2] :\n          ( ( v1_funct_1(X2)\n            & v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \            & v2_asympt_0(X2)\n            & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n         => ( r2_hidden(X1,k7_asympt_0(X2))\n          <=> r2_hidden(X2,k6_asympt_0(X1))\
+    \ ) ) ) ))."
+  t21_asympt_0: "fof(t21_asympt_0,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & v2_asympt_0(X1)\n \
+    \       & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) )\n\
+    \     => ! [X2] :\n          ( ( v1_funct_1(X2)\n            & v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \            & v2_asympt_0(X2)\n            & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n         => ! [X3] :\n              ( ( v1_funct_1(X3)\n                &\
+    \ v1_funct_2(X3,k5_numbers,k1_numbers)\n                & v2_asympt_0(X3)\n  \
+    \              & m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n             => ( ( r2_hidden(X1,k7_asympt_0(X2))\n                  & r2_hidden(X2,k7_asympt_0(X3))\
+    \ )\n               => r2_hidden(X1,k7_asympt_0(X3)) ) ) ) ) ))."
+  t26_asympt_0: "fof(t26_asympt_0,conjecture,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & v2_asympt_0(X1)\n \
+    \       & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) )\n\
+    \     => ! [X2] :\n          ( ( v1_funct_1(X2)\n            & v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \            & v2_asympt_0(X2)\n            & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n         => k7_asympt_0(k1_asympt_0(X1,X2)) = k7_asympt_0(k5_asympt_0(X1,X2))\
+    \ ) ) ))."
+  t6_asympt_0: "fof(t6_asympt_0,axiom,(\n    ! [X1,X2] :\n      ( ( v1_funct_1(X2)\n\
+    \        & v1_funct_2(X2,k5_numbers,k1_numbers)\n        & v2_asympt_0(X2)\n \
+    \       & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) )\n\
+    \     => ( r2_hidden(X1,k6_asympt_0(X2))\n       => ( v1_funct_1(X1)\n       \
+    \   & v1_funct_2(X1,k5_numbers,k1_numbers)\n          & v2_asympt_0(X1)\n    \
+    \      & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ) ) )\
+    \ ))."
+  t9_asympt_0: "fof(t9_asympt_0,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & v2_asympt_0(X1)\n \
+    \       & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) )\n\
+    \     => ! [X2] :\n          ( ( v1_funct_1(X2)\n            & v1_funct_2(X2,k5_numbers,k1_numbers)\n\
+    \            & v2_asympt_0(X2)\n            & m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n         => k6_asympt_0(k1_asympt_0(X1,X2)) = k6_asympt_0(k5_asympt_0(X1,X2))\
+    \ ) ) ))."
+

@@ -1,0 +1,1501 @@
+axioms:
+  cc14_membered:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2286 \u211D)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 X\u2081)\n         \u21D2 (X\u2082 \u2208\
+      \ \u211D) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#CC14
+  cc17_membered:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2286 \u2115)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 X\u2081)\n         \u21D2 (X\u2082 \u2208\
+      \ \u2115) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#CC17
+  d1_topreala:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u211D)\n         \u21D2 (\u2200X\u2083\
+      )\n              ( (X\u2083 \u2208 \u211D)\n             \u21D2 (\u2200X\u2084\
+      )\n                  ( (X\u2084 \u2208 \u211D)\n                 \u21D2 Trectangle(X\u2081\
+      ,X\u2082,X\u2083,X\u2084) = (TOP-REAL(2) | closed_inside_of_rectangle(X\u2081\
+      ,X\u2082,X\u2083,X\u2084)) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topreala.html#D1
+  d2_jgraph_6:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u211D)\n         \u21D2 (\u2200X\u2083\
+      )\n              ( (X\u2083 \u2208 \u211D)\n             \u21D2 (\u2200X\u2084\
+      )\n                  ( (X\u2084 \u2208 \u211D)\n                 \u21D2 closed_inside_of_rectangle(X\u2081\
+      ,X\u2082,X\u2083,X\u2084) = a_4_1_jgraph_6(X\u2081,X\u2082,X\u2083,X\u2084)\
+      \ ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jgraph_6.html#D2
+  d3_tarski:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2081 \u2286 X\u2082)\n    \u2261\
+      \ (\u2200X\u2083)\n          ( (X\u2083 \u2208 X\u2081)\n         \u21D2 (X\u2083\
+      \ \u2208 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#D3
+  d6_toprealb:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 carrier(TOP-REAL(X\u2081)))\n        \
+      \ \u21D2 (\u2200X\u2083)\n              ( (X\u2083 \u2208 \u211D)\n        \
+      \     \u21D2 Tcircle(X\u2081,X\u2082,X\u2083) = (TOP-REAL(X\u2081) | Sphere(X\u2081\
+      ,X\u2082,X\u2083)) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/toprealb.html#D6
+  dt_k15_euclid:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 ( strict(TOP-REAL(X\u2081\
+      ))\n        \u2227 RLTopStruct(TOP-REAL(X\u2081)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/euclid.html#K15
+  dt_k17_euclid:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 carrier(TOP-REAL(2)))\n   \
+      \  \u21D2 (( `1 X\u2081) \u2208 \u211D) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/euclid.html#K17
+  dt_k18_euclid:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 carrier(TOP-REAL(2)))\n   \
+      \  \u21D2 (( `2 X\u2081) \u2208 \u211D) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/euclid.html#K18
+  dt_k1_topreala:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083,X\u2084)\n      ( ( (X\u2081 \u2208 \u211D\
+      )\n        \u2227 (X\u2082 \u2208 \u211D)\n        \u2227 (X\u2083 \u2208 \u211D\
+      )\n        \u2227 (X\u2084 \u2208 \u211D) )\n     \u21D2 SubSpace(Trectangle(X\u2081\
+      ,X\u2082,X\u2083,X\u2084),TOP-REAL(2)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topreala.html#K1
+  dt_k2_jgraph_6:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083,X\u2084)\n      ( ( (X\u2081 \u2208 \u211D\
+      )\n        \u2227 (X\u2082 \u2208 \u211D)\n        \u2227 (X\u2083 \u2208 \u211D\
+      )\n        \u2227 (X\u2084 \u2208 \u211D) )\n     \u21D2 (closed_inside_of_rectangle(X\u2081\
+      ,X\u2082,X\u2083,X\u2084) \u2208 bool(carrier(TOP-REAL(2)))) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jgraph_6.html#K2
+  dt_k3_topreal9:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( ( (X\u2081 \u2208 \u2115)\n\
+      \        \u2227 (X\u2082 \u2208 carrier(TOP-REAL(X\u2081)))\n        \u2227\
+      \ (X\u2083 \u2208 \u211D) )\n     \u21D2 (Sphere(X\u2081,X\u2082,X\u2083) \u2208\
+      \ bool(carrier(TOP-REAL(X\u2081)))) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topreal9.html#K3
+  dt_k4_struct_0:
+    fof: "    (\u2200X\u2081)\n      ( ZeroStr(X\u2081)\n     \u21D2 (( 0. X\u2081\
+      ) \u2208 carrier(X\u2081)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#K4
+  dt_k7_toprealb:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( ( (X\u2081 \u2208 \u2115)\n\
+      \        \u2227 (X\u2082 \u2208 carrier(TOP-REAL(X\u2081)))\n        \u2227\
+      \ (X\u2083 \u2208 \u211D) )\n     \u21D2 SubSpace(Tcircle(X\u2081,X\u2082,X\u2083\
+      ),TOP-REAL(X\u2081)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/toprealb.html#K7
+  dt_l1_rltopsp1:
+    fof: "    (\u2200X\u2081)\n      ( RLTopStruct(X\u2081)\n     \u21D2 ( RLSStruct(X\u2081\
+      )\n        \u2227 TopStruct(X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rltopsp1.html#L1
+  dt_l1_rlvect_1:
+    fof: "    (\u2200X\u2081)\n      ( RLSStruct(X\u2081)\n     \u21D2 addLoopStr(X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rlvect_1.html#L1
+  dt_l2_algstr_0:
+    fof: "    (\u2200X\u2081)\n      ( addLoopStr(X\u2081)\n     \u21D2 ( ZeroStr(X\u2081\
+      )\n        \u2227 addMagma(X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#L2
+  fc3_membered:
+    fof: "    (\u211D \u2286 \u211D) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#FC3
+  fc3_xreal_0:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 ( (-(X\u2081\
+      ) \u2208 \u2102)\n        \u2227 (-(X\u2081) \u2208 \u211D) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#FC3
+  fc6_euclid:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 ( TopSpace-like(TOP-REAL(X\u2081\
+      ))\n        \u2227 right_complementable(TOP-REAL(X\u2081))\n        \u2227 Abelian(TOP-REAL(X\u2081\
+      ))\n        \u2227 add-associative(TOP-REAL(X\u2081))\n        \u2227 right_zeroed(TOP-REAL(X\u2081\
+      ))\n        \u2227 vector-distributive(TOP-REAL(X\u2081))\n        \u2227 scalar-distributive(TOP-REAL(X\u2081\
+      ))\n        \u2227 scalar-associative(TOP-REAL(X\u2081))\n        \u2227 scalar-unital(TOP-REAL(X\u2081\
+      ))\n        \u2227 strict(TOP-REAL(X\u2081)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/euclid.html#FC6
+  fc6_membered:
+    fof: "    (\u03C9 \u2286 \u2115) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#FC6
+  fraenkel_a_4_1_jgraph_6:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083,X\u2084,X\u2085)\n      ( ( (X\u2082\
+      \ \u2208 \u211D)\n        \u2227 (X\u2083 \u2208 \u211D)\n        \u2227 (X\u2084\
+      \ \u2208 \u211D)\n        \u2227 (X\u2085 \u2208 \u211D) )\n     \u21D2 ( (X\u2081\
+      \ \u2208 a_4_1_jgraph_6(X\u2082,X\u2083,X\u2084,X\u2085))\n      \u2261 (\u2203\
+      X\u2086)\n            ( (X\u2086 \u2208 carrier(TOP-REAL(2)))\n            \u2227\
+      \ X\u2081 = X\u2086\n            \u2227 (X\u2082 \u2264 ( `1 X\u2086))\n   \
+      \         \u2227 (( `1 X\u2086) \u2264 X\u2083)\n            \u2227 (X\u2084\
+      \ \u2264 ( `2 X\u2086))\n            \u2227 (( `2 X\u2086) \u2264 X\u2085) )\
+      \ ) ) "
+    url: null
+  redefinition_k5_numbers:
+    fof: "    \u2115 = \u03C9 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+  spc2_numerals:
+    fof: "    ( positive(2)\n    \u2227 (2 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+      \ (2 \u2208 \u2115)\n    \u2227 (2 \u2208 \u211D) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC2
+  t10_toprealb:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 SubSpace(Tcircle(2,\
+      \ 0. TOP-REAL(2),X\u2081),Trectangle(-(X\u2081),X\u2081,-(X\u2081),X\u2081))\
+      \ ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/toprealb.html#T10
+  t12_topreal9:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u211D)\n         \u21D2 (\u2200X\u2083\
+      )\n              ( (X\u2083 \u2208 carrier(TOP-REAL(X\u2081)))\n           \
+      \  \u21D2 ( (X\u2083 \u2208 Sphere(X\u2081, 0. TOP-REAL(X\u2081),X\u2082))\n\
+      \               \u21D2 ( |....| X\u2083) = X\u2082 ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topreal9.html#T12
+  t33_jgraph_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 carrier(TOP-REAL(2)))\n   \
+      \  \u21D2 ( (abs( `1 X\u2081) \u2264 ( |....| X\u2081))\n        \u2227 (abs(\
+      \ `2 X\u2081) \u2264 ( |....| X\u2081)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jgraph_1.html#T33
+  t4_subset:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( ( (X\u2081 \u2208 X\u2082)\n\
+      \        \u2227 (X\u2082 \u2208 bool(X\u2083)) )\n     \u21D2 (X\u2081 \u2208\
+      \ X\u2083) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T4
+  t4_tsep_1:
+    fof: "    (\u2200X\u2081)\n      ( ( TopSpace-like(X\u2081)\n        \u2227 TopStruct(X\u2081\
+      ) )\n     \u21D2 (\u2200X\u2082)\n          ( SubSpace(X\u2082,X\u2081)\n  \
+      \       \u21D2 (\u2200X\u2083)\n              ( SubSpace(X\u2083,X\u2081)\n\
+      \             \u21D2 ( (carrier(X\u2082) \u2286 carrier(X\u2083))\n        \
+      \      \u2261 SubSpace(X\u2082,X\u2083) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tsep_1.html#T4
+  t5_absvalue:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (\u2200\
+      X\u2082)\n          ( (X\u2082 \u2208 \u211D)\n         \u21D2 ( ( (-(X\u2081\
+      ) \u2264 X\u2082)\n              \u2227 (X\u2082 \u2264 X\u2081) )\n       \
+      \   \u2261 (abs(X\u2082) \u2264 X\u2081) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/absvalue.html#T5
+  t8_pre_topc:
+    fof: "    (\u2200X\u2081)\n      ( TopStruct(X\u2081)\n     \u21D2 (\u2200X\u2082\
+      )\n          ( (X\u2082 \u2208 bool(carrier(X\u2081)))\n         \u21D2 carrier(X\u2081\
+      \ | X\u2082) = X\u2082 ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_topc.html#T8
+conjecture: t10_toprealb
+final: c_0_135
+skolems:
+  esk1_0:
+    axiom: t10_toprealb
+    related:
+    - esk1_0
+    symbol: "sk\u2081"
+  esk2_2:
+    axiom: d3_tarski
+    related:
+    - esk2_2
+    symbol: "sk\u2082"
+steps:
+  c_0_100:
+    counts:
+      k15_euclid: 7
+      k18_euclid: 2
+      k3_topreal9: 4
+      k4_struct_0: 5
+      k5_numbers: 1
+      m1_subset_1: 3
+      np__2: 1
+      r1_tarski: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 2
+      v1_xreal_0: 2
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+  c_0_101:
+    counts:
+      m1_subset_1: 1
+      v6_membered: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_102:
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+      np__2: 1
+    skolems: []
+  c_0_103:
+    counts:
+      k5_numbers: 1
+      v6_membered: 1
+    skolems: []
+  c_0_105:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 3
+      k1_pre_topc: 2
+      k1_topreala: 1
+      k1_zfmisc_1: 1
+      l1_pre_topc: 2
+      m1_pre_topc: 2
+      m1_subset_1: 1
+      np__2: 3
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xreal_0: 4
+      v2_pre_topc: 1
+    skolems: []
+  c_0_106:
+    counts:
+      k15_euclid: 2
+      k1_pre_topc: 1
+      k3_topreal9: 1
+      k7_toprealb: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_107:
+    counts:
+      k15_euclid: 1
+      l1_pre_topc: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_108:
+    counts:
+      a_4_1_jgraph_6: 2
+      k15_euclid: 5
+      k3_topreal9: 2
+      k4_struct_0: 3
+      k4_xcmplx_0: 4
+      k5_numbers: 1
+      m1_subset_1: 3
+      np__2: 1
+      r1_tarski: 1
+      u1_struct_0: 2
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+  c_0_111:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 4
+      k1_topreala: 1
+      k3_topreal9: 1
+      k7_toprealb: 2
+      l1_pre_topc: 1
+      m1_pre_topc: 2
+      m1_subset_1: 1
+      np__2: 3
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xreal_0: 5
+      v2_pre_topc: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_112:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 3
+      k3_topreal9: 1
+      k4_struct_0: 2
+      k4_xcmplx_0: 2
+      m1_subset_1: 1
+      np__2: 4
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xreal_0: 1
+    skolems: []
+  c_0_114:
+    counts:
+      k15_euclid: 1
+      k1_topreala: 1
+      k4_struct_0: 1
+      k4_xcmplx_0: 2
+      k7_toprealb: 1
+      m1_pre_topc: 1
+      np__2: 2
+    skolems:
+    - esk1_0
+  c_0_115:
+    counts:
+      k15_euclid: 7
+      k1_topreala: 1
+      k4_struct_0: 3
+      k4_xcmplx_0: 2
+      k7_toprealb: 2
+      l1_pre_topc: 1
+      m1_pre_topc: 2
+      m1_subset_1: 1
+      np__2: 9
+      u1_struct_0: 1
+      v1_xreal_0: 1
+      v2_pre_topc: 1
+    skolems: []
+  c_0_116:
+    counts:
+      v1_xreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_118:
+    counts:
+      l1_rlvect_1: 1
+      l2_algstr_0: 1
+    skolems: []
+  c_0_119:
+    counts:
+      l1_rltopsp1: 1
+      l1_rlvect_1: 1
+    skolems: []
+  c_0_120:
+    counts:
+      k15_euclid: 6
+      k4_struct_0: 2
+      k7_toprealb: 1
+      l1_pre_topc: 1
+      m1_pre_topc: 1
+      m1_subset_1: 1
+      np__2: 7
+      u1_struct_0: 1
+      v2_pre_topc: 1
+    skolems:
+    - esk1_0
+  c_0_121:
+    counts:
+      k15_euclid: 2
+      k7_toprealb: 1
+      m1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_124:
+    counts:
+      l1_rltopsp1: 1
+      l2_algstr_0: 1
+    skolems: []
+  c_0_125:
+    counts:
+      k15_euclid: 4
+      k4_struct_0: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      np__2: 4
+      u1_struct_0: 1
+      v2_pre_topc: 1
+    skolems: []
+  c_0_126:
+    counts:
+      k4_struct_0: 1
+      l2_struct_0: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems: []
+  c_0_127:
+    counts:
+      l2_algstr_0: 1
+      l2_struct_0: 1
+    skolems: []
+  c_0_128:
+    counts:
+      k15_euclid: 1
+      l2_algstr_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_129:
+    counts:
+      k15_euclid: 3
+      l1_pre_topc: 1
+      l2_struct_0: 1
+      np__2: 3
+      v2_pre_topc: 1
+    skolems: []
+  c_0_130:
+    counts:
+      k15_euclid: 1
+      l2_struct_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_132:
+    counts:
+      k15_euclid: 2
+      l1_pre_topc: 1
+      np__2: 2
+      v2_pre_topc: 1
+    skolems: []
+  c_0_133:
+    counts:
+      k15_euclid: 1
+      v2_pre_topc: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_134:
+    counts:
+      k15_euclid: 1
+      l1_pre_topc: 1
+      np__2: 1
+    skolems: []
+  c_0_35:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+    skolems: []
+  c_0_36:
+    counts:
+      k15_euclid: 2
+      k1_zfmisc_1: 1
+      k3_topreal9: 1
+      m1_subset_1: 2
+      u1_struct_0: 2
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_40:
+    counts:
+      k12_euclid: 1
+      k15_euclid: 2
+      k3_topreal9: 1
+      k4_struct_0: 1
+      k5_numbers: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+      u1_struct_0: 1
+      v1_xreal_0: 1
+    skolems: []
+  c_0_41:
+    counts:
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems:
+    - esk2_2
+  c_0_42:
+    counts:
+      k15_euclid: 2
+      k3_topreal9: 1
+      m1_subset_1: 2
+      r2_hidden: 1
+      u1_struct_0: 2
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_46:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 1
+      k17_euclid: 2
+      k18_euclid: 2
+      m1_subset_1: 1
+      np__2: 1
+      r1_xxreal_0: 4
+      r2_hidden: 1
+      u1_struct_0: 1
+      v1_xreal_0: 4
+    skolems: []
+  c_0_47:
+    counts:
+      k18_complex1: 1
+      k4_xcmplx_0: 1
+      r1_xxreal_0: 2
+      v1_xreal_0: 2
+    skolems: []
+  c_0_48:
+    counts:
+      k12_euclid: 1
+      k15_euclid: 1
+      k18_complex1: 1
+      k18_euclid: 1
+      m1_subset_1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 1
+    skolems: []
+  c_0_49:
+    counts:
+      k12_euclid: 1
+      k15_euclid: 4
+      k3_topreal9: 3
+      k4_struct_0: 3
+      k5_numbers: 1
+      m1_subset_1: 2
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xreal_0: 1
+    skolems:
+    - esk2_2
+  c_0_50:
+    counts:
+      k15_euclid: 2
+      k3_topreal9: 2
+      m1_subset_1: 2
+      r1_tarski: 1
+      u1_struct_0: 2
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+  c_0_52:
+    counts:
+      k15_euclid: 1
+      k1_pre_topc: 1
+      k1_topreala: 1
+      k2_jgraph_6: 1
+      np__2: 1
+      v1_xreal_0: 4
+    skolems: []
+  c_0_53:
+    counts:
+      a_4_1_jgraph_6: 1
+      k2_jgraph_6: 1
+      v1_xreal_0: 4
+    skolems: []
+  c_0_54:
+    counts:
+      k15_euclid: 1
+      k1_zfmisc_1: 1
+      k2_jgraph_6: 1
+      m1_subset_1: 1
+      np__2: 1
+      u1_struct_0: 1
+      v1_xreal_0: 4
+    skolems: []
+  c_0_55:
+    counts:
+      r1_tarski: 1
+      r2_hidden: 1
+    skolems:
+    - esk2_2
+  c_0_56:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 1
+      k17_euclid: 2
+      k18_euclid: 2
+      m1_subset_1: 1
+      np__2: 1
+      r1_xxreal_0: 4
+      r2_hidden: 1
+      u1_struct_0: 1
+      v1_xreal_0: 4
+    skolems: []
+  c_0_57:
+    counts:
+      k12_euclid: 2
+      k15_euclid: 1
+      k18_euclid: 2
+      k4_xcmplx_0: 1
+      m1_subset_1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 1
+      v1_xreal_0: 2
+    skolems: []
+  c_0_58:
+    counts:
+      k12_euclid: 1
+      k15_euclid: 4
+      k3_topreal9: 2
+      k4_struct_0: 3
+      k5_numbers: 1
+      m1_subset_1: 2
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xreal_0: 1
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+  c_0_60:
+    counts:
+      k12_euclid: 1
+      k15_euclid: 1
+      k17_euclid: 1
+      k18_complex1: 1
+      m1_subset_1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 1
+    skolems: []
+  c_0_62:
+    counts:
+      k1_pre_topc: 1
+      k1_zfmisc_1: 1
+      l1_pre_topc: 1
+      m1_subset_1: 1
+      u1_struct_0: 2
+    skolems: []
+  c_0_63:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 1
+      k1_pre_topc: 1
+      k1_topreala: 1
+      np__2: 1
+      v1_xreal_0: 4
+    skolems: []
+  c_0_64:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 1
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      np__2: 1
+      u1_struct_0: 1
+      v1_xreal_0: 4
+    skolems: []
+  c_0_65:
+    counts:
+      a_4_1_jgraph_6: 6
+      k15_euclid: 1
+      k17_euclid: 2
+      k18_euclid: 2
+      m1_subset_1: 1
+      np__2: 1
+      r1_tarski: 1
+      r1_xxreal_0: 4
+      u1_struct_0: 1
+      v1_xreal_0: 4
+    skolems:
+    - esk2_2
+  c_0_66:
+    counts:
+      k15_euclid: 7
+      k18_euclid: 2
+      k3_topreal9: 4
+      k4_struct_0: 5
+      k4_xcmplx_0: 1
+      k5_numbers: 1
+      m1_subset_1: 3
+      np__2: 1
+      r1_tarski: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 2
+      v1_xreal_0: 2
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+  c_0_67:
+    counts:
+      k4_xcmplx_0: 1
+      v1_xreal_0: 2
+    skolems: []
+  c_0_68:
+    counts:
+      k12_euclid: 2
+      k15_euclid: 1
+      k17_euclid: 2
+      k4_xcmplx_0: 1
+      m1_subset_1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 1
+      v1_xreal_0: 2
+    skolems: []
+  c_0_69:
+    counts:
+      k18_complex1: 1
+      r1_xxreal_0: 2
+      v1_xreal_0: 2
+    skolems: []
+  c_0_73:
+    counts:
+      l1_pre_topc: 1
+      m1_pre_topc: 3
+      r1_tarski: 1
+      u1_struct_0: 2
+      v2_pre_topc: 1
+    skolems: []
+  c_0_74:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 1
+      k1_topreala: 1
+      l1_pre_topc: 1
+      np__2: 1
+      u1_struct_0: 1
+      v1_xreal_0: 4
+    skolems: []
+  c_0_75:
+    counts:
+      a_4_1_jgraph_6: 6
+      k15_euclid: 9
+      k17_euclid: 2
+      k18_euclid: 2
+      k3_topreal9: 6
+      k4_struct_0: 7
+      k4_xcmplx_0: 6
+      k5_numbers: 1
+      m1_subset_1: 3
+      np__2: 1
+      r1_tarski: 1
+      r1_xxreal_0: 3
+      u1_struct_0: 2
+      v1_xreal_0: 5
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+  c_0_76:
+    counts:
+      k15_euclid: 7
+      k17_euclid: 2
+      k3_topreal9: 4
+      k4_struct_0: 5
+      k4_xcmplx_0: 1
+      k5_numbers: 1
+      m1_subset_1: 3
+      np__2: 1
+      r1_tarski: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 2
+      v1_xreal_0: 2
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+  c_0_77:
+    counts:
+      k12_euclid: 2
+      k15_euclid: 1
+      k17_euclid: 2
+      m1_subset_1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 1
+      v1_xreal_0: 2
+    skolems: []
+  c_0_78:
+    counts:
+      m1_subset_1: 1
+      v1_xreal_0: 1
+      v3_membered: 1
+    skolems: []
+  c_0_79:
+    counts:
+      k15_euclid: 1
+      k17_euclid: 1
+      k1_numbers: 1
+      m1_subset_1: 2
+      np__2: 1
+      u1_struct_0: 1
+    skolems: []
+  c_0_80:
+    counts:
+      k1_numbers: 1
+      v3_membered: 1
+    skolems: []
+  c_0_81:
+    counts:
+      k15_euclid: 1
+      k18_euclid: 1
+      k1_numbers: 1
+      m1_subset_1: 2
+      np__2: 1
+      u1_struct_0: 1
+    skolems: []
+  c_0_82:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 1
+      k1_topreala: 2
+      l1_pre_topc: 2
+      m1_pre_topc: 3
+      np__2: 1
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xreal_0: 4
+      v2_pre_topc: 1
+    skolems: []
+  c_0_86:
+    counts:
+      a_4_1_jgraph_6: 6
+      k15_euclid: 9
+      k17_euclid: 2
+      k18_euclid: 2
+      k3_topreal9: 6
+      k4_struct_0: 7
+      k4_xcmplx_0: 12
+      k5_numbers: 1
+      m1_subset_1: 3
+      np__2: 1
+      r1_tarski: 1
+      r1_xxreal_0: 2
+      u1_struct_0: 2
+      v1_xreal_0: 5
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+  c_0_87:
+    counts:
+      k15_euclid: 7
+      k17_euclid: 2
+      k3_topreal9: 4
+      k4_struct_0: 5
+      k5_numbers: 1
+      m1_subset_1: 3
+      np__2: 1
+      r1_tarski: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 2
+      v1_xreal_0: 2
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+  c_0_90:
+    counts:
+      k12_euclid: 2
+      k15_euclid: 1
+      k18_euclid: 2
+      m1_subset_1: 1
+      np__2: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 1
+      v1_xreal_0: 2
+    skolems: []
+  c_0_92:
+    counts:
+      k4_ordinal1: 1
+      v6_membered: 1
+    skolems: []
+  c_0_93:
+    counts:
+      k4_ordinal1: 1
+      k5_numbers: 1
+    skolems: []
+  c_0_94:
+    counts:
+      a_4_1_jgraph_6: 1
+      k15_euclid: 1
+      k1_pre_topc: 2
+      k1_topreala: 2
+      k1_zfmisc_1: 1
+      l1_pre_topc: 3
+      m1_pre_topc: 3
+      m1_subset_1: 1
+      np__2: 1
+      r1_tarski: 1
+      u1_struct_0: 1
+      v1_xreal_0: 4
+      v2_pre_topc: 1
+    skolems: []
+  c_0_95:
+    counts:
+      k15_euclid: 1
+      k1_topreala: 1
+      m1_pre_topc: 1
+      np__2: 1
+      v1_xreal_0: 4
+    skolems: []
+  c_0_97:
+    counts:
+      l1_pre_topc: 1
+      l1_rltopsp1: 1
+    skolems: []
+  c_0_98:
+    counts:
+      k15_euclid: 1
+      l1_rltopsp1: 1
+      v7_ordinal1: 1
+    skolems: []
+  c_0_99:
+    counts:
+      a_4_1_jgraph_6: 3
+      k15_euclid: 6
+      k18_euclid: 1
+      k3_topreal9: 3
+      k4_struct_0: 4
+      k4_xcmplx_0: 6
+      k5_numbers: 1
+      m1_subset_1: 3
+      np__2: 1
+      r1_tarski: 1
+      r1_xxreal_0: 1
+      u1_struct_0: 2
+      v1_xreal_0: 2
+      v7_ordinal1: 1
+    skolems:
+    - esk2_2
+symbols:
+  a_4_1_jgraph_6:
+    arity: 4
+    count: 34
+    mizar: a_4_1_jgraph_6
+    neg: 22
+    pos: 12
+    url: null
+    vizar: a_4_1_jgraph_6(x,y,z,u)
+  k12_euclid:
+    arity: 1
+    count: 13
+    mizar: '|....|'
+    neg: 4
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/euclid.html#K12
+    vizar: '|....|'
+  k15_euclid:
+    arity: 1
+    count: 137
+    mizar: TOP-REAL
+    neg: 104
+    pos: 33
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/euclid.html#K15
+    vizar: TOP-REAL(x)
+  k17_euclid:
+    arity: 1
+    count: 21
+    mizar: '`1'
+    neg: 14
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/euclid.html#K17
+    vizar: '`1'
+  k18_complex1:
+    arity: 1
+    count: 4
+    mizar: abs
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/complex1.html#K18
+    vizar: abs(x)
+  k18_euclid:
+    arity: 1
+    count: 22
+    mizar: '`2'
+    neg: 15
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/euclid.html#K18
+    vizar: '`2'
+  k1_numbers:
+    arity: 0
+    count: 3
+    mizar: REAL
+    neg: 0
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K1
+    vizar: "\u211D"
+  k1_pre_topc:
+    arity: 2
+    count: 8
+    mizar: '|'
+    neg: 2
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_topc.html#K1
+    vizar: x | y
+  k1_topreala:
+    arity: 4
+    count: 12
+    mizar: Trectangle
+    neg: 3
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topreala.html#K1
+    vizar: Trectangle(x,y,z,u)
+  k1_zfmisc_1:
+    arity: 1
+    count: 7
+    mizar: bool
+    neg: 4
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
+    vizar: bool(x)
+  k2_jgraph_6:
+    arity: 4
+    count: 3
+    mizar: closed_inside_of_rectangle
+    neg: 0
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jgraph_6.html#K2
+    vizar: closed_inside_of_rectangle(x,y,z,u)
+  k3_topreal9:
+    arity: 3
+    count: 46
+    mizar: Sphere
+    neg: 25
+    pos: 21
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topreal9.html#K3
+    vizar: Sphere(x,y,z)
+  k4_ordinal1:
+    arity: 0
+    count: 2
+    mizar: omega
+    neg: 0
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#K4
+    vizar: "\u03C9"
+  k4_struct_0:
+    arity: 1
+    count: 58
+    mizar: '0.'
+    neg: 39
+    pos: 19
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#K4
+    vizar: '0.'
+  k4_xcmplx_0:
+    arity: 1
+    count: 40
+    mizar: '-'
+    neg: 23
+    pos: 17
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K4
+    vizar: -(x)
+  k5_numbers:
+    arity: 0
+    count: 14
+    mizar: NAT
+    neg: 11
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+    vizar: "\u2115"
+  k7_toprealb:
+    arity: 3
+    count: 8
+    mizar: Tcircle
+    neg: 4
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/toprealb.html#K7
+    vizar: Tcircle(x,y,z)
+  l1_pre_topc:
+    arity: 1
+    count: 19
+    mizar: TopStruct
+    neg: 17
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_topc.html#L1
+    vizar: TopStruct(x)
+  l1_rltopsp1:
+    arity: 1
+    count: 4
+    mizar: RLTopStruct
+    neg: 3
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rltopsp1.html#L1
+    vizar: RLTopStruct(x)
+  l1_rlvect_1:
+    arity: 1
+    count: 2
+    mizar: RLSStruct
+    neg: 1
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rlvect_1.html#L1
+    vizar: RLSStruct(x)
+  l2_algstr_0:
+    arity: 1
+    count: 4
+    mizar: addLoopStr
+    neg: 1
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/algstr_0.html#L2
+    vizar: addLoopStr(x)
+  l2_struct_0:
+    arity: 1
+    count: 4
+    mizar: ZeroStr
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#L2
+    vizar: ZeroStr(x)
+  m1_pre_topc:
+    arity: 2
+    count: 19
+    mizar: SubSpace
+    neg: 11
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_topc.html#M1
+    vizar: SubSpace(x,y)
+  m1_subset_1:
+    arity: 2
+    count: 69
+    mizar: Element
+    neg: 59
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  np__2:
+    arity: 0
+    count: 69
+    mizar: '2'
+    neg: 58
+    pos: 11
+    url: null
+    vizar: '2'
+  r1_tarski:
+    arity: 2
+    count: 20
+    mizar: c=
+    neg: 5
+    pos: 15
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#R1
+    vizar: "x \u2286 y"
+  r1_xxreal_0:
+    arity: 2
+    count: 32
+    mizar: '&lt;='
+    neg: 20
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#R1
+    vizar: "x \u2264 y"
+  r2_hidden:
+    arity: 2
+    count: 7
+    mizar: in
+    neg: 4
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2
+    vizar: "x \u2208 y"
+  u1_struct_0:
+    arity: 1
+    count: 56
+    mizar: carrier
+    neg: 48
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#U1
+    vizar: carrier(x)
+  v1_xreal_0:
+    arity: 1
+    count: 106
+    mizar: real
+    neg: 101
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#V1
+    vizar: "x \u2208 \u211D"
+  v2_pre_topc:
+    arity: 1
+    count: 11
+    mizar: TopSpace-like
+    neg: 10
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_topc.html#V2
+    vizar: TopSpace-like(x)
+  v3_membered:
+    arity: 1
+    count: 2
+    mizar: real-membered
+    neg: 1
+    pos: 1
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V3
+    vizar: "x \u2286 \u211D"
+  v6_membered:
+    arity: 1
+    count: 3
+    mizar: natural-membered
+    neg: 1
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V6
+    vizar: "x \u2286 \u2115"
+  v7_ordinal1:
+    arity: 1
+    count: 22
+    mizar: natural
+    neg: 20
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V7
+    vizar: "x \u2208 \u2115"
+tptp:
+  c_0_100: "cnf(c_0_100,plain,\n    ( r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)\n\
+    \    | r1_xxreal_0(k18_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)),X2)\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(X1)),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(k18_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)))\n\
+    \    | ~ v1_xreal_0(X2) ))."
+  c_0_101: "cnf(c_0_101,plain,\n    ( v7_ordinal1(X2)\n    | ~ v6_membered(X1)\n \
+    \   | ~ m1_subset_1(X2,X1) ))."
+  c_0_102: "cnf(c_0_102,plain,\n    ( m1_subset_1(np__2,k5_numbers) ))."
+  c_0_103: "cnf(c_0_103,plain,\n    ( v6_membered(k5_numbers) ))."
+  c_0_105: "cnf(c_0_105,plain,\n    ( m1_pre_topc(k1_pre_topc(X1,X2),k1_topreala(X3,X4,X5,X6))\n\
+    \    | ~ r1_tarski(X2,a_4_1_jgraph_6(X3,X4,X5,X6))\n    | ~ v2_pre_topc(k15_euclid(np__2))\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(k15_euclid(np__2))\n\
+    \    | ~ l1_pre_topc(X1)\n    | ~ m1_pre_topc(k1_pre_topc(X1,X2),k15_euclid(np__2))\n\
+    \    | ~ v1_xreal_0(X6)\n    | ~ v1_xreal_0(X5)\n    | ~ v1_xreal_0(X4)\n    |\
+    \ ~ v1_xreal_0(X3) ))."
+  c_0_106: "cnf(c_0_106,plain,\n    ( k7_toprealb(X1,X2,X3) = k1_pre_topc(k15_euclid(X1),k3_topreal9(X1,X2,X3))\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(X2,u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ v1_xreal_0(X3) ))."
+  c_0_107: "cnf(c_0_107,plain,\n    ( l1_pre_topc(k15_euclid(X1))\n    | ~ v7_ordinal1(X1)\
+    \ ))."
+  c_0_108: "cnf(c_0_108,plain,\n    ( r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X2,k4_xcmplx_0(X2),X2))\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X2,k4_xcmplx_0(X2),X2)),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(X1)),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_111: "cnf(c_0_111,plain,\n    ( m1_pre_topc(k7_toprealb(X1,X2,X3),k1_topreala(X4,X5,X6,X7))\n\
+    \    | ~ r1_tarski(k3_topreal9(X1,X2,X3),a_4_1_jgraph_6(X4,X5,X6,X7))\n    | ~\
+    \ v2_pre_topc(k15_euclid(np__2))\n    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(X2,u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ l1_pre_topc(k15_euclid(np__2))\n    | ~ m1_pre_topc(k7_toprealb(X1,X2,X3),k15_euclid(np__2))\n\
+    \    | ~ v1_xreal_0(X7)\n    | ~ v1_xreal_0(X6)\n    | ~ v1_xreal_0(X5)\n    |\
+    \ ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X3) ))."
+  c_0_112: "cnf(c_0_112,plain,\n    ( r1_tarski(k3_topreal9(np__2,k4_struct_0(k15_euclid(np__2)),X1),a_4_1_jgraph_6(k4_xcmplx_0(X1),X1,k4_xcmplx_0(X1),X1))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(np__2)),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ v1_xreal_0(X1) ))."
+  c_0_114: "cnf(c_0_114,negated_conjecture,\n    ( ~ m1_pre_topc(k7_toprealb(np__2,k4_struct_0(k15_euclid(np__2)),esk1_0),k1_topreala(k4_xcmplx_0(esk1_0),esk1_0,k4_xcmplx_0(esk1_0),esk1_0))\
+    \ ))."
+  c_0_115: "cnf(c_0_115,plain,\n    ( m1_pre_topc(k7_toprealb(np__2,k4_struct_0(k15_euclid(np__2)),X1),k1_topreala(k4_xcmplx_0(X1),X1,k4_xcmplx_0(X1),X1))\n\
+    \    | ~ v2_pre_topc(k15_euclid(np__2))\n    | ~ m1_subset_1(k4_struct_0(k15_euclid(np__2)),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ l1_pre_topc(k15_euclid(np__2))\n    | ~ m1_pre_topc(k7_toprealb(np__2,k4_struct_0(k15_euclid(np__2)),X1),k15_euclid(np__2))\n\
+    \    | ~ v1_xreal_0(X1) ))."
+  c_0_116: "cnf(c_0_116,negated_conjecture,\n    ( v1_xreal_0(esk1_0) ))."
+  c_0_118: "cnf(c_0_118,plain,\n    ( l2_algstr_0(X1)\n    | ~ l1_rlvect_1(X1) ))."
+  c_0_119: "cnf(c_0_119,plain,\n    ( l1_rlvect_1(X1)\n    | ~ l1_rltopsp1(X1) ))."
+  c_0_120: "cnf(c_0_120,negated_conjecture,\n    ( ~ v2_pre_topc(k15_euclid(np__2))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(np__2)),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ l1_pre_topc(k15_euclid(np__2))\n    | ~ m1_pre_topc(k7_toprealb(np__2,k4_struct_0(k15_euclid(np__2)),esk1_0),k15_euclid(np__2))\
+    \ ))."
+  c_0_121: "cnf(c_0_121,plain,\n    ( m1_pre_topc(k7_toprealb(X1,X2,X3),k15_euclid(X1))\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(X2,u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ v1_xreal_0(X3) ))."
+  c_0_124: "cnf(c_0_124,plain,\n    ( l2_algstr_0(X1)\n    | ~ l1_rltopsp1(X1) ))."
+  c_0_125: "cnf(c_0_125,negated_conjecture,\n    ( ~ v2_pre_topc(k15_euclid(np__2))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(np__2)),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ l1_pre_topc(k15_euclid(np__2)) ))."
+  c_0_126: "cnf(c_0_126,plain,\n    ( m1_subset_1(k4_struct_0(X1),u1_struct_0(X1))\n\
+    \    | ~ l2_struct_0(X1) ))."
+  c_0_127: "cnf(c_0_127,plain,\n    ( l2_struct_0(X1)\n    | ~ l2_algstr_0(X1) ))."
+  c_0_128: "cnf(c_0_128,plain,\n    ( l2_algstr_0(k15_euclid(X1))\n    | ~ v7_ordinal1(X1)\
+    \ ))."
+  c_0_129: "cnf(c_0_129,negated_conjecture,\n    ( ~ l2_struct_0(k15_euclid(np__2))\n\
+    \    | ~ v2_pre_topc(k15_euclid(np__2))\n    | ~ l1_pre_topc(k15_euclid(np__2))\
+    \ ))."
+  c_0_130: "cnf(c_0_130,plain,\n    ( l2_struct_0(k15_euclid(X1))\n    | ~ v7_ordinal1(X1)\
+    \ ))."
+  c_0_132: "cnf(c_0_132,negated_conjecture,\n    ( ~ v2_pre_topc(k15_euclid(np__2))\n\
+    \    | ~ l1_pre_topc(k15_euclid(np__2)) ))."
+  c_0_133: "cnf(c_0_133,plain,\n    ( v2_pre_topc(k15_euclid(X1))\n    | ~ v7_ordinal1(X1)\
+    \ ))."
+  c_0_134: "cnf(c_0_134,negated_conjecture,\n    ( ~ l1_pre_topc(k15_euclid(np__2))\
+    \ ))."
+  c_0_135: "cnf(c_0_135,negated_conjecture,\n    ( $false ))."
+  c_0_35: "cnf(c_0_35,plain,\n    ( m1_subset_1(X1,X3)\n    | ~ r2_hidden(X1,X2)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(X3)) ))."
+  c_0_36: "cnf(c_0_36,plain,\n    ( m1_subset_1(k3_topreal9(X1,X2,X3),k1_zfmisc_1(u1_struct_0(k15_euclid(X1))))\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(X2,u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ v1_xreal_0(X3) ))."
+  c_0_40: "cnf(c_0_40,plain,\n    ( k12_euclid(X3) = X2\n    | ~ m1_subset_1(X1,k5_numbers)\n\
+    \    | ~ v1_xreal_0(X2)\n    | ~ m1_subset_1(X3,u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ r2_hidden(X3,k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2)) ))."
+  c_0_41: "cnf(c_0_41,plain,\n    ( r2_hidden(esk2_2(X1,X2),X1)\n    | r1_tarski(X1,X2)\
+    \ ))."
+  c_0_42: "cnf(c_0_42,plain,\n    ( m1_subset_1(X1,u1_struct_0(k15_euclid(X2)))\n\
+    \    | ~ v7_ordinal1(X2)\n    | ~ m1_subset_1(X3,u1_struct_0(k15_euclid(X2)))\n\
+    \    | ~ r2_hidden(X1,k3_topreal9(X2,X3,X4))\n    | ~ v1_xreal_0(X4) ))."
+  c_0_46: "cnf(c_0_46,plain,\n    ( r2_hidden(X2,a_4_1_jgraph_6(X3,X4,X5,X6))\n  \
+    \  | ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2)))\n    | X2 != X1\n    | ~\
+    \ r1_xxreal_0(X3,k17_euclid(X1))\n    | ~ r1_xxreal_0(k17_euclid(X1),X4)\n   \
+    \ | ~ r1_xxreal_0(X5,k18_euclid(X1))\n    | ~ r1_xxreal_0(k18_euclid(X1),X6)\n\
+    \    | ~ v1_xreal_0(X3)\n    | ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X5)\n    |\
+    \ ~ v1_xreal_0(X6) ))."
+  c_0_47: "cnf(c_0_47,plain,\n    ( r1_xxreal_0(k4_xcmplx_0(X1),X2)\n    | ~ r1_xxreal_0(k18_complex1(X2),X1)\n\
+    \    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_48: "cnf(c_0_48,plain,\n    ( r1_xxreal_0(k18_complex1(k18_euclid(X1)),k12_euclid(X1))\n\
+    \    | ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2))) ))."
+  c_0_49: "cnf(c_0_49,plain,\n    ( k12_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3))\
+    \ = X2\n    | r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)\n \
+    \   | ~ m1_subset_1(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_50: "cnf(c_0_50,plain,\n    ( r1_tarski(k3_topreal9(X1,X2,X3),X4)\n    | m1_subset_1(esk2_2(k3_topreal9(X1,X2,X3),X4),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(X2,u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ v1_xreal_0(X3) ))."
+  c_0_52: "cnf(c_0_52,plain,\n    ( k1_topreala(X1,X2,X3,X4) = k1_pre_topc(k15_euclid(np__2),k2_jgraph_6(X1,X2,X3,X4))\n\
+    \    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X3)\n    |\
+    \ ~ v1_xreal_0(X4) ))."
+  c_0_53: "cnf(c_0_53,plain,\n    ( k2_jgraph_6(X1,X2,X3,X4) = a_4_1_jgraph_6(X1,X2,X3,X4)\n\
+    \    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X3)\n    |\
+    \ ~ v1_xreal_0(X4) ))."
+  c_0_54: "cnf(c_0_54,plain,\n    ( m1_subset_1(k2_jgraph_6(X1,X2,X3,X4),k1_zfmisc_1(u1_struct_0(k15_euclid(np__2))))\n\
+    \    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X3)\n    |\
+    \ ~ v1_xreal_0(X4) ))."
+  c_0_55: "cnf(c_0_55,plain,\n    ( r1_tarski(X1,X2)\n    | ~ r2_hidden(esk2_2(X1,X2),X2)\
+    \ ))."
+  c_0_56: "cnf(c_0_56,plain,\n    ( r2_hidden(X1,a_4_1_jgraph_6(X2,X3,X4,X5))\n  \
+    \  | ~ r1_xxreal_0(X4,k18_euclid(X1))\n    | ~ r1_xxreal_0(X2,k17_euclid(X1))\n\
+    \    | ~ r1_xxreal_0(k17_euclid(X1),X3)\n    | ~ r1_xxreal_0(k18_euclid(X1),X5)\n\
+    \    | ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2)))\n    | ~ v1_xreal_0(X5)\n\
+    \    | ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X3)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_57: "cnf(c_0_57,plain,\n    ( r1_xxreal_0(k4_xcmplx_0(k12_euclid(X1)),k18_euclid(X1))\n\
+    \    | ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2)))\n    | ~ v1_xreal_0(k18_euclid(X1))\n\
+    \    | ~ v1_xreal_0(k12_euclid(X1)) ))."
+  c_0_58: "cnf(c_0_58,plain,\n    ( k12_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3))\
+    \ = X2\n    | r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)\n \
+    \   | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(k4_struct_0(k15_euclid(X1)),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_60: "cnf(c_0_60,plain,\n    ( r1_xxreal_0(k18_complex1(k17_euclid(X1)),k12_euclid(X1))\n\
+    \    | ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2))) ))."
+  c_0_62: "cnf(c_0_62,plain,\n    ( u1_struct_0(k1_pre_topc(X1,X2)) = X2\n    | ~\
+    \ l1_pre_topc(X1)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1))) ))."
+  c_0_63: "cnf(c_0_63,plain,\n    ( k1_pre_topc(k15_euclid(np__2),a_4_1_jgraph_6(X1,X2,X3,X4))\
+    \ = k1_topreala(X1,X2,X3,X4)\n    | ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X3)\n\
+    \    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_64: "cnf(c_0_64,plain,\n    ( m1_subset_1(a_4_1_jgraph_6(X1,X2,X3,X4),k1_zfmisc_1(u1_struct_0(k15_euclid(np__2))))\n\
+    \    | ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X3)\n    | ~ v1_xreal_0(X2)\n    |\
+    \ ~ v1_xreal_0(X1) ))."
+  c_0_65: "cnf(c_0_65,plain,\n    ( r1_tarski(X1,a_4_1_jgraph_6(X2,X3,X4,X5))\n  \
+    \  | ~ r1_xxreal_0(X4,k18_euclid(esk2_2(X1,a_4_1_jgraph_6(X2,X3,X4,X5))))\n  \
+    \  | ~ r1_xxreal_0(X2,k17_euclid(esk2_2(X1,a_4_1_jgraph_6(X2,X3,X4,X5))))\n  \
+    \  | ~ r1_xxreal_0(k17_euclid(esk2_2(X1,a_4_1_jgraph_6(X2,X3,X4,X5))),X3)\n  \
+    \  | ~ r1_xxreal_0(k18_euclid(esk2_2(X1,a_4_1_jgraph_6(X2,X3,X4,X5))),X5)\n  \
+    \  | ~ m1_subset_1(esk2_2(X1,a_4_1_jgraph_6(X2,X3,X4,X5)),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ v1_xreal_0(X5)\n    | ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X3)\n    |\
+    \ ~ v1_xreal_0(X2) ))."
+  c_0_66: "cnf(c_0_66,plain,\n    ( r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)\n\
+    \    | r1_xxreal_0(k4_xcmplx_0(X2),k18_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)))\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(X1)),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(k18_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)))\n\
+    \    | ~ v1_xreal_0(X2) ))."
+  c_0_67: "cnf(c_0_67,plain,\n    ( v1_xreal_0(k4_xcmplx_0(X1))\n    | ~ v1_xreal_0(X1)\
+    \ ))."
+  c_0_68: "cnf(c_0_68,plain,\n    ( r1_xxreal_0(k4_xcmplx_0(k12_euclid(X1)),k17_euclid(X1))\n\
+    \    | ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2)))\n    | ~ v1_xreal_0(k17_euclid(X1))\n\
+    \    | ~ v1_xreal_0(k12_euclid(X1)) ))."
+  c_0_69: "cnf(c_0_69,plain,\n    ( r1_xxreal_0(X1,X2)\n    | ~ r1_xxreal_0(k18_complex1(X1),X2)\n\
+    \    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_73: "cnf(c_0_73,plain,\n    ( m1_pre_topc(X1,X2)\n    | ~ r1_tarski(u1_struct_0(X1),u1_struct_0(X2))\n\
+    \    | ~ m1_pre_topc(X2,X3)\n    | ~ m1_pre_topc(X1,X3)\n    | ~ v2_pre_topc(X3)\n\
+    \    | ~ l1_pre_topc(X3) ))."
+  c_0_74: "cnf(c_0_74,plain,\n    ( u1_struct_0(k1_topreala(X1,X2,X3,X4)) = a_4_1_jgraph_6(X1,X2,X3,X4)\n\
+    \    | ~ l1_pre_topc(k15_euclid(np__2))\n    | ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X3)\n\
+    \    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_75: "cnf(c_0_75,plain,\n    ( r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(X3,X4,k4_xcmplx_0(X2),X5))\n\
+    \    | ~ r1_xxreal_0(X3,k17_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(X3,X4,k4_xcmplx_0(X2),X5))))\n\
+    \    | ~ r1_xxreal_0(k17_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(X3,X4,k4_xcmplx_0(X2),X5))),X4)\n\
+    \    | ~ r1_xxreal_0(k18_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(X3,X4,k4_xcmplx_0(X2),X5))),X5)\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(X3,X4,k4_xcmplx_0(X2),X5)),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(X1)),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(k18_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(X3,X4,k4_xcmplx_0(X2),X5))))\n\
+    \    | ~ v1_xreal_0(X5)\n    | ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X3)\n    |\
+    \ ~ v1_xreal_0(X2) ))."
+  c_0_76: "cnf(c_0_76,plain,\n    ( r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)\n\
+    \    | r1_xxreal_0(k4_xcmplx_0(X2),k17_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)))\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(X1)),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(k17_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)))\n\
+    \    | ~ v1_xreal_0(X2) ))."
+  c_0_77: "cnf(c_0_77,plain,\n    ( r1_xxreal_0(k17_euclid(X1),k12_euclid(X1))\n \
+    \   | ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2)))\n    | ~ v1_xreal_0(k12_euclid(X1))\n\
+    \    | ~ v1_xreal_0(k17_euclid(X1)) ))."
+  c_0_78: "cnf(c_0_78,plain,\n    ( v1_xreal_0(X2)\n    | ~ v3_membered(X1)\n    |\
+    \ ~ m1_subset_1(X2,X1) ))."
+  c_0_79: "cnf(c_0_79,plain,\n    ( m1_subset_1(k17_euclid(X1),k1_numbers)\n    |\
+    \ ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2))) ))."
+  c_0_80: "cnf(c_0_80,plain,\n    ( v3_membered(k1_numbers) ))."
+  c_0_81: "cnf(c_0_81,plain,\n    ( m1_subset_1(k18_euclid(X1),k1_numbers)\n    |\
+    \ ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2))) ))."
+  c_0_82: "cnf(c_0_82,plain,\n    ( m1_pre_topc(X1,k1_topreala(X2,X3,X4,X5))\n   \
+    \ | ~ r1_tarski(u1_struct_0(X1),a_4_1_jgraph_6(X2,X3,X4,X5))\n    | ~ v2_pre_topc(X6)\n\
+    \    | ~ l1_pre_topc(k15_euclid(np__2))\n    | ~ l1_pre_topc(X6)\n    | ~ m1_pre_topc(k1_topreala(X2,X3,X4,X5),X6)\n\
+    \    | ~ m1_pre_topc(X1,X6)\n    | ~ v1_xreal_0(X5)\n    | ~ v1_xreal_0(X4)\n\
+    \    | ~ v1_xreal_0(X3)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_86: "cnf(c_0_86,plain,\n    ( r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X3,k4_xcmplx_0(X2),X4))\n\
+    \    | ~ r1_xxreal_0(k17_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X3,k4_xcmplx_0(X2),X4))),X3)\n\
+    \    | ~ r1_xxreal_0(k18_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X3,k4_xcmplx_0(X2),X4))),X4)\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X3,k4_xcmplx_0(X2),X4)),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(X1)),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(k18_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X3,k4_xcmplx_0(X2),X4))))\n\
+    \    | ~ v1_xreal_0(k17_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X3,k4_xcmplx_0(X2),X4))))\n\
+    \    | ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X3)\n    | ~ v1_xreal_0(X2) ))."
+  c_0_87: "cnf(c_0_87,plain,\n    ( r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)\n\
+    \    | r1_xxreal_0(k17_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)),X2)\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(X1)),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(k17_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),X3)))\n\
+    \    | ~ v1_xreal_0(X2) ))."
+  c_0_90: "cnf(c_0_90,plain,\n    ( r1_xxreal_0(k18_euclid(X1),k12_euclid(X1))\n \
+    \   | ~ m1_subset_1(X1,u1_struct_0(k15_euclid(np__2)))\n    | ~ v1_xreal_0(k12_euclid(X1))\n\
+    \    | ~ v1_xreal_0(k18_euclid(X1)) ))."
+  c_0_92: "cnf(c_0_92,plain,\n    ( v6_membered(k4_ordinal1) ))."
+  c_0_93: "cnf(c_0_93,plain,\n    ( k5_numbers = k4_ordinal1 ))."
+  c_0_94: "cnf(c_0_94,plain,\n    ( m1_pre_topc(k1_pre_topc(X1,X2),k1_topreala(X3,X4,X5,X6))\n\
+    \    | ~ r1_tarski(X2,a_4_1_jgraph_6(X3,X4,X5,X6))\n    | ~ v2_pre_topc(X7)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n    | ~ l1_pre_topc(k15_euclid(np__2))\n\
+    \    | ~ l1_pre_topc(X7)\n    | ~ l1_pre_topc(X1)\n    | ~ m1_pre_topc(k1_topreala(X3,X4,X5,X6),X7)\n\
+    \    | ~ m1_pre_topc(k1_pre_topc(X1,X2),X7)\n    | ~ v1_xreal_0(X6)\n    | ~ v1_xreal_0(X5)\n\
+    \    | ~ v1_xreal_0(X4)\n    | ~ v1_xreal_0(X3) ))."
+  c_0_95: "cnf(c_0_95,plain,\n    ( m1_pre_topc(k1_topreala(X1,X2,X3,X4),k15_euclid(np__2))\n\
+    \    | ~ v1_xreal_0(X1)\n    | ~ v1_xreal_0(X2)\n    | ~ v1_xreal_0(X3)\n    |\
+    \ ~ v1_xreal_0(X4) ))."
+  c_0_97: "cnf(c_0_97,plain,\n    ( l1_pre_topc(X1)\n    | ~ l1_rltopsp1(X1) ))."
+  c_0_98: "cnf(c_0_98,plain,\n    ( l1_rltopsp1(k15_euclid(X1))\n    | ~ v7_ordinal1(X1)\
+    \ ))."
+  c_0_99: "cnf(c_0_99,plain,\n    ( r1_tarski(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X2,k4_xcmplx_0(X2),X3))\n\
+    \    | ~ r1_xxreal_0(k18_euclid(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X2,k4_xcmplx_0(X2),X3))),X3)\n\
+    \    | ~ v7_ordinal1(X1)\n    | ~ m1_subset_1(esk2_2(k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2),a_4_1_jgraph_6(k4_xcmplx_0(X2),X2,k4_xcmplx_0(X2),X3)),u1_struct_0(k15_euclid(np__2)))\n\
+    \    | ~ m1_subset_1(k4_struct_0(k15_euclid(X1)),u1_struct_0(k15_euclid(X1)))\n\
+    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(X3)\n    | ~ v1_xreal_0(X2)\
+    \ ))."
+  cc14_membered: "fof(cc14_membered,axiom,(\n    ! [X1] :\n      ( v3_membered(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,X1)\n         => v1_xreal_0(X2)\
+    \ ) ) ))."
+  cc17_membered: "fof(cc17_membered,axiom,(\n    ! [X1] :\n      ( v6_membered(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,X1)\n         => v7_ordinal1(X2)\
+    \ ) ) ))."
+  d1_topreala: "fof(d1_topreala,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n  \
+    \   => ! [X2] :\n          ( v1_xreal_0(X2)\n         => ! [X3] :\n          \
+    \    ( v1_xreal_0(X3)\n             => ! [X4] :\n                  ( v1_xreal_0(X4)\n\
+    \                 => k1_topreala(X1,X2,X3,X4) = k1_pre_topc(k15_euclid(np__2),k2_jgraph_6(X1,X2,X3,X4))\
+    \ ) ) ) ) ))."
+  d2_jgraph_6: "fof(d2_jgraph_6,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n  \
+    \   => ! [X2] :\n          ( v1_xreal_0(X2)\n         => ! [X3] :\n          \
+    \    ( v1_xreal_0(X3)\n             => ! [X4] :\n                  ( v1_xreal_0(X4)\n\
+    \                 => k2_jgraph_6(X1,X2,X3,X4) = a_4_1_jgraph_6(X1,X2,X3,X4) )\
+    \ ) ) ) ))."
+  d3_tarski: "fof(d3_tarski,axiom,(\n    ! [X1,X2] :\n      ( r1_tarski(X1,X2)\n \
+    \   <=> ! [X3] :\n          ( r2_hidden(X3,X1)\n         => r2_hidden(X3,X2) )\
+    \ ) ))."
+  d6_toprealb: "fof(d6_toprealb,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n \
+    \    => ! [X2] :\n          ( m1_subset_1(X2,u1_struct_0(k15_euclid(X1)))\n  \
+    \       => ! [X3] :\n              ( v1_xreal_0(X3)\n             => k7_toprealb(X1,X2,X3)\
+    \ = k1_pre_topc(k15_euclid(X1),k3_topreal9(X1,X2,X3)) ) ) ) ))."
+  dt_k15_euclid: "fof(dt_k15_euclid,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n\
+    \     => ( v5_rltopsp1(k15_euclid(X1))\n        & l1_rltopsp1(k15_euclid(X1))\
+    \ ) ) ))."
+  dt_k17_euclid: "fof(dt_k17_euclid,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,u1_struct_0(k15_euclid(np__2)))\n\
+    \     => m1_subset_1(k17_euclid(X1),k1_numbers) ) ))."
+  dt_k18_euclid: "fof(dt_k18_euclid,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,u1_struct_0(k15_euclid(np__2)))\n\
+    \     => m1_subset_1(k18_euclid(X1),k1_numbers) ) ))."
+  dt_k1_topreala: "fof(dt_k1_topreala,axiom,(\n    ! [X1,X2,X3,X4] :\n      ( ( v1_xreal_0(X1)\n\
+    \        & v1_xreal_0(X2)\n        & v1_xreal_0(X3)\n        & v1_xreal_0(X4)\
+    \ )\n     => m1_pre_topc(k1_topreala(X1,X2,X3,X4),k15_euclid(np__2)) ) ))."
+  dt_k2_jgraph_6: "fof(dt_k2_jgraph_6,axiom,(\n    ! [X1,X2,X3,X4] :\n      ( ( v1_xreal_0(X1)\n\
+    \        & v1_xreal_0(X2)\n        & v1_xreal_0(X3)\n        & v1_xreal_0(X4)\
+    \ )\n     => m1_subset_1(k2_jgraph_6(X1,X2,X3,X4),k1_zfmisc_1(u1_struct_0(k15_euclid(np__2))))\
+    \ ) ))."
+  dt_k3_topreal9: "fof(dt_k3_topreal9,axiom,(\n    ! [X1,X2,X3] :\n      ( ( v7_ordinal1(X1)\n\
+    \        & m1_subset_1(X2,u1_struct_0(k15_euclid(X1)))\n        & v1_xreal_0(X3)\
+    \ )\n     => m1_subset_1(k3_topreal9(X1,X2,X3),k1_zfmisc_1(u1_struct_0(k15_euclid(X1))))\
+    \ ) ))."
+  dt_k4_struct_0: "fof(dt_k4_struct_0,axiom,(\n    ! [X1] :\n      ( l2_struct_0(X1)\n\
+    \     => m1_subset_1(k4_struct_0(X1),u1_struct_0(X1)) ) ))."
+  dt_k7_toprealb: "fof(dt_k7_toprealb,axiom,(\n    ! [X1,X2,X3] :\n      ( ( v7_ordinal1(X1)\n\
+    \        & m1_subset_1(X2,u1_struct_0(k15_euclid(X1)))\n        & v1_xreal_0(X3)\
+    \ )\n     => m1_pre_topc(k7_toprealb(X1,X2,X3),k15_euclid(X1)) ) ))."
+  dt_l1_rltopsp1: "fof(dt_l1_rltopsp1,axiom,(\n    ! [X1] :\n      ( l1_rltopsp1(X1)\n\
+    \     => ( l1_rlvect_1(X1)\n        & l1_pre_topc(X1) ) ) ))."
+  dt_l1_rlvect_1: "fof(dt_l1_rlvect_1,axiom,(\n    ! [X1] :\n      ( l1_rlvect_1(X1)\n\
+    \     => l2_algstr_0(X1) ) ))."
+  dt_l2_algstr_0: "fof(dt_l2_algstr_0,axiom,(\n    ! [X1] :\n      ( l2_algstr_0(X1)\n\
+    \     => ( l2_struct_0(X1)\n        & l1_algstr_0(X1) ) ) ))."
+  fc3_membered: "fof(fc3_membered,axiom,(\n    v3_membered(k1_numbers) ))."
+  fc3_xreal_0: "fof(fc3_xreal_0,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n  \
+    \   => ( v1_xcmplx_0(k4_xcmplx_0(X1))\n        & v1_xreal_0(k4_xcmplx_0(X1)) )\
+    \ ) ))."
+  fc6_euclid: "fof(fc6_euclid,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n   \
+    \  => ( v2_pre_topc(k15_euclid(X1))\n        & v13_algstr_0(k15_euclid(X1))\n\
+    \        & v2_rlvect_1(k15_euclid(X1))\n        & v3_rlvect_1(k15_euclid(X1))\n\
+    \        & v4_rlvect_1(k15_euclid(X1))\n        & v5_rlvect_1(k15_euclid(X1))\n\
+    \        & v6_rlvect_1(k15_euclid(X1))\n        & v7_rlvect_1(k15_euclid(X1))\n\
+    \        & v8_rlvect_1(k15_euclid(X1))\n        & v5_rltopsp1(k15_euclid(X1))\
+    \ ) ) ))."
+  fc6_membered: "fof(fc6_membered,axiom,(\n    v6_membered(k4_ordinal1) ))."
+  fraenkel_a_4_1_jgraph_6: "fof(fraenkel_a_4_1_jgraph_6,axiom,(\n    ! [X1,X2,X3,X4,X5]\
+    \ :\n      ( ( v1_xreal_0(X2)\n        & v1_xreal_0(X3)\n        & v1_xreal_0(X4)\n\
+    \        & v1_xreal_0(X5) )\n     => ( r2_hidden(X1,a_4_1_jgraph_6(X2,X3,X4,X5))\n\
+    \      <=> ? [X6] :\n            ( m1_subset_1(X6,u1_struct_0(k15_euclid(np__2)))\n\
+    \            & X1 = X6\n            & r1_xxreal_0(X2,k17_euclid(X6))\n       \
+    \     & r1_xxreal_0(k17_euclid(X6),X3)\n            & r1_xxreal_0(X4,k18_euclid(X6))\n\
+    \            & r1_xxreal_0(k18_euclid(X6),X5) ) ) ) ))."
+  redefinition_k5_numbers: "fof(redefinition_k5_numbers,axiom,(\n    k5_numbers =\
+    \ k4_ordinal1 ))."
+  spc2_numerals: "fof(spc2_numerals,axiom,\n    ( v2_xxreal_0(np__2)\n    & m2_subset_1(np__2,k1_numbers,k5_numbers)\n\
+    \    & m1_subset_1(np__2,k5_numbers)\n    & m1_subset_1(np__2,k1_numbers) ))."
+  t10_toprealb: "fof(t10_toprealb,conjecture,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n\
+    \     => m1_pre_topc(k7_toprealb(np__2,k4_struct_0(k15_euclid(np__2)),X1),k1_topreala(k4_xcmplx_0(X1),X1,k4_xcmplx_0(X1),X1))\
+    \ ) ))."
+  t12_topreal9: "fof(t12_topreal9,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,k5_numbers)\n\
+    \     => ! [X2] :\n          ( v1_xreal_0(X2)\n         => ! [X3] :\n        \
+    \      ( m1_subset_1(X3,u1_struct_0(k15_euclid(X1)))\n             => ( r2_hidden(X3,k3_topreal9(X1,k4_struct_0(k15_euclid(X1)),X2))\n\
+    \               => k12_euclid(X3) = X2 ) ) ) ) ))."
+  t33_jgraph_1: "fof(t33_jgraph_1,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,u1_struct_0(k15_euclid(np__2)))\n\
+    \     => ( r1_xxreal_0(k18_complex1(k17_euclid(X1)),k12_euclid(X1))\n        &\
+    \ r1_xxreal_0(k18_complex1(k18_euclid(X1)),k12_euclid(X1)) ) ) ))."
+  t4_subset: "fof(t4_subset,axiom,(\n    ! [X1,X2,X3] :\n      ( ( r2_hidden(X1,X2)\n\
+    \        & m1_subset_1(X2,k1_zfmisc_1(X3)) )\n     => m1_subset_1(X1,X3) ) ))."
+  t4_tsep_1: "fof(t4_tsep_1,axiom,(\n    ! [X1] :\n      ( ( v2_pre_topc(X1)\n   \
+    \     & l1_pre_topc(X1) )\n     => ! [X2] :\n          ( m1_pre_topc(X2,X1)\n\
+    \         => ! [X3] :\n              ( m1_pre_topc(X3,X1)\n             => ( r1_tarski(u1_struct_0(X2),u1_struct_0(X3))\n\
+    \              <=> m1_pre_topc(X2,X3) ) ) ) ) ))."
+  t5_absvalue: "fof(t5_absvalue,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n  \
+    \   => ! [X2] :\n          ( v1_xreal_0(X2)\n         => ( ( r1_xxreal_0(k4_xcmplx_0(X1),X2)\n\
+    \              & r1_xxreal_0(X2,X1) )\n          <=> r1_xxreal_0(k18_complex1(X2),X1)\
+    \ ) ) ) ))."
+  t8_pre_topc: "fof(t8_pre_topc,axiom,(\n    ! [X1] :\n      ( l1_pre_topc(X1)\n \
+    \    => ! [X2] :\n          ( m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))\n \
+    \        => u1_struct_0(k1_pre_topc(X1,X2)) = X2 ) ) ))."
+

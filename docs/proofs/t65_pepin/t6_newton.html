@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>VizAR for MizAR | at Czech Institute of Informatics, Robotics and Cybernetics</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="VizAR for MizAR" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="at Czech Institute of Informatics, Robotics and Cybernetics" />
+<meta property="og:description" content="at Czech Institute of Informatics, Robotics and Cybernetics" />
+<link rel="canonical" href="ai4reason.github.io/vizar/proofs/t65_pepin/t6_newton.html" />
+<meta property="og:url" content="ai4reason.github.io/vizar/proofs/t65_pepin/t6_newton.html" />
+<meta property="og:site_name" content="VizAR for MizAR" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="VizAR for MizAR" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"at Czech Institute of Informatics, Robotics and Cybernetics","headline":"VizAR for MizAR","url":"ai4reason.github.io/vizar/proofs/t65_pepin/t6_newton.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/vizar/assets/css/style.css">
+  <link rel="stylesheet" href="/vizar/assets/css/mizar.css"><link type="application/atom+xml" rel="alternate" href="ai4reason.github.io/vizar/feed.xml" title="VizAR for MizAR" />
+
+<link rel="shortcut icon" type="image/x-icon" href="/vizar/favicon.ico">
+
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/vizar/">VizAR for MizAR</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/vizar/intro.html">Introduction</a><a class="page-link" href="/vizar/proofs/">Proofs</a><a class="page-link" href="/vizar/feedback.html">Feedback</a><a class="page-link" href="/vizar/">Home</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+
+
+<h1>Axiom <b>t6_newton</b> of <a href="index.html">t65_pepin</a></h1>
+
+<h2>Clausified form</h2>
+
+<object type="image/svg+xml" data="/vizar/proofs/t65_pepin/t6_newton.svg">
+   <img src="/vizar/proofs/t65_pepin/t6_newton.svg" />
+</object>
+
+<p>(only the clauses actually used in the proof are displayed)</p>
+
+
+
+
+
+<h2>Mizar statement</h2>
+
+<p>
+<div class="mizar">
+<div><span class="kw">theorem </span><span class="lab"><font color="Green" title="E4">Th6</font></span>: <a name="T6"><span class="comment"><font color="firebrick">:: NEWTON:6</font></span><br /></a><div class="add"> for <font color="Olive" title="b1">s</font> being   <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#NM5" title="ORDINAL1:NM.5">Nat</a><br />  for <font color="Olive" title="b2">z</font> being   <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#V1" title="XCMPLX_0:attr.1">complex</a>   <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#NM1" title="ORDINAL1:NM.1">number</a>  holds  <font color="Olive" title="b2">z</font> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#K1" title="NEWTON:func.1">|^</a> <span class="p1">(<span class="default"><font color="Olive" title="b1">s</font> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#K1" title="NAT_1:func.1">+</a> 1</span>)</span> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R1" title="HIDDEN:pred.1">=</a> <span class="p1">(<span class="default"><font color="Olive" title="b2">z</font> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#K1" title="NEWTON:func.1">|^</a> <font color="Olive" title="b1">s</font></span>)</span> <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K3" title="XCMPLX_0:func.3">*</a> <font color="Olive" title="b2">z</font></div></div>
+</div>
+
+</p>
+
+<p>
+See the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#T6" target="_mizar">Mizar definition</a>.
+</p>
+
+
+<h2>First-order translation</h2>
+
+<pre>
+    (∀X₁)
+      ( (X₁ ∈ ℕ)
+     ⇒ (∀X₂)
+          ( (X₂ ∈ ℂ)
+         ⇒ (X₂ |^ (X₁ + 1)) = ((X₂ |^ X₁) * X₂) ) ) 
+</pre>
+
+
+<h2>Raw TPTP formula</h2>
+
+<pre>
+fof(t6_newton,axiom,(
+    ! [X1] :
+      ( v7_ordinal1(X1)
+     => ! [X2] :
+          ( v1_xcmplx_0(X2)
+         => k1_newton(X2,k1_nat_1(X1,np__1)) = k3_xcmplx_0(k1_newton(X2,X1),X2) ) ) )).
+</pre>
+
+
+
+      </div>
+    </main>
+
+
+  </body>
+
+</html>

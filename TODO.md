@@ -4,5 +4,10 @@
 [x] featured proofs
 [x] syntax for metavariables in external yaml file
 [x] rename to 00mizar and 00vizar
+[x] normalize skolem symbols
+[x] remove skolem symbols and $false from symbol list
+[x] fix the FOF display of |, {, }
+[ ] fix mizar targer for links in Mizar statements
 [ ] refactor add-proof.sh 
 [ ] generate offline to fasten github page deployment
+

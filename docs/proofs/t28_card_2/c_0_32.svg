@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="234,-112 234,-144 320,-144 320,-112 234,-112"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="415,-112 415,-144 501,-144 501,-112 415,-112"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="183,-60 183,-92 371,-92 371,-60 183,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="364,-60 364,-92 552,-92 552,-60 364,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -24,8 +24,8 @@
 <g id="node1" class="node">
 <title>t7_card_2</title>
 <g id="a_node1"><a xlink:href="t7_card_2.html" xlink:title="t7_card_2" target="_parent">
-<polygon fill="#69d2e7" stroke="#7f7542" points="242,-120.5 242,-135.5 312,-135.5 312,-120.5 242,-120.5"/>
-<text text-anchor="middle" x="277" y="-124.3" font-family="Times,serif" font-size="14.00">t7_card_2</text>
+<polygon fill="#69d2e7" stroke="#7f7542" points="423,-120.5 423,-135.5 493,-135.5 493,-120.5 423,-120.5"/>
+<text text-anchor="middle" x="458" y="-124.3" font-family="Times,serif" font-size="14.00">t7_card_2</text>
 </a>
 </g>
 </g>
@@ -33,61 +33,61 @@
 <g id="node2" class="node">
 <title>c_0_32</title>
 <g id="a_node2"><a xlink:href="c_0_32.html" xlink:title="{\|(X₁ × X₂)\| = \|(\|X₁\| × X₂)\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="191,-68.5 191,-83.5 363,-83.5 363,-68.5 191,-68.5"/>
-<text text-anchor="middle" x="277" y="-72.3" font-family="Times,serif" font-size="14.00">|(X₁ × X₂)| = |(|X₁| × X₂)|</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="372,-68.5 372,-83.5 544,-83.5 544,-68.5 372,-68.5"/>
+<text text-anchor="middle" x="458" y="-72.3" font-family="Times,serif" font-size="14.00">|(X₁ × X₂)| = |(|X₁| × X₂)|</text>
 </a>
 </g>
 </g>
 <!-- t7_card_2&#45;&gt;c_0_32 -->
 <g id="edge1" class="edge">
 <title>t7_card_2&#45;&gt;c_0_32</title>
-<path fill="none" stroke="black" d="M277,-120.33C277,-120.33 277,-93.7 277,-93.7"/>
-<polygon fill="black" stroke="black" points="280.5,-93.7 277,-83.7 273.5,-93.7 280.5,-93.7"/>
+<path fill="none" stroke="black" d="M458,-120.33C458,-120.33 458,-93.7 458,-93.7"/>
+<polygon fill="black" stroke="black" points="461.5,-93.7 458,-83.7 454.5,-93.7 461.5,-93.7"/>
 </g>
-<!-- c_0_61 -->
+<!-- c_0_43 -->
 <g id="node3" class="node">
-<title>c_0_61</title>
-<g id="a_node3"><a xlink:href="c_0_61.html" xlink:title="{\|(\{f:sk₂ → sk₁\} × (sk₁ ^ sk₃))\| ≠ sk₁ ^ (sk₂ + sk₃)}" target="_parent">
-<polygon fill="#fa6900" stroke="#7f7542" points="377,-16.5 377,-31.5 719,-31.5 719,-16.5 377,-16.5"/>
-<text text-anchor="middle" x="548" y="-20.3" font-family="Times,serif" font-size="14.00">|({f:sk₂ → sk₁} × (sk₁ ^ sk₃))| ≠ sk₁ ^ (sk₂ + sk₃)</text>
+<title>c_0_43</title>
+<g id="a_node3"><a xlink:href="c_0_43.html" xlink:title="{\|(κ₁ × X₂)\| = \|(X₂ × κ₁)\|}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="557.5,-16.5 557.5,-31.5 718.5,-31.5 718.5,-16.5 557.5,-16.5"/>
+<text text-anchor="middle" x="638" y="-20.3" font-family="Times,serif" font-size="14.00">|(κ₁ × X₂)| = |(X₂ × κ₁)|</text>
 </a>
 </g>
 </g>
-<!-- c_0_32&#45;&gt;c_0_61 -->
+<!-- c_0_32&#45;&gt;c_0_43 -->
 <g id="edge2" class="edge">
-<title>c_0_32&#45;&gt;c_0_61</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M363.12,-76C442.47,-76 548,-76 548,-76 548,-76 548,-41.67 548,-41.67"/>
-<polygon fill="black" stroke="black" points="551.5,-41.67 548,-31.67 544.5,-41.67 551.5,-41.67"/>
+<title>c_0_32&#45;&gt;c_0_43</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M544.05,-76C590.32,-76 638,-76 638,-76 638,-76 638,-41.67 638,-41.67"/>
+<polygon fill="black" stroke="black" points="641.5,-41.67 638,-31.67 634.5,-41.67 641.5,-41.67"/>
 </g>
 <!-- c_0_53 -->
 <g id="node4" class="node">
 <title>c_0_53</title>
 <g id="a_node4"><a xlink:href="c_0_53.html" xlink:title="{\|(X₁ × X₂)\| = \|(X₂ × X₁)\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="195.5,-16.5 195.5,-31.5 358.5,-31.5 358.5,-16.5 195.5,-16.5"/>
-<text text-anchor="middle" x="277" y="-20.3" font-family="Times,serif" font-size="14.00">|(X₁ × X₂)| = |(X₂ × X₁)|</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="376.5,-16.5 376.5,-31.5 539.5,-31.5 539.5,-16.5 376.5,-16.5"/>
+<text text-anchor="middle" x="458" y="-20.3" font-family="Times,serif" font-size="14.00">|(X₁ × X₂)| = |(X₂ × X₁)|</text>
 </a>
 </g>
 </g>
 <!-- c_0_32&#45;&gt;c_0_53 -->
 <g id="edge3" class="edge">
 <title>c_0_32&#45;&gt;c_0_53</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M277,-68.33C277,-68.33 277,-41.7 277,-41.7"/>
-<polygon fill="black" stroke="black" points="280.5,-41.7 277,-31.7 273.5,-41.7 280.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M458,-68.33C458,-68.33 458,-41.7 458,-41.7"/>
+<polygon fill="black" stroke="black" points="461.5,-41.7 458,-31.7 454.5,-41.7 461.5,-41.7"/>
 </g>
-<!-- c_0_43 -->
+<!-- c_0_61 -->
 <g id="node5" class="node">
-<title>c_0_43</title>
-<g id="a_node5"><a xlink:href="c_0_43.html" xlink:title="{\|(κ₁ × X₂)\| = \|(X₂ × κ₁)\|}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-31.5 177.5,-31.5 177.5,-16.5 16.5,-16.5"/>
-<text text-anchor="middle" x="97" y="-20.3" font-family="Times,serif" font-size="14.00">|(κ₁ × X₂)| = |(X₂ × κ₁)|</text>
+<title>c_0_61</title>
+<g id="a_node5"><a xlink:href="c_0_61.html" xlink:title="{\|(\{f:sk₂ → sk₁\} × (sk₁ ^ sk₃))\| ≠ sk₁ ^ (sk₂ + sk₃)}" target="_parent">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 358,-31.5 358,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="187" y="-20.3" font-family="Times,serif" font-size="14.00">|({f:sk₂ → sk₁} × (sk₁ ^ sk₃))| ≠ sk₁ ^ (sk₂ + sk₃)</text>
 </a>
 </g>
 </g>
-<!-- c_0_32&#45;&gt;c_0_43 -->
+<!-- c_0_32&#45;&gt;c_0_61 -->
 <g id="edge4" class="edge">
-<title>c_0_32&#45;&gt;c_0_43</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M190.95,-76C144.68,-76 97,-76 97,-76 97,-76 97,-41.67 97,-41.67"/>
-<polygon fill="black" stroke="black" points="100.5,-41.67 97,-31.67 93.5,-41.67 100.5,-41.67"/>
+<title>c_0_32&#45;&gt;c_0_61</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M371.88,-76C292.53,-76 187,-76 187,-76 187,-76 187,-41.67 187,-41.67"/>
+<polygon fill="black" stroke="black" points="190.5,-41.67 187,-31.67 183.5,-41.67 190.5,-41.67"/>
 </g>
 </g>
 </svg>

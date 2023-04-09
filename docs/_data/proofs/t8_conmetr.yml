@@ -1,0 +1,1204 @@
+axioms:
+  d8_conmetr:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 OrtAfPl-like(X\u2081\
+      )\n        \u2227 ParOrtStr(X\u2081) )\n     \u21D2 ( satisfying_des(X\u2081\
+      )\n      \u2261 (\u2200X\u2082)\n            ( (X\u2082 \u2208 carrier(X\u2081\
+      ))\n           \u21D2 (\u2200X\u2083)\n                ( (X\u2083 \u2208 carrier(X\u2081\
+      ))\n               \u21D2 (\u2200X\u2084)\n                    ( (X\u2084 \u2208\
+      \ carrier(X\u2081))\n                   \u21D2 (\u2200X\u2085)\n           \
+      \             ( (X\u2085 \u2208 carrier(X\u2081))\n                       \u21D2\
+      \ (\u2200X\u2086)\n                            ( (X\u2086 \u2208 carrier(X\u2081\
+      ))\n                           \u21D2 (\u2200X\u2087)\n                    \
+      \            ( (X\u2087 \u2208 carrier(X\u2081))\n                         \
+      \      \u21D2 ( ( (X\u2081 // X\u2082 // X\u2083 // X\u2084 // X\u2085)\n  \
+      \                                  \u2227 (X\u2081 // X\u2082 // X\u2083 //\
+      \ X\u2086 // X\u2087)\n                                    \u2227 (X\u2081 //\
+      \ X\u2082 // X\u2084 // X\u2083 // X\u2085)\n                              \
+      \      \u2227 (X\u2081 // X\u2082 // X\u2086 // X\u2083 // X\u2087) )\n    \
+      \                             \u21D2 ( LIN(X\u2081,X\u2082,X\u2083,X\u2084)\n\
+      \                                    \u2228 LIN(X\u2081,X\u2082,X\u2083,X\u2086\
+      )\n                                    \u2228 (X\u2081 // X\u2084 // X\u2086\
+      \ // X\u2085 // X\u2087) ) ) ) ) ) ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/conmetr.html#D8
+  dt_k3_analmetr:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 ParOrtStr(X\u2081\
+      ) )\n     \u21D2 ( strict(Af(X\u2081))\n        \u2227 AffinStruct(Af(X\u2081\
+      )) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#K3
+  fc4_analmetr:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 OrtAfPl-like(X\u2081\
+      )\n        \u2227 ParOrtStr(X\u2081) )\n     \u21D2 ( \xAC trivial(Af(X\u2081\
+      ))\n        \u2227 strict(Af(X\u2081))\n        \u2227 AffinSpace-like(Af(X\u2081\
+      ))\n        \u2227 2-dimensional(Af(X\u2081)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#FC4
+  t35_analmetr:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 ParOrtStr(X\u2081\
+      ) )\n     \u21D2 (\u2200X\u2082)\n          ( (X\u2082 \u2208 carrier(X\u2081\
+      ))\n        \u2261 (X\u2082 \u2208 carrier(Af(X\u2081))) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#T35
+  t36_analmetr:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 ParOrtStr(X\u2081\
+      ) )\n     \u21D2 (\u2200X\u2082)\n          ( (X\u2082 \u2208 carrier(X\u2081\
+      ))\n         \u21D2 (\u2200X\u2083)\n              ( (X\u2083 \u2208 carrier(X\u2081\
+      ))\n             \u21D2 (\u2200X\u2084)\n                  ( (X\u2084 \u2208\
+      \ carrier(X\u2081))\n                 \u21D2 (\u2200X\u2085)\n             \
+      \         ( (X\u2085 \u2208 carrier(X\u2081))\n                     \u21D2 (\u2200\
+      X\u2086)\n                          ( (X\u2086 \u2208 carrier(Af(X\u2081)))\n\
+      \                         \u21D2 (\u2200X\u2087)\n                         \
+      \     ( (X\u2087 \u2208 carrier(Af(X\u2081)))\n                            \
+      \ \u21D2 (\u2200X\u2088)\n                                  ( (X\u2088 \u2208\
+      \ carrier(Af(X\u2081)))\n                                 \u21D2 (\u2200X\u2089\
+      )\n                                      ( (X\u2089 \u2208 carrier(Af(X\u2081\
+      )))\n                                     \u21D2 ( ( X\u2082 = X\u2086\n   \
+      \                                       \u2227 X\u2083 = X\u2087\n         \
+      \                                 \u2227 X\u2084 = X\u2088\n               \
+      \                           \u2227 X\u2085 = X\u2089 )\n                   \
+      \                    \u21D2 ( (X\u2081 // X\u2082 // X\u2083 // X\u2084 // X\u2085\
+      )\n                                        \u2261 (Af(X\u2081) // X\u2086 //\
+      \ X\u2087 // X\u2088 // X\u2089) ) ) ) ) ) ) ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#T36
+  t37_analmetr:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 OrtAfPl-like(X\u2081\
+      )\n        \u2227 ParOrtStr(X\u2081) )\n     \u21D2 ( \xAC empty(X\u2081)\n\
+      \        \u2227 OrtAfSp-like(X\u2081)\n        \u2227 ParOrtStr(X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#T37
+  t40_analmetr:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 OrtAfSp-like(X\u2081\
+      )\n        \u2227 ParOrtStr(X\u2081) )\n     \u21D2 (\u2200X\u2082)\n      \
+      \    ( (X\u2082 \u2208 carrier(X\u2081))\n         \u21D2 (\u2200X\u2083)\n\
+      \              ( (X\u2083 \u2208 carrier(X\u2081))\n             \u21D2 (\u2200\
+      X\u2084)\n                  ( (X\u2084 \u2208 carrier(X\u2081))\n          \
+      \       \u21D2 (\u2200X\u2085)\n                      ( (X\u2085 \u2208 carrier(Af(X\u2081\
+      )))\n                     \u21D2 (\u2200X\u2086)\n                         \
+      \ ( (X\u2086 \u2208 carrier(Af(X\u2081)))\n                         \u21D2 (\u2200\
+      X\u2087)\n                              ( (X\u2087 \u2208 carrier(Af(X\u2081\
+      )))\n                             \u21D2 ( ( X\u2082 = X\u2085\n           \
+      \                       \u2227 X\u2083 = X\u2086\n                         \
+      \         \u2227 X\u2084 = X\u2087 )\n                               \u21D2\
+      \ ( LIN(X\u2081,X\u2082,X\u2083,X\u2084)\n                                \u2261\
+      \ LIN(Af(X\u2081),X\u2085,X\u2086,X\u2087) ) ) ) ) ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#T40
+  t4_translac:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC trivial(X\u2081)\n        \u2227 AffinSpace-like(X\u2081\
+      )\n        \u2227 2-dimensional(X\u2081)\n        \u2227 AffinStruct(X\u2081\
+      ) )\n     \u21D2 ( translational(X\u2081)\n      \u2261 (\u2200X\u2082)\n  \
+      \          ( (X\u2082 \u2208 carrier(X\u2081))\n           \u21D2 (\u2200X\u2083\
+      )\n                ( (X\u2083 \u2208 carrier(X\u2081))\n               \u21D2\
+      \ (\u2200X\u2084)\n                    ( (X\u2084 \u2208 carrier(X\u2081))\n\
+      \                   \u21D2 (\u2200X\u2085)\n                        ( (X\u2085\
+      \ \u2208 carrier(X\u2081))\n                       \u21D2 (\u2200X\u2086)\n\
+      \                            ( (X\u2086 \u2208 carrier(X\u2081))\n         \
+      \                  \u21D2 (\u2200X\u2087)\n                                (\
+      \ (X\u2087 \u2208 carrier(X\u2081))\n                               \u21D2 (\
+      \ ( (X\u2081 // X\u2082 // X\u2083 // X\u2084 // X\u2086)\n                \
+      \                    \u2227 (X\u2081 // X\u2082 // X\u2083 // X\u2085 // X\u2087\
+      )\n                                    \u2227 (X\u2081 // X\u2082 // X\u2084\
+      \ // X\u2083 // X\u2086)\n                                    \u2227 (X\u2081\
+      \ // X\u2082 // X\u2085 // X\u2083 // X\u2087) )\n                         \
+      \        \u21D2 ( LIN(X\u2081,X\u2082,X\u2083,X\u2084)\n                   \
+      \                 \u2228 LIN(X\u2081,X\u2082,X\u2083,X\u2085)\n            \
+      \                        \u2228 (X\u2081 // X\u2084 // X\u2085 // X\u2086 //\
+      \ X\u2087) ) ) ) ) ) ) ) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/translac.html#T4
+  t8_conmetr:
+    fof: "    (\u2200X\u2081)\n      ( ( \xAC empty(X\u2081)\n        \u2227 OrtAfPl-like(X\u2081\
+      )\n        \u2227 ParOrtStr(X\u2081) )\n     \u21D2 ( translational(Af(X\u2081\
+      ))\n       \u21D2 satisfying_des(X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/conmetr.html#T8
+conjecture: t8_conmetr
+final: c_0_113
+skolems:
+  esk1_0:
+    axiom: t8_conmetr
+    related:
+    - esk1_0
+    symbol: "sk\u2081"
+  esk2_1:
+    axiom: d8_conmetr
+    related:
+    - esk5_1
+    - esk2_1
+    - esk3_1
+    - esk4_1
+    - esk6_1
+    - esk7_1
+    symbol: "sk\u2082"
+  esk3_1:
+    axiom: d8_conmetr
+    related:
+    - esk5_1
+    - esk2_1
+    - esk3_1
+    - esk4_1
+    - esk6_1
+    - esk7_1
+    symbol: "sk\u2083"
+  esk4_1:
+    axiom: d8_conmetr
+    related:
+    - esk5_1
+    - esk2_1
+    - esk3_1
+    - esk4_1
+    - esk6_1
+    - esk7_1
+    symbol: "sk\u2084"
+  esk5_1:
+    axiom: d8_conmetr
+    related:
+    - esk5_1
+    - esk2_1
+    - esk3_1
+    - esk4_1
+    - esk6_1
+    - esk7_1
+    symbol: "sk\u2085"
+  esk6_1:
+    axiom: d8_conmetr
+    related:
+    - esk5_1
+    - esk2_1
+    - esk3_1
+    - esk4_1
+    - esk6_1
+    - esk7_1
+    symbol: "sk\u2086"
+  esk7_1:
+    axiom: d8_conmetr
+    related:
+    - esk5_1
+    - esk2_1
+    - esk3_1
+    - esk4_1
+    - esk6_1
+    - esk7_1
+    symbol: "sk\u2087"
+steps:
+  c_0_100:
+    counts:
+      k3_analmetr: 4
+      l1_analmetr: 1
+      m1_subset_1: 6
+      r1_aff_1: 1
+      r5_analmetr: 1
+      u1_struct_0: 6
+      v2_analmetr: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_101:
+    counts:
+      k3_analmetr: 3
+      r1_aff_1: 2
+      v7_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk4_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_102:
+    counts:
+      v2_analmetr: 1
+    skolems:
+    - esk1_0
+  c_0_103:
+    counts:
+      l1_analmetr: 1
+      r5_analmetr: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk2_1
+    - esk3_1
+    - esk6_1
+  c_0_104:
+    counts:
+      k3_analmetr: 2
+      r1_aff_1: 1
+      r5_analmetr: 1
+      v7_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk4_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_105:
+    counts:
+      l1_analmetr: 1
+      r5_analmetr: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk2_1
+    - esk3_1
+    - esk4_1
+  c_0_107:
+    counts:
+      k3_analmetr: 1
+      r5_analmetr: 2
+      v7_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk4_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_108:
+    counts:
+      k3_analmetr: 1
+      l1_analmetr: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v7_struct_0: 1
+    skolems: []
+  c_0_110:
+    counts:
+      k3_analmetr: 1
+      r5_analmetr: 1
+      v7_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk4_1
+    - esk3_1
+    - esk1_0
+  c_0_112:
+    counts:
+      k3_analmetr: 1
+      v7_struct_0: 1
+    skolems:
+    - esk1_0
+  c_0_14:
+    counts:
+      l1_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk7_1
+  c_0_15:
+    counts:
+      l1_analmetr: 1
+    skolems:
+    - esk1_0
+  c_0_16:
+    counts:
+      v3_analmetr: 1
+    skolems:
+    - esk1_0
+  c_0_17:
+    counts:
+      v8_conmetr: 1
+    skolems:
+    - esk1_0
+  c_0_18:
+    counts:
+      v2_struct_0: 1
+    skolems:
+    - esk1_0
+  c_0_19:
+    counts:
+      k3_analmetr: 5
+      l1_analmetr: 1
+      m1_subset_1: 8
+      r2_analoaf: 2
+      u1_struct_0: 8
+      v2_struct_0: 1
+    skolems: []
+  c_0_20:
+    counts:
+      k3_analmetr: 1
+      l1_analmetr: 1
+      m1_subset_1: 2
+      u1_struct_0: 2
+      v2_struct_0: 1
+    skolems: []
+  c_0_26:
+    counts:
+      l1_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk3_1
+  c_0_27:
+    counts:
+      l1_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk6_1
+  c_0_28:
+    counts:
+      l1_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk2_1
+  c_0_31:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk7_1
+    - esk1_0
+  c_0_32:
+    counts:
+      l1_analmetr: 1
+      r2_analoaf: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk3_1
+    - esk6_1
+  c_0_38:
+    counts:
+      l1_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk5_1
+  c_0_40:
+    counts:
+      k3_analmetr: 5
+      l1_analmetr: 1
+      m1_subset_1: 8
+      r2_analoaf: 2
+      u1_struct_0: 8
+      v2_struct_0: 1
+    skolems: []
+  c_0_41:
+    counts:
+      k3_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk7_1
+    - esk1_0
+  c_0_43:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk3_1
+    - esk1_0
+  c_0_44:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_45:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk1_0
+  c_0_46:
+    counts:
+      k3_analmetr: 1
+      l1_analmetr: 1
+      l1_analoaf: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_47:
+    counts:
+      k3_analmetr: 1
+      l1_analmetr: 1
+      v2_diraf: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+    skolems: []
+  c_0_48:
+    counts:
+      k3_analmetr: 1
+      l1_analmetr: 1
+      v1_diraf: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+    skolems: []
+  c_0_49:
+    counts:
+      l1_analmetr: 1
+      r2_analoaf: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk3_1
+    - esk6_1
+  c_0_51:
+    counts:
+      l1_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk4_1
+  c_0_52:
+    counts:
+      l1_analoaf: 1
+      m1_subset_1: 6
+      r1_aff_1: 2
+      r2_analoaf: 5
+      u1_struct_0: 6
+      v11_aff_2: 1
+      v1_diraf: 1
+      v2_diraf: 1
+      v7_struct_0: 1
+    skolems: []
+  c_0_53:
+    counts:
+      k3_analmetr: 4
+      m1_subset_1: 6
+      r2_analoaf: 2
+      u1_struct_0: 6
+    skolems:
+    - esk7_1
+    - esk1_0
+  c_0_54:
+    counts:
+      r2_analoaf: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_55:
+    counts:
+      k3_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk3_1
+    - esk1_0
+  c_0_56:
+    counts:
+      k3_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk1_0
+    - esk6_1
+  c_0_57:
+    counts:
+      k3_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk1_0
+  c_0_61:
+    counts:
+      k3_analmetr: 1
+      v11_aff_2: 1
+    skolems:
+    - esk1_0
+  c_0_63:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk5_1
+    - esk1_0
+  c_0_64:
+    counts:
+      l1_analmetr: 1
+      r2_analoaf: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk5_1
+    - esk2_1
+    - esk3_1
+    - esk4_1
+  c_0_66:
+    counts:
+      l1_analmetr: 1
+      r2_analoaf: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk5_1
+    - esk2_1
+    - esk3_1
+    - esk4_1
+  c_0_68:
+    counts:
+      k3_analmetr: 1
+      r2_analoaf: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_69:
+    counts:
+      k3_analmetr: 1
+      l1_analoaf: 1
+    skolems:
+    - esk1_0
+  c_0_70:
+    counts:
+      k3_analmetr: 1
+      v2_diraf: 1
+    skolems:
+    - esk1_0
+  c_0_71:
+    counts:
+      k3_analmetr: 1
+      v1_diraf: 1
+    skolems:
+    - esk1_0
+  c_0_73:
+    counts:
+      r2_analoaf: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_74:
+    counts:
+      k3_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk5_1
+    - esk1_0
+  c_0_76:
+    counts:
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk1_0
+    - esk4_1
+  c_0_78:
+    counts:
+      k3_analmetr: 5
+      l1_analmetr: 1
+      m1_subset_1: 8
+      r2_analoaf: 2
+      u1_struct_0: 8
+      v2_struct_0: 1
+    skolems: []
+  c_0_79:
+    counts:
+      k3_analmetr: 9
+      m1_subset_1: 2
+      r1_aff_1: 2
+      r2_analoaf: 4
+      u1_struct_0: 2
+      v7_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_80:
+    counts:
+      k3_analmetr: 1
+      r2_analoaf: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_81:
+    counts:
+      k3_analmetr: 4
+      m1_subset_1: 6
+      r2_analoaf: 2
+      u1_struct_0: 6
+    skolems:
+    - esk5_1
+    - esk1_0
+  c_0_82:
+    counts:
+      r2_analoaf: 1
+    skolems:
+    - esk2_1
+    - esk4_1
+    - esk1_0
+    - esk5_1
+    - esk3_1
+  c_0_83:
+    counts:
+      k3_analmetr: 1
+      m1_subset_1: 1
+      u1_struct_0: 1
+    skolems:
+    - esk1_0
+    - esk4_1
+  c_0_84:
+    counts:
+      r2_analoaf: 1
+    skolems:
+    - esk2_1
+    - esk4_1
+    - esk1_0
+    - esk5_1
+    - esk3_1
+  c_0_86:
+    counts:
+      k3_analmetr: 5
+      l1_analmetr: 1
+      m1_subset_1: 8
+      r2_analoaf: 2
+      u1_struct_0: 8
+      v2_struct_0: 1
+    skolems: []
+  c_0_87:
+    counts:
+      k3_analmetr: 8
+      m1_subset_1: 2
+      r1_aff_1: 2
+      r2_analoaf: 3
+      u1_struct_0: 2
+      v7_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_88:
+    counts:
+      k3_analmetr: 1
+      r2_analoaf: 1
+    skolems:
+    - esk2_1
+    - esk4_1
+    - esk1_0
+    - esk5_1
+    - esk3_1
+  c_0_89:
+    counts:
+      k3_analmetr: 1
+      r2_analoaf: 1
+    skolems:
+    - esk2_1
+    - esk4_1
+    - esk1_0
+    - esk5_1
+    - esk3_1
+  c_0_91:
+    counts:
+      k3_analmetr: 4
+      l1_analmetr: 1
+      m1_subset_1: 6
+      r1_aff_1: 1
+      r5_analmetr: 1
+      u1_struct_0: 6
+      v2_analmetr: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_92:
+    counts:
+      l1_analmetr: 1
+      r2_analoaf: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+      v8_conmetr: 1
+    skolems:
+    - esk5_1
+    - esk6_1
+    - esk7_1
+    - esk4_1
+  c_0_93:
+    counts:
+      k3_analmetr: 5
+      l1_analmetr: 1
+      m1_subset_1: 8
+      r2_analoaf: 2
+      u1_struct_0: 8
+      v2_struct_0: 1
+    skolems: []
+  c_0_94:
+    counts:
+      k3_analmetr: 4
+      r1_aff_1: 2
+      r2_analoaf: 1
+      v7_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk5_1
+    - esk4_1
+    - esk6_1
+    - esk1_0
+    - esk3_1
+  c_0_95:
+    counts:
+      l1_analmetr: 1
+      v2_analmetr: 1
+      v2_struct_0: 1
+      v3_analmetr: 1
+    skolems: []
+  c_0_96:
+    counts:
+      k3_analmetr: 4
+      l1_analmetr: 1
+      m1_subset_1: 6
+      r1_aff_1: 1
+      r5_analmetr: 1
+      u1_struct_0: 6
+      v2_analmetr: 1
+      v2_struct_0: 1
+    skolems: []
+  c_0_98:
+    counts:
+      k3_analmetr: 3
+      r1_aff_1: 2
+      r2_analoaf: 1
+      v7_struct_0: 1
+    skolems:
+    - esk2_1
+    - esk7_1
+    - esk6_1
+    - esk4_1
+    - esk5_1
+    - esk1_0
+    - esk3_1
+symbols:
+  k3_analmetr:
+    arity: 1
+    count: 107
+    mizar: Af
+    neg: 56
+    pos: 51
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#K3
+    vizar: Af(x)
+  l1_analmetr:
+    arity: 1
+    count: 49
+    mizar: ParOrtStr
+    neg: 47
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#L1
+    vizar: ParOrtStr(x)
+  l1_analoaf:
+    arity: 1
+    count: 5
+    mizar: AffinStruct
+    neg: 2
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analoaf.html#L1
+    vizar: AffinStruct(x)
+  m1_subset_1:
+    arity: 2
+    count: 122
+    mizar: Element
+    neg: 96
+    pos: 26
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  r1_aff_1:
+    arity: 4
+    count: 18
+    mizar: LIN
+    neg: 3
+    pos: 15
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/aff_1.html#R1
+    vizar: LIN(x,y,z,u)
+  r2_analoaf:
+    arity: 5
+    count: 53
+    mizar: //
+    neg: 23
+    pos: 30
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analoaf.html#R2
+    vizar: //
+  r5_analmetr:
+    arity: 4
+    count: 11
+    mizar: LIN
+    neg: 4
+    pos: 7
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#R5
+    vizar: LIN(x,y,z,u)
+  u1_struct_0:
+    arity: 1
+    count: 122
+    mizar: carrier
+    neg: 96
+    pos: 26
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#U1
+    vizar: carrier(x)
+  v11_aff_2:
+    arity: 1
+    count: 4
+    mizar: translational
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/aff_2.html#V11
+    vizar: translational(x)
+  v1_diraf:
+    arity: 1
+    count: 5
+    mizar: AffinSpace-like
+    neg: 2
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/diraf.html#V1
+    vizar: AffinSpace-like(x)
+  v2_analmetr:
+    arity: 1
+    count: 6
+    mizar: OrtAfSp-like
+    neg: 3
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#V2
+    vizar: OrtAfSp-like(x)
+  v2_diraf:
+    arity: 1
+    count: 5
+    mizar: 2-dimensional
+    neg: 2
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/diraf.html#V2
+    vizar: 2-dimensional(x)
+  v2_struct_0:
+    arity: 1
+    count: 49
+    mizar: empty
+    neg: 2
+    pos: 47
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#V2
+    vizar: empty(x)
+  v3_analmetr:
+    arity: 1
+    count: 36
+    mizar: OrtAfPl-like
+    neg: 34
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#V3
+    vizar: OrtAfPl-like(x)
+  v7_struct_0:
+    arity: 1
+    count: 13
+    mizar: trivial
+    neg: 2
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#V7
+    vizar: trivial(x)
+  v8_conmetr:
+    arity: 1
+    count: 28
+    mizar: satisfying_des
+    neg: 2
+    pos: 26
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/conmetr.html#V8
+    vizar: satisfying_des(x)
+tptp:
+  c_0_100: "cnf(c_0_100,plain,\n    ( r5_analmetr(X1,X2,X3,X4)\n    | v2_struct_0(X1)\n\
+    \    | ~ v2_analmetr(X1)\n    | ~ r1_aff_1(k3_analmetr(X1),X2,X3,X4)\n    | ~\
+    \ m1_subset_1(X4,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X3,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X4,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X3,u1_struct_0(X1))\n    | ~ m1_subset_1(X2,u1_struct_0(X1))\n\
+    \    | ~ l1_analmetr(X1) ))."
+  c_0_101: "cnf(c_0_101,negated_conjecture,\n    ( r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0))\n\
+    \    | r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk4_1(esk1_0))\n\
+    \    | v7_struct_0(k3_analmetr(esk1_0)) ))."
+  c_0_102: "cnf(c_0_102,negated_conjecture,\n    ( v2_analmetr(esk1_0) ))."
+  c_0_103: "cnf(c_0_103,plain,\n    ( v8_conmetr(X1)\n    | v2_struct_0(X1)\n    |\
+    \ ~ r5_analmetr(X1,esk2_1(X1),esk3_1(X1),esk6_1(X1))\n    | ~ v3_analmetr(X1)\n\
+    \    | ~ l1_analmetr(X1) ))."
+  c_0_104: "cnf(c_0_104,negated_conjecture,\n    ( r5_analmetr(esk1_0,esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0))\n\
+    \    | r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk4_1(esk1_0))\n\
+    \    | v7_struct_0(k3_analmetr(esk1_0)) ))."
+  c_0_105: "cnf(c_0_105,plain,\n    ( v8_conmetr(X1)\n    | v2_struct_0(X1)\n    |\
+    \ ~ r5_analmetr(X1,esk2_1(X1),esk3_1(X1),esk4_1(X1))\n    | ~ v3_analmetr(X1)\n\
+    \    | ~ l1_analmetr(X1) ))."
+  c_0_107: "cnf(c_0_107,negated_conjecture,\n    ( r5_analmetr(esk1_0,esk2_1(esk1_0),esk3_1(esk1_0),esk4_1(esk1_0))\n\
+    \    | v7_struct_0(k3_analmetr(esk1_0))\n    | r5_analmetr(esk1_0,esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0))\
+    \ ))."
+  c_0_108: "cnf(c_0_108,plain,\n    ( v2_struct_0(X1)\n    | ~ v7_struct_0(k3_analmetr(X1))\n\
+    \    | ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1) ))."
+  c_0_110: "cnf(c_0_110,negated_conjecture,\n    ( v7_struct_0(k3_analmetr(esk1_0))\n\
+    \    | r5_analmetr(esk1_0,esk2_1(esk1_0),esk3_1(esk1_0),esk4_1(esk1_0)) ))."
+  c_0_112: "cnf(c_0_112,negated_conjecture,\n    ( v7_struct_0(k3_analmetr(esk1_0))\
+    \ ))."
+  c_0_113: "cnf(c_0_113,negated_conjecture,\n    ( $false ))."
+  c_0_14: "cnf(c_0_14,plain,\n    ( m1_subset_1(esk7_1(X1),u1_struct_0(X1))\n    |\
+    \ v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1)\
+    \ ))."
+  c_0_15: "cnf(c_0_15,negated_conjecture,\n    ( l1_analmetr(esk1_0) ))."
+  c_0_16: "cnf(c_0_16,negated_conjecture,\n    ( v3_analmetr(esk1_0) ))."
+  c_0_17: "cnf(c_0_17,negated_conjecture,\n    ( ~ v8_conmetr(esk1_0) ))."
+  c_0_18: "cnf(c_0_18,negated_conjecture,\n    ( ~ v2_struct_0(esk1_0) ))."
+  c_0_19: "cnf(c_0_19,plain,\n    ( r2_analoaf(k3_analmetr(X1),X6,X7,X8,X9)\n    |\
+    \ v2_struct_0(X1)\n    | ~ r2_analoaf(X1,X2,X3,X4,X5)\n    | X2 != X6\n    | X3\
+    \ != X7\n    | X4 != X8\n    | X5 != X9\n    | ~ m1_subset_1(X9,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X8,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X7,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X6,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(X1))\n    | ~ m1_subset_1(X3,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(X1))\n    | ~ l1_analmetr(X1) ))."
+  c_0_20: "cnf(c_0_20,plain,\n    ( m1_subset_1(X1,u1_struct_0(k3_analmetr(X2)))\n\
+    \    | v2_struct_0(X2)\n    | ~ m1_subset_1(X1,u1_struct_0(X2))\n    | ~ l1_analmetr(X2)\
+    \ ))."
+  c_0_26: "cnf(c_0_26,plain,\n    ( m1_subset_1(esk3_1(X1),u1_struct_0(X1))\n    |\
+    \ v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1)\
+    \ ))."
+  c_0_27: "cnf(c_0_27,plain,\n    ( m1_subset_1(esk6_1(X1),u1_struct_0(X1))\n    |\
+    \ v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1)\
+    \ ))."
+  c_0_28: "cnf(c_0_28,plain,\n    ( m1_subset_1(esk2_1(X1),u1_struct_0(X1))\n    |\
+    \ v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1)\
+    \ ))."
+  c_0_31: "cnf(c_0_31,negated_conjecture,\n    ( m1_subset_1(esk7_1(esk1_0),u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_32: "cnf(c_0_32,plain,\n    ( r2_analoaf(X1,esk2_1(X1),esk6_1(X1),esk3_1(X1),esk7_1(X1))\n\
+    \    | v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~\
+    \ l1_analmetr(X1) ))."
+  c_0_38: "cnf(c_0_38,plain,\n    ( m1_subset_1(esk5_1(X1),u1_struct_0(X1))\n    |\
+    \ v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1)\
+    \ ))."
+  c_0_40: "cnf(c_0_40,plain,\n    ( r2_analoaf(k3_analmetr(X1),X2,X3,X4,X5)\n    |\
+    \ v2_struct_0(X1)\n    | ~ r2_analoaf(X1,X2,X3,X4,X5)\n    | ~ m1_subset_1(X5,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X3,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(X1))\n    | ~ m1_subset_1(X3,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(X1))\n    | ~ l1_analmetr(X1) ))."
+  c_0_41: "cnf(c_0_41,negated_conjecture,\n    ( m1_subset_1(esk7_1(esk1_0),u1_struct_0(k3_analmetr(esk1_0)))\
+    \ ))."
+  c_0_43: "cnf(c_0_43,negated_conjecture,\n    ( m1_subset_1(esk3_1(esk1_0),u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_44: "cnf(c_0_44,negated_conjecture,\n    ( m1_subset_1(esk6_1(esk1_0),u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_45: "cnf(c_0_45,negated_conjecture,\n    ( m1_subset_1(esk2_1(esk1_0),u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_46: "cnf(c_0_46,plain,\n    ( l1_analoaf(k3_analmetr(X1))\n    | v2_struct_0(X1)\n\
+    \    | ~ l1_analmetr(X1) ))."
+  c_0_47: "cnf(c_0_47,plain,\n    ( v2_diraf(k3_analmetr(X1))\n    | v2_struct_0(X1)\n\
+    \    | ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1) ))."
+  c_0_48: "cnf(c_0_48,plain,\n    ( v1_diraf(k3_analmetr(X1))\n    | v2_struct_0(X1)\n\
+    \    | ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1) ))."
+  c_0_49: "cnf(c_0_49,plain,\n    ( r2_analoaf(X1,esk2_1(X1),esk3_1(X1),esk6_1(X1),esk7_1(X1))\n\
+    \    | v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~\
+    \ l1_analmetr(X1) ))."
+  c_0_51: "cnf(c_0_51,plain,\n    ( m1_subset_1(esk4_1(X1),u1_struct_0(X1))\n    |\
+    \ v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1)\
+    \ ))."
+  c_0_52: "cnf(c_0_52,plain,\n    ( r1_aff_1(X1,X2,X3,X4)\n    | r1_aff_1(X1,X2,X3,X5)\n\
+    \    | r2_analoaf(X1,X4,X5,X6,X7)\n    | v7_struct_0(X1)\n    | ~ v11_aff_2(X1)\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(X1))\n    | ~ m1_subset_1(X3,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(X1))\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X6,u1_struct_0(X1))\n    | ~ m1_subset_1(X7,u1_struct_0(X1))\n\
+    \    | ~ r2_analoaf(X1,X2,X3,X4,X6)\n    | ~ r2_analoaf(X1,X2,X3,X5,X7)\n    |\
+    \ ~ r2_analoaf(X1,X2,X4,X3,X6)\n    | ~ r2_analoaf(X1,X2,X5,X3,X7)\n    | ~ v1_diraf(X1)\n\
+    \    | ~ v2_diraf(X1)\n    | ~ l1_analoaf(X1) ))."
+  c_0_53: "cnf(c_0_53,negated_conjecture,\n    ( r2_analoaf(k3_analmetr(esk1_0),X1,X2,X3,esk7_1(esk1_0))\n\
+    \    | ~ r2_analoaf(esk1_0,X1,X2,X3,esk7_1(esk1_0))\n    | ~ m1_subset_1(X3,u1_struct_0(k3_analmetr(esk1_0)))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(esk1_0)))\n    | ~ m1_subset_1(X1,u1_struct_0(k3_analmetr(esk1_0)))\n\
+    \    | ~ m1_subset_1(X3,u1_struct_0(esk1_0))\n    | ~ m1_subset_1(X2,u1_struct_0(esk1_0))\n\
+    \    | ~ m1_subset_1(X1,u1_struct_0(esk1_0)) ))."
+  c_0_54: "cnf(c_0_54,negated_conjecture,\n    ( r2_analoaf(esk1_0,esk2_1(esk1_0),esk6_1(esk1_0),esk3_1(esk1_0),esk7_1(esk1_0))\
+    \ ))."
+  c_0_55: "cnf(c_0_55,negated_conjecture,\n    ( m1_subset_1(esk3_1(esk1_0),u1_struct_0(k3_analmetr(esk1_0)))\
+    \ ))."
+  c_0_56: "cnf(c_0_56,negated_conjecture,\n    ( m1_subset_1(esk6_1(esk1_0),u1_struct_0(k3_analmetr(esk1_0)))\
+    \ ))."
+  c_0_57: "cnf(c_0_57,negated_conjecture,\n    ( m1_subset_1(esk2_1(esk1_0),u1_struct_0(k3_analmetr(esk1_0)))\
+    \ ))."
+  c_0_61: "cnf(c_0_61,negated_conjecture,\n    ( v11_aff_2(k3_analmetr(esk1_0)) ))."
+  c_0_63: "cnf(c_0_63,negated_conjecture,\n    ( m1_subset_1(esk5_1(esk1_0),u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_64: "cnf(c_0_64,plain,\n    ( r2_analoaf(X1,esk2_1(X1),esk4_1(X1),esk3_1(X1),esk5_1(X1))\n\
+    \    | v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~\
+    \ l1_analmetr(X1) ))."
+  c_0_66: "cnf(c_0_66,plain,\n    ( r2_analoaf(X1,esk2_1(X1),esk3_1(X1),esk4_1(X1),esk5_1(X1))\n\
+    \    | v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~ v3_analmetr(X1)\n    | ~\
+    \ l1_analmetr(X1) ))."
+  c_0_68: "cnf(c_0_68,negated_conjecture,\n    ( r2_analoaf(k3_analmetr(esk1_0),esk2_1(esk1_0),esk6_1(esk1_0),esk3_1(esk1_0),esk7_1(esk1_0))\
+    \ ))."
+  c_0_69: "cnf(c_0_69,negated_conjecture,\n    ( l1_analoaf(k3_analmetr(esk1_0)) ))."
+  c_0_70: "cnf(c_0_70,negated_conjecture,\n    ( v2_diraf(k3_analmetr(esk1_0)) ))."
+  c_0_71: "cnf(c_0_71,negated_conjecture,\n    ( v1_diraf(k3_analmetr(esk1_0)) ))."
+  c_0_73: "cnf(c_0_73,negated_conjecture,\n    ( r2_analoaf(esk1_0,esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0),esk7_1(esk1_0))\
+    \ ))."
+  c_0_74: "cnf(c_0_74,negated_conjecture,\n    ( m1_subset_1(esk5_1(esk1_0),u1_struct_0(k3_analmetr(esk1_0)))\
+    \ ))."
+  c_0_76: "cnf(c_0_76,negated_conjecture,\n    ( m1_subset_1(esk4_1(esk1_0),u1_struct_0(esk1_0))\
+    \ ))."
+  c_0_78: "cnf(c_0_78,plain,\n    ( r2_analoaf(X1,X6,X7,X8,X9)\n    | v2_struct_0(X1)\n\
+    \    | ~ r2_analoaf(k3_analmetr(X1),X2,X3,X4,X5)\n    | X6 != X2\n    | X7 !=\
+    \ X3\n    | X8 != X4\n    | X9 != X5\n    | ~ m1_subset_1(X5,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X3,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X9,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X8,u1_struct_0(X1))\n    | ~ m1_subset_1(X7,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X6,u1_struct_0(X1))\n    | ~ l1_analmetr(X1) ))."
+  c_0_79: "cnf(c_0_79,negated_conjecture,\n    ( r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0))\n\
+    \    | r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),X1)\n    | v7_struct_0(k3_analmetr(esk1_0))\n\
+    \    | r2_analoaf(k3_analmetr(esk1_0),X1,esk6_1(esk1_0),X2,esk7_1(esk1_0))\n \
+    \   | ~ r2_analoaf(k3_analmetr(esk1_0),esk2_1(esk1_0),X1,esk3_1(esk1_0),X2)\n\
+    \    | ~ r2_analoaf(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0),esk7_1(esk1_0))\n\
+    \    | ~ r2_analoaf(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),X1,X2)\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(esk1_0)))\n    | ~ m1_subset_1(X1,u1_struct_0(k3_analmetr(esk1_0)))\
+    \ ))."
+  c_0_80: "cnf(c_0_80,negated_conjecture,\n    ( r2_analoaf(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0),esk7_1(esk1_0))\
+    \ ))."
+  c_0_81: "cnf(c_0_81,negated_conjecture,\n    ( r2_analoaf(k3_analmetr(esk1_0),X1,X2,X3,esk5_1(esk1_0))\n\
+    \    | ~ r2_analoaf(esk1_0,X1,X2,X3,esk5_1(esk1_0))\n    | ~ m1_subset_1(X3,u1_struct_0(k3_analmetr(esk1_0)))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(esk1_0)))\n    | ~ m1_subset_1(X1,u1_struct_0(k3_analmetr(esk1_0)))\n\
+    \    | ~ m1_subset_1(X3,u1_struct_0(esk1_0))\n    | ~ m1_subset_1(X2,u1_struct_0(esk1_0))\n\
+    \    | ~ m1_subset_1(X1,u1_struct_0(esk1_0)) ))."
+  c_0_82: "cnf(c_0_82,negated_conjecture,\n    ( r2_analoaf(esk1_0,esk2_1(esk1_0),esk4_1(esk1_0),esk3_1(esk1_0),esk5_1(esk1_0))\
+    \ ))."
+  c_0_83: "cnf(c_0_83,negated_conjecture,\n    ( m1_subset_1(esk4_1(esk1_0),u1_struct_0(k3_analmetr(esk1_0)))\
+    \ ))."
+  c_0_84: "cnf(c_0_84,negated_conjecture,\n    ( r2_analoaf(esk1_0,esk2_1(esk1_0),esk3_1(esk1_0),esk4_1(esk1_0),esk5_1(esk1_0))\
+    \ ))."
+  c_0_86: "cnf(c_0_86,plain,\n    ( v2_struct_0(X1)\n    | r2_analoaf(X1,X6,X7,X8,X9)\n\
+    \    | X5 != X9\n    | X4 != X8\n    | X3 != X7\n    | X2 != X6\n    | ~ l1_analmetr(X1)\n\
+    \    | ~ m1_subset_1(X9,u1_struct_0(X1))\n    | ~ m1_subset_1(X8,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X7,u1_struct_0(X1))\n    | ~ m1_subset_1(X6,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X5,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X4,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X3,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ r2_analoaf(k3_analmetr(X1),X2,X3,X4,X5) ))."
+  c_0_87: "cnf(c_0_87,negated_conjecture,\n    ( r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0))\n\
+    \    | r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),X1)\n    | v7_struct_0(k3_analmetr(esk1_0))\n\
+    \    | r2_analoaf(k3_analmetr(esk1_0),X1,esk6_1(esk1_0),X2,esk7_1(esk1_0))\n \
+    \   | ~ r2_analoaf(k3_analmetr(esk1_0),esk2_1(esk1_0),X1,esk3_1(esk1_0),X2)\n\
+    \    | ~ r2_analoaf(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),X1,X2)\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(esk1_0)))\n    | ~ m1_subset_1(X1,u1_struct_0(k3_analmetr(esk1_0)))\
+    \ ))."
+  c_0_88: "cnf(c_0_88,negated_conjecture,\n    ( r2_analoaf(k3_analmetr(esk1_0),esk2_1(esk1_0),esk4_1(esk1_0),esk3_1(esk1_0),esk5_1(esk1_0))\
+    \ ))."
+  c_0_89: "cnf(c_0_89,negated_conjecture,\n    ( r2_analoaf(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk4_1(esk1_0),esk5_1(esk1_0))\
+    \ ))."
+  c_0_91: "cnf(c_0_91,plain,\n    ( r5_analmetr(X1,X5,X6,X7)\n    | v2_struct_0(X1)\n\
+    \    | ~ r1_aff_1(k3_analmetr(X1),X2,X3,X4)\n    | X5 != X2\n    | X6 != X3\n\
+    \    | X7 != X4\n    | ~ m1_subset_1(X4,u1_struct_0(k3_analmetr(X1)))\n    | ~\
+    \ m1_subset_1(X3,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X7,u1_struct_0(X1))\n    | ~ m1_subset_1(X6,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X5,u1_struct_0(X1))\n    | ~ v2_analmetr(X1)\n    | ~ l1_analmetr(X1)\
+    \ ))."
+  c_0_92: "cnf(c_0_92,plain,\n    ( v8_conmetr(X1)\n    | v2_struct_0(X1)\n    | ~\
+    \ r2_analoaf(X1,esk4_1(X1),esk6_1(X1),esk5_1(X1),esk7_1(X1))\n    | ~ v3_analmetr(X1)\n\
+    \    | ~ l1_analmetr(X1) ))."
+  c_0_93: "cnf(c_0_93,plain,\n    ( r2_analoaf(X1,X2,X3,X4,X5)\n    | v2_struct_0(X1)\n\
+    \    | ~ r2_analoaf(k3_analmetr(X1),X2,X3,X4,X5)\n    | ~ m1_subset_1(X5,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X3,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X5,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X4,u1_struct_0(X1))\n    | ~ m1_subset_1(X3,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X2,u1_struct_0(X1))\n    | ~ l1_analmetr(X1) ))."
+  c_0_94: "cnf(c_0_94,negated_conjecture,\n    ( r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0))\n\
+    \    | r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk4_1(esk1_0))\n\
+    \    | v7_struct_0(k3_analmetr(esk1_0))\n    | r2_analoaf(k3_analmetr(esk1_0),esk4_1(esk1_0),esk6_1(esk1_0),esk5_1(esk1_0),esk7_1(esk1_0))\
+    \ ))."
+  c_0_95: "cnf(c_0_95,plain,\n    ( v2_analmetr(X1)\n    | v2_struct_0(X1)\n    |\
+    \ ~ v3_analmetr(X1)\n    | ~ l1_analmetr(X1) ))."
+  c_0_96: "cnf(c_0_96,plain,\n    ( v2_struct_0(X1)\n    | r5_analmetr(X1,X5,X6,X7)\n\
+    \    | X4 != X7\n    | X3 != X6\n    | X2 != X5\n    | ~ l1_analmetr(X1)\n   \
+    \ | ~ v2_analmetr(X1)\n    | ~ m1_subset_1(X7,u1_struct_0(X1))\n    | ~ m1_subset_1(X6,u1_struct_0(X1))\n\
+    \    | ~ m1_subset_1(X5,u1_struct_0(X1))\n    | ~ m1_subset_1(X4,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ m1_subset_1(X3,u1_struct_0(k3_analmetr(X1)))\n    | ~ m1_subset_1(X2,u1_struct_0(k3_analmetr(X1)))\n\
+    \    | ~ r1_aff_1(k3_analmetr(X1),X2,X3,X4) ))."
+  c_0_98: "cnf(c_0_98,negated_conjecture,\n    ( r2_analoaf(esk1_0,esk4_1(esk1_0),esk6_1(esk1_0),esk5_1(esk1_0),esk7_1(esk1_0))\n\
+    \    | r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk6_1(esk1_0))\n\
+    \    | r1_aff_1(k3_analmetr(esk1_0),esk2_1(esk1_0),esk3_1(esk1_0),esk4_1(esk1_0))\n\
+    \    | v7_struct_0(k3_analmetr(esk1_0)) ))."
+  d8_conmetr: "fof(d8_conmetr,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & v3_analmetr(X1)\n        & l1_analmetr(X1) )\n     => ( v8_conmetr(X1)\n\
+    \      <=> ! [X2] :\n            ( m1_subset_1(X2,u1_struct_0(X1))\n         \
+    \  => ! [X3] :\n                ( m1_subset_1(X3,u1_struct_0(X1))\n          \
+    \     => ! [X4] :\n                    ( m1_subset_1(X4,u1_struct_0(X1))\n   \
+    \                => ! [X5] :\n                        ( m1_subset_1(X5,u1_struct_0(X1))\n\
+    \                       => ! [X6] :\n                            ( m1_subset_1(X6,u1_struct_0(X1))\n\
+    \                           => ! [X7] :\n                                ( m1_subset_1(X7,u1_struct_0(X1))\n\
+    \                               => ( ( r2_analoaf(X1,X2,X3,X4,X5)\n          \
+    \                          & r2_analoaf(X1,X2,X3,X6,X7)\n                    \
+    \                & r2_analoaf(X1,X2,X4,X3,X5)\n                              \
+    \      & r2_analoaf(X1,X2,X6,X3,X7) )\n                                 => ( r5_analmetr(X1,X2,X3,X4)\n\
+    \                                    | r5_analmetr(X1,X2,X3,X6)\n            \
+    \                        | r2_analoaf(X1,X4,X6,X5,X7) ) ) ) ) ) ) ) ) ) ) ))."
+  dt_k3_analmetr: "fof(dt_k3_analmetr,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & l1_analmetr(X1) )\n     => ( v1_analoaf(k3_analmetr(X1))\n        &\
+    \ l1_analoaf(k3_analmetr(X1)) ) ) ))."
+  fc4_analmetr: "fof(fc4_analmetr,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & v3_analmetr(X1)\n        & l1_analmetr(X1) )\n     => ( ~ v7_struct_0(k3_analmetr(X1))\n\
+    \        & v1_analoaf(k3_analmetr(X1))\n        & v1_diraf(k3_analmetr(X1))\n\
+    \        & v2_diraf(k3_analmetr(X1)) ) ) ))."
+  t35_analmetr: "fof(t35_analmetr,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & l1_analmetr(X1) )\n     => ! [X2] :\n          ( m1_subset_1(X2,u1_struct_0(X1))\n\
+    \        <=> m1_subset_1(X2,u1_struct_0(k3_analmetr(X1))) ) ) ))."
+  t36_analmetr: "fof(t36_analmetr,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & l1_analmetr(X1) )\n     => ! [X2] :\n          ( m1_subset_1(X2,u1_struct_0(X1))\n\
+    \         => ! [X3] :\n              ( m1_subset_1(X3,u1_struct_0(X1))\n     \
+    \        => ! [X4] :\n                  ( m1_subset_1(X4,u1_struct_0(X1))\n  \
+    \               => ! [X5] :\n                      ( m1_subset_1(X5,u1_struct_0(X1))\n\
+    \                     => ! [X6] :\n                          ( m1_subset_1(X6,u1_struct_0(k3_analmetr(X1)))\n\
+    \                         => ! [X7] :\n                              ( m1_subset_1(X7,u1_struct_0(k3_analmetr(X1)))\n\
+    \                             => ! [X8] :\n                                  (\
+    \ m1_subset_1(X8,u1_struct_0(k3_analmetr(X1)))\n                             \
+    \    => ! [X9] :\n                                      ( m1_subset_1(X9,u1_struct_0(k3_analmetr(X1)))\n\
+    \                                     => ( ( X2 = X6\n                       \
+    \                   & X3 = X7\n                                          & X4\
+    \ = X8\n                                          & X5 = X9 )\n              \
+    \                         => ( r2_analoaf(X1,X2,X3,X4,X5)\n                  \
+    \                      <=> r2_analoaf(k3_analmetr(X1),X6,X7,X8,X9) ) ) ) ) ) )\
+    \ ) ) ) ) ) ))."
+  t37_analmetr: "fof(t37_analmetr,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & v3_analmetr(X1)\n        & l1_analmetr(X1) )\n     => ( ~ v2_struct_0(X1)\n\
+    \        & v2_analmetr(X1)\n        & l1_analmetr(X1) ) ) ))."
+  t40_analmetr: "fof(t40_analmetr,axiom,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & v2_analmetr(X1)\n        & l1_analmetr(X1) )\n     => ! [X2] :\n  \
+    \        ( m1_subset_1(X2,u1_struct_0(X1))\n         => ! [X3] :\n           \
+    \   ( m1_subset_1(X3,u1_struct_0(X1))\n             => ! [X4] :\n            \
+    \      ( m1_subset_1(X4,u1_struct_0(X1))\n                 => ! [X5] :\n     \
+    \                 ( m1_subset_1(X5,u1_struct_0(k3_analmetr(X1)))\n           \
+    \          => ! [X6] :\n                          ( m1_subset_1(X6,u1_struct_0(k3_analmetr(X1)))\n\
+    \                         => ! [X7] :\n                              ( m1_subset_1(X7,u1_struct_0(k3_analmetr(X1)))\n\
+    \                             => ( ( X2 = X5\n                               \
+    \   & X3 = X6\n                                  & X4 = X7 )\n               \
+    \                => ( r5_analmetr(X1,X2,X3,X4)\n                             \
+    \   <=> r1_aff_1(k3_analmetr(X1),X5,X6,X7) ) ) ) ) ) ) ) ) ) ))."
+  t4_translac: "fof(t4_translac,axiom,(\n    ! [X1] :\n      ( ( ~ v7_struct_0(X1)\n\
+    \        & v1_diraf(X1)\n        & v2_diraf(X1)\n        & l1_analoaf(X1) )\n\
+    \     => ( v11_aff_2(X1)\n      <=> ! [X2] :\n            ( m1_subset_1(X2,u1_struct_0(X1))\n\
+    \           => ! [X3] :\n                ( m1_subset_1(X3,u1_struct_0(X1))\n \
+    \              => ! [X4] :\n                    ( m1_subset_1(X4,u1_struct_0(X1))\n\
+    \                   => ! [X5] :\n                        ( m1_subset_1(X5,u1_struct_0(X1))\n\
+    \                       => ! [X6] :\n                            ( m1_subset_1(X6,u1_struct_0(X1))\n\
+    \                           => ! [X7] :\n                                ( m1_subset_1(X7,u1_struct_0(X1))\n\
+    \                               => ( ( r2_analoaf(X1,X2,X3,X4,X6)\n          \
+    \                          & r2_analoaf(X1,X2,X3,X5,X7)\n                    \
+    \                & r2_analoaf(X1,X2,X4,X3,X6)\n                              \
+    \      & r2_analoaf(X1,X2,X5,X3,X7) )\n                                 => ( r1_aff_1(X1,X2,X3,X4)\n\
+    \                                    | r1_aff_1(X1,X2,X3,X5)\n               \
+    \                     | r2_analoaf(X1,X4,X5,X6,X7) ) ) ) ) ) ) ) ) ) ) ))."
+  t8_conmetr: "fof(t8_conmetr,conjecture,(\n    ! [X1] :\n      ( ( ~ v2_struct_0(X1)\n\
+    \        & v3_analmetr(X1)\n        & l1_analmetr(X1) )\n     => ( v11_aff_2(k3_analmetr(X1))\n\
+    \       => v8_conmetr(X1) ) ) ))."
+

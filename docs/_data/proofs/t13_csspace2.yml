@@ -1,0 +1,1207 @@
+axioms:
+  cc16_valued_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( complex-membered(X\u2082)\n     \u21D2\
+      \ (\u2200X\u2083)\n          ( (X\u2083 \u2208 bool(X\u2081 \xD7 X\u2082))\n\
+      \         \u21D2 complex-valued(X\u2083) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_0.html#CC16
+  cc18_valued_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( (X\u2082 \u2286 \u211D)\n     \u21D2\
+      \ (\u2200X\u2083)\n          ( (X\u2083 \u2208 bool(X\u2081 \xD7 X\u2082))\n\
+      \         \u21D2 real-valued(X\u2083) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_0.html#CC18
+  cc1_relset_1:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( (X\u2083 \u2208 bool(X\u2081\
+      \ \xD7 X\u2082))\n     \u21D2 relation(X\u2083) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/relset_1.html#CC1
+  cc1_subset_1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 = \xD8)\n     \u21D2 (\u2200X\u2082\
+      )\n          ( (X\u2082 \u2208 bool(X\u2081))\n         \u21D2 (X\u2082 = \xD8\
+      ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#CC1
+  dt_k54_valued_1:
+    fof: "    (\u2200X\u2081)\n      ( ( relation(X\u2081)\n        \u2227 function(X\u2081\
+      )\n        \u2227 complex-valued(X\u2081) )\n     \u21D2 ( relation( |....|\
+      \ X\u2081)\n        \u2227 function( |....| X\u2081)\n        \u2227 real-valued(\
+      \ |....| X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#K54
+  dt_k55_valued_1:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( ( complex-membered(X\u2082\
+      )\n        \u2227 function(X\u2083)\n        \u2227 (X\u2083 \u2208 bool(X\u2081\
+      \ \xD7 X\u2082)) )\n     \u21D2 ( function(X\u2081 |....| X\u2082 |....| X\u2083\
+      )\n        \u2227 ((X\u2081 |....| X\u2082 |....| X\u2083) \u2208 bool(X\u2081\
+      \ \xD7 \u211D)) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#K55
+  dt_k5_numbers:
+    fof: "    (\u2115 \u2208 bool(\u211D)) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+  fc1_membered:
+    fof: '    complex-membered(COMPLEX) '
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#FC1
+  fc3_membered:
+    fof: "    (\u211D \u2286 \u211D) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#FC3
+  fc61_valued_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( relation(X\u2081)\n        \u2227\
+      \ function(X\u2081)\n        \u2227 complex-valued(X\u2081) )\n     \u21D2 ((X\u2081\
+      (X\u2082)) \u2208 \u2102) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_0.html#FC61
+  fc6_ordinal1:
+    fof: "    ( \xAC (\u03C9 = \xD8)\n    \u2227 ordinal(\u03C9) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#FC6
+  fc7_comseq_3:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,COMPLEX)\n        \u2227 absolutely_summable(X\u2081)\n        \u2227\
+      \ (X\u2081 \u2208 bool(\u2115 \xD7 COMPLEX)) )\n     \u21D2 ( function( |....|\
+      \ X\u2081)\n        \u2227 quasi_total( |....| X\u2081,\u2115,\u211D)\n    \
+      \    \u2227 summable( |....| X\u2081) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/comseq_3.html#FC7
+  redefinition_k1_seq_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( relation(X\u2081)\n        \u2227\
+      \ function(X\u2081)\n        \u2227 real-valued(X\u2081) )\n     \u21D2 (X\u2081\
+      \ . X\u2082) = (X\u2081(X\u2082)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_1.html#K1
+  redefinition_k3_funct_2:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083,X\u2084)\n      ( ( \xAC (X\u2081 = \xD8\
+      )\n        \u2227 function(X\u2083)\n        \u2227 quasi_total(X\u2083,X\u2081\
+      ,X\u2082)\n        \u2227 (X\u2083 \u2208 bool(X\u2081 \xD7 X\u2082))\n    \
+      \    \u2227 (X\u2084 \u2208 X\u2081) )\n     \u21D2 (X\u2081 . X\u2082 . X\u2083\
+      \ . X\u2084) = (X\u2083(X\u2084)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_2.html#K3
+  redefinition_k55_valued_1:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083)\n      ( ( complex-membered(X\u2082\
+      )\n        \u2227 function(X\u2083)\n        \u2227 (X\u2083 \u2208 bool(X\u2081\
+      \ \xD7 X\u2082)) )\n     \u21D2 (X\u2081 |....| X\u2082 |....| X\u2083) = (\
+      \ |....| X\u2083) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#K55
+  redefinition_k5_complex1:
+    fof: "    0c = \xD8 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/complex1.html#K5
+  redefinition_k5_numbers:
+    fof: "    \u2115 = \u03C9 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+  redefinition_k6_numbers:
+    fof: "    0 = \xD8 "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K6
+  redefinition_m2_subset_1:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( ( \xAC (X\u2081 = \xD8)\n        \u2227\
+      \ \xAC (X\u2082 = \xD8)\n        \u2227 (X\u2082 \u2208 bool(X\u2081)) )\n \
+      \    \u21D2 (\u2200X\u2083)\n          ( (X\u2083 \u2208 X\u2082 \u2286 X\u2081\
+      )\n        \u2261 (X\u2083 \u2208 X\u2082) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M2
+  t13_csspace2:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,COMPLEX)\n        \u2227 (X\u2081 \u2208 bool(\u2115 \xD7 COMPLEX))\
+      \ )\n     \u21D2 ( ( absolutely_summable(X\u2081)\n          \u2227 Sum(\u2115\
+      \ |....| COMPLEX |....| X\u2081) = 0 )\n       \u21D2 (\u2200X\u2082)\n    \
+      \        ( (X\u2082 \u2208 \u2115 \u2286 \u211D)\n           \u21D2 (\u2115\
+      \ . COMPLEX . X\u2081 . X\u2082) = 0c ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/csspace2.html#T13
+  t17_rsspace:
+    fof: "    (\u2200X\u2081)\n      ( ( function(X\u2081)\n        \u2227 quasi_total(X\u2081\
+      ,\u2115,\u211D)\n        \u2227 (X\u2081 \u2208 bool(\u2115 \xD7 \u211D)) )\n\
+      \     \u21D2 ( ( (\u2200X\u2082)\n              ( (X\u2082 \u2208 \u2115 \u2286\
+      \ \u211D)\n             \u21D2 (0 \u2264 (X\u2081 . X\u2082)) )\n          \u2227\
+      \ summable(X\u2081)\n          \u2227 Sum(X\u2081) = 0 )\n       \u21D2 (\u2200\
+      X\u2082)\n            ( (X\u2082 \u2208 \u2115 \u2286 \u211D)\n           \u21D2\
+      \ (X\u2081 . X\u2082) = 0 ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rsspace.html#T17
+  t18_valued_1:
+    fof: "    (\u2200X\u2081)\n      ( ( relation(X\u2081)\n        \u2227 function(X\u2081\
+      )\n        \u2227 complex-valued(X\u2081) )\n     \u21D2 (\u2200X\u2082) ((\
+      \ |....| X\u2081)(X\u2082)) = ( |....| (X\u2081(X\u2082))) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#T18
+  t45_complex1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2102)\n     \u21D2 ( ( |....|\
+      \ X\u2081) = 0\n       \u21D2 X\u2081 = 0 ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/complex1.html#T45
+  t46_complex1:
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2102)\n     \u21D2 (0 \u2264\
+      \ ( |....| X\u2081)) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/complex1.html#T46
+conjecture: t13_csspace2
+final: c_0_138
+skolems:
+  esk1_0:
+    axiom: t13_csspace2
+    related:
+    - esk1_0
+    - esk2_0
+    symbol: "sk\u2081"
+  esk2_0:
+    axiom: t13_csspace2
+    related:
+    - esk1_0
+    - esk2_0
+    symbol: "sk\u2082"
+  esk4_1:
+    axiom: t17_rsspace
+    related:
+    - esk4_1
+    symbol: "sk\u2084"
+steps:
+  c_0_100:
+    counts:
+      k2_numbers: 1
+      k3_funct_2: 1
+      k5_complex1: 1
+      k5_numbers: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_102:
+    counts:
+      k1_xboole_0: 1
+      k6_numbers: 1
+    skolems: []
+  c_0_104:
+    counts:
+      k4_ordinal1: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_105:
+    counts:
+      k4_ordinal1: 1
+      k5_numbers: 1
+    skolems: []
+  c_0_106:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_xboole_0: 2
+    skolems: []
+  c_0_107:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 1
+      v1_xboole_0: 2
+    skolems: []
+  c_0_109:
+    counts:
+      k1_funct_1: 1
+      k1_numbers: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k54_valued_1: 3
+      k5_numbers: 2
+      k6_numbers: 1
+      m1_subset_1: 1
+      m2_subset_1: 1
+      v3_valued_0: 1
+    skolems:
+    - esk1_0
+  c_0_110:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k54_valued_1: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems:
+    - esk1_0
+  c_0_114:
+    counts:
+      k5_complex1: 1
+      k6_numbers: 1
+    skolems: []
+  c_0_115:
+    counts:
+      k1_funct_1: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k3_funct_2: 1
+      m1_subset_1: 2
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_117:
+    counts:
+      k4_ordinal1: 1
+      k5_numbers: 1
+    skolems: []
+  c_0_120:
+    counts:
+      k1_numbers: 1
+      k5_numbers: 1
+      m2_subset_1: 1
+    skolems:
+    - esk2_0
+  c_0_121:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems: []
+  c_0_122:
+    counts:
+      k1_funct_1: 3
+      k54_valued_1: 1
+      k6_numbers: 2
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v1_valued_0: 1
+      v1_xcmplx_0: 1
+    skolems: []
+  c_0_123:
+    counts:
+      k1_funct_1: 1
+      k1_numbers: 1
+      k54_valued_1: 2
+      k5_numbers: 1
+      k6_numbers: 1
+      m2_subset_1: 1
+      v3_valued_0: 1
+    skolems:
+    - esk1_0
+  c_0_124:
+    counts:
+      k54_valued_1: 1
+      v3_valued_0: 1
+    skolems:
+    - esk1_0
+  c_0_125:
+    counts:
+      k2_numbers: 1
+      k3_funct_2: 1
+      k5_numbers: 1
+      k6_numbers: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_127:
+    counts:
+      k5_numbers: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_128:
+    counts:
+      k1_zfmisc_1: 1
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_132:
+    counts:
+      k1_funct_1: 1
+      k1_numbers: 1
+      k54_valued_1: 1
+      k5_numbers: 1
+      k6_numbers: 1
+      m2_subset_1: 1
+    skolems:
+    - esk1_0
+  c_0_133:
+    counts:
+      v1_relat_1: 1
+    skolems:
+    - esk1_0
+  c_0_134:
+    counts:
+      k1_funct_1: 1
+      k5_numbers: 1
+      k6_numbers: 1
+      m1_subset_1: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_135:
+    counts:
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems:
+    - esk2_0
+  c_0_136:
+    counts:
+      k1_funct_1: 1
+      k1_numbers: 1
+      k5_numbers: 1
+      k6_numbers: 1
+      m2_subset_1: 1
+    skolems:
+    - esk1_0
+  c_0_137:
+    counts:
+      k1_funct_1: 1
+      k6_numbers: 1
+    skolems:
+    - esk2_0
+    - esk1_0
+  c_0_28:
+    counts:
+      k1_numbers: 3
+      k1_seq_1: 2
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k4_series_1: 1
+      k5_numbers: 3
+      k6_numbers: 3
+      m1_subset_1: 1
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v1_series_1: 1
+    skolems:
+    - esk4_1
+  c_0_29:
+    counts:
+      k1_funct_1: 1
+      k1_seq_1: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v3_valued_0: 1
+    skolems: []
+  c_0_31:
+    counts:
+      k17_complex1: 1
+      k6_numbers: 1
+      r1_xxreal_0: 1
+      v1_xcmplx_0: 1
+    skolems: []
+  c_0_32:
+    counts:
+      k17_complex1: 1
+      k1_funct_1: 2
+      k54_valued_1: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v1_valued_0: 1
+    skolems: []
+  c_0_36:
+    counts:
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      m1_subset_1: 1
+      v1_relat_1: 1
+    skolems: []
+  c_0_38:
+    counts:
+      k17_complex1: 1
+      k1_funct_1: 2
+      k54_valued_1: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v1_valued_0: 1
+    skolems: []
+  c_0_39:
+    counts:
+      k1_funct_1: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v1_valued_0: 1
+      v1_xcmplx_0: 1
+    skolems: []
+  c_0_40:
+    counts:
+      k1_funct_1: 1
+      k1_numbers: 3
+      k1_seq_1: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k4_series_1: 1
+      k5_numbers: 3
+      k6_numbers: 3
+      m1_subset_1: 1
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v1_relat_1: 1
+      v1_series_1: 1
+      v3_valued_0: 1
+    skolems:
+    - esk4_1
+  c_0_42:
+    counts:
+      k1_funct_1: 2
+      k54_valued_1: 1
+      k6_numbers: 1
+      r1_xxreal_0: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v1_valued_0: 1
+      v1_xcmplx_0: 1
+    skolems: []
+  c_0_45:
+    counts:
+      k1_funct_1: 1
+      k1_numbers: 3
+      k1_seq_1: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k4_series_1: 1
+      k5_numbers: 3
+      k6_numbers: 3
+      m1_subset_1: 1
+      m2_subset_1: 1
+      r1_xxreal_0: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v1_series_1: 1
+      v3_valued_0: 1
+    skolems:
+    - esk4_1
+  c_0_47:
+    counts:
+      k54_valued_1: 1
+      v1_funct_1: 2
+      v1_relat_1: 1
+      v1_valued_0: 1
+    skolems: []
+  c_0_48:
+    counts:
+      k54_valued_1: 1
+      v1_funct_1: 1
+      v1_relat_1: 1
+      v1_valued_0: 1
+      v3_valued_0: 1
+    skolems: []
+  c_0_50:
+    counts:
+      k1_numbers: 3
+      k1_seq_1: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k4_series_1: 1
+      k54_valued_1: 7
+      k5_numbers: 3
+      k6_numbers: 2
+      m1_subset_1: 1
+      m2_subset_1: 1
+      v1_funct_1: 2
+      v1_funct_2: 1
+      v1_relat_1: 1
+      v1_series_1: 1
+      v1_valued_0: 1
+      v3_valued_0: 1
+    skolems: []
+  c_0_53:
+    counts:
+      k1_zfmisc_1: 1
+      k2_numbers: 2
+      k2_zfmisc_1: 1
+      k54_valued_1: 1
+      k5_numbers: 2
+      m1_subset_1: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v1_series_1: 1
+      v2_comseq_3: 1
+    skolems: []
+  c_0_54:
+    counts:
+      k1_numbers: 3
+      k1_seq_1: 1
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k4_series_1: 1
+      k54_valued_1: 5
+      k5_numbers: 3
+      k6_numbers: 2
+      m1_subset_1: 1
+      m2_subset_1: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v1_relat_1: 1
+      v1_series_1: 1
+      v1_valued_0: 1
+    skolems: []
+  c_0_56:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 1
+      k2_numbers: 2
+      k2_zfmisc_1: 1
+      k54_valued_1: 1
+      k5_numbers: 3
+      m1_subset_1: 1
+      v1_funct_1: 1
+      v1_funct_2: 2
+      v2_comseq_3: 1
+    skolems: []
+  c_0_58:
+    counts:
+      k1_numbers: 3
+      k1_seq_1: 1
+      k1_zfmisc_1: 2
+      k2_numbers: 2
+      k2_zfmisc_1: 2
+      k4_series_1: 1
+      k54_valued_1: 4
+      k5_numbers: 5
+      k6_numbers: 2
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_funct_1: 1
+      v1_funct_2: 2
+      v1_relat_1: 1
+      v1_valued_0: 1
+      v2_comseq_3: 1
+    skolems: []
+  c_0_64:
+    counts:
+      k1_numbers: 2
+      k1_seq_1: 1
+      k1_zfmisc_1: 2
+      k2_numbers: 2
+      k2_zfmisc_1: 2
+      k4_series_1: 1
+      k54_valued_1: 3
+      k5_numbers: 4
+      k6_numbers: 2
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v1_valued_0: 1
+      v2_comseq_3: 1
+    skolems: []
+  c_0_65:
+    counts:
+      k1_zfmisc_1: 1
+      k2_numbers: 2
+      k2_zfmisc_1: 1
+      k54_valued_1: 1
+      k5_numbers: 2
+      m1_subset_1: 1
+      v1_funct_1: 2
+      v1_funct_2: 1
+      v2_comseq_3: 1
+    skolems: []
+  c_0_66:
+    counts:
+      k2_numbers: 1
+      k4_series_1: 1
+      k55_valued_1: 1
+      k5_numbers: 1
+      k6_numbers: 1
+    skolems:
+    - esk1_0
+  c_0_67:
+    counts:
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      k54_valued_1: 1
+      k55_valued_1: 1
+      m1_subset_1: 1
+      v1_funct_1: 1
+      v1_membered: 1
+    skolems: []
+  c_0_68:
+    counts:
+      k2_numbers: 1
+      v1_membered: 1
+    skolems: []
+  c_0_69:
+    counts:
+      k1_zfmisc_1: 1
+      k2_numbers: 1
+      k2_zfmisc_1: 1
+      k5_numbers: 1
+      m1_subset_1: 1
+    skolems:
+    - esk1_0
+  c_0_70:
+    counts:
+      v1_funct_1: 1
+    skolems:
+    - esk1_0
+  c_0_71:
+    counts:
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      m1_subset_1: 1
+      v1_membered: 1
+      v1_valued_0: 1
+    skolems: []
+  c_0_72:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k55_valued_1: 1
+      m1_subset_1: 2
+      v1_funct_1: 1
+      v1_membered: 1
+    skolems: []
+  c_0_74:
+    counts:
+      k1_funct_1: 1
+      k1_numbers: 2
+      k1_zfmisc_1: 2
+      k2_numbers: 2
+      k2_zfmisc_1: 2
+      k4_series_1: 1
+      k54_valued_1: 6
+      k5_numbers: 4
+      k6_numbers: 2
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_funct_1: 2
+      v1_funct_2: 1
+      v1_relat_1: 1
+      v1_valued_0: 1
+      v2_comseq_3: 1
+      v3_valued_0: 1
+    skolems: []
+  c_0_82:
+    counts:
+      v2_comseq_3: 1
+    skolems:
+    - esk1_0
+  c_0_83:
+    counts:
+      k2_numbers: 1
+      k5_numbers: 1
+      v1_funct_2: 1
+    skolems:
+    - esk1_0
+  c_0_86:
+    counts:
+      k1_xboole_0: 1
+      k5_complex1: 1
+    skolems: []
+  c_0_87:
+    counts:
+      k1_xboole_0: 1
+      k6_numbers: 1
+    skolems: []
+  c_0_91:
+    counts:
+      k17_complex1: 1
+      k6_numbers: 2
+      v1_xcmplx_0: 1
+    skolems: []
+  c_0_92:
+    counts:
+      k1_funct_1: 1
+      k1_numbers: 2
+      k1_zfmisc_1: 2
+      k2_numbers: 2
+      k2_zfmisc_1: 2
+      k4_series_1: 1
+      k54_valued_1: 4
+      k5_numbers: 4
+      k6_numbers: 2
+      m1_subset_1: 2
+      m2_subset_1: 1
+      v1_funct_1: 1
+      v1_funct_2: 1
+      v1_valued_0: 1
+      v2_comseq_3: 1
+      v3_valued_0: 1
+    skolems: []
+  c_0_93:
+    counts:
+      k4_series_1: 1
+      k54_valued_1: 1
+      k6_numbers: 1
+    skolems:
+    - esk1_0
+  c_0_94:
+    counts:
+      v1_valued_0: 1
+    skolems:
+    - esk1_0
+  c_0_97:
+    counts:
+      k1_numbers: 1
+      k1_zfmisc_1: 2
+      k2_zfmisc_1: 2
+      k54_valued_1: 1
+      m1_subset_1: 2
+      v1_funct_1: 1
+      v1_membered: 1
+    skolems: []
+  c_0_98:
+    counts:
+      k1_zfmisc_1: 1
+      k2_zfmisc_1: 1
+      m1_subset_1: 1
+      v3_membered: 1
+      v3_valued_0: 1
+    skolems: []
+  c_0_99:
+    counts:
+      k1_numbers: 1
+      v3_membered: 1
+    skolems: []
+symbols:
+  k17_complex1:
+    arity: 1
+    count: 6
+    mizar: '|....|'
+    neg: 2
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/complex1.html#K17
+    vizar: '|....|'
+  k1_funct_1:
+    arity: 2
+    count: 28
+    mizar: .
+    neg: 8
+    pos: 20
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#K1
+    vizar: x(y)
+  k1_numbers:
+    arity: 0
+    count: 44
+    mizar: REAL
+    neg: 32
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K1
+    vizar: "\u211D"
+  k1_seq_1:
+    arity: 2
+    count: 12
+    mizar: .
+    neg: 2
+    pos: 10
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_1.html#K1
+    vizar: x . y
+  k1_xboole_0:
+    arity: 0
+    count: 4
+    mizar: '{}'
+    neg: 0
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#K1
+    vizar: "\xD8"
+  k1_zfmisc_1:
+    arity: 1
+    count: 47
+    mizar: bool
+    neg: 39
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
+    vizar: bool(x)
+  k2_numbers:
+    arity: 0
+    count: 31
+    mizar: COMPLEX
+    neg: 23
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K2
+    vizar: COMPLEX
+  k2_zfmisc_1:
+    arity: 2
+    count: 40
+    mizar: '[:..:]'
+    neg: 34
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K2
+    vizar: "x \xD7 y"
+  k3_funct_2:
+    arity: 4
+    count: 5
+    mizar: .
+    neg: 3
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_2.html#K3
+    vizar: .
+  k4_ordinal1:
+    arity: 0
+    count: 4
+    mizar: omega
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#K4
+    vizar: "\u03C9"
+  k4_series_1:
+    arity: 1
+    count: 13
+    mizar: Sum
+    neg: 10
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/series_1.html#K4
+    vizar: Sum(x)
+  k54_valued_1:
+    arity: 1
+    count: 57
+    mizar: '|....|'
+    neg: 28
+    pos: 29
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#K54
+    vizar: '|....|'
+  k55_valued_1:
+    arity: 3
+    count: 6
+    mizar: '|....|'
+    neg: 0
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_1.html#K55
+    vizar: '|....|'
+  k5_complex1:
+    arity: 0
+    count: 5
+    mizar: 0c
+    neg: 2
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/complex1.html#K5
+    vizar: 0c
+  k5_numbers:
+    arity: 0
+    count: 73
+    mizar: NAT
+    neg: 57
+    pos: 16
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
+    vizar: "\u2115"
+  k6_numbers:
+    arity: 0
+    count: 49
+    mizar: '0'
+    neg: 21
+    pos: 28
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K6
+    vizar: '0'
+  m1_subset_1:
+    arity: 2
+    count: 54
+    mizar: Element
+    neg: 42
+    pos: 12
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
+    vizar: "x \u2208 y"
+  m2_subset_1:
+    arity: 3
+    count: 19
+    mizar: Element
+    neg: 17
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M2
+    vizar: "x \u2208 z \u2286 y"
+  r1_xxreal_0:
+    arity: 2
+    count: 8
+    mizar: '&lt;='
+    neg: 4
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#R1
+    vizar: "x \u2264 y"
+  v1_funct_1:
+    arity: 1
+    count: 45
+    mizar: Function-like
+    neg: 39
+    pos: 6
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_1.html#V1
+    vizar: function(x)
+  v1_funct_2:
+    arity: 3
+    count: 23
+    mizar: quasi_total
+    neg: 19
+    pos: 4
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_2.html#V1
+    vizar: quasi_total(x,y,z)
+  v1_membered:
+    arity: 1
+    count: 9
+    mizar: complex-membered
+    neg: 7
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V1
+    vizar: complex-membered(x)
+  v1_relat_1:
+    arity: 1
+    count: 22
+    mizar: Relation-like
+    neg: 19
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/relat_1.html#V1
+    vizar: relation(x)
+  v1_series_1:
+    arity: 1
+    count: 8
+    mizar: summable
+    neg: 6
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/series_1.html#V1
+    vizar: summable(x)
+  v1_valued_0:
+    arity: 1
+    count: 21
+    mizar: complex-valued
+    neg: 18
+    pos: 3
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_0.html#V1
+    vizar: complex-valued(x)
+  v1_xboole_0:
+    arity: 1
+    count: 14
+    mizar: empty
+    neg: 5
+    pos: 9
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1
+    vizar: "x = \xD8"
+  v1_xcmplx_0:
+    arity: 1
+    count: 8
+    mizar: complex
+    neg: 6
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#V1
+    vizar: "x \u2208 \u2102"
+  v2_comseq_3:
+    arity: 1
+    count: 12
+    mizar: absolutely_summable
+    neg: 10
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/comseq_3.html#V2
+    vizar: absolutely_summable(x)
+  v3_membered:
+    arity: 1
+    count: 4
+    mizar: real-membered
+    neg: 2
+    pos: 2
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#V3
+    vizar: "x \u2286 \u211D"
+  v3_valued_0:
+    arity: 1
+    count: 14
+    mizar: real-valued
+    neg: 9
+    pos: 5
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/valued_0.html#V3
+    vizar: real-valued(x)
+tptp:
+  c_0_100: "cnf(c_0_100,negated_conjecture,\n    ( k3_funct_2(k5_numbers,k2_numbers,esk1_0,esk2_0)\
+    \ != k5_complex1 ))."
+  c_0_102: "cnf(c_0_102,plain,\n    ( k1_xboole_0 = k6_numbers ))."
+  c_0_104: "cnf(c_0_104,plain,\n    ( ~ v1_xboole_0(k4_ordinal1) ))."
+  c_0_105: "cnf(c_0_105,plain,\n    ( k5_numbers = k4_ordinal1 ))."
+  c_0_106: "cnf(c_0_106,plain,\n    ( m1_subset_1(X1,X3)\n    | v1_xboole_0(X2)\n\
+    \    | v1_xboole_0(X3)\n    | ~ m2_subset_1(X1,X2,X3)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(X2))\
+    \ ))."
+  c_0_107: "cnf(c_0_107,plain,\n    ( v1_xboole_0(X2)\n    | ~ v1_xboole_0(X1)\n \
+    \   | ~ m1_subset_1(X2,k1_zfmisc_1(X1)) ))."
+  c_0_109: "cnf(c_0_109,negated_conjecture,\n    ( k1_funct_1(k54_valued_1(esk1_0),X1)\
+    \ = k6_numbers\n    | ~ v3_valued_0(k54_valued_1(esk1_0))\n    | ~ m2_subset_1(X1,k1_numbers,k5_numbers)\n\
+    \    | ~ m1_subset_1(k54_valued_1(esk1_0),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_110: "cnf(c_0_110,negated_conjecture,\n    ( m1_subset_1(k54_valued_1(esk1_0),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ ))."
+  c_0_114: "cnf(c_0_114,plain,\n    ( k5_complex1 = k6_numbers ))."
+  c_0_115: "cnf(c_0_115,plain,\n    ( v1_xboole_0(X1)\n    | k3_funct_2(X1,X3,X2,X4)\
+    \ = k1_funct_1(X2,X4)\n    | ~ v1_funct_1(X2)\n    | ~ v1_funct_2(X2,X1,X3)\n\
+    \    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(X1,X3)))\n    | ~ m1_subset_1(X4,X1)\
+    \ ))."
+  c_0_117: "cnf(c_0_117,plain,\n    ( k4_ordinal1 = k5_numbers ))."
+  c_0_120: "cnf(c_0_120,negated_conjecture,\n    ( m2_subset_1(esk2_0,k1_numbers,k5_numbers)\
+    \ ))."
+  c_0_121: "cnf(c_0_121,plain,\n    ( m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers))\
+    \ ))."
+  c_0_122: "cnf(c_0_122,plain,\n    ( k1_funct_1(X1,X2) = k6_numbers\n    | k1_funct_1(k54_valued_1(X1),X2)\
+    \ != k6_numbers\n    | ~ v1_xcmplx_0(k1_funct_1(X1,X2))\n    | ~ v1_valued_0(X1)\n\
+    \    | ~ v1_relat_1(X1)\n    | ~ v1_funct_1(X1) ))."
+  c_0_123: "cnf(c_0_123,negated_conjecture,\n    ( k1_funct_1(k54_valued_1(esk1_0),X1)\
+    \ = k6_numbers\n    | ~ v3_valued_0(k54_valued_1(esk1_0))\n    | ~ m2_subset_1(X1,k1_numbers,k5_numbers)\
+    \ ))."
+  c_0_124: "cnf(c_0_124,negated_conjecture,\n    ( v3_valued_0(k54_valued_1(esk1_0))\
+    \ ))."
+  c_0_125: "cnf(c_0_125,negated_conjecture,\n    ( k3_funct_2(k5_numbers,k2_numbers,esk1_0,esk2_0)\
+    \ != k6_numbers ))."
+  c_0_127: "cnf(c_0_127,plain,\n    ( ~ v1_xboole_0(k5_numbers) ))."
+  c_0_128: "cnf(c_0_128,plain,\n    ( v1_xboole_0(X1)\n    | m1_subset_1(X2,X1)\n\
+    \    | ~ m2_subset_1(X2,X3,X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X3)) ))."
+  c_0_132: "cnf(c_0_132,negated_conjecture,\n    ( k1_funct_1(k54_valued_1(esk1_0),X1)\
+    \ = k6_numbers\n    | ~ m2_subset_1(X1,k1_numbers,k5_numbers) ))."
+  c_0_133: "cnf(c_0_133,negated_conjecture,\n    ( v1_relat_1(esk1_0) ))."
+  c_0_134: "cnf(c_0_134,negated_conjecture,\n    ( k1_funct_1(esk1_0,esk2_0) != k6_numbers\n\
+    \    | ~ m1_subset_1(esk2_0,k5_numbers) ))."
+  c_0_135: "cnf(c_0_135,negated_conjecture,\n    ( m1_subset_1(esk2_0,k5_numbers)\
+    \ ))."
+  c_0_136: "cnf(c_0_136,negated_conjecture,\n    ( k1_funct_1(esk1_0,X1) = k6_numbers\n\
+    \    | ~ m2_subset_1(X1,k1_numbers,k5_numbers) ))."
+  c_0_137: "cnf(c_0_137,negated_conjecture,\n    ( k1_funct_1(esk1_0,esk2_0) != k6_numbers\
+    \ ))."
+  c_0_138: "cnf(c_0_138,negated_conjecture,\n    ( $false ))."
+  c_0_28: "cnf(c_0_28,plain,\n    ( k1_seq_1(X1,X2) = k6_numbers\n    | ~ r1_xxreal_0(k6_numbers,k1_seq_1(X1,esk4_1(X1)))\n\
+    \    | ~ v1_series_1(X1)\n    | k4_series_1(X1) != k6_numbers\n    | ~ m2_subset_1(X2,k1_numbers,k5_numbers)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~\
+    \ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers))) ))."
+  c_0_29: "cnf(c_0_29,plain,\n    ( k1_seq_1(X1,X2) = k1_funct_1(X1,X2)\n    | ~ v1_relat_1(X1)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v3_valued_0(X1) ))."
+  c_0_31: "cnf(c_0_31,plain,\n    ( r1_xxreal_0(k6_numbers,k17_complex1(X1))\n   \
+    \ | ~ v1_xcmplx_0(X1) ))."
+  c_0_32: "cnf(c_0_32,plain,\n    ( k1_funct_1(k54_valued_1(X1),X2) = k17_complex1(k1_funct_1(X1,X2))\n\
+    \    | ~ v1_relat_1(X1)\n    | ~ v1_funct_1(X1)\n    | ~ v1_valued_0(X1) ))."
+  c_0_36: "cnf(c_0_36,plain,\n    ( v1_relat_1(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(X2,X3)))\
+    \ ))."
+  c_0_38: "cnf(c_0_38,plain,\n    ( k17_complex1(k1_funct_1(X1,X2)) = k1_funct_1(k54_valued_1(X1),X2)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_relat_1(X1)\n    | ~ v1_valued_0(X1) ))."
+  c_0_39: "cnf(c_0_39,plain,\n    ( v1_xcmplx_0(k1_funct_1(X1,X2))\n    | ~ v1_relat_1(X1)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_valued_0(X1) ))."
+  c_0_40: "cnf(c_0_40,plain,\n    ( k1_seq_1(X1,X2) = k6_numbers\n    | k4_series_1(X1)\
+    \ != k6_numbers\n    | ~ v1_series_1(X1)\n    | ~ r1_xxreal_0(k6_numbers,k1_funct_1(X1,esk4_1(X1)))\n\
+    \    | ~ m2_subset_1(X2,k1_numbers,k5_numbers)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X1)\n    | ~\
+    \ v3_valued_0(X1)\n    | ~ v1_relat_1(X1) ))."
+  c_0_42: "cnf(c_0_42,plain,\n    ( r1_xxreal_0(k6_numbers,k1_funct_1(k54_valued_1(X1),X2))\n\
+    \    | ~ v1_xcmplx_0(k1_funct_1(X1,X2))\n    | ~ v1_valued_0(X1)\n    | ~ v1_relat_1(X1)\n\
+    \    | ~ v1_funct_1(X1) ))."
+  c_0_45: "cnf(c_0_45,plain,\n    ( k1_seq_1(X1,X2) = k6_numbers\n    | k4_series_1(X1)\
+    \ != k6_numbers\n    | ~ v3_valued_0(X1)\n    | ~ v1_series_1(X1)\n    | ~ r1_xxreal_0(k6_numbers,k1_funct_1(X1,esk4_1(X1)))\n\
+    \    | ~ m2_subset_1(X2,k1_numbers,k5_numbers)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X1) ))."
+  c_0_47: "cnf(c_0_47,plain,\n    ( v1_funct_1(k54_valued_1(X1))\n    | ~ v1_relat_1(X1)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_valued_0(X1) ))."
+  c_0_48: "cnf(c_0_48,plain,\n    ( v3_valued_0(k54_valued_1(X1))\n    | ~ v1_relat_1(X1)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_valued_0(X1) ))."
+  c_0_50: "cnf(c_0_50,plain,\n    ( k1_seq_1(k54_valued_1(X1),X2) = k6_numbers\n \
+    \   | k4_series_1(k54_valued_1(X1)) != k6_numbers\n    | ~ v3_valued_0(k54_valued_1(X1))\n\
+    \    | ~ v1_series_1(k54_valued_1(X1))\n    | ~ m2_subset_1(X2,k1_numbers,k5_numbers)\n\
+    \    | ~ m1_subset_1(k54_valued_1(X1),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_2(k54_valued_1(X1),k5_numbers,k1_numbers)\n    | ~ v1_funct_1(k54_valued_1(X1))\n\
+    \    | ~ v1_valued_0(X1)\n    | ~ v1_relat_1(X1)\n    | ~ v1_funct_1(X1) ))."
+  c_0_53: "cnf(c_0_53,plain,\n    ( v1_series_1(k54_valued_1(X1))\n    | ~ v1_funct_1(X1)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k2_numbers)\n    | ~ v2_comseq_3(X1)\n    |\
+    \ ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers))) ))."
+  c_0_54: "cnf(c_0_54,plain,\n    ( k1_seq_1(k54_valued_1(X1),X2) = k6_numbers\n \
+    \   | k4_series_1(k54_valued_1(X1)) != k6_numbers\n    | ~ v1_series_1(k54_valued_1(X1))\n\
+    \    | ~ v1_valued_0(X1)\n    | ~ v1_relat_1(X1)\n    | ~ m2_subset_1(X2,k1_numbers,k5_numbers)\n\
+    \    | ~ m1_subset_1(k54_valued_1(X1),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_2(k54_valued_1(X1),k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X1)\
+    \ ))."
+  c_0_56: "cnf(c_0_56,plain,\n    ( v1_funct_2(k54_valued_1(X1),k5_numbers,k1_numbers)\n\
+    \    | ~ v1_funct_1(X1)\n    | ~ v1_funct_2(X1,k5_numbers,k2_numbers)\n    | ~\
+    \ v2_comseq_3(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers)))\
+    \ ))."
+  c_0_58: "cnf(c_0_58,plain,\n    ( k1_seq_1(k54_valued_1(X1),X2) = k6_numbers\n \
+    \   | k4_series_1(k54_valued_1(X1)) != k6_numbers\n    | ~ v1_valued_0(X1)\n \
+    \   | ~ v1_relat_1(X1)\n    | ~ m2_subset_1(X2,k1_numbers,k5_numbers)\n    | ~\
+    \ m1_subset_1(k54_valued_1(X1),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ v1_funct_2(k54_valued_1(X1),k5_numbers,k1_numbers)\n    | ~ v1_funct_1(X1)\n\
+    \    | ~ v2_comseq_3(X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers)))\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k2_numbers) ))."
+  c_0_64: "cnf(c_0_64,plain,\n    ( k1_seq_1(k54_valued_1(X1),X2) = k6_numbers\n \
+    \   | k4_series_1(k54_valued_1(X1)) != k6_numbers\n    | ~ v1_valued_0(X1)\n \
+    \   | ~ m2_subset_1(X2,k1_numbers,k5_numbers)\n    | ~ v2_comseq_3(X1)\n    |\
+    \ ~ m1_subset_1(k54_valued_1(X1),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers)))\n   \
+    \ | ~ v1_funct_2(X1,k5_numbers,k2_numbers)\n    | ~ v1_funct_1(X1) ))."
+  c_0_65: "cnf(c_0_65,plain,\n    ( v1_funct_1(k54_valued_1(X1))\n    | ~ v1_funct_1(X1)\n\
+    \    | ~ v1_funct_2(X1,k5_numbers,k2_numbers)\n    | ~ v2_comseq_3(X1)\n    |\
+    \ ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers))) ))."
+  c_0_66: "cnf(c_0_66,negated_conjecture,\n    ( k4_series_1(k55_valued_1(k5_numbers,k2_numbers,esk1_0))\
+    \ = k6_numbers ))."
+  c_0_67: "cnf(c_0_67,plain,\n    ( k55_valued_1(X3,X1,X2) = k54_valued_1(X2)\n  \
+    \  | ~ v1_membered(X1)\n    | ~ v1_funct_1(X2)\n    | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(X3,X1)))\
+    \ ))."
+  c_0_68: "cnf(c_0_68,plain,\n    ( v1_membered(k2_numbers) ))."
+  c_0_69: "cnf(c_0_69,negated_conjecture,\n    ( m1_subset_1(esk1_0,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers)))\
+    \ ))."
+  c_0_70: "cnf(c_0_70,negated_conjecture,\n    ( v1_funct_1(esk1_0) ))."
+  c_0_71: "cnf(c_0_71,plain,\n    ( v1_valued_0(X2)\n    | ~ v1_membered(X1)\n   \
+    \ | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(X3,X1))) ))."
+  c_0_72: "cnf(c_0_72,plain,\n    ( m1_subset_1(k55_valued_1(X1,X2,X3),k1_zfmisc_1(k2_zfmisc_1(X1,k1_numbers)))\n\
+    \    | ~ v1_membered(X2)\n    | ~ v1_funct_1(X3)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))\
+    \ ))."
+  c_0_74: "cnf(c_0_74,plain,\n    ( k1_funct_1(k54_valued_1(X1),X2) = k6_numbers\n\
+    \    | ~ v3_valued_0(k54_valued_1(X1))\n    | ~ v1_relat_1(k54_valued_1(X1))\n\
+    \    | ~ v1_funct_1(k54_valued_1(X1))\n    | k4_series_1(k54_valued_1(X1)) !=\
+    \ k6_numbers\n    | ~ v1_valued_0(X1)\n    | ~ m2_subset_1(X2,k1_numbers,k5_numbers)\n\
+    \    | ~ v2_comseq_3(X1)\n    | ~ m1_subset_1(k54_valued_1(X1),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers)))\n   \
+    \ | ~ v1_funct_2(X1,k5_numbers,k2_numbers)\n    | ~ v1_funct_1(X1) ))."
+  c_0_82: "cnf(c_0_82,negated_conjecture,\n    ( v2_comseq_3(esk1_0) ))."
+  c_0_83: "cnf(c_0_83,negated_conjecture,\n    ( v1_funct_2(esk1_0,k5_numbers,k2_numbers)\
+    \ ))."
+  c_0_86: "cnf(c_0_86,plain,\n    ( k5_complex1 = k1_xboole_0 ))."
+  c_0_87: "cnf(c_0_87,plain,\n    ( k6_numbers = k1_xboole_0 ))."
+  c_0_91: "cnf(c_0_91,plain,\n    ( X1 = k6_numbers\n    | ~ v1_xcmplx_0(X1)\n   \
+    \ | k17_complex1(X1) != k6_numbers ))."
+  c_0_92: "cnf(c_0_92,plain,\n    ( k1_funct_1(k54_valued_1(X1),X2) = k6_numbers\n\
+    \    | k4_series_1(k54_valued_1(X1)) != k6_numbers\n    | ~ v3_valued_0(k54_valued_1(X1))\n\
+    \    | ~ v1_valued_0(X1)\n    | ~ m2_subset_1(X2,k1_numbers,k5_numbers)\n    |\
+    \ ~ v2_comseq_3(X1)\n    | ~ m1_subset_1(k54_valued_1(X1),k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\n\
+    \    | ~ m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers)))\n   \
+    \ | ~ v1_funct_2(X1,k5_numbers,k2_numbers)\n    | ~ v1_funct_1(X1) ))."
+  c_0_93: "cnf(c_0_93,negated_conjecture,\n    ( k4_series_1(k54_valued_1(esk1_0))\
+    \ = k6_numbers ))."
+  c_0_94: "cnf(c_0_94,negated_conjecture,\n    ( v1_valued_0(esk1_0) ))."
+  c_0_97: "cnf(c_0_97,plain,\n    ( m1_subset_1(k54_valued_1(X3),k1_zfmisc_1(k2_zfmisc_1(X1,k1_numbers)))\n\
+    \    | ~ v1_membered(X2)\n    | ~ m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))\n\
+    \    | ~ v1_funct_1(X3) ))."
+  c_0_98: "cnf(c_0_98,plain,\n    ( v3_valued_0(X2)\n    | ~ v3_membered(X1)\n   \
+    \ | ~ m1_subset_1(X2,k1_zfmisc_1(k2_zfmisc_1(X3,X1))) ))."
+  c_0_99: "cnf(c_0_99,plain,\n    ( v3_membered(k1_numbers) ))."
+  cc16_valued_0: "fof(cc16_valued_0,axiom,(\n    ! [X1,X2] :\n      ( v1_membered(X2)\n\
+    \     => ! [X3] :\n          ( m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))\n\
+    \         => v1_valued_0(X3) ) ) ))."
+  cc18_valued_0: "fof(cc18_valued_0,axiom,(\n    ! [X1,X2] :\n      ( v3_membered(X2)\n\
+    \     => ! [X3] :\n          ( m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))\n\
+    \         => v3_valued_0(X3) ) ) ))."
+  cc1_relset_1: "fof(cc1_relset_1,axiom,(\n    ! [X1,X2,X3] :\n      ( m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))\n\
+    \     => v1_relat_1(X3) ) ))."
+  cc1_subset_1: "fof(cc1_subset_1,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n\
+    \     => ! [X2] :\n          ( m1_subset_1(X2,k1_zfmisc_1(X1))\n         => v1_xboole_0(X2)\
+    \ ) ) ))."
+  dt_k54_valued_1: "fof(dt_k54_valued_1,axiom,(\n    ! [X1] :\n      ( ( v1_relat_1(X1)\n\
+    \        & v1_funct_1(X1)\n        & v1_valued_0(X1) )\n     => ( v1_relat_1(k54_valued_1(X1))\n\
+    \        & v1_funct_1(k54_valued_1(X1))\n        & v3_valued_0(k54_valued_1(X1))\
+    \ ) ) ))."
+  dt_k55_valued_1: "fof(dt_k55_valued_1,axiom,(\n    ! [X1,X2,X3] :\n      ( ( v1_membered(X2)\n\
+    \        & v1_funct_1(X3)\n        & m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))\
+    \ )\n     => ( v1_funct_1(k55_valued_1(X1,X2,X3))\n        & m1_subset_1(k55_valued_1(X1,X2,X3),k1_zfmisc_1(k2_zfmisc_1(X1,k1_numbers)))\
+    \ ) ) ))."
+  dt_k5_numbers: "fof(dt_k5_numbers,axiom,(\n    m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers))\
+    \ ))."
+  fc1_membered: "fof(fc1_membered,axiom,(\n    v1_membered(k2_numbers) ))."
+  fc3_membered: "fof(fc3_membered,axiom,(\n    v3_membered(k1_numbers) ))."
+  fc61_valued_0: "fof(fc61_valued_0,axiom,(\n    ! [X1,X2] :\n      ( ( v1_relat_1(X1)\n\
+    \        & v1_funct_1(X1)\n        & v1_valued_0(X1) )\n     => v1_xcmplx_0(k1_funct_1(X1,X2))\
+    \ ) ))."
+  fc6_ordinal1: "fof(fc6_ordinal1,axiom,\n    ( ~ v1_xboole_0(k4_ordinal1)\n    &\
+    \ v3_ordinal1(k4_ordinal1) ))."
+  fc7_comseq_3: "fof(fc7_comseq_3,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k2_numbers)\n        & v2_comseq_3(X1)\n \
+    \       & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers))) )\n\
+    \     => ( v1_funct_1(k54_valued_1(X1))\n        & v1_funct_2(k54_valued_1(X1),k5_numbers,k1_numbers)\n\
+    \        & v1_series_1(k54_valued_1(X1)) ) ) ))."
+  redefinition_k1_seq_1: "fof(redefinition_k1_seq_1,axiom,(\n    ! [X1,X2] :\n   \
+    \   ( ( v1_relat_1(X1)\n        & v1_funct_1(X1)\n        & v3_valued_0(X1) )\n\
+    \     => k1_seq_1(X1,X2) = k1_funct_1(X1,X2) ) ))."
+  redefinition_k3_funct_2: "fof(redefinition_k3_funct_2,axiom,(\n    ! [X1,X2,X3,X4]\
+    \ :\n      ( ( ~ v1_xboole_0(X1)\n        & v1_funct_1(X3)\n        & v1_funct_2(X3,X1,X2)\n\
+    \        & m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))\n        & m1_subset_1(X4,X1)\
+    \ )\n     => k3_funct_2(X1,X2,X3,X4) = k1_funct_1(X3,X4) ) ))."
+  redefinition_k55_valued_1: "fof(redefinition_k55_valued_1,axiom,(\n    ! [X1,X2,X3]\
+    \ :\n      ( ( v1_membered(X2)\n        & v1_funct_1(X3)\n        & m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))\
+    \ )\n     => k55_valued_1(X1,X2,X3) = k54_valued_1(X3) ) ))."
+  redefinition_k5_complex1: "fof(redefinition_k5_complex1,axiom,(\n    k5_complex1\
+    \ = k1_xboole_0 ))."
+  redefinition_k5_numbers: "fof(redefinition_k5_numbers,axiom,(\n    k5_numbers =\
+    \ k4_ordinal1 ))."
+  redefinition_k6_numbers: "fof(redefinition_k6_numbers,axiom,(\n    k6_numbers =\
+    \ k1_xboole_0 ))."
+  redefinition_m2_subset_1: "fof(redefinition_m2_subset_1,axiom,(\n    ! [X1,X2] :\n\
+    \      ( ( ~ v1_xboole_0(X1)\n        & ~ v1_xboole_0(X2)\n        & m1_subset_1(X2,k1_zfmisc_1(X1))\
+    \ )\n     => ! [X3] :\n          ( m2_subset_1(X3,X1,X2)\n        <=> m1_subset_1(X3,X2)\
+    \ ) ) ))."
+  t13_csspace2: "fof(t13_csspace2,conjecture,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k2_numbers)\n        & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k2_numbers)))\
+    \ )\n     => ( ( v2_comseq_3(X1)\n          & k4_series_1(k55_valued_1(k5_numbers,k2_numbers,X1))\
+    \ = k6_numbers )\n       => ! [X2] :\n            ( m2_subset_1(X2,k1_numbers,k5_numbers)\n\
+    \           => k3_funct_2(k5_numbers,k2_numbers,X1,X2) = k5_complex1 ) ) ) ))."
+  t17_rsspace: "fof(t17_rsspace,axiom,(\n    ! [X1] :\n      ( ( v1_funct_1(X1)\n\
+    \        & v1_funct_2(X1,k5_numbers,k1_numbers)\n        & m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k5_numbers,k1_numbers)))\
+    \ )\n     => ( ( ! [X2] :\n              ( m2_subset_1(X2,k1_numbers,k5_numbers)\n\
+    \             => r1_xxreal_0(k6_numbers,k1_seq_1(X1,X2)) )\n          & v1_series_1(X1)\n\
+    \          & k4_series_1(X1) = k6_numbers )\n       => ! [X2] :\n            (\
+    \ m2_subset_1(X2,k1_numbers,k5_numbers)\n           => k1_seq_1(X1,X2) = k6_numbers\
+    \ ) ) ) ))."
+  t18_valued_1: "fof(t18_valued_1,axiom,(\n    ! [X1] :\n      ( ( v1_relat_1(X1)\n\
+    \        & v1_funct_1(X1)\n        & v1_valued_0(X1) )\n     => ! [X2] : k1_funct_1(k54_valued_1(X1),X2)\
+    \ = k17_complex1(k1_funct_1(X1,X2)) ) ))."
+  t45_complex1: "fof(t45_complex1,axiom,(\n    ! [X1] :\n      ( v1_xcmplx_0(X1)\n\
+    \     => ( k17_complex1(X1) = k6_numbers\n       => X1 = k6_numbers ) ) ))."
+  t46_complex1: "fof(t46_complex1,axiom,(\n    ! [X1] :\n      ( v1_xcmplx_0(X1)\n\
+    \     => r1_xxreal_0(k6_numbers,k17_complex1(X1)) ) ))."
+

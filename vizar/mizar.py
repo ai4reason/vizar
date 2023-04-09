@@ -24,6 +24,10 @@ NOPARENS = [
    "k1_funct_2",
    "k1_card_1",
    "k1_tarski",
+   "k4_finseq_2",
+   "k5_finseq_1",
+   "k9_finseq_1",
+   "k12_finseq_1",
 ]
 
 HREF = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/%s.html#%s"
@@ -181,9 +185,9 @@ def set_labels(info):
    for (name, fml) in info["fmls"].items():
       if fml["lang"] == "cnf":
          lits = tptp.clause_parse(fml["fml"])
+         syms = tptp.literal_symbols(lits)
          lits = varsorts(lits)
          lits = neghide(lits)
-         syms = tptp.literal_symbols(lits)
          lits = translate(lits)
          text = label.clause(lits) 
       else:

@@ -1,0 +1,367 @@
+axioms:
+  d1_tarski:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( X\u2082 = \\{X\u2081\\}\n    \u2261\
+      \ (\u2200X\u2083)\n          ( (X\u2083 \u2208 X\u2082)\n        \u2261 X\u2083\
+      \ = X\u2081 ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#D1
+  t10_xregular:
+    fof: "    (\u2200X\u2081,X\u2082,X\u2083,X\u2084,X\u2085,X\u2086)\n      \xAC\
+      \ ( (X\u2081 \u2208 X\u2082)\n        \u2227 (X\u2082 \u2208 X\u2083)\n    \
+      \    \u2227 (X\u2083 \u2208 X\u2084)\n        \u2227 (X\u2084 \u2208 X\u2085\
+      )\n        \u2227 (X\u2085 \u2208 X\u2086)\n        \u2227 (X\u2086 \u2208 X\u2081\
+      ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xregular.html#T10
+  t3_xboole_0:
+    fof: "    (\u2200X\u2081,X\u2082)\n      ( \xAC ( \xAC (X\u2081 \u2229 X\u2082\
+      \ = \xD8)\n          \u2227 (\u2200X\u2083)\n              \xAC ( (X\u2083 \u2208\
+      \ X\u2081)\n                \u2227 (X\u2083 \u2208 X\u2082) ) )\n      \u2227\
+      \ \xAC ( (\u2203X\u2083)\n              ( (X\u2083 \u2208 X\u2081)\n       \
+      \       \u2227 (X\u2083 \u2208 X\u2082) )\n          \u2227 (X\u2081 \u2229\
+      \ X\u2082 = \xD8) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#T3
+  t6_xregular:
+    fof: "    (\u2200X\u2081)\n      ( \xAC (X\u2081 = \xD8)\n     \u21D2 (\u2203\
+      X\u2082)\n          ( (X\u2082 \u2208 X\u2081)\n          \u2227 (\u2200X\u2083\
+      ,X\u2084,X\u2085,X\u2086,X\u2087)\n              ( ( (X\u2083 \u2208 X\u2084\
+      )\n                \u2227 (X\u2084 \u2208 X\u2085)\n                \u2227 (X\u2085\
+      \ \u2208 X\u2086)\n                \u2227 (X\u2086 \u2208 X\u2087)\n       \
+      \         \u2227 (X\u2087 \u2208 X\u2082) )\n             \u21D2 (X\u2083 \u2229\
+      \ X\u2081 = \xD8) ) ) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xregular.html#T6
+  t7_boole:
+    fof: "    (\u2200X\u2081,X\u2082)\n      \xAC ( (X\u2081 \u2208 X\u2082)\n   \
+      \     \u2227 (X\u2082 = \xD8) ) "
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/boole.html#T7
+conjecture: t10_xregular
+final: c_0_49
+skolems:
+  esk16_1:
+    axiom: t6_xregular
+    related:
+    - esk16_1
+    symbol: "sk\u2081\u2086"
+  esk1_0:
+    axiom: t10_xregular
+    related:
+    - esk5_0
+    - esk4_0
+    - esk6_0
+    - esk1_0
+    - esk3_0
+    - esk2_0
+    symbol: "sk\u2081"
+  esk2_0:
+    axiom: t10_xregular
+    related:
+    - esk5_0
+    - esk4_0
+    - esk6_0
+    - esk1_0
+    - esk3_0
+    - esk2_0
+    symbol: "sk\u2082"
+  esk3_0:
+    axiom: t10_xregular
+    related:
+    - esk5_0
+    - esk4_0
+    - esk6_0
+    - esk1_0
+    - esk3_0
+    - esk2_0
+    symbol: "sk\u2083"
+  esk4_0:
+    axiom: t10_xregular
+    related:
+    - esk5_0
+    - esk4_0
+    - esk6_0
+    - esk1_0
+    - esk3_0
+    - esk2_0
+    symbol: "sk\u2084"
+  esk5_0:
+    axiom: t10_xregular
+    related:
+    - esk5_0
+    - esk4_0
+    - esk6_0
+    - esk1_0
+    - esk3_0
+    - esk2_0
+    symbol: "sk\u2085"
+  esk6_0:
+    axiom: t10_xregular
+    related:
+    - esk5_0
+    - esk4_0
+    - esk6_0
+    - esk1_0
+    - esk3_0
+    - esk2_0
+    symbol: "sk\u2086"
+steps:
+  c_0_12:
+    counts:
+      r1_xboole_0: 1
+      r2_hidden: 5
+      v1_xboole_0: 1
+    skolems:
+    - esk16_1
+  c_0_13:
+    counts:
+      k1_tarski: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk16_1
+  c_0_16:
+    counts:
+      k1_tarski: 2
+      v1_xboole_0: 1
+    skolems:
+    - esk16_1
+  c_0_17:
+    counts:
+      r2_hidden: 1
+    skolems:
+    - esk5_0
+    - esk6_0
+  c_0_18:
+    counts:
+      k1_tarski: 2
+      r1_xboole_0: 1
+      r2_hidden: 5
+      v1_xboole_0: 1
+    skolems: []
+  c_0_20:
+    counts:
+      r2_hidden: 1
+    skolems:
+    - esk5_0
+    - esk4_0
+  c_0_21:
+    counts:
+      k1_tarski: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_22:
+    counts:
+      k1_tarski: 2
+      r1_xboole_0: 1
+      r2_hidden: 4
+      v1_xboole_0: 1
+    skolems:
+    - esk5_0
+    - esk6_0
+  c_0_24:
+    counts:
+      r2_hidden: 1
+    skolems:
+    - esk3_0
+    - esk4_0
+  c_0_27:
+    counts:
+      k1_tarski: 2
+      r1_xboole_0: 1
+      r2_hidden: 3
+      v1_xboole_0: 1
+    skolems:
+    - esk6_0
+    - esk4_0
+  c_0_29:
+    counts:
+      r2_hidden: 1
+    skolems:
+    - esk3_0
+    - esk2_0
+  c_0_30:
+    counts:
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_31:
+    counts:
+      k1_tarski: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_33:
+    counts:
+      k1_tarski: 2
+      r1_xboole_0: 1
+      r2_hidden: 2
+      v1_xboole_0: 1
+    skolems:
+    - esk3_0
+    - esk6_0
+  c_0_36:
+    counts:
+      k1_tarski: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_37:
+    counts:
+      r1_xboole_0: 1
+      r2_hidden: 2
+    skolems: []
+  c_0_38:
+    counts:
+      k1_tarski: 2
+      r1_xboole_0: 1
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk2_0
+    - esk6_0
+  c_0_39:
+    counts:
+      k1_tarski: 1
+      v1_xboole_0: 1
+    skolems: []
+  c_0_41:
+    counts:
+      k1_tarski: 1
+      r1_xboole_0: 1
+      r2_hidden: 1
+    skolems:
+    - esk2_0
+    - esk6_0
+  c_0_42:
+    counts:
+      k1_tarski: 1
+      r2_hidden: 3
+    skolems:
+    - esk2_0
+    - esk6_0
+  c_0_43:
+    counts:
+      k1_tarski: 1
+    skolems:
+    - esk16_1
+  c_0_44:
+    counts:
+      r2_hidden: 1
+    skolems:
+    - esk1_0
+    - esk2_0
+  c_0_45:
+    counts:
+      r2_hidden: 1
+    skolems:
+    - esk1_0
+    - esk6_0
+  c_0_46:
+    counts:
+      r2_hidden: 2
+    skolems:
+    - esk2_0
+    - esk6_0
+  c_0_7:
+    counts:
+      k1_tarski: 1
+      r2_hidden: 1
+    skolems: []
+  c_0_8:
+    counts:
+      r2_hidden: 1
+      v1_xboole_0: 1
+    skolems:
+    - esk16_1
+symbols:
+  k1_tarski:
+    arity: 1
+    count: 23
+    mizar: '{..}'
+    neg: 8
+    pos: 15
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tarski.html#K1
+    vizar: '{x}'
+  r1_xboole_0:
+    arity: 2
+    count: 10
+    mizar: misses
+    neg: 2
+    pos: 8
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#R1
+    vizar: "x \u2229 y = \xD8"
+  r2_hidden:
+    arity: 2
+    count: 57
+    mizar: in
+    neg: 39
+    pos: 18
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hidden.html#R2
+    vizar: "x \u2208 y"
+  v1_xboole_0:
+    arity: 1
+    count: 14
+    mizar: empty
+    neg: 3
+    pos: 11
+    url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xboole_0.html#V1
+    vizar: "x = \xD8"
+tptp:
+  c_0_12: "cnf(c_0_12,plain,\n    ( r1_xboole_0(X1,X6)\n    | v1_xboole_0(X6)\n  \
+    \  | ~ r2_hidden(X1,X2)\n    | ~ r2_hidden(X2,X3)\n    | ~ r2_hidden(X3,X4)\n\
+    \    | ~ r2_hidden(X4,X5)\n    | ~ r2_hidden(X5,esk16_1(X6)) ))."
+  c_0_13: "cnf(c_0_13,plain,\n    ( esk16_1(X1) = X2\n    | v1_xboole_0(X1)\n    |\
+    \ X1 != k1_tarski(X2) ))."
+  c_0_16: "cnf(c_0_16,plain,\n    ( esk16_1(k1_tarski(X1)) = X1\n    | v1_xboole_0(k1_tarski(X1))\
+    \ ))."
+  c_0_17: "cnf(c_0_17,negated_conjecture,\n    ( r2_hidden(esk5_0,esk6_0) ))."
+  c_0_18: "cnf(c_0_18,plain,\n    ( v1_xboole_0(k1_tarski(X1))\n    | r1_xboole_0(X2,k1_tarski(X1))\n\
+    \    | ~ r2_hidden(X3,X1)\n    | ~ r2_hidden(X4,X3)\n    | ~ r2_hidden(X5,X4)\n\
+    \    | ~ r2_hidden(X6,X5)\n    | ~ r2_hidden(X2,X6) ))."
+  c_0_20: "cnf(c_0_20,negated_conjecture,\n    ( r2_hidden(esk4_0,esk5_0) ))."
+  c_0_21: "cnf(c_0_21,plain,\n    ( r2_hidden(X1,X3)\n    | X1 != X2\n    | X3 !=\
+    \ k1_tarski(X2) ))."
+  c_0_22: "cnf(c_0_22,negated_conjecture,\n    ( v1_xboole_0(k1_tarski(esk6_0))\n\
+    \    | r1_xboole_0(X1,k1_tarski(esk6_0))\n    | ~ r2_hidden(X2,esk5_0)\n    |\
+    \ ~ r2_hidden(X3,X2)\n    | ~ r2_hidden(X4,X3)\n    | ~ r2_hidden(X1,X4) ))."
+  c_0_24: "cnf(c_0_24,negated_conjecture,\n    ( r2_hidden(esk3_0,esk4_0) ))."
+  c_0_27: "cnf(c_0_27,negated_conjecture,\n    ( v1_xboole_0(k1_tarski(esk6_0))\n\
+    \    | r1_xboole_0(X1,k1_tarski(esk6_0))\n    | ~ r2_hidden(X2,esk4_0)\n    |\
+    \ ~ r2_hidden(X3,X2)\n    | ~ r2_hidden(X1,X3) ))."
+  c_0_29: "cnf(c_0_29,negated_conjecture,\n    ( r2_hidden(esk2_0,esk3_0) ))."
+  c_0_30: "cnf(c_0_30,plain,\n    ( ~ r2_hidden(X1,X2)\n    | ~ v1_xboole_0(X2) ))."
+  c_0_31: "cnf(c_0_31,plain,\n    ( r2_hidden(X1,X2)\n    | X2 != k1_tarski(X1) ))."
+  c_0_33: "cnf(c_0_33,negated_conjecture,\n    ( v1_xboole_0(k1_tarski(esk6_0))\n\
+    \    | r1_xboole_0(X1,k1_tarski(esk6_0))\n    | ~ r2_hidden(X2,esk3_0)\n    |\
+    \ ~ r2_hidden(X1,X2) ))."
+  c_0_36: "cnf(c_0_36,plain,\n    ( r2_hidden(X1,k1_tarski(X1)) ))."
+  c_0_37: "cnf(c_0_37,plain,\n    ( ~ r2_hidden(X1,X2)\n    | ~ r2_hidden(X1,X3)\n\
+    \    | ~ r1_xboole_0(X2,X3) ))."
+  c_0_38: "cnf(c_0_38,negated_conjecture,\n    ( v1_xboole_0(k1_tarski(esk6_0))\n\
+    \    | r1_xboole_0(X1,k1_tarski(esk6_0))\n    | ~ r2_hidden(X1,esk2_0) ))."
+  c_0_39: "cnf(c_0_39,plain,\n    ( ~ v1_xboole_0(k1_tarski(X1)) ))."
+  c_0_41: "cnf(c_0_41,negated_conjecture,\n    ( r1_xboole_0(X1,k1_tarski(esk6_0))\n\
+    \    | ~ r2_hidden(X1,esk2_0) ))."
+  c_0_42: "cnf(c_0_42,negated_conjecture,\n    ( ~ r2_hidden(X2,k1_tarski(esk6_0))\n\
+    \    | ~ r2_hidden(X2,X1)\n    | ~ r2_hidden(X1,esk2_0) ))."
+  c_0_43: "cnf(c_0_43,plain,\n    ( esk16_1(k1_tarski(X1)) = X1 ))."
+  c_0_44: "cnf(c_0_44,negated_conjecture,\n    ( r2_hidden(esk1_0,esk2_0) ))."
+  c_0_45: "cnf(c_0_45,negated_conjecture,\n    ( r2_hidden(esk6_0,esk1_0) ))."
+  c_0_46: "cnf(c_0_46,negated_conjecture,\n    ( ~ r2_hidden(X1,esk2_0)\n    | ~ r2_hidden(esk6_0,X1)\
+    \ ))."
+  c_0_49: "cnf(c_0_49,negated_conjecture,\n    ( $false ))."
+  c_0_7: "cnf(c_0_7,plain,\n    ( X1 = X3\n    | ~ r2_hidden(X1,X2)\n    | X2 != k1_tarski(X3)\
+    \ ))."
+  c_0_8: "cnf(c_0_8,plain,\n    ( r2_hidden(esk16_1(X1),X1)\n    | v1_xboole_0(X1)\
+    \ ))."
+  d1_tarski: "fof(d1_tarski,axiom,(\n    ! [X1,X2] :\n      ( X2 = k1_tarski(X1)\n\
+    \    <=> ! [X3] :\n          ( r2_hidden(X3,X2)\n        <=> X3 = X1 ) ) ))."
+  t10_xregular: "fof(t10_xregular,conjecture,(\n    ! [X1,X2,X3,X4,X5,X6] :\n    \
+    \  ~ ( r2_hidden(X1,X2)\n        & r2_hidden(X2,X3)\n        & r2_hidden(X3,X4)\n\
+    \        & r2_hidden(X4,X5)\n        & r2_hidden(X5,X6)\n        & r2_hidden(X6,X1)\
+    \ ) ))."
+  t3_xboole_0: "fof(t3_xboole_0,axiom,(\n    ! [X1,X2] :\n      ( ~ ( ~ r1_xboole_0(X1,X2)\n\
+    \          & ! [X3] :\n              ~ ( r2_hidden(X3,X1)\n                & r2_hidden(X3,X2)\
+    \ ) )\n      & ~ ( ? [X3] :\n              ( r2_hidden(X3,X1)\n              &\
+    \ r2_hidden(X3,X2) )\n          & r1_xboole_0(X1,X2) ) ) ))."
+  t6_xregular: "fof(t6_xregular,axiom,(\n    ! [X1] :\n      ( ~ v1_xboole_0(X1)\n\
+    \     => ? [X2] :\n          ( r2_hidden(X2,X1)\n          & ! [X3,X4,X5,X6,X7]\
+    \ :\n              ( ( r2_hidden(X3,X4)\n                & r2_hidden(X4,X5)\n\
+    \                & r2_hidden(X5,X6)\n                & r2_hidden(X6,X7)\n    \
+    \            & r2_hidden(X7,X2) )\n             => r1_xboole_0(X3,X1) ) ) ) ))."
+  t7_boole: "fof(t7_boole,axiom,(\n    ! [X1,X2] :\n      ~ ( r2_hidden(X1,X2)\n \
+    \       & v1_xboole_0(X2) ) ))."
+

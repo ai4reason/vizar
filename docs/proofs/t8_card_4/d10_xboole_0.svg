@@ -14,7 +14,7 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="27,-8 27,-85 103,-85 103,-8 27,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="31,-8 31,-85 99,-85 99,-8 31,-8"/>
 </g>
 <!-- d10_xboole_0 -->
 <g id="node1" class="node">
@@ -28,14 +28,14 @@
 <!-- c_0_112 -->
 <g id="node2" class="node">
 <title>c_0_112</title>
-<g id="a_node2"><a xlink:href="c_0_112.html" xlink:title="{X₁ c= X₂|X₂ c= X₁|⇊|X₁ = X₂}" target="_parent">
-<polygon fill="#f8edd1" stroke="#7f7542" points="35.5,-16.5 35.5,-76.5 94.5,-76.5 94.5,-16.5 35.5,-16.5"/>
-<text text-anchor="middle" x="65" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ c= X₂</text>
-<polyline fill="none" stroke="#7f7542" points="35.5,-61.5 94.5,-61.5 "/>
-<text text-anchor="middle" x="65" y="-50.3" font-family="Times,serif" font-size="14.00">X₂ c= X₁</text>
-<polyline fill="none" stroke="#7f7542" points="35.5,-46.5 94.5,-46.5 "/>
+<g id="a_node2"><a xlink:href="c_0_112.html" xlink:title="{X₁ ⊆ X₂|X₂ ⊆ X₁|⇊|X₁ = X₂}" target="_parent">
+<polygon fill="#f8edd1" stroke="#7f7542" points="39,-16.5 39,-76.5 91,-76.5 91,-16.5 39,-16.5"/>
+<text text-anchor="middle" x="65" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="39,-61.5 91,-61.5 "/>
+<text text-anchor="middle" x="65" y="-50.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="39,-46.5 91,-46.5 "/>
 <text text-anchor="middle" x="65" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="35.5,-31.5 94.5,-31.5 "/>
+<polyline fill="none" stroke="#7f7542" points="39,-31.5 91,-31.5 "/>
 <text text-anchor="middle" x="65" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ = X₂</text>
 </a>
 </g>
