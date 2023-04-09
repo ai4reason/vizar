@@ -18,7 +18,7 @@ To report a bug or any other issue use the [GitHub Issues](https://github.com/ai
 
 ### VizAR syntax for Mizar symbols
 
-If you have a suggestion for a special VizAR syntax of some Mizar symbols, we would love to hear about it.
+If you have a suggestion for a specific VizAR syntax of some Mizar symbol, we would love to hear about it.
 Please send it to us in [this discussion topic](https://github.com/ai4reason/vizar/discussions/1).
 Check the information at the top of that page.
 You can simply submit a single line in the following format:
