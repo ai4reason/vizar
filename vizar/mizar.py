@@ -28,6 +28,8 @@ NOPARENS = [
    "k5_finseq_1",
    "k9_finseq_1",
    "k12_finseq_1",
+   "k1_fib_num",
+   "k2_fib_num",
 ]
 
 HREF = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/%s.html#%s"

@@ -14,11 +14,11 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="53,-120 53,-227 161,-227 161,-120 53,-120"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="56,-120 56,-227 158,-227 158,-120 56,-120"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="53,-8 53,-100 161,-100 161,-8 53,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="56,-8 56,-100 158,-100 158,-8 56,-8"/>
 </g>
 <!-- redefinition_m2_subset_1 -->
 <g id="node1" class="node">
@@ -32,18 +32,18 @@
 <!-- c_0_119 -->
 <g id="node2" class="node">
 <title>c_0_119</title>
-<g id="a_node2"><a xlink:href="c_0_119.html" xlink:title="{X₁ ∈ X₃ ⊆ X₂|X₃ ∈ bool(X₂)|⇊|X₁ ∈ X₃|X₂ = Ø|X₃ = Ø}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="61.5,-128.5 61.5,-218.5 152.5,-218.5 152.5,-128.5 61.5,-128.5"/>
+<g id="a_node2"><a xlink:href="c_0_119.html" xlink:title="{X₁ ∈ X₃ ⊆ X₂|X₃ ∈ 𝒫(X₂)|⇊|X₁ ∈ X₃|X₂ = Ø|X₃ = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="64,-128.5 64,-218.5 150,-218.5 150,-128.5 64,-128.5"/>
 <text text-anchor="middle" x="107" y="-207.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₃ ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-203.5 152.5,-203.5 "/>
-<text text-anchor="middle" x="107" y="-192.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-188.5 152.5,-188.5 "/>
+<polyline fill="none" stroke="#7f7542" points="64,-203.5 150,-203.5 "/>
+<text text-anchor="middle" x="107" y="-192.3" font-family="Times,serif" font-size="14.00">X₃ ∈ 𝒫(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="64,-188.5 150,-188.5 "/>
 <text text-anchor="middle" x="107" y="-177.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-173.5 152.5,-173.5 "/>
+<polyline fill="none" stroke="#7f7542" points="64,-173.5 150,-173.5 "/>
 <text text-anchor="middle" x="107" y="-162.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₃</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-158.5 152.5,-158.5 "/>
+<polyline fill="none" stroke="#7f7542" points="64,-158.5 150,-158.5 "/>
 <text text-anchor="middle" x="107" y="-147.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-143.5 152.5,-143.5 "/>
+<polyline fill="none" stroke="#7f7542" points="64,-143.5 150,-143.5 "/>
 <text text-anchor="middle" x="107" y="-132.3" font-family="Times,serif" font-size="14.00">X₃ = Ø</text>
 </a>
 </g>
@@ -57,16 +57,16 @@
 <!-- c_0_129 -->
 <g id="node3" class="node">
 <title>c_0_129</title>
-<g id="a_node3"><a xlink:href="c_0_129.html" xlink:title="{X₁ ∈ bool(X₃)|X₂ ∈ X₁ ⊆ X₃|⇊|X₁ = Ø|X₂ ∈ X₁}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="61.5,-16.5 61.5,-91.5 152.5,-91.5 152.5,-16.5 61.5,-16.5"/>
-<text text-anchor="middle" x="107" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-76.5 152.5,-76.5 "/>
+<g id="a_node3"><a xlink:href="c_0_129.html" xlink:title="{X₁ ∈ 𝒫(X₃)|X₂ ∈ X₁ ⊆ X₃|⇊|X₁ = Ø|X₂ ∈ X₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="64,-16.5 64,-91.5 150,-91.5 150,-16.5 64,-16.5"/>
+<text text-anchor="middle" x="107" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ∈ 𝒫(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="64,-76.5 150,-76.5 "/>
 <text text-anchor="middle" x="107" y="-65.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁ ⊆ X₃</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-61.5 152.5,-61.5 "/>
+<polyline fill="none" stroke="#7f7542" points="64,-61.5 150,-61.5 "/>
 <text text-anchor="middle" x="107" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-46.5 152.5,-46.5 "/>
+<polyline fill="none" stroke="#7f7542" points="64,-46.5 150,-46.5 "/>
 <text text-anchor="middle" x="107" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="61.5,-31.5 152.5,-31.5 "/>
+<polyline fill="none" stroke="#7f7542" points="64,-31.5 150,-31.5 "/>
 <text text-anchor="middle" x="107" y="-20.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
 </a>
 </g>

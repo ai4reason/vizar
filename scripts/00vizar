@@ -49,7 +49,7 @@ k13_xtuple_0 proj1_4
 k14_xtuple_0 proj2_4
 k12_xtuple_0 proj3_4
 k10_xtuple_0 proj4_4
-k1_zfmisc_1 bool
+k1_zfmisc_1 𝒫(###1)
 k2_zfmisc_1 ###1 × ###2
 k3_zfmisc_1 [:..:]
 k4_zfmisc_1 [:..:]
@@ -560,15 +560,15 @@ k2_xcmplx_0 +
 k3_xcmplx_0 *
 k4_xcmplx_0 -
 k5_xcmplx_0 "
-k6_xcmplx_0 -
+k6_xcmplx_0 ###1 - ###2
 k7_xcmplx_0 /
 v1_xxreal_0 ###1 ∈ 𝔼
 k1_xxreal_0 +infty
 k2_xxreal_0 -infty
 r1_xxreal_0 ≤
 r1_xxreal_0 &gt;=
-v2_xxreal_0 positive
-v3_xxreal_0 negative
+v2_xxreal_0 ###1 &gt; 0
+v3_xxreal_0 ###1 &lt; 0
 k3_xxreal_0 min
 k4_xxreal_0 max
 k5_xxreal_0 IFGT
@@ -590,7 +590,7 @@ k3_square_1 ^2
 k4_square_1 ^2
 k5_square_1 ^2
 k6_square_1 sqrt
-k7_square_1 sqrt
+k7_square_1 √###1
 k1_nat_1 +
 k2_nat_1 +
 k3_nat_1 *
@@ -1343,7 +1343,7 @@ v3_abian covering
 k2_abian =_
 k1_power -root
 k2_power -root
-k3_power to_power
+k3_power ###1 ^ ###2
 k4_power to_power
 k5_power log
 k6_power log
@@ -1432,7 +1432,7 @@ k1_trees_a tree
 k2_trees_a \{..\}
 k3_trees_a tree
 k4_trees_a tree
-k1_pre_ff Fib
+k1_pre_ff fib
 k2_pre_ff .
 k3_pre_ff Fusc
 k1_trees_3 Trees
@@ -2088,8 +2088,8 @@ m1_pythtrip Pythagorean_triple
 v2_pythtrip degenerate
 v3_pythtrip simplified
 v3_pythtrip simplified
-k1_fib_num tau
-k2_fib_num tau_bar
+k1_fib_num ½(1+√5)
+k2_fib_num ½(1-√5)
 m1_partit_2 ∈
 k1_partit_2 \{\}
 k2_partit_2 [#]
@@ -9172,7 +9172,7 @@ r1_ndiff_1 is_differentiable_in
 k3_ndiff_1 diff
 r2_ndiff_1 is_differentiable_on
 k4_ndiff_1 `\|
-k1_fib_num3 Lucas
+k1_fib_num3 lucas
 k2_fib_num3 [..]
 k3_fib_num3 GenFib
 r1_latsum_1 tolerates
