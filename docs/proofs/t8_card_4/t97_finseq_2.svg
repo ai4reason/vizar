@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="86,-120 86,-152 192,-152 192,-120 86,-120"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="98,-120 98,-152 204,-152 204,-120 98,-120"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
@@ -20,56 +20,56 @@
 <g id="node1" class="node">
 <title>t97_finseq_2</title>
 <g id="a_node1"><a xlink:href="t97_finseq_2.html" xlink:title="t97_finseq_2" target="_vizar">
-<polygon fill="#69d2e7" stroke="#7f7542" points="94,-128.5 94,-143.5 184,-143.5 184,-128.5 94,-128.5"/>
-<text text-anchor="middle" x="139" y="-132.3" font-family="Times,serif" font-size="14.00">t97_finseq_2</text>
+<polygon fill="#69d2e7" stroke="#7f7542" points="106,-128.5 106,-143.5 196,-143.5 196,-128.5 106,-128.5"/>
+<text text-anchor="middle" x="151" y="-132.3" font-family="Times,serif" font-size="14.00">t97_finseq_2</text>
 </a>
 </g>
-</g>
-<!-- c_0_56 -->
-<g id="node2" class="node">
-<title>c_0_56</title>
-<g id="a_node2"><a xlink:href="c_0_56.html" xlink:title="{X₁ ∈ fin&#45;seq(X₂)|\|X₁\|=1|⇊|X₁ = &amp;lt;sk₁₁(X₂,X₁)&amp;gt;|X₂ = Ø}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="142,-16.5 142,-91.5 274,-91.5 274,-16.5 142,-16.5"/>
-<text text-anchor="middle" x="208" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ∈ fin&#45;seq(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="142,-76.5 274,-76.5 "/>
-<text text-anchor="middle" x="208" y="-65.3" font-family="Times,serif" font-size="14.00">|X₁|=1</text>
-<polyline fill="none" stroke="#7f7542" points="142,-61.5 274,-61.5 "/>
-<text text-anchor="middle" x="208" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="142,-46.5 274,-46.5 "/>
-<text text-anchor="middle" x="208" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ = &lt;sk₁₁(X₂,X₁)&gt;</text>
-<polyline fill="none" stroke="#7f7542" points="142,-31.5 274,-31.5 "/>
-<text text-anchor="middle" x="208" y="-20.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
-</a>
-</g>
-</g>
-<!-- t97_finseq_2&#45;&gt;c_0_56 -->
-<g id="edge1" class="edge">
-<title>t97_finseq_2&#45;&gt;c_0_56</title>
-<path fill="none" stroke="black" d="M163,-128.43C163,-128.43 163,-101.67 163,-101.67"/>
-<polygon fill="black" stroke="black" points="166.5,-101.67 163,-91.67 159.5,-101.67 166.5,-101.67"/>
 </g>
 <!-- c_0_57 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_57</title>
-<g id="a_node3"><a xlink:href="c_0_57.html" xlink:title="{X₂ ∈ fin&#45;seq(X₁)|\|X₂\|=1|⇊|X₁ = Ø|sk₁₁(X₁,X₂) ∈ X₁}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-91.5 124,-91.5 124,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="70" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ ∈ fin&#45;seq(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="16,-76.5 124,-76.5 "/>
-<text text-anchor="middle" x="70" y="-65.3" font-family="Times,serif" font-size="14.00">|X₂|=1</text>
-<polyline fill="none" stroke="#7f7542" points="16,-61.5 124,-61.5 "/>
-<text text-anchor="middle" x="70" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-46.5 124,-46.5 "/>
-<text text-anchor="middle" x="70" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="16,-31.5 124,-31.5 "/>
-<text text-anchor="middle" x="70" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁₁(X₁,X₂) ∈ X₁</text>
+<g id="a_node2"><a xlink:href="c_0_57.html" xlink:title="{X₂ ∈ fin&#45;seq(X₁)|\|X₂\|=1|⇊|X₁ = Ø|sk₁₁(X₁,X₂) ∈ X₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="166,-16.5 166,-91.5 274,-91.5 274,-16.5 166,-16.5"/>
+<text text-anchor="middle" x="220" y="-80.3" font-family="Times,serif" font-size="14.00">X₂ ∈ fin&#45;seq(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="166,-76.5 274,-76.5 "/>
+<text text-anchor="middle" x="220" y="-65.3" font-family="Times,serif" font-size="14.00">|X₂|=1</text>
+<polyline fill="none" stroke="#7f7542" points="166,-61.5 274,-61.5 "/>
+<text text-anchor="middle" x="220" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="166,-46.5 274,-46.5 "/>
+<text text-anchor="middle" x="220" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="166,-31.5 274,-31.5 "/>
+<text text-anchor="middle" x="220" y="-20.3" font-family="Times,serif" font-size="14.00">sk₁₁(X₁,X₂) ∈ X₁</text>
 </a>
 </g>
 </g>
 <!-- t97_finseq_2&#45;&gt;c_0_57 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t97_finseq_2&#45;&gt;c_0_57</title>
-<path fill="none" stroke="black" d="M109,-128.43C109,-128.43 109,-101.67 109,-101.67"/>
-<polygon fill="black" stroke="black" points="112.5,-101.67 109,-91.67 105.5,-101.67 112.5,-101.67"/>
+<path fill="none" stroke="black" d="M181,-128.43C181,-128.43 181,-101.67 181,-101.67"/>
+<polygon fill="black" stroke="black" points="184.5,-101.67 181,-91.67 177.5,-101.67 184.5,-101.67"/>
+</g>
+<!-- c_0_56 -->
+<g id="node3" class="node">
+<title>c_0_56</title>
+<g id="a_node3"><a xlink:href="c_0_56.html" xlink:title="{X₁ ∈ fin&#45;seq(X₂)|\|X₁\|=1|⇊|X₁ = &amp;lt;sk₁₁(X₂,X₁)&amp;gt;|X₂ = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-91.5 148,-91.5 148,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="82" y="-80.3" font-family="Times,serif" font-size="14.00">X₁ ∈ fin&#45;seq(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-76.5 148,-76.5 "/>
+<text text-anchor="middle" x="82" y="-65.3" font-family="Times,serif" font-size="14.00">|X₁|=1</text>
+<polyline fill="none" stroke="#7f7542" points="16,-61.5 148,-61.5 "/>
+<text text-anchor="middle" x="82" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-46.5 148,-46.5 "/>
+<text text-anchor="middle" x="82" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ = &lt;sk₁₁(X₂,X₁)&gt;</text>
+<polyline fill="none" stroke="#7f7542" points="16,-31.5 148,-31.5 "/>
+<text text-anchor="middle" x="82" y="-20.3" font-family="Times,serif" font-size="14.00">X₂ = Ø</text>
+</a>
+</g>
+</g>
+<!-- t97_finseq_2&#45;&gt;c_0_56 -->
+<g id="edge2" class="edge">
+<title>t97_finseq_2&#45;&gt;c_0_56</title>
+<path fill="none" stroke="black" d="M127,-128.43C127,-128.43 127,-101.67 127,-101.67"/>
+<polygon fill="black" stroke="black" points="130.5,-101.67 127,-91.67 123.5,-101.67 130.5,-101.67"/>
 </g>
 </g>
 </svg>
