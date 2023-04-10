@@ -53,12 +53,14 @@ minima:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-#   - Gemfile
-#   - Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules
   - vendor/bundle/
   - docker-*.sh
+  - build-offline.sh
   - proofs.md/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .gitignore

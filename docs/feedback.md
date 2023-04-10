@@ -27,9 +27,3 @@ You can simply submit a single line in the following format:
 m2_subset_1   ###1 ∈ ###3 ⊆ ###2
 ```
 
-### Implementation
-
-If you want to check the implementation or you want to use VizAR on your own then check the [GitHub Repository](https://github.com/ai4reason/vizar).
-Specific instructions can be provided on demand.
-Use the [GitHub Discussions](https://github.com/ai4reason/vizar/discussions) to get it touch.
-

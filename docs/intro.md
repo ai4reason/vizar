@@ -44,13 +44,13 @@ Clauses without positive literals (for example `~C | ~D`) are displayed as:
 
 A unit clause with one negative literal is written as `¬ A` instead of `A => ⊥`
 to save space.
-This is the only case where the negation sign can be encoutered.
+This is the only case where the negation sign can be encountered.
 Moreover, we write `s ≠ t` instead of `¬ (s = t)`.
 
 #### Type annotations
 
-First-order translation of Mizar statements typically use predicates (type
-guards) to denote type of variables.
+First-order translations of Mizar statements typically use predicates (type
+guards) to denote types of variables.
 For example:
 
 ```
@@ -58,10 +58,10 @@ natural(X1), natural(X2) => natural(plus(X1,X2))
 ```
 
 To simplify the presentation, VizAR discards the type guards applied to
-variables, and introduces a different variable symbols for each type predicate,
+variables, and introduces a different variable symbol for each type predicate,
 for example, `N` for natural numbers.
 Hence the above sequent becomes just `natural(plus(N1,N2))`.
-Furthermore, VizAR uses unicode symbols to beautify clauses and in the end you
+Furthermore, VizAR uses Unicode symbols to beautify clauses and in the end, you
 will see simply `N₁ + N₂ ∈ ℕ`.
 
 The list of currently supported variable symbols is given in the following table.
@@ -106,9 +106,9 @@ VizAR provides several ways to investigate ATP proofs.
 
 #### Full proof view
 
-In the full proof view the whole proof is displayed as an directed acyclic
+In the full proof view, the whole proof is displayed as a directed acyclic
 graph as an SVG image with hyperlinks.
-The leaves correspond to assumptions (displayed blue) and all the edges can be
+The leaves correspond to assumptions (displayed in blue) and all the edges can be
 followed to the final node representing the contradiction `⊥`.
 Clicking on any node will take you to a detailed description of the
 corresponding proof step.
@@ -119,11 +119,11 @@ Since the full proof view might be very complex, VizAR features a
 conjecture-centered view where only the statements derived from the conjecture
 are displayed.
 This is a subgraph of the full proof view and the conjecture-derived nodes are
-displayed orange.
+displayed n orange.
 Additionally, for every conjecture-related node, its non-conjecture premises
 used to derive this step are displayed.
 
-This view can help you to inspect how the negation of the proved claimed is
+This view can help you to inspect how the negation of the proved claim is
 transformed into the contradiction.
 Hence it can be useful to identify the key steps of the proof.
 
@@ -131,7 +131,7 @@ Hence it can be useful to identify the key steps of the proof.
 
 In the proof step view, only a single proof graph node is displayed with its
 immediate parents and children.
-Additional information are provided about the symbols appearing in this proof
+Additional information is provided about the symbols appearing in this proof
 step.
 The proof step is visualized as follows.
 
@@ -141,22 +141,22 @@ Here the assumptions are all the premises needed to derive the claim of this ste
 The consequences are all future proof steps where the current claim is used as
 one of the premises.
 
-Again, you can click on any of nodes and this takes you to the corresponding
+Again, you can click on any of the nodes and this takes you to the corresponding
 proof step view.
-Clicking on the consequences will inevitable take you to the contradiction while
+Clicking on the consequences will inevitably take you to the contradiction while
 clicking on the assumptions will take you to one of the axioms (or to the
 conjecture if you follow orange nodes).
 
 ### Skolem symbols
 
 Skolem symbols are introduced by ATPs to eliminate existential quantifiers.
-In VizAR, they are named as `sk₁`, `sk₂` and so on.
+In VizAR, they are named `sk₁`, `sk₂`, and so on.
 Skolem symbol names are specific to each proof.
 It is important to understand their meaning and, to help you with that, VizAR
 displays their origin in the proof overview.
 Clicking on the axiom will take you to the axiom view where you will also see
 the original formula that gave rise to them.
 Investigate the Skolem symbols before diving into the proof.
-The Skolem symbols are also displayed in the proof step view, when the claim
+The Skolem symbols are also displayed in the proof step view when the claim
 contains some of them.
 

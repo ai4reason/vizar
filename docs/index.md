@@ -25,6 +25,13 @@ translated to first-order logic and proved by E Prover.
 If you have any suggestions and thusly you want to help us with the development
 of VizAR then [check the Feedback section](feedback.html).
 
+### Implementation
+
+If you want to check the implementation or you want to use VizAR on your own then check the [GitHub Repository](https://github.com/ai4reason/vizar).
+Specific instructions can be provided on demand.
+Use the [GitHub Discussions](https://github.com/ai4reason/vizar/discussions) to get it touch.
+
+
 ### Credits
 
 Development of this software prototype and web interface was supported by:

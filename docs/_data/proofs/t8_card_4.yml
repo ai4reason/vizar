@@ -48,7 +48,7 @@ axioms:
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finseq_1.html#FC24
   fraenkel_a_1_0_finseq_2:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( \xAC (X\u2082 = \xD8)\n     \u21D2\
-      \ ( (X\u2081 \u2208 (\\{&lt;x&gt;: x \u2208 X\u2082\\}))\n      \u2261 (\u2203\
+      \ ( (X\u2081 \u2208 (\\{&lt;z&gt;: z \u2208 X\u2082\\}))\n      \u2261 (\u2203\
       X\u2083)\n            ( (X\u2083 \u2208 X\u2082)\n            \u2227 X\u2081\
       \ = &lt;X\u2083&gt; ) ) ) "
     url: null
@@ -89,7 +89,7 @@ axioms:
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_4.html#T8
   t96_finseq_2:
     fof: "    (\u2200X\u2081)\n      ( \xAC (X\u2081 = \xD8)\n     \u21D2 1-tuples(X\u2081\
-      ) = (\\{&lt;x&gt;: x \u2208 X\u2081\\}) ) "
+      ) = (\\{&lt;z&gt;: z \u2208 X\u2081\\}) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finseq_2.html#T96
   t97_finseq_2:
     fof: "    (\u2200X\u2081)\n      ( \xAC (X\u2081 = \xD8)\n     \u21D2 (\u2200\
@@ -128,14 +128,14 @@ skolems:
   esk6_1:
     axiom: d4_funct_1
     related:
-    - esk7_1
     - esk6_1
+    - esk7_1
     symbol: "sk\u2086"
   esk7_1:
     axiom: d4_funct_1
     related:
-    - esk7_1
     - esk6_1
+    - esk7_1
     symbol: "sk\u2087"
   esk9_2:
     axiom: fraenkel_a_1_0_finseq_2
@@ -197,8 +197,8 @@ steps:
       v1_xboole_0: 1
       v2_funct_1: 1
     skolems:
-    - esk7_1
     - esk10_1
+    - esk7_1
   c_0_108:
     counts:
       r2_hidden: 1
@@ -278,8 +278,8 @@ steps:
       v1_relat_1: 1
       v2_funct_1: 1
     skolems:
-    - esk7_1
     - esk6_1
+    - esk7_1
   c_0_121:
     counts:
       v1_xboole_0: 1
@@ -532,16 +532,16 @@ steps:
       v1_funct_1: 1
       v1_relat_1: 1
     skolems:
-    - esk2_3
     - esk10_1
+    - esk2_3
   c_0_64:
     counts:
       k10_xtuple_0: 1
       r2_hidden: 2
       v1_xboole_0: 1
     skolems:
-    - esk2_3
     - esk10_1
+    - esk2_3
   c_0_65:
     counts:
       m1_subset_1: 1
@@ -611,8 +611,8 @@ steps:
       r2_hidden: 1
       v1_xboole_0: 1
     skolems:
-    - esk2_3
     - esk10_1
+    - esk2_3
   c_0_75:
     counts:
       k10_xtuple_0: 1
@@ -654,8 +654,8 @@ steps:
       r2_hidden: 2
       v1_xboole_0: 2
     skolems:
-    - esk2_3
     - esk10_1
+    - esk2_3
   c_0_81:
     counts:
       k10_xtuple_0: 1
@@ -663,8 +663,8 @@ steps:
       r2_hidden: 1
       v1_xboole_0: 1
     skolems:
-    - esk2_3
     - esk10_1
+    - esk2_3
   c_0_82:
     counts:
       k10_xtuple_0: 1
@@ -749,8 +749,8 @@ steps:
       v1_relat_1: 1
       v2_funct_1: 1
     skolems:
-    - esk7_1
     - esk6_1
+    - esk7_1
   c_0_94:
     counts:
       k10_xtuple_0: 1
@@ -792,8 +792,8 @@ steps:
       v1_relat_1: 1
       v2_funct_1: 1
     skolems:
-    - esk7_1
     - esk10_1
+    - esk7_1
     - esk6_1
   c_0_98:
     counts:
@@ -821,7 +821,7 @@ symbols:
     neg: 5
     pos: 7
     url: null
-    vizar: "{&lt;x&gt;: x \u2208 x}"
+    vizar: "{&lt;z&gt;: z \u2208 x}"
   k10_xtuple_0:
     arity: 1
     count: 29
