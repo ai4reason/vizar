@@ -1,0 +1,32 @@
+
+digraph proof {
+   
+   fontsize = 20;
+   graph [ 
+      overlap=false
+      //fontsize=1
+      splines=ortho
+      //splines=true
+      concentrate=true 
+      bgcolor=transparent
+      fontname="Times,serif,STIXGeneral"
+      outputorder="edgesfirst"
+   ];
+   node [ 
+      margin=0
+      width=0 
+      height=0
+      style=filled
+      fillcolor="#F8EDD1"
+      fontcolor=black
+      color="#7F7542"
+      shape=record 
+      fontname="Times,serif,STIXGeneral"
+      fontsize=20
+   ];
+
+
+	claim [ fillcolor="#F8EDD1", label="{{ℕ|𝔼|ℂ|ℝ|𝒫}|{x₀|x₁|x₂|x₃|x₄|x₅|x₆|x₇|x₈|x₉}|{∪|∩|⊆|∈|Ø|ω|≠}}" ]
+
+
+}
