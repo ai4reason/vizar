@@ -42,10 +42,10 @@ Clauses without positive literals (for example `~C | ~D`) are displayed as:
 
 ![C, D => false](images/negs.svg)
 
-A unit clause with one negative literal is written as `¬ A` instead of `A => ⊥`
+A unit clause with one negative literal is written as ¬ A instead of A => ⊥
 to save space.
 This is the only case where the negation sign can be encountered.
-Moreover, we write `s ≠ t` instead of `¬ (s = t)`.
+Moreover, we write s ≠ t instead of ¬ (s = t).
 
 #### Type annotations
 
@@ -59,10 +59,10 @@ natural(X1), natural(X2) => natural(plus(X1,X2))
 
 To simplify the presentation, VizAR discards the type guards applied to
 variables, and introduces a different variable symbol for each type predicate,
-for example, `N` for natural numbers.
+for example, N for natural numbers.
 Hence the above sequent becomes just `natural(plus(N1,N2))`.
 Furthermore, VizAR uses Unicode symbols to beautify clauses and in the end, you
-will see simply `N₁ + N₂ ∈ ℕ`.
+will see simply N₁ + N₂ ∈ ℕ.
 
 The list of currently supported variable symbols is given in the following table.
 
@@ -90,7 +90,7 @@ The list of currently supported variable symbols is given in the following table
 
 </table>
 
-For example, the statement `N₁ ∈ ℝ` should be interpreted as "Every
+For example, the statement N₁ ∈ ℝ should be interpreted as "Every
 natural number is a real number".
 
 Moreover, all negative occurrences of type guard predicates (even with a
@@ -98,7 +98,7 @@ non-variable argument) are completely avoided from displaying.
 This is because they usually provide no interesting information from the
 human point of view.
 Note that positive occurrences are left intact, otherwise, for example, when
-assuming that `√2` is irrational, the whole assumption would be discarded.
+assuming that √2 is irrational, the whole assumption would be discarded.
 
 ### Available proof views
 
@@ -109,7 +109,7 @@ VizAR provides several ways to investigate ATP proofs.
 In the full proof view, the whole proof is displayed as a directed acyclic
 graph as an SVG image with hyperlinks.
 The leaves correspond to assumptions (displayed in blue) and all the edges can be
-followed to the final node representing the contradiction `⊥`.
+followed to the final node representing the contradiction ⊥.
 Clicking on any node will take you to a detailed description of the
 corresponding proof step.
 
@@ -150,7 +150,7 @@ conjecture if you follow orange nodes).
 ### Skolem symbols
 
 Skolem symbols are introduced by ATPs to eliminate existential quantifiers.
-In VizAR, they are named `sk₁`, `sk₂`, and so on.
+In VizAR, they are named sk₁, sk₂, and so on.
 Skolem symbol names are specific to each proof.
 It is important to understand their meaning and, to help you with that, VizAR
 displays their origin in the proof overview.
