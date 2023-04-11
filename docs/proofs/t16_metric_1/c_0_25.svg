@@ -14,7 +14,7 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="36,-120 36,-197 144,-197 144,-120 36,-120"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="45,-120 45,-197 135,-197 135,-120 45,-120"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -32,14 +32,14 @@
 <!-- c_0_25 -->
 <g id="node2" class="node">
 <title>c_0_25</title>
-<g id="a_node2"><a xlink:href="c_0_25.html" xlink:title="{X₁ ∈ X₂|X₂ ∈ bool(X₃)|⇊|X₁ ∈ X₃}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="44.5,-128.5 44.5,-188.5 135.5,-188.5 135.5,-128.5 44.5,-128.5"/>
+<g id="a_node2"><a xlink:href="c_0_25.html" xlink:title="{X₁ ∈ X₂|X₂ ∈ 𝒫(X₃)|⇊|X₁ ∈ X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="53.5,-128.5 53.5,-188.5 126.5,-188.5 126.5,-128.5 53.5,-128.5"/>
 <text text-anchor="middle" x="90" y="-177.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="44.5,-173.5 135.5,-173.5 "/>
-<text text-anchor="middle" x="90" y="-162.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₃)</text>
-<polyline fill="none" stroke="#7f7542" points="44.5,-158.5 135.5,-158.5 "/>
+<polyline fill="none" stroke="#7f7542" points="53.5,-173.5 126.5,-173.5 "/>
+<text text-anchor="middle" x="90" y="-162.3" font-family="Times,serif" font-size="14.00">X₂ ∈ 𝒫(X₃)</text>
+<polyline fill="none" stroke="#7f7542" points="53.5,-158.5 126.5,-158.5 "/>
 <text text-anchor="middle" x="90" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="44.5,-143.5 135.5,-143.5 "/>
+<polyline fill="none" stroke="#7f7542" points="53.5,-143.5 126.5,-143.5 "/>
 <text text-anchor="middle" x="90" y="-132.3" font-family="Times,serif" font-size="14.00">X₁ ∈ X₃</text>
 </a>
 </g>

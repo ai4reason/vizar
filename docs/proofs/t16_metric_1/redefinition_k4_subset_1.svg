@@ -14,7 +14,7 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="24,-8 24,-85 186,-85 186,-8 24,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="12,-8 12,-85 198,-85 198,-8 12,-8"/>
 </g>
 <!-- redefinition_k4_subset_1 -->
 <g id="node1" class="node">
@@ -28,15 +28,15 @@
 <!-- c_0_68 -->
 <g id="node2" class="node">
 <title>c_0_68</title>
-<g id="a_node2"><a xlink:href="c_0_68.html" xlink:title="{X₁ ∈ bool(X₂)|X₃ ∈ bool(X₂)|⇊|X₂ \/ X₁ \/ X₃ = X₁ ∪ X₃}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="32.5,-16.5 32.5,-76.5 177.5,-76.5 177.5,-16.5 32.5,-16.5"/>
-<text text-anchor="middle" x="105" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="32.5,-61.5 177.5,-61.5 "/>
-<text text-anchor="middle" x="105" y="-50.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="32.5,-46.5 177.5,-46.5 "/>
+<g id="a_node2"><a xlink:href="c_0_68.html" xlink:title="{X₁ ∈ 𝒫(X₂)|X₃ ∈ 𝒫(X₂)|⇊|(X₁ ∪ X₃) ∩ X₂ = X₁ ∪ X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="20,-16.5 20,-76.5 190,-76.5 190,-16.5 20,-16.5"/>
+<text text-anchor="middle" x="105" y="-65.3" font-family="Times,serif" font-size="14.00">X₁ ∈ 𝒫(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="20,-61.5 190,-61.5 "/>
+<text text-anchor="middle" x="105" y="-50.3" font-family="Times,serif" font-size="14.00">X₃ ∈ 𝒫(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="20,-46.5 190,-46.5 "/>
 <text text-anchor="middle" x="105" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="32.5,-31.5 177.5,-31.5 "/>
-<text text-anchor="middle" x="105" y="-20.3" font-family="Times,serif" font-size="14.00">X₂ / X₁ / X₃ = X₁ ∪ X₃</text>
+<polyline fill="none" stroke="#7f7542" points="20,-31.5 190,-31.5 "/>
+<text text-anchor="middle" x="105" y="-20.3" font-family="Times,serif" font-size="14.00">(X₁ ∪ X₃) ∩ X₂ = X₁ ∪ X₃</text>
 </a>
 </g>
 </g>

@@ -76,7 +76,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
           ( MetrStruct(X₂)
          ⇒ (∀X₃)
               ( (X₃ ∈ carrier(X₂))
-             ⇒ (carrier(X₂) \/ Sphere(X₂,X₃,X₁) \/ Ball(X₂,X₃,X₁)) = cl_Ball(X₂,X₃,X₁) ) ) ) 
+             ⇒ ((Sphere(X₂,X₃,X₁) ∪ Ball(X₂,X₃,X₁)) ∩ carrier(X₂)) = cl_Ball(X₂,X₃,X₁) ) ) ) 
 </pre>
 
 <h2>Clausified negated conjecture</h2>
@@ -183,7 +183,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
       
       <td>cl_Ball(x,y,z)</td>
       <td>3</td>
-      <td>37</td>
+      <td>36</td>
    </tr>
 
    <tr>
@@ -211,7 +211,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
       
         <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1" target="_mizar">bool</a></td>
       
-      <td>bool(x)</td>
+      <td>𝒫(x)</td>
       <td>1</td>
       <td>48</td>
    </tr>
@@ -223,7 +223,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
       
       <td>dist(x,y,z)</td>
       <td>3</td>
-      <td>19</td>
+      <td>14</td>
    </tr>
 
    <tr>
@@ -233,7 +233,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
       
       <td>x ∪ y</td>
       <td>2</td>
-      <td>43</td>
+      <td>41</td>
    </tr>
 
    <tr>
@@ -241,7 +241,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
       
         <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#K4" target="_mizar">\/</a></td>
       
-      <td>\/</td>
+      <td>(y ∪ z) ∩ x</td>
       <td>3</td>
       <td>6</td>
    </tr>
@@ -253,7 +253,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
       
       <td>Ball(x,y,z)</td>
       <td>3</td>
-      <td>31</td>
+      <td>29</td>
    </tr>
 
    <tr>
@@ -323,7 +323,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
       
       <td>x ∈ ℝ</td>
       <td>1</td>
-      <td>32</td>
+      <td>2</td>
    </tr>
 
    <tr>
@@ -333,7 +333,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
       
       <td>x ∈ 𝔼</td>
       <td>1</td>
-      <td>5</td>
+      <td>1</td>
    </tr>
 
    <tr>
@@ -341,7 +341,7 @@ See also the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/
       
         <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/struct_0.html#V2" target="_mizar">empty</a></td>
       
-      <td>empty(x)</td>
+      <td>x = Ø</td>
       <td>1</td>
       <td>6</td>
    </tr>

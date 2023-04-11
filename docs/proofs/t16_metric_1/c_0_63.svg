@@ -32,7 +32,7 @@
 <!-- c_0_63 -->
 <g id="node2" class="node">
 <title>c_0_63</title>
-<g id="a_node2"><a xlink:href="c_0_63.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|X₃ ∈ carrier(X₁)|dist(X₁,X₂,X₃) = R₄|⇊|X₃ ∈ Sphere(X₁,X₂,R₄)|empty(X₁)}" target="_vizar">
+<g id="a_node2"><a xlink:href="c_0_63.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|X₃ ∈ carrier(X₁)|dist(X₁,X₂,X₃) = R₄|⇊|X₁ = Ø|X₃ ∈ Sphere(X₁,X₂,R₄)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="109.5,-188.5 109.5,-293.5 260.5,-293.5 260.5,-188.5 109.5,-188.5"/>
 <text text-anchor="middle" x="185" y="-282.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="109.5,-278.5 260.5,-278.5 "/>
@@ -44,9 +44,9 @@
 <polyline fill="none" stroke="#7f7542" points="109.5,-233.5 260.5,-233.5 "/>
 <text text-anchor="middle" x="185" y="-222.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="109.5,-218.5 260.5,-218.5 "/>
-<text text-anchor="middle" x="185" y="-207.3" font-family="Times,serif" font-size="14.00">X₃ ∈ Sphere(X₁,X₂,R₄)</text>
+<text text-anchor="middle" x="185" y="-207.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
 <polyline fill="none" stroke="#7f7542" points="109.5,-203.5 260.5,-203.5 "/>
-<text text-anchor="middle" x="185" y="-192.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<text text-anchor="middle" x="185" y="-192.3" font-family="Times,serif" font-size="14.00">X₃ ∈ Sphere(X₁,X₂,R₄)</text>
 </a>
 </g>
 </g>
@@ -59,13 +59,13 @@
 <!-- c_0_70 -->
 <g id="node3" class="node">
 <title>c_0_70</title>
-<g id="a_node3"><a xlink:href="c_0_70.html" xlink:title="{MetrStruct(X₁)|Sphere(X₁,X₃,R₄) ∪ X₅ ∈ bool(X₆)|X₂ ∈ bool(X₆)|X₃ ∈ carrier(X₁)|dist(X₁,X₃,sk₅(X₆,X₂,Sphere(X₁,X₃,R₄) ∪ X₅)) = R₄|sk₅(X₆,X₂,Sphere(X₁,X₃,R₄) ∪ X₅) ∈ carrier(X₁)|⇊|X₂ ⊆ Sphere(X₁,X₃,R₄) ∪ X₅|empty(X₁)}" target="_vizar">
+<g id="a_node3"><a xlink:href="c_0_70.html" xlink:title="{MetrStruct(X₁)|Sphere(X₁,X₃,R₄) ∪ X₅ ∈ 𝒫(X₆)|X₂ ∈ 𝒫(X₆)|X₃ ∈ carrier(X₁)|dist(X₁,X₃,sk₅(X₆,X₂,Sphere(X₁,X₃,R₄) ∪ X₅)) = R₄|sk₅(X₆,X₂,Sphere(X₁,X₃,R₄) ∪ X₅) ∈ carrier(X₁)|⇊|X₁ = Ø|X₂ ⊆ Sphere(X₁,X₃,R₄) ∪ X₅}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-151.5 353.5,-151.5 353.5,-16.5 16.5,-16.5"/>
 <text text-anchor="middle" x="185" y="-140.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-136.5 353.5,-136.5 "/>
-<text text-anchor="middle" x="185" y="-125.3" font-family="Times,serif" font-size="14.00">Sphere(X₁,X₃,R₄) ∪ X₅ ∈ bool(X₆)</text>
+<text text-anchor="middle" x="185" y="-125.3" font-family="Times,serif" font-size="14.00">Sphere(X₁,X₃,R₄) ∪ X₅ ∈ 𝒫(X₆)</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-121.5 353.5,-121.5 "/>
-<text text-anchor="middle" x="185" y="-110.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₆)</text>
+<text text-anchor="middle" x="185" y="-110.3" font-family="Times,serif" font-size="14.00">X₂ ∈ 𝒫(X₆)</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-106.5 353.5,-106.5 "/>
 <text text-anchor="middle" x="185" y="-95.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-91.5 353.5,-91.5 "/>
@@ -75,9 +75,9 @@
 <polyline fill="none" stroke="#7f7542" points="16.5,-61.5 353.5,-61.5 "/>
 <text text-anchor="middle" x="185" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-46.5 353.5,-46.5 "/>
-<text text-anchor="middle" x="185" y="-35.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ Sphere(X₁,X₃,R₄) ∪ X₅</text>
+<text text-anchor="middle" x="185" y="-35.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
 <polyline fill="none" stroke="#7f7542" points="16.5,-31.5 353.5,-31.5 "/>
-<text text-anchor="middle" x="185" y="-20.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<text text-anchor="middle" x="185" y="-20.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ Sphere(X₁,X₃,R₄) ∪ X₅</text>
 </a>
 </g>
 </g>

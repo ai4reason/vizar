@@ -23,11 +23,11 @@
 <!-- c_0_62 -->
 <g id="node1" class="node">
 <title>c_0_62</title>
-<g id="a_node1"><a xlink:href="c_0_62.html" xlink:title="{X₁ ∈ bool(X₄)|X₂ ∪ X₃ ∈ bool(X₄)|sk₅(X₄,X₁,X₂ ∪ X₃) ∈ X₂|⇊|X₁ ⊆ X₂ ∪ X₃}" target="_vizar">
+<g id="a_node1"><a xlink:href="c_0_62.html" xlink:title="{X₁ ∈ 𝒫(X₄)|X₂ ∪ X₃ ∈ 𝒫(X₄)|sk₅(X₄,X₁,X₂ ∪ X₃) ∈ X₂|⇊|X₁ ⊆ X₂ ∪ X₃}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="187.5,-330.5 187.5,-405.5 344.5,-405.5 344.5,-330.5 187.5,-330.5"/>
-<text text-anchor="middle" x="266" y="-394.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₄)</text>
+<text text-anchor="middle" x="266" y="-394.3" font-family="Times,serif" font-size="14.00">X₁ ∈ 𝒫(X₄)</text>
 <polyline fill="none" stroke="#7f7542" points="187.5,-390.5 344.5,-390.5 "/>
-<text text-anchor="middle" x="266" y="-379.3" font-family="Times,serif" font-size="14.00">X₂ ∪ X₃ ∈ bool(X₄)</text>
+<text text-anchor="middle" x="266" y="-379.3" font-family="Times,serif" font-size="14.00">X₂ ∪ X₃ ∈ 𝒫(X₄)</text>
 <polyline fill="none" stroke="#7f7542" points="187.5,-375.5 344.5,-375.5 "/>
 <text text-anchor="middle" x="266" y="-364.3" font-family="Times,serif" font-size="14.00">sk₅(X₄,X₁,X₂ ∪ X₃) ∈ X₂</text>
 <polyline fill="none" stroke="#7f7542" points="187.5,-360.5 344.5,-360.5 "/>
@@ -40,13 +40,13 @@
 <!-- c_0_70 -->
 <g id="node3" class="node">
 <title>c_0_70</title>
-<g id="a_node3"><a xlink:href="c_0_70.html" xlink:title="{MetrStruct(X₁)|Sphere(X₁,X₃,R₄) ∪ X₅ ∈ bool(X₆)|X₂ ∈ bool(X₆)|X₃ ∈ carrier(X₁)|dist(X₁,X₃,sk₅(X₆,X₂,Sphere(X₁,X₃,R₄) ∪ X₅)) = R₄|sk₅(X₆,X₂,Sphere(X₁,X₃,R₄) ∪ X₅) ∈ carrier(X₁)|⇊|X₂ ⊆ Sphere(X₁,X₃,R₄) ∪ X₅|empty(X₁)}" target="_vizar">
+<g id="a_node3"><a xlink:href="c_0_70.html" xlink:title="{MetrStruct(X₁)|Sphere(X₁,X₃,R₄) ∪ X₅ ∈ 𝒫(X₆)|X₂ ∈ 𝒫(X₆)|X₃ ∈ carrier(X₁)|dist(X₁,X₃,sk₅(X₆,X₂,Sphere(X₁,X₃,R₄) ∪ X₅)) = R₄|sk₅(X₆,X₂,Sphere(X₁,X₃,R₄) ∪ X₅) ∈ carrier(X₁)|⇊|X₁ = Ø|X₂ ⊆ Sphere(X₁,X₃,R₄) ∪ X₅}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="29.5,-143.5 29.5,-278.5 366.5,-278.5 366.5,-143.5 29.5,-143.5"/>
 <text text-anchor="middle" x="198" y="-267.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="29.5,-263.5 366.5,-263.5 "/>
-<text text-anchor="middle" x="198" y="-252.3" font-family="Times,serif" font-size="14.00">Sphere(X₁,X₃,R₄) ∪ X₅ ∈ bool(X₆)</text>
+<text text-anchor="middle" x="198" y="-252.3" font-family="Times,serif" font-size="14.00">Sphere(X₁,X₃,R₄) ∪ X₅ ∈ 𝒫(X₆)</text>
 <polyline fill="none" stroke="#7f7542" points="29.5,-248.5 366.5,-248.5 "/>
-<text text-anchor="middle" x="198" y="-237.3" font-family="Times,serif" font-size="14.00">X₂ ∈ bool(X₆)</text>
+<text text-anchor="middle" x="198" y="-237.3" font-family="Times,serif" font-size="14.00">X₂ ∈ 𝒫(X₆)</text>
 <polyline fill="none" stroke="#7f7542" points="29.5,-233.5 366.5,-233.5 "/>
 <text text-anchor="middle" x="198" y="-222.3" font-family="Times,serif" font-size="14.00">X₃ ∈ carrier(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="29.5,-218.5 366.5,-218.5 "/>
@@ -56,9 +56,9 @@
 <polyline fill="none" stroke="#7f7542" points="29.5,-188.5 366.5,-188.5 "/>
 <text text-anchor="middle" x="198" y="-177.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="29.5,-173.5 366.5,-173.5 "/>
-<text text-anchor="middle" x="198" y="-162.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ Sphere(X₁,X₃,R₄) ∪ X₅</text>
+<text text-anchor="middle" x="198" y="-162.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
 <polyline fill="none" stroke="#7f7542" points="29.5,-158.5 366.5,-158.5 "/>
-<text text-anchor="middle" x="198" y="-147.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<text text-anchor="middle" x="198" y="-147.3" font-family="Times,serif" font-size="14.00">X₂ ⊆ Sphere(X₁,X₃,R₄) ∪ X₅</text>
 </a>
 </g>
 </g>
@@ -71,7 +71,7 @@
 <!-- c_0_63 -->
 <g id="node2" class="node">
 <title>c_0_63</title>
-<g id="a_node2"><a xlink:href="c_0_63.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|X₃ ∈ carrier(X₁)|dist(X₁,X₂,X₃) = R₄|⇊|X₃ ∈ Sphere(X₁,X₂,R₄)|empty(X₁)}" target="_vizar">
+<g id="a_node2"><a xlink:href="c_0_63.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|X₃ ∈ carrier(X₁)|dist(X₁,X₂,X₃) = R₄|⇊|X₁ = Ø|X₃ ∈ Sphere(X₁,X₂,R₄)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="18.5,-315.5 18.5,-420.5 169.5,-420.5 169.5,-315.5 18.5,-315.5"/>
 <text text-anchor="middle" x="94" y="-409.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="18.5,-405.5 169.5,-405.5 "/>
@@ -83,9 +83,9 @@
 <polyline fill="none" stroke="#7f7542" points="18.5,-360.5 169.5,-360.5 "/>
 <text text-anchor="middle" x="94" y="-349.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="18.5,-345.5 169.5,-345.5 "/>
-<text text-anchor="middle" x="94" y="-334.3" font-family="Times,serif" font-size="14.00">X₃ ∈ Sphere(X₁,X₂,R₄)</text>
+<text text-anchor="middle" x="94" y="-334.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
 <polyline fill="none" stroke="#7f7542" points="18.5,-330.5 169.5,-330.5 "/>
-<text text-anchor="middle" x="94" y="-319.3" font-family="Times,serif" font-size="14.00">empty(X₁)</text>
+<text text-anchor="middle" x="94" y="-319.3" font-family="Times,serif" font-size="14.00">X₃ ∈ Sphere(X₁,X₂,R₄)</text>
 </a>
 </g>
 </g>
@@ -98,15 +98,15 @@
 <!-- c_0_78 -->
 <g id="node4" class="node">
 <title>c_0_78</title>
-<g id="a_node4"><a xlink:href="c_0_78.html" xlink:title="{MetrStruct(X₁)|Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃) ∈ bool(X₄)|X₂ ∈ carrier(X₁)|cl_Ball(X₁,X₂,R₃) ∈ bool(X₄)|⇊|cl_Ball(X₁,X₂,R₃) ⊆ Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃)}" target="_vizar">
+<g id="a_node4"><a xlink:href="c_0_78.html" xlink:title="{MetrStruct(X₁)|Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃) ∈ 𝒫(X₄)|X₂ ∈ carrier(X₁)|cl_Ball(X₁,X₂,R₃) ∈ 𝒫(X₄)|⇊|cl_Ball(X₁,X₂,R₃) ⊆ Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-106.5 380,-106.5 380,-16.5 16,-16.5"/>
 <text text-anchor="middle" x="198" y="-95.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-91.5 380,-91.5 "/>
-<text text-anchor="middle" x="198" y="-80.3" font-family="Times,serif" font-size="14.00">Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃) ∈ bool(X₄)</text>
+<text text-anchor="middle" x="198" y="-80.3" font-family="Times,serif" font-size="14.00">Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃) ∈ 𝒫(X₄)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-76.5 380,-76.5 "/>
 <text text-anchor="middle" x="198" y="-65.3" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-61.5 380,-61.5 "/>
-<text text-anchor="middle" x="198" y="-50.3" font-family="Times,serif" font-size="14.00">cl_Ball(X₁,X₂,R₃) ∈ bool(X₄)</text>
+<text text-anchor="middle" x="198" y="-50.3" font-family="Times,serif" font-size="14.00">cl_Ball(X₁,X₂,R₃) ∈ 𝒫(X₄)</text>
 <polyline fill="none" stroke="#7f7542" points="16,-46.5 380,-46.5 "/>
 <text text-anchor="middle" x="198" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
 <polyline fill="none" stroke="#7f7542" points="16,-31.5 380,-31.5 "/>

@@ -74,9 +74,9 @@ See the <a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subse
 
 <pre>
     (∀X₁,X₂,X₃)
-      ( ( (X₂ ∈ bool(X₁))
-        ∧ (X₃ ∈ bool(X₁)) )
-     ⇒ (X₁ \/ X₂ \/ X₃) = (X₁ \/ X₃ \/ X₂) ) 
+      ( ( (X₂ ∈ (𝒫(X₁)))
+        ∧ (X₃ ∈ (𝒫(X₁))) )
+     ⇒ ((X₂ ∪ X₃) ∩ X₁) = ((X₃ ∪ X₂) ∩ X₁) ) 
 </pre>
 
 

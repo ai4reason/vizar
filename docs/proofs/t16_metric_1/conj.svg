@@ -16,25 +16,25 @@
 <g id="node1" class="node">
 <title>t16_metric_1</title>
 <g id="a_node1"><a xlink:href="t16_metric_1.html" xlink:title="t16_metric_1" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="394,-471.5 394,-486.5 488,-486.5 488,-471.5 394,-471.5"/>
-<text text-anchor="middle" x="441" y="-475.3" font-family="Times,serif" font-size="14.00">t16_metric_1</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="381,-471.5 381,-486.5 475,-486.5 475,-471.5 381,-471.5"/>
+<text text-anchor="middle" x="428" y="-475.3" font-family="Times,serif" font-size="14.00">t16_metric_1</text>
 </a>
 </g>
 </g>
 <!-- c_0_90 -->
 <g id="node2" class="node">
 <title>c_0_90</title>
-<g id="a_node2"><a xlink:href="c_0_90.html" xlink:title="{carrier(sk₂) \/ Sphere(sk₂,sk₃,sk₁) \/ Ball(sk₂,sk₃,sk₁) ≠ cl_Ball(sk₂,sk₃,sk₁)}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="190,-397 190,-412 692,-412 692,-397 190,-397"/>
-<text text-anchor="middle" x="441" y="-400.8" font-family="Times,serif" font-size="14.00">carrier(sk₂) / Sphere(sk₂,sk₃,sk₁) / Ball(sk₂,sk₃,sk₁) ≠ cl_Ball(sk₂,sk₃,sk₁)</text>
+<g id="a_node2"><a xlink:href="c_0_90.html" xlink:title="{(Sphere(sk₂,sk₃,sk₁) ∪ Ball(sk₂,sk₃,sk₁)) ∩ carrier(sk₂) ≠ cl_Ball(sk₂,sk₃,sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="164.5,-397 164.5,-412 691.5,-412 691.5,-397 164.5,-397"/>
+<text text-anchor="middle" x="428" y="-400.8" font-family="Times,serif" font-size="14.00">(Sphere(sk₂,sk₃,sk₁) ∪ Ball(sk₂,sk₃,sk₁)) ∩ carrier(sk₂) ≠ cl_Ball(sk₂,sk₃,sk₁)</text>
 </a>
 </g>
 </g>
 <!-- t16_metric_1&#45;&gt;c_0_90 -->
 <g id="edge1" class="edge">
 <title>t16_metric_1&#45;&gt;c_0_90</title>
-<path fill="none" stroke="black" d="M441,-471.31C441,-471.31 441,-422.26 441,-422.26"/>
-<polygon fill="black" stroke="black" points="444.5,-422.26 441,-412.26 437.5,-422.26 444.5,-422.26"/>
+<path fill="none" stroke="black" d="M428,-471.31C428,-471.31 428,-422.26 428,-422.26"/>
+<polygon fill="black" stroke="black" points="431.5,-422.26 428,-412.26 424.5,-422.26 431.5,-422.26"/>
 </g>
 <!-- c_0_97 -->
 <g id="node4" class="node">
@@ -48,8 +48,8 @@
 <!-- t16_metric_1&#45;&gt;c_0_97 -->
 <g id="edge3" class="edge">
 <title>t16_metric_1&#45;&gt;c_0_97</title>
-<path fill="none" stroke="black" d="M488.04,-479C570.33,-479 731.75,-479 731.75,-479 731.75,-479 731.75,-317.69 731.75,-317.69"/>
-<polygon fill="black" stroke="black" points="735.25,-317.69 731.75,-307.69 728.25,-317.69 735.25,-317.69"/>
+<path fill="none" stroke="black" d="M475.09,-479C560.34,-479 731.5,-479 731.5,-479 731.5,-479 731.5,-317.69 731.5,-317.69"/>
+<polygon fill="black" stroke="black" points="735,-317.69 731.5,-307.69 728,-317.69 735,-317.69"/>
 </g>
 <!-- c_0_98 -->
 <g id="node5" class="node">
@@ -63,7 +63,7 @@
 <!-- t16_metric_1&#45;&gt;c_0_98 -->
 <g id="edge4" class="edge">
 <title>t16_metric_1&#45;&gt;c_0_98</title>
-<path fill="none" stroke="black" d="M393.89,-481C294.41,-481 72,-481 72,-481 72,-481 72,-317.78 72,-317.78"/>
+<path fill="none" stroke="black" d="M380.73,-481C283.89,-481 72,-481 72,-481 72,-481 72,-317.78 72,-317.78"/>
 <polygon fill="black" stroke="black" points="75.5,-317.78 72,-307.78 68.5,-317.78 75.5,-317.78"/>
 </g>
 <!-- c_0_99 -->
@@ -78,17 +78,17 @@
 <!-- t16_metric_1&#45;&gt;c_0_99 -->
 <g id="edge5" class="edge">
 <title>t16_metric_1&#45;&gt;c_0_99</title>
-<path fill="none" stroke="black" d="M393.8,-476C315.74,-476 168.25,-476 168.25,-476 168.25,-476 168.25,-317.56 168.25,-317.56"/>
-<polygon fill="black" stroke="black" points="171.75,-317.56 168.25,-307.56 164.75,-317.56 171.75,-317.56"/>
+<path fill="none" stroke="black" d="M380.85,-476C302.85,-476 155.5,-476 155.5,-476 155.5,-476 155.5,-317.56 155.5,-317.56"/>
+<polygon fill="black" stroke="black" points="159,-317.56 155.5,-307.56 152,-317.56 159,-317.56"/>
 </g>
 <!-- c_0_95 -->
 <g id="node3" class="node">
 <title>c_0_95</title>
-<g id="a_node3"><a xlink:href="c_0_95.html" xlink:title="{Ball(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂))|Sphere(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂))|Sphere(sk₂,sk₃,sk₁) ∪ Ball(sk₂,sk₃,sk₁) = cl_Ball(sk₂,sk₃,sk₁)|⇊|⊥}" target="_vizar">
+<g id="a_node3"><a xlink:href="c_0_95.html" xlink:title="{Ball(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂))|Sphere(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂))|Sphere(sk₂,sk₃,sk₁) ∪ Ball(sk₂,sk₃,sk₁) = cl_Ball(sk₂,sk₃,sk₁)|⇊|⊥}" target="_vizar">
 <polygon fill="#fa6900" stroke="#7f7542" points="217.5,-262.5 217.5,-337.5 632.5,-337.5 632.5,-262.5 217.5,-262.5"/>
-<text text-anchor="middle" x="425" y="-326.3" font-family="Times,serif" font-size="14.00">Ball(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂))</text>
+<text text-anchor="middle" x="425" y="-326.3" font-family="Times,serif" font-size="14.00">Ball(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂))</text>
 <polyline fill="none" stroke="#7f7542" points="217.5,-322.5 632.5,-322.5 "/>
-<text text-anchor="middle" x="425" y="-311.3" font-family="Times,serif" font-size="14.00">Sphere(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂))</text>
+<text text-anchor="middle" x="425" y="-311.3" font-family="Times,serif" font-size="14.00">Sphere(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂))</text>
 <polyline fill="none" stroke="#7f7542" points="217.5,-307.5 632.5,-307.5 "/>
 <text text-anchor="middle" x="425" y="-296.3" font-family="Times,serif" font-size="14.00">Sphere(sk₂,sk₃,sk₁) ∪ Ball(sk₂,sk₃,sk₁) = cl_Ball(sk₂,sk₃,sk₁)</text>
 <polyline fill="none" stroke="#7f7542" points="217.5,-292.5 632.5,-292.5 "/>
@@ -107,154 +107,133 @@
 <!-- c_0_100 -->
 <g id="node7" class="node">
 <title>c_0_100</title>
-<g id="a_node7"><a xlink:href="c_0_100.html" xlink:title="{Ball(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂))|Sphere(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂))|⇊|⊥}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="346,-165.5 346,-225.5 620,-225.5 620,-165.5 346,-165.5"/>
-<text text-anchor="middle" x="483" y="-214.3" font-family="Times,serif" font-size="14.00">Ball(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂))</text>
-<polyline fill="none" stroke="#7f7542" points="346,-210.5 620,-210.5 "/>
-<text text-anchor="middle" x="483" y="-199.3" font-family="Times,serif" font-size="14.00">Sphere(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂))</text>
-<polyline fill="none" stroke="#7f7542" points="346,-195.5 620,-195.5 "/>
-<text text-anchor="middle" x="483" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="346,-180.5 620,-180.5 "/>
-<text text-anchor="middle" x="483" y="-169.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<g id="a_node7"><a xlink:href="c_0_100.html" xlink:title="{Ball(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂))|Sphere(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂))|⇊|⊥}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="359,-165.5 359,-225.5 615,-225.5 615,-165.5 359,-165.5"/>
+<text text-anchor="middle" x="487" y="-214.3" font-family="Times,serif" font-size="14.00">Ball(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂))</text>
+<polyline fill="none" stroke="#7f7542" points="359,-210.5 615,-210.5 "/>
+<text text-anchor="middle" x="487" y="-199.3" font-family="Times,serif" font-size="14.00">Sphere(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂))</text>
+<polyline fill="none" stroke="#7f7542" points="359,-195.5 615,-195.5 "/>
+<text text-anchor="middle" x="487" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="359,-180.5 615,-180.5 "/>
+<text text-anchor="middle" x="487" y="-169.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_95&#45;&gt;c_0_100 -->
 <g id="edge6" class="edge">
 <title>c_0_95&#45;&gt;c_0_100</title>
-<path fill="none" stroke="black" d="M483,-262.27C483,-262.27 483,-235.64 483,-235.64"/>
-<polygon fill="black" stroke="black" points="486.5,-235.64 483,-225.64 479.5,-235.64 486.5,-235.64"/>
+<path fill="none" stroke="black" d="M487,-262.27C487,-262.27 487,-235.64 487,-235.64"/>
+<polygon fill="black" stroke="black" points="490.5,-235.64 487,-225.64 483.5,-235.64 490.5,-235.64"/>
 </g>
 <!-- c_0_97&#45;&gt;c_0_100 -->
-<g id="edge7" class="edge">
+<g id="edge8" class="edge">
 <title>c_0_97&#45;&gt;c_0_100</title>
-<path fill="none" stroke="black" d="M680.75,-292.33C680.75,-270.56 680.75,-210 680.75,-210 680.75,-210 630.07,-210 630.07,-210"/>
-<polygon fill="black" stroke="black" points="630.07,-206.5 620.07,-210 630.07,-213.5 630.07,-206.5"/>
+<path fill="none" stroke="black" d="M680.75,-292.33C680.75,-270.56 680.75,-210 680.75,-210 680.75,-210 625.16,-210 625.16,-210"/>
+<polygon fill="black" stroke="black" points="625.16,-206.5 615.16,-210 625.16,-213.5 625.16,-206.5"/>
 </g>
 <!-- c_0_101 -->
 <g id="node8" class="node">
 <title>c_0_101</title>
-<g id="a_node8"><a xlink:href="c_0_101.html" xlink:title="{¬ (Sphere(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂)))}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="332.5,-91 332.5,-106 633.5,-106 633.5,-91 332.5,-91"/>
-<text text-anchor="middle" x="483" y="-94.8" font-family="Times,serif" font-size="14.00">¬ (Sphere(sk₂,sk₃,sk₁) ∈ bool(carrier(sk₂)))</text>
+<g id="a_node8"><a xlink:href="c_0_101.html" xlink:title="{¬ (Sphere(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂)))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="345.5,-91 345.5,-106 628.5,-106 628.5,-91 345.5,-91"/>
+<text text-anchor="middle" x="487" y="-94.8" font-family="Times,serif" font-size="14.00">¬ (Sphere(sk₂,sk₃,sk₁) ∈ 𝒫(carrier(sk₂)))</text>
 </a>
 </g>
 </g>
 <!-- c_0_97&#45;&gt;c_0_101 -->
 <g id="edge11" class="edge">
 <title>c_0_97&#45;&gt;c_0_101</title>
-<path fill="none" stroke="black" d="M711,-292.33C711,-255.43 711,-98 711,-98 711,-98 643.81,-98 643.81,-98"/>
-<polygon fill="black" stroke="black" points="643.81,-94.5 633.81,-98 643.81,-101.5 643.81,-94.5"/>
+<path fill="none" stroke="black" d="M711,-292.33C711,-255.43 711,-98 711,-98 711,-98 638.54,-98 638.54,-98"/>
+<polygon fill="black" stroke="black" points="638.54,-94.5 628.54,-98 638.54,-101.5 638.54,-94.5"/>
 </g>
 <!-- c_0_102 -->
 <g id="node9" class="node">
 <title>c_0_102</title>
 <g id="a_node9"><a xlink:href="c_0_102.html" xlink:title="⊥" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="561,-16.5 561,-31.5 575,-31.5 575,-16.5 561,-16.5"/>
-<text text-anchor="middle" x="568" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="560,-16.5 560,-31.5 574,-31.5 574,-16.5 560,-16.5"/>
+<text text-anchor="middle" x="567" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
 <!-- c_0_97&#45;&gt;c_0_102 -->
-<g id="edge15" class="edge">
+<g id="edge16" class="edge">
 <title>c_0_97&#45;&gt;c_0_102</title>
-<path fill="none" stroke="black" d="M741.25,-292.33C741.25,-247.75 741.25,-24 741.25,-24 741.25,-24 585.01,-24 585.01,-24"/>
-<polygon fill="black" stroke="black" points="585.01,-20.5 575.01,-24 585.01,-27.5 585.01,-20.5"/>
+<path fill="none" stroke="black" d="M741.25,-292.33C741.25,-247.75 741.25,-24 741.25,-24 741.25,-24 584.05,-24 584.05,-24"/>
+<polygon fill="black" stroke="black" points="584.05,-20.5 574.05,-24 584.05,-27.5 584.05,-20.5"/>
 </g>
 <!-- c_0_98&#45;&gt;c_0_100 -->
-<g id="edge8" class="edge">
+<g id="edge7" class="edge">
 <title>c_0_98&#45;&gt;c_0_100</title>
-<path fill="none" stroke="black" d="M100,-292.45C100,-266.87 100,-185 100,-185 100,-185 335.81,-185 335.81,-185"/>
-<polygon fill="black" stroke="black" points="335.81,-188.5 345.81,-185 335.81,-181.5 335.81,-188.5"/>
+<path fill="none" stroke="black" d="M100,-292.45C100,-266.87 100,-185 100,-185 100,-185 348.94,-185 348.94,-185"/>
+<polygon fill="black" stroke="black" points="348.94,-188.5 358.94,-185 348.94,-181.5 348.94,-188.5"/>
 </g>
 <!-- c_0_98&#45;&gt;c_0_101 -->
-<g id="edge12" class="edge">
+<g id="edge10" class="edge">
 <title>c_0_98&#45;&gt;c_0_101</title>
-<path fill="none" stroke="black" d="M72,-292.21C72,-254.77 72,-95 72,-95 72,-95 322.29,-95 322.29,-95"/>
-<polygon fill="black" stroke="black" points="322.29,-98.5 332.29,-95 322.29,-91.5 322.29,-98.5"/>
+<path fill="none" stroke="black" d="M72,-292.21C72,-254.77 72,-95 72,-95 72,-95 335.34,-95 335.34,-95"/>
+<polygon fill="black" stroke="black" points="335.34,-98.5 345.34,-95 335.34,-91.5 335.34,-98.5"/>
 </g>
 <!-- c_0_98&#45;&gt;c_0_102 -->
-<g id="edge17" class="edge">
+<g id="edge14" class="edge">
 <title>c_0_98&#45;&gt;c_0_102</title>
-<path fill="none" stroke="black" d="M44,-292.25C44,-247.19 44,-21 44,-21 44,-21 550.99,-21 550.99,-21"/>
-<polygon fill="black" stroke="black" points="550.99,-24.5 560.99,-21 550.99,-17.5 550.99,-24.5"/>
+<path fill="none" stroke="black" d="M44,-292.25C44,-247.19 44,-21 44,-21 44,-21 549.61,-21 549.61,-21"/>
+<polygon fill="black" stroke="black" points="549.61,-24.5 559.61,-21 549.61,-17.5 549.61,-24.5"/>
 </g>
 <!-- c_0_99&#45;&gt;c_0_100 -->
 <g id="edge9" class="edge">
 <title>c_0_99&#45;&gt;c_0_100</title>
-<path fill="none" stroke="black" d="M186.25,-292.23C186.25,-269.54 186.25,-205 186.25,-205 186.25,-205 335.92,-205 335.92,-205"/>
-<polygon fill="black" stroke="black" points="335.92,-208.5 345.92,-205 335.92,-201.5 335.92,-208.5"/>
+<path fill="none" stroke="black" d="M186.25,-292.23C186.25,-269.54 186.25,-205 186.25,-205 186.25,-205 348.58,-205 348.58,-205"/>
+<polygon fill="black" stroke="black" points="348.58,-208.5 358.58,-205 348.58,-201.5 348.58,-208.5"/>
 </g>
 <!-- c_0_99&#45;&gt;c_0_101 -->
 <g id="edge13" class="edge">
 <title>c_0_99&#45;&gt;c_0_101</title>
-<path fill="none" stroke="black" d="M173,-292.44C173,-256.09 173,-101 173,-101 173,-101 322.09,-101 322.09,-101"/>
-<polygon fill="black" stroke="black" points="322.09,-104.5 332.09,-101 322.09,-97.5 322.09,-104.5"/>
+<path fill="none" stroke="black" d="M173,-292.44C173,-256.09 173,-101 173,-101 173,-101 335.16,-101 335.16,-101"/>
+<polygon fill="black" stroke="black" points="335.16,-104.5 345.16,-101 335.16,-97.5 335.16,-104.5"/>
 </g>
 <!-- c_0_99&#45;&gt;c_0_102 -->
-<g id="edge14" class="edge">
+<g id="edge17" class="edge">
 <title>c_0_99&#45;&gt;c_0_102</title>
-<path fill="none" stroke="black" d="M159.75,-292.39C159.75,-248.13 159.75,-26 159.75,-26 159.75,-26 550.91,-26 550.91,-26"/>
-<polygon fill="black" stroke="black" points="550.91,-29.5 560.91,-26 550.91,-22.5 550.91,-29.5"/>
+<path fill="none" stroke="black" d="M159.75,-292.39C159.75,-248.13 159.75,-26 159.75,-26 159.75,-26 549.93,-26 549.93,-26"/>
+<polygon fill="black" stroke="black" points="549.93,-29.5 559.93,-26 549.93,-22.5 549.93,-29.5"/>
 </g>
 <!-- c_0_100&#45;&gt;c_0_101 -->
-<g id="edge10" class="edge">
+<g id="edge12" class="edge">
 <title>c_0_100&#45;&gt;c_0_101</title>
-<path fill="none" stroke="black" d="M483,-165.34C483,-165.34 483,-116.12 483,-116.12"/>
-<polygon fill="black" stroke="black" points="486.5,-116.12 483,-106.12 479.5,-116.12 486.5,-116.12"/>
+<path fill="none" stroke="black" d="M487,-165.34C487,-165.34 487,-116.12 487,-116.12"/>
+<polygon fill="black" stroke="black" points="490.5,-116.12 487,-106.12 483.5,-116.12 490.5,-116.12"/>
 </g>
 <!-- c_0_101&#45;&gt;c_0_102 -->
-<g id="edge16" class="edge">
+<g id="edge15" class="edge">
 <title>c_0_101&#45;&gt;c_0_102</title>
-<path fill="none" stroke="black" d="M565.67,-90.81C565.67,-90.81 565.67,-41.76 565.67,-41.76"/>
-<polygon fill="black" stroke="black" points="569.17,-41.76 565.67,-31.76 562.17,-41.76 569.17,-41.76"/>
+<path fill="none" stroke="black" d="M564.67,-90.81C564.67,-90.81 564.67,-41.76 564.67,-41.76"/>
+<polygon fill="black" stroke="black" points="568.17,-41.76 564.67,-31.76 561.17,-41.76 568.17,-41.76"/>
 </g>
-<!-- c_0_68 -->
+<!-- c_0_86 -->
 <g id="node10" class="node">
-<title>c_0_68</title>
-<g id="a_node10"><a xlink:href="c_0_68.html" xlink:title="{X₁ ∈ bool(X₂)|X₃ ∈ bool(X₂)|⇊|X₂ \/ X₁ \/ X₃ = X₁ ∪ X₃}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="788.5,-374.5 788.5,-434.5 933.5,-434.5 933.5,-374.5 788.5,-374.5"/>
-<text text-anchor="middle" x="861" y="-423.3" font-family="Times,serif" font-size="14.00">X₁ ∈ bool(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="788.5,-419.5 933.5,-419.5 "/>
-<text text-anchor="middle" x="861" y="-408.3" font-family="Times,serif" font-size="14.00">X₃ ∈ bool(X₂)</text>
-<polyline fill="none" stroke="#7f7542" points="788.5,-404.5 933.5,-404.5 "/>
-<text text-anchor="middle" x="861" y="-393.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="788.5,-389.5 933.5,-389.5 "/>
-<text text-anchor="middle" x="861" y="-378.3" font-family="Times,serif" font-size="14.00">X₂ / X₁ / X₃ = X₁ ∪ X₃</text>
+<title>c_0_86</title>
+<g id="a_node10"><a xlink:href="c_0_86.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|⇊|Ball(X₁,X₂,R₃) ∈ 𝒫(carrier(X₁))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="788,-165.5 788,-225.5 998,-225.5 998,-165.5 788,-165.5"/>
+<text text-anchor="middle" x="893" y="-214.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="788,-210.5 998,-210.5 "/>
+<text text-anchor="middle" x="893" y="-199.3" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="788,-195.5 998,-195.5 "/>
+<text text-anchor="middle" x="893" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="788,-180.5 998,-180.5 "/>
+<text text-anchor="middle" x="893" y="-169.3" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,R₃) ∈ 𝒫(carrier(X₁))</text>
 </a>
 </g>
 </g>
-<!-- c_0_68&#45;&gt;c_0_95 -->
+<!-- c_0_86&#45;&gt;c_0_101 -->
 <g id="edge18" class="edge">
-<title>c_0_68&#45;&gt;c_0_95</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M861.75,-374.19C861.75,-355.08 861.75,-334 861.75,-334 861.75,-334 642.5,-334 642.5,-334"/>
-<polygon fill="black" stroke="black" points="642.5,-330.5 632.5,-334 642.5,-337.5 642.5,-330.5"/>
-</g>
-<!-- c_0_87 -->
-<g id="node11" class="node">
-<title>c_0_87</title>
-<g id="a_node11"><a xlink:href="c_0_87.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|⇊|Sphere(X₁,X₂,R₃) ∈ bool(carrier(X₁))}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="788.5,-68.5 788.5,-128.5 1039.5,-128.5 1039.5,-68.5 788.5,-68.5"/>
-<text text-anchor="middle" x="914" y="-117.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="788.5,-113.5 1039.5,-113.5 "/>
-<text text-anchor="middle" x="914" y="-102.3" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="788.5,-98.5 1039.5,-98.5 "/>
-<text text-anchor="middle" x="914" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="788.5,-83.5 1039.5,-83.5 "/>
-<text text-anchor="middle" x="914" y="-72.3" font-family="Times,serif" font-size="14.00">Sphere(X₁,X₂,R₃) ∈ bool(carrier(X₁))</text>
-</a>
-</g>
-</g>
-<!-- c_0_87&#45;&gt;c_0_102 -->
-<g id="edge19" class="edge">
-<title>c_0_87&#45;&gt;c_0_102</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M788.47,-79C690.3,-79 570.33,-79 570.33,-79 570.33,-79 570.33,-41.65 570.33,-41.65"/>
-<polygon fill="black" stroke="black" points="573.83,-41.65 570.33,-31.65 566.83,-41.65 573.83,-41.65"/>
+<title>c_0_86&#45;&gt;c_0_101</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M787.74,-180C711.49,-180 621.75,-180 621.75,-180 621.75,-180 621.75,-116.02 621.75,-116.02"/>
+<polygon fill="black" stroke="black" points="625.25,-116.02 621.75,-106.02 618.25,-116.02 625.25,-116.02"/>
 </g>
 <!-- c_0_96 -->
-<g id="node12" class="node">
+<g id="node11" class="node">
 <title>c_0_96</title>
-<g id="a_node12"><a xlink:href="c_0_96.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|⇊|Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃) = cl_Ball(X₁,X₂,R₃)}" target="_vizar">
+<g id="a_node11"><a xlink:href="c_0_96.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|⇊|Sphere(X₁,X₂,R₃) ∪ Ball(X₁,X₂,R₃) = cl_Ball(X₁,X₂,R₃)}" target="_vizar">
 <polygon fill="#f8edd1" stroke="#7f7542" points="790,-270 790,-330 1154,-330 1154,-270 790,-270"/>
 <text text-anchor="middle" x="972" y="-318.8" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
 <polyline fill="none" stroke="#7f7542" points="790,-315 1154,-315 "/>
@@ -267,31 +246,52 @@
 </g>
 </g>
 <!-- c_0_96&#45;&gt;c_0_100 -->
-<g id="edge20" class="edge">
+<g id="edge19" class="edge">
 <title>c_0_96&#45;&gt;c_0_100</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M789.82,-280C783.45,-280 779.75,-280 779.75,-280 779.75,-280 779.75,-195 779.75,-195 779.75,-195 630.08,-195 630.08,-195"/>
-<polygon fill="black" stroke="black" points="630.08,-191.5 620.08,-195 630.08,-198.5 630.08,-191.5"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M789.82,-280C783.45,-280 779.75,-280 779.75,-280 779.75,-280 779.75,-195 779.75,-195 779.75,-195 625.4,-195 625.4,-195"/>
+<polygon fill="black" stroke="black" points="625.4,-191.5 615.4,-195 625.4,-198.5 625.4,-191.5"/>
 </g>
-<!-- c_0_86 -->
-<g id="node13" class="node">
-<title>c_0_86</title>
-<g id="a_node13"><a xlink:href="c_0_86.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|⇊|Ball(X₁,X₂,R₃) ∈ bool(carrier(X₁))}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="788,-165.5 788,-225.5 1016,-225.5 1016,-165.5 788,-165.5"/>
-<text text-anchor="middle" x="902" y="-214.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="788,-210.5 1016,-210.5 "/>
-<text text-anchor="middle" x="902" y="-199.3" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="788,-195.5 1016,-195.5 "/>
-<text text-anchor="middle" x="902" y="-184.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="788,-180.5 1016,-180.5 "/>
-<text text-anchor="middle" x="902" y="-169.3" font-family="Times,serif" font-size="14.00">Ball(X₁,X₂,R₃) ∈ bool(carrier(X₁))</text>
+<!-- c_0_68 -->
+<g id="node12" class="node">
+<title>c_0_68</title>
+<g id="a_node12"><a xlink:href="c_0_68.html" xlink:title="{X₁ ∈ 𝒫(X₂)|X₃ ∈ 𝒫(X₂)|⇊|(X₁ ∪ X₃) ∩ X₂ = X₁ ∪ X₃}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="788,-374.5 788,-434.5 958,-434.5 958,-374.5 788,-374.5"/>
+<text text-anchor="middle" x="873" y="-423.3" font-family="Times,serif" font-size="14.00">X₁ ∈ 𝒫(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="788,-419.5 958,-419.5 "/>
+<text text-anchor="middle" x="873" y="-408.3" font-family="Times,serif" font-size="14.00">X₃ ∈ 𝒫(X₂)</text>
+<polyline fill="none" stroke="#7f7542" points="788,-404.5 958,-404.5 "/>
+<text text-anchor="middle" x="873" y="-393.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="788,-389.5 958,-389.5 "/>
+<text text-anchor="middle" x="873" y="-378.3" font-family="Times,serif" font-size="14.00">(X₁ ∪ X₃) ∩ X₂ = X₁ ∪ X₃</text>
 </a>
 </g>
 </g>
-<!-- c_0_86&#45;&gt;c_0_101 -->
+<!-- c_0_68&#45;&gt;c_0_95 -->
+<g id="edge20" class="edge">
+<title>c_0_68&#45;&gt;c_0_95</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M874,-374.19C874,-355.08 874,-334 874,-334 874,-334 642.74,-334 642.74,-334"/>
+<polygon fill="black" stroke="black" points="642.74,-330.5 632.74,-334 642.74,-337.5 642.74,-330.5"/>
+</g>
+<!-- c_0_87 -->
+<g id="node13" class="node">
+<title>c_0_87</title>
+<g id="a_node13"><a xlink:href="c_0_87.html" xlink:title="{MetrStruct(X₁)|X₂ ∈ carrier(X₁)|⇊|Sphere(X₁,X₂,R₃) ∈ 𝒫(carrier(X₁))}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="788.5,-68.5 788.5,-128.5 1021.5,-128.5 1021.5,-68.5 788.5,-68.5"/>
+<text text-anchor="middle" x="905" y="-117.3" font-family="Times,serif" font-size="14.00">MetrStruct(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="788.5,-113.5 1021.5,-113.5 "/>
+<text text-anchor="middle" x="905" y="-102.3" font-family="Times,serif" font-size="14.00">X₂ ∈ carrier(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="788.5,-98.5 1021.5,-98.5 "/>
+<text text-anchor="middle" x="905" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="788.5,-83.5 1021.5,-83.5 "/>
+<text text-anchor="middle" x="905" y="-72.3" font-family="Times,serif" font-size="14.00">Sphere(X₁,X₂,R₃) ∈ 𝒫(carrier(X₁))</text>
+</a>
+</g>
+</g>
+<!-- c_0_87&#45;&gt;c_0_102 -->
 <g id="edge21" class="edge">
-<title>c_0_86&#45;&gt;c_0_101</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M787.85,-180C711.99,-180 626.25,-180 626.25,-180 626.25,-180 626.25,-116.02 626.25,-116.02"/>
-<polygon fill="black" stroke="black" points="629.75,-116.02 626.25,-106.02 622.75,-116.02 629.75,-116.02"/>
+<title>c_0_87&#45;&gt;c_0_102</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M788.07,-79C691.2,-79 569.33,-79 569.33,-79 569.33,-79 569.33,-41.65 569.33,-41.65"/>
+<polygon fill="black" stroke="black" points="572.83,-41.65 569.33,-31.65 565.83,-41.65 572.83,-41.65"/>
 </g>
 </g>
 </svg>
