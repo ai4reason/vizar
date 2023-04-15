@@ -14,18 +14,18 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="51,-60 51,-92 165,-92 165,-60 51,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="114,-60 114,-92 228,-92 228,-60 114,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="45,-8 45,-40 171,-40 171,-8 45,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="108,-8 108,-40 234,-40 234,-8 108,-8"/>
 </g>
-<!-- dt_k1_fib_num3 -->
+<!-- c_0_127 -->
 <g id="node1" class="node">
-<title>dt_k1_fib_num3</title>
-<g id="a_node1"><a xlink:href="dt_k1_fib_num3.html" xlink:title="dt_k1_fib_num3" target="_vizar">
-<polygon fill="#69d2e7" stroke="#7f7542" points="150,-143 150,-158 262,-158 262,-143 150,-143"/>
-<text text-anchor="middle" x="206" y="-146.8" font-family="Times,serif" font-size="14.00">dt_k1_fib_num3</text>
+<title>c_0_127</title>
+<g id="a_node1"><a xlink:href="c_0_127.html" xlink:title="{ℕ ⊆ ℕ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="214.5,-143 214.5,-158 261.5,-158 261.5,-143 214.5,-143"/>
+<text text-anchor="middle" x="238" y="-146.8" font-family="Times,serif" font-size="14.00">ℕ ⊆ ℕ</text>
 </a>
 </g>
 </g>
@@ -33,67 +33,67 @@
 <g id="node4" class="node">
 <title>c_0_135</title>
 <g id="a_node4"><a xlink:href="c_0_135.html" xlink:title="{lucas(N₁) ∈ ℕ}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="59.5,-68.5 59.5,-83.5 156.5,-83.5 156.5,-68.5 59.5,-68.5"/>
-<text text-anchor="middle" x="108" y="-72.3" font-family="Times,serif" font-size="14.00">lucas(N₁) ∈ ℕ</text>
-</a>
-</g>
-</g>
-<!-- dt_k1_fib_num3&#45;&gt;c_0_135 -->
-<g id="edge1" class="edge">
-<title>dt_k1_fib_num3&#45;&gt;c_0_135</title>
-<path fill="none" stroke="black" d="M149.82,-150C144.33,-150 140.75,-150 140.75,-150 140.75,-150 140.75,-93.64 140.75,-93.64"/>
-<polygon fill="black" stroke="black" points="144.25,-93.64 140.75,-83.64 137.25,-93.64 144.25,-93.64"/>
-</g>
-<!-- c_0_127 -->
-<g id="node2" class="node">
-<title>c_0_127</title>
-<g id="a_node2"><a xlink:href="c_0_127.html" xlink:title="{ℕ ⊆ ℕ}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="84.5,-143 84.5,-158 131.5,-158 131.5,-143 84.5,-143"/>
-<text text-anchor="middle" x="108" y="-146.8" font-family="Times,serif" font-size="14.00">ℕ ⊆ ℕ</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="122.5,-68.5 122.5,-83.5 219.5,-83.5 219.5,-68.5 122.5,-68.5"/>
+<text text-anchor="middle" x="171" y="-72.3" font-family="Times,serif" font-size="14.00">lucas(N₁) ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- c_0_127&#45;&gt;c_0_135 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_127&#45;&gt;c_0_135</title>
-<path fill="none" stroke="black" d="M108,-142.81C108,-142.81 108,-93.76 108,-93.76"/>
-<polygon fill="black" stroke="black" points="111.5,-93.76 108,-83.76 104.5,-93.76 111.5,-93.76"/>
+<path fill="none" stroke="black" d="M214.2,-150C209.12,-150 205.25,-150 205.25,-150 205.25,-150 205.25,-93.64 205.25,-93.64"/>
+<polygon fill="black" stroke="black" points="208.75,-93.64 205.25,-83.64 201.75,-93.64 208.75,-93.64"/>
 </g>
 <!-- c_0_126 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_126</title>
-<g id="a_node3"><a xlink:href="c_0_126.html" xlink:title="{X₁ ⊆ ℕ|X₂ ∈ X₁|⇊|X₂ ∈ ℕ}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-120.5 16,-180.5 66,-180.5 66,-120.5 16,-120.5"/>
-<text text-anchor="middle" x="41" y="-169.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ ℕ</text>
-<polyline fill="none" stroke="#7f7542" points="16,-165.5 66,-165.5 "/>
-<text text-anchor="middle" x="41" y="-154.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="16,-150.5 66,-150.5 "/>
-<text text-anchor="middle" x="41" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16,-135.5 66,-135.5 "/>
-<text text-anchor="middle" x="41" y="-124.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℕ</text>
+<g id="a_node2"><a xlink:href="c_0_126.html" xlink:title="{X₁ ⊆ ℕ|X₂ ∈ X₁|⇊|X₂ ∈ ℕ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="146,-120.5 146,-180.5 196,-180.5 196,-120.5 146,-120.5"/>
+<text text-anchor="middle" x="171" y="-169.3" font-family="Times,serif" font-size="14.00">X₁ ⊆ ℕ</text>
+<polyline fill="none" stroke="#7f7542" points="146,-165.5 196,-165.5 "/>
+<text text-anchor="middle" x="171" y="-154.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="146,-150.5 196,-150.5 "/>
+<text text-anchor="middle" x="171" y="-139.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="146,-135.5 196,-135.5 "/>
+<text text-anchor="middle" x="171" y="-124.3" font-family="Times,serif" font-size="14.00">X₂ ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- c_0_126&#45;&gt;c_0_135 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_126&#45;&gt;c_0_135</title>
-<path fill="none" stroke="black" d="M66.25,-131C71.38,-131 75.25,-131 75.25,-131 75.25,-131 75.25,-93.65 75.25,-93.65"/>
-<polygon fill="black" stroke="black" points="78.75,-93.65 75.25,-83.65 71.75,-93.65 78.75,-93.65"/>
+<path fill="none" stroke="black" d="M171,-120.2C171,-120.2 171,-93.59 171,-93.59"/>
+<polygon fill="black" stroke="black" points="174.5,-93.59 171,-83.59 167.5,-93.59 174.5,-93.59"/>
+</g>
+<!-- dt_k1_fib_num3 -->
+<g id="node3" class="node">
+<title>dt_k1_fib_num3</title>
+<g id="a_node3"><a xlink:href="dt_k1_fib_num3.html" xlink:title="dt_k1_fib_num3" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="16,-143 16,-158 128,-158 128,-143 16,-143"/>
+<text text-anchor="middle" x="72" y="-146.8" font-family="Times,serif" font-size="14.00">dt_k1_fib_num3</text>
+</a>
+</g>
+</g>
+<!-- dt_k1_fib_num3&#45;&gt;c_0_135 -->
+<g id="edge3" class="edge">
+<title>dt_k1_fib_num3&#45;&gt;c_0_135</title>
+<path fill="none" stroke="black" d="M128.23,-150C133.55,-150 137,-150 137,-150 137,-150 137,-93.64 137,-93.64"/>
+<polygon fill="black" stroke="black" points="140.5,-93.64 137,-83.64 133.5,-93.64 140.5,-93.64"/>
 </g>
 <!-- c_0_137 -->
 <g id="node5" class="node">
 <title>c_0_137</title>
 <g id="a_node5"><a xlink:href="c_0_137.html" xlink:title="{¬ (fib(sk₁) ∈ ℕ)}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="53.5,-16.5 53.5,-31.5 162.5,-31.5 162.5,-16.5 53.5,-16.5"/>
-<text text-anchor="middle" x="108" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (fib(sk₁) ∈ ℕ)</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="116.5,-16.5 116.5,-31.5 225.5,-31.5 225.5,-16.5 116.5,-16.5"/>
+<text text-anchor="middle" x="171" y="-20.3" font-family="Times,serif" font-size="14.00">¬ (fib(sk₁) ∈ ℕ)</text>
 </a>
 </g>
 </g>
 <!-- c_0_135&#45;&gt;c_0_137 -->
 <g id="edge4" class="edge">
 <title>c_0_135&#45;&gt;c_0_137</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M108,-68.33C108,-68.33 108,-41.7 108,-41.7"/>
-<polygon fill="black" stroke="black" points="111.5,-41.7 108,-31.7 104.5,-41.7 111.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M171,-68.33C171,-68.33 171,-41.7 171,-41.7"/>
+<polygon fill="black" stroke="black" points="174.5,-41.7 171,-31.7 167.5,-41.7 174.5,-41.7"/>
 </g>
 </g>
 </svg>

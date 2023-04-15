@@ -69,7 +69,7 @@ axioms:
       ) \u2208 \u2115) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_ff.html#K1
   dt_k2_fib_num:
-    fof: "    (\xBD(1-\u221A5) \u2208 \u211D) "
+    fof: "    (\u03C4\u207B \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#K2
   dt_k3_power:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u211D)\n       \
@@ -89,12 +89,10 @@ axioms:
       X\u2081) \u2208 \u211D) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/square_1.html#K7
   fc1_fib_num3:
-    fof: "    ( (\xBD(1+\u221A5) &gt; 0)\n    \u2227 (\xBD(1+\u221A5) \u2208 \u211D\
-      ) "
+    fof: "    ( (\u03C4\u207A &gt; 0)\n    \u2227 (\u03C4\u207A \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num3.html#FC1
   fc2_fib_num3:
-    fof: "    ( (\xBD(1-\u221A5) &lt; 0)\n    \u2227 (\xBD(1-\u221A5) \u2208 \u211D\
-      ) "
+    fof: "    ( (\u03C4\u207B &lt; 0)\n    \u2227 (\u03C4\u207B \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num3.html#FC2
   fc6_membered:
     fof: "    (\u03C9 \u2286 \u2115) "
@@ -145,7 +143,7 @@ axioms:
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset.html#T1
   t21_fib_num3:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 lucas(X\u2081\
-      ) = ((\xBD(1+\u221A5) ^ X\u2081) + (\xBD(1-\u221A5) ^ X\u2081)) ) "
+      ) = ((\u03C4\u207A ^ X\u2081) + (\u03C4\u207B ^ X\u2081)) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num3.html#T21
   t28_fib_num3:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 fib(2\
@@ -165,8 +163,7 @@ axioms:
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_1.html#T74
   t7_fib_num:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 fib(X\u2081\
-      ) = (((\xBD(1+\u221A5) ^ X\u2081) - (\xBD(1-\u221A5) ^ X\u2081)) / (\u221A5))\
-      \ ) "
+      ) = (((\u03C4\u207A ^ X\u2081) - (\u03C4\u207B ^ X\u2081)) / (\u221A5)) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#T7
   t7_fib_num3:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (\u2200\
@@ -195,11 +192,9 @@ steps:
       k3_power: 2
       k3_xcmplx_0: 1
       k4_nat_1: 1
-      k5_numbers: 1
       k6_xcmplx_0: 1
       k7_square_1: 1
       k7_xcmplx_0: 1
-      m1_subset_1: 1
       np__2: 1
       np__5: 1
     skolems: []
@@ -244,20 +239,12 @@ steps:
     counts:
       k3_xcmplx_0: 2
     skolems: []
-  c_0_112:
-    counts:
-      k5_numbers: 1
-      m1_subset_1: 1
-      v1_xcmplx_0: 1
-    skolems: []
   c_0_113:
     counts:
       k1_fib_num3: 1
       k1_pre_ff: 2
       k3_xcmplx_0: 1
       k4_nat_1: 1
-      k5_numbers: 1
-      m1_subset_1: 1
       np__2: 1
     skolems: []
   c_0_114:
@@ -326,8 +313,7 @@ steps:
     counts:
       k1_numbers: 1
       k4_nat_1: 1
-      k5_numbers: 2
-      m1_subset_1: 1
+      k5_numbers: 1
       m2_subset_1: 1
     skolems: []
   c_0_131:
@@ -360,8 +346,8 @@ steps:
   c_0_136:
     counts:
       k4_nat_1: 1
-      k5_numbers: 2
-      m1_subset_1: 2
+      k5_numbers: 1
+      m1_subset_1: 1
     skolems: []
   c_0_137:
     counts:
@@ -370,13 +356,6 @@ steps:
       m1_subset_1: 1
     skolems:
     - esk1_0
-  c_0_141:
-    counts:
-      k4_nat_1: 1
-      k5_numbers: 1
-      m1_subset_1: 1
-      v7_ordinal1: 1
-    skolems: []
   c_0_146:
     counts:
       k1_pre_ff: 1
@@ -451,8 +430,6 @@ steps:
     counts:
       k3_power: 3
       k4_nat_1: 1
-      k5_numbers: 1
-      m1_subset_1: 1
       np__2: 2
       v1_xboole_0: 1
     skolems: []
@@ -494,10 +471,8 @@ steps:
       k2_fib_num: 2
       k3_power: 3
       k4_nat_1: 2
-      k5_numbers: 1
       k6_xcmplx_0: 1
       k7_square_1: 1
-      m1_subset_1: 1
       np__2: 3
       np__5: 1
       v1_xboole_0: 1
@@ -505,8 +480,6 @@ steps:
   c_0_63:
     counts:
       k4_nat_1: 2
-      k5_numbers: 1
-      m1_subset_1: 1
     skolems: []
   c_0_64:
     counts:
@@ -521,8 +494,6 @@ steps:
     skolems: []
   c_0_66:
     counts:
-      k5_numbers: 1
-      m1_subset_1: 1
       v7_ordinal1: 1
     skolems: []
   c_0_67:
@@ -543,10 +514,8 @@ steps:
       k2_fib_num: 1
       k3_power: 3
       k4_nat_1: 2
-      k5_numbers: 1
       k6_xcmplx_0: 1
       k7_square_1: 1
-      m1_subset_1: 1
       np__2: 3
       np__5: 1
     skolems: []
@@ -554,8 +523,6 @@ steps:
     counts:
       k3_power: 3
       k4_nat_1: 1
-      k5_numbers: 1
-      m1_subset_1: 1
       np__2: 2
       v1_xboole_0: 1
     skolems: []
@@ -582,10 +549,8 @@ steps:
       k2_fib_num: 1
       k3_power: 4
       k4_nat_1: 1
-      k5_numbers: 1
       k6_xcmplx_0: 1
       k7_square_1: 1
-      m1_subset_1: 1
       np__2: 3
       np__5: 1
     skolems: []
@@ -638,11 +603,9 @@ steps:
       k3_power: 2
       k3_xcmplx_0: 1
       k4_nat_1: 1
-      k5_numbers: 1
       k6_xcmplx_0: 1
       k7_square_1: 1
       k7_xcmplx_0: 1
-      m1_subset_1: 1
       np__2: 1
       np__5: 1
     skolems: []
@@ -668,8 +631,6 @@ steps:
     counts:
       k3_xcmplx_0: 1
       k4_nat_1: 1
-      k5_numbers: 1
-      m1_subset_1: 1
     skolems: []
 symbols:
   k13_complex1:
@@ -687,7 +648,7 @@ symbols:
     neg: 1
     pos: 13
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#K1
-    vizar: "\xBD(1+\u221A5)"
+    vizar: "\u03C4\u207A"
   k1_fib_num3:
     arity: 1
     count: 11
@@ -727,7 +688,7 @@ symbols:
     neg: 1
     pos: 14
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#K2
-    vizar: "\xBD(1-\u221A5)"
+    vizar: "\u03C4\u207B"
   k2_xcmplx_0:
     arity: 2
     count: 2
@@ -770,10 +731,10 @@ symbols:
     vizar: "\u03C9"
   k5_numbers:
     arity: 0
-    count: 36
+    count: 17
     mizar: NAT
-    neg: 25
-    pos: 11
+    neg: 7
+    pos: 10
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
     vizar: "\u2115"
   k6_xcmplx_0:
@@ -802,10 +763,10 @@ symbols:
     vizar: x / y
   m1_subset_1:
     arity: 2
-    count: 44
+    count: 25
     mizar: Element
-    neg: 32
-    pos: 12
+    neg: 14
+    pos: 11
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
     vizar: "x \u2208 y"
   m2_subset_1:
@@ -898,10 +859,10 @@ symbols:
     vizar: "x \u2286 \u2115"
   v7_ordinal1:
     arity: 1
-    count: 9
+    count: 10
     mizar: natural
     neg: 0
-    pos: 9
+    pos: 10
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V7
     vizar: "x \u2208 \u2115"
 tptp:
@@ -909,8 +870,8 @@ tptp:
   c_0_102: "cnf(c_0_102,plain,\n    ( k3_xcmplx_0(k1_fib_num3(X1),k7_xcmplx_0(k6_xcmplx_0(k3_power(k1_fib_num,X1),k3_power(k2_fib_num,X1)),k7_square_1(np__5)))\
     \ = k1_pre_ff(k4_nat_1(X1,np__2))\n    | ~ v1_xcmplx_0(k3_xcmplx_0(k1_fib_num3(X1),k6_xcmplx_0(k3_power(k1_fib_num,X1),k3_power(k2_fib_num,X1))))\n\
     \    | ~ v1_xcmplx_0(k7_square_1(np__5))\n    | ~ v1_xcmplx_0(k1_fib_num3(X1))\n\
-    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(k3_power(k2_fib_num,X1))\n\
-    \    | ~ v1_xreal_0(k3_power(k1_fib_num,X1))\n    | ~ v7_ordinal1(k4_nat_1(X1,np__2))\
+    \    | ~ v7_ordinal1(X1)\n    | ~ v1_xreal_0(k3_power(k2_fib_num,X1))\n    | ~\
+    \ v1_xreal_0(k3_power(k1_fib_num,X1))\n    | ~ v7_ordinal1(k4_nat_1(X1,np__2))\
     \ ))."
   c_0_103: "cnf(c_0_103,plain,\n    ( k7_xcmplx_0(k6_xcmplx_0(k3_power(k1_fib_num,X1),k3_power(k2_fib_num,X1)),k7_square_1(np__5))\
     \ = k1_pre_ff(X1)\n    | ~ v1_xcmplx_0(k6_xcmplx_0(k3_power(k1_fib_num,X1),k3_power(k2_fib_num,X1)))\n\
@@ -926,13 +887,11 @@ tptp:
     \    | ~ v7_ordinal1(k1_fib_num3(esk1_0)) ))."
   c_0_111: "cnf(c_0_111,plain,\n    ( k3_xcmplx_0(X1,X2) = k3_xcmplx_0(X2,X1)\n  \
     \  | ~ v1_xcmplx_0(X1)\n    | ~ v1_xcmplx_0(X2) ))."
-  c_0_112: "cnf(c_0_112,plain,\n    ( v1_xcmplx_0(X1)\n    | ~ m1_subset_1(X1,k5_numbers)\
-    \ ))."
   c_0_113: "cnf(c_0_113,plain,\n    ( k3_xcmplx_0(k1_fib_num3(X1),k1_pre_ff(X1)) =\
     \ k1_pre_ff(k4_nat_1(X1,np__2))\n    | ~ v1_xcmplx_0(k3_xcmplx_0(k1_fib_num3(X1),k6_xcmplx_0(k3_power(k1_fib_num,X1),k3_power(k2_fib_num,X1))))\n\
     \    | ~ v1_xcmplx_0(k7_square_1(np__5))\n    | ~ v1_xcmplx_0(k1_fib_num3(X1))\n\
-    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v1_xreal_0(k3_power(k2_fib_num,X1))\n\
-    \    | ~ v1_xreal_0(k3_power(k1_fib_num,X1))\n    | ~ v7_ordinal1(k4_nat_1(X1,np__2))\
+    \    | ~ v7_ordinal1(X1)\n    | ~ v1_xreal_0(k3_power(k2_fib_num,X1))\n    | ~\
+    \ v1_xreal_0(k3_power(k1_fib_num,X1))\n    | ~ v7_ordinal1(k4_nat_1(X1,np__2))\
     \ ))."
   c_0_114: "cnf(c_0_114,plain,\n    ( v1_xcmplx_0(k3_xcmplx_0(X1,X2))\n    | ~ v1_xreal_0(X2)\n\
     \    | ~ v1_xreal_0(X1) ))."
@@ -953,7 +912,7 @@ tptp:
   c_0_129: "cnf(c_0_129,plain,\n    ( v1_xboole_0(X1)\n    | m1_subset_1(X2,X1)\n\
     \    | ~ m2_subset_1(X2,X3,X1)\n    | ~ m1_subset_1(X1,k1_zfmisc_1(X3)) ))."
   c_0_130: "cnf(c_0_130,plain,\n    ( m2_subset_1(k4_nat_1(X1,X2),k1_numbers,k5_numbers)\n\
-    \    | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v7_ordinal1(X2) ))."
+    \    | ~ v7_ordinal1(X1)\n    | ~ v7_ordinal1(X2) ))."
   c_0_131: "cnf(c_0_131,plain,\n    ( m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers))\
     \ ))."
   c_0_132: "cnf(c_0_132,plain,\n    ( ~ v1_xboole_0(k5_numbers) ))."
@@ -965,13 +924,11 @@ tptp:
   c_0_135: "cnf(c_0_135,plain,\n    ( m1_subset_1(k1_fib_num3(X1),k5_numbers)\n  \
     \  | ~ v7_ordinal1(X1) ))."
   c_0_136: "cnf(c_0_136,plain,\n    ( m1_subset_1(k4_nat_1(X1,X2),k5_numbers)\n  \
-    \  | ~ m1_subset_1(X1,k5_numbers)\n    | ~ v7_ordinal1(X2) ))."
+    \  | ~ v7_ordinal1(X1)\n    | ~ v7_ordinal1(X2) ))."
   c_0_137: "cnf(c_0_137,negated_conjecture,\n    ( ~ v1_xcmplx_0(k7_square_1(np__5))\n\
     \    | ~ m1_subset_1(k1_pre_ff(esk1_0),k5_numbers)\n    | ~ v1_xreal_0(k3_power(k2_fib_num,esk1_0))\n\
     \    | ~ v1_xreal_0(k3_power(k1_fib_num,esk1_0))\n    | ~ v7_ordinal1(k4_nat_1(np__2,esk1_0))\n\
     \    | ~ v7_ordinal1(k1_fib_num3(esk1_0)) ))."
-  c_0_141: "cnf(c_0_141,plain,\n    ( v7_ordinal1(k4_nat_1(X1,X2))\n    | ~ m1_subset_1(X2,k5_numbers)\n\
-    \    | ~ v7_ordinal1(X1) ))."
   c_0_146: "cnf(c_0_146,plain,\n    ( m1_subset_1(k1_pre_ff(X1),k5_numbers)\n    |\
     \ ~ v7_ordinal1(X1) ))."
   c_0_147: "cnf(c_0_147,plain,\n    ( v1_xcmplx_0(X1)\n    | ~ m1_subset_1(X1,k1_numbers)\
@@ -992,8 +949,8 @@ tptp:
   c_0_52: "cnf(c_0_52,plain,\n    ( k1_pre_ff(X1) = k13_complex1(k6_xcmplx_0(k3_power(k1_fib_num,X1),k3_power(k2_fib_num,X1)),k7_square_1(np__5))\n\
     \    | ~ v7_ordinal1(X1) ))."
   c_0_53: "cnf(c_0_53,plain,\n    ( v1_xboole_0(X2)\n    | k3_power(k3_power(X2,X1),np__2)\
-    \ = k3_power(X2,k4_nat_1(np__2,X1))\n    | ~ m1_subset_1(X1,k5_numbers)\n    |\
-    \ ~ v1_xreal_0(X2) ))."
+    \ = k3_power(X2,k4_nat_1(np__2,X1))\n    | ~ v7_ordinal1(X1)\n    | ~ v1_xreal_0(X2)\
+    \ ))."
   c_0_54: "cnf(c_0_54,plain,\n    ( v1_xreal_0(k2_fib_num) ))."
   c_0_56: "cnf(c_0_56,plain,\n    ( ~ v7_ordinal1(k2_fib_num) ))."
   c_0_57: "cnf(c_0_57,plain,\n    ( v7_ordinal1(X1)\n    | ~ m1_subset_1(X1,k4_ordinal1)\
@@ -1004,29 +961,27 @@ tptp:
   c_0_60: "cnf(c_0_60,plain,\n    ( v1_xxreal_0(X1)\n    | ~ v1_xreal_0(X1) ))."
   c_0_61: "cnf(c_0_61,plain,\n    ( v1_xreal_0(X1)\n    | ~ v1_xboole_0(X1) ))."
   c_0_62: "cnf(c_0_62,plain,\n    ( k13_complex1(k6_xcmplx_0(k3_power(k1_fib_num,k4_nat_1(np__2,X1)),k3_power(k3_power(k2_fib_num,X1),np__2)),k7_square_1(np__5))\
-    \ = k1_pre_ff(k4_nat_1(np__2,X1))\n    | v1_xboole_0(k2_fib_num)\n    | ~ m1_subset_1(X1,k5_numbers)\n\
+    \ = k1_pre_ff(k4_nat_1(np__2,X1))\n    | v1_xboole_0(k2_fib_num)\n    | ~ v7_ordinal1(X1)\n\
     \    | ~ v7_ordinal1(k4_nat_1(np__2,X1)) ))."
-  c_0_63: "cnf(c_0_63,plain,\n    ( k4_nat_1(X1,X2) = k4_nat_1(X2,X1)\n    | ~ m1_subset_1(X1,k5_numbers)\n\
+  c_0_63: "cnf(c_0_63,plain,\n    ( k4_nat_1(X1,X2) = k4_nat_1(X2,X1)\n    | ~ v7_ordinal1(X1)\n\
     \    | ~ v7_ordinal1(X2) ))."
   c_0_64: "cnf(c_0_64,plain,\n    ( m1_subset_1(np__2,k5_numbers) ))."
   c_0_65: "cnf(c_0_65,plain,\n    ( ~ v1_xboole_0(k2_fib_num) ))."
-  c_0_66: "cnf(c_0_66,plain,\n    ( v7_ordinal1(X1)\n    | ~ m1_subset_1(X1,k5_numbers)\
-    \ ))."
+  c_0_66: "cnf(c_0_66,plain,\n    ( v7_ordinal1(X1)\n    | ~ v7_ordinal1(X1) ))."
   c_0_67: "cnf(c_0_67,plain,\n    ( ~ v2_xxreal_0(X1)\n    | ~ v1_xboole_0(X1) ))."
   c_0_68: "cnf(c_0_68,plain,\n    ( v2_xxreal_0(k1_fib_num) ))."
   c_0_70: "cnf(c_0_70,plain,\n    ( k13_complex1(k6_xcmplx_0(k3_power(k1_fib_num,k4_nat_1(X1,np__2)),k3_power(k3_power(k2_fib_num,X1),np__2)),k7_square_1(np__5))\
-    \ = k1_pre_ff(k4_nat_1(X1,np__2))\n    | ~ m1_subset_1(X1,k5_numbers)\n    | ~\
-    \ v7_ordinal1(k4_nat_1(X1,np__2)) ))."
-  c_0_71: "cnf(c_0_71,plain,\n    ( k3_power(X1,k4_nat_1(X2,np__2)) = k3_power(k3_power(X1,X2),np__2)\n\
-    \    | v1_xboole_0(X1)\n    | ~ m1_subset_1(X2,k5_numbers)\n    | ~ v1_xreal_0(X1)\
+    \ = k1_pre_ff(k4_nat_1(X1,np__2))\n    | ~ v7_ordinal1(X1)\n    | ~ v7_ordinal1(k4_nat_1(X1,np__2))\
     \ ))."
+  c_0_71: "cnf(c_0_71,plain,\n    ( k3_power(X1,k4_nat_1(X2,np__2)) = k3_power(k3_power(X1,X2),np__2)\n\
+    \    | v1_xboole_0(X1)\n    | ~ v7_ordinal1(X2)\n    | ~ v1_xreal_0(X1) ))."
   c_0_72: "cnf(c_0_72,plain,\n    ( v1_xreal_0(k1_fib_num) ))."
   c_0_73: "cnf(c_0_73,plain,\n    ( ~ v1_xboole_0(k1_fib_num) ))."
   c_0_76: "cnf(c_0_76,plain,\n    ( k13_complex1(X1,X2) = k7_xcmplx_0(X1,X2)\n   \
     \ | ~ v1_xcmplx_0(X1)\n    | ~ v1_xcmplx_0(X2) ))."
   c_0_77: "cnf(c_0_77,plain,\n    ( k13_complex1(k6_xcmplx_0(k3_power(k3_power(k1_fib_num,X1),np__2),k3_power(k3_power(k2_fib_num,X1),np__2)),k7_square_1(np__5))\
-    \ = k1_pre_ff(k4_nat_1(X1,np__2))\n    | ~ m1_subset_1(X1,k5_numbers)\n    | ~\
-    \ v7_ordinal1(k4_nat_1(X1,np__2)) ))."
+    \ = k1_pre_ff(k4_nat_1(X1,np__2))\n    | ~ v7_ordinal1(X1)\n    | ~ v7_ordinal1(k4_nat_1(X1,np__2))\
+    \ ))."
   c_0_78: "cnf(c_0_78,plain,\n    ( k3_xcmplx_0(k2_xcmplx_0(X1,X2),k6_xcmplx_0(X1,X2))\
     \ = k6_xcmplx_0(k3_power(X1,np__2),k3_power(X2,np__2))\n    | ~ v1_xreal_0(X1)\n\
     \    | ~ v1_xreal_0(X2) ))."
@@ -1043,9 +998,9 @@ tptp:
     \    | ~ v1_xcmplx_0(X1)\n    | ~ v1_xcmplx_0(X2)\n    | ~ v1_xcmplx_0(X3) ))."
   c_0_93: "cnf(c_0_93,plain,\n    ( k7_xcmplx_0(k3_xcmplx_0(k1_fib_num3(X1),k6_xcmplx_0(k3_power(k1_fib_num,X1),k3_power(k2_fib_num,X1))),k7_square_1(np__5))\
     \ = k1_pre_ff(k4_nat_1(X1,np__2))\n    | ~ v1_xcmplx_0(k3_xcmplx_0(k1_fib_num3(X1),k6_xcmplx_0(k3_power(k1_fib_num,X1),k3_power(k2_fib_num,X1))))\n\
-    \    | ~ v1_xcmplx_0(k7_square_1(np__5))\n    | ~ m1_subset_1(X1,k5_numbers)\n\
-    \    | ~ v1_xreal_0(k3_power(k2_fib_num,X1))\n    | ~ v1_xreal_0(k3_power(k1_fib_num,X1))\n\
-    \    | ~ v7_ordinal1(k4_nat_1(X1,np__2)) ))."
+    \    | ~ v1_xcmplx_0(k7_square_1(np__5))\n    | ~ v7_ordinal1(X1)\n    | ~ v1_xreal_0(k3_power(k2_fib_num,X1))\n\
+    \    | ~ v1_xreal_0(k3_power(k1_fib_num,X1))\n    | ~ v7_ordinal1(k4_nat_1(X1,np__2))\
+    \ ))."
   c_0_94: "cnf(c_0_94,plain,\n    ( v1_xcmplx_0(k6_xcmplx_0(X1,X2))\n    | ~ v1_xreal_0(X2)\n\
     \    | ~ v1_xreal_0(X1) ))."
   c_0_97: "cnf(c_0_97,plain,\n    ( r2_hidden(X1,k4_ordinal1)\n    | ~ v7_ordinal1(X1)\
@@ -1053,7 +1008,7 @@ tptp:
   c_0_98: "cnf(c_0_98,negated_conjecture,\n    ( k1_pre_ff(k4_nat_1(np__2,esk1_0))\
     \ != k4_nat_1(k1_pre_ff(esk1_0),k1_fib_num3(esk1_0)) ))."
   c_0_99: "cnf(c_0_99,plain,\n    ( k4_nat_1(X1,X2) = k3_xcmplx_0(X1,X2)\n    | ~\
-    \ m1_subset_1(X1,k5_numbers)\n    | ~ v7_ordinal1(X2) ))."
+    \ v7_ordinal1(X1)\n    | ~ v7_ordinal1(X2) ))."
   cc17_membered: "fof(cc17_membered,axiom,(\n    ! [X1] :\n      ( v6_membered(X1)\n\
     \     => ! [X2] :\n          ( m1_subset_1(X2,X1)\n         => v7_ordinal1(X2)\
     \ ) ) ))."
@@ -1083,7 +1038,7 @@ tptp:
     \ :\n      ( ( v1_xcmplx_0(X1)\n        & v1_xcmplx_0(X2) )\n     => k3_xcmplx_0(X1,X2)\
     \ = k3_xcmplx_0(X2,X1) ) ))."
   commutativity_k4_nat_1: "fof(commutativity_k4_nat_1,axiom,(\n    ! [X1,X2] :\n \
-    \     ( ( m1_subset_1(X1,k5_numbers)\n        & v7_ordinal1(X2) )\n     => k4_nat_1(X1,X2)\
+    \     ( ( v7_ordinal1(X1)\n        & v7_ordinal1(X2) )\n     => k4_nat_1(X1,X2)\
     \ = k4_nat_1(X2,X1) ) ))."
   d12_ordinal1: "fof(d12_ordinal1,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n\
     \    <=> r2_hidden(X1,k4_ordinal1) ) ))."
@@ -1094,7 +1049,7 @@ tptp:
   dt_k2_fib_num: "fof(dt_k2_fib_num,axiom,(\n    v1_xreal_0(k2_fib_num) ))."
   dt_k3_power: "fof(dt_k3_power,axiom,(\n    ! [X1,X2] :\n      ( ( v1_xreal_0(X1)\n\
     \        & v1_xreal_0(X2) )\n     => v1_xreal_0(k3_power(X1,X2)) ) ))."
-  dt_k4_nat_1: "fof(dt_k4_nat_1,axiom,(\n    ! [X1,X2] :\n      ( ( m1_subset_1(X1,k5_numbers)\n\
+  dt_k4_nat_1: "fof(dt_k4_nat_1,axiom,(\n    ! [X1,X2] :\n      ( ( v7_ordinal1(X1)\n\
     \        & v7_ordinal1(X2) )\n     => m2_subset_1(k4_nat_1(X1,X2),k1_numbers,k5_numbers)\
     \ ) ))."
   dt_k5_numbers: "fof(dt_k5_numbers,axiom,(\n    m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers))\
@@ -1116,7 +1071,7 @@ tptp:
     \ :\n      ( ( v1_xcmplx_0(X1)\n        & v1_xcmplx_0(X2) )\n     => k13_complex1(X1,X2)\
     \ = k7_xcmplx_0(X1,X2) ) ))."
   redefinition_k4_nat_1: "fof(redefinition_k4_nat_1,axiom,(\n    ! [X1,X2] :\n   \
-    \   ( ( m1_subset_1(X1,k5_numbers)\n        & v7_ordinal1(X2) )\n     => k4_nat_1(X1,X2)\
+    \   ( ( v7_ordinal1(X1)\n        & v7_ordinal1(X2) )\n     => k4_nat_1(X1,X2)\
     \ = k3_xcmplx_0(X1,X2) ) ))."
   redefinition_k5_numbers: "fof(redefinition_k5_numbers,axiom,(\n    k5_numbers =\
     \ k4_ordinal1 ))."
@@ -1136,8 +1091,8 @@ tptp:
   t28_fib_num3: "fof(t28_fib_num3,conjecture,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n\
     \     => k1_pre_ff(k4_nat_1(np__2,X1)) = k4_nat_1(k1_pre_ff(X1),k1_fib_num3(X1))\
     \ ) ))."
-  t6_fib_num3: "fof(t6_fib_num3,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,k5_numbers)\n\
-    \     => ! [X2] :\n          ( ( ~ v1_xboole_0(X2)\n            & v1_xreal_0(X2)\
+  t6_fib_num3: "fof(t6_fib_num3,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n \
+    \    => ! [X2] :\n          ( ( ~ v1_xboole_0(X2)\n            & v1_xreal_0(X2)\
     \ )\n         => k3_power(k3_power(X2,X1),np__2) = k3_power(X2,k4_nat_1(np__2,X1))\
     \ ) ) ))."
   t74_xcmplx_1: "fof(t74_xcmplx_1,axiom,(\n    ! [X1] :\n      ( v1_xcmplx_0(X1)\n\
