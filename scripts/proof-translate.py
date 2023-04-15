@@ -5,6 +5,7 @@ import re, sys
 REPLACE = [
   #(r"m1_subset_1\((X[0-9]+),k5_numbers\)", r"v7_ordinal1(\1)"),
   (r"m1_subset_1\(([^ |&=><~:]+),k5_numbers\)", r"v7_ordinal1(\1)"),
+  (r"m1_subset_1\(([^ |&=><~:]+),k1_numbers\)", r"v1_xreal_0(\1)"),
 ]
 
 REPLACE = [(re.compile(x), y) for (x,y) in REPLACE]

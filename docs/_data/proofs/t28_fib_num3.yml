@@ -348,28 +348,22 @@ steps:
     skolems: []
   c_0_147:
     counts:
-      k1_numbers: 1
-      m1_subset_1: 1
       v1_xcmplx_0: 1
     skolems: []
   c_0_148:
     counts:
-      k1_numbers: 2
       k7_square_1: 1
-      m1_subset_1: 2
+      v1_xreal_0: 1
     skolems: []
   c_0_150:
     counts:
-      k1_numbers: 1
       k7_square_1: 1
-      m1_subset_1: 1
       v1_xcmplx_0: 1
     skolems: []
   c_0_151:
     counts:
-      k1_numbers: 1
-      m1_subset_1: 1
       np__5: 1
+      v1_xreal_0: 1
     skolems: []
   c_0_154:
     counts:
@@ -642,10 +636,10 @@ symbols:
     vizar: lucas(x)
   k1_numbers:
     arity: 0
-    count: 7
+    count: 2
     mizar: REAL
-    neg: 3
-    pos: 4
+    neg: 0
+    pos: 2
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K1
     vizar: "\u211D"
   k1_pre_ff:
@@ -746,10 +740,10 @@ symbols:
     vizar: x / y
   m1_subset_1:
     arity: 2
-    count: 14
+    count: 9
     mizar: Element
-    neg: 8
-    pos: 6
+    neg: 5
+    pos: 4
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
     vizar: "x \u2208 y"
   m2_subset_1:
@@ -802,10 +796,10 @@ symbols:
     vizar: "x \u2208 \u2102"
   v1_xreal_0:
     arity: 1
-    count: 8
+    count: 10
     mizar: real
     neg: 0
-    pos: 8
+    pos: 10
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#V1
     vizar: "x \u2208 \u211D"
   v1_xxreal_0:
@@ -910,13 +904,12 @@ tptp:
     \    | ~ v7_ordinal1(X2) ))."
   c_0_146: "cnf(c_0_146,plain,\n    ( v7_ordinal1(k1_pre_ff(X1))\n    | ~ v7_ordinal1(X1)\
     \ ))."
-  c_0_147: "cnf(c_0_147,plain,\n    ( v1_xcmplx_0(X1)\n    | ~ m1_subset_1(X1,k1_numbers)\
+  c_0_147: "cnf(c_0_147,plain,\n    ( v1_xcmplx_0(X1)\n    | ~ v1_xreal_0(X1) ))."
+  c_0_148: "cnf(c_0_148,plain,\n    ( v1_xreal_0(k7_square_1(X1))\n    | ~ v1_xreal_0(X1)\
     \ ))."
-  c_0_148: "cnf(c_0_148,plain,\n    ( m1_subset_1(k7_square_1(X1),k1_numbers)\n  \
-    \  | ~ m1_subset_1(X1,k1_numbers) ))."
-  c_0_150: "cnf(c_0_150,plain,\n    ( v1_xcmplx_0(k7_square_1(X1))\n    | ~ m1_subset_1(X1,k1_numbers)\
+  c_0_150: "cnf(c_0_150,plain,\n    ( v1_xcmplx_0(k7_square_1(X1))\n    | ~ v1_xreal_0(X1)\
     \ ))."
-  c_0_151: "cnf(c_0_151,plain,\n    ( m1_subset_1(np__5,k1_numbers) ))."
+  c_0_151: "cnf(c_0_151,plain,\n    ( v1_xreal_0(np__5) ))."
   c_0_154: "cnf(c_0_154,plain,\n    ( v1_xreal_0(k3_power(X1,X2))\n    | ~ v1_xreal_0(X1)\n\
     \    | ~ v1_xreal_0(X2) ))."
   c_0_155: "cnf(c_0_155,negated_conjecture,\n    ( v1_xreal_0(esk1_0) ))."
@@ -994,7 +987,7 @@ tptp:
   cc1_subset_1: "fof(cc1_subset_1,axiom,(\n    ! [X1] :\n      ( v1_xboole_0(X1)\n\
     \     => ! [X2] :\n          ( m1_subset_1(X2,k1_zfmisc_1(X1))\n         => v1_xboole_0(X2)\
     \ ) ) ))."
-  cc1_xcmplx_0: "fof(cc1_xcmplx_0,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,k1_numbers)\n\
+  cc1_xcmplx_0: "fof(cc1_xcmplx_0,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n\
     \     => v1_xcmplx_0(X1) ) ))."
   cc2_xcmplx_0: "fof(cc2_xcmplx_0,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n\
     \     => v1_xcmplx_0(X1) ) ))."
@@ -1033,8 +1026,8 @@ tptp:
     \ ) ))."
   dt_k5_numbers: "fof(dt_k5_numbers,axiom,(\n    m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers))\
     \ ))."
-  dt_k7_square_1: "fof(dt_k7_square_1,axiom,(\n    ! [X1] :\n      ( m1_subset_1(X1,k1_numbers)\n\
-    \     => m1_subset_1(k7_square_1(X1),k1_numbers) ) ))."
+  dt_k7_square_1: "fof(dt_k7_square_1,axiom,(\n    ! [X1] :\n      ( v1_xreal_0(X1)\n\
+    \     => v1_xreal_0(k7_square_1(X1)) ) ))."
   fc1_fib_num3: "fof(fc1_fib_num3,axiom,\n    ( v2_xxreal_0(k1_fib_num)\n    & v1_xreal_0(k1_fib_num)\
     \ ))."
   fc2_fib_num3: "fof(fc2_fib_num3,axiom,\n    ( v3_xxreal_0(k2_fib_num)\n    & v1_xreal_0(k2_fib_num)\
@@ -1059,9 +1052,9 @@ tptp:
     \ )\n     => ! [X3] :\n          ( m2_subset_1(X3,X1,X2)\n        <=> m1_subset_1(X3,X2)\
     \ ) ) ))."
   spc2_numerals: "fof(spc2_numerals,axiom,\n    ( v2_xxreal_0(np__2)\n    & m2_subset_1(np__2,k1_numbers,k5_numbers)\n\
-    \    & v7_ordinal1(np__2)\n    & m1_subset_1(np__2,k1_numbers) ))."
+    \    & v7_ordinal1(np__2)\n    & v1_xreal_0(np__2) ))."
   spc5_numerals: "fof(spc5_numerals,axiom,\n    ( v2_xxreal_0(np__5)\n    & m2_subset_1(np__5,k1_numbers,k5_numbers)\n\
-    \    & v7_ordinal1(np__5)\n    & m1_subset_1(np__5,k1_numbers) ))."
+    \    & v7_ordinal1(np__5)\n    & v1_xreal_0(np__5) ))."
   t1_subset: "fof(t1_subset,axiom,(\n    ! [X1,X2] :\n      ( r2_hidden(X1,X2)\n \
     \    => m1_subset_1(X1,X2) ) ))."
   t21_fib_num3: "fof(t21_fib_num3,axiom,(\n    ! [X1] :\n      ( v7_ordinal1(X1)\n\

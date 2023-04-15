@@ -12,40 +12,40 @@
 <g id="node1" class="node">
 <title>t28_fib_num3</title>
 <g id="a_node1"><a xlink:href="t28_fib_num3.html" xlink:title="t28_fib_num3" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="146,-52.5 146,-67.5 243,-67.5 243,-52.5 146,-52.5"/>
-<text text-anchor="middle" x="194.5" y="-56.3" font-family="Times,serif" font-size="14.00">t28_fib_num3</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="58.5,-52.5 58.5,-67.5 155.5,-67.5 155.5,-52.5 58.5,-52.5"/>
+<text text-anchor="middle" x="107" y="-56.3" font-family="Times,serif" font-size="14.00">t28_fib_num3</text>
 </a>
 </g>
-</g>
-<!-- c_0_98 -->
-<g id="node2" class="node">
-<title>c_0_98</title>
-<g id="a_node2"><a xlink:href="c_0_98.html" xlink:title="{fib(2 * sk₁) ≠ fib(sk₁) * lucas(sk₁)}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="0,-0.5 0,-15.5 229,-15.5 229,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="114.5" y="-4.3" font-family="Times,serif" font-size="14.00">fib(2 * sk₁) ≠ fib(sk₁) * lucas(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- t28_fib_num3&#45;&gt;c_0_98 -->
-<g id="edge1" class="edge">
-<title>t28_fib_num3&#45;&gt;c_0_98</title>
-<path fill="none" stroke="black" d="M187.5,-52.33C187.5,-52.33 187.5,-25.7 187.5,-25.7"/>
-<polygon fill="black" stroke="black" points="191,-25.7 187.5,-15.7 184,-25.7 191,-25.7"/>
 </g>
 <!-- c_0_116 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_116</title>
-<g id="a_node3"><a xlink:href="c_0_116.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="247.5,-0.5 247.5,-15.5 301.5,-15.5 301.5,-0.5 247.5,-0.5"/>
-<text text-anchor="middle" x="274.5" y="-4.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
+<g id="a_node2"><a xlink:href="c_0_116.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="0,-0.5 0,-15.5 54,-15.5 54,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="27" y="-4.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- t28_fib_num3&#45;&gt;c_0_116 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t28_fib_num3&#45;&gt;c_0_116</title>
-<path fill="none" stroke="black" d="M236,-52.33C236,-37.86 236,-8 236,-8 236,-8 237.34,-8 237.34,-8"/>
-<polygon fill="black" stroke="black" points="237.34,-11.5 247.34,-8 237.34,-4.5 237.34,-11.5"/>
+<path fill="none" stroke="black" d="M65.5,-52.33C65.5,-37.86 65.5,-8 65.5,-8 65.5,-8 64.16,-8 64.16,-8"/>
+<polygon fill="black" stroke="black" points="64.16,-4.5 54.16,-8 64.16,-11.5 64.16,-4.5"/>
+</g>
+<!-- c_0_98 -->
+<g id="node3" class="node">
+<title>c_0_98</title>
+<g id="a_node3"><a xlink:href="c_0_98.html" xlink:title="{fib(2 * sk₁) ≠ fib(sk₁) * lucas(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="72.5,-0.5 72.5,-15.5 301.5,-15.5 301.5,-0.5 72.5,-0.5"/>
+<text text-anchor="middle" x="187" y="-4.3" font-family="Times,serif" font-size="14.00">fib(2 * sk₁) ≠ fib(sk₁) * lucas(sk₁)</text>
+</a>
+</g>
+</g>
+<!-- t28_fib_num3&#45;&gt;c_0_98 -->
+<g id="edge2" class="edge">
+<title>t28_fib_num3&#45;&gt;c_0_98</title>
+<path fill="none" stroke="black" d="M114,-52.33C114,-52.33 114,-25.7 114,-25.7"/>
+<polygon fill="black" stroke="black" points="117.5,-25.7 114,-15.7 110.5,-25.7 117.5,-25.7"/>
 </g>
 </g>
 </svg>
