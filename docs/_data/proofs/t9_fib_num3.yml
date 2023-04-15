@@ -8,16 +8,16 @@ axioms:
       \ \u2208 \u211D) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#CC1
   cc2_int_1:
-    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 integer(X\u2081\
-      ) ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (X\u2081\
+      \ \u2208 \u2124) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_1.html#CC2
   cc2_xcmplx_0:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (X\u2081\
       \ \u2208 \u2102) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#CC2
   cc3_int_1:
-    fof: "    (\u2200X\u2081)\n      ( integer(X\u2081)\n     \u21D2 (X\u2081 \u2208\
-      \ \u211D) ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2124)\n     \u21D2 (X\u2081\
+      \ \u2208 \u211D) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_1.html#CC3
   cc3_xreal_0:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (X\u2081\
@@ -38,19 +38,19 @@ axioms:
       \ * X\u2081) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K3
   d1_fib_num:
-    fof: '    tau = ((1 + sqrt(5)) / 2) '
+    fof: "    \u03C4\u207A = ((1 + (\u221A5)) / 2) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#D1
   dt_k1_fib_num:
-    fof: "    (tau \u2208 \u211D) "
+    fof: "    (\u03C4\u207A \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#K1
   dt_k3_power:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u211D)\n       \
-      \ \u2227 (X\u2082 \u2208 \u211D) )\n     \u21D2 (to_power(X\u2081,X\u2082) \u2208\
+      \ \u2227 (X\u2082 \u2208 \u211D) )\n     \u21D2 ((X\u2081 ^ X\u2082) \u2208\
       \ \u211D) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/power.html#K3
   dt_k6_square_1:
-    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (sqrt(X\u2081\
-      ) \u2208 \u211D) ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 ((\u221A\
+      X\u2081) \u2208 \u211D) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/square_1.html#K6
   fc2_xcmplx_0:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2102)\n       \
@@ -58,8 +58,8 @@ axioms:
       \ \u2102) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#FC2
   fc3_int_1:
-    fof: "    (\u2200X\u2081)\n      ( integer(X\u2081)\n     \u21D2 ( (-(X\u2081\
-      ) \u2208 \u2102)\n        \u2227 integer(-(X\u2081)) ) ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2124)\n     \u21D2 ( (-(X\u2081\
+      ) \u2208 \u2102)\n        \u2227 (-(X\u2081) \u2208 \u2124) ) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_1.html#FC3
   fc3_xreal_0:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 ( (-(X\u2081\
@@ -80,7 +80,8 @@ axioms:
       )) = X\u2081 ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K4
   l17_fib_num:
-    fof: "    ( ( ^2 tau) = (tau + 1)\n    \u2227 ( ^2 tau_bar) = (tau_bar + 1) "
+    fof: "    ( (\u03C4\u207A ^ 2) = (\u03C4\u207A + 1)\n    \u2227 (\u03C4\u207B\
+      \ ^ 2) = (\u03C4\u207B + 1) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#L17
   redefinition_k13_complex1:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2102)\n       \
@@ -96,15 +97,15 @@ axioms:
     fof: "    \u2115 = \u03C9 "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
   redefinition_k7_square_1:
-    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 sqrt(X\u2081\
-      ) = sqrt(X\u2081) ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (\u221A\
+      X\u2081) = (\u221AX\u2081) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/square_1.html#K7
   spc1_numerals:
-    fof: "    ( positive(1)\n    \u2227 (1 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+    fof: "    ( (1 &gt; 0)\n    \u2227 (1 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
       \ (1 \u2208 \u2115)\n    \u2227 (1 \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC1
   spc2_numerals:
-    fof: "    ( positive(2)\n    \u2227 (2 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+    fof: "    ( (2 &gt; 0)\n    \u2227 (2 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
       \ (2 \u2208 \u2115)\n    \u2227 (2 \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC2
   spc5_arithm:
@@ -114,31 +115,31 @@ axioms:
       \ * X\u2083)) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/arithm.html#SPC5
   spc5_numerals:
-    fof: "    ( positive(5)\n    \u2227 (5 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+    fof: "    ( (5 &gt; 0)\n    \u2227 (5 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
       \ (5 \u2208 \u2115)\n    \u2227 (5 \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC5
   t25_power:
-    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 to_power(X\u2081\
-      ,1) = X\u2081 ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (X\u2081\
+      \ ^ 1) = X\u2081 ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/power.html#T25
   t3_arithm:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2102)\n     \u21D2 (1 * X\u2081\
       ) = X\u2081 ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/arithm.html#T3
   t46_power:
-    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 to_power(X\u2081\
-      ,2) = ( ^2 X\u2081) ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 (X\u2081\
+      \ ^ 2) = (X\u2081 ^ 2) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/power.html#T46
   t5_fib_num2:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (\u2200\
       X\u2082)\n          ( (X\u2082 \u2208 \u2115)\n         \u21D2 (\u2200X\u2083\
-      )\n              ( (X\u2083 \u2208 \u211D)\n             \u21D2 to_power(X\u2083\
-      ,X\u2081 + X\u2082) = (to_power(X\u2083,X\u2081) * to_power(X\u2083,X\u2082\
-      )) ) ) ) "
+      )\n              ( (X\u2083 \u2208 \u211D)\n             \u21D2 (X\u2083 ^ (X\u2081\
+      \ + X\u2082)) = ((X\u2083 ^ X\u2081) * (X\u2083 ^ X\u2082)) ) ) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num2.html#T5
   t9_fib_num3:
-    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (to_power(tau,X\u2081\
-      ) + to_power(tau,X\u2081 + 1)) = to_power(tau,X\u2081 + 2) ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 ((\u03C4\
+      \u207A ^ X\u2081) + (\u03C4\u207A ^ (X\u2081 + 1))) = (\u03C4\u207A ^ (X\u2081\
+      \ + 2)) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num3.html#T9
 conjecture: t9_fib_num3
 final: c_0_175
@@ -152,7 +153,7 @@ steps:
   c_0_101:
     counts:
       k7_xcmplx_0: 1
-      v1_xcmplx_0: 3
+      v1_xcmplx_0: 1
     skolems: []
   c_0_104:
     counts:
@@ -186,7 +187,6 @@ steps:
       k3_power: 4
       k3_xcmplx_0: 2
       np__2: 1
-      v1_xcmplx_0: 1
     skolems:
     - esk1_0
   c_0_111:
@@ -194,44 +194,39 @@ steps:
       k3_power: 1
       k3_square_1: 1
       np__2: 1
-      v1_xreal_0: 1
     skolems: []
   c_0_112:
     counts:
       k4_xcmplx_0: 2
-      v1_int_1: 1
       v1_xcmplx_0: 1
     skolems: []
   c_0_114:
     counts:
       k4_xcmplx_0: 2
-      v7_ordinal1: 1
     skolems: []
   c_0_117:
     counts:
       k2_xcmplx_0: 1
-      v1_xcmplx_0: 3
+      v1_xcmplx_0: 1
     skolems: []
   c_0_120:
     counts:
       k6_square_1: 1
-      v1_xreal_0: 2
+      v1_xreal_0: 1
     skolems: []
   c_0_125:
     counts:
-      k1_fib_num: 7
+      k1_fib_num: 5
       k2_xcmplx_0: 1
-      k3_power: 5
+      k3_power: 4
       k3_xcmplx_0: 2
       np__2: 1
-      v1_xcmplx_0: 3
     skolems:
     - esk1_0
   c_0_127:
     counts:
       k4_xcmplx_0: 2
       v1_xcmplx_0: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_128:
     counts:
@@ -241,11 +236,7 @@ steps:
   c_0_129:
     counts:
       k1_fib_num: 1
-      k2_xcmplx_0: 1
-      k7_square_1: 1
-      np__1: 1
-      np__5: 1
-      v1_xcmplx_0: 2
+      v1_xcmplx_0: 1
     skolems: []
   c_0_131:
     counts:
@@ -255,7 +246,6 @@ steps:
   c_0_132:
     counts:
       v1_xcmplx_0: 1
-      v1_xreal_0: 1
     skolems: []
   c_0_134:
     counts:
@@ -267,7 +257,6 @@ steps:
     counts:
       k2_xcmplx_0: 2
       k3_xcmplx_0: 3
-      v1_xcmplx_0: 3
     skolems: []
   c_0_137:
     counts:
@@ -276,16 +265,6 @@ steps:
       k3_square_1: 1
       np__1: 1
     skolems: []
-  c_0_138:
-    counts:
-      k1_fib_num: 7
-      k2_xcmplx_0: 1
-      k3_power: 4
-      k3_square_1: 1
-      k3_xcmplx_0: 2
-      v1_xcmplx_0: 3
-    skolems:
-    - esk1_0
   c_0_139:
     counts:
       v1_xcmplx_0: 1
@@ -306,75 +285,67 @@ steps:
     skolems: []
   c_0_147:
     counts:
-      k1_fib_num: 3
+      k1_fib_num: 2
       k2_xcmplx_0: 1
       k3_square_1: 1
       k3_xcmplx_0: 3
-      np__1: 2
-      v1_xcmplx_0: 3
+      np__1: 1
     skolems: []
   c_0_151:
     counts:
       k3_xcmplx_0: 1
       np__1: 1
-      v1_xcmplx_0: 1
     skolems: []
   c_0_152:
     counts:
-      k1_fib_num: 7
+      k1_fib_num: 6
       k2_xcmplx_0: 2
-      k3_power: 5
+      k3_power: 4
       k3_xcmplx_0: 3
       np__1: 1
-      v1_xcmplx_0: 1
     skolems:
     - esk1_0
   c_0_155:
     counts:
-      k1_fib_num: 7
+      k1_fib_num: 6
       k2_xcmplx_0: 2
-      k3_power: 5
+      k3_power: 4
       k3_xcmplx_0: 2
-      v1_xcmplx_0: 1
     skolems:
     - esk1_0
   c_0_158:
     counts:
-      v1_int_1: 1
       v1_xreal_0: 1
     skolems: []
   c_0_160:
     counts:
       k3_xcmplx_0: 1
-      v1_xreal_0: 3
+      v1_xreal_0: 1
     skolems: []
   c_0_161:
     counts:
       k4_xcmplx_0: 1
-      v1_xreal_0: 2
+      v1_xreal_0: 1
     skolems: []
   c_0_167:
     counts:
       k4_xcmplx_0: 1
-      v1_int_1: 1
       v1_xreal_0: 1
     skolems: []
   c_0_169:
     counts:
       k3_power: 1
-      v1_xreal_0: 3
+      v1_xreal_0: 1
     skolems: []
   c_0_170:
     counts:
-      k4_xcmplx_0: 1
-      v1_xreal_0: 2
+      v1_xreal_0: 1
     skolems:
     - esk1_0
   c_0_171:
     counts:
       k4_xcmplx_0: 1
       v1_xreal_0: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_37:
     counts:
@@ -392,7 +363,6 @@ steps:
       k2_xcmplx_0: 1
       k5_numbers: 1
       m1_subset_1: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_39:
     counts:
@@ -442,8 +412,6 @@ steps:
       k2_xcmplx_0: 1
       k3_power: 3
       k3_xcmplx_0: 1
-      v1_xreal_0: 1
-      v7_ordinal1: 2
     skolems: []
   c_0_54:
     counts:
@@ -468,7 +436,6 @@ steps:
   c_0_62:
     counts:
       k2_xcmplx_0: 2
-      v1_xcmplx_0: 2
     skolems: []
   c_0_63:
     counts:
@@ -499,8 +466,7 @@ steps:
       k3_power: 4
       k3_xcmplx_0: 1
       np__1: 1
-      np__2: 2
-      v1_xcmplx_0: 2
+      np__2: 1
     skolems:
     - esk1_0
   c_0_71:
@@ -522,34 +488,29 @@ steps:
     counts:
       k13_complex1: 1
       k7_xcmplx_0: 1
-      v1_xcmplx_0: 2
     skolems: []
   c_0_80:
     counts:
       k3_power: 1
       np__1: 1
-      v1_xreal_0: 1
     skolems: []
   c_0_82:
     counts:
       k4_xcmplx_0: 1
-      v1_int_1: 1
       v1_xcmplx_0: 1
     skolems: []
   c_0_83:
     counts:
       k4_xcmplx_0: 1
-      v1_int_1: 2
+      v1_int_1: 1
     skolems: []
   c_0_85:
     counts:
       k4_xcmplx_0: 2
-      v1_xcmplx_0: 1
     skolems: []
   c_0_86:
     counts:
       v1_xcmplx_0: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_88:
     counts:
@@ -569,18 +530,15 @@ steps:
       k3_xcmplx_0: 2
       np__1: 1
       np__2: 1
-      v1_xcmplx_0: 1
     skolems:
     - esk1_0
   c_0_94:
     counts:
       k3_xcmplx_0: 2
-      v1_xcmplx_0: 2
     skolems: []
   c_0_98:
     counts:
       v1_int_1: 1
-      v7_ordinal1: 1
     skolems: []
 symbols:
   k13_complex1:
@@ -593,12 +551,12 @@ symbols:
     vizar: x / y
   k1_fib_num:
     arity: 0
-    count: 102
+    count: 83
     mizar: tau
-    neg: 85
+    neg: 66
     pos: 17
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#K1
-    vizar: tau
+    vizar: "\u03C4\u207A"
   k1_nat_1:
     arity: 2
     count: 7
@@ -617,20 +575,20 @@ symbols:
     vizar: "\u211D"
   k2_xcmplx_0:
     arity: 2
-    count: 48
+    count: 45
     mizar: +
-    neg: 26
+    neg: 23
     pos: 22
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K2
     vizar: x + y
   k3_power:
     arity: 2
-    count: 79
+    count: 66
     mizar: to_power
-    neg: 67
+    neg: 54
     pos: 12
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/power.html#K3
-    vizar: to_power(x,y)
+    vizar: x ^ y
   k3_square_1:
     arity: 1
     count: 9
@@ -638,12 +596,12 @@ symbols:
     neg: 3
     pos: 6
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/square_1.html#K3
-    vizar: ^2
+    vizar: x ^ 2
   k3_xcmplx_0:
     arity: 2
-    count: 44
+    count: 42
     mizar: '*'
-    neg: 22
+    neg: 20
     pos: 22
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K3
     vizar: x * y
@@ -657,9 +615,9 @@ symbols:
     vizar: "\u03C9"
   k4_xcmplx_0:
     arity: 1
-    count: 21
+    count: 20
     mizar: '-'
-    neg: 1
+    neg: 0
     pos: 20
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K4
     vizar: -(x)
@@ -678,15 +636,15 @@ symbols:
     neg: 0
     pos: 5
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/square_1.html#K6
-    vizar: sqrt(x)
+    vizar: "\u221Ax"
   k7_square_1:
     arity: 1
-    count: 12
+    count: 8
     mizar: sqrt
-    neg: 4
+    neg: 0
     pos: 8
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/square_1.html#K7
-    vizar: sqrt(x)
+    vizar: "\u221Ax"
   k7_xcmplx_0:
     arity: 2
     count: 6
@@ -705,57 +663,57 @@ symbols:
     vizar: "x \u2208 y"
   np__1:
     arity: 0
-    count: 31
+    count: 27
     mizar: '1'
-    neg: 13
+    neg: 9
     pos: 18
     url: null
     vizar: '1'
   np__2:
     arity: 0
-    count: 24
+    count: 22
     mizar: '2'
-    neg: 12
+    neg: 10
     pos: 12
     url: null
     vizar: '2'
   np__5:
     arity: 0
-    count: 14
+    count: 10
     mizar: '5'
-    neg: 4
+    neg: 0
     pos: 10
     url: null
     vizar: '5'
   v1_int_1:
     arity: 1
-    count: 12
+    count: 4
     mizar: integer
-    neg: 8
+    neg: 0
     pos: 4
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_1.html#V1
-    vizar: integer(x)
+    vizar: "x \u2208 \u2124"
   v1_xcmplx_0:
     arity: 1
-    count: 79
+    count: 20
     mizar: complex
-    neg: 59
+    neg: 0
     pos: 20
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#V1
     vizar: "x \u2208 \u2102"
   v1_xreal_0:
     arity: 1
-    count: 44
+    count: 20
     mizar: real
-    neg: 24
+    neg: 0
     pos: 20
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#V1
     vizar: "x \u2208 \u211D"
   v7_ordinal1:
     arity: 1
-    count: 20
+    count: 7
     mizar: natural
-    neg: 13
+    neg: 0
     pos: 7
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V7
     vizar: "x \u2208 \u2115"
@@ -798,10 +756,6 @@ tptp:
     \    | ~ v1_xcmplx_0(X1)\n    | ~ v1_xcmplx_0(X2)\n    | ~ v1_xcmplx_0(X3) ))."
   c_0_137: "cnf(c_0_137,plain,\n    ( k3_square_1(k1_fib_num) = k2_xcmplx_0(k1_fib_num,np__1)\
     \ ))."
-  c_0_138: "cnf(c_0_138,negated_conjecture,\n    ( k3_xcmplx_0(k3_square_1(k1_fib_num),k3_power(k1_fib_num,esk1_0))\
-    \ != k2_xcmplx_0(k3_power(k1_fib_num,esk1_0),k3_xcmplx_0(k1_fib_num,k3_power(k1_fib_num,esk1_0)))\n\
-    \    | ~ v1_xcmplx_0(k3_power(k1_fib_num,esk1_0))\n    | ~ v1_xcmplx_0(esk1_0)\n\
-    \    | ~ v1_xcmplx_0(k1_fib_num) ))."
   c_0_139: "cnf(c_0_139,negated_conjecture,\n    ( v1_xcmplx_0(esk1_0) ))."
   c_0_142: "cnf(c_0_142,plain,\n    ( v1_xreal_0(k7_square_1(np__5)) ))."
   c_0_144: "cnf(c_0_144,plain,\n    ( k2_xcmplx_0(k1_fib_num,np__1) = k3_square_1(k1_fib_num)\

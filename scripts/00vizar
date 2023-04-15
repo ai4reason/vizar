@@ -586,10 +586,10 @@ k9_real_1 -
 k10_real_1 /
 k1_square_1 min
 k2_square_1 max
-k3_square_1 ^2
+k3_square_1 ###1 ^ 2
 k4_square_1 ^2
 k5_square_1 ^2
-k6_square_1 sqrt
+k6_square_1 √###1
 k7_square_1 √###1
 k1_nat_1 +
 k2_nat_1 +
@@ -601,7 +601,7 @@ k7_nat_1 max
 k8_nat_1 .
 k9_nat_1 ^\
 k10_nat_1 ^\
-v1_int_1 integer
+v1_int_1 ###1 ∈ ℤ
 r1_int_1 ।
 r2_int_1 are_congruent_mod
 r2_int_1 are_congruent_mod
@@ -618,7 +618,7 @@ v1_membered complex-membered
 v2_membered ext-real-membered
 v3_membered ###1 ⊆ ℝ
 v4_membered rational-membered
-v5_membered integer-membered
+v5_membered ###1 ⊆ ℤ
 v6_membered ###1 ⊆ ℕ
 v7_membered add-closed
 v1_valued_0 complex-valued
