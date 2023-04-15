@@ -14,18 +14,18 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="77,-60 77,-92 545,-92 545,-60 77,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="62,-60 62,-92 530,-92 530,-60 62,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="95,-8 95,-40 527,-40 527,-8 95,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="80,-8 80,-40 512,-40 512,-8 80,-8"/>
 </g>
-<!-- c_0_147 -->
+<!-- c_0_125 -->
 <g id="node1" class="node">
-<title>c_0_147</title>
-<g id="a_node1"><a xlink:href="c_0_147.html" xlink:title="{(τ⁺ ^ 2) * C₁ = (τ⁺ * C₁) + (1 * C₁)}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="392,-120.5 392,-135.5 630,-135.5 630,-120.5 392,-120.5"/>
-<text text-anchor="middle" x="511" y="-124.3" font-family="Times,serif" font-size="14.00">(τ⁺ ^ 2) * C₁ = (τ⁺ * C₁) + (1 * C₁)</text>
+<title>c_0_125</title>
+<g id="a_node1"><a xlink:href="c_0_125.html" xlink:title="{(τ⁺ ^ 2) * (τ⁺ ^ sk₁) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="272,-120.5 272,-135.5 630,-135.5 630,-120.5 272,-120.5"/>
+<text text-anchor="middle" x="451" y="-124.3" font-family="Times,serif" font-size="14.00">(τ⁺ ^ 2) * (τ⁺ ^ sk₁) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))</text>
 </a>
 </g>
 </g>
@@ -33,46 +33,46 @@
 <g id="node3" class="node">
 <title>c_0_152</title>
 <g id="a_node3"><a xlink:href="c_0_152.html" xlink:title="{(τ⁺ * (τ⁺ ^ sk₁)) + (1 * (τ⁺ ^ sk₁)) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="85.5,-68.5 85.5,-83.5 536.5,-83.5 536.5,-68.5 85.5,-68.5"/>
-<text text-anchor="middle" x="311" y="-72.3" font-family="Times,serif" font-size="14.00">(τ⁺ * (τ⁺ ^ sk₁)) + (1 * (τ⁺ ^ sk₁)) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))</text>
-</a>
-</g>
-</g>
-<!-- c_0_147&#45;&gt;c_0_152 -->
-<g id="edge1" class="edge">
-<title>c_0_147&#45;&gt;c_0_152</title>
-<path fill="none" stroke="black" d="M464.25,-120.33C464.25,-120.33 464.25,-93.7 464.25,-93.7"/>
-<polygon fill="black" stroke="black" points="467.75,-93.7 464.25,-83.7 460.75,-93.7 467.75,-93.7"/>
-</g>
-<!-- c_0_125 -->
-<g id="node2" class="node">
-<title>c_0_125</title>
-<g id="a_node2"><a xlink:href="c_0_125.html" xlink:title="{(τ⁺ ^ 2) * (τ⁺ ^ sk₁) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-120.5 16,-135.5 374,-135.5 374,-120.5 16,-120.5"/>
-<text text-anchor="middle" x="195" y="-124.3" font-family="Times,serif" font-size="14.00">(τ⁺ ^ 2) * (τ⁺ ^ sk₁) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="70.5,-68.5 70.5,-83.5 521.5,-83.5 521.5,-68.5 70.5,-68.5"/>
+<text text-anchor="middle" x="296" y="-72.3" font-family="Times,serif" font-size="14.00">(τ⁺ * (τ⁺ ^ sk₁)) + (1 * (τ⁺ ^ sk₁)) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))</text>
 </a>
 </g>
 </g>
 <!-- c_0_125&#45;&gt;c_0_152 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_125&#45;&gt;c_0_152</title>
-<path fill="none" stroke="black" d="M229.75,-120.33C229.75,-120.33 229.75,-93.7 229.75,-93.7"/>
-<polygon fill="black" stroke="black" points="233.25,-93.7 229.75,-83.7 226.25,-93.7 233.25,-93.7"/>
+<path fill="none" stroke="black" d="M396.75,-120.33C396.75,-120.33 396.75,-93.7 396.75,-93.7"/>
+<polygon fill="black" stroke="black" points="400.25,-93.7 396.75,-83.7 393.25,-93.7 400.25,-93.7"/>
+</g>
+<!-- c_0_147 -->
+<g id="node2" class="node">
+<title>c_0_147</title>
+<g id="a_node2"><a xlink:href="c_0_147.html" xlink:title="{(τ⁺ ^ 2) * C₁ = (τ⁺ * C₁) + (1 * C₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-120.5 16,-135.5 254,-135.5 254,-120.5 16,-120.5"/>
+<text text-anchor="middle" x="135" y="-124.3" font-family="Times,serif" font-size="14.00">(τ⁺ ^ 2) * C₁ = (τ⁺ * C₁) + (1 * C₁)</text>
+</a>
+</g>
+</g>
+<!-- c_0_147&#45;&gt;c_0_152 -->
+<g id="edge2" class="edge">
+<title>c_0_147&#45;&gt;c_0_152</title>
+<path fill="none" stroke="black" d="M162.25,-120.33C162.25,-120.33 162.25,-93.7 162.25,-93.7"/>
+<polygon fill="black" stroke="black" points="165.75,-93.7 162.25,-83.7 158.75,-93.7 165.75,-93.7"/>
 </g>
 <!-- c_0_155 -->
 <g id="node4" class="node">
 <title>c_0_155</title>
 <g id="a_node4"><a xlink:href="c_0_155.html" xlink:title="{(τ⁺ * (τ⁺ ^ sk₁)) + (τ⁺ ^ sk₁) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="103,-16.5 103,-31.5 519,-31.5 519,-16.5 103,-16.5"/>
-<text text-anchor="middle" x="311" y="-20.3" font-family="Times,serif" font-size="14.00">(τ⁺ * (τ⁺ ^ sk₁)) + (τ⁺ ^ sk₁) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="88,-16.5 88,-31.5 504,-31.5 504,-16.5 88,-16.5"/>
+<text text-anchor="middle" x="296" y="-20.3" font-family="Times,serif" font-size="14.00">(τ⁺ * (τ⁺ ^ sk₁)) + (τ⁺ ^ sk₁) ≠ (τ⁺ ^ sk₁) + (τ⁺ * (τ⁺ ^ sk₁))</text>
 </a>
 </g>
 </g>
 <!-- c_0_152&#45;&gt;c_0_155 -->
 <g id="edge3" class="edge">
 <title>c_0_152&#45;&gt;c_0_155</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M311,-68.33C311,-68.33 311,-41.7 311,-41.7"/>
-<polygon fill="black" stroke="black" points="314.5,-41.7 311,-31.7 307.5,-41.7 314.5,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M296,-68.33C296,-68.33 296,-41.7 296,-41.7"/>
+<polygon fill="black" stroke="black" points="299.5,-41.7 296,-31.7 292.5,-41.7 299.5,-41.7"/>
 </g>
 </g>
 </svg>

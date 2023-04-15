@@ -14,20 +14,14 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="143,-8 143,-40 173,-40 173,-8 143,-8"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="146,-8 146,-40 176,-40 176,-8 146,-8"/>
 </g>
-<!-- c_0_210 -->
+<!-- c_0_209 -->
 <g id="node1" class="node">
-<title>c_0_210</title>
-<g id="a_node1"><a xlink:href="c_0_210.html" xlink:title="{N₁ । 1|prime(N₁)|⇊|⊥}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="244,-68.5 244,-128.5 314,-128.5 314,-68.5 244,-68.5"/>
-<text text-anchor="middle" x="279" y="-117.3" font-family="Times,serif" font-size="14.00">N₁ । 1</text>
-<polyline fill="none" stroke="#7f7542" points="244,-113.5 314,-113.5 "/>
-<text text-anchor="middle" x="279" y="-102.3" font-family="Times,serif" font-size="14.00">prime(N₁)</text>
-<polyline fill="none" stroke="#7f7542" points="244,-98.5 314,-98.5 "/>
-<text text-anchor="middle" x="279" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="244,-83.5 314,-83.5 "/>
-<text text-anchor="middle" x="279" y="-72.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<title>c_0_209</title>
+<g id="a_node1"><a xlink:href="c_0_209.html" xlink:title="{prime(sk₁)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="240,-91 240,-106 314,-106 314,-91 240,-91"/>
+<text text-anchor="middle" x="277" y="-94.8" font-family="Times,serif" font-size="14.00">prime(sk₁)</text>
 </a>
 </g>
 </g>
@@ -35,61 +29,67 @@
 <g id="node5" class="node">
 <title>c_0_213</title>
 <g id="a_node5"><a xlink:href="c_0_213.html" xlink:title="⊥" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="151,-16.5 151,-31.5 165,-31.5 165,-16.5 151,-16.5"/>
-<text text-anchor="middle" x="158" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="154,-16.5 154,-31.5 168,-31.5 168,-16.5 154,-16.5"/>
+<text text-anchor="middle" x="161" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
-<!-- c_0_210&#45;&gt;c_0_213 -->
+<!-- c_0_209&#45;&gt;c_0_213 -->
 <g id="edge1" class="edge">
-<title>c_0_210&#45;&gt;c_0_213</title>
-<path fill="none" stroke="black" d="M243.97,-79C209.58,-79 162.25,-79 162.25,-79 162.25,-79 162.25,-41.65 162.25,-41.65"/>
-<polygon fill="black" stroke="black" points="165.75,-41.65 162.25,-31.65 158.75,-41.65 165.75,-41.65"/>
+<title>c_0_209&#45;&gt;c_0_213</title>
+<path fill="none" stroke="black" d="M277,-90.81C277,-71.77 277,-24 277,-24 277,-24 178.26,-24 178.26,-24"/>
+<polygon fill="black" stroke="black" points="178.26,-20.5 168.26,-24 178.26,-27.5 178.26,-20.5"/>
 </g>
 <!-- c_0_140 -->
 <g id="node2" class="node">
 <title>c_0_140</title>
 <g id="a_node2"><a xlink:href="c_0_140.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="172,-91 172,-106 226,-106 226,-91 172,-91"/>
-<text text-anchor="middle" x="199" y="-94.8" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="168,-91 168,-106 222,-106 222,-91 168,-91"/>
+<text text-anchor="middle" x="195" y="-94.8" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- c_0_140&#45;&gt;c_0_213 -->
 <g id="edge2" class="edge">
 <title>c_0_140&#45;&gt;c_0_213</title>
-<path fill="none" stroke="black" d="M172,-101C165.05,-101 159.5,-101 159.5,-101 159.5,-101 159.5,-41.66 159.5,-41.66"/>
-<polygon fill="black" stroke="black" points="163,-41.66 159.5,-31.66 156,-41.66 163,-41.66"/>
-</g>
-<!-- c_0_209 -->
-<g id="node3" class="node">
-<title>c_0_209</title>
-<g id="a_node3"><a xlink:href="c_0_209.html" xlink:title="{prime(sk₁)}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="80,-91 80,-106 154,-106 154,-91 80,-91"/>
-<text text-anchor="middle" x="117" y="-94.8" font-family="Times,serif" font-size="14.00">prime(sk₁)</text>
-</a>
-</g>
-</g>
-<!-- c_0_209&#45;&gt;c_0_213 -->
-<g id="edge3" class="edge">
-<title>c_0_209&#45;&gt;c_0_213</title>
-<path fill="none" stroke="black" d="M154.14,-95C155.78,-95 156.75,-95 156.75,-95 156.75,-95 156.75,-41.6 156.75,-41.6"/>
-<polygon fill="black" stroke="black" points="160.25,-41.6 156.75,-31.6 153.25,-41.6 160.25,-41.6"/>
+<path fill="none" stroke="black" d="M167.76,-95C165.76,-95 164.5,-95 164.5,-95 164.5,-95 164.5,-41.6 164.5,-41.6"/>
+<polygon fill="black" stroke="black" points="168,-41.6 164.5,-31.6 161,-41.6 168,-41.6"/>
 </g>
 <!-- c_0_211 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_211</title>
-<g id="a_node4"><a xlink:href="c_0_211.html" xlink:title="{sk₁ । 1}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-91 16.5,-106 61.5,-106 61.5,-91 16.5,-91"/>
-<text text-anchor="middle" x="39" y="-94.8" font-family="Times,serif" font-size="14.00">sk₁ । 1</text>
+<g id="a_node3"><a xlink:href="c_0_211.html" xlink:title="{sk₁ । 1}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="104.5,-91 104.5,-106 149.5,-106 149.5,-91 104.5,-91"/>
+<text text-anchor="middle" x="127" y="-94.8" font-family="Times,serif" font-size="14.00">sk₁ । 1</text>
 </a>
 </g>
 </g>
 <!-- c_0_211&#45;&gt;c_0_213 -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>c_0_211&#45;&gt;c_0_213</title>
-<path fill="none" stroke="black" d="M39,-90.81C39,-71.77 39,-24 39,-24 39,-24 140.91,-24 140.91,-24"/>
-<polygon fill="black" stroke="black" points="140.91,-27.5 150.91,-24 140.91,-20.5 140.91,-27.5"/>
+<path fill="none" stroke="black" d="M149.87,-101C156.02,-101 161,-101 161,-101 161,-101 161,-41.66 161,-41.66"/>
+<polygon fill="black" stroke="black" points="164.5,-41.66 161,-31.66 157.5,-41.66 164.5,-41.66"/>
+</g>
+<!-- c_0_210 -->
+<g id="node4" class="node">
+<title>c_0_210</title>
+<g id="a_node4"><a xlink:href="c_0_210.html" xlink:title="{N₁ । 1|prime(N₁)|⇊|⊥}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-68.5 16,-128.5 86,-128.5 86,-68.5 16,-68.5"/>
+<text text-anchor="middle" x="51" y="-117.3" font-family="Times,serif" font-size="14.00">N₁ । 1</text>
+<polyline fill="none" stroke="#7f7542" points="16,-113.5 86,-113.5 "/>
+<text text-anchor="middle" x="51" y="-102.3" font-family="Times,serif" font-size="14.00">prime(N₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-98.5 86,-98.5 "/>
+<text text-anchor="middle" x="51" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-83.5 86,-83.5 "/>
+<text text-anchor="middle" x="51" y="-72.3" font-family="Times,serif" font-size="14.00">⊥</text>
+</a>
+</g>
+</g>
+<!-- c_0_210&#45;&gt;c_0_213 -->
+<g id="edge4" class="edge">
+<title>c_0_210&#45;&gt;c_0_213</title>
+<path fill="none" stroke="black" d="M86.17,-79C117.19,-79 157.5,-79 157.5,-79 157.5,-79 157.5,-41.65 157.5,-41.65"/>
+<polygon fill="black" stroke="black" points="161,-41.65 157.5,-31.65 154,-41.65 161,-41.65"/>
 </g>
 </g>
 </svg>

@@ -12,40 +12,40 @@
 <g id="node1" class="node">
 <title>t9_fib_num3</title>
 <g id="a_node1"><a xlink:href="t9_fib_num3.html" xlink:title="t9_fib_num3" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="215,-52.5 215,-67.5 303,-67.5 303,-52.5 215,-52.5"/>
-<text text-anchor="middle" x="259" y="-56.3" font-family="Times,serif" font-size="14.00">t9_fib_num3</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="84,-52.5 84,-67.5 172,-67.5 172,-52.5 84,-52.5"/>
+<text text-anchor="middle" x="128" y="-56.3" font-family="Times,serif" font-size="14.00">t9_fib_num3</text>
 </a>
 </g>
-</g>
-<!-- c_0_37 -->
-<g id="node2" class="node">
-<title>c_0_37</title>
-<g id="a_node2"><a xlink:href="c_0_37.html" xlink:title="{(τ⁺ ^ sk₁) + (τ⁺ ^ (sk₁ + 1)) ≠ τ⁺ ^ (sk₁ + 2)}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="0,-0.5 0,-15.5 316,-15.5 316,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="158" y="-4.3" font-family="Times,serif" font-size="14.00">(τ⁺ ^ sk₁) + (τ⁺ ^ (sk₁ + 1)) ≠ τ⁺ ^ (sk₁ + 2)</text>
-</a>
-</g>
-</g>
-<!-- t9_fib_num3&#45;&gt;c_0_37 -->
-<g id="edge1" class="edge">
-<title>t9_fib_num3&#45;&gt;c_0_37</title>
-<path fill="none" stroke="black" d="M259,-52.33C259,-52.33 259,-25.7 259,-25.7"/>
-<polygon fill="black" stroke="black" points="262.5,-25.7 259,-15.7 255.5,-25.7 262.5,-25.7"/>
 </g>
 <!-- c_0_40 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>c_0_40</title>
-<g id="a_node3"><a xlink:href="c_0_40.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="334,-0.5 334,-15.5 388,-15.5 388,-0.5 334,-0.5"/>
-<text text-anchor="middle" x="361" y="-4.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
+<g id="a_node2"><a xlink:href="c_0_40.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="0,-0.5 0,-15.5 54,-15.5 54,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="27" y="-4.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
 </a>
 </g>
 </g>
 <!-- t9_fib_num3&#45;&gt;c_0_40 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>t9_fib_num3&#45;&gt;c_0_40</title>
-<path fill="none" stroke="black" d="M303.15,-60C330.71,-60 361,-60 361,-60 361,-60 361,-25.67 361,-25.67"/>
-<polygon fill="black" stroke="black" points="364.5,-25.67 361,-15.67 357.5,-25.67 364.5,-25.67"/>
+<path fill="none" stroke="black" d="M83.99,-60C56.78,-60 27,-60 27,-60 27,-60 27,-25.67 27,-25.67"/>
+<polygon fill="black" stroke="black" points="30.5,-25.67 27,-15.67 23.5,-25.67 30.5,-25.67"/>
+</g>
+<!-- c_0_37 -->
+<g id="node3" class="node">
+<title>c_0_37</title>
+<g id="a_node3"><a xlink:href="c_0_37.html" xlink:title="{(τ⁺ ^ sk₁) + (τ⁺ ^ (sk₁ + 1)) ≠ τ⁺ ^ (sk₁ + 2)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="72,-0.5 72,-15.5 388,-15.5 388,-0.5 72,-0.5"/>
+<text text-anchor="middle" x="230" y="-4.3" font-family="Times,serif" font-size="14.00">(τ⁺ ^ sk₁) + (τ⁺ ^ (sk₁ + 1)) ≠ τ⁺ ^ (sk₁ + 2)</text>
+</a>
+</g>
+</g>
+<!-- t9_fib_num3&#45;&gt;c_0_37 -->
+<g id="edge2" class="edge">
+<title>t9_fib_num3&#45;&gt;c_0_37</title>
+<path fill="none" stroke="black" d="M128,-52.33C128,-52.33 128,-25.7 128,-25.7"/>
+<polygon fill="black" stroke="black" points="131.5,-25.7 128,-15.7 124.5,-25.7 131.5,-25.7"/>
 </g>
 </g>
 </svg>

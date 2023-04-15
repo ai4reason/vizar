@@ -58,12 +58,12 @@ axioms:
       \ \u2102) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#FC2
   fc3_int_1:
-    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2124)\n     \u21D2 ( (-(X\u2081\
-      ) \u2208 \u2102)\n        \u2227 (-(X\u2081) \u2208 \u2124) ) ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2124)\n     \u21D2 ( ((-X\u2081\
+      ) \u2208 \u2102)\n        \u2227 ((-X\u2081) \u2208 \u2124) ) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_1.html#FC3
   fc3_xreal_0:
-    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 ( (-(X\u2081\
-      ) \u2208 \u2102)\n        \u2227 (-(X\u2081) \u2208 \u211D) ) ) "
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u211D)\n     \u21D2 ( ((-X\u2081\
+      ) \u2208 \u2102)\n        \u2227 ((-X\u2081) \u2208 \u211D) ) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#FC3
   fc5_xcmplx_0:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2102)\n       \
@@ -76,7 +76,7 @@ axioms:
       \ \u211D) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#FC6
   involutiveness_k4_xcmplx_0:
-    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2102)\n     \u21D2 -(-(X\u2081\
+    fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2102)\n     \u21D2 (-(-X\u2081\
       )) = X\u2081 ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K4
   l17_fib_num:
@@ -620,7 +620,7 @@ symbols:
     neg: 0
     pos: 20
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K4
-    vizar: -(x)
+    vizar: -x
   k5_numbers:
     arity: 0
     count: 9

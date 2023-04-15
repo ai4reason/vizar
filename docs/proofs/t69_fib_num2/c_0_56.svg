@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="54,-142 54,-174 224,-174 224,-142 54,-142"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="55,-142 55,-174 225,-174 225,-142 55,-142"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="67,-60 67,-122 211,-122 211,-60 67,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="68,-60 68,-122 212,-122 212,-60 68,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -24,8 +24,8 @@
 <g id="node1" class="node">
 <title>redefinition_k2_nat_1</title>
 <g id="a_node1"><a xlink:href="redefinition_k2_nat_1.html" xlink:title="redefinition_k2_nat_1" target="_vizar">
-<polygon fill="#69d2e7" stroke="#7f7542" points="62.5,-150.5 62.5,-165.5 215.5,-165.5 215.5,-150.5 62.5,-150.5"/>
-<text text-anchor="middle" x="139" y="-154.3" font-family="Times,serif" font-size="14.00">redefinition_k2_nat_1</text>
+<polygon fill="#69d2e7" stroke="#7f7542" points="63.5,-150.5 63.5,-165.5 216.5,-165.5 216.5,-150.5 63.5,-150.5"/>
+<text text-anchor="middle" x="140" y="-154.3" font-family="Times,serif" font-size="14.00">redefinition_k2_nat_1</text>
 </a>
 </g>
 </g>
@@ -33,50 +33,50 @@
 <g id="node2" class="node">
 <title>c_0_56</title>
 <g id="a_node2"><a xlink:href="c_0_56.html" xlink:title="{X₁ ∈ ℕ|⇊|X₁ + N₂ = X₁ + N₂}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="75,-68.5 75,-113.5 203,-113.5 203,-68.5 75,-68.5"/>
-<text text-anchor="middle" x="139" y="-102.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ</text>
-<polyline fill="none" stroke="#7f7542" points="75,-98.5 203,-98.5 "/>
-<text text-anchor="middle" x="139" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="75,-83.5 203,-83.5 "/>
-<text text-anchor="middle" x="139" y="-72.3" font-family="Times,serif" font-size="14.00">X₁ + N₂ = X₁ + N₂</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="76,-68.5 76,-113.5 204,-113.5 204,-68.5 76,-68.5"/>
+<text text-anchor="middle" x="140" y="-102.3" font-family="Times,serif" font-size="14.00">X₁ ∈ ℕ</text>
+<polyline fill="none" stroke="#7f7542" points="76,-98.5 204,-98.5 "/>
+<text text-anchor="middle" x="140" y="-87.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="76,-83.5 204,-83.5 "/>
+<text text-anchor="middle" x="140" y="-72.3" font-family="Times,serif" font-size="14.00">X₁ + N₂ = X₁ + N₂</text>
 </a>
 </g>
 </g>
 <!-- redefinition_k2_nat_1&#45;&gt;c_0_56 -->
 <g id="edge1" class="edge">
 <title>redefinition_k2_nat_1&#45;&gt;c_0_56</title>
-<path fill="none" stroke="black" d="M139,-150.31C139,-150.31 139,-123.76 139,-123.76"/>
-<polygon fill="black" stroke="black" points="142.5,-123.76 139,-113.76 135.5,-123.76 142.5,-123.76"/>
-</g>
-<!-- c_0_182 -->
-<g id="node3" class="node">
-<title>c_0_182</title>
-<g id="a_node3"><a xlink:href="c_0_182.html" xlink:title="{Ø + N₁ = Ø + N₁}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="150.5,-16.5 150.5,-31.5 271.5,-31.5 271.5,-16.5 150.5,-16.5"/>
-<text text-anchor="middle" x="211" y="-20.3" font-family="Times,serif" font-size="14.00">Ø + N₁ = Ø + N₁</text>
-</a>
-</g>
-</g>
-<!-- c_0_56&#45;&gt;c_0_182 -->
-<g id="edge2" class="edge">
-<title>c_0_56&#45;&gt;c_0_182</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M176.75,-68.32C176.75,-68.32 176.75,-41.59 176.75,-41.59"/>
-<polygon fill="black" stroke="black" points="180.25,-41.59 176.75,-31.59 173.25,-41.59 180.25,-41.59"/>
+<path fill="none" stroke="black" d="M140,-150.31C140,-150.31 140,-123.76 140,-123.76"/>
+<polygon fill="black" stroke="black" points="143.5,-123.76 140,-113.76 136.5,-123.76 143.5,-123.76"/>
 </g>
 <!-- c_0_106 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_106</title>
-<g id="a_node4"><a xlink:href="c_0_106.html" xlink:title="{1 + N₁ = 1 + N₁}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-31.5 132,-31.5 132,-16.5 16,-16.5"/>
-<text text-anchor="middle" x="74" y="-20.3" font-family="Times,serif" font-size="14.00">1 + N₁ = 1 + N₁</text>
+<g id="a_node3"><a xlink:href="c_0_106.html" xlink:title="{1 + N₁ = 1 + N₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="156,-16.5 156,-31.5 272,-31.5 272,-16.5 156,-16.5"/>
+<text text-anchor="middle" x="214" y="-20.3" font-family="Times,serif" font-size="14.00">1 + N₁ = 1 + N₁</text>
 </a>
 </g>
 </g>
 <!-- c_0_56&#45;&gt;c_0_106 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_56&#45;&gt;c_0_106</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M103.5,-68.32C103.5,-68.32 103.5,-41.59 103.5,-41.59"/>
-<polygon fill="black" stroke="black" points="107,-41.59 103.5,-31.59 100,-41.59 107,-41.59"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M180,-68.32C180,-68.32 180,-41.59 180,-41.59"/>
+<polygon fill="black" stroke="black" points="183.5,-41.59 180,-31.59 176.5,-41.59 183.5,-41.59"/>
+</g>
+<!-- c_0_182 -->
+<g id="node4" class="node">
+<title>c_0_182</title>
+<g id="a_node4"><a xlink:href="c_0_182.html" xlink:title="{Ø + N₁ = Ø + N₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-16.5 16.5,-31.5 137.5,-31.5 137.5,-16.5 16.5,-16.5"/>
+<text text-anchor="middle" x="77" y="-20.3" font-family="Times,serif" font-size="14.00">Ø + N₁ = Ø + N₁</text>
+</a>
+</g>
+</g>
+<!-- c_0_56&#45;&gt;c_0_182 -->
+<g id="edge3" class="edge">
+<title>c_0_56&#45;&gt;c_0_182</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M106.75,-68.32C106.75,-68.32 106.75,-41.59 106.75,-41.59"/>
+<polygon fill="black" stroke="black" points="110.25,-41.59 106.75,-31.59 103.25,-41.59 110.25,-41.59"/>
 </g>
 </g>
 </svg>

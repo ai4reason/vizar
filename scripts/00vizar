@@ -558,7 +558,7 @@ k1_xcmplx_0 &lt;i&gt;
 v1_xcmplx_0 ###1 ∈ ℂ
 k2_xcmplx_0 +
 k3_xcmplx_0 *
-k4_xcmplx_0 -
+k4_xcmplx_0 -###1
 k5_xcmplx_0 "
 k6_xcmplx_0 ###1 - ###2
 k7_xcmplx_0 /
@@ -663,7 +663,7 @@ k2_absvalue sgn
 k1_int_2 abs
 k2_int_2 lcm
 k3_int_2 gcd
-r1_int_2 are_relative_prime
+r1_int_2 rel-prime
 v1_int_2 prime
 k1_nat_d div
 k2_nat_d mod
