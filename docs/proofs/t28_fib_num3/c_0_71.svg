@@ -14,18 +14,18 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="171,-60 171,-107 393,-107 393,-60 171,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="172,-60 172,-107 394,-107 394,-60 172,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="90,-8 90,-40 474,-40 474,-8 90,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="91,-8 91,-40 475,-40 475,-8 91,-8"/>
 </g>
-<!-- c_0_66 -->
+<!-- c_0_63 -->
 <g id="node1" class="node">
-<title>c_0_66</title>
-<g id="a_node1"><a xlink:href="c_0_66.html" xlink:title="{N₁ ∈ ℕ}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="440,-143 440,-158 490,-158 490,-143 440,-143"/>
-<text text-anchor="middle" x="465" y="-146.8" font-family="Times,serif" font-size="14.00">N₁ ∈ ℕ</text>
+<title>c_0_63</title>
+<g id="a_node1"><a xlink:href="c_0_63.html" xlink:title="{N₁ * N₂ = N₂ * N₁}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="368,-143 368,-158 490,-158 490,-143 368,-143"/>
+<text text-anchor="middle" x="429" y="-146.8" font-family="Times,serif" font-size="14.00">N₁ * N₂ = N₂ * N₁</text>
 </a>
 </g>
 </g>
@@ -33,80 +33,80 @@
 <g id="node5" class="node">
 <title>c_0_71</title>
 <g id="a_node5"><a xlink:href="c_0_71.html" xlink:title="{R₁ = Ø|R₁ ^ (N₂ * 2) = (R₁ ^ N₂) ^ 2}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="179.5,-68.5 179.5,-98.5 384.5,-98.5 384.5,-68.5 179.5,-68.5"/>
-<text text-anchor="middle" x="282" y="-87.3" font-family="Times,serif" font-size="14.00">R₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="179.5,-83.5 384.5,-83.5 "/>
-<text text-anchor="middle" x="282" y="-72.3" font-family="Times,serif" font-size="14.00">R₁ ^ (N₂ * 2) = (R₁ ^ N₂) ^ 2</text>
-</a>
-</g>
-</g>
-<!-- c_0_66&#45;&gt;c_0_71 -->
-<g id="edge1" class="edge">
-<title>c_0_66&#45;&gt;c_0_71</title>
-<path fill="none" stroke="black" d="M452.75,-142.76C452.75,-125.03 452.75,-83 452.75,-83 452.75,-83 394.77,-83 394.77,-83"/>
-<polygon fill="black" stroke="black" points="394.77,-79.5 384.77,-83 394.77,-86.5 394.77,-79.5"/>
-</g>
-<!-- c_0_64 -->
-<g id="node2" class="node">
-<title>c_0_64</title>
-<g id="a_node2"><a xlink:href="c_0_64.html" xlink:title="{2 ∈ ℕ}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="380,-143 380,-158 422,-158 422,-143 380,-143"/>
-<text text-anchor="middle" x="401" y="-146.8" font-family="Times,serif" font-size="14.00">2 ∈ ℕ</text>
-</a>
-</g>
-</g>
-<!-- c_0_64&#45;&gt;c_0_71 -->
-<g id="edge2" class="edge">
-<title>c_0_64&#45;&gt;c_0_71</title>
-<path fill="none" stroke="black" d="M379.99,-150C374.83,-150 370.75,-150 370.75,-150 370.75,-150 370.75,-108.59 370.75,-108.59"/>
-<polygon fill="black" stroke="black" points="374.25,-108.59 370.75,-98.59 367.25,-108.59 374.25,-108.59"/>
-</g>
-<!-- c_0_53 -->
-<g id="node3" class="node">
-<title>c_0_53</title>
-<g id="a_node3"><a xlink:href="c_0_53.html" xlink:title="{(R₂ ^ N₁) ^ 2 = R₂ ^ (2 * N₁)|R₂ = Ø}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="156.5,-135.5 156.5,-165.5 361.5,-165.5 361.5,-135.5 156.5,-135.5"/>
-<text text-anchor="middle" x="259" y="-154.3" font-family="Times,serif" font-size="14.00">(R₂ ^ N₁) ^ 2 = R₂ ^ (2 * N₁)</text>
-<polyline fill="none" stroke="#7f7542" points="156.5,-150.5 361.5,-150.5 "/>
-<text text-anchor="middle" x="259" y="-139.3" font-family="Times,serif" font-size="14.00">R₂ = Ø</text>
-</a>
-</g>
-</g>
-<!-- c_0_53&#45;&gt;c_0_71 -->
-<g id="edge3" class="edge">
-<title>c_0_53&#45;&gt;c_0_71</title>
-<path fill="none" stroke="black" d="M270.5,-135.3C270.5,-135.3 270.5,-108.64 270.5,-108.64"/>
-<polygon fill="black" stroke="black" points="274,-108.64 270.5,-98.64 267,-108.64 274,-108.64"/>
-</g>
-<!-- c_0_63 -->
-<g id="node4" class="node">
-<title>c_0_63</title>
-<g id="a_node4"><a xlink:href="c_0_63.html" xlink:title="{N₁ * N₂ = N₂ * N₁}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-143 16,-158 138,-158 138,-143 16,-143"/>
-<text text-anchor="middle" x="77" y="-146.8" font-family="Times,serif" font-size="14.00">N₁ * N₂ = N₂ * N₁</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="180.5,-68.5 180.5,-98.5 385.5,-98.5 385.5,-68.5 180.5,-68.5"/>
+<text text-anchor="middle" x="283" y="-87.3" font-family="Times,serif" font-size="14.00">R₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="180.5,-83.5 385.5,-83.5 "/>
+<text text-anchor="middle" x="283" y="-72.3" font-family="Times,serif" font-size="14.00">R₁ ^ (N₂ * 2) = (R₁ ^ N₂) ^ 2</text>
 </a>
 </g>
 </g>
 <!-- c_0_63&#45;&gt;c_0_71 -->
-<g id="edge4" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_63&#45;&gt;c_0_71</title>
-<path fill="none" stroke="black" d="M118.25,-142.76C118.25,-125.03 118.25,-83 118.25,-83 118.25,-83 169.22,-83 169.22,-83"/>
-<polygon fill="black" stroke="black" points="169.22,-86.5 179.22,-83 169.22,-79.5 169.22,-86.5"/>
+<path fill="none" stroke="black" d="M376.75,-142.81C376.75,-142.81 376.75,-108.67 376.75,-108.67"/>
+<polygon fill="black" stroke="black" points="380.25,-108.67 376.75,-98.67 373.25,-108.67 380.25,-108.67"/>
+</g>
+<!-- c_0_66 -->
+<g id="node2" class="node">
+<title>c_0_66</title>
+<g id="a_node2"><a xlink:href="c_0_66.html" xlink:title="{N₁ ∈ ℕ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="300,-143 300,-158 350,-158 350,-143 300,-143"/>
+<text text-anchor="middle" x="325" y="-146.8" font-family="Times,serif" font-size="14.00">N₁ ∈ ℕ</text>
+</a>
+</g>
+</g>
+<!-- c_0_66&#45;&gt;c_0_71 -->
+<g id="edge2" class="edge">
+<title>c_0_66&#45;&gt;c_0_71</title>
+<path fill="none" stroke="black" d="M325,-142.81C325,-142.81 325,-108.67 325,-108.67"/>
+<polygon fill="black" stroke="black" points="328.5,-108.67 325,-98.67 321.5,-108.67 328.5,-108.67"/>
+</g>
+<!-- c_0_64 -->
+<g id="node3" class="node">
+<title>c_0_64</title>
+<g id="a_node3"><a xlink:href="c_0_64.html" xlink:title="{2 ∈ ℕ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="240,-143 240,-158 282,-158 282,-143 240,-143"/>
+<text text-anchor="middle" x="261" y="-146.8" font-family="Times,serif" font-size="14.00">2 ∈ ℕ</text>
+</a>
+</g>
+</g>
+<!-- c_0_64&#45;&gt;c_0_71 -->
+<g id="edge3" class="edge">
+<title>c_0_64&#45;&gt;c_0_71</title>
+<path fill="none" stroke="black" d="M261,-142.81C261,-142.81 261,-108.67 261,-108.67"/>
+<polygon fill="black" stroke="black" points="264.5,-108.67 261,-98.67 257.5,-108.67 264.5,-108.67"/>
+</g>
+<!-- c_0_53 -->
+<g id="node4" class="node">
+<title>c_0_53</title>
+<g id="a_node4"><a xlink:href="c_0_53.html" xlink:title="{(R₂ ^ N₁) ^ 2 = R₂ ^ (2 * N₁)|R₂ = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-135.5 16.5,-165.5 221.5,-165.5 221.5,-135.5 16.5,-135.5"/>
+<text text-anchor="middle" x="119" y="-154.3" font-family="Times,serif" font-size="14.00">(R₂ ^ N₁) ^ 2 = R₂ ^ (2 * N₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16.5,-150.5 221.5,-150.5 "/>
+<text text-anchor="middle" x="119" y="-139.3" font-family="Times,serif" font-size="14.00">R₂ = Ø</text>
+</a>
+</g>
+</g>
+<!-- c_0_53&#45;&gt;c_0_71 -->
+<g id="edge4" class="edge">
+<title>c_0_53&#45;&gt;c_0_71</title>
+<path fill="none" stroke="black" d="M201,-135.3C201,-135.3 201,-108.64 201,-108.64"/>
+<polygon fill="black" stroke="black" points="204.5,-108.64 201,-98.64 197.5,-108.64 204.5,-108.64"/>
 </g>
 <!-- c_0_77 -->
 <g id="node6" class="node">
 <title>c_0_77</title>
 <g id="a_node6"><a xlink:href="c_0_77.html" xlink:title="{(((τ⁺ ^ N₁) ^ 2) &#45; ((τ⁻ ^ N₁) ^ 2)) / (√5) = fib(N₁ * 2)}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="98.5,-16.5 98.5,-31.5 465.5,-31.5 465.5,-16.5 98.5,-16.5"/>
-<text text-anchor="middle" x="282" y="-20.3" font-family="Times,serif" font-size="14.00">(((τ⁺ ^ N₁) ^ 2) &#45; ((τ⁻ ^ N₁) ^ 2)) / (√5) = fib(N₁ * 2)</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="99.5,-16.5 99.5,-31.5 466.5,-31.5 466.5,-16.5 99.5,-16.5"/>
+<text text-anchor="middle" x="283" y="-20.3" font-family="Times,serif" font-size="14.00">(((τ⁺ ^ N₁) ^ 2) &#45; ((τ⁻ ^ N₁) ^ 2)) / (√5) = fib(N₁ * 2)</text>
 </a>
 </g>
 </g>
 <!-- c_0_71&#45;&gt;c_0_77 -->
 <g id="edge5" class="edge">
 <title>c_0_71&#45;&gt;c_0_77</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M282,-68.49C282,-68.49 282,-41.73 282,-41.73"/>
-<polygon fill="black" stroke="black" points="285.5,-41.73 282,-31.73 278.5,-41.73 285.5,-41.73"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M283,-68.49C283,-68.49 283,-41.73 283,-41.73"/>
+<polygon fill="black" stroke="black" points="286.5,-41.73 283,-31.73 279.5,-41.73 286.5,-41.73"/>
 </g>
 </g>
 </svg>

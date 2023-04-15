@@ -30,7 +30,10 @@ for name in info["order"]:
    tptps[name] = tptp.pretty(fml["fml"], fml["role"], fml["lang"], name)
    if fml["role"] == "axiom" or fml["role"] == "conjecture":
       axioms[name] = {}
-      axioms[name]["fof"] = fof.translate(tptp.pretty_strip(tptps[name]))
+      try:
+       axioms[name]["fof"] = fof.translate(tptp.pretty_strip(tptps[name]))
+      except:
+       raise Exception(f"name={name}")
       axioms[name]["url"] = mizar.link(name)
       cnfs = tptp.follow(info, name)
       for cnf in cnfs:
