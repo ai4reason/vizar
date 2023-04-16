@@ -79,43 +79,46 @@ skolems:
   esk1_0:
     axiom: t28_card_2
     related:
+    - esk1_0
     - esk3_0
     - esk2_0
-    - esk1_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t28_card_2
     related:
+    - esk1_0
     - esk3_0
     - esk2_0
-    - esk1_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t28_card_2
     related:
+    - esk1_0
     - esk3_0
     - esk2_0
-    - esk1_0
     symbol: "sk\u2083"
 steps:
   c_0_16:
     counts:
       k2_card_2: 2
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
     skolems: []
   c_0_17:
     counts:
       k1_card_1: 1
       k2_card_2: 1
       k2_zfmisc_1: 1
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
     skolems: []
   c_0_24:
     counts:
       k1_card_1: 1
       k2_card_2: 1
       k2_zfmisc_1: 1
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
     skolems: []
   c_0_26:
     counts:
@@ -138,7 +141,8 @@ steps:
       k1_tarski: 2
       k2_xboole_0: 1
       k2_zfmisc_1: 2
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
     skolems: []
   c_0_32:
     counts:
@@ -149,7 +153,8 @@ steps:
     counts:
       k1_card_1: 2
       k2_zfmisc_1: 2
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
     skolems: []
   c_0_34:
     counts:
@@ -177,7 +182,8 @@ steps:
     counts:
       k1_card_1: 1
       k1_card_2: 2
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
     skolems: []
   c_0_40:
     counts:
@@ -188,7 +194,7 @@ steps:
     counts:
       k1_card_1: 2
       k2_zfmisc_1: 2
-      v1_card_1: 1
+      "\u03BA1": 2
     skolems: []
   c_0_44:
     counts:
@@ -203,15 +209,16 @@ steps:
       k2_card_2: 1
       k3_card_2: 3
     skolems:
+    - esk1_0
     - esk3_0
     - esk2_0
-    - esk1_0
   c_0_46:
     counts:
       k1_card_1: 1
       k1_funct_2: 1
       k3_card_2: 1
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
     skolems: []
   c_0_47:
     counts:
@@ -227,7 +234,7 @@ steps:
     counts:
       k1_card_1: 1
       k1_card_2: 2
-      v1_card_1: 1
+      "\u03BA1": 2
     skolems:
     - esk3_0
   c_0_50:
@@ -237,12 +244,14 @@ steps:
       k2_xboole_0: 1
       k2_zfmisc_1: 2
       r2_wellord2: 1
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
     skolems: []
   c_0_51:
     counts:
       k1_card_2: 2
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA2": 2
     skolems: []
   c_0_52:
     counts:
@@ -272,8 +281,8 @@ steps:
       k2_card_2: 1
       k3_card_2: 2
     skolems:
-    - esk3_0
     - esk1_0
+    - esk3_0
     - esk2_0
   c_0_56:
     counts:
@@ -289,7 +298,8 @@ steps:
       k2_xboole_0: 1
       k2_zfmisc_1: 2
       r2_wellord2: 1
-      v1_card_1: 2
+      "\u03BA3": 2
+      "\u03BA4": 2
     skolems: []
   c_0_58:
     counts:
@@ -312,11 +322,10 @@ steps:
       k1_card_2: 1
       k1_funct_2: 1
       k2_zfmisc_1: 1
-      k3_card_2: 3
-      v1_card_1: 1
+      k3_card_2: 2
     skolems:
-    - esk3_0
     - esk1_0
+    - esk3_0
     - esk2_0
   c_0_62:
     counts:
@@ -333,7 +342,8 @@ steps:
       k1_tarski: 2
       k2_xboole_0: 1
       k2_zfmisc_1: 2
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA3": 2
     skolems: []
   c_0_64:
     counts:
@@ -358,9 +368,9 @@ steps:
       k2_zfmisc_1: 1
       k3_card_2: 1
     skolems:
+    - esk1_0
     - esk3_0
     - esk2_0
-    - esk1_0
   c_0_67:
     counts:
       k1_card_1: 1
@@ -374,18 +384,18 @@ steps:
       k1_card_2: 1
       k1_funct_2: 3
       k2_zfmisc_1: 1
-      v1_card_1: 2
+      "\u03BA1": 2
+      "\u03BA3": 2
     skolems: []
   c_0_69:
     counts:
       k1_card_1: 2
-      k1_card_2: 2
+      k1_card_2: 1
       k1_funct_2: 3
       k2_zfmisc_1: 1
-      v1_card_1: 1
     skolems:
-    - esk3_0
     - esk1_0
+    - esk3_0
     - esk2_0
   c_0_70:
     counts:
@@ -400,7 +410,7 @@ steps:
       k1_card_2: 1
       k1_funct_2: 3
       k2_zfmisc_1: 1
-      v1_card_1: 1
+      "\u03BA2": 2
     skolems:
     - esk2_0
   c_0_73:
@@ -423,9 +433,9 @@ symbols:
     vizar: '|x|'
   k1_card_2:
     arity: 2
-    count: 27
+    count: 26
     mizar: +`
-    neg: 8
+    neg: 7
     pos: 19
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#K1
     vizar: x + y
@@ -471,9 +481,9 @@ symbols:
     vizar: "x \xD7 y"
   k3_card_2:
     arity: 2
-    count: 10
+    count: 9
     mizar: exp
-    neg: 9
+    neg: 8
     pos: 1
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#K3
     vizar: x ^ y
@@ -495,12 +505,44 @@ symbols:
     vizar: '|x| = |y|'
   v1_card_1:
     arity: 1
-    count: 34
+    count: 5
     mizar: cardinal
-    neg: 29
+    neg: 0
     pos: 5
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_1.html#V1
     vizar: "x \u2208 Card"
+  "\u03BA1":
+    arity: 0
+    count: 26
+    mizar: "\u03BA1"
+    neg: 0
+    pos: 26
+    url: null
+    vizar: "\u03BA1"
+  "\u03BA2":
+    arity: 0
+    count: 20
+    mizar: "\u03BA2"
+    neg: 0
+    pos: 20
+    url: null
+    vizar: "\u03BA2"
+  "\u03BA3":
+    arity: 0
+    count: 6
+    mizar: "\u03BA3"
+    neg: 0
+    pos: 6
+    url: null
+    vizar: "\u03BA3"
+  "\u03BA4":
+    arity: 0
+    count: 2
+    mizar: "\u03BA4"
+    neg: 0
+    pos: 2
+    url: null
+    vizar: "\u03BA4"
 tptp:
   c_0_16: "cnf(c_0_16,plain,\n    ( k2_card_2(X1,X2) = k2_card_2(X2,X1)\n    | ~ v1_card_1(X1)\n\
     \    | ~ v1_card_1(X2) ))."

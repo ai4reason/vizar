@@ -32,6 +32,18 @@ NOPARENS = [
    "k2_fib_num",
 ]
 
+TRANSLATE = {
+  ("m1_subset_1", "*", "k5_numbers"): ("v7_ordinal1", 0),
+  ("m1_subset_1", "*", "k1_numbers"): ("v1_xreal_0", 0),
+}
+
+NEGATE = {
+  ("=", "*", "*"): ("≠", 0, 1),
+  ("≠", "*", "*"): ("=", 0, 1),
+  ("r1_xxreal_0", "*", "*"): ("nr1_xxreal_0", 0, 1),
+  ("nr1_xxreal_0", "*", "*"): ("r1_xxreal_0", 0, 1),
+}
+
 HREF = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/%s.html#%s"
 
 MPTP = "http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/"
@@ -123,8 +135,10 @@ def varsorts(lits, varsorts=VARSORTS):
 def neghide(lits, hidden=HIDDEN):
    ret = []
    for lit in lits:
-      if lit[0] or lit[1] not in hidden:
+      if lit[0] or (lit[1] not in hidden):
          ret.append(lit)
+   if not ret:
+      ret.extend(lits)
    return ret
 
 def set_children(info):
@@ -180,6 +194,38 @@ def update_stats(syms, stats, miztrans=None):
       if miztrans:
          stats[x]["mizar"] = symbol(x, miztrans)
       stats[x]["url"] = link(x)
+   
+def match(pat, term):
+   if pat == "*":
+      return True
+   if type(term) is str:
+      return pat == term
+   if (type(pat) is str) or (len(pat) != len(term)):
+      return False
+   return all(match(p,t) for (p,t) in zip(pat,term))
+
+def apply(pat, args):
+   if type(pat) is int:
+      return args[pat]
+   if type(pat) is str:
+      return pat
+   return [apply(p,args) for p in pat]
+
+def update(lit, term):
+   while len(lit) != 1:
+      lit.pop()
+   for s in term:
+      lit.append(s)
+   return lit
+
+def replace(lits, trans=TRANSLATE):
+   for lit in lits:
+      term = lit[1:]
+      for (lhs, rhs) in trans.items():
+         if match(lhs, term):
+            args = lit[2:]
+            update(lit, apply(rhs, args))
+   return lits
 
 def set_labels(info):
    stats = {}
@@ -187,11 +233,12 @@ def set_labels(info):
    for (name, fml) in info["fmls"].items():
       if fml["lang"] == "cnf":
          lits = tptp.clause_parse(fml["fml"])
+         lits = replace(lits)
          lits = varsorts(lits)
          lits = neghide(lits)
          syms = tptp.literal_symbols(lits)
-         lits = translate(lits)
-         text = label.clause(lits) 
+         tr = translate(lits)
+         text = label.clause(tr, lits) 
       else:
          text = name
          syms = None

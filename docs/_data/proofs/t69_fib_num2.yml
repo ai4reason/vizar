@@ -153,23 +153,23 @@ skolems:
   esk1_0:
     axiom: t69_fib_num2
     related:
-    - esk1_0
     - esk3_0
     - esk2_0
+    - esk1_0
     symbol: "sk\u2081"
   esk2_0:
     axiom: t69_fib_num2
     related:
-    - esk1_0
     - esk3_0
     - esk2_0
+    - esk1_0
     symbol: "sk\u2082"
   esk3_0:
     axiom: t69_fib_num2
     related:
-    - esk1_0
     - esk3_0
     - esk2_0
+    - esk1_0
     symbol: "sk\u2083"
 steps:
   c_0_100:
@@ -215,9 +215,8 @@ steps:
     skolems: []
   c_0_109:
     counts:
-      k5_numbers: 1
-      m1_subset_1: 1
       np__2: 1
+      v7_ordinal1: 1
     skolems: []
   c_0_110:
     counts:
@@ -308,8 +307,8 @@ steps:
       k1_pre_ff: 1
       r1_nat_d: 1
     skolems:
-    - esk1_0
     - esk3_0
+    - esk1_0
   c_0_140:
     counts:
       v7_ordinal1: 1
@@ -328,8 +327,7 @@ steps:
   c_0_145:
     counts:
       k1_pre_ff: 1
-      k5_numbers: 1
-      m1_subset_1: 1
+      v7_ordinal1: 1
     skolems:
     - esk3_0
   c_0_146:
@@ -349,8 +347,8 @@ steps:
       r1_int_2: 1
       r1_nat_d: 1
     skolems:
-    - esk12_2
     - esk2_0
+    - esk12_2
     - esk3_0
   c_0_150:
     counts:
@@ -416,27 +414,21 @@ steps:
   c_0_162:
     counts:
       k1_xboole_0: 1
-      k5_numbers: 1
-      m1_subset_1: 1
+      v7_ordinal1: 1
     skolems: []
   c_0_163:
     counts:
-      k5_numbers: 1
-      m1_subset_1: 1
       v7_ordinal1: 1
     skolems: []
   c_0_167:
     counts:
       k1_pre_ff: 3
       k3_int_2: 2
-      k5_numbers: 2
-      m1_subset_1: 2
     skolems: []
   c_0_171:
     counts:
       k1_pre_ff: 1
-      k5_numbers: 1
-      m1_subset_1: 1
+      v7_ordinal1: 1
     skolems:
     - esk2_0
   c_0_172:
@@ -451,32 +443,32 @@ steps:
       r1_nat_d: 1
       v1_int_2: 1
     skolems:
-    - esk12_2
     - esk2_0
+    - esk12_2
     - esk3_0
   c_0_174:
     counts:
       r1_int_2: 1
       v7_ordinal1: 1
     skolems:
-    - esk12_2
     - esk2_0
+    - esk12_2
     - esk3_0
   c_0_175:
     counts:
       r1_int_2: 1
       v1_int_2: 1
     skolems:
-    - esk12_2
     - esk2_0
+    - esk12_2
     - esk3_0
   c_0_176:
     counts:
       r1_int_2: 1
       r1_nat_d: 1
     skolems:
-    - esk12_2
     - esk2_0
+    - esk12_2
     - esk3_0
   c_0_177:
     counts:
@@ -521,8 +513,8 @@ steps:
       k6_nat_d: 1
       r1_nat_d: 2
     skolems:
-    - esk1_0
     - esk3_0
+    - esk1_0
   c_0_185:
     counts:
       k1_pre_ff: 1
@@ -581,8 +573,6 @@ steps:
     counts:
       k1_pre_ff: 3
       k3_int_2: 2
-      k5_numbers: 1
-      m1_subset_1: 1
     skolems:
     - esk3_0
   c_0_203:
@@ -623,9 +613,9 @@ steps:
       k6_nat_d: 1
       r1_nat_d: 1
     skolems:
+    - esk3_0
     - esk2_0
     - esk1_0
-    - esk3_0
   c_0_208:
     counts:
       k1_pre_ff: 2
@@ -704,14 +694,11 @@ steps:
     counts:
       k2_nat_1: 1
       k2_xcmplx_0: 1
-      k5_numbers: 1
-      m1_subset_1: 1
     skolems: []
   c_0_57:
     counts:
-      k5_numbers: 1
-      m1_subset_1: 1
       np__1: 1
+      v7_ordinal1: 1
     skolems: []
   c_0_58:
     counts:
@@ -726,8 +713,6 @@ steps:
   c_0_60:
     counts:
       k2_nat_1: 2
-      k5_numbers: 1
-      m1_subset_1: 1
     skolems: []
   c_0_63:
     counts:
@@ -767,8 +752,6 @@ steps:
     counts:
       k1_nat_1: 1
       k2_xcmplx_0: 1
-      k5_numbers: 1
-      m1_subset_1: 1
     skolems: []
   c_0_77:
     counts:
@@ -789,8 +772,7 @@ steps:
   c_0_87:
     counts:
       k1_pre_ff: 1
-      k5_numbers: 1
-      m1_subset_1: 1
+      v7_ordinal1: 1
     skolems: []
   c_0_88:
     counts:
@@ -900,10 +882,10 @@ symbols:
     vizar: "\u03C9"
   k5_numbers:
     arity: 0
-    count: 34
+    count: 11
     mizar: NAT
-    neg: 14
-    pos: 20
+    neg: 2
+    pos: 9
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
     vizar: "\u2115"
   k6_nat_d:
@@ -924,10 +906,10 @@ symbols:
     vizar: '0'
   m1_subset_1:
     arity: 2
-    count: 31
+    count: 8
     mizar: Element
-    neg: 16
-    pos: 15
+    neg: 4
+    pos: 4
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
     vizar: "x \u2208 y"
   m2_subset_1:
@@ -1028,10 +1010,10 @@ symbols:
     vizar: "x \u2286 \u2115"
   v7_ordinal1:
     arity: 1
-    count: 21
+    count: 32
     mizar: natural
     neg: 0
-    pos: 21
+    pos: 32
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V7
     vizar: "x \u2208 \u2115"
 tptp:

@@ -14,22 +14,18 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="136,-90 136,-167 282,-167 282,-90 136,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="193,-90 193,-167 339,-167 339,-90 193,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="136,-8 136,-70 282,-70 282,-8 136,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="193,-8 193,-70 339,-70 339,-8 193,-8"/>
 </g>
-<!-- c_0_59 -->
+<!-- c_0_98 -->
 <g id="node1" class="node">
-<title>c_0_59</title>
-<g id="a_node1"><a xlink:href="c_0_59.html" xlink:title="{2 ≤ N₁|⇊|sk₄(N₁) ∈ ℕ}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="350,-210.5 350,-255.5 432,-255.5 432,-210.5 350,-210.5"/>
-<text text-anchor="middle" x="391" y="-244.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
-<polyline fill="none" stroke="#7f7542" points="350,-240.5 432,-240.5 "/>
-<text text-anchor="middle" x="391" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="350,-225.5 432,-225.5 "/>
-<text text-anchor="middle" x="391" y="-214.3" font-family="Times,serif" font-size="14.00">sk₄(N₁) ∈ ℕ</text>
+<title>c_0_98</title>
+<g id="a_node1"><a xlink:href="c_0_98.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="378,-225.5 378,-240.5 432,-240.5 432,-225.5 378,-225.5"/>
+<text text-anchor="middle" x="405" y="-229.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
 </a>
 </g>
 </g>
@@ -37,98 +33,102 @@
 <g id="node5" class="node">
 <title>c_0_106</title>
 <g id="a_node5"><a xlink:href="c_0_106.html" xlink:title="{2 ≤ (sk₁!) + 1|⇊|sk₄((sk₁!) + 1) = 0|sk₄((sk₁!) + 1) = 1}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="144,-98.5 144,-158.5 274,-158.5 274,-98.5 144,-98.5"/>
-<text text-anchor="middle" x="209" y="-147.3" font-family="Times,serif" font-size="14.00">2 ≤ (sk₁!) + 1</text>
-<polyline fill="none" stroke="#7f7542" points="144,-143.5 274,-143.5 "/>
-<text text-anchor="middle" x="209" y="-132.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="144,-128.5 274,-128.5 "/>
-<text text-anchor="middle" x="209" y="-117.3" font-family="Times,serif" font-size="14.00">sk₄((sk₁!) + 1) = 0</text>
-<polyline fill="none" stroke="#7f7542" points="144,-113.5 274,-113.5 "/>
-<text text-anchor="middle" x="209" y="-102.3" font-family="Times,serif" font-size="14.00">sk₄((sk₁!) + 1) = 1</text>
-</a>
-</g>
-</g>
-<!-- c_0_59&#45;&gt;c_0_106 -->
-<g id="edge1" class="edge">
-<title>c_0_59&#45;&gt;c_0_106</title>
-<path fill="none" stroke="black" d="M391,-210.47C391,-179.62 391,-128 391,-128 391,-128 284.19,-128 284.19,-128"/>
-<polygon fill="black" stroke="black" points="284.19,-124.5 274.19,-128 284.19,-131.5 284.19,-124.5"/>
-</g>
-<!-- c_0_96 -->
-<g id="node2" class="node">
-<title>c_0_96</title>
-<g id="a_node2"><a xlink:href="c_0_96.html" xlink:title="{2 ≤ (N₁!) + 1|sk₄((N₁!) + 1) ≤ N₁|⇊|sk₄((N₁!) + 1) = 0|sk₄((N₁!) + 1) = 1}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="198,-195.5 198,-270.5 332,-270.5 332,-195.5 198,-195.5"/>
-<text text-anchor="middle" x="265" y="-259.3" font-family="Times,serif" font-size="14.00">2 ≤ (N₁!) + 1</text>
-<polyline fill="none" stroke="#7f7542" points="198,-255.5 332,-255.5 "/>
-<text text-anchor="middle" x="265" y="-244.3" font-family="Times,serif" font-size="14.00">sk₄((N₁!) + 1) ≤ N₁</text>
-<polyline fill="none" stroke="#7f7542" points="198,-240.5 332,-240.5 "/>
-<text text-anchor="middle" x="265" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="198,-225.5 332,-225.5 "/>
-<text text-anchor="middle" x="265" y="-214.3" font-family="Times,serif" font-size="14.00">sk₄((N₁!) + 1) = 0</text>
-<polyline fill="none" stroke="#7f7542" points="198,-210.5 332,-210.5 "/>
-<text text-anchor="middle" x="265" y="-199.3" font-family="Times,serif" font-size="14.00">sk₄((N₁!) + 1) = 1</text>
-</a>
-</g>
-</g>
-<!-- c_0_96&#45;&gt;c_0_106 -->
-<g id="edge2" class="edge">
-<title>c_0_96&#45;&gt;c_0_106</title>
-<path fill="none" stroke="black" d="M236,-195.27C236,-195.27 236,-168.64 236,-168.64"/>
-<polygon fill="black" stroke="black" points="239.5,-168.64 236,-158.64 232.5,-168.64 239.5,-168.64"/>
-</g>
-<!-- c_0_98 -->
-<g id="node3" class="node">
-<title>c_0_98</title>
-<g id="a_node3"><a xlink:href="c_0_98.html" xlink:title="{sk₁ ∈ ℕ}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="126,-225.5 126,-240.5 180,-240.5 180,-225.5 126,-225.5"/>
-<text text-anchor="middle" x="153" y="-229.3" font-family="Times,serif" font-size="14.00">sk₁ ∈ ℕ</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="201,-98.5 201,-158.5 331,-158.5 331,-98.5 201,-98.5"/>
+<text text-anchor="middle" x="266" y="-147.3" font-family="Times,serif" font-size="14.00">2 ≤ (sk₁!) + 1</text>
+<polyline fill="none" stroke="#7f7542" points="201,-143.5 331,-143.5 "/>
+<text text-anchor="middle" x="266" y="-132.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="201,-128.5 331,-128.5 "/>
+<text text-anchor="middle" x="266" y="-117.3" font-family="Times,serif" font-size="14.00">sk₄((sk₁!) + 1) = 0</text>
+<polyline fill="none" stroke="#7f7542" points="201,-113.5 331,-113.5 "/>
+<text text-anchor="middle" x="266" y="-102.3" font-family="Times,serif" font-size="14.00">sk₄((sk₁!) + 1) = 1</text>
 </a>
 </g>
 </g>
 <!-- c_0_98&#45;&gt;c_0_106 -->
-<g id="edge3" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_98&#45;&gt;c_0_106</title>
-<path fill="none" stroke="black" d="M168,-225.48C168,-225.48 168,-168.79 168,-168.79"/>
-<polygon fill="black" stroke="black" points="171.5,-168.79 168,-158.79 164.5,-168.79 171.5,-168.79"/>
+<path fill="none" stroke="black" d="M405,-225.45C405,-201.37 405,-128 405,-128 405,-128 341.02,-128 341.02,-128"/>
+<polygon fill="black" stroke="black" points="341.02,-124.5 331.02,-128 341.02,-131.5 341.02,-124.5"/>
+</g>
+<!-- c_0_59 -->
+<g id="node2" class="node">
+<title>c_0_59</title>
+<g id="a_node2"><a xlink:href="c_0_59.html" xlink:title="{2 ≤ N₁|⇊|sk₄(N₁) ∈ ℕ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="278,-210.5 278,-255.5 360,-255.5 360,-210.5 278,-210.5"/>
+<text text-anchor="middle" x="319" y="-244.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
+<polyline fill="none" stroke="#7f7542" points="278,-240.5 360,-240.5 "/>
+<text text-anchor="middle" x="319" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="278,-225.5 360,-225.5 "/>
+<text text-anchor="middle" x="319" y="-214.3" font-family="Times,serif" font-size="14.00">sk₄(N₁) ∈ ℕ</text>
+</a>
+</g>
+</g>
+<!-- c_0_59&#45;&gt;c_0_106 -->
+<g id="edge2" class="edge">
+<title>c_0_59&#45;&gt;c_0_106</title>
+<path fill="none" stroke="black" d="M304.5,-210.33C304.5,-210.33 304.5,-168.67 304.5,-168.67"/>
+<polygon fill="black" stroke="black" points="308,-168.67 304.5,-158.67 301,-168.67 308,-168.67"/>
 </g>
 <!-- c_0_97 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_97</title>
-<g id="a_node4"><a xlink:href="c_0_97.html" xlink:title="{2 ≤ N₁|⇊|sk₄(N₁) ≤ sk₁}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-210.5 16.5,-255.5 107.5,-255.5 107.5,-210.5 16.5,-210.5"/>
-<text text-anchor="middle" x="62" y="-244.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-240.5 107.5,-240.5 "/>
-<text text-anchor="middle" x="62" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-225.5 107.5,-225.5 "/>
-<text text-anchor="middle" x="62" y="-214.3" font-family="Times,serif" font-size="14.00">sk₄(N₁) ≤ sk₁</text>
+<g id="a_node3"><a xlink:href="c_0_97.html" xlink:title="{2 ≤ N₁|⇊|sk₄(N₁) ≤ sk₁}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="168.5,-210.5 168.5,-255.5 259.5,-255.5 259.5,-210.5 168.5,-210.5"/>
+<text text-anchor="middle" x="214" y="-244.3" font-family="Times,serif" font-size="14.00">2 ≤ N₁</text>
+<polyline fill="none" stroke="#7f7542" points="168.5,-240.5 259.5,-240.5 "/>
+<text text-anchor="middle" x="214" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="168.5,-225.5 259.5,-225.5 "/>
+<text text-anchor="middle" x="214" y="-214.3" font-family="Times,serif" font-size="14.00">sk₄(N₁) ≤ sk₁</text>
 </a>
 </g>
 </g>
 <!-- c_0_97&#45;&gt;c_0_106 -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>c_0_97&#45;&gt;c_0_106</title>
-<path fill="none" stroke="black" d="M107.62,-217C131.57,-217 156,-217 156,-217 156,-217 156,-168.96 156,-168.96"/>
-<polygon fill="black" stroke="black" points="159.5,-168.96 156,-158.96 152.5,-168.96 159.5,-168.96"/>
+<path fill="none" stroke="black" d="M240,-210.33C240,-210.33 240,-168.67 240,-168.67"/>
+<polygon fill="black" stroke="black" points="243.5,-168.67 240,-158.67 236.5,-168.67 243.5,-168.67"/>
+</g>
+<!-- c_0_96 -->
+<g id="node4" class="node">
+<title>c_0_96</title>
+<g id="a_node4"><a xlink:href="c_0_96.html" xlink:title="{2 ≤ (N₁!) + 1|sk₄((N₁!) + 1) ≤ N₁|⇊|sk₄((N₁!) + 1) = 0|sk₄((N₁!) + 1) = 1}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-195.5 16,-270.5 150,-270.5 150,-195.5 16,-195.5"/>
+<text text-anchor="middle" x="83" y="-259.3" font-family="Times,serif" font-size="14.00">2 ≤ (N₁!) + 1</text>
+<polyline fill="none" stroke="#7f7542" points="16,-255.5 150,-255.5 "/>
+<text text-anchor="middle" x="83" y="-244.3" font-family="Times,serif" font-size="14.00">sk₄((N₁!) + 1) ≤ N₁</text>
+<polyline fill="none" stroke="#7f7542" points="16,-240.5 150,-240.5 "/>
+<text text-anchor="middle" x="83" y="-229.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-225.5 150,-225.5 "/>
+<text text-anchor="middle" x="83" y="-214.3" font-family="Times,serif" font-size="14.00">sk₄((N₁!) + 1) = 0</text>
+<polyline fill="none" stroke="#7f7542" points="16,-210.5 150,-210.5 "/>
+<text text-anchor="middle" x="83" y="-199.3" font-family="Times,serif" font-size="14.00">sk₄((N₁!) + 1) = 1</text>
+</a>
+</g>
+</g>
+<!-- c_0_96&#45;&gt;c_0_106 -->
+<g id="edge4" class="edge">
+<title>c_0_96&#45;&gt;c_0_106</title>
+<path fill="none" stroke="black" d="M150.14,-202C185.04,-202 220.5,-202 220.5,-202 220.5,-202 220.5,-168.82 220.5,-168.82"/>
+<polygon fill="black" stroke="black" points="224,-168.82 220.5,-158.82 217,-168.82 224,-168.82"/>
 </g>
 <!-- c_0_116 -->
 <g id="node6" class="node">
 <title>c_0_116</title>
 <g id="a_node6"><a xlink:href="c_0_116.html" xlink:title="{2 ≤ (sk₁!) + 1|⇊|sk₄((sk₁!) + 1) = 1}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="144,-16.5 144,-61.5 274,-61.5 274,-16.5 144,-16.5"/>
-<text text-anchor="middle" x="209" y="-50.3" font-family="Times,serif" font-size="14.00">2 ≤ (sk₁!) + 1</text>
-<polyline fill="none" stroke="#7f7542" points="144,-46.5 274,-46.5 "/>
-<text text-anchor="middle" x="209" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="144,-31.5 274,-31.5 "/>
-<text text-anchor="middle" x="209" y="-20.3" font-family="Times,serif" font-size="14.00">sk₄((sk₁!) + 1) = 1</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="201,-16.5 201,-61.5 331,-61.5 331,-16.5 201,-16.5"/>
+<text text-anchor="middle" x="266" y="-50.3" font-family="Times,serif" font-size="14.00">2 ≤ (sk₁!) + 1</text>
+<polyline fill="none" stroke="#7f7542" points="201,-46.5 331,-46.5 "/>
+<text text-anchor="middle" x="266" y="-35.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="201,-31.5 331,-31.5 "/>
+<text text-anchor="middle" x="266" y="-20.3" font-family="Times,serif" font-size="14.00">sk₄((sk₁!) + 1) = 1</text>
 </a>
 </g>
 </g>
 <!-- c_0_106&#45;&gt;c_0_116 -->
 <g id="edge5" class="edge">
 <title>c_0_106&#45;&gt;c_0_116</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M209,-98.2C209,-98.2 209,-71.63 209,-71.63"/>
-<polygon fill="black" stroke="black" points="212.5,-71.63 209,-61.63 205.5,-71.63 212.5,-71.63"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M266,-98.2C266,-98.2 266,-71.63 266,-71.63"/>
+<polygon fill="black" stroke="black" points="269.5,-71.63 266,-61.63 262.5,-71.63 269.5,-71.63"/>
 </g>
 </g>
 </svg>

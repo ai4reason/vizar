@@ -1,0 +1,1167 @@
+2020-05-31 16:01:37.942550: I tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_55
+2020-05-31 16:01:38.000716: I tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2020-05-31 16:01:38.181383: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2020-05-31 16:01:39.022159: I tensorflow/cc/saved_model/loader.cc:202] Restoring SavedModel bundle.
+2020-05-31 16:01:42.308526: I tensorflow/cc/saved_model/loader.cc:311] SavedModel load for tags { serve }; Status: success. Took 4365938 microseconds.
+# ENIGMA: TensorFlow C library version 1.15.0
+# ENIGMA: TensorFlow: model 'models_10_bb1/premsel_enigma_01_2020_T30_loop02_epoch_55' loaded (query=512; context=768; weigths=real; len_mult=0.000000).
+# Preprocessing time       : 5.530 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(redefinition_r1_ordinal1, axiom, ![X1, X2]:((v3_ordinal1(X1)&v3_ordinal1(X2))=>(r1_ordinal1(X1,X2)<=>r1_tarski(X1,X2))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', redefinition_r1_ordinal1)).
+fof(t4_card_1, axiom, ![X1]:(v1_card_1(X1)=>![X2]:(v1_card_1(X2)=>(r2_hidden(X1,X2)<=>~(r1_ordinal1(X2,X1))))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t4_card_1)).
+fof(cc1_card_1, axiom, ![X1]:(v1_card_1(X1)=>v3_ordinal1(X1)), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', cc1_card_1)).
+fof(t11_card_1, axiom, ![X1, X2]:(r1_tarski(X1,X2)=>r1_ordinal1(k1_card_1(X1),k1_card_1(X2))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t11_card_1)).
+fof(dt_k1_card_1, axiom, ![X1]:v1_card_1(k1_card_1(X1)), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', dt_k1_card_1)).
+fof(t28_xboole_1, axiom, ![X1, X2]:(r1_tarski(X1,X2)=>k3_xboole_0(X1,X2)=X1), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t28_xboole_1)).
+fof(t48_xboole_1, axiom, ![X1, X2]:k4_xboole_0(X1,k4_xboole_0(X1,X2))=k3_xboole_0(X1,X2), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t48_xboole_1)).
+fof(commutativity_k3_xboole_0, axiom, ![X1, X2]:k3_xboole_0(X1,X2)=k3_xboole_0(X2,X1), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', commutativity_k3_xboole_0)).
+fof(t2_boole, axiom, ![X1]:k3_xboole_0(X1,k1_xboole_0)=k1_xboole_0, file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t2_boole)).
+fof(fraenkel_a_1_2_card_fil, axiom, ![X1, X2]:(~(v1_finset_1(X2))=>(r2_hidden(X1,a_1_2_card_fil(X2))<=>?[X3]:((m1_subset_1(X3,k1_zfmisc_1(X2))&X1=X3)&r2_hidden(k1_card_1(k6_subset_1(X2,X3)),k1_card_1(X2))))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', fraenkel_a_1_2_card_fil)).
+fof(redefinition_k6_subset_1, axiom, ![X1, X2]:k6_subset_1(X1,X2)=k4_xboole_0(X1,X2), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', redefinition_k6_subset_1)).
+fof(d10_xboole_0, axiom, ![X1, X2]:(X1=X2<=>(r1_tarski(X1,X2)&r1_tarski(X2,X1))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', d10_xboole_0)).
+fof(t3_boole, axiom, ![X1]:k4_xboole_0(X1,k1_xboole_0)=X1, file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t3_boole)).
+fof(dt_k6_subset_1, axiom, ![X1, X2]:m1_subset_1(k6_subset_1(X1,X2),k1_zfmisc_1(X1)), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', dt_k6_subset_1)).
+fof(t20_card_fil, conjecture, ![X1]:(~(v1_finset_1(X1))=>![X2]:(m1_card_fil(X2,X1)=>(r1_tarski(k4_card_fil(X1),X2)=>v1_card_fil(X2,X1)))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t20_card_fil)).
+fof(redefinition_k9_subset_1, axiom, ![X1, X2, X3]:(m1_subset_1(X3,k1_zfmisc_1(X1))=>k9_subset_1(X1,X2,X3)=k3_xboole_0(X2,X3)), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', redefinition_k9_subset_1)).
+fof(t3_subset, axiom, ![X1, X2]:(m1_subset_1(X1,k1_zfmisc_1(X2))<=>r1_tarski(X1,X2)), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t3_subset)).
+fof(d10_card_fil, axiom, ![X1]:(~(v1_finset_1(X1))=>k4_card_fil(X1)=a_1_2_card_fil(X1)), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', d10_card_fil)).
+fof(t4_subset, axiom, ![X1, X2, X3]:((r2_hidden(X1,X2)&m1_subset_1(X2,k1_zfmisc_1(X3)))=>m1_subset_1(X1,X3)), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t4_subset)).
+fof(t6_card_fil, axiom, ![X1]:(~(v1_xboole_0(X1))=>![X2]:(m1_subset_1(X2,k1_zfmisc_1(X1))=>![X3]:(m1_card_fil(X3,X1)=>~((r2_hidden(X2,X3)&r2_hidden(k6_subset_1(X1,X2),X3)))))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t6_card_fil)).
+fof(t2_subset, axiom, ![X1, X2]:(m1_subset_1(X1,X2)=>(v1_xboole_0(X2)|r2_hidden(X1,X2))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t2_subset)).
+fof(dt_m1_card_fil, axiom, ![X1]:(~(v1_xboole_0(X1))=>![X2]:(m1_card_fil(X2,X1)=>(~(v1_xboole_0(X2))&m1_subset_1(X2,k1_zfmisc_1(k1_zfmisc_1(X1)))))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', dt_m1_card_fil)).
+fof(cc1_finset_1, axiom, ![X1]:(v1_xboole_0(X1)=>v1_finset_1(X1)), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', cc1_finset_1)).
+fof(t7_boole, axiom, ![X1, X2]:~((r2_hidden(X1,X2)&v1_xboole_0(X2))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', t7_boole)).
+fof(d5_card_fil, axiom, ![X1]:(~(v1_xboole_0(X1))=>![X2]:(m1_card_fil(X2,X1)=>(v1_card_fil(X2,X1)<=>![X3]:(m1_subset_1(X3,k1_zfmisc_1(X1))=>(r2_hidden(X3,X2)=>k1_card_1(X3)=k1_card_1(X1)))))), file('/scratch/mptp/allpred/preds__0.005/t20_card_fil', d5_card_fil)).
+fof(c_0_25, plain, ![X21, X22]:((~r1_ordinal1(X21,X22)|r1_tarski(X21,X22)|(~v3_ordinal1(X21)|~v3_ordinal1(X22)))&(~r1_tarski(X21,X22)|r1_ordinal1(X21,X22)|(~v3_ordinal1(X21)|~v3_ordinal1(X22)))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_r1_ordinal1])])])).
+fof(c_0_26, plain, ![X15, X16]:((~r2_hidden(X15,X16)|~r1_ordinal1(X16,X15)|~v1_card_1(X16)|~v1_card_1(X15))&(r1_ordinal1(X16,X15)|r2_hidden(X15,X16)|~v1_card_1(X16)|~v1_card_1(X15))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t4_card_1])])])])])).
+cnf(c_0_27, plain, (r1_tarski(X1,X2)|~r1_ordinal1(X1,X2)|~v3_ordinal1(X1)|~v3_ordinal1(X2)), inference(split_conjunct,[status(thm)],[c_0_25])).
+cnf(c_0_28, plain, (r1_ordinal1(X1,X2)|r2_hidden(X2,X1)|~v1_card_1(X1)|~v1_card_1(X2)), inference(split_conjunct,[status(thm)],[c_0_26])).
+fof(c_0_29, plain, ![X110]:(~v1_card_1(X110)|v3_ordinal1(X110)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc1_card_1])])).
+fof(c_0_30, plain, ![X9, X10]:(~r1_tarski(X9,X10)|r1_ordinal1(k1_card_1(X9),k1_card_1(X10))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t11_card_1])])).
+fof(c_0_31, plain, ![X57]:v1_card_1(k1_card_1(X57)), inference(variable_rename,[status(thm)],[dt_k1_card_1])).
+fof(c_0_32, plain, ![X7, X8]:(~r1_tarski(X7,X8)|k3_xboole_0(X7,X8)=X7), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t28_xboole_1])])).
+fof(c_0_33, plain, ![X13, X14]:k4_xboole_0(X13,k4_xboole_0(X13,X14))=k3_xboole_0(X13,X14), inference(variable_rename,[status(thm)],[t48_xboole_1])).
+fof(c_0_34, plain, ![X25, X26]:k3_xboole_0(X25,X26)=k3_xboole_0(X26,X25), inference(variable_rename,[status(thm)],[commutativity_k3_xboole_0])).
+fof(c_0_35, plain, ![X77]:k3_xboole_0(X77,k1_xboole_0)=k1_xboole_0, inference(variable_rename,[status(thm)],[t2_boole])).
+fof(c_0_36, plain, ![X104, X105, X107]:((((m1_subset_1(esk5_2(X104,X105),k1_zfmisc_1(X105))|~r2_hidden(X104,a_1_2_card_fil(X105))|v1_finset_1(X105))&(X104=esk5_2(X104,X105)|~r2_hidden(X104,a_1_2_card_fil(X105))|v1_finset_1(X105)))&(r2_hidden(k1_card_1(k6_subset_1(X105,esk5_2(X104,X105))),k1_card_1(X105))|~r2_hidden(X104,a_1_2_card_fil(X105))|v1_finset_1(X105)))&(~m1_subset_1(X107,k1_zfmisc_1(X105))|X104!=X107|~r2_hidden(k1_card_1(k6_subset_1(X105,X107)),k1_card_1(X105))|r2_hidden(X104,a_1_2_card_fil(X105))|v1_finset_1(X105))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[fraenkel_a_1_2_card_fil])])])])])])).
+fof(c_0_37, plain, ![X27, X28]:k6_subset_1(X27,X28)=k4_xboole_0(X27,X28), inference(variable_rename,[status(thm)],[redefinition_k6_subset_1])).
+fof(c_0_38, plain, ![X11, X12]:(((r1_tarski(X11,X12)|X11!=X12)&(r1_tarski(X12,X11)|X11!=X12))&(~r1_tarski(X11,X12)|~r1_tarski(X12,X11)|X11=X12)), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[d10_xboole_0])])])).
+cnf(c_0_39, plain, (r1_tarski(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_ordinal1(X1,X2)), inference(evalgc,[status(thm)],[c_0_27])).
+cnf(c_0_40, plain, (r1_ordinal1(X1,X2)|r2_hidden(X2,X1)|~v1_card_1(X2)|~v1_card_1(X1)), inference(evalgc,[status(thm)],[c_0_28])).
+cnf(c_0_41, plain, (v3_ordinal1(X1)|~v1_card_1(X1)), inference(split_conjunct,[status(thm)],[c_0_29])).
+cnf(c_0_42, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_30])).
+cnf(c_0_43, plain, (v1_card_1(k1_card_1(X1))), inference(split_conjunct,[status(thm)],[c_0_31])).
+cnf(c_0_44, plain, (k3_xboole_0(X1,X2)=X1|~r1_tarski(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_32])).
+cnf(c_0_45, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X2))=k3_xboole_0(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_33])).
+cnf(c_0_46, plain, (k3_xboole_0(X1,X2)=k3_xboole_0(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_34])).
+cnf(c_0_47, plain, (k3_xboole_0(X1,k1_xboole_0)=k1_xboole_0), inference(split_conjunct,[status(thm)],[c_0_35])).
+fof(c_0_48, plain, ![X35]:k4_xboole_0(X35,k1_xboole_0)=X35, inference(variable_rename,[status(thm)],[t3_boole])).
+cnf(c_0_49, plain, (r2_hidden(X3,a_1_2_card_fil(X2))|v1_finset_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))|X3!=X1|~r2_hidden(k1_card_1(k6_subset_1(X2,X1)),k1_card_1(X2))), inference(split_conjunct,[status(thm)],[c_0_36])).
+cnf(c_0_50, plain, (k6_subset_1(X1,X2)=k4_xboole_0(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_37])).
+cnf(c_0_51, plain, (X1=X2|~r1_tarski(X1,X2)|~r1_tarski(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_38])).
+cnf(c_0_52, plain, (r1_tarski(X1,X2)|r2_hidden(X2,X1)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~v1_card_1(X2)|~v1_card_1(X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_39, c_0_40])])).
+cnf(c_0_53, plain, (v3_ordinal1(X1)|~v1_card_1(X1)), inference(evalgc,[status(thm)],[c_0_41])).
+cnf(c_0_54, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[c_0_42])).
+cnf(c_0_55, plain, (v1_card_1(k1_card_1(X1))), inference(evalgc,[status(thm)],[c_0_43])).
+cnf(c_0_56, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X2))=X1|~r1_tarski(X1,X2)), inference(rw,[status(thm)],[c_0_44, c_0_45])).
+cnf(c_0_57, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X2))=k4_xboole_0(X2,k4_xboole_0(X2,X1))), inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_46, c_0_45]), c_0_45])).
+cnf(c_0_58, plain, (k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0))=k1_xboole_0), inference(rw,[status(thm)],[c_0_47, c_0_45])).
+cnf(c_0_59, plain, (k4_xboole_0(X1,k1_xboole_0)=X1), inference(split_conjunct,[status(thm)],[c_0_48])).
+fof(c_0_60, plain, ![X36, X37]:m1_subset_1(k6_subset_1(X36,X37),k1_zfmisc_1(X36)), inference(variable_rename,[status(thm)],[dt_k6_subset_1])).
+fof(c_0_61, negated_conjecture, ~(![X1]:(~(v1_finset_1(X1))=>![X2]:(m1_card_fil(X2,X1)=>(r1_tarski(k4_card_fil(X1),X2)=>v1_card_fil(X2,X1))))), inference(assume_negation,[status(cth)],[t20_card_fil])).
+cnf(c_0_62, plain, (v1_finset_1(X2)|r2_hidden(X3,a_1_2_card_fil(X2))|X1!=X3|~m1_subset_1(X1,k1_zfmisc_1(X2))|~r2_hidden(k1_card_1(k4_xboole_0(X2,X1)),k1_card_1(X2))), inference(rw,[status(thm)],[c_0_49, c_0_50])).
+cnf(c_0_63, plain, (X1=X2|~r1_tarski(X2,X1)|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[c_0_51])).
+cnf(c_0_64, plain, (r2_hidden(X1,X2)|r1_tarski(X2,X1)|~v1_card_1(X1)|~v1_card_1(X2)), inference(csr,[status(thm)],[inference(csr,[status(thm)],[c_0_52, c_0_53]), c_0_53])).
+cnf(c_0_65, plain, (r1_tarski(k1_card_1(X1),k1_card_1(X2))|~v3_ordinal1(k1_card_1(X2))|~v3_ordinal1(k1_card_1(X1))|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_39, c_0_54])])).
+cnf(c_0_66, plain, (v3_ordinal1(k1_card_1(X1))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_53, c_0_55])])).
+fof(c_0_67, plain, ![X39, X40, X41]:(~m1_subset_1(X41,k1_zfmisc_1(X39))|k9_subset_1(X39,X40,X41)=k3_xboole_0(X40,X41)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k9_subset_1])])).
+cnf(c_0_68, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X2))=X1|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[c_0_56])).
+cnf(c_0_69, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X2))=k4_xboole_0(X2,k4_xboole_0(X2,X1))), inference(evalgc,[status(thm)],[c_0_57])).
+cnf(c_0_70, plain, (k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0))=k1_xboole_0), inference(evalgc,[status(thm)],[c_0_58])).
+cnf(c_0_71, plain, (k4_xboole_0(X1,k1_xboole_0)=X1), inference(evalgc,[status(thm)],[c_0_59])).
+fof(c_0_72, plain, ![X33, X34]:((~m1_subset_1(X33,k1_zfmisc_1(X34))|r1_tarski(X33,X34))&(~r1_tarski(X33,X34)|m1_subset_1(X33,k1_zfmisc_1(X34)))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t3_subset])])).
+cnf(c_0_73, plain, (m1_subset_1(k6_subset_1(X1,X2),k1_zfmisc_1(X1))), inference(split_conjunct,[status(thm)],[c_0_60])).
+fof(c_0_74, negated_conjecture, (~v1_finset_1(esk1_0)&(m1_card_fil(esk2_0,esk1_0)&(r1_tarski(k4_card_fil(esk1_0),esk2_0)&~v1_card_fil(esk2_0,esk1_0)))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[c_0_61])])])])).
+fof(c_0_75, plain, ![X24]:(v1_finset_1(X24)|k4_card_fil(X24)=a_1_2_card_fil(X24)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[d10_card_fil])])])).
+cnf(c_0_76, plain, (v1_finset_1(X2)|r2_hidden(X3,a_1_2_card_fil(X2))|X1!=X3|~m1_subset_1(X1,k1_zfmisc_1(X2))|~r2_hidden(k1_card_1(k4_xboole_0(X2,X1)),k1_card_1(X2))), inference(evalgc,[status(thm)],[c_0_62])).
+cnf(c_0_77, plain, (X1=X2|r2_hidden(X1,X2)|~r1_tarski(X1,X2)|~v1_card_1(X1)|~v1_card_1(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_63, c_0_64])])).
+cnf(c_0_78, plain, (r1_tarski(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_65, c_0_66]), c_0_66])])).
+cnf(c_0_79, plain, (k9_subset_1(X2,X3,X1)=k3_xboole_0(X3,X1)|~m1_subset_1(X1,k1_zfmisc_1(X2))), inference(split_conjunct,[status(thm)],[c_0_67])).
+cnf(c_0_80, plain, (k4_xboole_0(X2,k4_xboole_0(X2,X1))=X1|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_68, c_0_69])])).
+cnf(c_0_81, plain, (k4_xboole_0(X1,X1)=k1_xboole_0), inference(rw,[status(thm)],[c_0_70, c_0_71])).
+cnf(c_0_82, plain, (r1_tarski(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))), inference(split_conjunct,[status(thm)],[c_0_72])).
+cnf(c_0_83, plain, (m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(X1))), inference(rw,[status(thm)],[c_0_73, c_0_50])).
+cnf(c_0_84, negated_conjecture, (r1_tarski(k4_card_fil(esk1_0),esk2_0)), inference(split_conjunct,[status(thm)],[c_0_74])).
+cnf(c_0_85, plain, (v1_finset_1(X1)|k4_card_fil(X1)=a_1_2_card_fil(X1)), inference(split_conjunct,[status(thm)],[c_0_75])).
+cnf(c_0_86, negated_conjecture, (~v1_finset_1(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_74])).
+cnf(c_0_87, plain, (r2_hidden(X1,a_1_2_card_fil(X2))|v1_finset_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))|~r2_hidden(k1_card_1(k4_xboole_0(X2,X1)),k1_card_1(X2))), inference(evalgc,[status(thm)],[inference(er,[status(thm)],[c_0_76])])).
+cnf(c_0_88, plain, (k1_card_1(X1)=k1_card_1(X2)|r2_hidden(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_77, c_0_78]), c_0_55]), c_0_55])])])).
+cnf(c_0_89, plain, (k9_subset_1(X2,X3,X1)=k4_xboole_0(X3,k4_xboole_0(X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))), inference(rw,[status(thm)],[c_0_79, c_0_45])).
+fof(c_0_90, plain, ![X84, X85, X86]:(~r2_hidden(X84,X85)|~m1_subset_1(X85,k1_zfmisc_1(X86))|m1_subset_1(X84,X86)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t4_subset])])).
+cnf(c_0_91, plain, (k4_xboole_0(X1,X2)=k1_xboole_0|~r1_tarski(k4_xboole_0(X1,X2),X1)|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_80, c_0_68]), c_0_81])])).
+cnf(c_0_92, plain, (r1_tarski(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))), inference(evalgc,[status(thm)],[c_0_82])).
+cnf(c_0_93, plain, (m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(X1))), inference(evalgc,[status(thm)],[c_0_83])).
+cnf(c_0_94, negated_conjecture, (r1_tarski(k4_card_fil(esk1_0),esk2_0)), inference(evalgc,[status(thm)],[c_0_84])).
+cnf(c_0_95, plain, (k4_card_fil(X1)=a_1_2_card_fil(X1)|v1_finset_1(X1)), inference(evalgc,[status(thm)],[c_0_85])).
+cnf(c_0_96, negated_conjecture, (~v1_finset_1(esk1_0)), inference(evalgc,[status(thm)],[c_0_86])).
+cnf(c_0_97, plain, (r2_hidden(X1,a_1_2_card_fil(X2))|v1_finset_1(X2)|k1_card_1(k4_xboole_0(X2,X1))=k1_card_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))|~r1_tarski(k4_xboole_0(X2,X1),X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_87, c_0_88])])).
+cnf(c_0_98, plain, (k9_subset_1(X2,X3,X1)=k4_xboole_0(X3,k4_xboole_0(X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))), inference(evalgc,[status(thm)],[c_0_89])).
+fof(c_0_99, plain, ![X47, X48, X49]:(v1_xboole_0(X47)|(~m1_subset_1(X48,k1_zfmisc_1(X47))|(~m1_card_fil(X49,X47)|(~r2_hidden(X48,X49)|~r2_hidden(k6_subset_1(X47,X48),X49))))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t6_card_fil])])])])).
+cnf(c_0_100, plain, (m1_subset_1(X1,X3)|~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3))), inference(split_conjunct,[status(thm)],[c_0_90])).
+cnf(c_0_101, plain, (k4_xboole_0(X1,X2)=k1_xboole_0|~r1_tarski(X1,X2)), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_91, c_0_92]), c_0_93])])])).
+cnf(c_0_102, negated_conjecture, (r1_tarski(a_1_2_card_fil(esk1_0),esk2_0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(spm,[status(thm)],[c_0_94, c_0_95]), c_0_96])])).
+cnf(c_0_103, plain, (k1_card_1(k9_subset_1(X3,X1,X2))=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r1_tarski(k9_subset_1(X3,X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(X3))), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_97, c_0_98]), c_0_93])])])).
+cnf(c_0_104, plain, (v1_xboole_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_card_fil(X3,X1)|~r2_hidden(X2,X3)|~r2_hidden(k6_subset_1(X1,X2),X3)), inference(split_conjunct,[status(thm)],[c_0_99])).
+fof(c_0_105, plain, ![X29, X30]:(~m1_subset_1(X29,X30)|(v1_xboole_0(X30)|r2_hidden(X29,X30))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t2_subset])])).
+cnf(c_0_106, plain, (m1_subset_1(X1,X3)|~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3))), inference(evalgc,[status(thm)],[c_0_100])).
+cnf(c_0_107, negated_conjecture, (k4_xboole_0(a_1_2_card_fil(esk1_0),esk2_0)=k1_xboole_0), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_101, c_0_102])])).
+cnf(c_0_108, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X2)|r2_hidden(k4_xboole_0(X2,X3),a_1_2_card_fil(X2))|v1_finset_1(X2)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(k9_subset_1(X1,X2,X3),k1_zfmisc_1(X2))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_103, c_0_92])])).
+cnf(c_0_109, plain, (m1_subset_1(k9_subset_1(X3,X1,X2),k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X3))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_93, c_0_98])])).
+fof(c_0_110, plain, ![X45, X46]:((~v1_xboole_0(X46)|~m1_card_fil(X46,X45)|v1_xboole_0(X45))&(m1_subset_1(X46,k1_zfmisc_1(k1_zfmisc_1(X45)))|~m1_card_fil(X46,X45)|v1_xboole_0(X45))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[dt_m1_card_fil])])])])])).
+fof(c_0_111, plain, ![X67]:(~v1_xboole_0(X67)|v1_finset_1(X67)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[cc1_finset_1])])).
+cnf(c_0_112, plain, (v1_xboole_0(X1)|~m1_card_fil(X3,X1)|~r2_hidden(X2,X3)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(k4_xboole_0(X1,X2),X3)), inference(rw,[status(thm)],[c_0_104, c_0_50])).
+cnf(c_0_113, plain, (v1_xboole_0(X2)|r2_hidden(X1,X2)|~m1_subset_1(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_105])).
+fof(c_0_114, plain, ![X62, X63]:(~r2_hidden(X62,X63)|~v1_xboole_0(X63)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t7_boole])])).
+cnf(c_0_115, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,k4_xboole_0(X2,X3))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_106, c_0_93])])).
+cnf(c_0_116, negated_conjecture, (k4_xboole_0(esk2_0,k4_xboole_0(esk2_0,a_1_2_card_fil(esk1_0)))=a_1_2_card_fil(esk1_0)), inference(evalgc,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_107]), c_0_71])])).
+cnf(c_0_117, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X2)|r2_hidden(k4_xboole_0(X2,X3),a_1_2_card_fil(X2))|v1_finset_1(X2)|~m1_subset_1(X3,k1_zfmisc_1(X1))), inference(csr,[status(thm)],[c_0_108, c_0_109])).
+cnf(c_0_118, plain, (m1_subset_1(X1,k1_zfmisc_1(X1))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_93, c_0_71])])).
+cnf(c_0_119, plain, (m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(X2)))|v1_xboole_0(X2)|~m1_card_fil(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_110])).
+cnf(c_0_120, negated_conjecture, (m1_card_fil(esk2_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_74])).
+cnf(c_0_121, plain, (v1_finset_1(X1)|~v1_xboole_0(X1)), inference(split_conjunct,[status(thm)],[c_0_111])).
+cnf(c_0_122, plain, (v1_xboole_0(X1)|~m1_card_fil(X3,X1)|~r2_hidden(X2,X3)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(k4_xboole_0(X1,X2),X3)), inference(evalgc,[status(thm)],[c_0_112])).
+cnf(c_0_123, plain, (v1_xboole_0(X2)|r2_hidden(X1,X2)|~m1_subset_1(X1,X2)), inference(evalgc,[status(thm)],[c_0_113])).
+cnf(c_0_124, plain, (~r2_hidden(X1,X2)|~v1_xboole_0(X2)), inference(split_conjunct,[status(thm)],[c_0_114])).
+cnf(c_0_125, negated_conjecture, (m1_subset_1(X1,esk2_0)|~r2_hidden(X1,a_1_2_card_fil(esk1_0))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_115, c_0_116])])).
+cnf(c_0_126, plain, (k1_card_1(k9_subset_1(X1,X2,X1))=k1_card_1(X2)|r2_hidden(k4_xboole_0(X2,X1),a_1_2_card_fil(X2))|v1_finset_1(X2)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_117, c_0_118])])).
+cnf(c_0_127, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X2))=k9_subset_1(X3,X2,X1)|~m1_subset_1(X1,k1_zfmisc_1(X3))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_69, c_0_98])])).
+cnf(c_0_128, plain, (k4_xboole_0(X1,X2)=k1_xboole_0|~m1_subset_1(X1,k1_zfmisc_1(X2))), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_101, c_0_92])])).
+cnf(c_0_129, plain, (v1_xboole_0(X2)|m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(X2)))|~m1_card_fil(X1,X2)), inference(evalgc,[status(thm)],[c_0_119])).
+cnf(c_0_130, negated_conjecture, (m1_card_fil(esk2_0,esk1_0)), inference(evalgc,[status(thm)],[c_0_120])).
+cnf(c_0_131, plain, (v1_finset_1(X1)|~v1_xboole_0(X1)), inference(evalgc,[status(thm)],[c_0_121])).
+cnf(c_0_132, plain, (v1_xboole_0(X1)|v1_xboole_0(X3)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(X2,X3)|~m1_card_fil(X3,X1)|~m1_subset_1(k4_xboole_0(X1,X2),X3)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_122, c_0_123])])).
+cnf(c_0_133, plain, (~v1_xboole_0(X2)|~r2_hidden(X1,X2)), inference(evalgc,[status(thm)],[c_0_124])).
+cnf(c_0_134, negated_conjecture, (m1_subset_1(k4_xboole_0(esk1_0,X1),esk2_0)|k1_card_1(k9_subset_1(X1,esk1_0,X1))=k1_card_1(esk1_0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(spm,[status(thm)],[c_0_125, c_0_126]), c_0_96])])).
+cnf(c_0_135, plain, (k9_subset_1(X3,X2,X1)=X1|~m1_subset_1(X1,k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X2))), inference(evalgc,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_127, c_0_128]), c_0_71])])).
+cnf(c_0_136, negated_conjecture, (m1_subset_1(esk2_0,k1_zfmisc_1(k1_zfmisc_1(esk1_0)))|v1_xboole_0(esk1_0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_129, c_0_130])])).
+cnf(c_0_137, negated_conjecture, (~v1_xboole_0(esk1_0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_96, c_0_131])])).
+fof(c_0_138, plain, ![X17, X18, X19]:((~v1_card_fil(X18,X17)|(~m1_subset_1(X19,k1_zfmisc_1(X17))|(~r2_hidden(X19,X18)|k1_card_1(X19)=k1_card_1(X17)))|~m1_card_fil(X18,X17)|v1_xboole_0(X17))&((m1_subset_1(esk3_2(X17,X18),k1_zfmisc_1(X17))|v1_card_fil(X18,X17)|~m1_card_fil(X18,X17)|v1_xboole_0(X17))&((r2_hidden(esk3_2(X17,X18),X18)|v1_card_fil(X18,X17)|~m1_card_fil(X18,X17)|v1_xboole_0(X17))&(k1_card_1(esk3_2(X17,X18))!=k1_card_1(X17)|v1_card_fil(X18,X17)|~m1_card_fil(X18,X17)|v1_xboole_0(X17))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[d5_card_fil])])])])])])).
+cnf(c_0_139, plain, (v1_xboole_0(X1)|~m1_subset_1(k4_xboole_0(X1,X2),X3)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(X2,X3)|~m1_card_fil(X3,X1)), inference(csr,[status(thm)],[c_0_132, c_0_133])).
+cnf(c_0_140, negated_conjecture, (k1_card_1(X1)=k1_card_1(esk1_0)|m1_subset_1(k4_xboole_0(esk1_0,X1),esk2_0)|~m1_subset_1(X1,k1_zfmisc_1(esk1_0))), inference(evalgc,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_134, c_0_135]), c_0_118])])])).
+cnf(c_0_141, negated_conjecture, (m1_subset_1(esk2_0,k1_zfmisc_1(k1_zfmisc_1(esk1_0)))), inference(sr,[status(thm)],[c_0_136, c_0_137])).
+cnf(c_0_142, plain, (v1_card_fil(X2,X1)|v1_xboole_0(X1)|k1_card_1(esk3_2(X1,X2))!=k1_card_1(X1)|~m1_card_fil(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_138])).
+cnf(c_0_143, negated_conjecture, (k1_card_1(X1)=k1_card_1(esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(esk1_0))|~r2_hidden(X1,esk2_0)), inference(evalgc,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_139, c_0_140]), c_0_130])]), c_0_137])])).
+cnf(c_0_144, negated_conjecture, (m1_subset_1(X1,k1_zfmisc_1(esk1_0))|~r2_hidden(X1,esk2_0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_106, c_0_141])])).
+cnf(c_0_145, plain, (v1_xboole_0(X1)|v1_card_fil(X2,X1)|k1_card_1(esk3_2(X1,X2))!=k1_card_1(X1)|~m1_card_fil(X2,X1)), inference(evalgc,[status(thm)],[c_0_142])).
+cnf(c_0_146, negated_conjecture, (k1_card_1(X1)=k1_card_1(esk1_0)|~r2_hidden(X1,esk2_0)), inference(csr,[status(thm)],[c_0_143, c_0_144])).
+cnf(c_0_147, plain, (r2_hidden(esk3_2(X1,X2),X2)|v1_card_fil(X2,X1)|v1_xboole_0(X1)|~m1_card_fil(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_138])).
+cnf(c_0_148, negated_conjecture, (~v1_card_fil(esk2_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_74])).
+cnf(c_0_149, negated_conjecture, (v1_xboole_0(X1)|v1_card_fil(X2,X1)|k1_card_1(esk1_0)!=k1_card_1(X1)|~m1_card_fil(X2,X1)|~r2_hidden(esk3_2(X1,X2),esk2_0)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_145, c_0_146])])).
+cnf(c_0_150, plain, (v1_xboole_0(X1)|v1_card_fil(X2,X1)|r2_hidden(esk3_2(X1,X2),X2)|~m1_card_fil(X2,X1)), inference(evalgc,[status(thm)],[c_0_147])).
+cnf(c_0_151, negated_conjecture, (~v1_card_fil(esk2_0,esk1_0)), inference(evalgc,[status(thm)],[c_0_148])).
+cnf(c_0_152, negated_conjecture, (v1_xboole_0(X1)|v1_card_fil(esk2_0,X1)|k1_card_1(esk1_0)!=k1_card_1(X1)|~m1_card_fil(esk2_0,X1)), inference(evalgc,[status(thm)],[inference(spm,[status(thm)],[c_0_149, c_0_150])])).
+cnf(c_0_153, negated_conjecture, ($false), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_151, c_0_152]), c_0_130])]), c_0_137]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 154
+# Proof object clause steps            : 103
+# Proof object formula steps           : 51
+# Proof object conjectures             : 26
+# Proof object clause conjectures      : 23
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 29
+# Proof object initial formulas used   : 25
+# Proof object generating inferences   : 32
+# Proof object simplifying inferences  : 39
+# Training examples: 59 positive, 866 negative
+# Training: Positive examples begin
+cnf(c_0_96, negated_conjecture, (~v1_finset_1(esk1_0))).# trainpos
+cnf(c_0_151, negated_conjecture, (~v1_card_fil(esk2_0,esk1_0))).# trainpos
+cnf(c_0_131, plain, (v1_finset_1(X1)|~v1_xboole_0(X1))).# trainpos
+cnf(c_0_55, plain, (v1_card_1(k1_card_1(X1)))).# trainpos
+cnf(c_0_130, negated_conjecture, (m1_card_fil(esk2_0,esk1_0))).# trainpos
+cnf(c_0_71, plain, (k4_xboole_0(X1,k1_xboole_0)=X1)).# trainpos
+cnf(c_0_94, negated_conjecture, (r1_tarski(k4_card_fil(esk1_0),esk2_0))).# trainpos
+cnf(c_0_133, plain, (~v1_xboole_0(X2)|~r2_hidden(X1,X2))).# trainpos
+cnf(c_0_53, plain, (v3_ordinal1(X1)|~v1_card_1(X1))).# trainpos
+cnf(c_0_70, plain, (k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0))=k1_xboole_0)).# trainpos
+cnf(c_0_95, plain, (k4_card_fil(X1)=a_1_2_card_fil(X1)|v1_finset_1(X1))).# trainpos
+cnf(c_0_93, plain, (m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(X1)))).# trainpos
+cnf(c_0_92, plain, (r1_tarski(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X2)))).# trainpos
+cnf(c_0_123, plain, (v1_xboole_0(X2)|r2_hidden(X1,X2)|~m1_subset_1(X1,X2))).# trainpos
+cnf(c_0_63, plain, (X1=X2|~r1_tarski(X2,X1)|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_54, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_39, plain, (r1_tarski(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_ordinal1(X1,X2))).# trainpos
+cnf(c_0_40, plain, (r1_ordinal1(X1,X2)|r2_hidden(X2,X1)|~v1_card_1(X2)|~v1_card_1(X1))).# trainpos
+cnf(c_0_129, plain, (v1_xboole_0(X2)|m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(X2)))|~m1_card_fil(X1,X2))).# trainpos
+cnf(c_0_68, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X2))=X1|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_69, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X2))=k4_xboole_0(X2,k4_xboole_0(X2,X1)))).# trainpos
+cnf(c_0_106, plain, (m1_subset_1(X1,X3)|~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).# trainpos
+cnf(c_0_98, plain, (k9_subset_1(X2,X3,X1)=k4_xboole_0(X3,k4_xboole_0(X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2)))).# trainpos
+cnf(c_0_150, plain, (v1_xboole_0(X1)|v1_card_fil(X2,X1)|r2_hidden(esk3_2(X1,X2),X2)|~m1_card_fil(X2,X1))).# trainpos
+cnf(c_0_145, plain, (v1_xboole_0(X1)|v1_card_fil(X2,X1)|k1_card_1(esk3_2(X1,X2))!=k1_card_1(X1)|~m1_card_fil(X2,X1))).# trainpos
+cnf(c_0_122, plain, (v1_xboole_0(X1)|~m1_card_fil(X3,X1)|~r2_hidden(X2,X3)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(k4_xboole_0(X1,X2),X3))).# trainpos
+cnf(c_0_76, plain, (v1_finset_1(X2)|r2_hidden(X3,a_1_2_card_fil(X2))|X1!=X3|~m1_subset_1(X1,k1_zfmisc_1(X2))|~r2_hidden(k1_card_1(k4_xboole_0(X2,X1)),k1_card_1(X2)))).# trainpos
+cnf(c_0_102, negated_conjecture, (r1_tarski(a_1_2_card_fil(esk1_0),esk2_0))).# trainpos
+cnf(c_0_66, plain, (v3_ordinal1(k1_card_1(X1)))).# trainpos
+cnf(c_0_65, plain, (r1_tarski(k1_card_1(X1),k1_card_1(X2))|~v3_ordinal1(k1_card_1(X2))|~v3_ordinal1(k1_card_1(X1))|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_137, negated_conjecture, (~v1_xboole_0(esk1_0))).# trainpos
+cnf(c_0_80, plain, (k4_xboole_0(X2,k4_xboole_0(X2,X1))=X1|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_87, plain, (r2_hidden(X1,a_1_2_card_fil(X2))|v1_finset_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))|~r2_hidden(k1_card_1(k4_xboole_0(X2,X1)),k1_card_1(X2)))).# trainpos
+cnf(c_0_136, negated_conjecture, (m1_subset_1(esk2_0,k1_zfmisc_1(k1_zfmisc_1(esk1_0)))|v1_xboole_0(esk1_0))).# trainpos
+cnf(c_0_52, plain, (r1_tarski(X1,X2)|r2_hidden(X2,X1)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~v1_card_1(X2)|~v1_card_1(X1))).# trainpos
+cnf(c_0_115, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,k4_xboole_0(X2,X3)))).# trainpos
+cnf(c_0_127, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X2))=k9_subset_1(X3,X2,X1)|~m1_subset_1(X1,k1_zfmisc_1(X3)))).# trainpos
+cnf(c_0_118, plain, (m1_subset_1(X1,k1_zfmisc_1(X1)))).# trainpos
+cnf(c_0_109, plain, (m1_subset_1(k9_subset_1(X3,X1,X2),k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).# trainpos
+cnf(c_0_132, plain, (v1_xboole_0(X1)|v1_xboole_0(X3)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(X2,X3)|~m1_card_fil(X3,X1)|~m1_subset_1(k4_xboole_0(X1,X2),X3))).# trainpos
+cnf(c_0_77, plain, (X1=X2|r2_hidden(X1,X2)|~r1_tarski(X1,X2)|~v1_card_1(X1)|~v1_card_1(X2))).# trainpos
+cnf(c_0_144, negated_conjecture, (m1_subset_1(X1,k1_zfmisc_1(esk1_0))|~r2_hidden(X1,esk2_0))).# trainpos
+cnf(c_0_88, plain, (k1_card_1(X1)=k1_card_1(X2)|r2_hidden(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_97, plain, (r2_hidden(X1,a_1_2_card_fil(X2))|v1_finset_1(X2)|k1_card_1(k4_xboole_0(X2,X1))=k1_card_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))|~r1_tarski(k4_xboole_0(X2,X1),X2))).# trainpos
+cnf(c_0_103, plain, (k1_card_1(k9_subset_1(X3,X1,X2))=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r1_tarski(k9_subset_1(X3,X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).# trainpos
+cnf(c_0_91, plain, (k4_xboole_0(X1,X2)=k1_xboole_0|~r1_tarski(k4_xboole_0(X1,X2),X1)|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_101, plain, (k4_xboole_0(X1,X2)=k1_xboole_0|~r1_tarski(X1,X2))).# trainpos
+cnf(c_0_108, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X2)|r2_hidden(k4_xboole_0(X2,X3),a_1_2_card_fil(X2))|v1_finset_1(X2)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(k9_subset_1(X1,X2,X3),k1_zfmisc_1(X2)))).# trainpos
+cnf(c_0_107, negated_conjecture, (k4_xboole_0(a_1_2_card_fil(esk1_0),esk2_0)=k1_xboole_0)).# trainpos
+cnf(c_0_116, negated_conjecture, (k4_xboole_0(esk2_0,k4_xboole_0(esk2_0,a_1_2_card_fil(esk1_0)))=a_1_2_card_fil(esk1_0))).# trainpos
+cnf(c_0_128, plain, (k4_xboole_0(X1,X2)=k1_xboole_0|~m1_subset_1(X1,k1_zfmisc_1(X2)))).# trainpos
+cnf(c_0_135, plain, (k9_subset_1(X3,X2,X1)=X1|~m1_subset_1(X1,k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X2)))).# trainpos
+cnf(c_0_126, plain, (k1_card_1(k9_subset_1(X1,X2,X1))=k1_card_1(X2)|r2_hidden(k4_xboole_0(X2,X1),a_1_2_card_fil(X2))|v1_finset_1(X2))).# trainpos
+cnf(c_0_125, negated_conjecture, (m1_subset_1(X1,esk2_0)|~r2_hidden(X1,a_1_2_card_fil(esk1_0)))).# trainpos
+cnf(c_0_134, negated_conjecture, (m1_subset_1(k4_xboole_0(esk1_0,X1),esk2_0)|k1_card_1(k9_subset_1(X1,esk1_0,X1))=k1_card_1(esk1_0))).# trainpos
+cnf(c_0_140, negated_conjecture, (k1_card_1(X1)=k1_card_1(esk1_0)|m1_subset_1(k4_xboole_0(esk1_0,X1),esk2_0)|~m1_subset_1(X1,k1_zfmisc_1(esk1_0)))).# trainpos
+cnf(c_0_143, negated_conjecture, (k1_card_1(X1)=k1_card_1(esk1_0)|~m1_subset_1(X1,k1_zfmisc_1(esk1_0))|~r2_hidden(X1,esk2_0))).# trainpos
+cnf(c_0_149, negated_conjecture, (v1_xboole_0(X1)|v1_card_fil(X2,X1)|k1_card_1(esk1_0)!=k1_card_1(X1)|~m1_card_fil(X2,X1)|~r2_hidden(esk3_2(X1,X2),esk2_0))).# trainpos
+cnf(c_0_152, negated_conjecture, (v1_xboole_0(X1)|v1_card_fil(esk2_0,X1)|k1_card_1(esk1_0)!=k1_card_1(X1)|~m1_card_fil(esk2_0,X1))).# trainpos
+# Training: Positive examples end
+# Training: Negative examples begin
+cnf(i_0_58, plain, (k5_numbers=k4_ordinal1)).#trainneg
+cnf(i_0_108, plain, (o_0_0_xboole_0=k1_xboole_0)).#trainneg
+cnf(i_0_117, plain, (v1_finset_1(esk11_0))).#trainneg
+cnf(i_0_98, plain, (v1_card_1(k4_ordinal1))).#trainneg
+cnf(i_0_72, plain, (v1_xboole_0(k1_xboole_0))).#trainneg
+cnf(i_0_123, plain, (v1_xboole_0(esk13_0))).#trainneg
+cnf(i_0_67, plain, (v3_ordinal1(k4_ordinal1))).#trainneg
+cnf(i_0_147, plain, (v7_ordinal1(esk18_0))).#trainneg
+cnf(i_0_116, plain, (v5_finset_1(esk11_0))).#trainneg
+cnf(i_0_94, plain, (v2_xxreal_0(np__1))).#trainneg
+cnf(i_0_142, plain, (v5_card_3(k4_ordinal1))).#trainneg
+cnf(i_0_62, plain, (~v1_finset_1(k4_ordinal1))).#trainneg
+cnf(i_0_20, plain, (v1_finset_1(X1)|~v1_finset_1(k1_card_1(X1)))).#trainneg
+cnf(i_0_68, plain, (~v1_xboole_0(k4_ordinal1))).#trainneg
+cnf(i_0_93, plain, (m2_subset_1(np__1,k1_numbers,k5_numbers))).#trainneg
+cnf(i_0_131, plain, (~v1_xboole_0(np__1))).#trainneg
+cnf(i_0_118, plain, (~v1_xboole_0(esk11_0))).#trainneg
+cnf(i_0_148, plain, (~v1_xboole_0(esk18_0))).#trainneg
+cnf(i_0_42, plain, (X1=k1_xboole_0|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_96, plain, (v1_xboole_0(esk6_1(X1)))).#trainneg
+cnf(i_0_104, plain, (m1_subset_1(k1_xboole_0,k4_ordinal1))).#trainneg
+cnf(i_0_92, plain, (m1_subset_1(np__1,k5_numbers))).#trainneg
+cnf(i_0_91, plain, (m1_subset_1(np__1,k1_numbers))).#trainneg
+cnf(i_0_77, plain, (k4_xboole_0(k1_xboole_0,X1)=k1_xboole_0)).#trainneg
+cnf(i_0_39, plain, (r1_tarski(X1,X1))).#trainneg
+cnf(i_0_61, plain, (~v1_xboole_0(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_26, plain, (k1_card_1(k1_card_1(X1))=k1_card_1(X1))).#trainneg
+cnf(i_0_132, plain, (m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_136, plain, (~v1_finset_1(X1)|~v5_card_3(X1))).#trainneg
+cnf(i_0_102, plain, (v1_finset_1(X1)|~v1_finset_1(esk7_1(X1)))).#trainneg
+cnf(i_0_60, plain, (v1_finset_1(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_150, plain, (~v1_xboole_0(X1)|~v3_card_1(X1,np__1))).#trainneg
+cnf(i_0_125, plain, (~v1_subset_1(esk14_1(X1),X1))).#trainneg
+cnf(i_0_121, plain, (v4_card_3(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_137, plain, (v1_card_1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_130, plain, (v1_card_1(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_63, plain, (m1_subset_1(esk4_1(X1),X1))).#trainneg
+cnf(i_0_143, plain, (v3_ordinal1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_101, plain, (v3_ordinal1(X1)|~v7_ordinal1(X1))).#trainneg
+cnf(i_0_75, plain, (v7_ordinal1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_109, plain, (v1_funct_1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_135, plain, (v4_card_3(X1)|~v5_card_3(X1))).#trainneg
+cnf(i_0_8, plain, (r1_tarski(X1,X2)|X1!=X2)).#trainneg
+cnf(i_0_9, plain, (r1_tarski(X1,X2)|X1!=X2)).#trainneg
+cnf(i_0_97, plain, (m1_subset_1(esk6_1(X1),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_126, plain, (m1_subset_1(esk14_1(X1),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_50, plain, (v1_finset_1(X1)|~m1_subset_1(X1,k4_ordinal1))).#trainneg
+cnf(i_0_122, plain, (~r2_hidden(X2,X1)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_112, plain, (v1_xboole_0(X1)|v1_finset_1(esk10_1(X1)))).#trainneg
+cnf(i_0_12, plain, (~v1_card_1(X2)|~v1_card_1(X1)|~r1_ordinal1(X2,X1)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_144, plain, (v1_xboole_0(X1)|~v3_card_1(X1,k1_xboole_0))).#trainneg
+cnf(i_0_74, plain, (~v1_xboole_0(X3)|~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_48, plain, (v1_xboole_0(X1)|~v1_xboole_0(k1_card_1(X1)))).#trainneg
+cnf(i_0_100, plain, (v1_finset_1(X1)|v4_ordinal1(X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_124, plain, (v1_finset_1(X1)|v5_card_3(X1)|~v4_card_3(X1))).#trainneg
+cnf(i_0_139, plain, (v1_xboole_0(X1)|v1_zfmisc_1(esk17_1(X1)))).#trainneg
+cnf(i_0_32, plain, (v1_finset_1(k1_card_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_129, plain, (v1_finset_1(k1_zfmisc_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_44, plain, (v1_xboole_0(k1_card_1(X1))|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_69, plain, (v5_finset_1(k1_zfmisc_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_110, plain, (v1_xboole_0(X1)|~v1_xboole_0(esk9_1(X1)))).#trainneg
+cnf(i_0_113, plain, (v1_xboole_0(X1)|~v1_xboole_0(esk10_1(X1)))).#trainneg
+cnf(i_0_140, plain, (v1_xboole_0(X1)|~v1_xboole_0(esk17_1(X1)))).#trainneg
+cnf(i_0_38, plain, (v7_ordinal1(X1)|~m1_subset_1(X1,k4_ordinal1))).#trainneg
+cnf(i_0_149, plain, (v1_zfmisc_1(X1)|~v3_card_1(X1,np__1))).#trainneg
+cnf(i_0_76, plain, (v1_finset_1(X2)|~v5_finset_1(X1)|~m1_subset_1(X2,X1))).#trainneg
+cnf(i_0_133, plain, (v1_xboole_0(X1)|v3_card_1(esk15_1(X1),np__1))).#trainneg
+cnf(i_0_119, plain, (~r2_hidden(X3,X2)|~r2_hidden(X1,X2)|~r2_hidden(X1,esk12_2(X3,X2)))).#trainneg
+cnf(i_0_90, plain, (X1=X2|~v1_xboole_0(X2)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_73, plain, (v7_ordinal1(X1)|~v1_finset_1(X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_36, plain, (v1_xboole_0(X2)|~v1_xboole_0(X1)|~m1_card_fil(X1,X2))).#trainneg
+cnf(i_0_105, plain, (v3_ordinal1(X2)|~v3_ordinal1(X1)|~m1_subset_1(X2,X1))).#trainneg
+cnf(i_0_25, plain, (v1_finset_1(X1)|m1_card_fil(k4_card_fil(X1),X1))).#trainneg
+cnf(i_0_107, plain, (v1_xboole_0(X1)|m1_card_fil(esk8_1(X1),X1))).#trainneg
+cnf(i_0_64, plain, (r1_ordinal1(X1,X1)|~v3_ordinal1(X2)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_54, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_57, plain, (v1_finset_1(k4_xboole_0(X1,X2))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_103, plain, (v1_finset_1(X1)|m1_subset_1(esk7_1(X1),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_111, plain, (v1_xboole_0(X1)|m1_subset_1(esk9_1(X1),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_114, plain, (v1_xboole_0(X1)|m1_subset_1(esk10_1(X1),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_134, plain, (v1_xboole_0(X1)|m1_subset_1(esk15_1(X1),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_141, plain, (v1_xboole_0(X1)|m1_subset_1(esk17_1(X1),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_27, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_127, plain, (v1_funct_1(X1)|~v4_funct_1(X2)|~m1_subset_1(X1,X2))).#trainneg
+cnf(i_0_128, plain, (v1_relat_1(X1)|~v4_funct_1(X2)|~m1_subset_1(X1,X2))).#trainneg
+cnf(i_0_146, plain, (v4_card_3(X2)|~v4_card_3(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_41, plain, (v1_finset_1(X2)|~v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_51, plain, (r1_ordinal1(X2,X1)|r1_ordinal1(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_17, plain, (r1_ordinal1(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_66, plain, (v1_xboole_0(X2)|~v1_xboole_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_145, plain, (v1_funct_1(X2)|~v1_funct_1(X1)|~v1_relat_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_70, plain, (v1_xboole_0(X3)|v1_xboole_0(X2)|m2_subset_1(X1,X3,X2)|~m1_subset_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_81, plain, (esk5_2(X1,X2)=X1|v1_finset_1(X2)|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_120, plain, (r2_hidden(esk12_2(X1,X2),X2)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_106, plain, (k9_subset_1(X2,X3,X3)=X3|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_56, plain, (v1_finset_1(k4_xboole_0(X2,k4_xboole_0(X2,X1)))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_34, plain, (k9_subset_1(X2,X1,X3)=k9_subset_1(X2,X3,X1)|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_46, plain, (m1_subset_1(k9_subset_1(X2,X3,X1),k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_82, plain, (v1_finset_1(X2)|m1_subset_1(esk5_2(X1,X2),k1_zfmisc_1(X2))|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_80, plain, (v1_finset_1(X1)|r2_hidden(k1_card_1(k4_xboole_0(X1,esk5_2(X2,X1))),k1_card_1(X1))|~r2_hidden(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_15, plain, (v1_xboole_0(X1)|v1_card_fil(X2,X1)|m1_subset_1(esk3_2(X1,X2),k1_zfmisc_1(X1))|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_71, plain, (v1_xboole_0(X3)|v1_xboole_0(X2)|m1_subset_1(X1,X3)|~m2_subset_1(X1,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_138, plain, (v1_xboole_0(X2)|v1_xboole_0(X1)|m2_subset_1(esk16_2(X1,X2),X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_78, plain, (v1_xboole_0(X2)|v1_xboole_0(X1)|m1_subset_1(X3,X1)|~m2_subset_1(X3,X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_16, plain, (k1_card_1(X2)=k1_card_1(X3)|v1_xboole_0(X2)|~m1_card_fil(X1,X2)|~v1_card_fil(X1,X2)|~r2_hidden(X3,X1)|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_153, plain, (v1_finset_1(X1)|~v1_xboole_0(k1_card_1(X1)))).#trainneg
+cnf(i_0_154, plain, (esk13_0=k1_xboole_0)).#trainneg
+cnf(i_0_278, negated_conjecture, (k4_card_fil(esk1_0)=esk2_0|~r1_tarski(esk2_0,k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_222, plain, (v1_xboole_0(X1)|v1_finset_1(X1)|~v1_xboole_0(k4_card_fil(X1)))).#trainneg
+cnf(i_0_223, plain, (m1_card_fil(a_1_2_card_fil(X1),X1)|v1_finset_1(X1))).#trainneg
+cnf(i_0_378, plain, (v1_finset_1(X1)|~v1_finset_1(X2)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_160, plain, (v1_finset_1(X1)|~v1_xboole_0(esk7_1(X1)))).#trainneg
+cnf(i_0_161, plain, (v1_finset_1(esk18_0))).#trainneg
+cnf(i_0_155, plain, (esk6_1(X1)=k1_xboole_0)).#trainneg
+cnf(i_0_162, plain, (v1_card_1(esk18_0))).#trainneg
+cnf(i_0_304, plain, (~v1_finset_1(k1_numbers))).#trainneg
+cnf(i_0_318, plain, (~v1_xboole_0(k1_numbers))).#trainneg
+cnf(i_0_166, plain, (v3_ordinal1(esk18_0))).#trainneg
+cnf(i_0_170, plain, (v4_card_3(k4_ordinal1))).#trainneg
+cnf(i_0_281, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,k1_card_1(X2)))).#trainneg
+cnf(i_0_249, negated_conjecture, (m1_subset_1(k4_card_fil(esk1_0),k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_332, plain, (m1_subset_1(k4_card_fil(X1),k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_xboole_0(X1)|v1_finset_1(X1))).#trainneg
+cnf(i_0_308, plain, (~r2_hidden(X1,X2)|~v1_card_1(X2)|~v1_card_1(X1)|~v3_ordinal1(X1)|~v3_ordinal1(X2)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_213, negated_conjecture, (v1_xboole_0(esk1_0)|~v1_xboole_0(esk2_0))).#trainneg
+cnf(i_0_282, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(k1_card_1(X1),X2))).#trainneg
+cnf(i_0_280, plain, (~r2_hidden(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_279, plain, (X1=X2|~r1_tarski(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_340, plain, (k1_xboole_0=X1|~r1_tarski(X1,k4_xboole_0(X1,X2))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_173, plain, (v1_finset_1(X1)|~m1_subset_1(esk7_1(X1),k4_ordinal1))).#trainneg
+cnf(i_0_218, plain, (v3_ordinal1(np__1))).#trainneg
+cnf(i_0_343, plain, (k1_xboole_0=X1|~r1_tarski(X1,k1_xboole_0))).#trainneg
+cnf(i_0_176, plain, (v1_finset_1(X1)|~m1_subset_1(k1_card_1(X1),k4_ordinal1))).#trainneg
+cnf(i_0_220, plain, (v3_ordinal1(k1_xboole_0))).#trainneg
+cnf(i_0_174, negated_conjecture, (~m1_subset_1(esk1_0,k4_ordinal1))).#trainneg
+cnf(i_0_175, plain, (~m1_subset_1(k4_ordinal1,k4_ordinal1))).#trainneg
+cnf(i_0_211, plain, (v1_card_1(X1)|~v3_ordinal1(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_228, plain, (r1_ordinal1(X1,X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_187, plain, (k1_card_1(X1)=k1_xboole_0|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_191, plain, (v1_card_1(X1)|~m1_subset_1(X1,k4_ordinal1))).#trainneg
+cnf(i_0_455, plain, (k9_subset_1(X1,X2,X2)=X2|v1_xboole_0(X1)|v1_card_fil(X3,X1)|~m1_card_fil(X3,X1))).#trainneg
+cnf(i_0_363, plain, (k9_subset_1(X1,X2,X2)=X2)).#trainneg
+cnf(i_0_458, plain, (v1_finset_1(esk3_2(X1,X2))|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~v1_finset_1(X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_339, plain, (m1_subset_1(X1,k1_zfmisc_1(X1))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_409, plain, (k9_subset_1(X3,X1,X2)=X1|~r1_tarski(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_293, plain, (v4_card_3(k4_xboole_0(X1,X2))|~v4_card_3(X1))).#trainneg
+cnf(i_0_196, plain, (m1_subset_1(k1_xboole_0,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_418, plain, (k9_subset_1(X1,X2,k4_xboole_0(X2,X3))=k1_xboole_0|~m1_subset_1(k4_xboole_0(X2,X3),k1_zfmisc_1(X1))|~r1_tarski(X2,X3))).#trainneg
+cnf(i_0_405, plain, (k4_xboole_0(X1,k9_subset_1(X3,X1,X2))=X1|~r1_tarski(X1,k4_xboole_0(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_233, plain, (v1_finset_1(k1_xboole_0)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_298, plain, (v1_finset_1(esk14_1(X1))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_273, plain, (v1_relat_1(np__1)|~v4_funct_1(k1_numbers))).#trainneg
+cnf(i_0_192, plain, (v3_ordinal1(X1)|~m1_subset_1(X1,k4_ordinal1))).#trainneg
+cnf(i_0_200, plain, (v1_finset_1(np__1)|~v5_finset_1(k1_numbers))).#trainneg
+cnf(i_0_202, plain, (~v5_finset_1(k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_201, plain, (v1_finset_1(np__1)|~v5_finset_1(k4_ordinal1))).#trainneg
+cnf(i_0_307, plain, (r1_ordinal1(X1,X2)|r1_ordinal1(X2,X1)|~v3_ordinal1(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_434, plain, (esk5_2(esk3_2(X1,a_1_2_card_fil(X2)),X2)=esk3_2(X1,a_1_2_card_fil(X2))|v1_finset_1(X2)|v1_xboole_0(X1)|v1_card_fil(a_1_2_card_fil(X2),X1)|~m1_card_fil(a_1_2_card_fil(X2),X1))).#trainneg
+cnf(i_0_416, plain, (k9_subset_1(X1,X2,X3)=k4_xboole_0(X3,k4_xboole_0(X3,X2))|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_435, plain, (m1_subset_1(esk3_2(X1,X2),X2)|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_347, plain, (k4_xboole_0(X1,k4_xboole_0(X2,k4_xboole_0(X2,X1)))=X1|~r1_tarski(X1,k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_333, plain, (esk5_2(X1,X2)=X1|v1_finset_1(X2)|v1_xboole_0(a_1_2_card_fil(X2))|~m1_subset_1(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_408, plain, (k9_subset_1(X1,X2,k4_xboole_0(X2,X3))=k4_xboole_0(X2,k9_subset_1(X4,X2,X3))|~m1_subset_1(k4_xboole_0(X2,X3),k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_413, plain, (k9_subset_1(X1,X2,X3)=k9_subset_1(X4,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_203, plain, (v1_finset_1(k1_xboole_0)|~v5_finset_1(k4_ordinal1))).#trainneg
+cnf(i_0_303, plain, (v1_finset_1(esk4_1(k1_zfmisc_1(X1)))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_274, plain, (v1_relat_1(np__1)|~v4_funct_1(k4_ordinal1))).#trainneg
+cnf(i_0_197, plain, (v1_finset_1(esk14_1(X1))|~v5_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_260, plain, (v1_funct_1(np__1)|~v4_funct_1(k1_numbers))).#trainneg
+cnf(i_0_261, plain, (v1_funct_1(np__1)|~v4_funct_1(k4_ordinal1))).#trainneg
+cnf(i_0_209, plain, (X1=k1_card_1(X2)|~v1_xboole_0(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_306, plain, (r1_ordinal1(X1,k4_ordinal1)|r1_ordinal1(k4_ordinal1,X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_199, plain, (v1_finset_1(esk4_1(X1))|~v5_finset_1(X1))).#trainneg
+cnf(i_0_204, plain, (v1_finset_1(k4_xboole_0(X1,X2))|~v5_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_389, plain, (m1_subset_1(X1,k1_numbers)|~r2_hidden(X1,k4_ordinal1))).#trainneg
+cnf(i_0_447, plain, (v1_finset_1(X1)|~r2_hidden(k1_card_1(X1),k1_card_1(k4_xboole_0(X1,esk5_2(X2,X1))))|~r2_hidden(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_460, plain, (v4_card_3(esk3_2(X1,X2))|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~v4_card_3(X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_432, plain, (m1_subset_1(X1,X2)|v1_finset_1(X2)|~r2_hidden(X1,esk5_2(X3,X2))|~r2_hidden(X3,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_403, plain, (m1_subset_1(k9_subset_1(X1,X3,X2),k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_441, plain, (v1_xboole_0(X1)|~r2_hidden(k4_xboole_0(X2,k4_xboole_0(X2,X1)),X3)|~r2_hidden(k4_xboole_0(X1,X2),X3)|~m1_card_fil(X3,X1))).#trainneg
+cnf(i_0_514, plain, (v1_finset_1(X1)|~v1_xboole_0(a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_214, plain, (v3_ordinal1(esk14_1(X1))|~v3_ordinal1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_967, plain, (r1_ordinal1(k4_ordinal1,k4_ordinal1))).#trainneg
+cnf(i_0_216, plain, (v3_ordinal1(esk4_1(X1))|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_221, plain, (v3_ordinal1(k4_xboole_0(X1,X2))|~v3_ordinal1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_527, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_493, plain, (r1_tarski(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,k1_card_1(X2)))).#trainneg
+cnf(i_0_810, plain, (k9_subset_1(X3,X2,X1)=X2|~r1_tarski(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_491, plain, (k1_card_1(X1)=k1_card_1(X2)|~r1_tarski(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_883, plain, (r2_hidden(k1_card_1(k4_xboole_0(X1,X2)),k1_card_1(X1))|v1_finset_1(X1)|v1_xboole_0(a_1_2_card_fil(X1))|~r2_hidden(X2,a_1_2_card_fil(X1))|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_492, plain, (m1_subset_1(k1_card_1(X1),k1_zfmisc_1(k1_card_1(X2)))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_781, plain, (v1_finset_1(X1)|~v5_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_761, plain, (v1_finset_1(k1_xboole_0))).#trainneg
+cnf(i_0_484, negated_conjecture, (a_1_2_card_fil(esk1_0)=esk2_0|~r1_tarski(esk2_0,a_1_2_card_fil(esk1_0)))).#trainneg
+cnf(i_0_227, plain, (v1_xboole_0(X1)|~v1_xboole_0(esk8_1(X1)))).#trainneg
+cnf(i_0_965, plain, (r1_ordinal1(k4_ordinal1,esk18_0)|r1_ordinal1(esk18_0,k4_ordinal1))).#trainneg
+cnf(i_0_535, plain, (~m1_subset_1(k1_numbers,k4_ordinal1))).#trainneg
+cnf(i_0_584, negated_conjecture, (~r2_hidden(esk2_0,a_1_2_card_fil(esk1_0))|~v1_card_1(a_1_2_card_fil(esk1_0))|~v1_card_1(esk2_0))).#trainneg
+cnf(i_0_519, negated_conjecture, (v1_finset_1(k4_card_fil(esk1_0))|~v1_finset_1(esk2_0))).#trainneg
+cnf(i_0_235, plain, (v3_ordinal1(esk7_1(X1))|v1_finset_1(X1)|~v3_ordinal1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_516, plain, (m1_subset_1(a_1_2_card_fil(X1),k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_xboole_0(X1)|v1_finset_1(X1))).#trainneg
+cnf(i_0_601, plain, (X1=X2|r2_hidden(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_700, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,X3)|~r1_tarski(X3,X2))).#trainneg
+cnf(i_0_999, plain, (v1_finset_1(X1)|v1_xboole_0(X2)|v1_card_fil(a_1_2_card_fil(X1),X2)|~r2_hidden(k1_card_1(X1),k1_card_1(k4_xboole_0(X1,esk3_2(X2,a_1_2_card_fil(X1)))))|~r2_hidden(esk3_2(X2,a_1_2_card_fil(X1)),a_1_2_card_fil(X1))|~m1_card_fil(a_1_2_card_fil(X1),X2))).#trainneg
+cnf(i_0_490, negated_conjecture, (k4_card_fil(esk1_0)=esk2_0|~m1_subset_1(esk2_0,k1_zfmisc_1(k4_card_fil(esk1_0))))).#trainneg
+cnf(i_0_276, plain, (v1_relat_1(k1_xboole_0)|~v4_funct_1(k4_ordinal1))).#trainneg
+cnf(i_0_237, plain, (v1_finset_1(esk9_1(X1))|v1_xboole_0(X1)|~v5_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_966, plain, (r1_ordinal1(k4_ordinal1,np__1)|r1_ordinal1(np__1,k4_ordinal1))).#trainneg
+cnf(i_0_586, negated_conjecture, (~r2_hidden(esk2_0,k4_card_fil(esk1_0))|~v1_card_1(k4_card_fil(esk1_0))|~v1_card_1(esk2_0))).#trainneg
+cnf(i_0_263, plain, (v1_funct_1(k1_xboole_0)|~v4_funct_1(k4_ordinal1))).#trainneg
+cnf(i_0_568, negated_conjecture, (v4_card_3(k4_card_fil(esk1_0))|~v4_card_3(esk2_0))).#trainneg
+cnf(i_0_564, negated_conjecture, (v1_funct_1(k4_card_fil(esk1_0))|~v1_relat_1(esk2_0)|~v1_funct_1(esk2_0))).#trainneg
+cnf(i_0_238, plain, (v3_ordinal1(esk9_1(X1))|v1_xboole_0(X1)|~v3_ordinal1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_614, plain, (k1_xboole_0=X1|r2_hidden(k1_xboole_0,X1)|~v1_card_1(k1_xboole_0)|~v1_card_1(X1))).#trainneg
+cnf(i_0_590, plain, (~r2_hidden(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(k1_card_1(X2),X1))).#trainneg
+cnf(i_0_550, plain, (~r2_hidden(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X2,k1_card_1(X1)))).#trainneg
+cnf(i_0_791, plain, (r2_hidden(k1_card_1(k4_xboole_0(X1,esk3_2(X2,a_1_2_card_fil(X1)))),k1_card_1(X1))|v1_finset_1(X1)|v1_xboole_0(X2)|v1_card_fil(a_1_2_card_fil(X1),X2)|~r2_hidden(esk3_2(X2,a_1_2_card_fil(X1)),a_1_2_card_fil(X1))|~m1_card_fil(a_1_2_card_fil(X1),X2))).#trainneg
+cnf(i_0_517, negated_conjecture, (v1_finset_1(a_1_2_card_fil(esk1_0))|~v1_finset_1(esk2_0))).#trainneg
+cnf(i_0_543, negated_conjecture, (k1_card_1(k1_zfmisc_1(esk1_0))=k1_card_1(esk2_0)|~r2_hidden(esk2_0,X1)|~v1_card_fil(X1,k1_zfmisc_1(esk1_0))|~m1_card_fil(X1,k1_zfmisc_1(esk1_0)))).#trainneg
+cnf(i_0_241, plain, (v3_ordinal1(esk10_1(X1))|v1_xboole_0(X1)|~v3_ordinal1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_968, plain, (r1_ordinal1(k4_ordinal1,k1_xboole_0)|r1_ordinal1(k1_xboole_0,k4_ordinal1))).#trainneg
+cnf(i_0_262, plain, (v1_funct_1(k4_ordinal1)|~v4_funct_1(k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_275, plain, (v1_relat_1(k4_ordinal1)|~v4_funct_1(k1_zfmisc_1(k1_numbers)))).#trainneg
+cnf(i_0_779, plain, (r1_ordinal1(X1,X2)|r1_ordinal1(X2,X1)|~v1_xboole_0(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_670, plain, (v4_card_3(X2)|~v4_card_3(X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_243, plain, (v1_finset_1(esk15_1(X1))|v1_xboole_0(X1)|~v5_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_244, plain, (v3_ordinal1(esk15_1(X1))|v1_xboole_0(X1)|~v3_ordinal1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_506, plain, (k9_subset_1(X1,X2,X3)=X3|~m1_subset_1(X3,k1_zfmisc_1(X1))|~r1_tarski(X3,X2))).#trainneg
+cnf(i_0_610, plain, (k1_xboole_0=X1|r2_hidden(k4_xboole_0(X1,X2),X1)|~r1_tarski(X1,X2)|~v1_card_1(k4_xboole_0(X1,X2))|~v1_card_1(X1))).#trainneg
+cnf(i_0_589, plain, (~r2_hidden(X1,X2)|~v1_card_1(X2)|~v1_card_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_525, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(X1),k1_card_1(X1))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_497, plain, (k4_xboole_0(X1,X2)=X1|~r1_tarski(X1,k4_xboole_0(X1,X2))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_485, negated_conjecture, (m1_subset_1(a_1_2_card_fil(esk1_0),k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_554, negated_conjecture, (k4_card_fil(esk1_0)=esk2_0|r2_hidden(k4_card_fil(esk1_0),esk2_0)|~v1_card_1(k4_card_fil(esk1_0))|~v1_card_1(esk2_0))).#trainneg
+cnf(i_0_328, plain, (v1_funct_1(k4_ordinal1)|~v1_relat_1(k1_numbers)|~v1_funct_1(k1_numbers))).#trainneg
+cnf(i_0_246, plain, (v1_finset_1(esk17_1(X1))|v1_xboole_0(X1)|~v5_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_546, negated_conjecture, (v1_finset_1(esk2_0)|~v1_finset_1(k1_zfmisc_1(esk1_0)))).#trainneg
+cnf(i_0_557, plain, (v1_finset_1(X1)|r2_hidden(X2,X1)|~v1_finset_1(X2)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_247, plain, (v3_ordinal1(esk17_1(X1))|v1_xboole_0(X1)|~v3_ordinal1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_252, plain, (v1_funct_1(esk17_1(X1))|v1_xboole_0(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_731, plain, (k9_subset_1(X1,X2,X3)=k4_xboole_0(X2,k4_xboole_0(X2,X3))|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1000, plain, (v1_finset_1(X1)|v1_xboole_0(a_1_2_card_fil(X1))|~r2_hidden(k1_card_1(X1),k1_card_1(k4_xboole_0(X1,X2)))|~r2_hidden(X2,a_1_2_card_fil(X1))|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_665, plain, (k9_subset_1(X1,X2,X3)=X3|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X3,X2))).#trainneg
+cnf(i_0_694, plain, (k9_subset_1(X1,X2,k9_subset_1(X4,X2,X3))=k1_xboole_0|~m1_subset_1(k9_subset_1(X4,X2,X3),k1_zfmisc_1(X1))|~r1_tarski(X2,k4_xboole_0(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_512, plain, (k4_xboole_0(X1,k9_subset_1(X3,X1,X2))=k4_xboole_0(X1,X2)|~r1_tarski(k4_xboole_0(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_559, negated_conjecture, (v3_ordinal1(k4_card_fil(esk1_0))|~v3_ordinal1(k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_253, plain, (v1_funct_1(esk15_1(X1))|v1_xboole_0(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_548, negated_conjecture, (v4_card_3(esk2_0)|~v4_card_3(k1_zfmisc_1(esk1_0)))).#trainneg
+cnf(i_0_538, negated_conjecture, (v1_finset_1(esk2_0)|~v5_finset_1(k1_zfmisc_1(k1_zfmisc_1(esk1_0))))).#trainneg
+cnf(i_0_569, negated_conjecture, (m1_subset_1(X1,esk2_0)|~r2_hidden(X1,k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_254, plain, (v1_funct_1(esk14_1(X1))|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_255, plain, (v1_funct_1(esk10_1(X1))|v1_xboole_0(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1074, plain, (X1=X2|r2_hidden(X1,X2)|r2_hidden(X2,X1)|~v1_card_1(X1)|~v1_card_1(X2))).#trainneg
+cnf(i_0_1231, plain, (esk3_2(X1,X2)=X1|r2_hidden(esk3_2(X1,X2),X1)|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~v1_card_1(esk3_2(X1,X2))|~v1_card_1(X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_1221, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|v1_finset_1(X2)|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_1239, plain, (k4_xboole_0(X1,X2)=X1|r2_hidden(k4_xboole_0(X1,X2),X1)|~v1_card_1(k4_xboole_0(X1,X2))|~v1_card_1(X1))).#trainneg
+cnf(i_0_1607, negated_conjecture, (v4_card_3(esk2_0)|~v1_finset_1(k1_zfmisc_1(esk1_0)))).#trainneg
+cnf(i_0_1274, plain, (~r2_hidden(k1_xboole_0,k1_card_1(X2))|~r1_tarski(k1_card_1(X2),X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_256, plain, (v1_funct_1(esk9_1(X1))|v1_xboole_0(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1233, plain, (k1_numbers=k4_ordinal1|r2_hidden(k4_ordinal1,k1_numbers)|~v1_card_1(k1_numbers))).#trainneg
+cnf(i_0_1079, plain, (~r2_hidden(k4_ordinal1,k4_ordinal1))).#trainneg
+cnf(i_0_1357, plain, (~r2_hidden(k1_numbers,k4_ordinal1)|~v1_card_1(k1_numbers))).#trainneg
+cnf(i_0_1423, plain, (r2_hidden(X1,X2)|v1_finset_1(X2)|~v1_card_1(X2)|~v1_finset_1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_1424, plain, (r2_hidden(X1,X2)|v1_finset_1(X2)|~v1_card_1(X2)|~v1_finset_1(X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_257, plain, (v1_funct_1(esk7_1(X1))|v1_finset_1(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_259, plain, (v1_funct_1(esk4_1(X1))|~v4_funct_1(X1))).#trainneg
+cnf(i_0_1161, plain, (k1_card_1(X1)=k1_card_1(X2)|~r1_tarski(X2,X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_1180, plain, (r2_hidden(k1_card_1(k9_subset_1(X3,X1,X2)),k1_card_1(X1))|v1_finset_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_1130, negated_conjecture, (m1_subset_1(X1,esk1_0)|~r2_hidden(X1,X2)|~r2_hidden(X2,esk2_0))).#trainneg
+cnf(i_0_1162, plain, (k1_card_1(X1)=k1_card_1(X2)|~r1_tarski(X2,X1)|~r1_tarski(X1,k1_card_1(X2)))).#trainneg
+cnf(i_0_1177, plain, (r2_hidden(k1_card_1(X2),k1_card_1(X1))|v1_finset_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_579, plain, (v1_finset_1(k4_card_fil(X1))|v1_finset_1(X1)|~v1_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1279, plain, (~r2_hidden(k1_card_1(X1),k1_xboole_0)|~r1_tarski(X2,k1_card_1(X1))|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_264, plain, (v1_funct_1(k4_xboole_0(X1,X2))|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1203, plain, (r1_tarski(esk18_0,k4_ordinal1)|r1_ordinal1(k4_ordinal1,esk18_0))).#trainneg
+cnf(i_0_1309, plain, (v4_card_3(X1)|r2_hidden(X2,X1)|~v4_card_3(X2)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_1413, negated_conjecture, (k4_card_fil(esk1_0)=esk2_0|r2_hidden(k4_card_fil(esk1_0),esk2_0)|~v1_card_1(esk2_0)|~v1_xboole_0(k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_265, plain, (v1_relat_1(esk17_1(X1))|v1_xboole_0(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_266, plain, (v1_relat_1(esk15_1(X1))|v1_xboole_0(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1284, plain, (v1_finset_1(X1)|~r1_tarski(X1,k1_card_1(k4_xboole_0(X1,X2)))|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_1113, plain, (r2_hidden(X2,a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X1,X2)),k1_card_1(X1))|~r1_tarski(k4_xboole_0(X1,X2),X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_1111, plain, (r2_hidden(X1,a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X1,X2)),k1_card_1(X1))|~r1_tarski(k4_xboole_0(X1,X2),X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_1277, plain, (v1_finset_1(X1)|~r1_tarski(k1_card_1(X1),k4_xboole_0(X1,X2))|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_1429, plain, (m1_subset_1(k9_subset_1(X3,X1,X2),k1_zfmisc_1(X1))|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_1422, plain, (r2_hidden(k1_card_1(X1),X2)|v1_finset_1(X2)|~v1_card_1(X2)|~v1_finset_1(k1_card_1(X1)))).#trainneg
+cnf(i_0_1236, plain, (k9_subset_1(X2,X1,X3)=X1|r2_hidden(k9_subset_1(X2,X1,X3),X1)|~v1_card_1(k9_subset_1(X2,X1,X3))|~v1_card_1(X1)|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_1268, plain, (k1_xboole_0=X1|r2_hidden(k1_xboole_0,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_1100, plain, (m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_628, plain, (v1_card_1(k1_xboole_0)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_1218, plain, (v1_finset_1(a_1_2_card_fil(X1))|v1_finset_1(X1)|~v1_finset_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1263, negated_conjecture, (v4_card_3(a_1_2_card_fil(esk1_0))|~v4_card_3(esk2_0))).#trainneg
+cnf(i_0_1273, plain, (~r2_hidden(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(k1_card_1(X2),k1_card_1(X1)))).#trainneg
+cnf(i_0_267, plain, (v1_relat_1(esk14_1(X1))|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1258, plain, (r1_tarski(np__1,k4_ordinal1)|r1_ordinal1(k4_ordinal1,np__1))).#trainneg
+cnf(i_0_1356, negated_conjecture, (~r2_hidden(k1_zfmisc_1(esk1_0),esk2_0)|~v1_card_1(esk2_0)|~v1_card_1(k1_zfmisc_1(esk1_0)))).#trainneg
+cnf(i_0_1249, plain, (m1_subset_1(X1,X2)|v1_xboole_0(X3)|~r1_tarski(X3,X2)|~m1_subset_1(X1,X3))).#trainneg
+cnf(i_0_268, plain, (v1_relat_1(esk10_1(X1))|v1_xboole_0(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_269, plain, (v1_relat_1(esk9_1(X1))|v1_xboole_0(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1248, plain, (m1_subset_1(k1_card_1(k4_xboole_0(X1,X2)),X3)|v1_finset_1(X1)|~r1_tarski(k1_card_1(X1),X3)|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_1178, plain, (r2_hidden(k1_card_1(k9_subset_1(X3,X2,X1)),k1_card_1(X1))|v1_finset_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_1517, plain, (m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X3,X2))).#trainneg
+cnf(i_0_1445, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(k9_subset_1(X3,X1,X2)),k1_card_1(X1))|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_1166, plain, (v1_finset_1(X1)|~r1_tarski(X1,k4_xboole_0(X1,X2))|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_673, plain, (v4_card_3(k1_xboole_0)|~v4_card_3(X1))).#trainneg
+cnf(i_0_1124, negated_conjecture, (k1_card_1(esk1_0)=k1_card_1(X1)|~r2_hidden(X1,X2)|~v1_card_fil(X2,esk1_0)|~m1_card_fil(X2,esk1_0)|~r2_hidden(X1,esk2_0))).#trainneg
+cnf(i_0_270, plain, (v1_relat_1(esk7_1(X1))|v1_finset_1(X1)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1301, plain, (r1_tarski(k4_ordinal1,k1_xboole_0)|r1_ordinal1(k1_xboole_0,k4_ordinal1))).#trainneg
+cnf(i_0_1612, negated_conjecture, (m1_subset_1(X1,esk2_0)|v1_xboole_0(k4_card_fil(esk1_0))|~m1_subset_1(X1,k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_272, plain, (v1_relat_1(esk4_1(X1))|~v4_funct_1(X1))).#trainneg
+cnf(i_0_277, plain, (v1_relat_1(k4_xboole_0(X1,X2))|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1245, plain, (m1_subset_1(esk3_2(X1,X2),X3)|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~r1_tarski(X2,X3)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_1459, plain, (k9_subset_1(X4,X1,X2)=k9_subset_1(X3,X2,X1)|~m1_subset_1(X1,k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_1695, plain, (k1_card_1(X1)=k1_card_1(X2)|r2_hidden(X1,X2)|~r1_tarski(X1,X2)|~v1_card_1(X1)|~v1_card_1(X2))).#trainneg
+cnf(i_0_1972, plain, (~r2_hidden(k1_card_1(X1),k1_card_1(X1)))).#trainneg
+cnf(i_0_1670, plain, (r2_hidden(X1,k4_ordinal1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_1614, plain, (k4_ordinal1=X1|r2_hidden(X1,k4_ordinal1)|r2_hidden(k4_ordinal1,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_1685, plain, (r2_hidden(k1_xboole_0,X1)|v1_finset_1(X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_1965, plain, (v1_card_1(k1_xboole_0))).#trainneg
+cnf(i_0_2090, plain, (v4_card_3(k1_xboole_0))).#trainneg
+cnf(i_0_1938, plain, (esk18_0=k1_xboole_0|r2_hidden(k1_xboole_0,esk18_0))).#trainneg
+cnf(i_0_1694, negated_conjecture, (k1_card_1(k4_card_fil(esk1_0))=k1_card_1(esk2_0)|~r1_tarski(esk2_0,k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_284, plain, (v4_card_3(esk17_1(X1))|v1_xboole_0(X1)|~v4_card_3(X1))).#trainneg
+cnf(i_0_1939, plain, (k4_ordinal1=k1_xboole_0|r2_hidden(k1_xboole_0,k4_ordinal1))).#trainneg
+cnf(i_0_285, plain, (v4_card_3(esk15_1(X1))|v1_xboole_0(X1)|~v4_card_3(X1))).#trainneg
+cnf(i_0_286, plain, (v4_card_3(esk14_1(X1))|~v4_card_3(X1))).#trainneg
+cnf(i_0_1803, plain, (v1_finset_1(X1)|r2_hidden(k1_card_1(k4_xboole_0(X1,X2)),X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~v1_card_1(X1))).#trainneg
+cnf(i_0_1824, plain, (r2_hidden(X1,a_1_2_card_fil(X2))|v1_finset_1(X2)|k1_card_1(k4_xboole_0(X2,X1))=k1_card_1(X2)|~r1_tarski(k4_xboole_0(X2,X1),X2)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_1868, plain, (v1_finset_1(X1)|r2_hidden(k4_xboole_0(X1,X2),k1_card_1(X1))|~m1_subset_1(X2,a_1_2_card_fil(X1))|~v1_card_1(k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_2032, negated_conjecture, (m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(esk1_0)))|~r1_tarski(X1,esk2_0))).#trainneg
+cnf(i_0_1636, plain, (esk3_2(X1,X2)=X1|v1_xboole_0(X1)|r2_hidden(esk3_2(X1,X2),X1)|v1_card_fil(X2,X1)|~v1_card_1(X1)|~m1_card_fil(X2,X1)|~m1_subset_1(esk3_2(X1,X2),k4_ordinal1))).#trainneg
+cnf(i_0_2086, plain, (v1_finset_1(X1)|r2_hidden(k4_xboole_0(X1,X2),X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~v1_card_1(k4_xboole_0(X1,X2))|~v1_card_1(X1))).#trainneg
+cnf(i_0_1650, plain, (k9_subset_1(X3,X2,X1)=X1|r2_hidden(k9_subset_1(X3,X2,X1),X1)|~v1_card_1(k9_subset_1(X3,X2,X1))|~v1_card_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_2068, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|k1_card_1(k9_subset_1(X3,X1,X2))=k1_card_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(X3))|~r1_tarski(k9_subset_1(X3,X1,X2),X1))).#trainneg
+cnf(i_0_1691, negated_conjecture, (k1_card_1(a_1_2_card_fil(esk1_0))=k1_card_1(esk2_0)|~r1_tarski(esk2_0,a_1_2_card_fil(esk1_0)))).#trainneg
+cnf(i_0_287, plain, (v4_card_3(esk10_1(X1))|v1_xboole_0(X1)|~v4_card_3(X1))).#trainneg
+cnf(i_0_1778, plain, (v4_card_3(X1)|r2_hidden(X2,X1)|~v1_card_1(X2)|~v1_card_1(X1)|~v1_finset_1(X2))).#trainneg
+cnf(i_0_1616, plain, (X1=X2|r2_hidden(X2,X1)|r2_hidden(X1,X2)|~v1_card_1(X2)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_288, plain, (v4_card_3(esk9_1(X1))|v1_xboole_0(X1)|~v4_card_3(X1))).#trainneg
+cnf(i_0_289, plain, (v4_card_3(esk7_1(X1))|v1_finset_1(X1)|~v4_card_3(X1))).#trainneg
+cnf(i_0_1731, plain, (k1_card_1(X1)=k1_card_1(X2)|r2_hidden(k1_card_1(X2),X1)|~r1_tarski(X2,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_1987, plain, (m1_subset_1(X1,X2)|v1_xboole_0(X3)|r2_hidden(X2,X3)|~m1_subset_1(X1,X3)|~v1_card_1(X2)|~v1_card_1(X3))).#trainneg
+cnf(i_0_1675, plain, (r2_hidden(esk18_0,X1)|v1_finset_1(X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_1618, plain, (X1=X2|r2_hidden(X2,X1)|r2_hidden(X1,X2)|~v1_card_1(X2)|~m1_subset_1(X1,k4_ordinal1))).#trainneg
+cnf(i_0_1948, plain, (v1_xboole_0(X1)|v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(X2,a_1_2_card_fil(X1))|~m1_card_fil(a_1_2_card_fil(X1),X1)|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_1818, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(k9_subset_1(X3,X1,X2)),k1_card_1(X1))|~r1_tarski(k9_subset_1(X3,X1,X2),X1)|~r1_tarski(k4_xboole_0(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_518, plain, (v1_finset_1(k1_card_1(X1))|~v1_finset_1(k1_card_1(X2))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_1656, plain, (~v1_xboole_0(X1)|~r2_hidden(k1_xboole_0,k1_xboole_0)|~r1_tarski(k1_xboole_0,X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_291, plain, (v4_card_3(esk4_1(k1_zfmisc_1(X1)))|~v4_card_3(X1))).#trainneg
+cnf(i_0_1206, negated_conjecture, (~r2_hidden(esk2_0,a_1_2_card_fil(esk1_0))|~v1_card_1(esk2_0)|~m1_subset_1(a_1_2_card_fil(esk1_0),k4_ordinal1))).#trainneg
+cnf(i_0_1617, plain, (X1=X2|r2_hidden(X2,X1)|r2_hidden(X1,X2)|~v1_card_1(X2)|~v3_ordinal1(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_1777, negated_conjecture, (v4_card_3(X1)|r2_hidden(k4_card_fil(esk1_0),X1)|~v1_card_1(k4_card_fil(esk1_0))|~v1_card_1(X1)|~v4_card_3(esk2_0))).#trainneg
+cnf(i_0_296, plain, (v1_finset_1(esk17_1(X1))|v1_xboole_0(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_297, plain, (v1_finset_1(esk15_1(X1))|v1_xboole_0(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_1847, plain, (r2_hidden(X1,a_1_2_card_fil(X1))|v1_finset_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|~r1_tarski(k4_xboole_0(X1,X2),X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_1696, plain, (k1_card_1(X1)=k1_card_1(X2)|~r1_tarski(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1644, plain, (k4_xboole_0(X2,k4_xboole_0(X2,X1))=X1|r2_hidden(k4_xboole_0(X2,k4_xboole_0(X2,X1)),X1)|~v1_card_1(k4_xboole_0(X2,k4_xboole_0(X2,X1)))|~v1_card_1(X1))).#trainneg
+cnf(i_0_1646, plain, (k9_subset_1(X3,X2,X1)=X1|r2_hidden(k9_subset_1(X3,X2,X1),X1)|~v1_card_1(k9_subset_1(X3,X2,X1))|~v1_card_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_1997, plain, (v1_finset_1(X3)|~r2_hidden(k1_card_1(X3),k1_card_1(k9_subset_1(X1,X2,X3)))|~m1_subset_1(k4_xboole_0(X3,X2),a_1_2_card_fil(X3))|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_312, plain, (v1_xboole_0(esk14_1(X1))|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_1772, plain, (r1_tarski(k4_ordinal1,esk18_0)|r1_tarski(esk18_0,k4_ordinal1))).#trainneg
+cnf(i_0_1750, plain, (~v1_xboole_0(X1)|~r2_hidden(k1_xboole_0,k1_xboole_0)|~r1_tarski(X1,k1_xboole_0)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_1978, plain, (r1_tarski(k4_ordinal1,np__1)|r1_tarski(np__1,k4_ordinal1))).#trainneg
+cnf(i_0_1262, negated_conjecture, (~r2_hidden(esk2_0,k4_card_fil(esk1_0))|~v1_card_1(esk2_0)|~m1_subset_1(k4_card_fil(esk1_0),k4_ordinal1))).#trainneg
+cnf(i_0_1981, negated_conjecture, (~r2_hidden(k1_zfmisc_1(esk1_0),esk2_0)|~v1_card_1(esk2_0)|~m1_subset_1(k1_zfmisc_1(esk1_0),k4_ordinal1))).#trainneg
+cnf(i_0_1414, negated_conjecture, (k4_card_fil(esk1_0)=esk2_0|r2_hidden(k4_card_fil(esk1_0),esk2_0)|~v1_card_1(esk2_0)|~v3_ordinal1(k4_card_fil(esk1_0))|~v1_finset_1(k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_300, plain, (v1_finset_1(esk9_1(X1))|v1_xboole_0(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_1641, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|v1_finset_1(X2)|v1_xboole_0(a_1_2_card_fil(X2))|~m1_subset_1(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_1857, plain, (v1_finset_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~r1_tarski(k1_card_1(X1),X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_2150, plain, (k9_subset_1(X1,X2,X3)=k9_subset_1(X4,X2,X3)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_2454, plain, (v1_finset_1(X1)|v1_xboole_0(X2)|v1_card_fil(a_1_2_card_fil(X1),X2)|~r2_hidden(k1_card_1(esk3_2(X2,a_1_2_card_fil(X1))),k1_card_1(X1))|~m1_card_fil(a_1_2_card_fil(X1),X2))).#trainneg
+cnf(i_0_2195, plain, (k1_card_1(X1)=k1_card_1(X2)|r2_hidden(X1,X2)|~v1_card_1(X1)|~v1_card_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_2457, plain, (v1_finset_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X1,X2)),k1_card_1(X1))|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_2287, plain, (v1_finset_1(X1)|~r2_hidden(k1_card_1(X1),k4_xboole_0(X1,X2))|~m1_subset_1(X2,a_1_2_card_fil(X1))|~v1_card_1(k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_2536, plain, (k1_card_1(X2)=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_2492, negated_conjecture, (v1_finset_1(k1_card_1(k4_card_fil(esk1_0)))|~v1_finset_1(k1_card_1(esk2_0)))).#trainneg
+cnf(i_0_2632, plain, (v4_card_3(esk18_0)|r1_tarski(k4_ordinal1,esk18_0))).#trainneg
+cnf(i_0_317, plain, (v1_xboole_0(esk4_1(k1_zfmisc_1(X1)))|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_2228, plain, (m1_subset_1(k1_xboole_0,esk18_0)|esk18_0=k1_xboole_0)).#trainneg
+cnf(i_0_2653, negated_conjecture, (~m1_subset_1(k1_zfmisc_1(esk1_0),k4_ordinal1)|~v1_card_1(esk2_0)|~m1_subset_1(k1_zfmisc_1(esk1_0),esk2_0))).#trainneg
+cnf(i_0_2372, plain, (v4_card_3(X1)|r2_hidden(X2,X1)|~v1_card_1(X1)|~v1_finset_1(X2)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_2373, plain, (v4_card_3(X1)|r2_hidden(X2,X1)|~v1_card_1(X1)|~v1_finset_1(X2)|~v3_ordinal1(X2))).#trainneg
+cnf(i_0_319, plain, (v1_xboole_0(k4_xboole_0(X1,X2))|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_320, plain, (v1_funct_1(esk17_1(X1))|v1_xboole_0(X1)|~v1_relat_1(X1)|~v1_funct_1(X1))).#trainneg
+cnf(i_0_2289, plain, (m1_subset_1(k4_xboole_0(X1,X2),X3)|v1_finset_1(X1)|~r1_tarski(k1_card_1(X1),X3)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~v1_card_1(k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_2532, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|r2_hidden(X1,a_1_2_card_fil(X1))|v1_finset_1(X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_2459, plain, (v1_finset_1(X1)|k1_card_1(a_1_2_card_fil(X1))=k1_card_1(X2)|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~v1_card_1(a_1_2_card_fil(X1))|~r1_tarski(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_2647, plain, (v4_card_3(np__1)|r1_tarski(k4_ordinal1,np__1))).#trainneg
+cnf(i_0_1969, plain, (~r2_hidden(k1_xboole_0,k1_card_1(X2))|~r1_tarski(k1_card_1(X2),k1_xboole_0)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_321, plain, (v1_funct_1(esk15_1(X1))|v1_xboole_0(X1)|~v1_relat_1(X1)|~v1_funct_1(X1))).#trainneg
+cnf(i_0_2240, plain, (m1_subset_1(k1_xboole_0,k1_numbers)|k4_ordinal1=k1_xboole_0)).#trainneg
+cnf(i_0_322, plain, (v1_funct_1(esk14_1(X1))|~v1_relat_1(X1)|~v1_funct_1(X1))).#trainneg
+cnf(i_0_323, plain, (v1_funct_1(esk10_1(X1))|v1_xboole_0(X1)|~v1_relat_1(X1)|~v1_funct_1(X1))).#trainneg
+cnf(i_0_2461, plain, (v1_finset_1(X1)|v1_xboole_0(a_1_2_card_fil(X1))|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_2544, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|r2_hidden(X2,a_1_2_card_fil(X1))|v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_2251, plain, (m1_subset_1(k1_card_1(k4_xboole_0(X1,X2)),X1)|v1_finset_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~v1_card_1(X1))).#trainneg
+cnf(i_0_2561, plain, (k4_xboole_0(X1,k9_subset_1(X3,X1,X2))=k4_xboole_0(X1,X2)|r2_hidden(k4_xboole_0(X1,k9_subset_1(X3,X1,X2)),k4_xboole_0(X1,X2))|~v1_card_1(k4_xboole_0(X1,k9_subset_1(X3,X1,X2)))|~v1_card_1(k4_xboole_0(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_2309, negated_conjecture, (m1_subset_1(a_1_2_card_fil(esk1_0),k1_zfmisc_1(k1_zfmisc_1(esk1_0))))).#trainneg
+cnf(i_0_1649, plain, (k9_subset_1(X3,X1,X2)=X1|r2_hidden(k9_subset_1(X3,X1,X2),X1)|~v1_card_1(k9_subset_1(X3,X1,X2))|~v1_card_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_2216, plain, (r2_hidden(k1_xboole_0,k4_ordinal1))).#trainneg
+cnf(i_0_1971, plain, (~r2_hidden(k1_card_1(X1),k1_xboole_0)|~r1_tarski(k1_xboole_0,k1_card_1(X1))|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_324, plain, (v1_funct_1(esk9_1(X1))|v1_xboole_0(X1)|~v1_relat_1(X1)|~v1_funct_1(X1))).#trainneg
+cnf(i_0_2210, plain, (esk18_0=k4_ordinal1|r2_hidden(k4_ordinal1,esk18_0)|r2_hidden(esk18_0,k4_ordinal1))).#trainneg
+cnf(i_0_1756, plain, (v1_funct_1(k1_xboole_0)|~v4_funct_1(k1_zfmisc_1(k1_xboole_0)))).#trainneg
+cnf(i_0_2100, plain, (v1_relat_1(k1_xboole_0)|~v4_funct_1(k1_zfmisc_1(k1_xboole_0)))).#trainneg
+cnf(i_0_325, plain, (v1_funct_1(esk7_1(X1))|v1_finset_1(X1)|~v1_relat_1(X1)|~v1_funct_1(X1))).#trainneg
+cnf(i_0_327, plain, (v1_funct_1(esk4_1(k1_zfmisc_1(X1)))|~v1_relat_1(X1)|~v1_funct_1(X1))).#trainneg
+cnf(i_0_2194, plain, (k1_card_1(X1)=k1_card_1(X2)|r2_hidden(X1,X2)|r2_hidden(X2,X1)|~v1_card_1(X1)|~v1_card_1(X2))).#trainneg
+cnf(i_0_2291, plain, (v1_xboole_0(X1)|v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(X2,k1_card_1(X1))|~m1_card_fil(k1_card_1(X1),X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~v1_card_1(k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_1958, plain, (m1_subset_1(X2,a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X1,X2)),k1_card_1(X1))|~r1_tarski(k4_xboole_0(X1,X2),X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_2075, plain, (v1_finset_1(X1)|~m1_subset_1(k1_xboole_0,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_2040, plain, (m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(X2)))|v1_finset_1(X2)|~r1_tarski(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_1885, plain, (m1_subset_1(k9_subset_1(X1,X3,X2),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1352, plain, (v1_finset_1(X2)|~r2_hidden(X2,esk5_2(X1,X2))|~v1_card_1(esk5_2(X1,X2))|~v1_card_1(X2)|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_1438, plain, (r2_hidden(k1_card_1(k9_subset_1(X3,X1,X2)),k1_card_1(X1))|v1_finset_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_2440, plain, (r2_hidden(esk18_0,k4_ordinal1))).#trainneg
+cnf(i_0_329, plain, (v1_funct_1(k4_xboole_0(X1,X2))|~v1_relat_1(X1)|~v1_funct_1(X1))).#trainneg
+cnf(i_0_539, negated_conjecture, (v3_ordinal1(esk2_0)|~v3_ordinal1(k1_zfmisc_1(k1_zfmisc_1(esk1_0))))).#trainneg
+cnf(i_0_540, negated_conjecture, (v1_funct_1(esk2_0)|~v4_funct_1(k1_zfmisc_1(k1_zfmisc_1(esk1_0))))).#trainneg
+cnf(i_0_1775, plain, (v4_card_3(X1)|r2_hidden(k4_ordinal1,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_2227, plain, (v4_card_3(X1)|r2_hidden(k1_xboole_0,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_330, plain, (m1_subset_1(esk8_1(X1),k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_xboole_0(X1))).#trainneg
+cnf(i_0_335, plain, (esk5_2(esk12_2(X1,a_1_2_card_fil(X2)),X2)=esk12_2(X1,a_1_2_card_fil(X2))|v1_finset_1(X2)|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_1234, plain, (k9_subset_1(X1,X2,X3)=X1|r2_hidden(k9_subset_1(X1,X2,X3),X1)|~v1_card_1(k9_subset_1(X1,X2,X3))|~v1_card_1(X1)|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1291, plain, (v1_xboole_0(X2)|v1_card_fil(a_1_2_card_fil(X1),X2)|v1_finset_1(X1)|~r1_tarski(X1,k1_card_1(k4_xboole_0(X1,esk3_2(X2,a_1_2_card_fil(X1)))))|~m1_card_fil(a_1_2_card_fil(X1),X2))).#trainneg
+cnf(i_0_1611, negated_conjecture, (m1_subset_1(esk3_2(X1,k4_card_fil(esk1_0)),esk2_0)|v1_xboole_0(X1)|v1_card_fil(k4_card_fil(esk1_0),X1)|~m1_card_fil(k4_card_fil(esk1_0),X1))).#trainneg
+cnf(i_0_2550, plain, (k1_card_1(X1)=k1_card_1(X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_2852, negated_conjecture, (v1_finset_1(k4_card_fil(esk1_0))|~v1_finset_1(k1_card_1(esk2_0)))).#trainneg
+cnf(i_0_336, plain, (m1_subset_1(esk12_2(X1,X2),X2)|~r2_hidden(X1,X2))).#trainneg
+cnf(i_0_3061, plain, (~r2_hidden(k4_ordinal1,k1_xboole_0))).#trainneg
+cnf(i_0_2901, plain, (v1_xboole_0(X2)|~v1_xboole_0(X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_346, plain, (m1_subset_1(k4_xboole_0(X2,k4_xboole_0(X2,X1)),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_2779, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,X2),X1)|~v1_card_1(k4_xboole_0(X1,X2))|~v1_card_1(X1))).#trainneg
+cnf(i_0_2968, plain, (v1_finset_1(X1)|k1_card_1(X2)=k1_card_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_3112, plain, (m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(X2)))|v1_finset_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(a_1_2_card_fil(X2))))).#trainneg
+cnf(i_0_2774, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X2)|r2_hidden(k9_subset_1(X1,X2,X3),X2)|~v1_card_1(k9_subset_1(X1,X2,X3))|~v1_card_1(X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_2829, plain, (m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|k1_card_1(X2)=k1_card_1(X1)|v1_finset_1(X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_2805, plain, (v1_finset_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~r1_tarski(X2,X1)|~r1_tarski(k4_xboole_0(X1,X2),X1))).#trainneg
+cnf(i_0_2775, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X2)|r2_hidden(k9_subset_1(X1,X2,X3),X2)|~v1_card_1(k9_subset_1(X1,X2,X3))|~v1_card_1(X2)|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_676, plain, (v1_funct_1(k1_xboole_0)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_3064, plain, (m1_subset_1(k1_xboole_0,k1_numbers))).#trainneg
+cnf(i_0_374, plain, (v1_finset_1(k4_xboole_0(X1,k4_xboole_0(X2,k4_xboole_0(X2,X1))))|~v1_finset_1(k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_2096, plain, (r1_tarski(k1_xboole_0,k4_ordinal1)|r1_tarski(k4_ordinal1,k1_xboole_0))).#trainneg
+cnf(i_0_3188, plain, (~r2_hidden(k4_ordinal1,esk18_0))).#trainneg
+cnf(i_0_3200, plain, (v1_funct_1(X2)|~v1_relat_1(X1)|~v1_funct_1(X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_2368, plain, (v4_card_3(X1)|r2_hidden(esk18_0,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_3295, plain, (k1_card_1(esk3_2(X1,X2))=k1_card_1(X1)|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~m1_subset_1(X1,k1_zfmisc_1(esk3_2(X1,X2)))|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_2769, plain, (k1_card_1(esk3_2(X1,X2))=k1_card_1(X1)|r2_hidden(esk3_2(X1,X2),X1)|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~v1_card_1(esk3_2(X1,X2))|~v1_card_1(X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_2978, plain, (v1_finset_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_2817, plain, (v1_finset_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~r2_hidden(k1_card_1(X1),X2)|~v1_card_1(X2)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_3111, plain, (m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(X2)))|v1_finset_1(X2)|r2_hidden(a_1_2_card_fil(X2),X1)|~v1_card_1(a_1_2_card_fil(X2))|~v1_card_1(X1))).#trainneg
+cnf(i_0_2803, plain, (v1_finset_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~r1_tarski(X2,X1)|~r1_tarski(k4_xboole_0(X1,X2),k1_card_1(X1)))).#trainneg
+cnf(i_0_3150, plain, (v1_finset_1(X1)|v1_xboole_0(a_1_2_card_fil(X1))|~r2_hidden(X1,X2)|~r2_hidden(X2,a_1_2_card_fil(X1))|~v1_card_1(X2)|~v1_card_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_3307, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(k4_xboole_0(X1,X2))))).#trainneg
+cnf(i_0_677, plain, (v1_relat_1(k1_xboole_0)|~v4_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_2658, plain, (m1_subset_1(esk4_1(a_1_2_card_fil(X1)),k1_zfmisc_1(X1))|v1_finset_1(X1))).#trainneg
+cnf(i_0_3187, plain, (m1_subset_1(esk18_0,k4_ordinal1))).#trainneg
+cnf(i_0_2648, plain, (np__1=k4_ordinal1|r2_hidden(np__1,k4_ordinal1)|r1_tarski(k4_ordinal1,np__1)|~v1_card_1(np__1))).#trainneg
+cnf(i_0_2867, negated_conjecture, (~m1_subset_1(k1_zfmisc_1(esk1_0),k4_ordinal1)|~m1_subset_1(k1_zfmisc_1(esk1_0),esk2_0)|~m1_subset_1(esk2_0,k4_ordinal1))).#trainneg
+cnf(i_0_3037, negated_conjecture, (~r2_hidden(k1_zfmisc_1(esk1_0),a_1_2_card_fil(esk1_0))|~v1_card_1(a_1_2_card_fil(esk1_0))|~v1_card_1(k1_zfmisc_1(esk1_0)))).#trainneg
+cnf(i_0_381, plain, (m1_subset_1(X1,X2)|v1_xboole_0(X2)|~r2_hidden(X1,esk17_1(X2)))).#trainneg
+cnf(i_0_382, plain, (m1_subset_1(X1,X2)|v1_xboole_0(X2)|~r2_hidden(X1,esk15_1(X2)))).#trainneg
+cnf(i_0_2912, plain, (m1_subset_1(k4_xboole_0(X1,X2),X3)|v1_finset_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~v1_card_1(k4_xboole_0(X1,X2))|~m1_subset_1(k1_card_1(X1),k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_3125, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X3)|r2_hidden(k9_subset_1(X1,X2,X3),X3)|~v1_card_1(k9_subset_1(X1,X2,X3))|~v1_card_1(X3)|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_2835, plain, (v1_finset_1(X1)|k1_card_1(X2)=k1_card_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X1,X2)),k1_card_1(X1))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_2773, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X1)|r2_hidden(k9_subset_1(X1,X2,X3),X1)|~v1_card_1(k9_subset_1(X1,X2,X3))|~v1_card_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_2396, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|k1_card_1(k9_subset_1(X3,X1,X2))=k1_card_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(X3))|~r1_tarski(k9_subset_1(X3,X1,X2),k1_card_1(X1)))).#trainneg
+cnf(i_0_2310, negated_conjecture, (m1_subset_1(k4_card_fil(esk1_0),k1_zfmisc_1(k1_zfmisc_1(esk1_0))))).#trainneg
+cnf(i_0_2967, plain, (v1_finset_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_3549, plain, (v1_finset_1(X1)|~r1_tarski(X1,k1_xboole_0))).#trainneg
+cnf(i_0_3552, plain, (v1_finset_1(k9_subset_1(X2,X1,k1_xboole_0)))).#trainneg
+cnf(i_0_3522, plain, (v1_relat_1(k1_xboole_0)|~v4_funct_1(k1_numbers))).#trainneg
+cnf(i_0_1661, plain, (~v1_xboole_0(k1_card_1(X1))|~r2_hidden(k1_xboole_0,k1_card_1(X2))|~r1_tarski(X2,k1_card_1(X1)))).#trainneg
+cnf(i_0_383, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,esk14_1(X2)))).#trainneg
+cnf(i_0_3560, plain, (k4_ordinal1=k1_xboole_0|r1_tarski(k1_xboole_0,k4_ordinal1))).#trainneg
+cnf(i_0_3573, plain, (~m1_subset_1(k4_ordinal1,esk18_0))).#trainneg
+cnf(i_0_3521, plain, (v1_funct_1(k1_xboole_0)|~v4_funct_1(k1_numbers))).#trainneg
+cnf(i_0_384, plain, (m1_subset_1(X1,X2)|v1_xboole_0(X2)|~r2_hidden(X1,esk10_1(X2)))).#trainneg
+cnf(i_0_385, plain, (m1_subset_1(X1,X2)|v1_xboole_0(X2)|~r2_hidden(X1,esk9_1(X2)))).#trainneg
+cnf(i_0_3411, negated_conjecture, (k4_xboole_0(k4_card_fil(esk1_0),esk2_0)=k1_xboole_0)).#trainneg
+cnf(i_0_3427, plain, (m1_subset_1(k9_subset_1(a_1_2_card_fil(X1),X2,X3),k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_finset_1(X1)|~m1_subset_1(X3,k1_zfmisc_1(a_1_2_card_fil(X1))))).#trainneg
+cnf(i_0_3413, plain, (k4_xboole_0(X1,X2)=k1_xboole_0|r2_hidden(X2,X1)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_3673, plain, (v1_finset_1(X1)|v1_xboole_0(X2)|v1_card_fil(a_1_2_card_fil(X1),X2)|~r2_hidden(X1,esk3_2(X2,a_1_2_card_fil(X1)))|~v1_card_1(esk3_2(X2,a_1_2_card_fil(X1)))|~v1_card_1(X1)|~m1_card_fil(a_1_2_card_fil(X1),X2))).#trainneg
+cnf(i_0_3554, plain, (v1_finset_1(k9_subset_1(X2,k1_xboole_0,X1)))).#trainneg
+cnf(i_0_3712, plain, (v1_relat_1(esk18_0)|~v4_funct_1(k4_ordinal1))).#trainneg
+cnf(i_0_1752, plain, (~v1_xboole_0(k1_card_1(X1))|~r2_hidden(k1_card_1(X2),k1_xboole_0)|~r1_tarski(X1,k1_card_1(X2)))).#trainneg
+cnf(i_0_386, plain, (m1_subset_1(X1,X2)|v1_finset_1(X2)|~r2_hidden(X1,esk7_1(X2)))).#trainneg
+cnf(i_0_3711, plain, (v1_funct_1(esk18_0)|~v4_funct_1(k4_ordinal1))).#trainneg
+cnf(i_0_3853, negated_conjecture, (~r2_hidden(k1_zfmisc_1(esk1_0),k4_card_fil(esk1_0))|~v1_card_1(k4_card_fil(esk1_0))|~v1_card_1(k1_zfmisc_1(esk1_0)))).#trainneg
+cnf(i_0_3343, plain, (v1_xboole_0(X1)|r2_hidden(X2,X1)|~v1_xboole_0(X2)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_3582, plain, (v1_funct_1(X1)|r2_hidden(X2,X1)|~v1_relat_1(X2)|~v1_funct_1(X2)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_388, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,esk4_1(k1_zfmisc_1(X2))))).#trainneg
+cnf(i_0_391, plain, (v1_finset_1(k9_subset_1(X1,X2,X3))|~v5_finset_1(k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_3396, plain, (k1_card_1(k9_subset_1(X3,X2,X1))=k1_card_1(X1)|r2_hidden(k9_subset_1(X3,X2,X1),X1)|~v1_card_1(k9_subset_1(X3,X2,X1))|~v1_card_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_3386, plain, (m1_subset_1(k9_subset_1(X3,X1,X2),k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_3557, plain, (r1_tarski(k1_xboole_0,k4_ordinal1))).#trainneg
+cnf(i_0_3601, negated_conjecture, (k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),X1,esk2_0))=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,esk2_0),a_1_2_card_fil(X1))|v1_finset_1(X1))).#trainneg
+cnf(i_0_3790, plain, (k1_card_1(X1)=k1_card_1(X2)|v1_finset_1(X2)|k1_card_1(k4_xboole_0(X2,X1))=k1_card_1(X2)|~r1_tarski(X1,X2)|~r1_tarski(k4_xboole_0(X2,X1),X2))).#trainneg
+cnf(i_0_782, plain, (v3_ordinal1(X1)|~v3_ordinal1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_3191, plain, (m1_subset_1(esk18_0,k1_numbers))).#trainneg
+cnf(i_0_392, plain, (v3_ordinal1(k9_subset_1(X1,X2,X3))|~v3_ordinal1(k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_3713, plain, (np__1=k4_ordinal1|r2_hidden(np__1,k4_ordinal1)|~r1_tarski(np__1,k4_ordinal1)|~v1_card_1(np__1))).#trainneg
+cnf(i_0_541, negated_conjecture, (v1_relat_1(esk2_0)|~v4_funct_1(k1_zfmisc_1(k1_zfmisc_1(esk1_0))))).#trainneg
+cnf(i_0_1205, negated_conjecture, (~r2_hidden(esk2_0,a_1_2_card_fil(esk1_0))|~v1_card_1(esk2_0)|~v3_ordinal1(a_1_2_card_fil(esk1_0))|~v1_finset_1(a_1_2_card_fil(esk1_0)))).#trainneg
+cnf(i_0_393, plain, (v1_funct_1(k9_subset_1(X1,X2,X3))|~v4_funct_1(k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_394, plain, (v1_relat_1(k9_subset_1(X1,X2,X3))|~v4_funct_1(k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_3635, plain, (k1_card_1(k4_xboole_0(X1,k4_xboole_0(X1,X2)))=k1_card_1(X1)|v1_finset_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_4366, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|k1_card_1(X2)=k1_card_1(X1)|v1_finset_1(X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_3877, plain, (v1_finset_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(k1_xboole_0)))).#trainneg
+cnf(i_0_4373, plain, (v1_relat_1(esk18_0)|~v4_funct_1(k1_numbers))).#trainneg
+cnf(i_0_396, plain, (v1_funct_1(k9_subset_1(X1,X2,X3))|~v1_relat_1(X1)|~v1_funct_1(X1)|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_4372, plain, (v1_funct_1(esk18_0)|~v4_funct_1(k1_numbers))).#trainneg
+cnf(i_0_4148, plain, (v1_xboole_0(X1)|r2_hidden(X2,X1)|~v1_xboole_0(X2)|~v3_ordinal1(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_398, plain, (v1_finset_1(k9_subset_1(X1,X2,X3))|~v1_finset_1(X1)|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_399, plain, (v1_xboole_0(k9_subset_1(X1,X2,X3))|~v1_xboole_0(X1)|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_3942, negated_conjecture, (k4_xboole_0(esk2_0,k4_xboole_0(esk2_0,k4_card_fil(esk1_0)))=k4_card_fil(esk1_0))).#trainneg
+cnf(i_0_4555, plain, (k1_card_1(k9_subset_1(X3,X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_4554, plain, (k1_card_1(k9_subset_1(X3,X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_4247, negated_conjecture, (m1_subset_1(k4_xboole_0(X1,esk2_0),a_1_2_card_fil(X1))|k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),X1,esk2_0))=k1_card_1(X1)|v1_finset_1(X1))).#trainneg
+cnf(i_0_4722, plain, (v1_finset_1(esk14_1(k1_xboole_0)))).#trainneg
+cnf(i_0_2864, plain, (v1_relat_1(k1_xboole_0)|esk18_0=k1_xboole_0|~v4_funct_1(esk18_0))).#trainneg
+cnf(i_0_400, plain, (v4_card_3(k9_subset_1(X1,X2,X3))|~v4_card_3(X1)|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_1261, negated_conjecture, (~r2_hidden(esk2_0,k4_card_fil(esk1_0))|~v1_card_1(esk2_0)|~v3_ordinal1(k4_card_fil(esk1_0))|~v1_finset_1(k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_401, plain, (m1_subset_1(X1,X2)|~r2_hidden(X1,k9_subset_1(X2,X3,X4))|~m1_subset_1(X4,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_4543, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_5101, negated_conjecture, (v1_finset_1(X1)|k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),X1,esk2_0))=k1_card_1(X1)|~m1_subset_1(esk2_0,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_4207, plain, (~r2_hidden(X3,k9_subset_1(X1,X2,X3))|~v1_card_1(k9_subset_1(X1,X2,X3))|~v1_card_1(X3)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_4089, plain, (m1_subset_1(k9_subset_1(a_1_2_card_fil(X1),X3,X2),k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_finset_1(X1)|~m1_subset_1(X3,k1_zfmisc_1(a_1_2_card_fil(X1))))).#trainneg
+cnf(i_0_4829, negated_conjecture, (~r2_hidden(k4_card_fil(esk1_0),X1)|~r2_hidden(k4_xboole_0(esk2_0,k4_card_fil(esk1_0)),X1)|~m1_card_fil(X1,esk2_0))).#trainneg
+cnf(i_0_3403, plain, (k1_card_1(esk3_2(X1,a_1_2_card_fil(X2)))=k1_card_1(X2)|v1_finset_1(X2)|v1_xboole_0(X1)|v1_card_fil(a_1_2_card_fil(X2),X1)|~r1_tarski(esk3_2(X1,a_1_2_card_fil(X2)),X2)|~m1_card_fil(a_1_2_card_fil(X2),X1))).#trainneg
+cnf(i_0_4849, negated_conjecture, (r2_hidden(k1_card_1(k4_card_fil(esk1_0)),k1_card_1(esk2_0))|v1_finset_1(esk2_0)|~m1_subset_1(k4_xboole_0(esk2_0,k4_card_fil(esk1_0)),a_1_2_card_fil(esk2_0)))).#trainneg
+cnf(i_0_5092, negated_conjecture, (k1_card_1(k4_xboole_0(X1,esk2_0))=k1_card_1(X1)|v1_finset_1(X1)|k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),X1,esk2_0))=k1_card_1(X1)|~r1_tarski(k4_xboole_0(X1,esk2_0),X1))).#trainneg
+cnf(i_0_4728, plain, (v1_finset_1(esk4_1(k1_zfmisc_1(k1_xboole_0))))).#trainneg
+cnf(i_0_406, plain, (v1_finset_1(k4_xboole_0(X1,k9_subset_1(X3,X1,X2)))|~v1_finset_1(k4_xboole_0(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_1418, negated_conjecture, (v1_finset_1(esk2_0)|~m1_subset_1(k1_zfmisc_1(esk1_0),k4_ordinal1))).#trainneg
+cnf(i_0_1980, negated_conjecture, (~r2_hidden(k1_zfmisc_1(esk1_0),esk2_0)|~v1_card_1(esk2_0)|~v3_ordinal1(k1_zfmisc_1(esk1_0))|~v1_finset_1(k1_zfmisc_1(esk1_0)))).#trainneg
+cnf(i_0_407, plain, (v1_finset_1(k9_subset_1(X3,X1,X2))|~v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_411, plain, (v1_finset_1(k9_subset_1(X3,X1,X2))|~v1_finset_1(X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_3796, plain, (k1_card_1(k9_subset_1(X1,X3,X2))=k1_card_1(X1)|r2_hidden(k9_subset_1(X1,X3,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~v1_card_1(k9_subset_1(X1,X3,X2))|~v1_card_1(X1))).#trainneg
+cnf(i_0_4103, plain, (k4_xboole_0(X1,X2)=k1_xboole_0|r2_hidden(X2,X1)|~v1_card_1(X1)|~m1_subset_1(X2,k4_ordinal1))).#trainneg
+cnf(i_0_3404, plain, (k1_card_1(esk3_2(X1,X2))=k1_card_1(X3)|v1_finset_1(X3)|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~r1_tarski(esk3_2(X1,X2),X3)|~r1_tarski(X2,a_1_2_card_fil(X3))|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_3621, plain, (v1_xboole_0(X1)|r2_hidden(esk3_2(X1,X2),X1)|v1_card_fil(X2,X1)|~v1_card_1(X1)|~m1_card_fil(X2,X1)|~m1_subset_1(esk3_2(X1,X2),k4_ordinal1))).#trainneg
+cnf(i_0_3652, plain, (v1_finset_1(X1)|k1_card_1(X2)=k1_card_1(X1)|~r2_hidden(k1_card_1(X1),X2)|~v1_card_1(X2)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_415, plain, (m1_subset_1(k4_xboole_0(X2,k4_xboole_0(X2,X3)),k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_2863, plain, (v1_funct_1(k1_xboole_0)|esk18_0=k1_xboole_0|~v4_funct_1(esk18_0))).#trainneg
+cnf(i_0_2866, negated_conjecture, (~m1_subset_1(k1_zfmisc_1(esk1_0),k4_ordinal1)|~m1_subset_1(k1_zfmisc_1(esk1_0),esk2_0)|~v3_ordinal1(esk2_0)|~v1_finset_1(esk2_0))).#trainneg
+cnf(i_0_417, plain, (k9_subset_1(X1,X2,k1_xboole_0)=k1_xboole_0|~m1_subset_1(k1_xboole_0,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_419, plain, (k9_subset_1(X1,X2,k4_xboole_0(X2,X3))=k4_xboole_0(X2,k4_xboole_0(X3,k4_xboole_0(X3,X2)))|~m1_subset_1(k4_xboole_0(X2,X3),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_5606, plain, (k4_xboole_0(X2,k4_xboole_0(X2,X1))=X1|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_5447, negated_conjecture, (k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),X1,esk2_0))=k1_card_1(X1)|k1_card_1(k4_xboole_0(X1,esk2_0))=k1_card_1(X1)|v1_finset_1(X1))).#trainneg
+cnf(i_0_423, plain, (v3_ordinal1(esk5_2(X1,X2))|v1_finset_1(X2)|~v3_ordinal1(k1_zfmisc_1(X2))|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_5742, plain, (m1_subset_1(k9_subset_1(X4,X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_5790, plain, (k9_subset_1(X1,k1_xboole_0,X2)=k1_xboole_0)).#trainneg
+cnf(i_0_4785, plain, (v1_finset_1(X2)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~v1_finset_1(X1)|~r1_tarski(X2,X3))).#trainneg
+cnf(i_0_4851, negated_conjecture, (r2_hidden(k1_card_1(k4_card_fil(esk1_0)),esk2_0)|v1_finset_1(esk2_0)|~m1_subset_1(k4_xboole_0(esk2_0,k4_card_fil(esk1_0)),a_1_2_card_fil(esk2_0))|~v1_card_1(esk2_0))).#trainneg
+cnf(i_0_4764, plain, (r2_hidden(X1,esk18_0)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_424, plain, (v1_funct_1(esk5_2(X1,X2))|v1_finset_1(X2)|~v4_funct_1(k1_zfmisc_1(X2))|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_6398, negated_conjecture, (v1_finset_1(X1)|~r1_tarski(X1,k4_card_fil(esk1_0))|~v1_finset_1(esk2_0))).#trainneg
+cnf(i_0_425, plain, (v1_relat_1(esk5_2(X1,X2))|v1_finset_1(X2)|~v4_funct_1(k1_zfmisc_1(X2))|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_427, plain, (v1_funct_1(esk5_2(X1,X2))|v1_finset_1(X2)|~v1_relat_1(X2)|~v1_funct_1(X2)|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_6088, plain, (k4_xboole_0(X1,k9_subset_1(X3,X1,X2))=k4_xboole_0(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_6061, plain, (k4_xboole_0(X2,k4_xboole_0(X2,X1))=X2|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_6038, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_6186, negated_conjecture, (k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),esk2_0,X1))=k1_card_1(X1)|k1_card_1(k4_xboole_0(X1,esk2_0))=k1_card_1(X1)|v1_finset_1(X1))).#trainneg
+cnf(i_0_6086, plain, (k4_xboole_0(X1,k9_subset_1(X3,X2,X1))=k4_xboole_0(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_3574, plain, (v1_funct_1(esk18_0)|r1_tarski(k4_ordinal1,esk18_0)|~v1_relat_1(k4_ordinal1)|~v1_funct_1(k4_ordinal1))).#trainneg
+cnf(i_0_679, plain, (v1_funct_1(k1_xboole_0)|~v1_relat_1(X1)|~v1_funct_1(X1))).#trainneg
+cnf(i_0_431, plain, (v4_card_3(esk5_2(X1,X2))|v1_finset_1(X2)|~v4_card_3(X2)|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_439, plain, (v1_xboole_0(X1)|~m1_subset_1(k1_xboole_0,k1_zfmisc_1(X1))|~r2_hidden(X1,X2)|~r2_hidden(k1_xboole_0,X2)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_6023, plain, (v1_xboole_0(X1)|~m1_subset_1(X2,X3)|~r2_hidden(k4_xboole_0(X1,X2),X3)|~m1_card_fil(X3,X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_6085, plain, (k4_xboole_0(X1,k4_xboole_0(X2,k4_xboole_0(X2,X1)))=k4_xboole_0(X1,X2))).#trainneg
+cnf(i_0_6983, negated_conjecture, (k4_xboole_0(k4_xboole_0(esk2_0,k4_card_fil(esk1_0)),esk2_0)=k1_xboole_0)).#trainneg
+cnf(i_0_6982, negated_conjecture, (k4_xboole_0(k4_xboole_0(esk2_0,a_1_2_card_fil(esk1_0)),esk2_0)=k1_xboole_0)).#trainneg
+cnf(i_0_6432, plain, (k4_xboole_0(X1,k4_xboole_0(X1,X3))=X1|~r1_tarski(X1,k9_subset_1(X2,X1,X3))|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_6367, plain, (v1_finset_1(X1)|~r1_tarski(X1,esk14_1(X2))|~v1_finset_1(X2))).#trainneg
+cnf(i_0_419, plain, (k9_subset_1(X1,X2,k4_xboole_0(X2,X3))=k4_xboole_0(X2,X3)|~m1_subset_1(k4_xboole_0(X2,X3),k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_440, plain, (v1_xboole_0(X1)|~r2_hidden(X1,X3)|~r2_hidden(k4_xboole_0(X1,X2),X3)|~m1_card_fil(X3,X1)|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_6865, negated_conjecture, (~r2_hidden(k1_xboole_0,esk2_0)|~r2_hidden(esk1_0,esk2_0))).#trainneg
+cnf(i_0_6421, negated_conjecture, (v1_finset_1(X1)|r2_hidden(k4_card_fil(esk1_0),X1)|~v1_finset_1(esk2_0)|~v1_card_1(k4_card_fil(esk1_0))|~v1_card_1(X1))).#trainneg
+cnf(i_0_443, plain, (v1_xboole_0(X1)|~r2_hidden(k9_subset_1(X4,X1,X2),X3)|~r2_hidden(k4_xboole_0(X1,X2),X3)|~m1_card_fil(X3,X1)|~m1_subset_1(X2,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_6994, plain, (k4_xboole_0(k4_xboole_0(X1,X2),X1)=k1_xboole_0)).#trainneg
+cnf(i_0_6616, plain, (m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(k1_card_1(X2),k1_card_1(X1)))).#trainneg
+cnf(i_0_6833, plain, (k4_xboole_0(X1,k9_subset_1(X2,X1,X3))=k4_xboole_0(X1,X3)|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_6374, plain, (v1_finset_1(X1)|~r1_tarski(X1,esk4_1(k1_zfmisc_1(X2)))|~v1_finset_1(X2))).#trainneg
+cnf(i_0_6396, plain, (v1_finset_1(X1)|~r1_tarski(X1,k4_xboole_0(X2,X3))|~v1_finset_1(X2))).#trainneg
+cnf(i_0_3406, plain, (k4_xboole_0(esk18_0,k4_ordinal1)=k1_xboole_0|r1_tarski(k4_ordinal1,esk18_0))).#trainneg
+cnf(i_0_2622, plain, (X1=esk14_1(X2)|~v1_xboole_0(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_446, plain, (m1_subset_1(k1_card_1(k4_xboole_0(X1,esk5_2(X2,X1))),k1_card_1(X1))|v1_finset_1(X1)|~r2_hidden(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_449, plain, (r2_hidden(k1_card_1(k4_xboole_0(k1_card_1(X1),esk5_2(X2,k1_card_1(X1)))),k1_card_1(X1))|v1_finset_1(k1_card_1(X1))|~r2_hidden(X2,a_1_2_card_fil(k1_card_1(X1))))).#trainneg
+cnf(i_0_7372, plain, (m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_7396, plain, (v1_xboole_0(X1)|~r2_hidden(k4_xboole_0(X1,X2),X3)|~r2_hidden(k4_xboole_0(X1,k4_xboole_0(X1,X2)),X3)|~m1_card_fil(X3,X1))).#trainneg
+cnf(i_0_7407, plain, (k9_subset_1(X1,X2,k4_xboole_0(X2,X3))=k4_xboole_0(X2,X3)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_7610, plain, (esk18_0=k4_ordinal1|k4_xboole_0(esk18_0,k4_ordinal1)=k1_xboole_0)).#trainneg
+cnf(i_0_7600, plain, (k4_xboole_0(esk18_0,k4_ordinal1)=k1_xboole_0)).#trainneg
+cnf(i_0_7268, negated_conjecture, (~r2_hidden(k4_card_fil(esk1_0),X1)|~r2_hidden(esk2_0,X1)|~r1_tarski(esk2_0,k4_xboole_0(esk2_0,k4_card_fil(esk1_0)))|~m1_card_fil(X1,esk2_0))).#trainneg
+cnf(i_0_3575, plain, (v1_funct_1(np__1)|r1_tarski(k4_ordinal1,np__1)|~v1_relat_1(k4_ordinal1)|~v1_funct_1(k4_ordinal1))).#trainneg
+cnf(i_0_7303, negated_conjecture, (~r2_hidden(k1_xboole_0,esk2_0)|~m1_subset_1(esk1_0,esk2_0))).#trainneg
+cnf(i_0_7588, plain, (v1_finset_1(X1)|~r1_tarski(X1,X3)|~v1_finset_1(X2)|~r1_tarski(X3,X2))).#trainneg
+cnf(i_0_451, plain, (v1_finset_1(esk3_2(X1,X2))|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~v5_finset_1(k1_zfmisc_1(X1))|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_452, plain, (v3_ordinal1(esk3_2(X1,X2))|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~v3_ordinal1(k1_zfmisc_1(X1))|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_3407, plain, (k4_xboole_0(np__1,k4_ordinal1)=k1_xboole_0|r1_tarski(k4_ordinal1,np__1))).#trainneg
+cnf(i_0_7267, negated_conjecture, (~r2_hidden(a_1_2_card_fil(esk1_0),X1)|~r2_hidden(esk2_0,X1)|~r1_tarski(esk2_0,k4_xboole_0(esk2_0,a_1_2_card_fil(esk1_0)))|~m1_card_fil(X1,esk2_0))).#trainneg
+cnf(i_0_453, plain, (v1_funct_1(esk3_2(X1,X2))|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~v4_funct_1(k1_zfmisc_1(X1))|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_3717, plain, (v1_funct_1(k4_ordinal1)|np__1=k4_ordinal1|r2_hidden(np__1,k4_ordinal1)|~v1_relat_1(np__1)|~v1_funct_1(np__1)|~v1_card_1(np__1))).#trainneg
+cnf(i_0_5227, negated_conjecture, (~r2_hidden(esk2_0,k4_card_fil(esk1_0))|~v1_card_1(esk2_0)|~v1_finset_1(k4_card_fil(esk1_0))|~v3_ordinal1(k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_5431, negated_conjecture, (~r2_hidden(k4_card_fil(esk1_0),k4_ordinal1)|~m1_card_fil(k4_ordinal1,esk2_0)|~v1_xboole_0(k4_xboole_0(esk2_0,k4_card_fil(esk1_0))))).#trainneg
+cnf(i_0_454, plain, (v1_relat_1(esk3_2(X1,X2))|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~v4_funct_1(k1_zfmisc_1(X1))|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_456, plain, (v1_funct_1(esk3_2(X1,X2))|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~v1_relat_1(X1)|~v1_funct_1(X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_4334, negated_conjecture, (v1_finset_1(X1)|r2_hidden(k4_xboole_0(X1,esk2_0),a_1_2_card_fil(X1))|~m1_subset_1(k4_xboole_0(X1,esk2_0),a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_4694, negated_conjecture, (a_1_2_card_fil(esk1_0)=esk2_0|r2_hidden(a_1_2_card_fil(esk1_0),esk2_0)|~v1_card_1(a_1_2_card_fil(esk1_0))|~v1_card_1(esk2_0))).#trainneg
+cnf(i_0_6981, plain, (k4_xboole_0(X1,X2)=X1|~r1_tarski(X1,k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_6446, plain, (k1_card_1(k4_xboole_0(X1,X3))=k1_card_1(X1)|k1_card_1(k9_subset_1(X2,X1,X3))=k1_card_1(X1)|v1_finset_1(X1)|~r1_tarski(k9_subset_1(X2,X1,X3),X1)|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_6508, plain, (k4_xboole_0(X1,k9_subset_1(X2,X3,X1))=k4_xboole_0(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_461, plain, (m1_subset_1(X1,X2)|v1_xboole_0(X2)|v1_card_fil(X3,X2)|~r2_hidden(X1,esk3_2(X2,X3))|~m1_card_fil(X3,X2))).#trainneg
+cnf(i_0_8064, plain, (np__1=k4_ordinal1|v1_funct_1(k4_ordinal1)|r2_hidden(np__1,k4_ordinal1)|~v1_funct_1(np__1)|~v1_card_1(np__1)|~v4_funct_1(k1_numbers))).#trainneg
+cnf(i_0_8024, negated_conjecture, (~m1_subset_1(esk1_0,esk2_0)|~m1_subset_1(k1_xboole_0,esk2_0))).#trainneg
+cnf(i_0_8032, negated_conjecture, (v1_finset_1(k4_card_fil(esk1_0))|~r1_tarski(esk2_0,X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_464, plain, (m1_subset_1(esk16_2(X1,X2),X2)|v1_xboole_0(X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_465, plain, (m1_subset_1(esk16_2(X1,X2),X1)|v1_xboole_0(X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_7701, plain, (m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(k1_zfmisc_1(X3)))|v1_finset_1(X3)|~m1_subset_1(X1,k1_zfmisc_1(a_1_2_card_fil(X3))))).#trainneg
+cnf(i_0_7780, plain, (v1_xboole_0(X1)|~r2_hidden(X2,X3)|~r2_hidden(k4_xboole_0(X1,X2),X3)|~m1_card_fil(X3,X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_7982, plain, (m1_subset_1(esk18_0,k1_zfmisc_1(k4_ordinal1)))).#trainneg
+cnf(i_0_8196, plain, (k1_card_1(X1)=k1_card_1(X2)|r2_hidden(k4_xboole_0(X2,X1),a_1_2_card_fil(X2))|v1_finset_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_7966, plain, (k1_card_1(esk18_0)=k1_card_1(k1_xboole_0)|r2_hidden(k1_xboole_0,esk18_0))).#trainneg
+cnf(i_0_467, plain, (m1_subset_1(X1,X2)|v1_xboole_0(X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X1,X3))).#trainneg
+cnf(i_0_8065, plain, (np__1=k4_ordinal1|v1_funct_1(k4_ordinal1)|r2_hidden(np__1,k4_ordinal1)|~v1_funct_1(np__1)|~v1_card_1(np__1)|~v4_funct_1(k4_ordinal1))).#trainneg
+cnf(i_0_8034, plain, (v1_finset_1(X1)|r2_hidden(X2,X1)|~r1_tarski(X2,X3)|~v1_finset_1(X3)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_469, plain, (k1_card_1(esk17_1(X1))=k1_card_1(X1)|v1_xboole_0(X1)|~r2_hidden(esk17_1(X1),X2)|~v1_card_fil(X2,X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_470, plain, (k1_card_1(esk15_1(X1))=k1_card_1(X1)|v1_xboole_0(X1)|~r2_hidden(esk15_1(X1),X2)|~v1_card_fil(X2,X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_7952, plain, (k4_xboole_0(k4_ordinal1,k4_xboole_0(k4_ordinal1,esk18_0))=esk18_0)).#trainneg
+cnf(i_0_8262, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X2)|k1_card_1(k4_xboole_0(X2,X3))=k1_card_1(X2)|v1_finset_1(X2)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(k9_subset_1(X1,X2,X3),k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_7956, plain, (esk18_0=k4_ordinal1|~m1_subset_1(k4_ordinal1,k1_zfmisc_1(esk18_0)))).#trainneg
+cnf(i_0_471, plain, (k1_card_1(esk14_1(X1))=k1_card_1(X1)|v1_xboole_0(X1)|~r2_hidden(esk14_1(X1),X2)|~v1_card_fil(X2,X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_6408, negated_conjecture, (~r2_hidden(k4_card_fil(esk1_0),esk18_0)|~m1_card_fil(esk18_0,esk2_0)|~v1_xboole_0(k4_xboole_0(esk2_0,k4_card_fil(esk1_0))))).#trainneg
+cnf(i_0_2890, plain, (X1=k4_xboole_0(X2,X3)|~v1_xboole_0(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_2871, plain, (v4_card_3(X1)|r2_hidden(k1_card_1(X2),X1)|~v1_card_1(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_472, plain, (k1_card_1(esk10_1(X1))=k1_card_1(X1)|v1_xboole_0(X1)|~r2_hidden(esk10_1(X1),X2)|~v1_card_fil(X2,X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_473, plain, (k1_card_1(esk9_1(X1))=k1_card_1(X1)|v1_xboole_0(X1)|~r2_hidden(esk9_1(X1),X2)|~v1_card_fil(X2,X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_7713, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X3)|r2_hidden(k4_xboole_0(X1,X2),X3)|~v1_card_1(k4_xboole_0(X1,X2))|~v1_card_1(X3)|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_8716, plain, (~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1))|~m1_subset_1(k4_xboole_0(k4_ordinal1,esk18_0),a_1_2_card_fil(k4_ordinal1)))).#trainneg
+cnf(i_0_8719, plain, (k1_card_1(k4_xboole_0(k4_ordinal1,esk18_0))=k1_card_1(k4_ordinal1)|~m1_subset_1(k4_xboole_0(k4_ordinal1,esk18_0),a_1_2_card_fil(k4_ordinal1)))).#trainneg
+cnf(i_0_8738, plain, (r2_hidden(esk18_0,k1_card_1(k4_ordinal1))|~m1_subset_1(k4_xboole_0(k4_ordinal1,esk18_0),a_1_2_card_fil(k4_ordinal1)))).#trainneg
+cnf(i_0_6422, negated_conjecture, (v1_finset_1(X1)|~v1_finset_1(esk2_0)|~m1_subset_1(X1,k1_zfmisc_1(k4_card_fil(esk1_0))))).#trainneg
+cnf(i_0_8509, plain, (v4_card_3(esk18_0))).#trainneg
+cnf(i_0_479, plain, (k1_card_1(k1_numbers)=k1_card_1(k4_ordinal1)|v1_xboole_0(k1_numbers)|~r2_hidden(k4_ordinal1,X1)|~v1_card_fil(X1,k1_numbers)|~m1_card_fil(X1,k1_numbers))).#trainneg
+cnf(i_0_474, plain, (k1_card_1(esk7_1(X1))=k1_card_1(X1)|v1_xboole_0(X1)|v1_finset_1(X1)|~r2_hidden(esk7_1(X1),X2)|~v1_card_fil(X2,X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_476, plain, (k1_card_1(esk5_2(X2,X1))=k1_card_1(X1)|v1_xboole_0(X1)|v1_finset_1(X1)|~r2_hidden(esk5_2(X2,X1),X3)|~v1_card_fil(X3,X1)|~m1_card_fil(X3,X1)|~r2_hidden(X2,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_8750, plain, (k1_card_1(k4_xboole_0(k4_ordinal1,esk18_0))=k1_card_1(k4_ordinal1)|r2_hidden(esk18_0,a_1_2_card_fil(k4_ordinal1)))).#trainneg
+cnf(i_0_8501, plain, (k1_card_1(k9_subset_1(k4_ordinal1,X1,esk18_0))=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,esk18_0),a_1_2_card_fil(X1))|v1_finset_1(X1))).#trainneg
+cnf(i_0_8731, plain, (r2_hidden(k1_card_1(esk18_0),k1_card_1(k4_ordinal1))|~m1_subset_1(k4_xboole_0(k4_ordinal1,esk18_0),a_1_2_card_fil(k4_ordinal1)))).#trainneg
+cnf(i_0_5371, plain, (~m1_subset_1(X1,k1_zfmisc_1(X2))|~r2_hidden(X3,k9_subset_1(X2,X3,X1))|~v1_card_1(k9_subset_1(X2,X3,X1))|~v1_card_1(X3))).#trainneg
+cnf(i_0_7182, plain, (v1_finset_1(X1)|~v1_finset_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(esk14_1(X2))))).#trainneg
+cnf(i_0_6395, plain, (v1_finset_1(X1)|~r1_tarski(X1,k4_xboole_0(X2,k4_xboole_0(X2,X3)))|~v1_finset_1(X3))).#trainneg
+cnf(i_0_8560, plain, (v1_finset_1(k1_card_1(k1_xboole_0))|r2_hidden(k1_xboole_0,esk18_0))).#trainneg
+cnf(i_0_8456, negated_conjecture, (~r2_hidden(a_1_2_card_fil(esk1_0),X1)|~r2_hidden(k4_xboole_0(esk2_0,a_1_2_card_fil(esk1_0)),X1)|~r1_tarski(k4_xboole_0(esk2_0,a_1_2_card_fil(esk1_0)),esk2_0)|~m1_card_fil(X1,esk2_0))).#trainneg
+cnf(i_0_481, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_xboole_0(X1)|~r2_hidden(k4_xboole_0(X1,X2),X3)|~v1_card_fil(X3,X1)|~m1_card_fil(X3,X1))).#trainneg
+cnf(i_0_8741, plain, (~m1_subset_1(k4_xboole_0(k4_ordinal1,esk18_0),a_1_2_card_fil(k4_ordinal1))|~r1_tarski(k4_ordinal1,esk18_0))).#trainneg
+cnf(i_0_8369, negated_conjecture, (v1_finset_1(k4_card_fil(esk1_0))|r2_hidden(X1,esk2_0)|~v1_finset_1(X1)|~v1_card_1(X1)|~v1_card_1(esk2_0))).#trainneg
+cnf(i_0_8687, plain, (r2_hidden(X1,X2)|v1_finset_1(X2)|r2_hidden(X3,X1)|~v1_card_1(X1)|~v1_card_1(X2)|~v1_finset_1(X3)|~v1_card_1(X3))).#trainneg
+cnf(i_0_477, plain, (k1_card_1(esk4_1(k1_zfmisc_1(X1)))=k1_card_1(X1)|v1_xboole_0(X1)|~r2_hidden(esk4_1(k1_zfmisc_1(X1)),X2)|~v1_card_fil(X2,X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_478, plain, (k1_card_1(esk3_2(X1,X2))=k1_card_1(X1)|v1_xboole_0(X1)|v1_card_fil(X2,X1)|~r2_hidden(esk3_2(X1,X2),X3)|~v1_card_fil(X3,X1)|~m1_card_fil(X3,X1)|~m1_card_fil(X2,X1))).#trainneg
+cnf(i_0_5271, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~r1_tarski(X2,X1)|~r2_hidden(k1_card_1(X2),k1_card_1(X1)))).#trainneg
+cnf(i_0_4349, negated_conjecture, (k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),esk2_0,X1))=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,esk2_0),a_1_2_card_fil(X1))|v1_finset_1(X1))).#trainneg
+cnf(i_0_8207, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,k4_xboole_0(X1,X2)),a_1_2_card_fil(X1))|v1_finset_1(X1))).#trainneg
+cnf(i_0_7425, plain, (k4_xboole_0(k9_subset_1(X3,X2,X1),X1)=k1_xboole_0|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_8737, plain, (~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1))|~r1_tarski(k1_card_1(k4_ordinal1),k4_ordinal1)|~r1_tarski(k4_ordinal1,k4_xboole_0(k4_ordinal1,esk18_0)))).#trainneg
+cnf(i_0_487, plain, (r1_ordinal1(X1,k1_card_1(X2))|r1_ordinal1(k1_card_1(X2),X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_3719, plain, (np__1=k4_ordinal1|r2_hidden(np__1,k4_ordinal1)|~m1_subset_1(np__1,k1_zfmisc_1(k4_ordinal1))|~v1_card_1(np__1))).#trainneg
+cnf(i_0_8945, plain, (~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1))|~r2_hidden(k1_card_1(esk18_0),k1_card_1(k4_ordinal1)))).#trainneg
+cnf(i_0_9177, negated_conjecture, (r2_hidden(X1,esk2_0)|v1_finset_1(k4_card_fil(esk1_0))|~v1_card_1(esk2_0)|~v1_finset_1(X1)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_9178, negated_conjecture, (r2_hidden(X1,esk2_0)|v1_finset_1(k4_card_fil(esk1_0))|~v1_card_1(esk2_0)|~v1_finset_1(X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_480, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X1)|v1_xboole_0(X1)|~r2_hidden(k9_subset_1(X1,X2,X3),X4)|~v1_card_fil(X4,X1)|~m1_card_fil(X4,X1)|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_494, plain, (r1_tarski(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(k1_card_1(X1),X2))).#trainneg
+cnf(i_0_9109, plain, (v1_finset_1(X1)|~r1_tarski(X1,esk18_0))).#trainneg
+cnf(i_0_9040, plain, (~m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(X3))|~r2_hidden(X1,k4_xboole_0(X1,X2))|~v1_card_1(k4_xboole_0(X1,X2))|~v1_card_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_9039, plain, (~m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(X3))|~r2_hidden(X1,k4_xboole_0(X1,X2))|~v1_card_1(k4_xboole_0(X1,X2))|~v1_card_1(X1))).#trainneg
+cnf(i_0_8454, plain, (m1_subset_1(k4_xboole_0(a_1_2_card_fil(X1),X2),k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_finset_1(X1))).#trainneg
+cnf(i_0_5739, plain, (m1_subset_1(k9_subset_1(X4,X2,X1),k1_zfmisc_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_9113, plain, (v1_finset_1(X1)|~r1_tarski(X1,X2)|~r1_tarski(X2,k1_xboole_0))).#trainneg
+cnf(i_0_8711, plain, (~m1_subset_1(k4_xboole_0(k4_ordinal1,esk18_0),a_1_2_card_fil(k4_ordinal1))|~r2_hidden(k1_card_1(k4_ordinal1),esk18_0))).#trainneg
+cnf(i_0_8745, plain, (~m1_subset_1(k4_xboole_0(k4_ordinal1,esk18_0),a_1_2_card_fil(k4_ordinal1))|~r1_tarski(k1_card_1(k4_ordinal1),esk18_0))).#trainneg
+cnf(i_0_3617, negated_conjecture, (k1_card_1(k9_subset_1(esk1_0,X1,X2))=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(X2,esk2_0))).#trainneg
+cnf(i_0_8708, plain, (m1_subset_1(esk18_0,k1_zfmisc_1(X1))|~m1_subset_1(k4_ordinal1,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_4084, plain, (m1_subset_1(k9_subset_1(X4,X2,X3),k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_finset_1(X1)|~m1_subset_1(X3,k1_zfmisc_1(a_1_2_card_fil(X1)))|~m1_subset_1(X2,k1_zfmisc_1(a_1_2_card_fil(X1)))|~m1_subset_1(X2,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_6592, plain, (k9_subset_1(X1,X2,X3)=X3|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_5189, negated_conjecture, (k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),esk2_0,X1))=k1_card_1(X1)|m1_subset_1(k4_xboole_0(X1,esk2_0),a_1_2_card_fil(X1))|v1_finset_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(esk1_0))))).#trainneg
+cnf(i_0_2642, plain, (m1_subset_1(np__1,k1_zfmisc_1(k4_ordinal1))|r1_tarski(k4_ordinal1,np__1))).#trainneg
+cnf(i_0_9837, plain, (~m1_subset_1(k1_xboole_0,a_1_2_card_fil(k4_ordinal1))|~r1_tarski(k1_card_1(k4_ordinal1),esk18_0)|~m1_subset_1(k4_ordinal1,k1_zfmisc_1(esk18_0)))).#trainneg
+cnf(i_0_3718, plain, (k4_xboole_0(k4_ordinal1,np__1)=k1_xboole_0|np__1=k4_ordinal1|r2_hidden(np__1,k4_ordinal1)|~v1_card_1(np__1))).#trainneg
+cnf(i_0_9670, plain, (~r2_hidden(k1_xboole_0,k1_xboole_0))).#trainneg
+cnf(i_0_9698, plain, (~r2_hidden(esk18_0,k1_xboole_0))).#trainneg
+cnf(i_0_522, plain, (r2_hidden(X1,a_1_2_card_fil(k1_card_1(X2)))|v1_finset_1(k1_card_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(k1_card_1(X2)))|~r2_hidden(k1_card_1(k4_xboole_0(k1_card_1(X2),X1)),k1_card_1(X2)))).#trainneg
+cnf(i_0_9729, plain, (~r2_hidden(X1,k4_xboole_0(X1,X2))|~v1_card_1(k4_xboole_0(X1,X2))|~v1_card_1(X1))).#trainneg
+cnf(i_0_9841, negated_conjecture, (m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|k1_card_1(k9_subset_1(esk1_0,X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~r2_hidden(X2,esk2_0))).#trainneg
+cnf(i_0_8769, plain, (k1_card_1(esk18_0)=k1_card_1(k4_ordinal1)|~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1)))).#trainneg
+cnf(i_0_4810, plain, (v1_xboole_0(X2)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~v1_xboole_0(X1)|~r1_tarski(X2,X3))).#trainneg
+cnf(i_0_6866, plain, (v1_xboole_0(X1)|v1_finset_1(X1)|~r2_hidden(k1_xboole_0,a_1_2_card_fil(X1))|~r2_hidden(X1,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_8757, plain, (r2_hidden(k1_card_1(k4_xboole_0(k4_ordinal1,esk18_0)),k1_card_1(k4_ordinal1))|~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1))|~r1_tarski(k4_xboole_0(k4_ordinal1,esk18_0),k4_ordinal1))).#trainneg
+cnf(i_0_560, negated_conjecture, (v1_funct_1(k4_card_fil(esk1_0))|~v4_funct_1(k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_8056, plain, (np__1=k4_ordinal1|r2_hidden(k4_ordinal1,np__1)|k4_xboole_0(np__1,k4_ordinal1)=k1_xboole_0|~v1_card_1(np__1))).#trainneg
+cnf(i_0_9835, plain, (~r2_hidden(k1_card_1(k4_ordinal1),esk18_0)|~r2_hidden(k1_card_1(esk18_0),k1_card_1(k4_ordinal1)))).#trainneg
+cnf(i_0_526, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X2,k4_xboole_0(X2,X1))),k1_card_1(X1)))).#trainneg
+cnf(i_0_6189, negated_conjecture, (k1_card_1(k4_xboole_0(esk2_0,k4_xboole_0(esk2_0,X1)))=k1_card_1(X1)|k1_card_1(k4_xboole_0(X1,esk2_0))=k1_card_1(X1)|v1_finset_1(X1))).#trainneg
+cnf(i_0_10233, negated_conjecture, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|k1_card_1(k9_subset_1(esk1_0,X1,X2))=k1_card_1(X1)|~r1_tarski(X2,X1)|~r2_hidden(X2,esk2_0))).#trainneg
+cnf(i_0_10232, negated_conjecture, (v1_finset_1(X1)|k1_card_1(k9_subset_1(esk1_0,X1,X2))=k1_card_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~r2_hidden(X2,esk2_0))).#trainneg
+cnf(i_0_10402, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(k9_subset_1(X3,X1,X2)),k1_card_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_10214, negated_conjecture, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|k1_card_1(k9_subset_1(esk1_0,X1,X2))=k1_card_1(X1)|~r1_tarski(k4_xboole_0(X1,X2),X1)|~r2_hidden(X2,esk2_0))).#trainneg
+cnf(i_0_10524, negated_conjecture, (k1_card_1(esk1_0)=k1_card_1(k1_xboole_0)|m1_subset_1(esk1_0,esk2_0))).#trainneg
+cnf(i_0_530, plain, (r2_hidden(X1,a_1_2_card_fil(X1))|v1_finset_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(X1))|~r2_hidden(k1_card_1(k1_xboole_0),k1_card_1(X1)))).#trainneg
+cnf(i_0_531, plain, (r2_hidden(X1,a_1_2_card_fil(X2))|v1_finset_1(X2)|v1_xboole_0(k1_card_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(X2))|~m1_subset_1(k1_card_1(k4_xboole_0(X2,X1)),k1_card_1(X2)))).#trainneg
+cnf(i_0_10199, plain, (~r2_hidden(X1,k9_subset_1(X3,X2,X1))|~v1_card_1(k9_subset_1(X3,X2,X1))|~v1_card_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_5197, negated_conjecture, (k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),esk2_0,X1))=k1_card_1(X1)|m1_subset_1(k4_xboole_0(X1,esk2_0),a_1_2_card_fil(X1))|v1_finset_1(X1))).#trainneg
+cnf(i_0_10957, negated_conjecture, (k1_card_1(k9_subset_1(esk1_0,X1,X2))=k1_card_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~r2_hidden(X2,esk2_0))).#trainneg
+cnf(i_0_10858, negated_conjecture, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~r2_hidden(k4_xboole_0(X1,X2),esk2_0)|~m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(esk1_0)))).#trainneg
+cnf(i_0_4098, plain, (k4_xboole_0(X1,k4_ordinal1)=k1_xboole_0|r2_hidden(k4_ordinal1,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_10318, plain, (~r1_tarski(k4_ordinal1,k4_xboole_0(k4_ordinal1,esk18_0))|~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1))|~r1_tarski(k4_xboole_0(k4_ordinal1,esk18_0),k4_ordinal1))).#trainneg
+cnf(i_0_532, plain, (r2_hidden(esk5_2(X1,X2),a_1_2_card_fil(X2))|v1_finset_1(X2)|~m1_subset_1(esk5_2(X1,X2),k1_zfmisc_1(X2))|~r2_hidden(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_537, plain, (r1_ordinal1(X1,esk18_0)|r1_ordinal1(esk18_0,X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_553, plain, (r1_ordinal1(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(k1_card_1(X1),k1_card_1(X2)))).#trainneg
+cnf(i_0_8076, negated_conjecture, (m1_subset_1(k4_xboole_0(X1,esk2_0),X2)|v1_finset_1(X1)|~r1_tarski(a_1_2_card_fil(X1),X2)|~m1_subset_1(k4_xboole_0(X1,esk2_0),a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_4683, negated_conjecture, (r2_hidden(k1_card_1(a_1_2_card_fil(esk1_0)),k1_card_1(esk2_0))|v1_finset_1(esk2_0)|~m1_subset_1(k4_xboole_0(esk2_0,a_1_2_card_fil(esk1_0)),a_1_2_card_fil(esk2_0)))).#trainneg
+cnf(i_0_9787, plain, (m1_subset_1(k9_subset_1(X1,X2,X3),k1_zfmisc_1(k1_zfmisc_1(X4)))|v1_finset_1(X4)|~m1_subset_1(X2,k1_zfmisc_1(a_1_2_card_fil(X4)))|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_6065, plain, (k9_subset_1(X3,X2,X1)=X2|~m1_subset_1(X1,k1_zfmisc_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_6467, plain, (m1_subset_1(k4_xboole_0(X1,X3),a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(k9_subset_1(X2,X1,X3)),k1_card_1(X1))|~r1_tarski(k9_subset_1(X2,X1,X3),X1)|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_10193, plain, (~r2_hidden(X1,X1)|~v1_card_1(X1)|~r1_tarski(X1,k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_6637, plain, (r2_hidden(X1,a_1_2_card_fil(X1))|v1_finset_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X1,X2)),k1_card_1(X1))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_6611, plain, (k4_xboole_0(X1,k9_subset_1(X3,X1,X2))=X1|~m1_subset_1(X1,k1_zfmisc_1(k4_xboole_0(X1,X2)))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_9832, plain, (v1_finset_1(X1)|~r1_tarski(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(k1_xboole_0)))).#trainneg
+cnf(i_0_11447, plain, (r1_ordinal1(esk18_0,esk18_0))).#trainneg
+cnf(i_0_11720, negated_conjecture, (~r2_hidden(esk2_0,esk2_0)|~v1_card_1(esk2_0)|~r1_tarski(esk2_0,k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_556, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|r2_hidden(X2,X1)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_11457, plain, (r1_ordinal1(esk18_0,np__1)|r1_ordinal1(np__1,esk18_0))).#trainneg
+cnf(i_0_11718, plain, (~r2_hidden(esk18_0,esk18_0)|~r1_tarski(esk18_0,k1_xboole_0))).#trainneg
+cnf(i_0_9173, negated_conjecture, (r2_hidden(esk18_0,esk2_0)|v1_finset_1(k4_card_fil(esk1_0))|~v1_card_1(esk2_0))).#trainneg
+cnf(i_0_558, negated_conjecture, (v1_finset_1(k4_card_fil(esk1_0))|~v5_finset_1(k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_561, negated_conjecture, (v1_relat_1(k4_card_fil(esk1_0))|~v4_funct_1(k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_11380, negated_conjecture, (k1_card_1(k9_subset_1(X3,X1,X2))=k1_card_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~r2_hidden(X2,esk2_0)|~m1_subset_1(X1,k1_zfmisc_1(esk1_0))|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_11434, plain, (~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1))|~r1_tarski(k4_ordinal1,k4_xboole_0(k4_ordinal1,esk18_0)))).#trainneg
+cnf(i_0_11748, plain, (r2_hidden(k4_xboole_0(X1,X2),X1)|~r2_hidden(X1,X1)|~v1_card_1(X1)|~v1_card_1(k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_11369, negated_conjecture, (v1_finset_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|~m1_subset_1(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|~m1_subset_1(X2,k1_zfmisc_1(esk1_0))|~r2_hidden(X2,esk2_0))).#trainneg
+cnf(i_0_11881, plain, (k9_subset_1(X1,X2,k9_subset_1(X3,X2,X4))=k1_xboole_0|~m1_subset_1(k9_subset_1(X3,X2,X4),k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(k4_xboole_0(X2,X4)))|~m1_subset_1(X4,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_5418, plain, (m1_subset_1(X3,k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(a_1_2_card_fil(X1)))|~r1_tarski(X3,X2))).#trainneg
+cnf(i_0_11719, negated_conjecture, (~r2_hidden(esk2_0,esk2_0)|~v1_card_1(esk2_0)|~r1_tarski(esk2_0,a_1_2_card_fil(esk1_0)))).#trainneg
+cnf(i_0_571, plain, (v1_finset_1(k4_card_fil(X1))|v1_finset_1(X1)|~v5_finset_1(k1_zfmisc_1(k1_zfmisc_1(X1))))).#trainneg
+cnf(i_0_11460, plain, (r1_ordinal1(esk18_0,k1_xboole_0)|r1_ordinal1(k1_xboole_0,esk18_0))).#trainneg
+cnf(i_0_10182, negated_conjecture, (~r2_hidden(a_1_2_card_fil(esk1_0),k1_xboole_0)|~v1_card_1(a_1_2_card_fil(esk1_0)))).#trainneg
+cnf(i_0_9175, negated_conjecture, (r2_hidden(k1_xboole_0,esk2_0)|v1_finset_1(k4_card_fil(esk1_0))|~v1_card_1(esk2_0))).#trainneg
+cnf(i_0_563, negated_conjecture, (k1_card_1(k4_card_fil(esk1_0))=k1_card_1(esk2_0)|v1_xboole_0(esk2_0)|~r2_hidden(k4_card_fil(esk1_0),X1)|~v1_card_fil(X1,esk2_0)|~m1_card_fil(X1,esk2_0))).#trainneg
+cnf(i_0_572, plain, (v3_ordinal1(k4_card_fil(X1))|v1_finset_1(X1)|~v3_ordinal1(k1_zfmisc_1(k1_zfmisc_1(X1))))).#trainneg
+cnf(i_0_5208, plain, (v4_card_3(X2)|~v4_card_3(X1)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~r1_tarski(X2,X3))).#trainneg
+cnf(i_0_4100, plain, (k4_xboole_0(X1,k1_card_1(X2))=k1_xboole_0|r2_hidden(k1_card_1(X2),X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_10315, plain, (~v1_xboole_0(k1_card_1(k4_ordinal1))|~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1))|~r1_tarski(k4_xboole_0(k4_ordinal1,esk18_0),k4_ordinal1))).#trainneg
+cnf(i_0_573, plain, (v1_funct_1(k4_card_fil(X1))|v1_finset_1(X1)|~v4_funct_1(k1_zfmisc_1(k1_zfmisc_1(X1))))).#trainneg
+cnf(i_0_10184, negated_conjecture, (~r2_hidden(k4_card_fil(esk1_0),k1_xboole_0)|~v1_card_1(k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_574, plain, (v1_relat_1(k4_card_fil(X1))|v1_finset_1(X1)|~v4_funct_1(k1_zfmisc_1(k1_zfmisc_1(X1))))).#trainneg
+cnf(i_0_577, plain, (v1_funct_1(k4_card_fil(X1))|v1_finset_1(X1)|~v1_relat_1(k1_zfmisc_1(X1))|~v1_funct_1(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_4843, negated_conjecture, (v1_finset_1(esk2_0)|~m1_subset_1(k4_xboole_0(esk2_0,k4_card_fil(esk1_0)),a_1_2_card_fil(esk2_0))|~r2_hidden(k1_card_1(esk2_0),k1_card_1(k4_card_fil(esk1_0))))).#trainneg
+cnf(i_0_12437, plain, (v1_xboole_0(k1_card_1(X1))|r2_hidden(k1_card_1(X1),X2)|~r2_hidden(X2,X3)|~r2_hidden(k4_xboole_0(k1_card_1(X1),X2),X3)|~m1_card_fil(X3,k1_card_1(X1))|~v1_card_1(X2))).#trainneg
+cnf(i_0_12107, plain, (r2_hidden(k9_subset_1(X3,X1,X2),X1)|~r2_hidden(X1,X1)|~v1_card_1(k9_subset_1(X3,X1,X2))|~v1_card_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_12109, plain, (r2_hidden(k9_subset_1(X3,X2,X1),X1)|~r2_hidden(X1,X1)|~v1_card_1(k9_subset_1(X3,X2,X1))|~v1_card_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_11944, plain, (m1_subset_1(X1,k1_zfmisc_1(k4_ordinal1))|r2_hidden(k4_ordinal1,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_7569, plain, (v1_finset_1(X1)|~v1_finset_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(esk4_1(k1_zfmisc_1(X2)))))).#trainneg
+cnf(i_0_11951, plain, (r1_tarski(esk18_0,np__1)|r1_ordinal1(np__1,esk18_0))).#trainneg
+cnf(i_0_11938, plain, (~r2_hidden(esk18_0,esk18_0))).#trainneg
+cnf(i_0_12357, negated_conjecture, (v4_card_3(X1)|~v4_card_3(esk2_0)|~r1_tarski(X1,k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_2891, plain, (v4_card_3(X1)|r2_hidden(k4_xboole_0(X2,X3),X1)|~v1_card_1(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_581, plain, (v4_card_3(k4_card_fil(X1))|v1_finset_1(X1)|~v4_card_3(k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_582, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|v1_finset_1(X2)|~r2_hidden(X1,k4_card_fil(X2)))).#trainneg
+cnf(i_0_12104, plain, (r2_hidden(X2,X1)|~r2_hidden(X1,X1)|~v1_card_1(X2)|~v1_card_1(X1)|~r1_tarski(X2,X1))).#trainneg
+cnf(i_0_12422, plain, (r2_hidden(k1_xboole_0,X1)|r2_hidden(k1_card_1(X2),X1)|~r2_hidden(X1,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_12111, plain, (r2_hidden(k1_xboole_0,X1)|~r2_hidden(X1,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_4082, plain, (m1_subset_1(k9_subset_1(X4,X2,X3),k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_finset_1(X1)|~m1_subset_1(X3,k1_zfmisc_1(a_1_2_card_fil(X1)))|~m1_subset_1(X3,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_4838, negated_conjecture, (k1_card_1(k4_xboole_0(esk2_0,k4_card_fil(esk1_0)))=k1_card_1(esk2_0)|v1_finset_1(esk2_0)|~m1_subset_1(k4_xboole_0(esk2_0,k4_card_fil(esk1_0)),a_1_2_card_fil(esk2_0)))).#trainneg
+cnf(i_0_4862, negated_conjecture, (v1_finset_1(esk2_0)|~m1_subset_1(k4_xboole_0(esk2_0,k4_card_fil(esk1_0)),a_1_2_card_fil(esk2_0))|~r1_tarski(esk2_0,k1_card_1(k4_card_fil(esk1_0))))).#trainneg
+cnf(i_0_7598, plain, (v1_finset_1(X1)|~v1_finset_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(k4_xboole_0(X2,X3))))).#trainneg
+cnf(i_0_12291, plain, (r1_tarski(esk18_0,k1_xboole_0)|r1_ordinal1(k1_xboole_0,esk18_0))).#trainneg
+cnf(i_0_8733, plain, (~r2_hidden(esk18_0,X1)|~r2_hidden(k4_ordinal1,X1)|~r1_tarski(k4_ordinal1,k4_xboole_0(k4_ordinal1,esk18_0))|~m1_card_fil(X1,k4_ordinal1))).#trainneg
+cnf(i_0_11925, plain, (v1_finset_1(np__1)|r1_tarski(k4_ordinal1,np__1)|~m1_subset_1(k4_ordinal1,k1_zfmisc_1(k1_xboole_0)))).#trainneg
+cnf(i_0_12292, negated_conjecture, (~r2_hidden(a_1_2_card_fil(esk1_0),k1_xboole_0)|~v1_xboole_0(a_1_2_card_fil(esk1_0)))).#trainneg
+cnf(i_0_12478, plain, (~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1))|~v1_xboole_0(k1_card_1(k4_ordinal1)))).#trainneg
+cnf(i_0_11947, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|r2_hidden(X2,X1)|~v1_card_1(X1)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_3210, plain, (v4_card_3(X1)|r2_hidden(X2,X1)|r2_hidden(k4_ordinal1,X2)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_3843, negated_conjecture, (k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),X1,k4_card_fil(esk1_0)))=k1_card_1(X1)|r2_hidden(k4_xboole_0(X1,k4_card_fil(esk1_0)),a_1_2_card_fil(X1))|v1_finset_1(X1))).#trainneg
+cnf(i_0_6619, plain, (m1_subset_1(k4_xboole_0(X1,X2),X3)|v1_finset_1(X1)|~r1_tarski(a_1_2_card_fil(X1),X3)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r2_hidden(k1_card_1(X2),k1_card_1(X1)))).#trainneg
+cnf(i_0_12692, plain, (r2_hidden(X1,X2)|r2_hidden(X2,X1)|~r2_hidden(X2,X2)|~v1_card_1(X1)|~v1_card_1(X2))).#trainneg
+cnf(i_0_8710, plain, (~r2_hidden(esk18_0,X1)|~r2_hidden(k4_xboole_0(k4_ordinal1,esk18_0),X1)|~r1_tarski(k4_xboole_0(k4_ordinal1,esk18_0),k4_ordinal1)|~m1_card_fil(X1,k4_ordinal1))).#trainneg
+cnf(i_0_599, plain, (k1_card_1(X1)=k1_card_1(X2)|~m1_subset_1(k1_card_1(X2),k1_zfmisc_1(k1_card_1(X1)))|~r1_tarski(X1,X2))).#trainneg
+cnf(i_0_12657, plain, (r1_tarski(np__1,esk18_0)|r1_tarski(esk18_0,np__1))).#trainneg
+cnf(i_0_12658, plain, (~m1_subset_1(esk18_0,esk18_0))).#trainneg
+cnf(i_0_602, plain, (X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X1,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_605, plain, (k1_xboole_0=X1|~r1_tarski(X1,k4_xboole_0(X2,k4_xboole_0(X2,X1)))|~r1_tarski(X1,k4_xboole_0(X1,X2)))).#trainneg
+cnf(i_0_4865, negated_conjecture, (r2_hidden(k4_xboole_0(esk2_0,k4_card_fil(esk1_0)),a_1_2_card_fil(esk2_0))|v1_finset_1(esk2_0)|~r2_hidden(k1_card_1(k4_card_fil(esk1_0)),k1_card_1(esk2_0)))).#trainneg
+cnf(i_0_11946, plain, (m1_subset_1(X1,k1_zfmisc_1(k1_card_1(X2)))|r2_hidden(k1_card_1(X2),X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_10409, plain, (r2_hidden(k4_xboole_0(X1,X2),a_1_2_card_fil(X1))|v1_finset_1(X1)|v1_finset_1(X2)|~r2_hidden(k1_card_1(X2),k1_card_1(X1))|~m1_subset_1(X1,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_4658, plain, (k1_card_1(k9_subset_1(X3,X1,X2))=k1_card_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~r1_tarski(k4_xboole_0(X1,X2),X1)|~m1_subset_1(X1,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_12831, plain, (r1_tarski(k1_xboole_0,esk18_0)|r1_tarski(esk18_0,k1_xboole_0))).#trainneg
+cnf(i_0_12481, negated_conjecture, (~r2_hidden(k4_card_fil(esk1_0),k1_xboole_0)|~v1_xboole_0(k4_card_fil(esk1_0)))).#trainneg
+cnf(i_0_12294, negated_conjecture, (~r2_hidden(a_1_2_card_fil(esk1_0),k1_xboole_0)|~m1_subset_1(a_1_2_card_fil(esk1_0),k4_ordinal1))).#trainneg
+cnf(i_0_3212, plain, (v4_card_3(X1)|r2_hidden(X2,X1)|r2_hidden(k1_xboole_0,X2)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_608, plain, (k1_xboole_0=X1|~r1_tarski(X1,k9_subset_1(X3,X1,X2))|~r1_tarski(X1,k4_xboole_0(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_3683, plain, (k1_card_1(k9_subset_1(X3,X1,X2))=k1_card_1(X1)|~m1_subset_1(X1,k1_zfmisc_1(k9_subset_1(X3,X1,X2)))|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_4095, plain, (m1_subset_1(k9_subset_1(X4,X3,X2),k1_zfmisc_1(k1_zfmisc_1(X1)))|v1_finset_1(X1)|~m1_subset_1(X3,k1_zfmisc_1(a_1_2_card_fil(X1)))|~m1_subset_1(X3,k1_zfmisc_1(X4)))).#trainneg
+cnf(i_0_11140, plain, (~m1_subset_1(X1,k1_zfmisc_1(X2))|~r2_hidden(X1,k9_subset_1(X2,X1,X3))|~v1_card_1(k9_subset_1(X2,X1,X3))|~v1_card_1(X1))).#trainneg
+cnf(i_0_1400, negated_conjecture, (v3_ordinal1(a_1_2_card_fil(esk1_0))|~v3_ordinal1(k1_zfmisc_1(esk2_0)))).#trainneg
+cnf(i_0_611, plain, (k1_xboole_0=X1|~r1_tarski(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(k4_xboole_0(X1,X2))))).#trainneg
+cnf(i_0_12483, negated_conjecture, (~r2_hidden(k4_card_fil(esk1_0),k1_xboole_0)|~m1_subset_1(k4_card_fil(esk1_0),k4_ordinal1))).#trainneg
+cnf(i_0_3585, plain, (v4_card_3(X1)|r2_hidden(X2,X1)|r2_hidden(esk18_0,X2)|~v1_card_1(X2)|~v1_card_1(X1))).#trainneg
+cnf(i_0_613, plain, (r1_ordinal1(X1,np__1)|r1_ordinal1(np__1,X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_615, plain, (k1_xboole_0=X1|~m1_subset_1(X1,k1_zfmisc_1(k1_xboole_0)))).#trainneg
+cnf(i_0_13371, plain, (k1_card_1(k9_subset_1(X1,X2,X3))=k1_card_1(X2)|k1_card_1(k4_xboole_0(X2,X3))=k1_card_1(X2)|v1_finset_1(X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_13388, plain, (r1_tarski(k1_xboole_0,esk18_0))).#trainneg
+cnf(i_0_7744, negated_conjecture, (~r2_hidden(k4_xboole_0(esk2_0,a_1_2_card_fil(esk1_0)),X1)|~r2_hidden(a_1_2_card_fil(esk1_0),X1)|~m1_card_fil(X1,esk2_0))).#trainneg
+cnf(i_0_13615, plain, (r1_ordinal1(np__1,np__1))).#trainneg
+cnf(i_0_618, plain, (r1_ordinal1(X1,k1_xboole_0)|r1_ordinal1(k1_xboole_0,X1)|~v3_ordinal1(X1))).#trainneg
+cnf(i_0_622, plain, (v1_xboole_0(X1)|v1_card_fil(X2,X1)|k1_card_1(X1)!=k1_xboole_0|~m1_card_fil(X2,X1)|~v1_xboole_0(esk3_2(X1,X2)))).#trainneg
+cnf(i_0_5785, plain, (r2_hidden(k1_card_1(k1_xboole_0),k1_card_1(X2))|v1_finset_1(X2)|~m1_subset_1(X2,a_1_2_card_fil(X2)))).#trainneg
+cnf(i_0_6063, plain, (k1_card_1(X2)=k1_card_1(X1)|v1_finset_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_8760, plain, (k9_subset_1(X1,k4_ordinal1,esk18_0)=esk18_0|~m1_subset_1(esk18_0,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_8877, plain, (k1_card_1(k4_xboole_0(X2,X3))=k1_card_1(X2)|k1_card_1(k4_xboole_0(X2,k4_xboole_0(X2,X3)))=k1_card_1(X2)|v1_finset_1(X2)|~m1_subset_1(k4_xboole_0(X2,X3),k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_13592, plain, (k9_subset_1(X1,X2,X3)=k1_xboole_0|~r1_tarski(k9_subset_1(X1,X2,X3),X4)|~m1_subset_1(X2,k1_zfmisc_1(k4_xboole_0(k9_subset_1(X1,X2,X3),X4)))|~m1_subset_1(X3,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_6438, plain, (v1_finset_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X1,X3)),k1_card_1(X1))|~r2_hidden(k1_card_1(k9_subset_1(X2,X1,X3)),k1_card_1(X1))|~r1_tarski(k9_subset_1(X2,X1,X3),X1)|~m1_subset_1(X3,k1_zfmisc_1(X2)))).#trainneg
+cnf(i_0_8700, plain, (~r2_hidden(esk18_0,X1)|~r2_hidden(k4_xboole_0(k4_ordinal1,esk18_0),X1)|~m1_card_fil(X1,k4_ordinal1))).#trainneg
+cnf(i_0_9054, plain, (v1_finset_1(esk14_1(esk14_1(X1)))|~v1_finset_1(X1))).#trainneg
+cnf(i_0_13561, negated_conjecture, (esk2_0=k1_xboole_0|~m1_subset_1(esk2_0,k1_zfmisc_1(k4_card_fil(esk1_0)))|~r1_tarski(esk2_0,k4_xboole_0(esk2_0,k4_card_fil(esk1_0))))).#trainneg
+cnf(i_0_623, plain, (r2_hidden(k1_xboole_0,k1_card_1(X1))|v1_finset_1(X1)|~r2_hidden(X2,a_1_2_card_fil(X1))|~v1_xboole_0(k4_xboole_0(X1,esk5_2(X2,X1))))).#trainneg
+cnf(i_0_13618, plain, (r1_ordinal1(np__1,k1_xboole_0)|r1_ordinal1(k1_xboole_0,np__1))).#trainneg
+cnf(i_0_9831, plain, (v1_finset_1(X1)|r2_hidden(k1_xboole_0,X2)|~r1_tarski(X1,X2)|~v1_card_1(X2))).#trainneg
+cnf(i_0_11948, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|r2_hidden(X2,X1)|~v1_card_1(X1)|~v3_ordinal1(X2)|~v1_finset_1(X2))).#trainneg
+cnf(i_0_624, plain, (r2_hidden(X1,a_1_2_card_fil(X2))|v1_finset_1(X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))|~r2_hidden(k1_xboole_0,k1_card_1(X2))|~v1_xboole_0(k4_xboole_0(X2,X1)))).#trainneg
+cnf(i_0_14156, plain, (m1_subset_1(X1,k1_zfmisc_1(esk18_0))|r2_hidden(esk18_0,X1)|~v1_card_1(X1))).#trainneg
+cnf(i_0_13759, plain, (k1_card_1(k9_subset_1(X1,X3,X2))=k1_card_1(X2)|k1_card_1(k4_xboole_0(X2,X3))=k1_card_1(X2)|v1_finset_1(X2)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_13979, plain, (k1_card_1(k4_xboole_0(X1,k4_xboole_0(X1,X2)))=k1_card_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1))).#trainneg
+cnf(i_0_13832, plain, (r1_ordinal1(k1_xboole_0,k1_xboole_0))).#trainneg
+cnf(i_0_13631, plain, (esk14_1(k1_xboole_0)=k1_xboole_0)).#trainneg
+cnf(i_0_14113, plain, (~m1_card_fil(k4_ordinal1,k4_ordinal1)|~v1_xboole_0(k4_xboole_0(k4_ordinal1,esk18_0)))).#trainneg
+cnf(i_0_626, plain, (r1_ordinal1(k1_xboole_0,k1_card_1(X2))|~r1_tarski(X1,X2)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_13817, plain, (~r2_hidden(np__1,np__1)|~v1_card_1(np__1))).#trainneg
+cnf(i_0_14154, plain, (r2_hidden(k1_xboole_0,X1)|v1_finset_1(X2)|r2_hidden(X1,X2)|~v1_card_1(X1)|~v1_card_1(X2))).#trainneg
+cnf(i_0_630, plain, (k1_card_1(k1_xboole_0)=k1_xboole_0|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_12079, plain, (r2_hidden(k4_xboole_0(k4_ordinal1,esk18_0),k4_ordinal1)|~m1_subset_1(esk18_0,a_1_2_card_fil(k4_ordinal1))|~v1_card_1(k4_xboole_0(k4_ordinal1,esk18_0)))).#trainneg
+cnf(i_0_4253, negated_conjecture, (v1_finset_1(X1)|k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),X1,esk2_0))=k1_card_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X1,esk2_0)),k1_card_1(X1)))).#trainneg
+cnf(i_0_5389, plain, (k1_card_1(k9_subset_1(X2,X1,k1_card_1(X3)))=k1_card_1(X3)|~m1_subset_1(X1,k1_zfmisc_1(X2))|~v1_card_1(k9_subset_1(X2,X1,k1_card_1(X3)))|~r1_tarski(X3,k9_subset_1(X2,X1,k1_card_1(X3))))).#trainneg
+cnf(i_0_12876, negated_conjecture, (v1_finset_1(X1)|k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),X1,k4_card_fil(esk1_0)))=k1_card_1(X1)|~r2_hidden(k1_card_1(k4_xboole_0(X1,k4_card_fil(esk1_0))),k1_card_1(X1)))).#trainneg
+cnf(i_0_5356, negated_conjecture, (k1_card_1(k9_subset_1(k1_zfmisc_1(esk1_0),esk2_0,X1))=k1_card_1(X1)|v1_finset_1(X1)|~m1_subset_1(esk2_0,a_1_2_card_fil(X1))|~m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(esk1_0))))).#trainneg
+cnf(i_0_14549, plain, (k1_card_1(k1_xboole_0)=k1_xboole_0)).#trainneg
+cnf(i_0_14120, plain, (~r2_hidden(esk18_0,a_1_2_card_fil(k4_ordinal1))|~m1_card_fil(a_1_2_card_fil(k4_ordinal1),k4_ordinal1)|~r2_hidden(k1_card_1(esk18_0),k1_card_1(k4_ordinal1)))).#trainneg
+cnf(i_0_638, plain, (r1_ordinal1(k1_xboole_0,k1_card_1(X2))|~r1_tarski(X1,k1_card_1(X2))|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_14508, plain, (~v1_subset_1(k1_xboole_0,k1_xboole_0))).#trainneg
+cnf(i_0_639, plain, (r1_ordinal1(k1_xboole_0,k1_card_1(X2))|~r1_tarski(k1_xboole_0,X2)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_640, plain, (r1_tarski(k1_xboole_0,k1_card_1(X2))|~r1_tarski(X1,X2)|~v1_xboole_0(X1))).#trainneg
+cnf(i_0_14481, plain, (k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|k1_card_1(X2)=k1_card_1(X1)|v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X1)))).#trainneg
+cnf(i_0_641, plain, (r1_ordinal1(k1_card_1(X1),k1_xboole_0)|~r1_tarski(X1,X2)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_14538, plain, (~r2_hidden(np__1,np__1))).#trainneg
+cnf(i_0_12861, plain, (m1_subset_1(X1,k1_zfmisc_1(X2))|r2_hidden(X2,X1)|~v1_xboole_0(X2)|~v3_ordinal1(X1)|~v1_finset_1(X1))).#trainneg
+cnf(i_0_644, plain, (r1_ordinal1(k1_card_1(X1),k1_xboole_0)|~r1_tarski(X1,k1_xboole_0)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_15204, negated_conjecture, (r1_tarski(k1_card_1(X1),k1_card_1(X2))|~r1_tarski(X1,esk1_0)|~r2_hidden(X2,esk2_0))).#trainneg
+cnf(i_0_15329, negated_conjecture, (r2_hidden(k4_xboole_0(X1,X2),k1_card_1(esk1_0))|v1_finset_1(X1)|~m1_subset_1(X2,a_1_2_card_fil(X1))|~v1_card_1(k4_xboole_0(X1,X2))|~r2_hidden(X1,esk2_0))).#trainneg
+cnf(i_0_6397, plain, (v1_finset_1(X1)|~r1_tarski(X1,k1_card_1(X2))|~v1_finset_1(k1_card_1(X3))|~r1_tarski(X2,X3))).#trainneg
+cnf(i_0_9126, plain, (v1_finset_1(X1)|~v1_finset_1(X3)|~m1_subset_1(X1,k1_zfmisc_1(k4_xboole_0(X2,k4_xboole_0(X2,X3)))))).#trainneg
+cnf(i_0_10524, negated_conjecture, (k1_card_1(esk1_0)=k1_xboole_0|m1_subset_1(esk1_0,esk2_0))).#trainneg
+cnf(i_0_5785, plain, (r2_hidden(k1_xboole_0,k1_card_1(X1))|v1_finset_1(X1)|~m1_subset_1(X1,a_1_2_card_fil(X1)))).#trainneg
+cnf(i_0_645, plain, (r1_ordinal1(k1_card_1(X1),k1_xboole_0)|~r1_tarski(k1_card_1(X1),X2)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_14138, plain, (r1_tarski(np__1,k1_xboole_0)|r1_ordinal1(k1_xboole_0,np__1))).#trainneg
+cnf(i_0_15408, plain, (~m1_subset_1(np__1,np__1))).#trainneg
+cnf(i_0_646, plain, (r1_tarski(k1_card_1(X1),k1_xboole_0)|~r1_tarski(X1,X2)|~v1_xboole_0(X2))).#trainneg
+cnf(i_0_14503, plain, (k1_card_1(k9_subset_1(X3,X2,X1))=k1_card_1(X1)|k1_card_1(k4_xboole_0(X1,X2))=k1_card_1(X1)|v1_finset_1(X1)|~m1_subset_1(X2,k1_zfmisc_1(X3)))).#trainneg
+cnf(i_0_15698, negated_conjecture, (m1_subset_1(esk1_0,esk2_0))).#trainneg
+cnf(i_0_15436, negated_conjecture, (v1_xboole_0(X1)|v1_card_fil(X2,X1)|k1_card_1(esk1_0)!=k1_card_1(X1)|~m1_card_fil(X2,X1)|~m1_subset_1(esk3_2(X1,X2),esk2_0))).#trainneg
+# Training: Negative examples end
+# Parsed axioms                        : 109
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 150
+# Removed in clause preprocessing      : 10
+# Initial clauses in saturation        : 140
+# Processed clauses                    : 1685
+# ...of these trivial                  : 39
+# ...subsumed                          : 721
+# ...remaining for further processing  : 925
+# Other redundant clauses eliminated   : 3
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 49
+# Backward-rewritten                   : 29
+# Generated clauses                    : 15861
+# ...of the previous two non-trivial   : 14344
+# Contextual simplify-reflections      : 52
+# Paramodulations                      : 15858
+# Factorizations                       : 0
+# Equation resolutions                 : 3
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 844
+#    Positive orientable unit clauses  : 75
+#    Positive unorientable unit clauses: 1
+#    Negative unit clauses             : 29
+#    Non-unit-clauses                  : 739
+# Current number of unprocessed clauses: 12663
+# ...number of literals in the above   : 58946
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 1005
+# Proof object given clauses           : 59
+# Proof search given clauses           : 925
+# Clause-clause subsumption calls (NU) : 92110
+# Rec. Clause-clause subsumption calls : 36945
+# Non-unit clause-clause subsumptions  : 732
+# Unit Clause-clause subsumption calls : 3500
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 68
+# BW rewrite match successes           : 25
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 253372
+
+# -------------------------------------------------
+# User time                : 22.678 s
+# System time              : 1.084 s
+# Total time               : 23.762 s
+# Maximum resident set size: 375220 pages
+22.68user 1.15system 0:24.14elapsed 98%CPU (0avgtext+0avgdata 375220maxresident)k
+0inputs+288outputs (0major+210047minor)pagefaults 0swaps

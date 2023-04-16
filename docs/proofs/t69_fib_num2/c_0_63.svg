@@ -14,26 +14,18 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="28,-90 28,-182 160,-182 160,-90 28,-90"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="37,-90 37,-182 169,-182 169,-90 37,-90"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="26,-8 26,-70 162,-70 162,-8 26,-8"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="35,-8 35,-70 171,-70 171,-8 35,-8"/>
 </g>
-<!-- c_0_35 -->
+<!-- c_0_36 -->
 <g id="node1" class="node">
-<title>c_0_35</title>
-<g id="a_node1"><a xlink:href="c_0_35.html" xlink:title="{prime(N₂)|⇊|N₁ = 0|N₂ ≤ N₁|rel&#45;prime(N₁,N₂)}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="76,-210.5 76,-285.5 192,-285.5 192,-210.5 76,-210.5"/>
-<text text-anchor="middle" x="134" y="-274.3" font-family="Times,serif" font-size="14.00">prime(N₂)</text>
-<polyline fill="none" stroke="#7f7542" points="76,-270.5 192,-270.5 "/>
-<text text-anchor="middle" x="134" y="-259.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="76,-255.5 192,-255.5 "/>
-<text text-anchor="middle" x="134" y="-244.3" font-family="Times,serif" font-size="14.00">N₁ = 0</text>
-<polyline fill="none" stroke="#7f7542" points="76,-240.5 192,-240.5 "/>
-<text text-anchor="middle" x="134" y="-229.3" font-family="Times,serif" font-size="14.00">N₂ ≤ N₁</text>
-<polyline fill="none" stroke="#7f7542" points="76,-225.5 192,-225.5 "/>
-<text text-anchor="middle" x="134" y="-214.3" font-family="Times,serif" font-size="14.00">rel&#45;prime(N₁,N₂)</text>
+<title>c_0_36</title>
+<g id="a_node1"><a xlink:href="c_0_36.html" xlink:title="{0 = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="150,-240.5 150,-255.5 192,-255.5 192,-240.5 150,-240.5"/>
+<text text-anchor="middle" x="171" y="-244.3" font-family="Times,serif" font-size="14.00">0 = Ø</text>
 </a>
 </g>
 </g>
@@ -41,58 +33,66 @@
 <g id="node3" class="node">
 <title>c_0_63</title>
 <g id="a_node3"><a xlink:href="c_0_63.html" xlink:title="{prime(N₂)|⇊|N₁ = Ø|N₂ ≤ N₁|rel&#45;prime(N₁,N₂)}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="36,-98.5 36,-173.5 152,-173.5 152,-98.5 36,-98.5"/>
-<text text-anchor="middle" x="94" y="-162.3" font-family="Times,serif" font-size="14.00">prime(N₂)</text>
-<polyline fill="none" stroke="#7f7542" points="36,-158.5 152,-158.5 "/>
-<text text-anchor="middle" x="94" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="36,-143.5 152,-143.5 "/>
-<text text-anchor="middle" x="94" y="-132.3" font-family="Times,serif" font-size="14.00">N₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="36,-128.5 152,-128.5 "/>
-<text text-anchor="middle" x="94" y="-117.3" font-family="Times,serif" font-size="14.00">N₂ ≤ N₁</text>
-<polyline fill="none" stroke="#7f7542" points="36,-113.5 152,-113.5 "/>
-<text text-anchor="middle" x="94" y="-102.3" font-family="Times,serif" font-size="14.00">rel&#45;prime(N₁,N₂)</text>
-</a>
-</g>
-</g>
-<!-- c_0_35&#45;&gt;c_0_63 -->
-<g id="edge1" class="edge">
-<title>c_0_35&#45;&gt;c_0_63</title>
-<path fill="none" stroke="black" d="M114,-210.39C114,-210.39 114,-183.7 114,-183.7"/>
-<polygon fill="black" stroke="black" points="117.5,-183.7 114,-173.7 110.5,-183.7 117.5,-183.7"/>
-</g>
-<!-- c_0_36 -->
-<g id="node2" class="node">
-<title>c_0_36</title>
-<g id="a_node2"><a xlink:href="c_0_36.html" xlink:title="{0 = Ø}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16,-240.5 16,-255.5 58,-255.5 58,-240.5 16,-240.5"/>
-<text text-anchor="middle" x="37" y="-244.3" font-family="Times,serif" font-size="14.00">0 = Ø</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="45,-98.5 45,-173.5 161,-173.5 161,-98.5 45,-98.5"/>
+<text text-anchor="middle" x="103" y="-162.3" font-family="Times,serif" font-size="14.00">prime(N₂)</text>
+<polyline fill="none" stroke="#7f7542" points="45,-158.5 161,-158.5 "/>
+<text text-anchor="middle" x="103" y="-147.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="45,-143.5 161,-143.5 "/>
+<text text-anchor="middle" x="103" y="-132.3" font-family="Times,serif" font-size="14.00">N₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="45,-128.5 161,-128.5 "/>
+<text text-anchor="middle" x="103" y="-117.3" font-family="Times,serif" font-size="14.00">N₂ ≤ N₁</text>
+<polyline fill="none" stroke="#7f7542" points="45,-113.5 161,-113.5 "/>
+<text text-anchor="middle" x="103" y="-102.3" font-family="Times,serif" font-size="14.00">rel&#45;prime(N₁,N₂)</text>
 </a>
 </g>
 </g>
 <!-- c_0_36&#45;&gt;c_0_63 -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>c_0_36&#45;&gt;c_0_63</title>
-<path fill="none" stroke="black" d="M47,-240.3C47,-240.3 47,-183.62 47,-183.62"/>
-<polygon fill="black" stroke="black" points="50.5,-183.62 47,-173.62 43.5,-183.62 50.5,-183.62"/>
+<path fill="none" stroke="black" d="M155.5,-240.3C155.5,-240.3 155.5,-183.62 155.5,-183.62"/>
+<polygon fill="black" stroke="black" points="159,-183.62 155.5,-173.62 152,-183.62 159,-183.62"/>
+</g>
+<!-- c_0_35 -->
+<g id="node2" class="node">
+<title>c_0_35</title>
+<g id="a_node2"><a xlink:href="c_0_35.html" xlink:title="{prime(N₂)|⇊|N₁ = 0|N₂ ≤ N₁|rel&#45;prime(N₁,N₂)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-210.5 16,-285.5 132,-285.5 132,-210.5 16,-210.5"/>
+<text text-anchor="middle" x="74" y="-274.3" font-family="Times,serif" font-size="14.00">prime(N₂)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-270.5 132,-270.5 "/>
+<text text-anchor="middle" x="74" y="-259.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-255.5 132,-255.5 "/>
+<text text-anchor="middle" x="74" y="-244.3" font-family="Times,serif" font-size="14.00">N₁ = 0</text>
+<polyline fill="none" stroke="#7f7542" points="16,-240.5 132,-240.5 "/>
+<text text-anchor="middle" x="74" y="-229.3" font-family="Times,serif" font-size="14.00">N₂ ≤ N₁</text>
+<polyline fill="none" stroke="#7f7542" points="16,-225.5 132,-225.5 "/>
+<text text-anchor="middle" x="74" y="-214.3" font-family="Times,serif" font-size="14.00">rel&#45;prime(N₁,N₂)</text>
+</a>
+</g>
+</g>
+<!-- c_0_35&#45;&gt;c_0_63 -->
+<g id="edge2" class="edge">
+<title>c_0_35&#45;&gt;c_0_63</title>
+<path fill="none" stroke="black" d="M88.5,-210.39C88.5,-210.39 88.5,-183.7 88.5,-183.7"/>
+<polygon fill="black" stroke="black" points="92,-183.7 88.5,-173.7 85,-183.7 92,-183.7"/>
 </g>
 <!-- c_0_90 -->
 <g id="node4" class="node">
 <title>c_0_90</title>
 <g id="a_node4"><a xlink:href="c_0_90.html" xlink:title="{N₁ = Ø|rel&#45;prime(N₁,sk₂)|sk₂ ≤ N₁}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="34,-16.5 34,-61.5 154,-61.5 154,-16.5 34,-16.5"/>
-<text text-anchor="middle" x="94" y="-50.3" font-family="Times,serif" font-size="14.00">N₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="34,-46.5 154,-46.5 "/>
-<text text-anchor="middle" x="94" y="-35.3" font-family="Times,serif" font-size="14.00">rel&#45;prime(N₁,sk₂)</text>
-<polyline fill="none" stroke="#7f7542" points="34,-31.5 154,-31.5 "/>
-<text text-anchor="middle" x="94" y="-20.3" font-family="Times,serif" font-size="14.00">sk₂ ≤ N₁</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="43,-16.5 43,-61.5 163,-61.5 163,-16.5 43,-16.5"/>
+<text text-anchor="middle" x="103" y="-50.3" font-family="Times,serif" font-size="14.00">N₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="43,-46.5 163,-46.5 "/>
+<text text-anchor="middle" x="103" y="-35.3" font-family="Times,serif" font-size="14.00">rel&#45;prime(N₁,sk₂)</text>
+<polyline fill="none" stroke="#7f7542" points="43,-31.5 163,-31.5 "/>
+<text text-anchor="middle" x="103" y="-20.3" font-family="Times,serif" font-size="14.00">sk₂ ≤ N₁</text>
 </a>
 </g>
 </g>
 <!-- c_0_63&#45;&gt;c_0_90 -->
 <g id="edge3" class="edge">
 <title>c_0_63&#45;&gt;c_0_90</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M94,-98.5C94,-98.5 94,-71.54 94,-71.54"/>
-<polygon fill="black" stroke="black" points="97.5,-71.54 94,-61.54 90.5,-71.54 97.5,-71.54"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M103,-98.5C103,-98.5 103,-71.54 103,-71.54"/>
+<polygon fill="black" stroke="black" points="106.5,-71.54 103,-61.54 99.5,-71.54 106.5,-71.54"/>
 </g>
 </g>
 </svg>

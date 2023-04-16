@@ -14,16 +14,14 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="196,-8 196,-40 226,-40 226,-8 196,-8"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="184,-8 184,-40 214,-40 214,-8 184,-8"/>
 </g>
-<!-- c_0_128 -->
+<!-- c_0_122 -->
 <g id="node1" class="node">
-<title>c_0_128</title>
-<g id="a_node1"><a xlink:href="c_0_128.html" xlink:title="{X₁ = Ø|\|1&#45;tuples(X₁)\| = \|X₁\|}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="256,-68.5 256,-98.5 394,-98.5 394,-68.5 256,-68.5"/>
-<text text-anchor="middle" x="325" y="-87.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="256,-83.5 394,-83.5 "/>
-<text text-anchor="middle" x="325" y="-72.3" font-family="Times,serif" font-size="14.00">|1&#45;tuples(X₁)| = |X₁|</text>
+<title>c_0_122</title>
+<g id="a_node1"><a xlink:href="c_0_122.html" xlink:title="{\|1&#45;tuples(sk₁)\| ≠ \|sk₁\|}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="244,-76 244,-91 394,-91 394,-76 244,-76"/>
+<text text-anchor="middle" x="319" y="-79.8" font-family="Times,serif" font-size="14.00">|1&#45;tuples(sk₁)| ≠ |sk₁|</text>
 </a>
 </g>
 </g>
@@ -31,46 +29,48 @@
 <g id="node4" class="node">
 <title>c_0_130</title>
 <g id="a_node4"><a xlink:href="c_0_130.html" xlink:title="⊥" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="204,-16.5 204,-31.5 218,-31.5 218,-16.5 204,-16.5"/>
-<text text-anchor="middle" x="211" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="192,-16.5 192,-31.5 206,-31.5 206,-16.5 192,-16.5"/>
+<text text-anchor="middle" x="199" y="-20.3" font-family="Times,serif" font-size="14.00">⊥</text>
 </a>
 </g>
 </g>
-<!-- c_0_128&#45;&gt;c_0_130 -->
+<!-- c_0_122&#45;&gt;c_0_130 -->
 <g id="edge1" class="edge">
-<title>c_0_128&#45;&gt;c_0_130</title>
-<path fill="none" stroke="black" d="M255.87,-71C233.02,-71 213.33,-71 213.33,-71 213.33,-71 213.33,-41.76 213.33,-41.76"/>
-<polygon fill="black" stroke="black" points="216.83,-41.76 213.33,-31.76 209.83,-41.76 216.83,-41.76"/>
+<title>c_0_122&#45;&gt;c_0_130</title>
+<path fill="none" stroke="black" d="M319,-75.72C319,-59.59 319,-24 319,-24 319,-24 216.15,-24 216.15,-24"/>
+<polygon fill="black" stroke="black" points="216.15,-20.5 206.15,-24 216.15,-27.5 216.15,-20.5"/>
 </g>
 <!-- c_0_129 -->
 <g id="node2" class="node">
 <title>c_0_129</title>
 <g id="a_node2"><a xlink:href="c_0_129.html" xlink:title="{sk₁ ≠ Ø}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="184,-76 184,-91 238,-91 238,-76 184,-76"/>
-<text text-anchor="middle" x="211" y="-79.8" font-family="Times,serif" font-size="14.00">sk₁ ≠ Ø</text>
+<polygon fill="#fa6900" stroke="#7f7542" points="172,-76 172,-91 226,-91 226,-76 172,-76"/>
+<text text-anchor="middle" x="199" y="-79.8" font-family="Times,serif" font-size="14.00">sk₁ ≠ Ø</text>
 </a>
 </g>
 </g>
 <!-- c_0_129&#45;&gt;c_0_130 -->
 <g id="edge2" class="edge">
 <title>c_0_129&#45;&gt;c_0_130</title>
-<path fill="none" stroke="black" d="M208.67,-75.72C208.67,-75.72 208.67,-41.59 208.67,-41.59"/>
-<polygon fill="black" stroke="black" points="212.17,-41.59 208.67,-31.59 205.17,-41.59 212.17,-41.59"/>
+<path fill="none" stroke="black" d="M201.33,-75.72C201.33,-75.72 201.33,-41.59 201.33,-41.59"/>
+<polygon fill="black" stroke="black" points="204.83,-41.59 201.33,-31.59 197.83,-41.59 204.83,-41.59"/>
 </g>
-<!-- c_0_122 -->
+<!-- c_0_128 -->
 <g id="node3" class="node">
-<title>c_0_122</title>
-<g id="a_node3"><a xlink:href="c_0_122.html" xlink:title="{\|1&#45;tuples(sk₁)\| ≠ \|sk₁\|}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="16,-76 16,-91 166,-91 166,-76 16,-76"/>
-<text text-anchor="middle" x="91" y="-79.8" font-family="Times,serif" font-size="14.00">|1&#45;tuples(sk₁)| ≠ |sk₁|</text>
+<title>c_0_128</title>
+<g id="a_node3"><a xlink:href="c_0_128.html" xlink:title="{X₁ = Ø|\|1&#45;tuples(X₁)\| = \|X₁\|}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-68.5 16,-98.5 154,-98.5 154,-68.5 16,-68.5"/>
+<text text-anchor="middle" x="85" y="-87.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="16,-83.5 154,-83.5 "/>
+<text text-anchor="middle" x="85" y="-72.3" font-family="Times,serif" font-size="14.00">|1&#45;tuples(X₁)| = |X₁|</text>
 </a>
 </g>
 </g>
-<!-- c_0_122&#45;&gt;c_0_130 -->
+<!-- c_0_128&#45;&gt;c_0_130 -->
 <g id="edge3" class="edge">
-<title>c_0_122&#45;&gt;c_0_130</title>
-<path fill="none" stroke="black" d="M91,-75.72C91,-59.59 91,-24 91,-24 91,-24 193.85,-24 193.85,-24"/>
-<polygon fill="black" stroke="black" points="193.85,-27.5 203.85,-24 193.85,-20.5 193.85,-27.5"/>
+<title>c_0_128&#45;&gt;c_0_130</title>
+<path fill="none" stroke="black" d="M154.13,-71C176.98,-71 196.67,-71 196.67,-71 196.67,-71 196.67,-41.76 196.67,-41.76"/>
+<polygon fill="black" stroke="black" points="200.17,-41.76 196.67,-31.76 193.17,-41.76 200.17,-41.76"/>
 </g>
 </g>
 </svg>

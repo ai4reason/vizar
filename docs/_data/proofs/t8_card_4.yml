@@ -128,14 +128,14 @@ skolems:
   esk6_1:
     axiom: d4_funct_1
     related:
-    - esk6_1
     - esk7_1
+    - esk6_1
     symbol: "sk\u2086"
   esk7_1:
     axiom: d4_funct_1
     related:
-    - esk6_1
     - esk7_1
+    - esk6_1
     symbol: "sk\u2087"
   esk9_2:
     axiom: fraenkel_a_1_0_finseq_2
@@ -188,8 +188,8 @@ steps:
       v1_relat_1: 1
       v2_funct_1: 1
     skolems:
-    - esk7_1
     - esk10_1
+    - esk7_1
     - esk6_1
   c_0_107:
     counts:
@@ -243,16 +243,16 @@ steps:
       r2_hidden: 1
       v1_xboole_0: 1
     skolems:
-    - esk10_1
     - esk5_2
+    - esk10_1
   c_0_115:
     counts:
       k9_finseq_1: 2
       v1_xboole_0: 1
       v2_funct_1: 1
     skolems:
-    - esk7_1
     - esk10_1
+    - esk7_1
     - esk6_1
   c_0_118:
     counts:
@@ -278,15 +278,15 @@ steps:
       v1_relat_1: 1
       v2_funct_1: 1
     skolems:
-    - esk6_1
     - esk7_1
+    - esk6_1
   c_0_121:
     counts:
       v1_xboole_0: 1
       v2_funct_1: 1
     skolems:
-    - esk7_1
     - esk10_1
+    - esk7_1
     - esk6_1
   c_0_122:
     counts:
@@ -585,8 +585,8 @@ steps:
       r1_tarski: 1
       v1_xboole_0: 1
     skolems:
-    - esk9_2
     - esk5_2
+    - esk9_2
   c_0_71:
     counts:
       a_1_0_finseq_2: 1
@@ -749,8 +749,8 @@ steps:
       v1_relat_1: 1
       v2_funct_1: 1
     skolems:
-    - esk6_1
     - esk7_1
+    - esk6_1
   c_0_94:
     counts:
       k10_xtuple_0: 1

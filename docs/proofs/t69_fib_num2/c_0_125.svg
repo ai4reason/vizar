@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="134,-112 134,-144 304,-144 304,-112 134,-112"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="162,-112 162,-144 332,-144 332,-112 162,-112"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="125,-60 125,-92 313,-92 313,-60 125,-60"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="153,-60 153,-92 341,-92 341,-60 153,-60"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -24,8 +24,8 @@
 <g id="node1" class="node">
 <title>redefinition_k6_nat_d</title>
 <g id="a_node1"><a xlink:href="redefinition_k6_nat_d.html" xlink:title="redefinition_k6_nat_d" target="_vizar">
-<polygon fill="#69d2e7" stroke="#7f7542" points="142.5,-120.5 142.5,-135.5 295.5,-135.5 295.5,-120.5 142.5,-120.5"/>
-<text text-anchor="middle" x="219" y="-124.3" font-family="Times,serif" font-size="14.00">redefinition_k6_nat_d</text>
+<polygon fill="#69d2e7" stroke="#7f7542" points="170.5,-120.5 170.5,-135.5 323.5,-135.5 323.5,-120.5 170.5,-120.5"/>
+<text text-anchor="middle" x="247" y="-124.3" font-family="Times,serif" font-size="14.00">redefinition_k6_nat_d</text>
 </a>
 </g>
 </g>
@@ -33,46 +33,46 @@
 <g id="node2" class="node">
 <title>c_0_125</title>
 <g id="a_node2"><a xlink:href="c_0_125.html" xlink:title="{gcd(N₁,N₂) = gcd(N₁,N₂)}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="133,-68.5 133,-83.5 305,-83.5 305,-68.5 133,-68.5"/>
-<text text-anchor="middle" x="219" y="-72.3" font-family="Times,serif" font-size="14.00">gcd(N₁,N₂) = gcd(N₁,N₂)</text>
+<polygon fill="#f8edd1" stroke="#7f7542" points="161,-68.5 161,-83.5 333,-83.5 333,-68.5 161,-68.5"/>
+<text text-anchor="middle" x="247" y="-72.3" font-family="Times,serif" font-size="14.00">gcd(N₁,N₂) = gcd(N₁,N₂)</text>
 </a>
 </g>
 </g>
 <!-- redefinition_k6_nat_d&#45;&gt;c_0_125 -->
 <g id="edge1" class="edge">
 <title>redefinition_k6_nat_d&#45;&gt;c_0_125</title>
-<path fill="none" stroke="black" d="M219,-120.33C219,-120.33 219,-93.7 219,-93.7"/>
-<polygon fill="black" stroke="black" points="222.5,-93.7 219,-83.7 215.5,-93.7 222.5,-93.7"/>
-</g>
-<!-- c_0_189 -->
-<g id="node3" class="node">
-<title>c_0_189</title>
-<g id="a_node3"><a xlink:href="c_0_189.html" xlink:title="{gcd(N₁,fib(sk₃)) = gcd(N₁,fib(sk₃))}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="214,-16.5 214,-31.5 450,-31.5 450,-16.5 214,-16.5"/>
-<text text-anchor="middle" x="332" y="-20.3" font-family="Times,serif" font-size="14.00">gcd(N₁,fib(sk₃)) = gcd(N₁,fib(sk₃))</text>
-</a>
-</g>
-</g>
-<!-- c_0_125&#45;&gt;c_0_189 -->
-<g id="edge2" class="edge">
-<title>c_0_125&#45;&gt;c_0_189</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M259.5,-68.33C259.5,-68.33 259.5,-41.7 259.5,-41.7"/>
-<polygon fill="black" stroke="black" points="263,-41.7 259.5,-31.7 256,-41.7 263,-41.7"/>
+<path fill="none" stroke="black" d="M247,-120.33C247,-120.33 247,-93.7 247,-93.7"/>
+<polygon fill="black" stroke="black" points="250.5,-93.7 247,-83.7 243.5,-93.7 250.5,-93.7"/>
 </g>
 <!-- c_0_177 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>c_0_177</title>
-<g id="a_node4"><a xlink:href="c_0_177.html" xlink:title="{gcd(N₁,sk₃) = gcd(N₁,sk₃)}" target="_vizar">
-<polygon fill="#fa6900" stroke="#7f7542" points="16.5,-16.5 16.5,-31.5 195.5,-31.5 195.5,-16.5 16.5,-16.5"/>
-<text text-anchor="middle" x="106" y="-20.3" font-family="Times,serif" font-size="14.00">gcd(N₁,sk₃) = gcd(N₁,sk₃)</text>
+<g id="a_node3"><a xlink:href="c_0_177.html" xlink:title="{gcd(N₁,sk₃) = gcd(N₁,sk₃)}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="270.5,-16.5 270.5,-31.5 449.5,-31.5 449.5,-16.5 270.5,-16.5"/>
+<text text-anchor="middle" x="360" y="-20.3" font-family="Times,serif" font-size="14.00">gcd(N₁,sk₃) = gcd(N₁,sk₃)</text>
 </a>
 </g>
 </g>
 <!-- c_0_125&#45;&gt;c_0_177 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>c_0_125&#45;&gt;c_0_177</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M164.25,-68.33C164.25,-68.33 164.25,-41.7 164.25,-41.7"/>
-<polygon fill="black" stroke="black" points="167.75,-41.7 164.25,-31.7 160.75,-41.7 167.75,-41.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M301.75,-68.33C301.75,-68.33 301.75,-41.7 301.75,-41.7"/>
+<polygon fill="black" stroke="black" points="305.25,-41.7 301.75,-31.7 298.25,-41.7 305.25,-41.7"/>
+</g>
+<!-- c_0_189 -->
+<g id="node4" class="node">
+<title>c_0_189</title>
+<g id="a_node4"><a xlink:href="c_0_189.html" xlink:title="{gcd(N₁,fib(sk₃)) = gcd(N₁,fib(sk₃))}" target="_vizar">
+<polygon fill="#fa6900" stroke="#7f7542" points="16,-16.5 16,-31.5 252,-31.5 252,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="134" y="-20.3" font-family="Times,serif" font-size="14.00">gcd(N₁,fib(sk₃)) = gcd(N₁,fib(sk₃))</text>
+</a>
+</g>
+</g>
+<!-- c_0_125&#45;&gt;c_0_189 -->
+<g id="edge3" class="edge">
+<title>c_0_125&#45;&gt;c_0_189</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M206.5,-68.33C206.5,-68.33 206.5,-41.7 206.5,-41.7"/>
+<polygon fill="black" stroke="black" points="210,-41.7 206.5,-31.7 203,-41.7 210,-41.7"/>
 </g>
 </g>
 </svg>

@@ -10,11 +10,11 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="280,-172 280,-204 386,-204 386,-172 280,-172"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="237,-172 237,-204 343,-204 343,-172 237,-172"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
-<polygon fill="transparent" stroke="black" stroke-width="2" points="221,-105 221,-152 445,-152 445,-105 221,-105"/>
+<polygon fill="transparent" stroke="black" stroke-width="2" points="179,-105 179,-152 401,-152 401,-105 179,-105"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_2</title>
@@ -24,27 +24,27 @@
 <g id="node1" class="node">
 <title>t96_finseq_2</title>
 <g id="a_node1"><a xlink:href="t96_finseq_2.html" xlink:title="t96_finseq_2" target="_vizar">
-<polygon fill="#69d2e7" stroke="#7f7542" points="288,-180.5 288,-195.5 378,-195.5 378,-180.5 288,-180.5"/>
-<text text-anchor="middle" x="333" y="-184.3" font-family="Times,serif" font-size="14.00">t96_finseq_2</text>
+<polygon fill="#69d2e7" stroke="#7f7542" points="245,-180.5 245,-195.5 335,-195.5 335,-180.5 245,-180.5"/>
+<text text-anchor="middle" x="290" y="-184.3" font-family="Times,serif" font-size="14.00">t96_finseq_2</text>
 </a>
 </g>
 </g>
 <!-- c_0_44 -->
 <g id="node2" class="node">
 <title>c_0_44</title>
-<g id="a_node2"><a xlink:href="c_0_44.html" xlink:title="{1&#45;tuples(X₁) = \{&amp;lt;x&amp;gt;: x ∈ X₁\}|X₁ = Ø}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="229.5,-113.5 229.5,-143.5 436.5,-143.5 436.5,-113.5 229.5,-113.5"/>
-<text text-anchor="middle" x="333" y="-132.3" font-family="Times,serif" font-size="14.00">1&#45;tuples(X₁) = {&lt;x&gt;: x ∈ X₁}</text>
-<polyline fill="none" stroke="#7f7542" points="229.5,-128.5 436.5,-128.5 "/>
-<text text-anchor="middle" x="333" y="-117.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<g id="a_node2"><a xlink:href="c_0_44.html" xlink:title="{1&#45;tuples(X₁) = \{&amp;lt;z&amp;gt;: z ∈ X₁\}|X₁ = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="187.5,-113.5 187.5,-143.5 392.5,-143.5 392.5,-113.5 187.5,-113.5"/>
+<text text-anchor="middle" x="290" y="-132.3" font-family="Times,serif" font-size="14.00">1&#45;tuples(X₁) = {&lt;z&gt;: z ∈ X₁}</text>
+<polyline fill="none" stroke="#7f7542" points="187.5,-128.5 392.5,-128.5 "/>
+<text text-anchor="middle" x="290" y="-117.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
 </a>
 </g>
 </g>
 <!-- t96_finseq_2&#45;&gt;c_0_44 -->
 <g id="edge1" class="edge">
 <title>t96_finseq_2&#45;&gt;c_0_44</title>
-<path fill="none" stroke="black" d="M333,-180.22C333,-180.22 333,-153.85 333,-153.85"/>
-<polygon fill="black" stroke="black" points="336.5,-153.85 333,-143.85 329.5,-153.85 336.5,-153.85"/>
+<path fill="none" stroke="black" d="M290,-180.22C290,-180.22 290,-153.85 290,-153.85"/>
+<polygon fill="black" stroke="black" points="293.5,-153.85 290,-143.85 286.5,-153.85 293.5,-153.85"/>
 </g>
 <!-- c_0_79 -->
 <g id="node3" class="node">
@@ -64,48 +64,48 @@
 <!-- c_0_44&#45;&gt;c_0_79 -->
 <g id="edge2" class="edge">
 <title>c_0_44&#45;&gt;c_0_79</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M429.25,-113.46C429.25,-113.46 429.25,-86.73 429.25,-86.73"/>
-<polygon fill="black" stroke="black" points="432.75,-86.73 429.25,-76.73 425.75,-86.73 432.75,-86.73"/>
-</g>
-<!-- c_0_62 -->
-<g id="node4" class="node">
-<title>c_0_62</title>
-<g id="a_node4"><a xlink:href="c_0_62.html" xlink:title="{X₂ ∈ X₁|⇊|&amp;lt;X₂&amp;gt; ∈ 1&#45;tuples(X₁)|X₁ = Ø}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="262,-16.5 262,-76.5 404,-76.5 404,-16.5 262,-16.5"/>
-<text text-anchor="middle" x="333" y="-65.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
-<polyline fill="none" stroke="#7f7542" points="262,-61.5 404,-61.5 "/>
-<text text-anchor="middle" x="333" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
-<polyline fill="none" stroke="#7f7542" points="262,-46.5 404,-46.5 "/>
-<text text-anchor="middle" x="333" y="-35.3" font-family="Times,serif" font-size="14.00">&lt;X₂&gt; ∈ 1&#45;tuples(X₁)</text>
-<polyline fill="none" stroke="#7f7542" points="262,-31.5 404,-31.5 "/>
-<text text-anchor="middle" x="333" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-</a>
-</g>
-</g>
-<!-- c_0_44&#45;&gt;c_0_62 -->
-<g id="edge3" class="edge">
-<title>c_0_44&#45;&gt;c_0_62</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M333,-113.46C333,-113.46 333,-86.73 333,-86.73"/>
-<polygon fill="black" stroke="black" points="336.5,-86.73 333,-76.73 329.5,-86.73 336.5,-86.73"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M392.77,-128C437.98,-128 481,-128 481,-128 481,-128 481,-86.85 481,-86.85"/>
+<polygon fill="black" stroke="black" points="484.5,-86.85 481,-76.85 477.5,-86.85 484.5,-86.85"/>
 </g>
 <!-- c_0_85 -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>c_0_85</title>
-<g id="a_node5"><a xlink:href="c_0_85.html" xlink:title="{1&#45;tuples(X₁) ⊆ X₂|X₁ = Ø|sk₅(1&#45;tuples(X₁),X₂) ∈ fin&#45;seq(X₁)}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="16.5,-24 16.5,-69 243.5,-69 243.5,-24 16.5,-24"/>
-<text text-anchor="middle" x="130" y="-57.8" font-family="Times,serif" font-size="14.00">1&#45;tuples(X₁) ⊆ X₂</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-54 243.5,-54 "/>
-<text text-anchor="middle" x="130" y="-42.8" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
-<polyline fill="none" stroke="#7f7542" points="16.5,-39 243.5,-39 "/>
-<text text-anchor="middle" x="130" y="-27.8" font-family="Times,serif" font-size="14.00">sk₅(1&#45;tuples(X₁),X₂) ∈ fin&#45;seq(X₁)</text>
+<g id="a_node4"><a xlink:href="c_0_85.html" xlink:title="{1&#45;tuples(X₁) ⊆ X₂|X₁ = Ø|sk₅(1&#45;tuples(X₁),X₂) ∈ fin&#45;seq(X₁)}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="176.5,-24 176.5,-69 403.5,-69 403.5,-24 176.5,-24"/>
+<text text-anchor="middle" x="290" y="-57.8" font-family="Times,serif" font-size="14.00">1&#45;tuples(X₁) ⊆ X₂</text>
+<polyline fill="none" stroke="#7f7542" points="176.5,-54 403.5,-54 "/>
+<text text-anchor="middle" x="290" y="-42.8" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+<polyline fill="none" stroke="#7f7542" points="176.5,-39 403.5,-39 "/>
+<text text-anchor="middle" x="290" y="-27.8" font-family="Times,serif" font-size="14.00">sk₅(1&#45;tuples(X₁),X₂) ∈ fin&#45;seq(X₁)</text>
 </a>
 </g>
 </g>
 <!-- c_0_44&#45;&gt;c_0_85 -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>c_0_44&#45;&gt;c_0_85</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M236.5,-113.46C236.5,-113.46 236.5,-79.19 236.5,-79.19"/>
-<polygon fill="black" stroke="black" points="240,-79.19 236.5,-69.19 233,-79.19 240,-79.19"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M290,-113.46C290,-113.46 290,-79.19 290,-79.19"/>
+<polygon fill="black" stroke="black" points="293.5,-79.19 290,-69.19 286.5,-79.19 293.5,-79.19"/>
+</g>
+<!-- c_0_62 -->
+<g id="node5" class="node">
+<title>c_0_62</title>
+<g id="a_node5"><a xlink:href="c_0_62.html" xlink:title="{X₂ ∈ X₁|⇊|&amp;lt;X₂&amp;gt; ∈ 1&#45;tuples(X₁)|X₁ = Ø}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="16,-16.5 16,-76.5 158,-76.5 158,-16.5 16,-16.5"/>
+<text text-anchor="middle" x="87" y="-65.3" font-family="Times,serif" font-size="14.00">X₂ ∈ X₁</text>
+<polyline fill="none" stroke="#7f7542" points="16,-61.5 158,-61.5 "/>
+<text text-anchor="middle" x="87" y="-50.3" font-family="Times,serif" font-size="14.00">⇊</text>
+<polyline fill="none" stroke="#7f7542" points="16,-46.5 158,-46.5 "/>
+<text text-anchor="middle" x="87" y="-35.3" font-family="Times,serif" font-size="14.00">&lt;X₂&gt; ∈ 1&#45;tuples(X₁)</text>
+<polyline fill="none" stroke="#7f7542" points="16,-31.5 158,-31.5 "/>
+<text text-anchor="middle" x="87" y="-20.3" font-family="Times,serif" font-size="14.00">X₁ = Ø</text>
+</a>
+</g>
+</g>
+<!-- c_0_44&#45;&gt;c_0_62 -->
+<g id="edge4" class="edge">
+<title>c_0_44&#45;&gt;c_0_62</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M187.31,-128C136.96,-128 87,-128 87,-128 87,-128 87,-86.85 87,-86.85"/>
+<polygon fill="black" stroke="black" points="90.5,-86.85 87,-76.85 83.5,-86.85 90.5,-86.85"/>
 </g>
 </g>
 </svg>

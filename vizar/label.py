@@ -40,28 +40,57 @@ def term(t, pars=False, predicate=False):
          ret = "(%s)" % ret if pars else ret
          return ret
 
-def clause(lits):
+def ensure_pos(pos, neg, neglit):
+   "Ensure there is always at least one positive literal"
+   rem = []
+   for lbl in neg:
+      lit = neglit[lbl]
+      for pat in mizar.NEGATE:
+         if mizar.match(pat, lit[1:]):
+            t = mizar.apply(mizar.NEGATE[pat], lit[2:])
+            neglbl = term(t, predicate=True)
+            pos.append(neglbl)
+            rem.append(lbl)
+            break
+      if rem: 
+         break
+   for x in rem:
+      neg.remove(x)
+   if not rem and neg:
+      lbl = neg.pop(0)
+      if " = " in lbl:
+         neglbl = lbl.replace(" = ", " ≠ ")
+      elif " ∈ " in lbl:
+         neglbl = lbl.replace(" ∈ ", " ∉ ")
+      elif " । " in lbl:
+         neglbl = lbl.replace(" । ",  " ∤ ")
+      else:
+         neglbl = "¬ (%s)" % lbl
+      pos.append(neglbl)
+
+def clause(trans, origs):
    pos = []
    neg = []
-   for lit in lits:
+   #poslit = {}
+   neglit = {}
+   for (lit, orig) in zip(trans, origs):
+      lbl = term(lit[1:], predicate=True)
       if lit[0]: 
-         pos.append(term(lit[1:], predicate=True))
+         pos.append(lbl)
+         #poslit[lbl] = lit
       else:
-         neg.append(term(lit[1:], predicate=True))
+         neg.append(lbl)
+         neglit[lbl] = orig
    pos = sorted(set(pos))
    neg = sorted(set(neg))
+
+   if neg and not pos:
+      ensure_pos(pos, neg, neglit)   
+
    if pos and neg:
       return "{%s|⇊|%s}" % ("|".join(neg), "|".join(pos))
    elif pos:
       return "{%s}" % "|".join(pos)
-   elif neg:
-      if len(neg) == 1:
-         if " = " in neg[0]:
-            return "{%s}" % neg[0].replace(" = ", " ≠ ")
-         else:
-            return "{¬ (%s)}" % neg[0]
-      else:
-         return "{%s|⇊|⊥}" % "|".join(neg)
    else:
      return "⊥"
       

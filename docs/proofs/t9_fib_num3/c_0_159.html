@@ -9,14 +9,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="at Czech Institute of Informatics, Robotics and Cybernetics" />
 <meta property="og:description" content="at Czech Institute of Informatics, Robotics and Cybernetics" />
-<link rel="canonical" href="ai4reason.github.io/vizar/proofs/t8_card_4/c_0_38.html" />
-<meta property="og:url" content="ai4reason.github.io/vizar/proofs/t8_card_4/c_0_38.html" />
+<link rel="canonical" href="ai4reason.github.io/vizar/proofs/t9_fib_num3/c_0_159.html" />
+<meta property="og:url" content="ai4reason.github.io/vizar/proofs/t9_fib_num3/c_0_159.html" />
 <meta property="og:site_name" content="VizAR for MizAR" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="VizAR for MizAR" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"at Czech Institute of Informatics, Robotics and Cybernetics","headline":"VizAR for MizAR","url":"ai4reason.github.io/vizar/proofs/t8_card_4/c_0_38.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"at Czech Institute of Informatics, Robotics and Cybernetics","headline":"VizAR for MizAR","url":"ai4reason.github.io/vizar/proofs/t9_fib_num3/c_0_159.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/vizar/assets/css/style.css">
   <link rel="stylesheet" href="/vizar/assets/css/mizar.css"><link type="application/atom+xml" rel="alternate" href="ai4reason.github.io/vizar/feed.xml" title="VizAR for MizAR" />
@@ -41,10 +41,10 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1>Proof step <b>c_0_38</b> of <a href="index.html">t8_card_4</a></h1>
+        <h1>Proof step <b>c_0_159</b> of <a href="index.html">t9_fib_num3</a></h1>
 
-<object type="image/svg+xml" data="/vizar/proofs/t8_card_4/c_0_38.svg">
-   <img src="/vizar/proofs/t8_card_4/c_0_38.svg" />
+<object type="image/svg+xml" data="/vizar/proofs/t9_fib_num3/c_0_159.svg">
+   <img src="/vizar/proofs/t9_fib_num3/c_0_159.svg" />
 </object>
 
 
@@ -54,13 +54,107 @@
 
 
 
+<h2>Step Skolem symbols</h2>
 
+<table>
+   <tr>
+      <th>symbol</th>
+      <th>origin</th>
+   </tr>
+
+
+
+   
+   
+   <tr>
+      <td>
+         
+         
+            sk₁<br/>
+            
+         
+      </td>
+      <td>
+         <object type="image/svg+xml" data="/vizar/proofs/t9_fib_num3/t9_fib_num3.svg">
+            <img src="/vizar/proofs/t9_fib_num3/t9_fib_num3.svg" />
+         </object>
+      </td>
+   </tr>
+   
+
+</table>
+
+
+
+<h2>Step Mizar symbols</h2>
+<table>
+   <tr>
+      <th>ATP symbol</th>
+      <th>Mizar symbol</th>
+      <th>VizAR syntax</th>
+      <th>arity</th>
+      <th>count</th>
+   </tr>
+
+
+
+   
+   
+   <tr>
+      <td>k1_fib_num</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#K1" target="_mizar">tau</a></td>
+      
+      <td>τ⁺</td>
+      <td>0</td>
+      <td>3</td>
+   </tr>
+
+   
+   
+   <tr>
+      <td>k3_power</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/power.html#K3" target="_mizar">to_power</a></td>
+      
+      <td>x ^ y</td>
+      <td>2</td>
+      <td>2</td>
+   </tr>
+
+   
+   
+   <tr>
+      <td>k3_xcmplx_0</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K3" target="_mizar">*</a></td>
+      
+      <td>x * y</td>
+      <td>2</td>
+      <td>1</td>
+   </tr>
+
+   
+   
+   <tr>
+      <td>v1_xcmplx_0</td>
+      
+        <td><a href="http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#V1" target="_mizar">complex</a></td>
+      
+      <td>x ∈ ℂ</td>
+      <td>1</td>
+      <td>2</td>
+   </tr>
+
+</table>
 
 
 <h2>Raw TPTP formula</h2>
 
 <pre>
-
+cnf(c_0_159,negated_conjecture,
+    ( ~ v1_xcmplx_0(k3_power(k1_fib_num,esk1_0))
+    | ~ v1_xcmplx_0(k3_xcmplx_0(k1_fib_num,k3_power(k1_fib_num,esk1_0))) )).
 </pre>
 
 

@@ -11,8 +11,8 @@ axioms:
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#CC17
   cc21_membered:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2286 \u211D)\n     \u21D2 (\u2200\
-      X\u2082)\n          ( (X\u2082 \u2208 bool(X\u2081))\n         \u21D2 (X\u2082\
-      \ \u2286 \u211D) ) ) "
+      X\u2082)\n          ( (X\u2082 \u2208 (\U0001D4AB(X\u2081)))\n         \u21D2\
+      \ (X\u2082 \u2286 \u211D) ) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/membered.html#CC21
   cc2_xreal_0:
     fof: "    (\u2200X\u2081)\n      ( (X\u2081 \u2208 \u2115)\n     \u21D2 (X\u2081\
@@ -35,7 +35,7 @@ axioms:
       \ \u2115 \u2286 \u211D) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_1.html#K1
   dt_k5_numbers:
-    fof: "    (\u2115 \u2208 bool(\u211D)) "
+    fof: "    (\u2115 \u2208 (\U0001D4AB(\u211D))) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
   fc1_nat_1:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2115)\n       \
@@ -80,9 +80,9 @@ axioms:
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#K9
   redefinition_m2_subset_1:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( \xAC (X\u2081 = \xD8)\n        \u2227\
-      \ \xAC (X\u2082 = \xD8)\n        \u2227 (X\u2082 \u2208 bool(X\u2081)) )\n \
-      \    \u21D2 (\u2200X\u2083)\n          ( (X\u2083 \u2208 X\u2082 \u2286 X\u2081\
-      )\n        \u2261 (X\u2083 \u2208 X\u2082) ) ) "
+      \ \xAC (X\u2082 = \xD8)\n        \u2227 (X\u2082 \u2208 (\U0001D4AB(X\u2081\
+      ))) )\n     \u21D2 (\u2200X\u2083)\n          ( (X\u2083 \u2208 X\u2082 \u2286\
+      \ X\u2081)\n        \u2261 (X\u2083 \u2208 X\u2082) ) ) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M2
   redefinition_r1_nat_d:
     fof: "    (\u2200X\u2081,X\u2082)\n      ( ( (X\u2081 \u2208 \u2115)\n       \
@@ -109,11 +109,11 @@ axioms:
       \  \u2227 (0 \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC0
   spc1_numerals:
-    fof: "    ( positive(1)\n    \u2227 (1 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+    fof: "    ( (1 &gt; 0)\n    \u2227 (1 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
       \ (1 \u2208 \u2115)\n    \u2227 (1 \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC1
   spc2_numerals:
-    fof: "    ( positive(2)\n    \u2227 (2 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
+    fof: "    ( (2 &gt; 0)\n    \u2227 (2 \u2208 \u2115 \u2286 \u211D)\n    \u2227\
       \ (2 \u2208 \u2115)\n    \u2227 (2 \u2208 \u211D) "
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numerals.html#SPC2
   t28_int_2:
@@ -194,37 +194,31 @@ steps:
   c_0_103:
     counts:
       k1_nat_1: 1
-      k5_numbers: 1
-      m1_subset_1: 1
       v1_xreal_0: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_104:
     counts:
-      k5_numbers: 1
-      m1_subset_1: 1
       np__2: 1
+      v7_ordinal1: 1
     skolems: []
   c_0_105:
     counts:
       np__1: 1
       np__2: 1
       r1_xxreal_0: 2
-      v7_ordinal1: 2
     skolems:
     - esk4_1
   c_0_106:
     counts:
-      k2_xcmplx_0: 4
-      k3_newton: 4
+      k2_xcmplx_0: 3
+      k3_newton: 3
       np__0: 1
-      np__1: 5
+      np__1: 4
       np__2: 1
       r1_xxreal_0: 1
-      v7_ordinal1: 1
     skolems:
-    - esk1_0
     - esk4_1
+    - esk1_0
   c_0_107:
     counts:
       np__0: 1
@@ -235,7 +229,6 @@ steps:
     counts:
       k2_xcmplx_0: 2
       r1_xxreal_0: 3
-      v1_xreal_0: 4
     skolems: []
   c_0_110:
     counts:
@@ -255,15 +248,14 @@ steps:
     - esk3_0
   c_0_116:
     counts:
-      k2_xcmplx_0: 3
-      k3_newton: 3
-      np__1: 4
+      k2_xcmplx_0: 2
+      k3_newton: 2
+      np__1: 3
       np__2: 1
       r1_xxreal_0: 1
-      v7_ordinal1: 1
     skolems:
-    - esk1_0
     - esk4_1
+    - esk1_0
   c_0_117:
     counts:
       np__1: 2
@@ -272,10 +264,9 @@ steps:
   c_0_119:
     counts:
       k2_xcmplx_0: 1
-      np__0: 2
-      np__2: 3
+      np__0: 1
+      np__2: 2
       r1_xxreal_0: 3
-      v1_xreal_0: 4
     skolems: []
   c_0_120:
     counts:
@@ -297,16 +288,14 @@ steps:
     counts:
       k9_newton: 1
       r1_xxreal_0: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_126:
     counts:
-      k2_xcmplx_0: 2
-      k3_newton: 2
-      np__1: 2
+      k2_xcmplx_0: 1
+      k3_newton: 1
+      np__1: 1
       np__2: 1
       r1_xxreal_0: 1
-      v7_ordinal1: 1
     skolems:
     - esk1_0
   c_0_128:
@@ -317,12 +306,10 @@ steps:
   c_0_131:
     counts:
       r1_xxreal_0: 3
-      v1_xxreal_0: 3
     skolems: []
   c_0_133:
     counts:
       v1_xxreal_0: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_134:
     counts:
@@ -331,39 +318,44 @@ steps:
     skolems: []
   c_0_135:
     counts:
-      k2_xcmplx_0: 1
-      k3_newton: 3
-      np__1: 1
+      k3_newton: 1
       np__2: 1
       r1_xxreal_0: 1
-      v1_xreal_0: 1
-      v7_ordinal1: 1
     skolems:
     - esk1_0
   c_0_136:
     counts:
       k2_xcmplx_0: 1
-      v7_ordinal1: 3
+      v7_ordinal1: 1
     skolems: []
   c_0_137:
     counts:
       v1_xreal_0: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_138:
     counts:
-      k3_newton: 2
+      k3_newton: 1
       r1_xxreal_0: 2
-      v1_xxreal_0: 2
-      v7_ordinal1: 1
     skolems: []
   c_0_139:
     counts:
-      np__2: 2
+      np__2: 1
       r1_xxreal_0: 1
+    skolems:
+    - esk1_0
+  c_0_143:
+    counts:
+      k3_newton: 1
+      np__2: 1
+      v1_xxreal_0: 1
       v7_ordinal1: 1
     skolems:
     - esk1_0
+  c_0_144:
+    counts:
+      np__2: 1
+      v1_xxreal_0: 1
+    skolems: []
   c_0_41:
     counts:
       k1_xboole_0: 1
@@ -379,21 +371,16 @@ steps:
       k1_nat_1: 1
       np__1: 2
       r1_nat_d: 2
-      v7_ordinal1: 2
     skolems: []
   c_0_44:
     counts:
       k1_nat_1: 1
       k2_xcmplx_0: 1
-      k5_numbers: 1
-      m1_subset_1: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_45:
     counts:
-      k5_numbers: 1
-      m1_subset_1: 1
       np__1: 1
+      v7_ordinal1: 1
     skolems: []
   c_0_49:
     counts:
@@ -419,7 +406,6 @@ steps:
     counts:
       r1_int_1: 1
       r1_nat_d: 1
-      v7_ordinal1: 2
     skolems: []
   c_0_58:
     counts:
@@ -429,8 +415,6 @@ steps:
     skolems: []
   c_0_59:
     counts:
-      k5_numbers: 1
-      m1_subset_1: 1
       np__2: 1
       r1_xxreal_0: 1
       v7_ordinal1: 1
@@ -447,7 +431,6 @@ steps:
       k9_newton: 1
       r1_nat_d: 1
       r1_xxreal_0: 1
-      v7_ordinal1: 2
     skolems: []
   c_0_62:
     counts:
@@ -464,20 +447,17 @@ steps:
       np__2: 1
       r1_int_1: 1
       r1_xxreal_0: 1
-      v7_ordinal1: 1
     skolems:
     - esk4_1
   c_0_74:
     counts:
       k3_newton: 1
       k9_newton: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_76:
     counts:
       r1_xxreal_0: 1
       v1_int_2: 2
-      v7_ordinal1: 1
     skolems:
     - esk1_0
   c_0_78:
@@ -491,10 +471,8 @@ steps:
     counts:
       k1_nat_1: 1
       k1_numbers: 1
-      k5_numbers: 2
-      m1_subset_1: 1
+      k5_numbers: 1
       m2_subset_1: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_80:
     counts:
@@ -526,25 +504,23 @@ steps:
     skolems: []
   c_0_86:
     counts:
-      k2_xcmplx_0: 4
-      np__1: 5
+      k2_xcmplx_0: 3
+      np__1: 4
       np__2: 1
       r1_nat_d: 1
       r1_xxreal_0: 1
-      v7_ordinal1: 2
     skolems:
     - esk4_1
   c_0_88:
     counts:
       k3_newton: 1
-      v7_ordinal1: 2
+      v7_ordinal1: 1
     skolems: []
   c_0_90:
     counts:
       np__2: 1
       r1_xxreal_0: 1
       v1_int_2: 1
-      v7_ordinal1: 1
     skolems:
     - esk4_1
   c_0_92:
@@ -556,8 +532,6 @@ steps:
   c_0_93:
     counts:
       k1_nat_1: 1
-      k5_numbers: 2
-      m1_subset_1: 2
       v7_ordinal1: 1
     skolems: []
   c_0_94:
@@ -570,27 +544,24 @@ steps:
       np__1: 1
       r1_xxreal_0: 1
       v1_int_2: 1
-      v7_ordinal1: 1
     skolems: []
   c_0_96:
     counts:
-      k2_xcmplx_0: 5
-      k3_newton: 5
+      k2_xcmplx_0: 4
+      k3_newton: 4
       np__0: 1
-      np__1: 6
+      np__1: 5
       np__2: 1
       r1_xxreal_0: 2
-      v7_ordinal1: 2
     skolems:
     - esk4_1
   c_0_97:
     counts:
       np__2: 1
       r1_xxreal_0: 2
-      v7_ordinal1: 2
     skolems:
-    - esk1_0
     - esk4_1
+    - esk1_0
   c_0_98:
     counts:
       v7_ordinal1: 1
@@ -598,9 +569,8 @@ steps:
     - esk1_0
   c_0_99:
     counts:
-      k5_numbers: 1
-      m1_subset_1: 1
       np__0: 1
+      v7_ordinal1: 1
     skolems: []
 symbols:
   k1_nat_1:
@@ -634,20 +604,20 @@ symbols:
     neg: 2
     pos: 1
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zfmisc_1.html#K1
-    vizar: bool(x)
+    vizar: "\U0001D4AB(x)"
   k2_xcmplx_0:
     arity: 2
-    count: 31
+    count: 24
     mizar: +
-    neg: 16
+    neg: 9
     pos: 15
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xcmplx_0.html#K2
     vizar: x + y
   k3_newton:
     arity: 1
-    count: 27
+    count: 19
     mizar: '!'
-    neg: 16
+    neg: 8
     pos: 11
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/newton.html#K3
     vizar: x!
@@ -661,10 +631,10 @@ symbols:
     vizar: "\u03C9"
   k5_numbers:
     arity: 0
-    count: 16
+    count: 6
     mizar: NAT
-    neg: 6
-    pos: 10
+    neg: 1
+    pos: 5
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/numbers.html#K5
     vizar: "\u2115"
   k6_numbers:
@@ -685,10 +655,10 @@ symbols:
     vizar: x!
   m1_subset_1:
     arity: 2
-    count: 16
+    count: 6
     mizar: Element
-    neg: 9
-    pos: 7
+    neg: 4
+    pos: 2
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/subset_1.html#M1
     vizar: "x \u2208 y"
   m2_subset_1:
@@ -701,25 +671,25 @@ symbols:
     vizar: "x \u2208 z \u2286 y"
   np__0:
     arity: 0
-    count: 17
+    count: 16
     mizar: '0'
-    neg: 3
+    neg: 2
     pos: 14
     url: null
     vizar: '0'
   np__1:
     arity: 0
-    count: 40
+    count: 33
     mizar: '1'
-    neg: 19
+    neg: 12
     pos: 21
     url: null
     vizar: '1'
   np__2:
     arity: 0
-    count: 29
+    count: 27
     mizar: '2'
-    neg: 19
+    neg: 17
     pos: 10
     url: null
     vizar: '2'
@@ -765,17 +735,17 @@ symbols:
     vizar: "x = \xD8"
   v1_xreal_0:
     arity: 1
-    count: 19
+    count: 8
     mizar: real
-    neg: 11
+    neg: 0
     pos: 8
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xreal_0.html#V1
     vizar: "x \u2208 \u211D"
   v1_xxreal_0:
     arity: 1
-    count: 9
+    count: 3
     mizar: ext-real
-    neg: 8
+    neg: 2
     pos: 1
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xxreal_0.html#V1
     vizar: "x \u2208 \U0001D53C"
@@ -797,10 +767,10 @@ symbols:
     vizar: "x \u2286 \u2115"
   v7_ordinal1:
     arity: 1
-    count: 60
+    count: 14
     mizar: natural
-    neg: 52
-    pos: 8
+    neg: 1
+    pos: 13
     url: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal1.html#V7
     vizar: "x \u2208 \u2115"
 tptp:
@@ -853,6 +823,9 @@ tptp:
     \ ))."
   c_0_139: "cnf(c_0_139,negated_conjecture,\n    ( r1_xxreal_0(np__2,esk1_0)\n   \
     \ | ~ v7_ordinal1(np__2) ))."
+  c_0_143: "cnf(c_0_143,negated_conjecture,\n    ( ~ v1_xxreal_0(np__2)\n    | ~ v7_ordinal1(k3_newton(esk1_0))\
+    \ ))."
+  c_0_144: "cnf(c_0_144,negated_conjecture,\n    ( ~ v1_xxreal_0(np__2) ))."
   c_0_145: "cnf(c_0_145,negated_conjecture,\n    ( $false ))."
   c_0_41: "cnf(c_0_41,plain,\n    ( X1 = k1_xboole_0\n    | ~ v1_xboole_0(X1) ))."
   c_0_42: "cnf(c_0_42,plain,\n    ( k6_numbers = k1_xboole_0 ))."

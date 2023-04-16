@@ -10,7 +10,7 @@
 <title>proof</title>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
-<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="114,-202 114,-279 332,-279 332,-202 114,-202"/>
+<polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="94,-202 94,-279 312,-279 312,-202 94,-202"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
@@ -20,12 +20,12 @@
 <title>cluster_2</title>
 <polygon fill="transparent" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-100 436,-100 436,-8 8,-8"/>
 </g>
-<!-- t31_int_2 -->
+<!-- c_0_60 -->
 <g id="node1" class="node">
-<title>t31_int_2</title>
-<g id="a_node1"><a xlink:href="t31_int_2.html" xlink:title="t31_int_2" target="_vizar">
-<polygon fill="#69d2e7" stroke="#7f7542" points="256.5,-233 256.5,-248 323.5,-248 323.5,-233 256.5,-233"/>
-<text text-anchor="middle" x="290" y="-236.8" font-family="Times,serif" font-size="14.00">t31_int_2</text>
+<title>c_0_60</title>
+<g id="a_node1"><a xlink:href="c_0_60.html" xlink:title="{ℕ ⊆ ℕ}" target="_vizar">
+<polygon fill="#f8edd1" stroke="#7f7542" points="256.5,-233 256.5,-248 303.5,-248 303.5,-233 256.5,-233"/>
+<text text-anchor="middle" x="280" y="-236.8" font-family="Times,serif" font-size="14.00">ℕ ⊆ ℕ</text>
 </a>
 </g>
 </g>
@@ -42,10 +42,10 @@
 </a>
 </g>
 </g>
-<!-- t31_int_2&#45;&gt;c_0_59 -->
+<!-- c_0_60&#45;&gt;c_0_59 -->
 <g id="edge1" class="edge">
-<title>t31_int_2&#45;&gt;c_0_59</title>
-<path fill="none" stroke="black" d="M256.21,-240C250.3,-240 246,-240 246,-240 246,-240 246,-183.92 246,-183.92"/>
+<title>c_0_60&#45;&gt;c_0_59</title>
+<path fill="none" stroke="black" d="M256.39,-240C250.58,-240 246,-240 246,-240 246,-240 246,-183.92 246,-183.92"/>
 <polygon fill="black" stroke="black" points="249.5,-183.92 246,-173.92 242.5,-183.92 249.5,-183.92"/>
 </g>
 <!-- c_0_58 -->
@@ -69,19 +69,19 @@
 <path fill="none" stroke="black" d="M213,-210.2C213,-210.2 213,-183.63 213,-183.63"/>
 <polygon fill="black" stroke="black" points="216.5,-183.63 213,-173.63 209.5,-183.63 216.5,-183.63"/>
 </g>
-<!-- c_0_60 -->
+<!-- t31_int_2 -->
 <g id="node3" class="node">
-<title>c_0_60</title>
-<g id="a_node3"><a xlink:href="c_0_60.html" xlink:title="{ℕ ⊆ ℕ}" target="_vizar">
-<polygon fill="#f8edd1" stroke="#7f7542" points="122.5,-233 122.5,-248 169.5,-248 169.5,-233 122.5,-233"/>
-<text text-anchor="middle" x="146" y="-236.8" font-family="Times,serif" font-size="14.00">ℕ ⊆ ℕ</text>
+<title>t31_int_2</title>
+<g id="a_node3"><a xlink:href="t31_int_2.html" xlink:title="t31_int_2" target="_vizar">
+<polygon fill="#69d2e7" stroke="#7f7542" points="102.5,-233 102.5,-248 169.5,-248 169.5,-233 102.5,-233"/>
+<text text-anchor="middle" x="136" y="-236.8" font-family="Times,serif" font-size="14.00">t31_int_2</text>
 </a>
 </g>
 </g>
-<!-- c_0_60&#45;&gt;c_0_59 -->
+<!-- t31_int_2&#45;&gt;c_0_59 -->
 <g id="edge3" class="edge">
-<title>c_0_60&#45;&gt;c_0_59</title>
-<path fill="none" stroke="black" d="M169.61,-240C175.42,-240 180,-240 180,-240 180,-240 180,-183.92 180,-183.92"/>
+<title>t31_int_2&#45;&gt;c_0_59</title>
+<path fill="none" stroke="black" d="M169.79,-240C175.7,-240 180,-240 180,-240 180,-240 180,-183.92 180,-183.92"/>
 <polygon fill="black" stroke="black" points="183.5,-183.92 180,-173.92 176.5,-183.92 183.5,-183.92"/>
 </g>
 <!-- c_0_106 -->
@@ -102,8 +102,8 @@
 <!-- c_0_59&#45;&gt;c_0_106 -->
 <g id="edge4" class="edge">
 <title>c_0_59&#45;&gt;c_0_106</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M254.17,-151C280.89,-151 310.75,-151 310.75,-151 310.75,-151 310.75,-94.16 310.75,-94.16"/>
-<polygon fill="black" stroke="black" points="314.25,-94.16 310.75,-84.16 307.25,-94.16 314.25,-94.16"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M254.34,-151C299.57,-151 365.75,-151 365.75,-151 365.75,-151 365.75,-94.16 365.75,-94.16"/>
+<polygon fill="black" stroke="black" points="369.25,-94.16 365.75,-84.16 362.25,-94.16 369.25,-94.16"/>
 </g>
 <!-- c_0_96 -->
 <g id="node6" class="node">
@@ -146,8 +146,8 @@
 <!-- c_0_59&#45;&gt;c_0_86 -->
 <g id="edge6" class="edge">
 <title>c_0_59&#45;&gt;c_0_86</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M171.88,-151C129.47,-151 69.5,-151 69.5,-151 69.5,-151 69.5,-94.16 69.5,-94.16"/>
-<polygon fill="black" stroke="black" points="73,-94.16 69.5,-84.16 66,-94.16 73,-94.16"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M171.72,-151C144.94,-151 115,-151 115,-151 115,-151 115,-94.16 115,-94.16"/>
+<polygon fill="black" stroke="black" points="118.5,-94.16 115,-84.16 111.5,-94.16 118.5,-94.16"/>
 </g>
 </g>
 </svg>

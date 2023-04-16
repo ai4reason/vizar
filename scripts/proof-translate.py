@@ -8,6 +8,16 @@ REPLACE = [
   (r"m1_subset_1\(([^ |&=><~:]+),k1_numbers\)", r"v1_xreal_0(\1)"),
 ]
 
+
+def match(fun, *args):
+   return (fun, tuple(args))
+
+RP = {
+  ("m1_subset_1", "*", "k5_numbers"): ("v7_ordinal1", 0),
+  ("m1_subset_1", "*", "k1_numbers"): ("v1_xreal_0", 0),
+}
+
+
 REPLACE = [(re.compile(x), y) for (x,y) in REPLACE]
 
 #f = "t28_fib_num3"
