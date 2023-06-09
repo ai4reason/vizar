@@ -81,11 +81,68 @@ The following commands demonstrate the process.
 $ git clone https://github.com/ai4reason/vizar.git
 $ cd vizar
 $ cd docs
-$ ./docker-run.sh
+$ ./docker-server.sh
 ```
 
 Now, your local VizAR copy is running at [http://0.0.0.0:4000/vizar/](http://0.0.0.0:4000/vizar/).
 Note that the first launch might take longer as the dependencies need to be downloaded and installed.
+
+### Adding a new proof to VizAR
+
+To add a new proof to the VizAR gallery, you can use the `add-proof.sh` from the `scripts` directory.
+The script parses the TPTP proofs, generates various Graphiz `dot` files, uses Graphviz to generate SVG images from `dot`s, and updates the files in the `docs` folder appropriatelly.
+
+In order to use the `add-proof.sh` script, place your TPTP proof directly in the directory `scripts` and name it reasonably as the proof filename will be used to name other OS files and this name will also appear in the gallery of the web interface.
+Suppose your proof is placed in the file `proofname`.  Run the script as follows:
+
+```bash
+$ ./add-proof.sh proofname
+```
+
+The script will produce the following outputs:
+
+1. The temporary output `dot` files will be placed in the `scripts/dots/proofname` directory.  This includes graphs for individual proof steps, the full proof view, and the conjecture-centered view.
+2. The SVG images will be placed in `docs/proofs/proofname`.
+3. Various proof data to generate the web interface will be placed as a YAML file in `docs/_data/proofs/proofname.yml`.
+4. Markdown page templates for individual proof steps and other content will be placed in `docs/proofs/proofname`.
+
+Note that you need to have the Grahviz installed to run the script (`sudo dnf install graphviz` or `sudo apt-get install graphviz`).  Also there is a `30` seconds time limit for generartion of a single image.
+
+Now you can either commit the changes and push (to update the GitHub pages web) or just launch `./docker-serve.sh` from the `docs` directory.  Note that the `jekyll` running on your machine in `docker` should monitor for updates in `docs` and hence you do not need to restart it.
+
+### Running just individual scripts
+
+If you want just to generate the full proof image of your proof you can use just the script `./dot-proof.py` without the web interface.
+The script takes 2 arguments as follows
+
+```bash
+$ ./dot-proof.py proofname outputname.dot
+```
+
+and it will generate the `dot` output file and save it to the file provided as the second argument.  Then you can use Graphviz to generate the image as follows.
+
+```bash
+$ dot -Tsvg outputname.dot > outputname.svg
+```
+
+If you want to generate only the conjecture-centered view, use the script `dot-proof-conjecture.py` as follows:
+
+```bash
+$ ./dot-proof-conjecture.py proofname outputname-conj.dot
+```
+
+To generate images for individual proof steps, use the script `dot-proof-steps.py` as follows:
+
+```bash
+./dot-proof-steps.py proofname dot-tmp-dir proofs-output-dir
+```
+
+This will generate the graphs for all proof steps and it will place the Graphviz graphs in `dot-tmp-dir`.  
+Additionally, Markdown files which describes proof steps will be placed in `proofs-output-dir`.
+
+
+
+
 
 
 
