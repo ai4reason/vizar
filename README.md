@@ -110,7 +110,7 @@ Note that you need to have the Grahviz installed to run the script (`sudo dnf in
 
 Now you can either commit the changes and push (to update the GitHub pages web) or just launch `./docker-serve.sh` from the `docs` directory.  Note that the `jekyll` running on your machine in `docker` should monitor for updates in `docs` and hence you do not need to restart it.
 
-### Running just individual scripts
+### Generating standalone images
 
 If you want just to generate the full proof image of your proof you can use just the script `./dot-proof.py` without the web interface.
 The script takes 2 arguments as follows
@@ -140,6 +140,20 @@ To generate images for individual proof steps, use the script `dot-proof-steps.p
 This will generate the graphs for all proof steps and it will place the Graphviz graphs in `dot-tmp-dir`.  
 Additionally, Markdown files which describes proof steps will be placed in `proofs-output-dir`.
 
+### Tips and tweaks
+
+* If you want to adjust the visualization of symbols, you can edit the file [scripts/00vizar](https://github.com/ai4reason/vizar/blob/main/scripts/00vizar).
+* Main Jekyll templates to display the proofs are in the folder [docs/\_layouts](https://github.com/ai4reason/vizar/tree/main/docs/_layouts).
+* Information about metavariables (for naturals, reals, etc.) to compile out type guards are in the file [docs/\_data/metavars.yml](https://github.com/ai4reason/vizar/blob/main/docs/_data/metavars.yml).
+  This file is generated (completed) by the script [scripts/update-metavars.py](https://github.com/ai4reason/vizar/blob/main/scripts/update-metavars.py).
+  You do not need to fill the fields `url` and `mizar` manually as they are filled by this script.
+* The file [docs/\_data/names.yml](https://github.com/ai4reason/vizar/blob/main/docs/_data/names.yml) controls whether the proof appears under the heading of _Featured_ or _Other_ proofs.
+  It also defines human-readable proof names.
+* The script [scripts/add-proof-offline.py](https://github.com/ai4reason/vizar/blob/main/scripts/add-proof-offline.py) demonstrates how the web content can be generated offline (that is mainly to convert `.md` file to `.html`).  The main work is done by the script [docs/docker-build.py](https://github.com/ai4reason/vizar/blob/main/docs/docker-build.py) which calls `jekyll build` in the docker.
+  The generated files are from `docs/_site/proofs` are then used to replace the original templates (`.md` files) in `docs/proofs`.
+  The original templates are moved to the directory `docs/proofs.md` which is excluded from Jekyll build in the configuration file 
+  [docs/\_config.yml](https://github.com/ai4reason/vizar/tree/main/docs/_config.yml)
+  
 
 
 
